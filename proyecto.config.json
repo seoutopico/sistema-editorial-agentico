@@ -1,0 +1,21 @@
+{
+  "publicacion": {
+    "nombre": "Think&Hack",
+    "substack": "https://ainalluna.substack.com",
+    "idioma": "es"
+  },
+  "linea_editorial": {
+    "nicho": "IA aplicada al trabajo: procesos, agentes, automatización y creación de contenido",
+    "audiencia": "Profesionales que quieren aplicar IA en su trabajo diario",
+    "aportacion": "Probar las cosas y explicar el proceso real, con lo que funciona y lo que no"
+  },
+  "canales_salida": ["substack", "linkedin", "notes"],
+  "youtube": {
+    "videos_por_canal": 30,
+    "ventana_dias": 60,
+    "duracion_minima_segundos": 180,
+    "candidatos_por_ejecucion": 10,
+    "idiomas_subtitulos": ["es", "en"]
+  },
+  "red": { "timeout_segundos": 30, "intentos": 3, "pausa_segundos": 0.5 }
+}

@@ -1,0 +1,8 @@
+.env
+/biblioteca/*
+!/biblioteca/youtube/
+/biblioteca/youtube/*
+!/biblioteca/youtube/canales.md
+/investigacion/youtube/
+__pycache__/
+*.py[cod]
