@@ -61,20 +61,21 @@ python .agents/skills/detectar-oportunidades/scripts/detectar_oportunidades.py <
 
 ### `agrupar`
 
-Agrupa las fichas externas que tratan el mismo asunto:
+Agrupa las fichas externas que cuentan la misma historia. **Una oportunidad por historia coherente, no por etiqueta de tema:** una etiqueta ancha como "Herramientas de IA" no debe mezclar vídeos sin relación.
 
-1. Normaliza el tema: minúsculas, sin tildes y sin espacios sobrantes.
-2. Pertenecen al mismo grupo las fichas con igual tema normalizado, o con temas distintos pero entidades muy coincidentes (índice de Jaccard ≥ 0,5 sobre las entidades normalizadas).
-3. El `grupo_id` es estable entre ejecuciones: es un slug del tema más frecuente del grupo.
+1. Normaliza el tema y las entidades: minúsculas, sin tildes y sin espacios sobrantes.
+2. **Grano fino:** dos fichas van al mismo grupo solo si comparten entidades **discriminantes**. Una entidad presente en muchas fichas de la ejecución (ChatGPT, OpenAI, Claude…) es un comodín del nicho y no señala historia común: se excluyen las que aparecen en más de `max(3, 25% de las fichas)`. Con las discriminantes, dos fichas se unen (unión-búsqueda) si su Jaccard es ≥ 0,5 **o comparten 2 o más** (las listas largas hunden el Jaccard aunque la historia sea la misma). Compartir el tema no basta: sin esa afinidad, cada ficha es su propio grupo.
+3. El `grupo_id` es estable y determinista: slug del tema más frecuente del grupo + la entidad/eje dominante (p. ej. `herramientas-de-ia-qwen-3-8`). La entidad dominante es la más repetida en las fichas del grupo; en empate, la que aparece antes en las listas de entidades y después la menor alfabéticamente. Se excluyen las entidades que son el propio autor, no se repite si ya está contenida en el slug del tema, y si dos grupos coinciden se desambiguan con un ordinal.
 
 Señales de cada grupo:
 - Número de fichas.
 - **Número de autores distintos** (`canales`).
+- **Número de autores distintos del TEMA** (`canales_tema`): se cuenta sobre todas las fichas que comparten el tema normalizado, aunque hayan quedado en grupos distintos.
 - **Mejor interés** del grupo, con el orden `alto > medio > bajo > sin_datos`.
 - Mayor múltiplo de la mediana.
 - Fecha más reciente.
 
-**Interés real** si el mejor interés es `medio` o `alto`, o si `canales` ≥ 2. Escribe `control/grupos.json`.
+**Interés real** si el mejor interés es `medio` o `alto`, o si `canales_tema` ≥ 2: la condición de "tema en 2 o más canales" se mide a nivel de tema, no de grupo, para que el grano fino no la debilite. Escribe `control/grupos.json`.
 
 ### `pendientes`
 
@@ -142,6 +143,7 @@ Para añadir evidencias a una oportunidad existente, `guardar-oportunidad --actu
 Regenera `biblioteca/oportunidades/INDICE.md`.
 - Las propuestas aparecen primero, ordenadas por interés, después por `canales` y después por cobertura (`nuevo` antes que `ampliación`).
 - Debajo, las aceptadas, publicadas y descartadas, con su motivo.
+- Al final, una sección `## Calendario sugerido`: asigna las oportunidades `aceptada` primero y después las `propuesta`, en su orden de prioridad, a semanas consecutivas a partir de la próxima (una por semana, con la fecha del lunes). Es una sugerencia, no un compromiso: el texto dice que la persona decide qué se publica y cuándo. La opción global `--hoy` fija la fecha de referencia para que la salida sea determinista.
 - La salida es determinista.
 
 ### Códigos de salida y errores
@@ -189,8 +191,8 @@ Las escrituras son atómicas.
 Escríbelas con `unittest`, sobre una biblioteca ficticia en una carpeta temporal. Prepara fichas externas de dos fuentes distintas: `youtube` y una inventada, `blog`, para comprobar que no depende de YouTube. Incluye también fichas propias, artículos y oportunidades en distintos estados.
 
 Deben comprobar que:
-1. `agrupar` junta fichas con el mismo tema y con entidades coincidentes, separa las distintas, cuenta autores distintos y mantiene el `grupo_id` entre ejecuciones.
-2. La regla de interés real funciona tanto por nivel de interés como por número de canales.
+1. `agrupar` junta fichas con entidades discriminantes coincidentes (Jaccard ≥ 0,5 o 2+ comunes, excluidas las ubicuas), separa fichas del mismo tema sin entidades comunes, cuenta autores distintos y mantiene el `grupo_id` (tema + entidad dominante) entre ejecuciones, desambiguando colisiones.
+2. La regla de interés real funciona tanto por nivel de interés como por número de canales, y la de 2+ canales se calcula a nivel de tema: dos fichas del mismo tema en grupos separados tienen ambas interés real si son de autores distintos.
 3. BM25 sitúa primero el artículo propio que trata el mismo tema y devuelve la ruta de su texto.
 4. `pendientes` no repite un grupo evaluado sin cambios, y lo vuelve a pedir si cambia una ficha, un artículo comparado o una decisión parecida.
 5. `guardar-evaluacion` aplica cada condición: un grupo `cubierto`, uno sin aportación, uno sin encaje y uno sin interés real no son oportunidad, y la evaluación indica qué condición falló.
@@ -198,6 +200,7 @@ Deben comprobar que:
 7. `guardar-oportunidad` rechaza grupos que no cumplen las condiciones o cuerpos con secciones vacías, escribe el encabezado con los datos calculados y nunca sobrescribe una oportunidad aceptada o descartada.
 8. `--actualizar` añade evidencias sin tocar el cuerpo ni el estado.
 9. `indice` ordena por prioridad y es determinista.
+10. El calendario sugerido pone las aceptadas antes que las propuestas, en su orden de prioridad, en lunes consecutivos a partir de la próxima semana, es determinista con `--hoy` y avisa cuando no hay nada que programar.
 
 Ejecuta las pruebas y muestra el resultado.
 

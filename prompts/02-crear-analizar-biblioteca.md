@@ -42,10 +42,10 @@ Usa el esquema de la sección 6 de `ARQUITECTURA.md` para los artículos propios
 
 **Campos que rellena el modelo**, con estos criterios, que se recogen en `references/instrucciones-ficha.md`:
 - `tema`: el asunto principal, en pocas palabras. **Reutiliza un tema de la lista de existentes si encaja.** Solo crea uno nuevo si ninguno sirve, y lo indica.
-- `subtemas`: de 1 a 5.
+- `subtemas`: de 1 a 5. **Reutiliza los subtemas existentes que devuelve `pendientes` si encajan**; un matiz nuevo por artículo fragmenta el vocabulario y arruina el cruce léxico con miles de artículos.
 - `enfoque`: uno de `tutorial con prueba propia`, `opinión`, `caso`, `recopilación`, `explicación` o `entrevista`.
 - `tesis`: una frase con la idea central, tal como la defiende el artículo.
-- `entidades`: herramientas, empresas, personas o conceptos concretos que aparecen de forma relevante, con su nombre canónico.
+- `entidades`: herramientas, empresas, personas o conceptos concretos que aparecen de forma relevante, con su nombre canónico. **Usa la misma grafía que las entidades existentes que devuelve `pendientes`.**
 - `nivel`: `inicial`, `intermedio` o `avanzado`.
 
 **`ficha-articulo.schema.json`** define tipos, campos obligatorios y valores permitidos. El script valida contra él usando la biblioteca estándar: comprueba que estén los campos obligatorios, sus tipos y los valores permitidos. No añadas dependencias solo para validar.
@@ -60,17 +60,21 @@ python .agents/skills/analizar-biblioteca/scripts/analizar_biblioteca.py <comand
 - Los que no tienen ficha.
 - Los que tienen una ficha cuya huella no coincide con la del inventario.
 
-Por cada artículo indica su ruta y el motivo. Incluye la **lista de temas existentes**, con su número de artículos, para que el modelo los reutilice. Si no hay pendientes, lo dice expresamente.
+Por cada artículo indica su ruta y el motivo. Incluye las **listas de temas, subtemas y entidades existentes**, cada término con su número de artículos y ordenadas por frecuencia descendente, para que el modelo reutilice el vocabulario en vez de inventarlo. Si no hay pendientes, lo dice expresamente.
 
 **`guardar <id> <archivo.json>`.**
 1. Combina los campos de juicio del modelo con los datos objetivos del inventario.
 2. Valida la ficha resultante.
-3. La escribe de forma atómica en `biblioteca/substack/fichas/<id>.json`.
+3. **Control de vocabulario:** compara cada subtema y entidad de la ficha contra los ya usados en las demás fichas con similitud difusa (`difflib.SequenceMatcher` de la biblioteca estándar, umbral razonable, p. ej. ratio ≥ 0.85 tras normalizar minúsculas y tildes). Si detecta un casi-duplicado, **avisa** en la salida con el término existente sugerido ("subtema 'X' se parece a 'Y' ya usado") pero guarda igualmente: código de salida 0 con avisos. La decisión final es de quien guarda, que puede corregir el JSON y reguardar. Una coincidencia exacta tras normalizar no avisa: es reutilización correcta.
+4. La escribe de forma atómica en `biblioteca/substack/fichas/<id>.json`.
 
 Si la validación falla, no escribe nada y explica qué campo falla.
 
-**`mapa`.** Regenera `biblioteca/mapa-temas.md` a partir de todas las fichas:
-- **Por cada tema:** número de artículos, primera y última fecha, enfoques usados, entidades más frecuentes y la lista de artículos con su enlace.
+**`vocabulario`.** Imprime en JSON el vocabulario completo del corpus: temas, subtemas y entidades (término, frecuencia y artículos donde aparece, ordenados por frecuencia descendente) y una sección `sospechosos` con los pares casi-duplicados detectados en todo el corpus con la misma similitud difusa (tipo, ambos términos, similitud y frecuencias). Sirve para limpiezas periódicas del vocabulario.
+
+**`mapa`.** Regenera `biblioteca/mapa-temas.md` a partir de todas las fichas. El mapa debe trasladar la riqueza de las fichas, no solo contarlas: quien lo lea tiene que saber **de qué se ha hablado exactamente** sin abrir ningún JSON.
+- **Por cada tema:** número de artículos, primera y última fecha, enfoques usados, **subtemas tratados con su frecuencia** y entidades más frecuentes.
+- **Por cada artículo del tema:** fecha, título con enlace, enfoque, nivel y **su tesis** (la frase de la ficha).
 - **Temas sin tocar en los últimos 6 meses.**
 - **Entidades más frecuentes** en toda la biblioteca.
 - **Artículos sin ficha,** si los hay, para que el mapa no parezca completo cuando no lo es.
@@ -105,13 +109,15 @@ Lo devuelve en JSON para que el modelo lo use al escribir la guía de estilo.
 Escríbelas con `unittest`, sobre una biblioteca ficticia en una carpeta temporal. La biblioteca de prueba tiene un inventario y 4 artículos: uno sin ficha, uno con ficha al día, uno con huella cambiada y uno que es un extracto.
 
 Deben comprobar que:
-1. `pendientes` detecta exactamente el artículo sin ficha y el de huella cambiada, con su motivo, y devuelve los temas existentes.
+1. `pendientes` detecta exactamente el artículo sin ficha y el de huella cambiada, con su motivo, y devuelve los temas, subtemas y entidades existentes con sus frecuencias.
 2. `guardar` rechaza fichas con campos obligatorios ausentes, tipos incorrectos o un `enfoque` no permitido, y en ese caso no escribe nada.
 3. `guardar` impone los datos objetivos del inventario aunque el JSON del modelo traiga otros valores.
 4. `basada_en` refleja si el artículo es un extracto.
 5. `mapa` agrupa por tema, calcula fechas y frecuencias, señala artículos sin ficha y produce un archivo idéntico en dos ejecuciones con los mismos datos.
 6. `guardar-estilo` conserva la sección `## Reglas aprendidas` existente.
 7. `metricas-estilo` ignora los extractos.
+8. `guardar` avisa ante un subtema o entidad casi-duplicado (y guarda igualmente), no avisa ante una coincidencia exacta tras normalizar ni ante un término distinto, y no compara una ficha contra su propia versión anterior al reguardar.
+9. `vocabulario` detecta un par casi-duplicado sembrado en la biblioteca ficticia y devuelve `sospechosos` vacío cuando no los hay.
 
 Ejecuta las pruebas y muestra el resultado.
 

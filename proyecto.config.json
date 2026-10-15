@@ -10,6 +10,12 @@
     "aportacion": "Probar las cosas y explicar el proceso real, con lo que funciona y lo que no"
   },
   "canales_salida": ["substack", "linkedin", "notes"],
+  "recursos": {
+    "herramientas": ["ChatGPT Plus (Codex, Projects, Work)", "Claude (Claude Code, Cowork)", "n8n", "Obsidian", "Substack", "WordPress"],
+    "hardware": "PC Windows de consumo, sin GPU para modelos locales grandes",
+    "formatos_que_domina": ["texto y capturas", "procesos y sistemas con agentes", "datos y hojas de cálculo"],
+    "fuera_de_alcance": ["edición y producción de vídeo", "pruebas que exijan hardware caro o infraestructura propia"]
+  },
   "youtube": {
     "videos_por_canal": 30,
     "ventana_dias": 60,

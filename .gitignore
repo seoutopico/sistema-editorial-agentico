@@ -6,3 +6,5 @@
 /investigacion/youtube/
 __pycache__/
 *.py[cod]
+carpeta-agente/
+carpeta-agente.zip

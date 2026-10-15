@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fuentes de una investigación (biblioteca/contenidos/<id>/fuentes.json)",
+  "description": "Lista de fuentes que el modelo entrega a guardar-fuentes. El script valida este esquema y además comprueba que los IDs no se repitan (ni entre sí ni con los ya guardados) y que las afirmaciones de respalda/contradice existan en afirmaciones.json. El campo comprobacion lo añade comprobar-enlaces; el modelo no lo escribe.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "url", "titulo", "autor_o_entidad", "tipo", "fecha", "consultada", "respalda", "contradice", "nota"],
+    "properties": {
+      "id": { "type": "string", "pattern": "f[0-9]+" },
+      "url": { "type": "string", "minLength": 1 },
+      "titulo": { "type": "string", "minLength": 1 },
+      "autor_o_entidad": { "type": "string", "minLength": 1 },
+      "tipo": { "type": "string", "enum": ["oficial", "repositorio", "paper", "datos", "prensa", "blog", "vídeo"] },
+      "fecha": { "type": ["string", "null"], "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}" },
+      "consultada": { "type": "string", "pattern": "[0-9]{4}-[0-9]{2}-[0-9]{2}" },
+      "respalda": { "type": "array", "items": { "type": "string", "pattern": "a[0-9]+" } },
+      "contradice": { "type": "array", "items": { "type": "string", "pattern": "a[0-9]+" } },
+      "nota": { "type": "string", "minLength": 1 }
+    }
+  }
+}

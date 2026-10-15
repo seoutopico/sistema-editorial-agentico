@@ -1,339 +1,283 @@
-"""Pruebas con transporte simulado; ninguna conexión real."""
-import copy
-import io
+#!/usr/bin/env python3
+"""Pruebas de recuperar_newsletters.py con datos simulados.
+
+La funcion de red se inyecta: nunca se accede a internet. Cada prueba trabaja
+en una carpeta temporal con su propio proyecto.config.json.
+"""
+
+from __future__ import annotations
+
 import json
-from pathlib import Path
+import os
 import tempfile
 import unittest
-from unittest.mock import patch
-from urllib.error import HTTPError, URLError
-from urllib.parse import parse_qs, urlsplit
-import recuperar_newsletters as app
+from pathlib import Path
+
+import recuperar_newsletters as rn
 
 BASE = "https://ejemplo.substack.com"
-CONFIG = {"publicacion": {"substack": BASE},
-          "red": {"timeout_segundos": 2, "intentos": 3, "pausa_segundos": 0}}
 
 
-def post(key=1, **changes):
-    result = {"id": key, "slug": f"articulo-{key}", "title": f"Artículo {key}",
-              "subtitle": "Subtítulo", "type": "newsletter", "audience": "everyone",
-              "post_date": "2026-01-01T10:00:00Z", "canonical_url": f"{BASE}/p/articulo-{key}",
-              "body_html": "<h2>Contenido</h2><p>Texto completo.</p>",
-              "reaction_count": 2, "comment_count": 3, "restack_count": 4}
-    result.update(changes)
-    return result
+def post_simulado(id_post, slug, fecha="2026-01-10", titulo=None, cuerpo=None,
+                  reacciones=5, comentarios=2, restacks=1, audiencia="everyone",
+                  paywall=False):
+    return {
+        "id": id_post,
+        "slug": slug,
+        "title": titulo or f"Titulo {id_post}",
+        "subtitle": f"Subtitulo {id_post}",
+        "post_date": f"{fecha}T08:00:00.000Z",
+        "canonical_url": f"{BASE}/p/{slug}",
+        "audience": audiencia,
+        "type": "newsletter",
+        "reaction_count": reacciones,
+        "comment_count": comentarios,
+        "restacks": restacks,
+        "should_show_paywall": paywall,
+        "body_html": cuerpo if cuerpo is not None else f"<p>Cuerpo del articulo {id_post}.</p>",
+    }
 
 
-class Response(io.BytesIO):
-    status = 200
-    headers = {"Content-Type": "application/json"}
+class FetchFalso:
+    """Fetch simulado: sirve el archivo paginado y los posts por slug."""
 
-    def __init__(self, value, url):
-        self.url = url
-        super().__init__(value if isinstance(value, bytes) else app.encoded(value))
+    def __init__(self, posts, fallo_en_offset=None):
+        self.posts = posts  # lista de dicts de post_simulado
+        self.fallo_en_offset = fallo_en_offset
+        self.urls = []
 
-    def geturl(self):
-        return self.url
+    def __call__(self, url):
+        self.urls.append(url)
+        if "/api/v1/archive" in url:
+            offset = int(url.split("offset=")[1].split("&")[0])
+            if self.fallo_en_offset is not None and offset == self.fallo_en_offset:
+                raise rn.ErrorRed(f"HTTP 500 en {url}", status=500)
+            pagina = self.posts[offset:offset + rn.TAMANO_PAGINA]
+            return [
+                {k: p[k] for k in ("id", "slug", "title", "subtitle", "post_date",
+                                   "canonical_url", "audience", "type")}
+                for p in pagina
+            ]
+        if "/api/v1/posts/" in url:
+            slug = url.rsplit("/", 1)[1]
+            for p in self.posts:
+                if p["slug"] == slug:
+                    return p
+            raise rn.ErrorRed(f"HTTP 404 en {url}", status=404)
+        raise AssertionError(f"URL inesperada: {url}")
 
 
-class ArchiveTests(unittest.TestCase):
+class BaseTest(unittest.TestCase):
     def setUp(self):
-        temp = tempfile.TemporaryDirectory()
-        self.addCleanup(temp.cleanup)
-        self.project = Path(temp.name).resolve()
-        self.root = self.project / "biblioteca/substack"
-        self.config = copy.deepcopy(CONFIG)
-        guard = patch("socket.socket.connect", side_effect=AssertionError("Red real prohibida"))
-        guard.start()
-        self.addCleanup(guard.stop)
+        self._tmp = tempfile.TemporaryDirectory()
+        self.raiz = Path(self._tmp.name)
+        self.addCleanup(self._tmp.cleanup)
+        config = {
+            "publicacion": {"nombre": "Prueba", "substack": BASE, "idioma": "es"},
+            "red": {"timeout_segundos": 5, "intentos": 2, "pausa_segundos": 0},
+        }
+        self.ruta_config = self.raiz / "proyecto.config.json"
+        self.ruta_config.write_text(json.dumps(config), encoding="utf-8")
+        self.biblioteca = self.raiz / "biblioteca" / "substack"
 
-    def run_archive(self, items=None, pages=None, details=None, **options):
-        items = [post()] if items is None else items
-        pages = {0: items, len(items): []} if pages is None else pages
-        details = {p["slug"]: p for p in items} if details is None else details
-        calls = []
-        def opener(request, timeout):
-            calls.append((request.full_url, timeout))
-            parsed = urlsplit(request.full_url)
-            if parsed.path.endswith("/archive"):
-                query = parse_qs(parsed.query)
-                self.assertEqual(["12"], query["limit"])
-                self.assertEqual(["new"], query["sort"])
-                value = pages[int(query["offset"][0])]
-            else:
-                value = details[parsed.path.rsplit("/", 1)[-1]]
-            if isinstance(value, Exception):
-                raise value
-            return Response(value, request.full_url)
-        archive = app.Archive(self.project, self.config, opener=opener, sleep=lambda _: None, **options)
-        report = archive.run()
-        self.assertEqual(report, json.loads(archive.report_path.read_text(encoding="utf-8")))
-        return archive, report, calls
+    def ejecutar(self, fetch, limite=None):
+        recuperador = rn.Recuperador(self.ruta_config, fetch=fetch, dormir=lambda s: None)
+        return recuperador.ejecutar(limite=limite)
 
-    def row(self, key="1"):
-        return json.loads((self.root / "control/inventario.json").read_text(encoding="utf-8"))["articulos"][key]
+    def inventario(self):
+        return json.loads((self.biblioteca / "control" / "inventario.json").read_text(encoding="utf-8"))
 
-    def article(self):
-        return self.root / self.row()["archivo"]
-
-    def snapshot(self):
-        article = self.article()
-        return article.read_bytes(), article.stat().st_mtime_ns
-
-    def test_first_run_outputs_schema_and_index_order(self):
-        archive, report, _ = self.run_archive([post(), post(2, post_date="2026-02-01T10:00:00Z")])
-        self.assertEqual(0, report["codigo_salida"])
-        self.assertEqual(2, report["contadores"]["nuevos"])
-        self.assertRegex(report["run_id"], r"^\d{8}T\d{6}Z$")
-        self.assertEqual(report["run_id"] + ".json", archive.report_path.name)
-        row = self.row()
-        self.assertTrue({"id", "slug", "titulo", "fecha", "url", "archivo", "estado", "huella",
-                         "metricas_publicas", "primera_descarga", "ultima_comprobacion", "ultima_modificacion"} <= row.keys())
-        self.assertEqual("articulos/2026-01-01-articulo-1.md", row["archivo"])
-        self.assertEqual(post(), json.loads((self.root / "control/originales/1.json").read_text(encoding="utf-8")))
-        front, body = self.article().read_text(encoding="utf-8")[4:].split("\n---\n\n", 1)
-        fields = dict((k, json.loads(v)) for k, v in (line.split(": ", 1) for line in front.splitlines()))
-        self.assertEqual({"id", "titulo", "subtitulo", "fecha", "url", "tipo", "audiencia", "estado", "huella"}, fields.keys())
-        self.assertEqual(app.digest(body.encode("utf-8")), fields["huella"])
-        index = (self.root / "INDICE.md").read_text(encoding="utf-8")
-        self.assertLess(index.index("2026-02-01"), index.index("2026-01-01"))
-        self.assertIn(row["archivo"], index)
-
-    def test_idempotency_and_unique_reports(self):
-        first, _, _ = self.run_archive()
-        before = self.snapshot()
-        _, report, _ = self.run_archive()
-        self.assertEqual(before, self.snapshot())
-        self.assertEqual(1, report["contadores"]["sin_cambios"])
-        self.assertEqual(1, len(list((self.root / "articulos").glob("*.md"))))
-        self.assertEqual([], list((self.root / "control/historial").rglob("*.md")))
-        self.assertEqual(2, len(list((self.root / "control/ejecuciones").glob("*.json"))))
-        self.assertTrue(first.report_path.exists())
-
-    def test_change_archives_previous_version(self):
-        self.run_archive()
-        before, first = self.snapshot()[0], self.row()
-        _, report, _ = self.run_archive([post(body_html="<p>Nuevo</p>")])
-        saved = list((self.root / "control/historial/1").glob("*.md"))
-        self.assertEqual(1, len(saved))
-        self.assertEqual(before, saved[0].read_bytes())
-        self.assertEqual(1, report["contadores"]["actualizados"])
-        self.assertNotEqual(first["huella"], self.row()["huella"])
-        self.assertEqual(first["primera_descarga"], self.row()["primera_descarga"])
-
-    def test_preview_error_and_wrong_id_preserve_complete(self):
-        self.run_archive()
-        before, old = self.snapshot(), self.row()
-        for variant in (post(audience="only_paid", body_html="<p>Extracto</p>"),
-                        post(is_truncated=True), post(body_html=None, description="Extracto"),
-                        post(body_html=""), post(id=999), URLError("sin red")):
-            with self.subTest(variant=str(variant)):
-                _, report, _ = self.run_archive(details={"articulo-1": variant})
-                self.assertEqual(1, report["codigo_salida"])
-                self.assertEqual(before, self.snapshot())
-                for field in ("estado", "huella", "archivo", "ultima_modificacion"):
-                    self.assertEqual(old[field], self.row()[field])
-                self.assertIn(self.row()["ultimo_intento"]["estado"], ("extracto", "error"))
-
-    def test_short_pages_until_empty(self):
-        items = [post(1), post(2), post(3)]
-        _, report, calls = self.run_archive(items, pages={0: items[:1], 1: items[1:], 3: []})
-        self.assertTrue(report["paginacion_completa"])
-        self.assertEqual([1, 2, 0], [p["cantidad"] for p in report["paginas"]])
-        self.assertEqual(3, report["paginas_leidas"])
-        self.assertEqual(6, len(calls))
-
-    def test_later_page_failure_partial_exit_one(self):
-        _, report, calls = self.run_archive(pages={0: [post()], 1: URLError("fallo página")})
-        self.assertFalse(report["paginacion_completa"])
-        self.assertEqual(1, report["codigo_salida"])
-        self.assertEqual(1, report["contadores"]["nuevos"])
-        self.assertIn("fallo", report["motivo_paginacion"])
-        self.assertEqual(3, sum("offset=1&" in url for url, _ in calls))
-
-    def test_first_page_failure_or_invalid_response_exit_two(self):
-        for value in (URLError("inaccesible"), {"error": "blocked"}, b"<html>no JSON</html>"):
-            _, report, _ = self.run_archive(pages={0: value})
-            self.assertEqual(2, report["codigo_salida"])
-            self.assertTrue(report["fatal"])
-            self.assertFalse(report["paginacion_completa"])
-        self.assertFalse((self.root / "control/inventario.json").exists())
-
-    def test_slug_and_title_change_no_duplicate_no_rewrite(self):
-        self.run_archive()
-        before, relative = self.snapshot(), self.row()["archivo"]
-        _, report, _ = self.run_archive([post(slug="nuevo-slug", title="Título nuevo")])
-        self.assertEqual(before, self.snapshot())
-        self.assertEqual(relative, self.row()["archivo"])
-        self.assertEqual("nuevo-slug", self.row()["slug"])
-        self.assertEqual(1, report["contadores"]["sin_cambios"])
-        self.assertEqual(1, len(list((self.root / "articulos").glob("*.md"))))
-
-    def test_metrics_without_content_change(self):
-        self.run_archive()
-        before, first = self.snapshot(), self.row()
-        _, report, _ = self.run_archive([post(reaction_count=80, comment_count=90, restack_count=100)])
-        self.assertEqual(before, self.snapshot())
-        self.assertEqual(1, report["contadores"]["sin_cambios"])
-        metrics = self.row()["metricas_publicas"]
-        self.assertEqual((80, 90, 100), (metrics["reacciones"], metrics["comentarios"], metrics["restacks"]))
-        self.assertGreaterEqual(metrics["fecha_captura"], first["metricas_publicas"]["fecha_captura"])
-        self.assertEqual(first["ultima_modificacion"], self.row()["ultima_modificacion"])
-        self.assertEqual(80, json.loads((self.root / "control/originales/1.json").read_text(encoding="utf-8"))["reaction_count"])
-
-    def test_limit_only_recent_posts(self):
-        items = [post(i) for i in range(12, 0, -1)]
-        _, report, calls = self.run_archive(items, pages={0: items}, limite=5)
-        self.assertEqual(5, report["contadores"]["nuevos"])
-        self.assertEqual(6, len(calls))
-        self.assertEqual(1, report["codigo_salida"])
-        self.assertIn("Límite solicitado", report["motivo_paginacion"])
-        self.assertTrue((self.root / "articulos/2026-01-01-articulo-12.md").exists())
-        self.assertFalse((self.root / "articulos/2026-01-01-articulo-7.md").exists())
-
-    def test_safety_limit_repetition_and_overlap(self):
-        for options, pages in (({"max_pages": 1}, {0: [post()]}),
-                               ({}, {0: [post()], 1: [post()]}),
-                               ({}, {0: [post(), post(2)], 2: [post(2), post(3)], 4: []})):
-            _, report, _ = self.run_archive([post(), post(2), post(3)], pages=pages, **options)
-            self.assertFalse(report["paginacion_completa"])
-            self.assertEqual(1, report["codigo_salida"])
-            self.assertTrue(report["motivo_paginacion"])
-
-    def test_new_error_then_recovery(self):
-        _, report, _ = self.run_archive(details={"articulo-1": URLError("fallo")})
-        self.assertEqual(1, report["contadores"]["errores"])
-        self.assertEqual("error", self.row()["estado"])
-        self.assertIsNone(self.row()["archivo"])
-        _, report, _ = self.run_archive()
-        self.assertEqual(1, report["contadores"]["nuevos"])
-        self.assertEqual("completo", self.row()["estado"])
-
-    def test_preview_then_upgrade_same_body(self):
-        _, report, _ = self.run_archive([post(audience="only_paid")])
-        self.assertEqual("extracto", self.row()["estado"])
-        self.assertEqual(1, report["contadores"]["extractos"])
-        before = self.snapshot()[0]
-        self.run_archive()
-        self.assertEqual("completo", self.row()["estado"])
-        self.assertEqual(before, next((self.root / "control/historial/1").glob("*.md")).read_bytes())
-
-    def test_empty_archive(self):
-        _, report, _ = self.run_archive([], pages={0: []})
-        self.assertEqual(0, report["codigo_salida"])
-        self.assertTrue(report["paginacion_completa"])
-
-    def test_404_article_error_no_retry(self):
-        error = HTTPError(BASE, 404, "Not found", {}, None)
-        _, report, calls = self.run_archive(details={"articulo-1": error})
-        self.assertEqual(1, report["codigo_salida"])
-        self.assertEqual(1, report["contadores"]["errores"])
-        self.assertEqual(1, sum("/posts/" in url for url, _ in calls))
-
-    def test_corrupt_or_missing_inventory_preserves_articles(self):
-        self.run_archive()
-        inventory, article = self.root / "control/inventario.json", self.article()
-        before = article.read_bytes()
-        for action in ("corrupt", "missing"):
-            if action == "corrupt":
-                inventory.write_text("{malformado", encoding="utf-8")
-            else:
-                inventory.unlink()
-            _, report, calls = self.run_archive(pages={})
-            self.assertEqual(2, report["codigo_salida"])
-            self.assertEqual([], calls)
-            self.assertEqual(before, article.read_bytes())
-
-    def test_other_publication_and_local_edits_preserved(self):
-        self.run_archive()
-        article = self.article()
-        before = article.read_bytes()
-        self.config["publicacion"]["substack"] = "https://otra.substack.com"
-        _, report, calls = self.run_archive(pages={})
-        self.assertEqual(2, report["codigo_salida"])
-        self.assertEqual([], calls)
-        self.assertEqual(before, article.read_bytes())
-        self.config = copy.deepcopy(CONFIG)
-        article.write_text("Edición manual", encoding="utf-8")
-        _, report, calls = self.run_archive(pages={})
-        self.assertEqual(2, report["codigo_salida"])
-        self.assertEqual([], calls)
-        self.assertEqual("Edición manual", article.read_text(encoding="utf-8"))
+    def informes(self):
+        carpeta = self.biblioteca / "control" / "ejecuciones"
+        return [json.loads(p.read_text(encoding="utf-8")) for p in sorted(carpeta.glob("*.json"))]
 
 
-class UtilityTests(unittest.TestCase):
-    def test_markdown_structure(self):
-        html = ('<h2>Título</h2><p>A &amp; B <a href="/p/otro">enlace</a></p>'
-                '<ul><li>Uno</li><li>Dos</li></ul><ol><li>Primero</li></ol>'
-                '<blockquote><p>Cita</p><p>Otra línea</p></blockquote>'
-                '<p>Usa <code>print()</code></p><pre><code>  a\n  b</code></pre>'
-                '<img src="/foto.jpg" alt="Foto"><script>oculto()</script>')
-        text = app.readable(html, BASE)
-        for expected in ("## Título", "A & B", f"[enlace](<{BASE}/p/otro>)",
-                         "- Uno", "- Dos", "1. Primero", "> Cita", "> Otra línea",
-                         "  a\n  b", f"[Foto](<{BASE}/foto.jpg>)"):
-            self.assertIn(expected, text)
-        self.assertNotIn("oculto", text)
-        self.assertIn(chr(96) + "print()" + chr(96), text)
+class TestPrimeraEjecucion(BaseTest):
+    def test_guarda_articulos_inventario_indice_e_informe(self):
+        posts = [post_simulado(1, "uno"), post_simulado(2, "dos", fecha="2026-01-12")]
+        codigo = self.ejecutar(FetchFalso(posts))
+        self.assertEqual(codigo, 0)
 
-    def test_conservative_classification(self):
-        for changes in ({"audience": None}, {"audience": "only_paid"}, {"is_preview": True},
-                        {"is_truncated": True}, {"free_unlock_required": True},
-                        {"body_html": '<div class="paywall">Texto</div>'}):
-            self.assertEqual("extracto", app.classify(post(**changes), BASE)[0])
-        self.assertEqual("completo", app.classify(post(), BASE)[0])
-        self.assertEqual("error", app.classify(post(body_html=""), BASE)[0])
+        articulos = sorted(p.name for p in (self.biblioteca / "articulos").glob("*.md"))
+        self.assertEqual(articulos, ["2026-01-10-uno.md", "2026-01-12-dos.md"])
 
-    def test_retry_backoff_timeout_and_pause(self):
-        for status in (429, 503):
-            calls, sleeps, records = [], [], []
-            def opener(request, timeout):
-                calls.append(timeout)
-                if len(calls) < 3:
-                    raise HTTPError(request.full_url, status, "retry", {}, None)
-                return Response([], request.full_url)
-            client = app.Client({"timeout_segundos": 7, "intentos": 3, "pausa_segundos": 0.25},
-                                lambda *args: records.append(args), opener, sleeps.append)
-            value, _ = client(BASE)
-            self.assertEqual([], value)
-            self.assertEqual([7, 7, 7], calls)
-            self.assertEqual([0.25, 1, 0.25, 2, 0.25], sleeps)
-            self.assertEqual(3, len(records))
+        contenido = (self.biblioteca / "articulos" / "2026-01-10-uno.md").read_text(encoding="utf-8")
+        self.assertIn("id: 1", contenido)
+        self.assertIn("estado: completo", contenido)
+        self.assertIn("Cuerpo del articulo 1.", contenido)
 
-    def test_atomic_failure_preserves_existing_file(self):
-        with tempfile.TemporaryDirectory() as directory:
-            target = Path(directory) / "articulo.md"
-            target.write_bytes(b"anterior")
-            with patch.object(app.os, "replace", side_effect=OSError("interrupción")):
-                with self.assertRaises(OSError):
-                    app.atomic_write(target, b"nuevo")
-            self.assertEqual(b"anterior", target.read_bytes())
-            self.assertEqual([target], list(Path(directory).iterdir()))
+        inv = self.inventario()
+        self.assertEqual(set(inv.keys()), {"1", "2"})
+        self.assertEqual(inv["1"]["estado"], "completo")
+        self.assertIn("huella", inv["1"])
+        self.assertEqual(inv["1"]["metricas"]["reacciones"], 5)
 
-    def test_missing_metrics_unknown(self):
-        self.assertIsNone(app.Archive.metrics({})["reacciones"])
-        self.assertEqual(5, app.Archive.metrics({"reactions": {"heart": 3, "like": 2}})["reacciones"])
+        indice = (self.biblioteca / "INDICE.md").read_text(encoding="utf-8")
+        self.assertIn("Titulo 1", indice)
+        # orden: el mas reciente primero
+        self.assertLess(indice.index("2026-01-12"), indice.index("2026-01-10"))
 
-    def test_config_validation_and_custom_path_without_network(self):
-        with tempfile.TemporaryDirectory() as directory:
-            project = Path(directory)
-            (project / "alternativa.json").write_bytes(app.encoded(CONFIG))
-            with patch("socket.socket.connect", side_effect=AssertionError("No usar red")):
-                self.assertEqual(0, app.main(["--project-root", str(project), "--config",
-                                             "alternativa.json", "--validar-config"]))
-                config = copy.deepcopy(CONFIG)
-                config["red"]["intentos"] = 0
-                (project / "proyecto.config.json").write_bytes(app.encoded(config))
-                self.assertEqual(2, app.main(["--project-root", str(project), "--validar-config"]))
-            self.assertFalse((project / "biblioteca").exists())
+        self.assertTrue((self.biblioteca / "control" / "originales" / "1.json").is_file())
+        informes = self.informes()
+        self.assertEqual(len(informes), 1)
+        self.assertEqual(informes[0]["contadores"]["nuevos"], 2)
+        self.assertTrue(informes[0]["paginacion_completa"])
 
-    def test_paths_cannot_escape_project(self):
-        root = Path(tempfile.gettempdir()).resolve() / "proyecto"
-        for relative in ("../fuera", str(root.parent), "."):
-            with self.assertRaises(ValueError):
-                app.inside(root, relative)
+
+class TestIdempotencia(BaseTest):
+    def test_repetir_no_duplica_ni_reescribe(self):
+        posts = [post_simulado(1, "uno")]
+        self.assertEqual(self.ejecutar(FetchFalso(posts)), 0)
+        ruta = self.biblioteca / "articulos" / "2026-01-10-uno.md"
+        mtime_antes = ruta.stat().st_mtime_ns
+
+        self.assertEqual(self.ejecutar(FetchFalso(posts)), 0)
+        archivos = list((self.biblioteca / "articulos").glob("*.md"))
+        self.assertEqual(len(archivos), 1)
+        self.assertEqual(ruta.stat().st_mtime_ns, mtime_antes, "el archivo no debe reescribirse")
+        informes = self.informes()
+        self.assertEqual(informes[-1]["contadores"]["sin_cambios"], 1)
+        self.assertEqual(informes[-1]["contadores"]["nuevos"], 0)
+
+
+class TestHistorial(BaseTest):
+    def test_articulo_modificado_conserva_version_anterior(self):
+        posts = [post_simulado(1, "uno", cuerpo="<p>Version original.</p>")]
+        self.ejecutar(FetchFalso(posts))
+
+        posts2 = [post_simulado(1, "uno", cuerpo="<p>Version corregida.</p>")]
+        self.assertEqual(self.ejecutar(FetchFalso(posts2)), 0)
+
+        historial = list((self.biblioteca / "control" / "historial" / "1").glob("*.md"))
+        self.assertEqual(len(historial), 1)
+        self.assertIn("Version original.", historial[0].read_text(encoding="utf-8"))
+        actual = (self.biblioteca / "articulos" / "2026-01-10-uno.md").read_text(encoding="utf-8")
+        self.assertIn("Version corregida.", actual)
+        self.assertEqual(self.informes()[-1]["contadores"]["actualizados"], 1)
+
+
+class TestProteccionCopiaCompleta(BaseTest):
+    def test_extracto_no_sustituye_copia_completa(self):
+        posts = [post_simulado(1, "uno", cuerpo="<p>Cuerpo completo.</p>")]
+        self.ejecutar(FetchFalso(posts))
+
+        # ahora llega como extracto (paywall)
+        posts2 = [post_simulado(1, "uno", cuerpo="<p>Solo un trozo.</p>", paywall=True, audiencia="only_paid")]
+        codigo = self.ejecutar(FetchFalso(posts2))
+
+        actual = (self.biblioteca / "articulos" / "2026-01-10-uno.md").read_text(encoding="utf-8")
+        self.assertIn("Cuerpo completo.", actual)
+        self.assertNotIn("Solo un trozo.", actual)
+        inv = self.inventario()
+        self.assertEqual(inv["1"]["estado"], "completo")
+        informe = self.informes()[-1]
+        self.assertTrue(any(e["tipo"] == "incidencia" for e in informe["errores"]))
+        self.assertEqual(codigo, 1, "una incidencia no puede presentarse como 'sin novedades'")
+
+    def test_error_de_articulo_no_sustituye_copia_completa(self):
+        posts = [post_simulado(1, "uno", cuerpo="<p>Cuerpo completo.</p>")]
+        self.ejecutar(FetchFalso(posts))
+
+        fetch = FetchFalso(posts)
+        original = fetch.__call__
+
+        def con_fallo(url):
+            if "/api/v1/posts/" in url:
+                raise rn.ErrorRed(f"HTTP 404 en {url}", status=404)
+            return original(url)
+
+        codigo = self.ejecutar(con_fallo)
+        actual = (self.biblioteca / "articulos" / "2026-01-10-uno.md").read_text(encoding="utf-8")
+        self.assertIn("Cuerpo completo.", actual)
+        self.assertEqual(self.informes()[-1]["contadores"]["errores"], 1)
+        self.assertEqual(codigo, 1)
+
+
+class TestPaginacion(BaseTest):
+    def test_sigue_hasta_pagina_vacia(self):
+        posts = [post_simulado(i, f"post-{i}") for i in range(1, 31)]  # 30 posts, 3 paginas
+        fetch = FetchFalso(posts)
+        self.assertEqual(self.ejecutar(fetch), 0)
+        paginas = [u for u in fetch.urls if "/archive" in u]
+        self.assertEqual(len(paginas), 4, "3 paginas con datos + 1 vacia")
+        self.assertEqual(len(self.inventario()), 30)
+        self.assertTrue(self.informes()[-1]["paginacion_completa"])
+
+    def test_pagina_fallida_deja_ejecucion_incompleta_con_codigo_1(self):
+        posts = [post_simulado(i, f"post-{i}") for i in range(1, 31)]
+        fetch = FetchFalso(posts, fallo_en_offset=12)  # falla la segunda pagina
+        codigo = self.ejecutar(fetch)
+        self.assertEqual(codigo, 1)
+        informe = self.informes()[-1]
+        self.assertFalse(informe["paginacion_completa"])
+        self.assertTrue(any(e["tipo"] == "pagina" and "HTTP 500" in e["motivo"] for e in informe["errores"]))
+        # los articulos de la primera pagina si se guardaron
+        self.assertEqual(len(self.inventario()), 12)
+
+
+class TestCambioDeSlug(BaseTest):
+    def test_mismo_id_con_slug_nuevo_no_duplica(self):
+        posts = [post_simulado(1, "titulo-viejo")]
+        self.ejecutar(FetchFalso(posts))
+
+        posts2 = [post_simulado(1, "titulo-nuevo")]
+        self.assertEqual(self.ejecutar(FetchFalso(posts2)), 0)
+
+        archivos = sorted(p.name for p in (self.biblioteca / "articulos").glob("*.md"))
+        self.assertEqual(archivos, ["2026-01-10-titulo-nuevo.md"], "no debe haber duplicados")
+        inv = self.inventario()
+        self.assertEqual(len(inv), 1)
+        self.assertEqual(inv["1"]["slug"], "titulo-nuevo")
+
+
+class TestMetricas(BaseTest):
+    def test_metricas_se_actualizan_sin_contar_como_cambio(self):
+        posts = [post_simulado(1, "uno", reacciones=5)]
+        self.ejecutar(FetchFalso(posts))
+        ruta = self.biblioteca / "articulos" / "2026-01-10-uno.md"
+        mtime_antes = ruta.stat().st_mtime_ns
+
+        posts2 = [post_simulado(1, "uno", reacciones=42, comentarios=7)]
+        self.assertEqual(self.ejecutar(FetchFalso(posts2)), 0)
+
+        inv = self.inventario()
+        self.assertEqual(inv["1"]["metricas"]["reacciones"], 42)
+        self.assertEqual(inv["1"]["metricas"]["comentarios"], 7)
+        informe = self.informes()[-1]
+        self.assertEqual(informe["contadores"]["sin_cambios"], 1)
+        self.assertEqual(informe["contadores"]["actualizados"], 0)
+        self.assertEqual(ruta.stat().st_mtime_ns, mtime_antes, "el articulo no debe reescribirse")
+
+
+class TestConversionMarkdown(unittest.TestCase):
+    def test_conserva_titulos_listas_y_enlaces(self):
+        html = (
+            "<h2>Un titulo</h2>"
+            "<p>Parrafo con <a href='https://ejemplo.com'>un enlace</a> y <strong>negrita</strong>.</p>"
+            "<ul><li>Primero</li><li>Segundo</li></ul>"
+            "<ol><li>Uno</li><li>Dos</li></ol>"
+            "<blockquote><p>Una cita.</p></blockquote>"
+            "<pre><code>print('hola')</code></pre>"
+            "<p><img src='https://ejemplo.com/foto.png' alt='Foto'></p>"
+        )
+        md = rn.html_a_markdown(html)
+        self.assertIn("## Un titulo", md)
+        self.assertIn("[un enlace](https://ejemplo.com)", md)
+        self.assertIn("**negrita**", md)
+        self.assertIn("- Primero", md)
+        self.assertIn("- Segundo", md)
+        self.assertIn("1. Uno", md)
+        self.assertIn("2. Dos", md)
+        self.assertIn("> Una cita.", md)
+        self.assertIn("print('hola')", md)
+        self.assertIn("```", md)
+        self.assertIn("![Foto](https://ejemplo.com/foto.png)", md)
+
+    def test_huella_estable_ante_normalizacion(self):
+        a = rn.calcular_huella("Hola\n\n\nMundo \n")
+        b = rn.calcular_huella("Hola\r\n\r\n\r\nMundo\r\n")
+        self.assertEqual(a, b)
 
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=2)

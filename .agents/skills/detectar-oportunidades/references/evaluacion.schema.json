@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evaluación de un grupo de fichas externas",
+  "description": "JSON que entrega el modelo tras leer el paquete de `pendientes` y el texto completo de los artículos parecidos. El script lo valida, aplica las cuatro condiciones de la sección 8.4 de ARQUITECTURA.md y guarda el resultado en biblioteca/oportunidades/control/evaluaciones/<grupo_id>.json.",
+  "type": "object",
+  "required": [
+    "grupo_id",
+    "articulos_comparados",
+    "cobertura",
+    "que_hemos_publicado",
+    "diferencia",
+    "aportacion",
+    "parecida_a",
+    "razon_nueva",
+    "encaje",
+    "motivo"
+  ],
+  "properties": {
+    "grupo_id": { "type": "string", "minLength": 1 },
+    "articulos_comparados": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "IDs de los artículos propios del paquete que el modelo leyó completos. Deben incluir todos los del paquete."
+    },
+    "cobertura": { "type": "string", "enum": ["nuevo", "ampliación", "cubierto"] },
+    "que_hemos_publicado": { "type": "string", "minLength": 1 },
+    "diferencia": { "type": "string", "minLength": 1 },
+    "aportacion": {
+      "type": ["string", "null"],
+      "description": "Lo que podemos añadir nosotros, concreto y comprobable; null si no hay nada que aportar."
+    },
+    "parecida_a": {
+      "type": ["string", "null"],
+      "description": "ID de una oportunidad existente parecida, o null."
+    },
+    "razon_nueva": {
+      "type": ["string", "null"],
+      "description": "Si parecida_a apunta a una oportunidad descartada, por qué volver a proponerla; null en otro caso."
+    },
+    "encaje": { "type": "boolean" },
+    "motivo": { "type": "string", "minLength": 1 }
+  }
+}

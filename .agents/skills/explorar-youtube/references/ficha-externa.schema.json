@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ficha externa (biblioteca/youtube/videos/<id>/ficha.json)",
+  "description": "Esquema de la seccion 6 de ARQUITECTURA.md. Es el mismo esquema para cualquier fuente externa. Los campos id, fuente, url, autor, fecha, huella y senales los impone el script desde meta.json; el resto los rellena el modelo leyendo la transcripcion. El campo opcional avisos_transcripcion recoge los puntos donde la transcripcion automatica es confusa.",
+  "type": "object",
+  "required": [
+    "id",
+    "fuente",
+    "url",
+    "autor",
+    "fecha",
+    "huella",
+    "tema",
+    "subtemas",
+    "tesis",
+    "afirmaciones",
+    "entidades",
+    "demuestra",
+    "promete_sin_demostrar",
+    "preguntas_abiertas",
+    "senales"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "fuente": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "minLength": 1 },
+    "autor": { "type": "string", "minLength": 1 },
+    "fecha": { "type": ["string", "null"] },
+    "huella": { "type": "string", "minLength": 1 },
+    "tema": { "type": "string", "minLength": 1 },
+    "subtemas": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "tesis": { "type": "string", "minLength": 1 },
+    "afirmaciones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["texto", "marca", "tipo"],
+        "properties": {
+          "texto": { "type": "string", "minLength": 1 },
+          "marca": { "type": "string", "minLength": 1 },
+          "tipo": { "type": "string", "enum": ["dato", "demostración", "opinión"] }
+        }
+      }
+    },
+    "entidades": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "demuestra": { "type": "string" },
+    "promete_sin_demostrar": { "type": "string" },
+    "preguntas_abiertas": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "avisos_transcripcion": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "senales": {
+      "type": "object",
+      "required": ["multiplo_mediana", "interaccion", "dias"],
+      "properties": {
+        "multiplo_mediana": { "type": ["number", "null"] },
+        "interaccion": { "type": ["number", "null"] },
+        "dias": { "type": ["integer", "null"] }
+      }
+    }
+  }
+}

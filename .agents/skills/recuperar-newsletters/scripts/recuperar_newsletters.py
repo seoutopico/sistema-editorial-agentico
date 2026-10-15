@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""Recupera todo lo publicado en una newsletter de Substack y lo mantiene en
-biblioteca/substack/. Python sin IA y solo biblioteca estándar.
+"""Descarga el archivo publicado de una newsletter de Substack y lo mantiene
+actualizado en biblioteca/substack/.
 
-Uso:
-    python .agents/skills/recuperar-newsletters/scripts/recuperar_newsletters.py
-        [--config proyecto.config.json] [--limite N]
+Fase 1 del sistema editorial (ver ARQUITECTURA.md, secciones 2, 4, 8.1 y 10).
+Python sin IA, solo biblioteca estandar. La funcion de red es inyectable para
+poder probar con respuestas simuladas.
 
-Códigos de salida: 0 correcto, 1 errores parciales o paginación incompleta,
-2 no pudo ejecutarse.
+Codigos de salida:
+  0  todo correcto
+  1  termino, pero con errores parciales o paginacion incompleta
+  2  no pudo ejecutarse (configuracion invalida o archivo inaccesible)
 """
 
 from __future__ import annotations
@@ -20,781 +22,581 @@ import re
 import sys
 import tempfile
 import time
-import unicodedata
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from typing import Callable
 
 TAMANO_PAGINA = 12
-MAX_PAGINAS = 1000  # tope de seguridad: 12.000 artículos
-CARPETA_SALIDA = Path("biblioteca") / "substack"
-USER_AGENT = "recuperar-newsletters/1.0 (+uso personal; sin IA)"
-
-# Tipo de la función de red inyectable: (url, timeout) -> (código HTTP, cuerpo).
-# Debe lanzar OSError (o subclase) ante fallos de conexión o timeout.
-FuncionRed = Callable[[str, float], "tuple[int, bytes]"]
+TOPE_PAGINAS = 500  # tope de seguridad de la paginacion
 
 
-class ErrorConfiguracion(Exception):
-    pass
-
-
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # Red
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 
-def obtener_http(url: str, timeout: float) -> tuple[int, bytes]:
-    """Implementación real de la red con urllib."""
-    peticion = urllib.request.Request(
-        url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"}
-    )
-    try:
-        with urllib.request.urlopen(peticion, timeout=timeout) as respuesta:
-            return respuesta.status, respuesta.read()
-    except urllib.error.HTTPError as error:
-        return error.code, error.read() if error.fp else b""
+class ErrorRed(Exception):
+    """Fallo de red o HTTP. `status` es el codigo HTTP si lo hay."""
+
+    def __init__(self, mensaje: str, status: int | None = None):
+        super().__init__(mensaje)
+        self.status = status
 
 
-class ClienteSubstack:
-    """Pide JSON con timeout, reintentos con espera creciente y pausa entre peticiones."""
+def crear_fetch_urllib(timeout: float):
+    """Devuelve una funcion fetch(url) -> objeto JSON usando urllib."""
 
-    def __init__(self, base: str, red: dict, obtener: FuncionRed,
-                 dormir: Callable[[float], None]):
-        self.base = base.rstrip("/")
-        self.timeout = float(red["timeout_segundos"])
-        self.intentos = int(red["intentos"])
-        self.pausa = float(red["pausa_segundos"])
-        self.obtener = obtener
-        self.dormir = dormir
-        self._primera = True
+    def fetch(url: str):
+        peticion = urllib.request.Request(
+            url, headers={"User-Agent": "recuperar-newsletters/1.0"}
+        )
+        try:
+            with urllib.request.urlopen(peticion, timeout=timeout) as respuesta:
+                return json.loads(respuesta.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            raise ErrorRed(f"HTTP {exc.code} en {url}", status=exc.code) from exc
+        except urllib.error.URLError as exc:
+            raise ErrorRed(f"Fallo de red en {url}: {exc.reason}") from exc
+        except (TimeoutError, json.JSONDecodeError, ValueError) as exc:
+            raise ErrorRed(f"Respuesta invalida de {url}: {exc}") from exc
 
-    def pedir_json(self, ruta: str):
-        """Devuelve (datos, None) si va bien o (None, motivo) si falla."""
-        url = self.base + ruta
-        motivo = "sin intentos"
-        for intento in range(self.intentos):
-            if intento > 0:  # espera creciente: 1x, 2x, 4x... (mínimo 1 s)
-                self.dormir(max(self.pausa, 1.0) * (2 ** (intento - 1)))
-            elif not self._primera:  # pausa entre peticiones
-                self.dormir(self.pausa)
-            self._primera = False
-            try:
-                estado, cuerpo = self.obtener(url, self.timeout)
-            except (OSError, ValueError) as error:  # conexión, timeout, URL
-                motivo = f"fallo de red: {error.__class__.__name__}: {error}"
-                continue
-            if estado == 200:
-                try:
-                    return json.loads(cuerpo.decode("utf-8")), None
-                except (UnicodeDecodeError, json.JSONDecodeError) as error:
-                    motivo = f"respuesta no es JSON válido: {error}"
-                    continue
-            motivo = f"HTTP {estado}"
-            if estado == 429 or 500 <= estado <= 599:
-                continue
-            return None, motivo  # 404 y otros 4xx: no se reintenta
-        return None, f"{motivo} tras {self.intentos} intentos"
+    return fetch
 
 
-# --------------------------------------------------------------------------
-# HTML a Markdown
-# --------------------------------------------------------------------------
+def pedir_con_reintentos(fetch, url: str, intentos: int, pausa_base: float, dormir):
+    """Pide una URL reintentando ante 429 y 5xx con espera creciente.
 
-class _ConversorMarkdown(HTMLParser):
-    BLOQUES = {"p", "div", "section", "article", "figure", "figcaption", "header",
-               "footer", "table", "thead", "tbody", "tr", "dl", "dt", "dd"}
-    IGNORAR = {"script", "style", "svg", "button", "form", "noscript", "head", "title"}
-    INLINE = {"a": "", "strong": "**", "b": "**", "em": "*", "i": "*",
-              "code": "`", "s": "~~", "del": "~~", "strike": "~~"}
+    Un 404 (u otro 4xx distinto de 429) no se reintenta: es un error
+    definitivo de ese recurso.
+    """
+    ultimo_error = None
+    for intento in range(1, max(1, intentos) + 1):
+        try:
+            return fetch(url)
+        except ErrorRed as exc:
+            ultimo_error = exc
+            reintentable = exc.status is None or exc.status == 429 or exc.status >= 500
+            if not reintentable or intento == intentos:
+                raise
+            dormir(pausa_base * (2 ** (intento - 1)))
+    raise ultimo_error  # inalcanzable, por claridad
+
+
+# ---------------------------------------------------------------------------
+# HTML -> Markdown (html.parser, sin dependencias)
+# ---------------------------------------------------------------------------
+
+class ConversorMarkdown(HTMLParser):
+    """Convierte el HTML del cuerpo a Markdown legible.
+
+    Conserva titulos, parrafos, listas, enlaces, citas, codigo e imagenes
+    (estas como enlaces de imagen).
+    """
+
+    _BLOQUES = {"p", "div", "figure", "section", "article"}
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.bloques: list[tuple[str, str]] = []
-        self.pila: list[list] = [["", None, []]]  # [etiqueta, atributo, trozos]
-        self.listas: list[list] = []  # [tipo, contador]
-        self.cita = 0
-        self.ignorar = 0
-        self.pre: list[str] | None = None
-        self.tipo = "p"
-        self.prefijo = ""
+        self.partes: list[str] = []
+        self.pila_listas: list[dict] = []
+        self.pila_enlaces: list[str] = []
+        self.en_pre = False
+        self.nivel_cita = 0
 
-    # -- utilidades
+    # -- utilidades -----------------------------------------------------
     def _emitir(self, texto: str):
-        self.pila[-1][2].append(texto)
+        if self.nivel_cita and "\n" in texto:
+            prefijo = "> " * self.nivel_cita
+            texto = texto.replace("\n", "\n" + prefijo)
+        self.partes.append(texto)
 
-    def _cerrar_inline(self, etiqueta: str, attr):
-        trozos = "".join(self.pila.pop()[2])
-        if etiqueta == "a":
-            limpio = trozos.strip()
-            if not attr or not limpio:
-                self._emitir(trozos)
-            elif re.fullmatch(r"(!\[[^\]]*\]\([^)]*\)\s*)+", limpio):
-                self._emitir(limpio)  # enlace que solo envuelve imágenes
-            else:
-                self._emitir(f"[{limpio}]({attr})")
-            return
-        marca = self.INLINE[etiqueta]
-        limpio = trozos.strip()
-        if not limpio:
-            self._emitir(trozos)
-            return
-        inicio = " " if trozos[:1].isspace() else ""
-        fin = " " if trozos[-1:].isspace() else ""
-        self._emitir(f"{inicio}{marca}{limpio}{marca}{fin}")
+    def _salto_bloque(self):
+        self._emitir("\n\n")
 
-    def _vaciar(self):
-        while len(self.pila) > 1:
-            etiqueta, attr, _ = self.pila[-1]
-            self._cerrar_inline(etiqueta, attr)
-        texto = "".join(self.pila[0][2])
-        self.pila[0][2] = []
-        lineas = [re.sub(r"[ \t]+", " ", l).strip() for l in texto.split("\n")]
-        lineas = [l for l in lineas if l]
-        if not lineas:
-            return
-        if self.tipo == "li":
-            sangria = " " * len(self.prefijo)
-            cuerpo = "\n".join([self.prefijo + lineas[0]] + [sangria + l for l in lineas[1:]])
-            self.prefijo = sangria  # el resto del mismo elemento continúa sangrado
-        else:
-            cuerpo = "\n".join(lineas)
-            if self.prefijo:
-                cuerpo = self.prefijo + cuerpo
-        self._anadir_bloque(self.tipo, cuerpo)
-
-    def _anadir_bloque(self, tipo: str, cuerpo: str):
-        if self.cita:
-            marca = "> " * self.cita
-            cuerpo = "\n".join((marca + l).rstrip() for l in cuerpo.split("\n"))
-        self.bloques.append((tipo, cuerpo))
-
-    # -- eventos
+    # -- eventos --------------------------------------------------------
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
-        if self.ignorar or tag in self.IGNORAR:
-            if tag in self.IGNORAR:
-                self.ignorar += 1
-            return
-        if self.pre is not None:
-            return
         if tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
-            self._vaciar()
-            self.tipo, self.prefijo = "h", "#" * int(tag[1]) + " "
-        elif tag in ("ul", "ol"):
-            self._vaciar()
-            self.listas.append([tag, 0])
-        elif tag == "li":
-            self._vaciar()
-            nivel = max(len(self.listas), 1)
-            tipo, _ = self.listas[-1] if self.listas else ("ul", 0)
-            if self.listas:
-                self.listas[-1][1] += 1
-            marca = f"{self.listas[-1][1]}. " if tipo == "ol" else "- "
-            self.tipo, self.prefijo = "li", "   " * (nivel - 1) + marca
-        elif tag == "blockquote":
-            self._vaciar()
-            self.cita += 1
-        elif tag == "pre":
-            self._vaciar()
-            self.pre = []
+            self._salto_bloque()
+            self._emitir("#" * int(tag[1]) + " ")
+        elif tag in self._BLOQUES:
+            self._salto_bloque()
         elif tag == "br":
             self._emitir("\n")
-        elif tag == "hr":
-            self._vaciar()
-            self._anadir_bloque("hr", "---")
-        elif tag == "img":
-            src = a.get("src") or ""
-            if src:
-                alt = (a.get("alt") or a.get("title") or "imagen").replace("]", "")
-                self._emitir(f"![{alt}]({src})")
-        elif tag == "iframe":
-            src = a.get("src") or ""
-            if src:
-                self._vaciar()
-                self._anadir_bloque("p", f"[Contenido incrustado]({src})")
-        elif tag in self.INLINE:
-            self.pila.append([tag, a.get("href") if tag == "a" else None, []])
-        elif tag in ("td", "th"):
-            self._emitir(" | ")
-        elif tag in self.BLOQUES:
-            if self.tipo == "li":
-                if "".join(self.pila[-1][2]).strip():
-                    self._emitir("\n")
+        elif tag in ("ul", "ol"):
+            self.pila_listas.append({"tipo": tag, "n": 0})
+            if len(self.pila_listas) == 1:
+                self._salto_bloque()
+        elif tag == "li":
+            sangria = "  " * (len(self.pila_listas) - 1)
+            if self.pila_listas and self.pila_listas[-1]["tipo"] == "ol":
+                self.pila_listas[-1]["n"] += 1
+                vineta = f"{self.pila_listas[-1]['n']}. "
             else:
-                self._vaciar()
+                vineta = "- "
+            self._emitir("\n" + sangria + vineta)
+        elif tag == "a":
+            self.pila_enlaces.append(a.get("href", ""))
+            self._emitir("[")
+        elif tag == "img":
+            alt = a.get("alt", "") or "imagen"
+            src = a.get("src", "")
+            if src:
+                self._emitir(f"![{alt}]({src})")
+        elif tag == "blockquote":
+            self._salto_bloque()
+            self.nivel_cita += 1
+            self._emitir("> " * self.nivel_cita)
+        elif tag == "pre":
+            self._salto_bloque()
+            self._emitir("```\n")
+            self.en_pre = True
+        elif tag == "code":
+            if not self.en_pre:
+                self._emitir("`")
+        elif tag in ("strong", "b"):
+            self._emitir("**")
+        elif tag in ("em", "i"):
+            self._emitir("*")
+        elif tag == "hr":
+            self._salto_bloque()
+            self._emitir("---")
+            self._salto_bloque()
 
     def handle_endtag(self, tag):
-        if tag in self.IGNORAR:
-            self.ignorar = max(self.ignorar - 1, 0)
-            return
-        if self.ignorar:
-            return
-        if self.pre is not None:
-            if tag == "pre":
-                codigo = "".join(self.pre).strip("\n")
-                self.pre = None
-                self._anadir_bloque("pre", "```\n" + codigo + "\n```")
-            return
-        if tag in ("h1", "h2", "h3", "h4", "h5", "h6"):
-            self._vaciar()
-            self.tipo, self.prefijo = "p", ""
+        if tag in ("h1", "h2", "h3", "h4", "h5", "h6") or tag in self._BLOQUES:
+            self._salto_bloque()
         elif tag in ("ul", "ol"):
-            self._vaciar()
-            if self.listas:
-                self.listas.pop()
-            if self.listas:
-                self.tipo, self.prefijo = "li", "   " * len(self.listas)
-            else:
-                self.tipo, self.prefijo = "p", ""
-        elif tag == "li":
-            self._vaciar()
-            if self.listas:
-                self.tipo, self.prefijo = "li", "   " * len(self.listas)
-            else:
-                self.tipo, self.prefijo = "p", ""
+            if self.pila_listas:
+                self.pila_listas.pop()
+            if not self.pila_listas:
+                self._salto_bloque()
+        elif tag == "a":
+            href = self.pila_enlaces.pop() if self.pila_enlaces else ""
+            self._emitir(f"]({href})")
         elif tag == "blockquote":
-            self._vaciar()
-            self.cita = max(self.cita - 1, 0)
-        elif tag in self.INLINE:
-            if any(n[0] == tag for n in self.pila[1:]):
-                while len(self.pila) > 1:
-                    etiqueta, attr, _ = self.pila[-1]
-                    self._cerrar_inline(etiqueta, attr)
-                    if etiqueta == tag:
-                        break
-        elif tag in self.BLOQUES and self.tipo != "li":
-            self._vaciar()
+            self.nivel_cita = max(0, self.nivel_cita - 1)
+            self._salto_bloque()
+        elif tag == "pre":
+            self.en_pre = False
+            self._emitir("\n```")
+            self._salto_bloque()
+        elif tag == "code":
+            if not self.en_pre:
+                self._emitir("`")
+        elif tag in ("strong", "b"):
+            self._emitir("**")
+        elif tag in ("em", "i"):
+            self._emitir("*")
 
     def handle_data(self, data):
-        if self.ignorar:
-            return
-        if self.pre is not None:
-            self.pre.append(data)
-            return
-        self._emitir(re.sub(r"\s+", " ", data))
+        if self.en_pre:
+            self._emitir(data)
+        else:
+            self._emitir(re.sub(r"\s+", " ", data))
 
     def resultado(self) -> str:
-        self._vaciar()
-        salida: list[str] = []
-        anterior = None
-        for tipo, cuerpo in self.bloques:
-            if salida:
-                salida.append("\n" if tipo == "li" and anterior == "li" else "\n\n")
-            salida.append(cuerpo)
-            anterior = tipo
-        return "".join(salida).strip() + "\n" if salida else ""
+        texto = "".join(self.partes)
+        texto = re.sub(r"[ \t]+\n", "\n", texto)
+        texto = re.sub(r"\n{3,}", "\n\n", texto)
+        return texto.strip()
 
 
 def html_a_markdown(html: str) -> str:
-    conversor = _ConversorMarkdown()
+    conversor = ConversorMarkdown()
     conversor.feed(html or "")
     conversor.close()
     return conversor.resultado()
 
 
-def normalizar(markdown: str) -> str:
-    texto = unicodedata.normalize("NFC", markdown).replace("\r\n", "\n").replace("\r", "\n")
-    texto = "\n".join(l.rstrip() for l in texto.split("\n"))
-    texto = re.sub(r"\n{3,}", "\n\n", texto).strip()
-    return texto + "\n" if texto else ""
+def normalizar_markdown(md: str) -> str:
+    """Normalizacion previa a la huella: saltos de linea y espacios estables."""
+    texto = (md or "").replace("\r\n", "\n").replace("\r", "\n")
+    texto = re.sub(r"[ \t]+\n", "\n", texto)
+    texto = re.sub(r"\n{3,}", "\n\n", texto)
+    return texto.strip()
 
 
-def huella(markdown: str) -> str:
-    return "sha256:" + hashlib.sha256(normalizar(markdown).encode("utf-8")).hexdigest()
+def calcular_huella(md: str) -> str:
+    return hashlib.sha256(normalizar_markdown(md).encode("utf-8")).hexdigest()
 
 
-# --------------------------------------------------------------------------
-# Archivos
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Escritura segura
+# ---------------------------------------------------------------------------
 
-def escribir_atomico(ruta: Path, contenido: str) -> None:
-    """Escribe en un temporal de la misma carpeta y lo renombra."""
+def escribir_atomico(ruta: Path, contenido: str):
+    """Escribe en un temporal del mismo directorio y renombra."""
     ruta.parent.mkdir(parents=True, exist_ok=True)
-    descriptor, temporal = tempfile.mkstemp(dir=ruta.parent, prefix=".tmp-", suffix=ruta.suffix)
+    descriptor, tmp = tempfile.mkstemp(dir=ruta.parent, suffix=".tmp")
     try:
-        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as archivo:
-            archivo.write(contenido)
-            archivo.flush()
-            os.fsync(archivo.fileno())
-        os.replace(temporal, ruta)
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="\n") as f:
+            f.write(contenido)
+        os.replace(tmp, ruta)
     except BaseException:
-        try:
-            os.unlink(temporal)
-        except OSError:
-            pass
+        if os.path.exists(tmp):
+            os.unlink(tmp)
         raise
 
 
-def escribir_si_cambia(ruta: Path, contenido: str) -> bool:
-    if ruta.exists() and ruta.read_text(encoding="utf-8") == contenido:
-        return False
-    escribir_atomico(ruta, contenido)
-    return True
+def escribir_json_atomico(ruta: Path, datos):
+    escribir_atomico(ruta, json.dumps(datos, ensure_ascii=False, indent=2) + "\n")
 
 
-def a_json(datos) -> str:
-    return json.dumps(datos, ensure_ascii=False, indent=2, sort_keys=False) + "\n"
+# ---------------------------------------------------------------------------
+# Configuracion
+# ---------------------------------------------------------------------------
+
+class ErrorConfiguracion(Exception):
+    pass
 
 
-def _yaml(valor) -> str:
-    if valor is None:
-        return "null"
-    if isinstance(valor, bool):
-        return "true" if valor else "false"
-    if isinstance(valor, (int, float)):
-        return str(valor)
-    return json.dumps(str(valor), ensure_ascii=False)  # cadena entre comillas dobles: YAML válido
-
-
-def slug_seguro(slug: str) -> str:
-    limpio = re.sub(r"[^A-Za-z0-9._-]+", "-", slug or "").strip("-.")
-    return limpio[:120] or "sin-slug"
-
-
-# --------------------------------------------------------------------------
-# Configuración
-# --------------------------------------------------------------------------
-
-def leer_config(ruta: Path) -> dict:
-    if not ruta.is_file():
-        raise ErrorConfiguracion(f"no existe el archivo de configuración: {ruta}")
+def cargar_config(ruta_config: Path) -> dict:
+    if not ruta_config.is_file():
+        raise ErrorConfiguracion(f"No existe el archivo de configuracion: {ruta_config}")
     try:
-        config = json.loads(ruta.read_text(encoding="utf-8"))
-    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
-        raise ErrorConfiguracion(f"no se puede leer {ruta}: {error}") from error
-    substack = (config.get("publicacion") or {}).get("substack")
-    if not isinstance(substack, str) or not re.match(r"^https?://[^/\s]+", substack):
-        raise ErrorConfiguracion("publicacion.substack debe ser una URL http(s)")
-    red = config.get("red") or {}
-    try:
-        timeout = float(red["timeout_segundos"])
-        intentos = int(red["intentos"])
-        pausa = float(red["pausa_segundos"])
-    except (KeyError, TypeError, ValueError) as error:
-        raise ErrorConfiguracion(
-            "red.timeout_segundos, red.intentos y red.pausa_segundos son obligatorios y numéricos"
-        ) from error
-    if timeout <= 0 or intentos < 1 or pausa < 0:
-        raise ErrorConfiguracion("red: timeout > 0, intentos >= 1 y pausa >= 0")
-    return {"substack": substack.rstrip("/"),
-            "red": {"timeout_segundos": timeout, "intentos": intentos, "pausa_segundos": pausa}}
+        config = json.loads(ruta_config.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        raise ErrorConfiguracion(f"Configuracion ilegible ({ruta_config}): {exc}") from exc
+
+    substack = config.get("publicacion", {}).get("substack")
+    if not substack or not str(substack).startswith("http"):
+        raise ErrorConfiguracion("Falta 'publicacion.substack' (URL) en la configuracion.")
+    red = config.get("red", {})
+    for clave in ("timeout_segundos", "intentos", "pausa_segundos"):
+        if clave not in red:
+            raise ErrorConfiguracion(f"Falta 'red.{clave}' en la configuracion.")
+    return config
 
 
-# --------------------------------------------------------------------------
-# Datos del artículo
-# --------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Proceso principal
+# ---------------------------------------------------------------------------
 
-def _entero(valor) -> int:
-    try:
-        return int(valor or 0)
-    except (TypeError, ValueError):
+def _ahora_utc() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def _iso(momento: datetime) -> str:
+    return momento.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _escapar_yaml(texto: str) -> str:
+    return '"' + str(texto).replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def extraer_metricas(post: dict, capturado: str) -> dict:
+    reacciones = post.get("reaction_count")
+    if reacciones is None:
+        valores = post.get("reactions") or {}
+        reacciones = sum(v for v in valores.values() if isinstance(v, int)) if isinstance(valores, dict) else 0
+    return {
+        "reacciones": reacciones or 0,
+        "comentarios": post.get("comment_count") or 0,
+        "restacks": post.get("restacks") or 0,
+        "fecha_captura": capturado,
+    }
+
+
+class Recuperador:
+    def __init__(self, ruta_config: Path, fetch=None, dormir=time.sleep, ahora=_ahora_utc):
+        self.ruta_config = Path(ruta_config)
+        self.config = cargar_config(self.ruta_config)
+        self.raiz = self.ruta_config.resolve().parent
+        self.base = str(self.config["publicacion"]["substack"]).rstrip("/")
+        red = self.config["red"]
+        self.timeout = float(red["timeout_segundos"])
+        self.intentos = int(red["intentos"])
+        self.pausa = float(red["pausa_segundos"])
+        self.fetch = fetch or crear_fetch_urllib(self.timeout)
+        self.dormir = dormir
+        self.ahora = ahora
+
+        base_bib = self.raiz / "biblioteca" / "substack"
+        self.dir_articulos = base_bib / "articulos"
+        self.dir_control = base_bib / "control"
+        self.ruta_inventario = self.dir_control / "inventario.json"
+        self.dir_originales = self.dir_control / "originales"
+        self.dir_historial = self.dir_control / "historial"
+        self.dir_ejecuciones = self.dir_control / "ejecuciones"
+        self.ruta_indice = base_bib / "INDICE.md"
+
+    # -- red --------------------------------------------------------------
+    def _pedir(self, url: str):
+        return pedir_con_reintentos(self.fetch, url, self.intentos, self.pausa, self.dormir)
+
+    # -- inventario ---------------------------------------------------------
+    def _cargar_inventario(self) -> dict:
+        if self.ruta_inventario.is_file():
+            return json.loads(self.ruta_inventario.read_text(encoding="utf-8"))
+        return {}
+
+    # -- paginacion ---------------------------------------------------------
+    def recorrer_archivo(self, limite: int | None, informe: dict) -> list[dict]:
+        items: list[dict] = []
+        offset = 0
+        paginas = 0
+        while paginas < TOPE_PAGINAS:
+            url = f"{self.base}/api/v1/archive?sort=new&offset={offset}&limit={TAMANO_PAGINA}"
+            try:
+                pagina = self._pedir(url)
+            except ErrorRed as exc:
+                if paginas == 0:
+                    raise  # el archivo es inaccesible: no se puede ejecutar
+                informe["paginacion_completa"] = False
+                informe["errores"].append(
+                    {"tipo": "pagina", "offset": offset, "motivo": str(exc)}
+                )
+                informe["paginas_leidas"] = paginas
+                return items
+            paginas += 1
+            if paginas > 1:
+                self.dormir(self.pausa)
+            if not pagina:
+                informe["paginacion_completa"] = True
+                informe["paginas_leidas"] = paginas
+                return items
+            items.extend(pagina)
+            if limite is not None and len(items) >= limite:
+                informe["paginacion_completa"] = True
+                informe["paginas_leidas"] = paginas
+                return items[:limite]
+            offset += TAMANO_PAGINA
+        informe["paginacion_completa"] = False
+        informe["errores"].append(
+            {"tipo": "paginacion", "motivo": f"Alcanzado el tope de seguridad de {TOPE_PAGINAS} paginas."}
+        )
+        informe["paginas_leidas"] = paginas
+        return items
+
+    # -- articulos ------------------------------------------------------
+    def _clasificar(self, post: dict) -> tuple[str, str]:
+        """Devuelve (estado, html del cuerpo disponible)."""
+        cuerpo = post.get("body_html") or ""
+        if not cuerpo:
+            # Sin cuerpo integro: articulo de pago o truncado; se guarda lo que haya.
+            return "extracto", post.get("truncated_body_text") or ""
+        if bool(post.get("should_show_paywall")):
+            return "extracto", cuerpo
+        return "completo", cuerpo
+
+    def _nombre_archivo(self, fecha: str, slug: str) -> str:
+        dia = (fecha or "")[:10] or "sin-fecha"
+        return f"{dia}-{slug}.md"
+
+    def _contenido_articulo(self, reg: dict, cuerpo_md: str) -> str:
+        lineas = [
+            "---",
+            f"id: {reg['id']}",
+            f"titulo: {_escapar_yaml(reg['titulo'])}",
+            f"subtitulo: {_escapar_yaml(reg.get('subtitulo') or '')}",
+            f"fecha: {reg['fecha']}",
+            f"url: {reg['url']}",
+            f"tipo: {reg.get('tipo') or ''}",
+            f"audiencia: {reg.get('audiencia') or ''}",
+            f"estado: {reg['estado']}",
+            f"huella: {reg['huella']}",
+            "---",
+            "",
+            cuerpo_md,
+            "",
+        ]
+        return "\n".join(lineas)
+
+    def _mover_a_historial(self, id_post: str, ruta_actual: Path, marca: str):
+        destino_dir = self.dir_historial / str(id_post)
+        destino_dir.mkdir(parents=True, exist_ok=True)
+        destino = destino_dir / f"{marca}.md"
+        contador = 1
+        while destino.exists():
+            destino = destino_dir / f"{marca}-{contador}.md"
+            contador += 1
+        os.replace(ruta_actual, destino)
+
+    def procesar_item(self, item: dict, inventario: dict, informe: dict, momento: str):
+        slug = item.get("slug") or ""
+        id_post = str(item.get("id"))
+        url_post = f"{self.base}/api/v1/posts/{slug}"
+        try:
+            post = self._pedir(url_post)
+        except ErrorRed as exc:
+            informe["contadores"]["errores"] += 1
+            informe["errores"].append({"tipo": "articulo", "id": id_post, "slug": slug, "motivo": str(exc)})
+            if id_post in inventario:
+                inventario[id_post]["ultima_comprobacion"] = momento
+            return
+
+        estado, cuerpo_html = self._clasificar(post)
+        cuerpo_md = html_a_markdown(cuerpo_html)
+        huella = calcular_huella(cuerpo_md)
+        metricas = extraer_metricas(post, momento)
+        fecha = (post.get("post_date") or item.get("post_date") or "")[:10]
+        registro_nuevo = {
+            "id": id_post,
+            "slug": slug,
+            "titulo": post.get("title") or item.get("title") or "",
+            "subtitulo": post.get("subtitle") or item.get("subtitle") or "",
+            "fecha": fecha,
+            "url": post.get("canonical_url") or item.get("canonical_url") or "",
+            "tipo": post.get("type") or item.get("type") or "",
+            "audiencia": post.get("audience") or item.get("audience") or "",
+            "estado": estado,
+            "huella": huella,
+        }
+        nombre = self._nombre_archivo(fecha, slug)
+        ruta_md = self.dir_articulos / nombre
+
+        # guardar la respuesta original de la API
+        escribir_json_atomico(self.dir_originales / f"{id_post}.json", post)
+
+        existente = inventario.get(id_post)
+        if estado == "extracto":
+            informe["contadores"]["extractos"] += 1
+
+        if existente is None:
+            # Articulo nuevo
+            escribir_atomico(ruta_md, self._contenido_articulo(registro_nuevo, cuerpo_md))
+            inventario[id_post] = {
+                **registro_nuevo,
+                "archivo": f"biblioteca/substack/articulos/{nombre}",
+                "metricas": metricas,
+                "primera_descarga": momento,
+                "ultima_comprobacion": momento,
+                "ultima_modificacion": momento,
+            }
+            informe["contadores"]["nuevos"] += 1
+            informe["cambios"].append({"tipo": "nuevo", "id": id_post, "slug": slug, "estado": estado})
+            return
+
+        ruta_anterior = self.raiz / existente["archivo"]
+
+        if existente["estado"] == "completo" and estado != "completo":
+            # Un extracto o error nunca sustituye una copia completa
+            existente["metricas"] = metricas
+            existente["ultima_comprobacion"] = momento
+            informe["errores"].append({
+                "tipo": "incidencia", "id": id_post, "slug": slug,
+                "motivo": f"Se recibio un '{estado}' pero existe copia completa; no se toca.",
+            })
+            return
+
+        if huella == existente["huella"]:
+            # Sin cambios de contenido: solo metricas y comprobacion
+            existente["metricas"] = metricas
+            existente["ultima_comprobacion"] = momento
+            if slug != existente["slug"] or nombre != Path(existente["archivo"]).name:
+                # cambio de slug con el mismo id: se renombra, sin duplicar
+                if ruta_anterior.is_file() and ruta_anterior != ruta_md:
+                    self.dir_articulos.mkdir(parents=True, exist_ok=True)
+                    os.replace(ruta_anterior, ruta_md)
+                existente["slug"] = slug
+                existente["url"] = registro_nuevo["url"]
+                existente["archivo"] = f"biblioteca/substack/articulos/{nombre}"
+                informe["cambios"].append({"tipo": "renombrado", "id": id_post, "slug": slug})
+            informe["contadores"]["sin_cambios"] += 1
+            return
+
+        # Huella distinta: se conserva la version anterior en historial
+        marca = re.sub(r"[^0-9TZ]", "", momento) or momento
+        if ruta_anterior.is_file():
+            self._mover_a_historial(id_post, ruta_anterior, marca)
+        escribir_atomico(ruta_md, self._contenido_articulo(registro_nuevo, cuerpo_md))
+        inventario[id_post] = {
+            **registro_nuevo,
+            "archivo": f"biblioteca/substack/articulos/{nombre}",
+            "metricas": metricas,
+            "primera_descarga": existente.get("primera_descarga", momento),
+            "ultima_comprobacion": momento,
+            "ultima_modificacion": momento,
+        }
+        informe["contadores"]["actualizados"] += 1
+        informe["cambios"].append({"tipo": "actualizado", "id": id_post, "slug": slug, "estado": estado})
+
+    # -- salidas ----------------------------------------------------------
+    def generar_indice(self, inventario: dict):
+        registros = sorted(inventario.values(), key=lambda r: r.get("fecha") or "", reverse=True)
+        lineas = [
+            "# Indice de la biblioteca de Substack",
+            "",
+            "| Fecha | Titulo | Estado | Archivo |",
+            "|---|---|---|---|",
+        ]
+        for r in registros:
+            titulo = str(r.get("titulo", "")).replace("|", "\\|")
+            enlace = f"[{Path(r['archivo']).name}](articulos/{Path(r['archivo']).name})"
+            lineas.append(f"| {r.get('fecha', '')} | {titulo} | {r.get('estado', '')} | {enlace} |")
+        lineas.append("")
+        escribir_atomico(self.ruta_indice, "\n".join(lineas))
+
+    # -- ejecucion ----------------------------------------------------------
+    def ejecutar(self, limite: int | None = None) -> int:
+        inicio = self.ahora()
+        run_id = inicio.strftime("%Y%m%dT%H%M%SZ")
+        momento = _iso(inicio)
+        informe = {
+            "run_id": run_id,
+            "inicio": momento,
+            "fin": None,
+            "limite": limite,
+            "paginas_leidas": 0,
+            "paginacion_completa": False,
+            "contadores": {"nuevos": 0, "actualizados": 0, "sin_cambios": 0, "extractos": 0, "errores": 0},
+            "cambios": [],
+            "errores": [],
+        }
+
+        inventario = self._cargar_inventario()
+
+        try:
+            items = self.recorrer_archivo(limite, informe)
+        except ErrorRed as exc:
+            print(f"ERROR: el archivo de Substack es inaccesible: {exc}", file=sys.stderr)
+            return 2
+
+        for indice, item in enumerate(items):
+            if indice > 0:
+                self.dormir(self.pausa)
+            self.procesar_item(item, inventario, informe, momento)
+
+        escribir_json_atomico(self.ruta_inventario, inventario)
+        self.generar_indice(inventario)
+        informe["fin"] = _iso(self.ahora())
+        escribir_json_atomico(self.dir_ejecuciones / f"{run_id}.json", informe)
+
+        hubo_fallos = (
+            not informe["paginacion_completa"]
+            or informe["contadores"]["errores"] > 0
+            or any(e["tipo"] in ("pagina", "paginacion", "incidencia") for e in informe["errores"])
+        )
+
+        c = informe["contadores"]
+        print(f"Ejecucion {run_id}")
+        print(f"  Articulos vistos: {len(items)} en {informe['paginas_leidas']} paginas")
+        print(f"  Nuevos: {c['nuevos']} | Actualizados: {c['actualizados']} | Sin cambios: {c['sin_cambios']}")
+        print(f"  Extractos: {c['extractos']} | Errores: {c['errores']}")
+        if not informe["paginacion_completa"]:
+            print("  AVISO: la paginacion quedo INCOMPLETA; el resultado es parcial.")
+        for e in informe["errores"]:
+            print(f"  - [{e['tipo']}] {e.get('slug', e.get('offset', ''))}: {e['motivo']}")
+        if hubo_fallos:
+            print("  Resultado: terminado CON ERRORES PARCIALES (codigo 1).")
+            return 1
+        print("  Resultado: todo correcto (codigo 0).")
         return 0
 
 
-def metricas(post: dict, capturadas: str) -> dict:
-    reacciones = post.get("reaction_count")
-    if reacciones is None and isinstance(post.get("reactions"), dict):
-        reacciones = sum(_entero(v) for v in post["reactions"].values())
-    restacks = post.get("restacks")
-    if restacks is None:
-        restacks = post.get("restack_count")
-    return {"reacciones": _entero(reacciones), "comentarios": _entero(post.get("comment_count")),
-            "restacks": _entero(restacks), "capturadas": capturadas}
-
-
-def clasificar(post: dict) -> tuple[str, str, str]:
-    """Devuelve (estado, cuerpo_markdown, motivo) con estado completo o extracto."""
-    html = post.get("body_html") or ""
-    audiencia = post.get("audience") or "everyone"
-    if html.strip():
-        cuerpo = html_a_markdown(html)
-    else:
-        texto = post.get("truncated_body_text") or post.get("description") or ""
-        cuerpo = normalizar(texto)
-    if audiencia != "everyone":
-        return "extracto", cuerpo, f"audiencia '{audiencia}' (de pago o restringido)"
-    if not html.strip():
-        return "extracto", cuerpo, "la API no devuelve body_html"
-    if re.search(r'class="[^"]*\bpaywall\b', html) or post.get("is_truncated"):
-        return "extracto", cuerpo, "cuerpo truncado por el muro de pago"
-    if not cuerpo.strip():
-        return "extracto", cuerpo, "cuerpo vacío tras la conversión"
-    return "completo", cuerpo, ""
-
-
-def contenido_articulo(post: dict, estado: str, cuerpo: str, firma: str) -> str:
-    campos = [
-        ("id", post.get("id")),
-        ("titulo", post.get("title") or ""),
-        ("subtitulo", post.get("subtitle") or ""),
-        ("fecha", post.get("post_date") or ""),
-        ("url", post.get("canonical_url") or ""),
-        ("tipo", post.get("type") or ""),
-        ("audiencia", post.get("audience") or ""),
-        ("estado", estado),
-        ("huella", firma),
-    ]
-    cabecera = "\n".join(f"{clave}: {_yaml(valor)}" for clave, valor in campos)
-    return f"---\n{cabecera}\n---\n\n{normalizar(cuerpo)}"
-
-
-def nombre_archivo(post: dict) -> str:
-    fecha = (post.get("post_date") or "")[:10]
-    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", fecha):
-        fecha = "0000-00-00"
-    return f"{fecha}-{slug_seguro(post.get('slug') or str(post.get('id')))}.md"
-
-
-# --------------------------------------------------------------------------
-# Ejecución
-# --------------------------------------------------------------------------
-
-def _iso(momento: datetime) -> str:
-    return momento.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-
-class Ejecucion:
-    def __init__(self, raiz: Path, config: dict, obtener: FuncionRed,
-                 dormir: Callable[[float], None], reloj: Callable[[], datetime],
-                 limite: int | None, max_paginas: int):
-        self.raiz = raiz
-        self.config = config
-        self.reloj = reloj
-        self.limite = limite
-        self.max_paginas = max_paginas
-        self.cliente = ClienteSubstack(config["substack"], config["red"], obtener, dormir)
-        self.salida = raiz / CARPETA_SALIDA
-        self.dir_articulos = self.salida / "articulos"
-        self.dir_control = self.salida / "control"
-        inicio = reloj()
-        self.run_id = inicio.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-        self.informe = {
-            "run_id": self.run_id,
-            "inicio": _iso(inicio),
-            "fin": None,
-            "publicacion": config["substack"],
-            "limite": limite,
-            "estado": "en_curso",
-            "codigo_salida": None,
-            "paginacion": {"paginas_leidas": 0, "terminada": False, "estado": "pendiente",
-                           "motivo": ""},
-            "articulos_en_archivo": 0,
-            "contadores": {"nuevos": 0, "actualizados": 0, "sin_cambios": 0,
-                           "extractos": 0, "errores": 0},
-            "cambios": [],
-            "incidencias": [],
-            "errores": [],
-        }
-        self.inventario = self._leer_inventario()
-
-    # -- inventario
-    def _ruta_inventario(self) -> Path:
-        return self.dir_control / "inventario.json"
-
-    def _leer_inventario(self) -> dict:
-        ruta = self._ruta_inventario()
-        if ruta.exists():
-            try:
-                datos = json.loads(ruta.read_text(encoding="utf-8"))
-            except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
-                raise ErrorConfiguracion(f"inventario ilegible, no se toca: {ruta}: {error}") from error
-            if not isinstance(datos, dict) or not isinstance(datos.get("articulos", {}), dict):
-                raise ErrorConfiguracion(f"inventario con formato inesperado, no se toca: {ruta}")
-            datos.setdefault("articulos", {})
-            return datos
-        return {"version": 1, "publicacion": self.config["substack"], "articulos": {}}
-
-    def _rel(self, ruta: Path) -> str:
-        return ruta.relative_to(self.raiz).as_posix()
-
-    # -- paginación
-    def recorrer_archivo(self) -> list[dict] | None:
-        pag = self.informe["paginacion"]
-        vistos: dict[str, dict] = {}
-        offset = 0
-        while True:
-            if pag["paginas_leidas"] >= self.max_paginas:
-                pag.update(estado="incompleta", motivo=f"tope de seguridad de {self.max_paginas} páginas alcanzado")
-                self._error("paginacion", f"offset={offset}", pag["motivo"])
-                break
-            datos, motivo = self.cliente.pedir_json(
-                f"/api/v1/archive?sort=new&offset={offset}&limit={TAMANO_PAGINA}")
-            if datos is not None and isinstance(datos, dict):
-                datos = datos.get("posts")
-            if datos is not None and not isinstance(datos, list):
-                datos, motivo = None, "la página del archivo no es una lista"
-            if datos is None:
-                if pag["paginas_leidas"] == 0:
-                    pag.update(estado="fallida", motivo=f"archivo inaccesible (offset={offset}): {motivo}")
-                    self._error("paginacion", f"offset={offset}", motivo)
-                    return None
-                pag.update(estado="incompleta", motivo=f"falló la página offset={offset}: {motivo}")
-                self._error("paginacion", f"offset={offset}", motivo)
-                break
-            pag["paginas_leidas"] += 1
-            if not datos:
-                pag.update(estado="completa", terminada=True, motivo="página vacía alcanzada")
-                break
-            for item in datos:
-                if isinstance(item, dict) and item.get("id") is not None and item.get("slug"):
-                    vistos.setdefault(str(item["id"]), item)
-            offset += len(datos)
-            if self.limite is not None and len(vistos) >= self.limite:
-                pag.update(estado="limitada", motivo=f"detenida por --limite {self.limite}")
-                break
-        lista = list(vistos.values())
-        if self.limite is not None:
-            lista = lista[: self.limite]
-        self.informe["articulos_en_archivo"] = len(lista)
-        return lista
-
-    # -- registro
-    def _error(self, ambito: str, referencia: str, motivo: str, **extra):
-        self.informe["errores"].append({"ambito": ambito, "referencia": referencia,
-                                        "motivo": motivo, **extra})
-
-    def _cambio(self, tipo: str, registro: dict, motivo: str):
-        self.informe["cambios"].append({"tipo": tipo, "id": registro["id"], "slug": registro["slug"],
-                                        "archivo": registro["archivo"], "motivo": motivo})
-
-    def _incidencia(self, id_: str, slug: str, motivo: str, ahora: str):
-        self.informe["incidencias"].append({"id": id_, "slug": slug, "motivo": motivo})
-        registro = self.inventario["articulos"].get(id_)
-        if registro is not None:
-            registro["ultima_incidencia"] = {"fecha": ahora, "motivo": motivo}
-
-    # -- artículo
-    def procesar(self, item: dict):
-        cont = self.informe["contadores"]
-        id_ = str(item["id"])
-        slug = item["slug"]
-        ahora = _iso(self.reloj())
-        existente = self.inventario["articulos"].get(id_)
-
-        post, motivo = self.cliente.pedir_json(f"/api/v1/posts/{slug}")
-        if post is not None and (not isinstance(post, dict) or str(post.get("id")) != id_):
-            post, motivo = None, "la respuesta no corresponde al id del archivo"
-        if post is None:
-            cont["errores"] += 1
-            self._error("articulo", slug, motivo, id=id_)
-            if existente:
-                self._incidencia(id_, slug, f"error al obtenerlo ({motivo}); se conserva la copia", ahora)
-            return
-
-        estado, cuerpo, motivo_estado = clasificar(post)
-        firma = huella(cuerpo)
-        if estado == "extracto":
-            cont["extractos"] += 1
-        texto = contenido_articulo(post, estado, cuerpo, firma)
-        datos_metricas = metricas(post, ahora)
-
-        if existente and existente.get("estado") == "completo" and estado != "completo":
-            existente["metricas"] = datos_metricas
-            existente["ultima_comprobacion"] = ahora
-            cont["sin_cambios"] += 1
-            self._incidencia(id_, slug, f"llega como extracto ({motivo_estado}); se conserva la copia completa", ahora)
-            return
-
-        destino = self._destino(post, id_)
-        anterior = self.raiz / existente["archivo"] if existente else None
-
-        if existente is None:
-            escribir_atomico(destino, texto)
-            registro = {
-                "id": post.get("id"), "slug": slug, "titulo": post.get("title") or "",
-                "fecha": post.get("post_date") or "", "url": post.get("canonical_url") or "",
-                "archivo": self._rel(destino), "estado": estado, "huella": firma,
-                "metricas": datos_metricas, "primera_descarga": ahora,
-                "ultima_comprobacion": ahora, "ultima_modificacion": ahora,
-                "slugs_anteriores": [], "ultima_incidencia": None,
-            }
-            self.inventario["articulos"][id_] = registro
-            cont["nuevos"] += 1
-            self._cambio("nuevo", registro, estado if not motivo_estado else f"{estado}: {motivo_estado}")
-        elif existente.get("huella") == firma and anterior.exists() \
-                and anterior.read_text(encoding="utf-8") == texto and anterior == destino:
-            cont["sin_cambios"] += 1
-        elif existente.get("huella") == firma and anterior.exists():
-            # Mismo contenido, distinto slug, título u otros metadatos: se reescribe sin historial.
-            escribir_atomico(destino, texto)
-            if anterior != destino:
-                anterior.unlink()
-            cont["actualizados"] += 1
-            motivos = self._diferencias(existente, post, destino)
-            self._actualizar_registro(existente, post, destino, estado, firma, ahora, contenido=False)
-            self._cambio("metadatos", existente, motivos)
-        else:
-            if anterior is not None and anterior.exists():
-                self._guardar_historial(id_, anterior)
-                motivo_cambio = "contenido modificado; versión anterior en historial"
-            else:
-                motivo_cambio = "archivo local ausente; se vuelve a guardar"
-            escribir_atomico(destino, texto)
-            if anterior is not None and anterior != destino and anterior.exists():
-                anterior.unlink()
-            cont["actualizados"] += 1
-            self._actualizar_registro(existente, post, destino, estado, firma, ahora, contenido=True)
-            self._cambio("contenido", existente, motivo_cambio)
-
-        registro = self.inventario["articulos"][id_]
-        registro["metricas"] = datos_metricas
-        registro["ultima_comprobacion"] = ahora
-        escribir_si_cambia(self.dir_control / "originales" / f"{id_}.json", a_json(post))
-
-    def _destino(self, post: dict, id_: str) -> Path:
-        destino = self.dir_articulos / nombre_archivo(post)
-        ocupado = any(r.get("archivo") == self._rel(destino) and k != id_
-                      for k, r in self.inventario["articulos"].items())
-        if ocupado:
-            destino = destino.with_name(f"{destino.stem}-{id_}.md")
-        return destino
-
-    def _diferencias(self, registro: dict, post: dict, destino: Path) -> str:
-        cambios = []
-        if registro.get("slug") != post.get("slug"):
-            cambios.append(f"slug '{registro.get('slug')}' -> '{post.get('slug')}'")
-        if registro.get("titulo") != (post.get("title") or ""):
-            cambios.append("título")
-        if registro.get("archivo") != self._rel(destino) and not cambios:
-            cambios.append("nombre de archivo")
-        return "metadatos cambiados: " + (", ".join(cambios) or "cabecera") + "; mismo contenido"
-
-    def _actualizar_registro(self, registro, post, destino, estado, firma, ahora, contenido):
-        if registro.get("slug") != post.get("slug"):
-            registro.setdefault("slugs_anteriores", []).append(registro.get("slug"))
-        registro.update(slug=post.get("slug"), titulo=post.get("title") or "",
-                        fecha=post.get("post_date") or "", url=post.get("canonical_url") or "",
-                        archivo=self._rel(destino), estado=estado, huella=firma)
-        if contenido:
-            registro["ultima_modificacion"] = ahora
-
-    def _guardar_historial(self, id_: str, anterior: Path):
-        carpeta = self.dir_control / "historial" / id_
-        ruta = carpeta / f"{self.run_id}.md"
-        n = 1
-        while ruta.exists():
-            n += 1
-            ruta = carpeta / f"{self.run_id}-{n}.md"
-        escribir_atomico(ruta, anterior.read_text(encoding="utf-8"))
-
-    # -- índice
-    def generar_indice(self):
-        registros = sorted(self.inventario["articulos"].values(),
-                           key=lambda r: (r.get("fecha") or "", str(r.get("id"))), reverse=True)
-        lineas = ["# Índice de artículos publicados", "",
-                  "Generado por `recuperar-newsletters`. No se edita a mano.", "",
-                  f"Total: {len(registros)} artículos.", "",
-                  "| Fecha | Título | Estado | Archivo |", "|---|---|---|---|"]
-        for r in registros:
-            titulo = (r.get("titulo") or "").replace("|", "\\|")
-            archivo = Path(r["archivo"]).name
-            lineas.append(f"| {(r.get('fecha') or '')[:10]} | {titulo} | {r.get('estado')} | "
-                          f"[{archivo}](articulos/{archivo}) |")
-        escribir_si_cambia(self.salida / "INDICE.md", "\n".join(lineas) + "\n")
-
-    def guardar(self):
-        self.inventario["publicacion"] = self.config["substack"]
-        self.inventario["articulos"] = dict(sorted(self.inventario["articulos"].items()))
-        escribir_si_cambia(self._ruta_inventario(), a_json(self.inventario))
-        self.generar_indice()
-
-    def guardar_informe(self, estado: str, codigo: int):
-        self.informe.update(fin=_iso(self.reloj()), estado=estado, codigo_salida=codigo)
-        ruta = self.dir_control / "ejecuciones" / f"{self.run_id}.json"
-        n = 1
-        while ruta.exists():
-            n += 1
-            ruta = ruta.with_name(f"{self.run_id}-{n}.json")
-        escribir_atomico(ruta, a_json(self.informe))
-        self.informe["ruta_informe"] = self._rel(ruta)
-
-    def ejecutar(self) -> int:
-        try:
-            lista = self.recorrer_archivo()
-            if lista is None:
-                self.guardar_informe("fallida", 2)
-                return 2
-            for item in lista:
-                self.procesar(item)
-            self.guardar()
-        except KeyboardInterrupt:
-            self.guardar()
-            self.informe["paginacion"]["motivo"] += " (ejecución interrumpida)"
-            self.guardar_informe("interrumpida", 1)
-            raise
-        incompleta = self.informe["paginacion"]["estado"] == "incompleta"
-        codigo = 1 if incompleta or self.informe["contadores"]["errores"] else 0
-        self.guardar_informe("con_errores" if codigo else "correcta", codigo)
-        return codigo
-
-
-def ejecutar(raiz: Path, config: dict, obtener: FuncionRed = obtener_http,
-             dormir: Callable[[float], None] = time.sleep,
-             reloj: Callable[[], datetime] = lambda: datetime.now(timezone.utc),
-             limite: int | None = None, max_paginas: int = MAX_PAGINAS) -> tuple[int, dict]:
-    ejecucion = Ejecucion(raiz, config, obtener, dormir, reloj, limite, max_paginas)
-    codigo = ejecucion.ejecutar()
-    return codigo, ejecucion.informe
-
-
-def resumen(informe: dict) -> str:
-    c, p = informe["contadores"], informe["paginacion"]
-    lineas = [
-        f"Ejecución {informe['run_id']}: {informe['estado']} (código {informe['codigo_salida']})",
-        f"Paginación: {p['estado']}, {p['paginas_leidas']} páginas leídas. {p['motivo']}",
-        f"Artículos revisados: {informe['articulos_en_archivo']}",
-        f"Nuevos: {c['nuevos']} | Actualizados: {c['actualizados']} | Sin cambios: {c['sin_cambios']} | "
-        f"Extractos: {c['extractos']} | Errores: {c['errores']}",
-    ]
-    for cambio in informe["cambios"]:
-        lineas.append(f"  + [{cambio['tipo']}] {cambio['archivo']}: {cambio['motivo']}")
-    for incidencia in informe["incidencias"]:
-        lineas.append(f"  ! {incidencia['slug']}: {incidencia['motivo']}")
-    for error in informe["errores"]:
-        lineas.append(f"  x [{error['ambito']}] {error['referencia']}: {error['motivo']}")
-    if informe["codigo_salida"] == 2:
-        lineas.append("NO SE PUDO CONSULTAR SUBSTACK: no se ha comprobado si hay novedades. "
-                      "No se ha modificado ningún artículo.")
-    elif p["estado"] == "incompleta" or c["errores"]:
-        lineas.append("ATENCIÓN: resultado parcial. Esto no significa que no haya novedades.")
-    elif not informe["cambios"]:
-        lineas.append("Archivo recorrido sin errores: sin novedades.")
-    if informe.get("ruta_informe"):
-        lineas.append(f"Informe: {informe['ruta_informe']}")
-    return "\n".join(lineas)
-
-
-def main(argv: list[str] | None = None, obtener: FuncionRed = obtener_http) -> int:
-    for flujo in (sys.stdout, sys.stderr):
-        try:
-            flujo.reconfigure(errors="replace")
-        except (AttributeError, ValueError):
-            pass
-    parser = argparse.ArgumentParser(description="Recupera y actualiza los artículos de Substack.")
-    parser.add_argument("--config", default="proyecto.config.json",
-                        help="ruta de la configuración; su carpeta es la raíz del proyecto")
-    parser.add_argument("--limite", type=int, default=None,
-                        help="procesa solo los N artículos más recientes")
-    args = parser.parse_args(argv)
-    if args.limite is not None and args.limite < 1:
-        print("Error de configuración: --limite debe ser >= 1", file=sys.stderr)
-        return 2
-    ruta = Path(args.config).resolve()
+def main(argv=None) -> int:
+    analizador = argparse.ArgumentParser(description="Recupera el archivo de una newsletter de Substack.")
+    analizador.add_argument("--config", default="proyecto.config.json", help="Ruta a proyecto.config.json")
+    analizador.add_argument("--limite", type=int, default=None, help="Procesa solo los n articulos mas recientes")
+    argumentos = analizador.parse_args(argv)
     try:
-        config = leer_config(ruta)
-    except ErrorConfiguracion as error:
-        print(f"Error de configuración: {error}", file=sys.stderr)
+        recuperador = Recuperador(Path(argumentos.config))
+    except ErrorConfiguracion as exc:
+        print(f"ERROR de configuracion: {exc}", file=sys.stderr)
         return 2
-    try:
-        codigo, informe = ejecutar(ruta.parent, config, obtener=obtener, limite=args.limite)
-    except ErrorConfiguracion as error:
-        print(f"Error: {error}", file=sys.stderr)
-        return 2
-    print(resumen(informe))
-    return codigo
+    return recuperador.ejecutar(limite=argumentos.limite)
 
 
 if __name__ == "__main__":

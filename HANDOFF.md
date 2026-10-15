@@ -1,104 +1,47 @@
 # Handoff: sistema editorial Think&Hack
 
-Fecha: 2026-10-14. Proyecto: `C:\Users\uatb8a\Repositorios\conia` (no es repositorio Git todavía).
+Fecha: 2026-10-15. Proyecto: `D:\pc-yoga\Ponencias\conia`. Repositorio: **https://github.com/seoutopico/sistema-editorial-agentico** (privado).
 
-## 1. Qué se está construyendo
+## 1. Qué es
 
-Un proceso agéntico para crear contenido de Think&Hack (https://ainalluna.substack.com) a partir de **oportunidades reales**:
+Un proceso agéntico para crear contenido de Think&Hack (https://ainalluna.substack.com) a partir de **oportunidades reales**, en 5 fases: revisar lo publicado, encontrar oportunidades, investigar y desarrollar, adaptar y aprender. El plano completo y fuente de verdad es **`ARQUITECTURA.md`**; el estado por prompt está en la tabla del `README.md`.
 
-1. **Revisar lo publicado:** qué temas se han tratado y desde qué perspectiva.
-2. **Encontrar oportunidades:** temas relevantes todavía no desarrollados.
-3. **Investigar y desarrollar:** contrastar fuentes y escribir un contenido principal sólido.
-4. **Adaptar:** preparar las piezas para cada canal.
-5. **Aprender:** usar lo publicado, lo que funcionó, los descartes y las correcciones la próxima vez.
+## 2. Estado: SISTEMA COMPLETO Y EJECUTADO
 
-**Entregable:** una serie de prompts (`prompts/00…08`) que cualquiera puede ejecutar en orden, en una carpeta vacía, para montar el sistema. Cada prompt **crea** una skill. Además servirá para una presentación y se compartirá en Git.
+- **Las 8 skills construidas** (prompts 00–08 ejecutados, cada uno en un subagente limpio) y **165 tests en verde** (`python -m unittest discover .agents/skills/<skill>/scripts`).
+- **Fase 1 ejecutada con datos reales:** 55 artículos descargados, 55 fichas, `biblioteca/mapa-temas.md` (temas + subtemas + tesis por artículo) y `biblioteca/estilo.md`.
+- **Fase 2 ejecutada con datos reales:** 150 vídeos de 5 canales (yt-dlp, sin API key), 100 clasificados por relevancia, 16 fichas de vídeo con subtemas, `biblioteca/youtube/mapa-videos.md`, y oportunidades en `biblioteca/oportunidades/` con `INDICE.md` + calendario sugerido.
+- **Carpeta de agente portable** en `carpeta-agente/` (+ `carpeta-agente.zip`, fuera de Git): el sistema empaquetado con AGENTS.md para subirlo a Claude Cowork o ChatGPT Work (`COMO-SUBIRLA.md`).
 
-## 2. Cómo quiere trabajar la usuaria
+## 3. Decisiones importantes tomadas en la sesión de 2026-10-14/15
 
-- **Los prompts piden construir, no copiar.** Nunca deben depender de sus repos de demo, como `seoutopico/newsletters-a-notes-work` o `seoutopico/claude_skills/youtube-channel-research`. Un prompt que dice "usa", "adapta" o "revisa como referencia" una skill existente está mal. Ese error se repitió varias veces en la sesión anterior y es lo que más la frustró.
-- **Diseño antes que código.** Pensar el proceso entero como lo haría un ingeniero y no crear carpetas o archivos sobre la marcha.
-- **Simplificar es pensar mejor, no quitar.** Estructura sencilla y escalable.
-- **Ciclo de cada prompt:** redactar, revisarlo con ella, guardarlo y ejecutarlo. No adelantar pasos.
-- **Directo y sin dar la razón por sistema.** Explicar qué se va a hacer y cómo, y hacerlo bien.
-- **Scripts deterministas y plantillas fijas** para ahorrar tokens y obtener siempre la misma salida.
-- Responder en español.
+1. **YouTube sin API**: todo con `yt-dlp` (listado plano con fecha en `upload_date` o `timestamp` según versión) y `youtube-transcript-api` como **vía alternativa de subtítulos** cuando YouTube devuelve HTTP 429 (frecuente en ráfagas). Sin claves en `.env`.
+2. **`recursos` en `proyecto.config.json`**: herramientas, hardware y `fuera_de_alcance` (edición de vídeo; hardware caro/GPU). La relevancia y la evaluación de oportunidades filtran con ello: una aportación no ejecutable por Aina no es oportunidad.
+3. **Grano fino en oportunidades**: una oportunidad por historia coherente. Agrupación por entidades **discriminantes** (se excluyen las ubicuas del nicho): Jaccard ≥ 0,5 o 2+ comunes. La regla de interés "2+ canales" se calcula a nivel de tema.
+4. **Control de vocabulario** en `analizar-biblioteca`: `guardar` avisa de subtemas/entidades casi-duplicados; comando `vocabulario` para limpiezas; `pendientes` y `pendientes-ficha` devuelven el vocabulario existente para reutilizar.
+5. **Clasificador de fórmulas de título** (`references/formulas-titulo.json` en explorar-youtube, 18 fórmulas propias en castellano): etiqueta el "porqué aparente" del título y cuenta fórmulas dominantes del nicho. Nota de honestidad: describe palabras, no explica el éxito.
+6. **Mapas para humanos**: `mapa-temas.md` incluye subtemas y la tesis de cada artículo; `mapa-videos.md` es su espejo (tesis, demuestra, promete sin demostrar, preguntas abiertas). Los JSON son para los scripts; los mapas, para la persona.
+7. **Los descartes son memoria**: dos oportunidades descartadas por Aina (vídeo; GPU) frenan automáticamente re-proponer esos ángulos salvo `razon_nueva` genuina.
+8. **Regla de trabajo**: de skills/repos externos, inspiración, nunca copia literal y **nunca citar la fuente** en los artefactos del proyecto.
 
-## 3. Decisiones tomadas
+## 4. Cómo se usa cada semana
 
-El plano completo está en **`ARQUITECTURA.md`**, que es la fuente de verdad. Lo esencial:
+Ver sección "Uso cada semana" del `README.md` (comandos reales por fase). Puntos de control humanos: elegir oportunidad (cambiar `estado:` en su frontmatter), aprobar investigación, aprobar texto.
 
-- **Tres piezas:**
-  - `prompts/`: un prompt por skill.
-  - `.agents/skills/<skill>/`: `SKILL.md`, `scripts/` y `references/`.
-  - `biblioteca/`: memoria central, con una carpeta por fuente.
-- **Ocho skills:**
-  1. `recuperar-newsletters`
-  2. `analizar-biblioteca`
-  3. `explorar-youtube`
-  4. `detectar-oportunidades`
-  5. `investigar-tema`
-  6. `redactar-contenido`
-  7. `adaptar-contenido`
-  8. `registrar-resultado`
-- **Script para lo repetible, modelo para el juicio.** Los análisis se guardan como **fichas JSON con esquema fijo**, que son el contrato entre pasos, con caché por huella.
-- **Escalar:** una fuente nueva es otra carpeta `biblioteca/<fuente>/` más una skill `explorar-<fuente>` que produce fichas externas con el mismo esquema.
-- **YouTube:**
-  - Datos y métricas con YouTube Data API v3.
-  - Señal de interés: visualizaciones / mediana del propio canal; alto si es ≥ 2.
-  - Relevancia: el modelo clasifica todos los títulos en un lote.
-  - Contenido: subtítulos con `yt-dlp`.
-  - Ficha por vídeo: distingue lo que demuestra de lo que promete sin demostrar.
-- **Cruce con lo publicado:**
-  - Un script hace BM25 en Python puro para encontrar los artículos y descartes parecidos.
-  - El modelo lee el texto completo de esos artículos y decide si el tema es `nuevo`, una `ampliación` o está `cubierto`.
-- **Oportunidad:** debe cumplir cuatro condiciones a la vez: interés real, encaje con la línea editorial, que no esté cubierta y una aportación concreta nuestra. No hay puntuación única: los criterios quedan visibles y decide la persona.
-- **Puntos de control humanos:** elegir la oportunidad, aprobar la investigación y aprobar el texto.
-- **Configuración:**
-  - `proyecto.config.json`: publicación, línea editorial, canales de salida, parámetros de YouTube y de red.
-  - `biblioteca/youtube/canales.md`: lista simple de URLs.
-  - Claves en `.env`.
-- **Git:** se excluye todo `biblioteca/` salvo `youtube/canales.md`.
+## 5. Pendiente / siguiente
 
-## 4. Estado de los archivos
-
-Repositorio: **https://github.com/seoutopico/sistema-editorial-agentico** (privado).
-
-| Archivo | Estado |
-|---|---|
-| `ARQUITECTURA.md` | Plano completo y aprobado. Es la fuente de verdad. |
-| `prompts/00-crear-estructura.md` | **Ejecutado y validado** por la usuaria en otra sesión. Crea la base e incluye `ARQUITECTURA.md` íntegro como anexo. |
-| `prompts/01` … `08` | **Escritos.** Cada uno crea una skill como especificación autónoma, sin repos de demo. |
-| `README.md`, `.gitignore`, `proyecto.config.json`, `.env.example`, `requirements.txt`, `biblioteca/youtube/canales.md` | Creados por el prompt 00. |
-| `.agents/skills/recuperar-newsletters/` | **Sin verificar.** Un subagente estaba ejecutando el prompt 01 cuando se subió el repositorio; puede estar a medias o ser la versión antigua. **Hay que volver a ejecutar el prompt 01.** |
-| `HANDOFF.md` | Este documento. |
-
-**Importante:** si cambia `ARQUITECTURA.md`, hay que regenerar el anexo del prompt 00. El prompt se construye concatenando la cabecera, que va hasta la línea `## Anexo: contenido de ARQUITECTURA.md` y el bloque ````markdown que la sigue, con el contenido de `ARQUITECTURA.md`, y cerrando con ````.
-
-## 5. Siguientes pasos
-
-La usuaria pidió **"construye todo ya y al acabar sube todo a mi cuenta git seoutopico"**. El método acordado es este:
-
-1. **Ejecutar los prompts 01 a 08 en orden, cada uno en un subagente nuevo y sin contexto previo,** dentro de la raíz del repositorio. Así se prueba que cada prompt basta por sí solo.
-   - Mensaje para el subagente: "Ejecuta tal cual el prompt `prompts/0X-….md` en este proyecto. No busques repositorios externos ni descargues datos reales. Devuelve el árbol, el resultado real de las pruebas, las ambigüedades del prompt y las propuestas de diseño."
-   - En el 01: la skill antigua `recuperar-newsletters` se sustituye entera; la usuaria lo ha autorizado.
-2. **Revisar cada informe antes de lanzar el siguiente.** Si el prompt tenía huecos, se corrige el prompt, no solo el código, y se registra en este documento.
-3. **Al final:** ejecutar todas las pruebas (`python -m unittest discover -s .agents/skills -p "test_*.py"`, o las de cada skill), actualizar el README, hacer commit y push.
-4. **Después,** cuando la usuaria lo decida, primera ejecución real: `recuperar-newsletters --limite 5`.
+- Aina debe revisar: la sección `recursos` de `proyecto.config.json` (deducida de sus artículos), `biblioteca/oportunidades/INDICE.md` (propuestas y calendario) y `biblioteca/youtube/informe-canales.md` (recomendación sobre `canales.md`).
+- Fase 3 en adelante (`investigar-tema` → `redactar-contenido` → `adaptar-contenido`) se lanza cuando Aina marque una oportunidad como `aceptada`.
+- `registrar-resultado` se ejecuta tras publicar.
 
 ## 6. Cómo continuar en otro PC
 
 ```text
-gh auth login                      # Entrar con la cuenta seoutopico
+gh auth login                      # cuenta seoutopico
 gh repo clone seoutopico/sistema-editorial-agentico
 cd sistema-editorial-agentico
-pip install -r requirements.txt    # Cuando las skills añadan dependencias
+pip install -r requirements.txt
 claude
 ```
 
-En Claude Code: "Lee HANDOFF.md y ARQUITECTURA.md y continúa desde el paso 5."
-
-## 7. Fuera de alcance por ahora
-
-- No ejecutar descargas reales de Substack ni de YouTube hasta que la skill correspondiente esté validada.
-- No hace falta `YOUTUBE_API_KEY` hasta ejecutar `explorar-youtube` de verdad. Se pone en `.env`, que nunca se sube.
+En Claude Code: "Lee HANDOFF.md y ARQUITECTURA.md y continúa desde el punto 5 del handoff."

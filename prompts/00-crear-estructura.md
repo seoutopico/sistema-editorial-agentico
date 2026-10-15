@@ -10,11 +10,7 @@ Crea `ARQUITECTURA.md` con el contenido exacto del anexo de este prompt. Es el p
 
 Crea `proyecto.config.json` con el ejemplo de la sección 5 del anexo. Son los valores de Think&Hack. Otra persona solo cambia este archivo y su lista de canales.
 
-Crea `.env.example` con esta línea y un comentario que explique para qué sirve y dónde obtenerla:
-
-```text
-YOUTUBE_API_KEY=
-```
+Crea `.env.example` solo con un comentario: no hace falta ninguna variable obligatoria (YouTube se consulta con `yt-dlp`, sin clave de API); las variables opcionales futuras se documentarán ahí.
 
 Crea `requirements.txt` vacío, con un comentario que indique que cada skill añade aquí sus dependencias.
 
@@ -72,6 +68,10 @@ Al terminar, muestra:
 ## Anexo: contenido de ARQUITECTURA.md
 
 ````markdown
+# Arquitectura del sistema editorial
+
+> Define el sistema completo. Cada prompt de `prompts/` construye una parte de este diseño y no puede contradecirlo. Si el diseño cambia, se cambia primero este documento.
+
 # Arquitectura del sistema editorial
 
 > Define el sistema completo. Cada prompt de `prompts/` construye una parte de este diseño y no puede contradecirlo. Si el diseño cambia, se cambia primero este documento.
@@ -143,7 +143,7 @@ El sistema se monta **ejecutando los prompts de `prompts/` en orden, en una carp
 ├── README.md                     # Qué es, cómo montarlo y cómo usarlo cada semana
 ├── ARQUITECTURA.md               # Este documento: estructura, contratos y cálculos
 ├── proyecto.config.json          # Lo que cambia cada persona (sin secretos)
-├── .env.example                  # Variables necesarias, por ejemplo YOUTUBE_API_KEY
+├── .env.example                  # Variables de entorno opcionales; ninguna es obligatoria
 ├── requirements.txt              # Dependencias Python de todas las skills
 ├── .gitignore
 ├── prompts/                      # Un prompt por pieza, ejecutados en orden
@@ -206,6 +206,12 @@ El sistema se monta **ejecutando los prompts de `prompts/` en orden, en una carp
     "aportacion": "Probar las cosas y explicar el proceso real, con lo que funciona y lo que no"
   },
   "canales_salida": ["substack", "linkedin", "notes"],
+  "recursos": {
+    "herramientas": ["ChatGPT Plus (Codex, Projects, Work)", "Claude (Claude Code, Cowork)", "n8n", "Obsidian", "Substack", "WordPress"],
+    "hardware": "PC Windows de consumo, sin GPU para modelos locales grandes",
+    "formatos_que_domina": ["texto y capturas", "procesos y sistemas con agentes", "datos y hojas de cálculo"],
+    "fuera_de_alcance": ["edición y producción de vídeo", "pruebas que exijan hardware caro o infraestructura propia"]
+  },
   "youtube": {
     "videos_por_canal": 30,
     "ventana_dias": 60,
@@ -217,7 +223,7 @@ El sistema se monta **ejecutando los prompts de `prompts/` en orden, en una carp
 }
 ```
 
-`linea_editorial` es la referencia con la que el modelo decide qué es relevante y qué podemos aportar.
+`linea_editorial` es la referencia con la que el modelo decide qué es relevante y qué podemos aportar. `recursos` acota la aportación: qué herramientas, hardware y formatos tiene la persona; una aportación que no puede ejecutarse con esos recursos no es una oportunidad.
 
 ## 6. Datos: las fichas
 
@@ -230,7 +236,7 @@ Las fichas son el contrato entre pasos. Sus esquemas se guardan en `references/`
   "id": "…", "url": "…", "fecha": "…", "titulo": "…", "huella": "sha256…",
   "tema": "Agentes para automatizar la investigación",
   "subtemas": ["…"],
-  "enfoque": "Tutorial con prueba propia | opinión | caso | recopilación",
+  "enfoque": "tutorial con prueba propia | opinión | caso | recopilación | explicación | entrevista",
   "tesis": "Una frase con la idea central",
   "entidades": ["Claude Code", "n8n"],
   "nivel": "inicial | intermedio | avanzado",
@@ -252,7 +258,8 @@ Las fichas son el contrato entre pasos. Sus esquemas se guardan en `references/`
   "demuestra": "Lo que el vídeo enseña funcionando",
   "promete_sin_demostrar": "Lo que afirma sin enseñarlo",
   "preguntas_abiertas": ["…"],
-  "senales": { "multiplo_mediana": 3.1, "interacción": 0.042, "dias": 21 }
+  "avisos_transcripcion": ["Punto confuso del audio, si lo hay (opcional)"],
+  "senales": { "multiplo_mediana": 3.1, "interaccion": 0.042, "dias": 21 }
 }
 ```
 
@@ -262,7 +269,7 @@ Las fichas son el contrato entre pasos. Sus esquemas se guardan en `references/`
 |---|---|---|---|---|---|
 | 1 | `recuperar-newsletters` | Recorre el archivo público de Substack, descarga, compara huellas y versiona | — | config | `substack/articulos`, `control`, `INDICE.md` |
 | 2 | `analizar-biblioteca` | Detecta artículos sin ficha o cambiados; agrega las fichas en el mapa | Rellena la ficha de cada artículo; extrae el estilo | artículos | `substack/fichas`, `mapa-temas.md`, `estilo.md` |
-| 3 | `explorar-youtube` | Consulta la API, calcula señales, descarga y limpia subtítulos | Clasifica relevancia por título; rellena la ficha de cada candidato | `canales.md`, config | `youtube/videos`, `youtube/control` |
+| 3 | `explorar-youtube` | Lista los canales con `yt-dlp`, calcula señales, descarga y limpia subtítulos | Clasifica relevancia por título; rellena la ficha de cada candidato | `canales.md`, config | `youtube/videos`, `youtube/control` |
 | 4 | `detectar-oportunidades` | Busca artículos y descartes parecidos a cada ficha; agrupa temas repetidos | Decide la cobertura, la aportación y redacta la propuesta | fichas externas y propias, `decisiones.md` | `oportunidades/` |
 | 5 | `investigar-tema` | Guarda fuentes y comprueba enlaces | Busca fuentes primarias y verifica afirmaciones | oportunidad aceptada | `contenidos/<id>/investigacion.md` |
 | 6 | `redactar-contenido` | — | Escribe con la voz de `estilo.md` | investigación, `estilo.md` | `contenidos/<id>/principal.md` |
@@ -285,16 +292,15 @@ El resto lo hace la sesión principal invocando skills.
 
 ### 8.2 Explorar YouTube
 
-1. **Recogida** con YouTube Data API v3, unas 3 unidades de cuota por canal sobre un límite diario de 10.000:
-   - `channels.list` para pasar del handle a la playlist de subidas.
-   - `playlistItems.list` para obtener los N vídeos recientes.
-   - `videos.list` para estadísticas y duración, en lotes de 50.
+1. **Recogida** con `yt-dlp`, sin clave de API ni cuota:
+   - `yt-dlp --flat-playlist -J --extractor-args "youtubetab:approximate_date" <url-del-canal>/videos` devuelve en una sola llamada los vídeos recientes del canal con id, título, visualizaciones, duración y fecha aproximada. Se toman los N configurados.
+   - Los metadatos completos (fecha exacta, likes, comentarios, descripción) se obtienen con `yt-dlp -J <url-del-vídeo>` solo para los candidatos, que son pocos.
 2. **Señales** por vídeo, calculadas sobre su propio canal:
    - **Múltiplo de la mediana** = visualizaciones / mediana del canal (solo vídeos de formato largo). Corrige el tamaño del canal: 50.000 visitas son mucho en un canal pequeño y poco en uno grande.
-   - **Interacción** = (likes + comentarios) / visualizaciones.
+   - **Interacción** = (likes + comentarios) / visualizaciones. Se calcula al obtener los metadatos completos de los candidatos; hasta entonces es `null`.
    - Los vídeos de menos de 7 días se marcan como *señal incompleta* y no entran en la mediana.
    - **Interés:** alto si el múltiplo es ≥ 2; medio si está entre 1 y 2; bajo si es < 1.
-3. **Relevancia:** el modelo clasifica en un solo lote los títulos y descripciones de la ejecución frente a `linea_editorial`. Devuelve `relevante: sí/no` y un `tema` corto. Es barato porque no lee transcripciones.
+3. **Relevancia:** el modelo clasifica en un solo lote los títulos (y la descripción cuando está disponible) de la ejecución frente a `linea_editorial`. Devuelve `relevante: sí/no` y un `tema` corto. Es barato porque no lee transcripciones.
 4. **Candidatos:** vídeos relevantes, de formato largo, dentro de la ventana y con interés medio o alto, o con un tema que aparece en 2 o más canales. Se ordenan por interés y se toman los K configurados.
 5. **Contenido:** `yt-dlp --skip-download --write-subs --write-auto-subs --sub-langs es,en` descarga los subtítulos. Un script elimina las líneas que los subtítulos automáticos repiten y conserva las marcas de tiempo en `transcripcion.md`. Si no hay subtítulos, se indica en la ficha; nunca se inventa el contenido.
 6. **Ficha del vídeo:** el modelo lee la transcripción y rellena la ficha externa. Distingue lo que **demuestra** de lo que **promete sin demostrar**. Si el vídeo ya tiene ficha, no se vuelve a leer: una actualización de visualizaciones no cambia el contenido.
@@ -317,7 +323,7 @@ Un tema es oportunidad solo si cumple **las cuatro condiciones**:
 | **Interés real** | Interés medio o alto, o presencia en 2 o más canales. Lo calcula un script. |
 | **Encaja con la línea editorial** | Clasificación de relevancia frente a la configuración. |
 | **No está cubierto** | Cobertura `nuevo` o `ampliación` tras leer los artículos parecidos. |
-| **Podemos aportar algo** | Una aportación concreta y comprobable. Sin aportación es copiar, no una oportunidad. |
+| **Podemos aportar algo** | Una aportación concreta, comprobable y **ejecutable con los `recursos` de la configuración** (herramientas, hardware, formatos). Sin aportación es copiar; con una aportación que la persona no puede ejecutar, es un deseo. |
 
 **Orden de prioridad:** interés, después número de canales y después cobertura (`nuevo` antes que `ampliación`). No se calcula una puntuación única: cada criterio queda visible y la persona decide.
 

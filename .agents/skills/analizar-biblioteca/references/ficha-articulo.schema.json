@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ficha de articulo propio (biblioteca/substack/fichas/<id>.json)",
+  "description": "Esquema de la seccion 6 de ARQUITECTURA.md mas el campo basada_en. Los campos id, url, fecha, titulo, huella, basada_en y metricas_publicas los impone el script desde el inventario; el resto los rellena el modelo.",
+  "type": "object",
+  "required": [
+    "id",
+    "url",
+    "fecha",
+    "titulo",
+    "huella",
+    "basada_en",
+    "tema",
+    "subtemas",
+    "enfoque",
+    "tesis",
+    "entidades",
+    "nivel",
+    "metricas_publicas"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "minLength": 1 },
+    "fecha": { "type": "string", "minLength": 1 },
+    "titulo": { "type": "string", "minLength": 1 },
+    "huella": { "type": "string", "minLength": 1 },
+    "basada_en": { "type": "string", "enum": ["completo", "extracto"] },
+    "tema": { "type": "string", "minLength": 1 },
+    "subtemas": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "enfoque": {
+      "type": "string",
+      "enum": [
+        "tutorial con prueba propia",
+        "opinión",
+        "caso",
+        "recopilación",
+        "explicación",
+        "entrevista"
+      ]
+    },
+    "tesis": { "type": "string", "minLength": 1 },
+    "entidades": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "nivel": { "type": "string", "enum": ["inicial", "intermedio", "avanzado"] },
+    "metricas_publicas": {
+      "type": "object",
+      "required": ["reacciones", "comentarios", "restacks"],
+      "properties": {
+        "reacciones": { "type": "integer" },
+        "comentarios": { "type": "integer" },
+        "restacks": { "type": "integer" }
+      }
+    }
+  }
+}
