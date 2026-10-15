@@ -1,0 +1,43 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "descripcion": "Get Kylon for your own business, first month FREE ($100 value), sign up through: https://app.kylon.io/c/p_rPCmMI32cB6JrauRRYrJIRujz5Iz30\nTo deploy Kylon for clients, book a call: https://cal.com/team/kylon/meet-kylon\n\n🗞️ Join 100K+ founders on my AI-for-business newsletter: https://liamottley.com/join\n🛠 Want me to rebuild YOUR business with AI? https://aimakeover.com\n\n💻 MY TECH STACK\nKylon (AIOS workspace): https://kylon.io/liam\nRailway (agent & web hosting): https://railway.com?referralCode=liam\nApify (web scraping): https://apify.com?fpr=makeover\nCodeRabbit (code review): https://coderabbit.link/liam-ottley-qcqw\nGlaido (voice transcription): https://get.glaido.com/liam-ottley\n\n📲 FOLLOW ME\nInstagram: https://instagram.com/liamottley\nLinkedIn: https://www.linkedin.com/in/liamottley\nX: https://twitter.com/liamottley_\n\nSome links above are affiliate links. Using them supports the channel at no extra cost.\n\nIn this video, Liam Ottley breaks down why he's moving away from custom Claude Code AI operating systems for client installs, after building AIOS setups for four businesses on-site and running group sessions with founders in Cape Town, Bali and Montenegro. He explains what an AI operating system actually is, why the setup time, founder training and agent hosting make it hard to hand off, and then walks through Kylon, the platform he's using instead: Slack for your team, n8n for your agents, and a Lovable-style app builder on one shared database. If you're an AI agency owner, an AI automation agency operator, or a founder trying to automate your business with AI agents without hiring a developer, this is how the AIOS install is changing.",
+  "duracion_segundos": 1386,
+  "estadisticas": {
+    "comentarios": 73,
+    "fecha_captura": "2026-10-14T19:37:12Z",
+    "likes": 461,
+    "visualizaciones": 128510
+  },
+  "fecha": "2026-09-08",
+  "fecha_precision": "exacta",
+  "formula_titulo": "sin clasificar",
+  "id": "T2v2pf_uypE",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Futuro de los sistemas operativos sobre Claude Code; requiere ver contenido",
+    "relevante": true,
+    "tema": "Agentes de IA"
+  },
+  "senales": {
+    "dias": 36,
+    "formato_largo": true,
+    "interaccion": 0.0042,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 2.73,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es-US.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:39:34Z",
+    "idioma": "es-US",
+    "origen": "automaticos"
+  },
+  "titulo": "The End Is Near for Claude Code AI Operating Systems...",
+  "url": "https://www.youtube.com/watch?v=T2v2pf_uypE"
+}

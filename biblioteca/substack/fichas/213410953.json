@@ -1,0 +1,28 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "Hacki",
+    "Substack Notes",
+    "Think&Hack"
+  ],
+  "fecha": "2026-08-30",
+  "huella": "665ce4ae221e992e61118db59b3b974ebd80e50529124df24fb3022067dea358",
+  "id": "213410953",
+  "metricas_publicas": {
+    "comentarios": 2,
+    "reacciones": 7,
+    "restacks": 0
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "agente autónomo con objetivo medible",
+    "métricas de Substack Notes",
+    "entrenamiento por corrección",
+    "atribución de suscripciones"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "Un agente autónomo puede empezar a desarrollar criterio trabajando, pero solo con supervisión y correcciones constantes, y sin inventarse patrones de los datos antes de tener muestra suficiente.",
+  "titulo": "Hacki en acción: Semana 1 -> Entrenando",
+  "url": "https://ainalluna.substack.com/p/hacki-semana-1"
+}

@@ -1,0 +1,114 @@
+{
+  "grupo_id": "herramientas-de-ia-nate-herk",
+  "fecha": "2026-10-15",
+  "evaluacion": {
+    "grupo_id": "herramientas-de-ia-nate-herk",
+    "articulos_comparados": [
+      "216545004",
+      "195602355",
+      "205019542",
+      "183130708",
+      "217631531"
+    ],
+    "cobertura": "ampliación",
+    "que_hemos_publicado": "Hemos cubierto cómo montar flujos agénticos con skills y revisarlos (216545004), que el criterio escrito en archivos aguanta el cambio de agente, con elección de razonamiento alto para una tarea concreta (195602355), la anatomía de una skill verificable y cuándo se activa (205019542), convertir un tutorial ajeno en skill y refinarla (217631531) y los modos de razonamiento de ChatGPT con instrucciones limpias (183130708).",
+    "diferencia": "Nunca hemos medido qué cuesta de verdad el nivel de esfuerzo de razonamiento: el experimento de Nate Herk ejecuta el mismo prompt en los seis niveles de Opus 5.5 y publica métricas reales por nivel (bajo: 16 min, 3,91 $, 191k tokens, fuente:QCkHIyEPIYo@03:35; max: 2h28, 50,38 $, 1,18M tokens y aun así con fallos, fuente:QCkHIyEPIYo@17:28), concluyendo que Extra ganó a Max costando la mitad (fuente:QCkHIyEPIYo@25:43), con un 12,9x de diferencia entre la ejecución más cara y la más barata (fuente:QCkHIyEPIYo@22:37). Nuestro 183130708 habla de modos de razonamiento solo como consejo de prompting, sin una sola cifra de coste o tiempo. El vídeo hermano añade la misma pregunta entre modelos (Opus gana 7-1 a Sol costando el triple, fuente:eF3yeJuifoQ@31:31) y deja sin probar el patrón orquestador caro + trabajadores baratos (fuente:eF3yeJuifoQ@33:05).",
+    "aportacion": "Replicar el experimento de niveles de esfuerzo sobre una tarea de trabajo de conocimiento real de nuestro sistema editorial (texto, procesos y hojas de cálculo, no mundos 3D): el mismo encargo en varios niveles de esfuerzo de Opus 5.5 en Claude Code, con más de una ejecución por nivel donde el vídeo solo hizo una (fuente:QCkHIyEPIYo@25:43 reconoce n=1 y juicio subjetivo), midiendo coste, tiempo, tokens y calidad contra criterios definidos de antemano. Contrasta la recomendación de Anthropic de empezar en medio (fuente:QCkHIyEPIYo@07:12) y responde la pregunta abierta de si el patrón 'Extra gana a Max' se sostiene fuera de la generación creativa. Ejecutable con Claude Code en un PC de consumo, sin vídeo ni GPU, y en tareas de texto el coste por ejecución es una fracción de los 127 $ del vídeo; cabe en una semana de trabajo real.",
+    "parecida_a": null,
+    "razon_nueva": null,
+    "encaje": true,
+    "motivo": "Elegir cuánto razonamiento pagar por cada tarea es IA aplicada a procesos de trabajo, y la pieza sería exactamente nuestro método: probarlo nosotras con una tarea real y contar el proceso con cifras, incluido lo que no compensa. Los dos vídeos de edición de vídeo del grupo (7jHXoPGnA4c, o3IEkKXXXvo) caen en el descarte vigente de la autora (no trabaja vídeo) y sus ángulos de skills con feedback ya los cubrimos en 216545004 y 217631531: la oportunidad se ciñe al ángulo de niveles de esfuerzo y coste, que no toca vídeo ni hardware.",
+    "huella_contexto": "7910455a2289570a2c5982c0195787a9947835d30ad742b1b384b4116b82b3fa"
+  },
+  "condiciones": {
+    "interes_real": {
+      "cumple": true,
+      "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+    },
+    "encaje": {
+      "cumple": true,
+      "detalle": "Elegir cuánto razonamiento pagar por cada tarea es IA aplicada a procesos de trabajo, y la pieza sería exactamente nuestro método: probarlo nosotras con una tarea real y contar el proceso con cifras, incluido lo que no compensa. Los dos vídeos de edición de vídeo del grupo (7jHXoPGnA4c, o3IEkKXXXvo) caen en el descarte vigente de la autora (no trabaja vídeo) y sus ángulos de skills con feedback ya los cubrimos en 216545004 y 217631531: la oportunidad se ciñe al ángulo de niveles de esfuerzo y coste, que no toca vídeo ni hardware."
+    },
+    "no_cubierto": {
+      "cumple": true,
+      "detalle": "cobertura=ampliación"
+    },
+    "aportacion": {
+      "cumple": true,
+      "detalle": "Replicar el experimento de niveles de esfuerzo sobre una tarea de trabajo de conocimiento real de nuestro sistema editorial (texto, procesos y hojas de cálculo, no mundos 3D): el mismo encargo en varios niveles de esfuerzo de Opus 5.5 en Claude Code, con más de una ejecución por nivel donde el vídeo solo hizo una (fuente:QCkHIyEPIYo@25:43 reconoce n=1 y juicio subjetivo), midiendo coste, tiempo, tokens y calidad contra criterios definidos de antemano. Contrasta la recomendación de Anthropic de empezar en medio (fuente:QCkHIyEPIYo@07:12) y responde la pregunta abierta de si el patrón 'Extra gana a Max' se sostiene fuera de la generación creativa. Ejecutable con Claude Code en un PC de consumo, sin vídeo ni GPU, y en tareas de texto el coste por ejecución es una fracción de los 127 $ del vídeo; cabe en una semana de trabajo real."
+    }
+  },
+  "es_oportunidad": true,
+  "accion": "proponer",
+  "motivo_descarte": null,
+  "contexto": {
+    "fichas": [
+      [
+        "7jHXoPGnA4c",
+        "490e68901b4fad4fb0f2932c92c8bc6504bb62ca847297a86eca9abd7de4762e"
+      ],
+      [
+        "QCkHIyEPIYo",
+        "2c69bc0403c1d1fc12b74bb26849bf2feaf8bb9a6506279864e2c723874505ba"
+      ],
+      [
+        "eF3yeJuifoQ",
+        "df2259813a5083e39810a56b90cf5f97b1dcc3ae0dc8a86c4a24e41f1c97de62"
+      ],
+      [
+        "o3IEkKXXXvo",
+        "87e4a4ee92ba5976b82f2ed2bfcfd0d1aab10bc95b78e3e0cc2fdb321b41f8a7"
+      ]
+    ],
+    "articulos": [
+      [
+        "183130708",
+        "c41ff339ecd8e56169ff6f4c4a1c68859794a4fb610865804c96df4deae231b9"
+      ],
+      [
+        "195602355",
+        "a9560e087dad16009e380e42f10c69c1fef6a6572369e39c4d2f73f9297276cd"
+      ],
+      [
+        "205019542",
+        "1ec49ffae6bc19bc99dc94bc4ffcd14fa1e6211afcaa33d47fd3b90796c9bd7b"
+      ],
+      [
+        "216545004",
+        "8300b014b9c219d63c20434d6d05e041f19bfd3e5a069e9684ae916669d6d636"
+      ],
+      [
+        "217631531",
+        "6255f1771e366f4057e6cd6dba264807ac0fc3cd353f764f65cd0e4d8248eb5a"
+      ]
+    ],
+    "oportunidades": [
+      [
+        "2026-10-14-agentes-de-ia",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-14-contenido-y-curacion-con-ia",
+        "descartada",
+        "La autora no trabaja vídeo ni es su terreno; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)"
+      ],
+      [
+        "2026-10-14-herramientas-de-ia",
+        "descartada",
+        "Exige GPU/hardware que la autora no tiene; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)"
+      ],
+      [
+        "2026-10-14-herramientas-de-ia-google",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-openai",
+        "propuesta",
+        ""
+      ]
+    ]
+  },
+  "huella_contexto": "7910455a2289570a2c5982c0195787a9947835d30ad742b1b384b4116b82b3fa"
+}

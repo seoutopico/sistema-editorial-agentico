@@ -1,0 +1,265 @@
+{
+  "candidatos": [
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "La comparativa",
+      "id": "BvvfZKKz4Yo",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 14,
+        "formato_largo": true,
+        "interaccion": 0.0076,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.67,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "url": "https://www.youtube.com/watch?v=BvvfZKKz4Yo"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "sin clasificar",
+      "id": "QCkHIyEPIYo",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 20,
+        "formato_largo": true,
+        "interaccion": 0.0098,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.18,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Had Opus 5.5 Build me the Same App at Every Effort Level",
+      "url": "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "El experimento",
+      "id": "ymgH8jS6Wb8",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 25,
+        "formato_largo": true,
+        "interaccion": 0.011,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.9,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
+      "url": "https://www.youtube.com/watch?v=ymgH8jS6Wb8"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "sin clasificar",
+      "id": "HIRDzMtuWFk",
+      "motivo": "interes alto y tema 'Agentes de IA' en 4 canales",
+      "senales": {
+        "dias": 31,
+        "formato_largo": true,
+        "interaccion": 0.0111,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.91,
+        "senal_incompleta": false
+      },
+      "tema": "Agentes de IA",
+      "titulo": "Anthropic Engineer Explains: What to Build Instead of AI Agents",
+      "url": "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+    },
+    {
+      "canal": "Liam Ottley",
+      "formula_titulo": "sin clasificar",
+      "id": "T2v2pf_uypE",
+      "motivo": "interes alto y tema 'Agentes de IA' en 4 canales",
+      "senales": {
+        "dias": 36,
+        "formato_largo": true,
+        "interaccion": 0.0042,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 47000.0,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.73,
+        "senal_incompleta": false
+      },
+      "tema": "Agentes de IA",
+      "titulo": "The End Is Near for Claude Code AI Operating Systems...",
+      "url": "https://www.youtube.com/watch?v=T2v2pf_uypE"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "El tutorial",
+      "id": "o3IEkKXXXvo",
+      "motivo": "interes alto y tema 'Contenido y curación con IA' en 4 canales",
+      "senales": {
+        "dias": 36,
+        "formato_largo": true,
+        "interaccion": 0.013,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.71,
+        "senal_incompleta": false
+      },
+      "tema": "Contenido y curación con IA",
+      "titulo": "GPT-6 Astra Finally Solves AI Video Editing (full guide)",
+      "url": "https://www.youtube.com/watch?v=o3IEkKXXXvo"
+    },
+    {
+      "canal": "Liam Ottley",
+      "formula_titulo": "Antes y después",
+      "id": "IXDYEF22CG8",
+      "motivo": "interes alto y tema 'Estrategia de IA' en 3 canales",
+      "senales": {
+        "dias": 23,
+        "formato_largo": true,
+        "interaccion": 0.0052,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 47000.0,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.12,
+        "senal_incompleta": false
+      },
+      "tema": "Estrategia de IA",
+      "titulo": "I Rebuilt This 46-Person Accounting Firm With AI (in 4 Days)",
+      "url": "https://www.youtube.com/watch?v=IXDYEF22CG8"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "sin clasificar",
+      "id": "7jHXoPGnA4c",
+      "motivo": "interes alto y tema 'Skills para agentes' en 2 canales",
+      "senales": {
+        "dias": 19,
+        "formato_largo": true,
+        "interaccion": 0.0167,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.17,
+        "senal_incompleta": false
+      },
+      "tema": "Skills para agentes",
+      "titulo": "Opus 5.5 Just Changed Video Editing Forever (free skills)",
+      "url": "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    },
+    {
+      "canal": "AI News & Strategy Daily | Nate B Jones",
+      "formula_titulo": "La pregunta directa",
+      "id": "tYugqJ9YytQ",
+      "motivo": "interes alto",
+      "senales": {
+        "dias": 23,
+        "formato_largo": true,
+        "interaccion": 0.0175,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 64500.0,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.5,
+        "senal_incompleta": false
+      },
+      "tema": "Escribir con IA",
+      "titulo": "Why Developers Are Losing Their Minds Over AI That Can't Write",
+      "url": "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "formula_titulo": "La comparativa",
+      "id": "eF3yeJuifoQ",
+      "motivo": "interes medio y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 21,
+        "formato_largo": true,
+        "interaccion": 0.0141,
+        "interaccion_motivo": null,
+        "interes": "medio",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 1.62,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Tested Opus 5.5 vs. GPT-6 Sol on 10 Real Use Cases",
+      "url": "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+    }
+  ],
+  "comando": "candidatos",
+  "elegibles_totales": 68,
+  "errores_metadatos": [],
+  "fecha_utc": "2026-10-14T19:37:32Z",
+  "formulas_dominantes_interes_alto": {
+    "Antes y después": 1,
+    "El experimento": 1,
+    "El superlativo": 1,
+    "El tutorial": 3,
+    "La advertencia": 1,
+    "La comparativa": 1,
+    "La estadística": 1,
+    "La novedad": 3,
+    "La pregunta directa": 4,
+    "La vía rápida": 1,
+    "sin clasificar": 9
+  },
+  "limite": 10,
+  "llamadas_ytdlp": [
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=BvvfZKKz4Yo"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=ymgH8jS6Wb8"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=T2v2pf_uypE"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=o3IEkKXXXvo"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=IXDYEF22CG8"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+    ]
+  ],
+  "run_id": "20261014T193732Z"
+}

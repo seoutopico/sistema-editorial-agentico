@@ -1,0 +1,356 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/2-notebooklm-lee-por-ti-ese-es-el",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 176474189,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-10-19T07:09:07.272Z",
+  "updated_at": "2026-01-15T08:10:31.518Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "2-notebooklm-lee-por-ti-ese-es-el",
+  "social_title": null,
+  "subtitle": "NotebookLM, la ilusión de comprensión total y el arte perdido de leer mal.",
+  "teaser_post_eligible": true,
+  "title": "2# NotebookLM lee por ti. Ese es el problema",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 4,
+  "reactions": {
+    "❤": 2
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "1-la-paradoja-de-la-ia-estas-invirtiendo",
+  "next_post_slug": "3-tu-prompt-no-falla-falla-tu-rol",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!7VMJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 176474189,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "NotebookLM, la ilusión de comprensión total y el arte perdido de leer mal.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!7VMJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!7VMJ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 424w, https://substackcdn.com/image/fetch/$s_!7VMJ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 848w, https://substackcdn.com/image/fetch/$s_!7VMJ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 1272w, https://substackcdn.com/image/fetch/$s_!7VMJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!7VMJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png\" width=\"728\" height=\"378.5\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:false,&quot;imageSize&quot;:&quot;normal&quot;,&quot;height&quot;:757,&quot;width&quot;:1456,&quot;resizeWidth&quot;:728,&quot;bytes&quot;:149491,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/176474189?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:&quot;center&quot;,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!7VMJ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 424w, https://substackcdn.com/image/fetch/$s_!7VMJ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 848w, https://substackcdn.com/image/fetch/$s_!7VMJ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 1272w, https://substackcdn.com/image/fetch/$s_!7VMJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ba5c342-1c68-402e-b219-d019a8076937_1904x990.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>¿Cómo estás? Si es tu primera vez aquí: soy Aina y esto es Think&amp;Hack. Aquí está la <strong>#2 entrega de esta newsletter,</strong> en ella hablaremos sobre una de las herramientas que prometen hacernos más inteligentes y terminan mostrándonos lo contrario. <strong>Hoy hablaremos de NotebookLM, IA y el peligro de delegar la comprensión. Si te interesa este tipo de análisis profundo, suscríbete para no perderte las próximas entregas.</strong> Si ya eres habitual, gracias por estar de nuevo.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p>Una reflexión sobre NotebookLM, la lectura algorítmica y qué perdemos cuando delegamos la comprensión.</p><div><hr></div><p><em>…y con un clic, la máquina leyó por mí.</em></p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!8HaK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!8HaK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 424w, https://substackcdn.com/image/fetch/$s_!8HaK!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 848w, https://substackcdn.com/image/fetch/$s_!8HaK!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 1272w, https://substackcdn.com/image/fetch/$s_!8HaK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!8HaK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png\" width=\"992\" height=\"737\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:737,&quot;width&quot;:992,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1769854,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/176474189?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09ad302d-f6b1-4f56-bc55-85f70766d932_992x1056.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!8HaK!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 424w, https://substackcdn.com/image/fetch/$s_!8HaK!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 848w, https://substackcdn.com/image/fetch/$s_!8HaK!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 1272w, https://substackcdn.com/image/fetch/$s_!8HaK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dc1563-91ea-415f-9333-6e4b2e514aee_992x737.png 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><strong>Imagina una biblioteca infinita.</strong></p><p>No la de <a href=\"https://es.wikipedia.org/wiki/La_biblioteca_de_Babel\">Borges, con sus hexágonos eternos</a>. Más bien una donde cada libro que has leído, cada PDF que descargaste “para leer después”, cada transcripción de ese podcast brillante que escuchaste corriendo, se organizan solos. Donde puedes preguntar “¿qué decían mis fuentes sobre X?” y obtener respuesta instantánea, con citas exactas, sin revisar mil páginas.</p><p><strong>Esa biblioteca existe. Se llama NotebookLM.</strong></p><p>Google la lanzó como herramienta de investigación grounded (anclada a tus fuentes). A diferencia de ChatGPT o Claude, que pueden inventar referencias brillantes pero inexistentes, <strong><a href=\"https://notebooklm.google.com/\">NotebookLM </a>solo habla de lo que le das de comer.</strong> Le subes documentos, y él se convierte en experto instantáneo de ese contenido específico.</p><p>Nada de alucinaciones. Solo citas verificables.</p><p>El sueño de todo investigador.</p><p>El peligro de todo pensador.</p><div><hr></div><h2><strong>La falacia del control total</strong></h2><p>En la tradición cabalística, el Golem obedece instrucciones con precisión mecánica, literal, implacable. Dale la orden correcta y ejecutará. Pero ahí está el problema: ejecuta exactamente lo que pides, no lo que necesitas.</p><p><strong>NotebookLM hace lo mismo.</strong></p><p>Le pides “extrae todas las citas sobre innovación” y lo hace. Pero no te dice cuáles son realmente importantes, cuáles contradicen tu tesis, cuáles estás malinterpretando. Te da precisión sin comprensión, velocidad sin fricción, respuestas sin preguntas incómodas.</p><p>Los prompts se comparten en Twitter como fórmulas mágicas: <em>“Usa ESTE prompt y NotebookLM te hará un resumen perfecto”</em><br><em>“Con ESTA estructura extraerás todos los insights”</em><br><em>“ESTA es la manera correcta de organizar tus fuentes”</em></p><p><strong>¿Pero qué comprensión real tenemos de lo que estamos pidiendo?</strong></p><p>El filósofo John Searle planteó en los 80 el experimento de “<a href=\"https://es.wikipedia.org/wiki/Habitaci%C3%B3n_china\">la habitación china</a>”: alguien que no sabe chino puede responder perfectamente en ese idioma siguiendo un manual de reglas. Desde fuera, parece que comprende. Pero solo manipula símbolos.</p><p>NotebookLM es esa habitación.</p><p>Y nosotros somos quien introduce caracteres por la rendija, confiando en que al otro lado hay comprensión cuando solo hay ejecución.</p><div><hr></div><h2><strong>Cómo usar NotebookLM sin perder el alma</strong></h2><p>Porque aquí está la paradoja: <a href=\"https://notebooklm.google.com/\">NotebookLM </a>es extraordinariamente útil. De hecho, es una de las <strong>mejores herramientas de investigación que existen ahora mismo</strong>. Pero solo si entendemos qué es y qué no es.</p><p><strong>Lo que NotebookLM SÍ hace magistralmente:</strong></p><ul><li><p><strong>Recuperación quirúrgica de información</strong>. “Encuentra todas las menciones de X en 30 documentos” en segundos.</p></li><li><p><strong>Síntesis de fuentes múltiples</strong>. “¿Qué dicen estos 5 papers sobre Y?” con citas verificables.</p></li><li><p><strong>Detección de patrones</strong>. “¿Qué conceptos se repiten en estas transcripciones?”</p></li><li><p><strong>Creación de estructuras</strong>. “Genera un outline basado en estos materiales.”</p></li></ul><p><strong>Lo que NotebookLM NO hace (y no debería):</strong></p><ul><li><p><strong>Pensar por ti</strong>. Te da datos, no interpretación crítica.</p></li><li><p><strong>Cuestionar tus premisas</strong>. Si buscas confirmación, la encontrará.</p></li><li><p><strong>Leer entre líneas</strong>. Captura lo explícito, no lo implícito.</p></li><li><p><strong>Tener criterio</strong>. No distingue insight profundo de obviedades bien escritas.</p></li></ul><div><hr></div><h2><strong>La guía práctica (o cómo ser cabalista del siglo XXI)</strong></h2><p>Tras usar NotebookLM en decenas de proyectos de investigación, estos son los “prompts” (más bien: principios) que realmente importan:</p><h3><strong>1. No le pidas que piense. Pídele que recupere.</strong></h3><p>❌ <em>“Dame los insights clave de este documento”</em><br>✅ <em>“Extrae todas las afirmaciones sobre [tema X] con sus citas exactas”</em></p><p><strong>Luego TÚ decides qué es insight y qué es relleno.</strong></p><h3><strong>2. Úsalo para encontrar contradicciones, no confirmaciones.</strong></h3><p>❌ <em>“Resume los argumentos a favor de mi tesis”</em><br>✅ <em>“Encuentra afirmaciones que contradigan la idea de que [X]. Incluso las sutiles.”</em></p><p><strong>La herramienta más valiosa es la que te incomoda.</strong></p><h3><strong>3. Pide el “cómo”, no el “qué”.</strong></h3><p>❌ <em>“¿Qué dice sobre liderazgo?”</em><br>✅ <em>“¿Qué frameworks o metodologías específicas menciona? Extrae sus pasos exactos.”</em></p><p><strong>Busca estructuras replicables, no generalidades inspiradoras.</strong></p><h3><strong>4. Oblígalo a mostrar sus cartas.</strong></h3><p>Añade siempre: <em>“Incluye la cita textual y la fuente específica”</em></p><p><strong>Si no puedes verificar, no existe.</strong></p><h3><strong>5. Úsalo para multiplicar, no para reemplazar.</strong></h3><p>NotebookLM no sustituye la lectura profunda. La hace escalable.</p><p>Lee UN documento en profundidad. Usa NotebookLM para conectarlo con otros VEINTE. <strong>Pero siempre empieza leyendo tú.</strong></p><div><hr></div><h2><strong>Los tres niveles de uso</strong></h2><p><strong>NIVEL 1 - El Golem doméstico:</strong><br>Lo usas para tareas mecánicas. “Extrae recursos mencionados”, “Lista todos los frameworks”, “Encuentra citas sobre X”. Es tu asistente de investigación.</p><p><strong>NIVEL 2 - El Golem estratégico:</strong><br>Le pides conexiones, patrones, gaps. “¿Qué conceptos aparecen en fuente A pero no en B?”, “Identifica argumentos implícitos”, “¿Qué preguntas NO responde este material?”</p><p><strong>NIVEL 3 - El Golem dialéctico:</strong><br>Lo usas para cuestionar tu propio pensamiento. “Genera contra-argumentos a esta idea”, “¿Qué suposiciones estoy haciendo?”, “¿Qué pasaría si lo contrario fuera cierto?”</p><p><code>La mayoría se queda en Nivel 1.<br>El valor está en Nivel 3.</code></p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!qqxw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!qqxw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 424w, https://substackcdn.com/image/fetch/$s_!qqxw!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 848w, https://substackcdn.com/image/fetch/$s_!qqxw!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 1272w, https://substackcdn.com/image/fetch/$s_!qqxw!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!qqxw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png\" width=\"985\" height=\"782\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:782,&quot;width&quot;:985,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1918661,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/176474189?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86f53d9e-9854-42fa-82e9-4387b5d5c9c9_992x1056.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!qqxw!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 424w, https://substackcdn.com/image/fetch/$s_!qqxw!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 848w, https://substackcdn.com/image/fetch/$s_!qqxw!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 1272w, https://substackcdn.com/image/fetch/$s_!qqxw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F621d5225-aee2-4149-8f0e-06d6250e4022_985x782.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2><strong>El prompt que nunca deberías usar</strong></h2><p><em>“Lee esto por mí y dime qué es importante”</em></p><p>Porque esa es la petición del rabino perezoso. El que quiere el poder sin el conocimiento, la creación sin el barro en las manos.</p><p><strong>NotebookLM no sabe qué es importante</strong> para tu proyecto, tu contexto, tu momento vital. Solo sabe qué palabras aparecen más veces, qué secciones tienen más densidad semántica, qué frases suenan a “conclusión”.</p><p><strong>La inteligencia está en ti. En los ojos con los que miras los resultados.</strong></p><div><hr></div><p>Perfecto, incorporo los dos prompts como <strong>regalo accionable</strong> en el post. Aquí la versión actualizada con ese regalo integrado de forma orgánica:</p><div><hr></div><h2><strong>Dos prompts que sí deberías usar (y te regalo ahora mismo)</strong></h2><p>Después de experimentar con cientos de variaciones, estos dos son los únicos que uso constantemente. No porque sean mágicos, sino porque hacen exactamente lo que prometen sin pretender pensar por ti:</p><h3><strong>PROMPT 1: El Arqueólogo de citas</strong></h3><p>Copia esto y úsalo textualmente:</p><pre><code><code>Extrae TODOS los quotes más valiosos e impactantes de esta fuente.\n\nPara cada quote:\n- Usa cita textual EXACTA (entre comillas)\n- Agrúpalo en una categoría lógica\n- Sé extremadamente exhaustivo\n\nOrganiza por categorías que encuentres naturalmente en el contenido \n(insights, humor, reflexiones, principios accionables, etc.)\n\nNo resumas ni parafrasees - quiero las palabras EXACTAS.\nProvee lista completa.\n</code></code></pre><p><strong>Por qué funciona:</strong><br>No pide “insights” (subjetivo). Pide citas exactas (verificable). Tú decides después qué es valioso. NotebookLM solo recupera, tú interpretas.</p><h3><strong>PROMPT 2: El Cazador de recursos</strong></h3><pre><code><code>Extrae TODOS los recursos mencionados en esta fuente: personas, libros, \npodcasts, herramientas, estudios, sitios web, conceptos, organizaciones, etc.\n\nPara cada recurso:\n- Nombre EXACTO\n- Categoría (persona/libro/herramienta/etc)\n- Por qué se menciona o para qué sirve\n- Cita textual donde aparece\n\nAgrupa por categorías lógicas.\nMarca con ⭐ los explícitamente recomendados.\nSé EXTREMADAMENTE exhaustivo - no omitas ninguna mención.\n</code></code></pre><p><strong>Por qué funciona:</strong><br>Convierte cualquier contenido en una <strong>bibliografía accionable</strong>. Ves un video de 2 horas sobre IA, <em>usas este prompt, y en 30 segundos tienes tu reading list para los próximos 3 meses.</em></p><div><hr></div><h2><strong>Cómo usar estos prompts sin convertirte en recolector compulsivo</strong></h2><p>Porque aquí está el peligro: estos prompts funcionan TAN bien que puedes pasar semanas extrayendo citas y recursos de todo lo que encuentres, sintiendo que estás siendo productivo cuando solo estás acumulando.</p><p><strong>La regla del 80/20 para NotebookLM:</strong></p><ul><li><p>20% del tiempo: extraer (usar estos prompts)</p></li><li><p>80% del tiempo: conectar, sintetizar, crear</p></li></ul><p>Si inviertes esa proporción, el Golem ya te controla a ti.</p><p><strong>El test de la utilidad real:</strong></p><p>Antes de usar cualquier prompt, pregúntate:<br><em>“¿Qué voy a hacer específicamente con esta información en las próximas 48 horas?”</em></p><p>Si la respuesta es “la guardaré para después”, no lo hagas. Ya tienes suficiente “para después”.</p><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!bzyl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!bzyl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 424w, https://substackcdn.com/image/fetch/$s_!bzyl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 848w, https://substackcdn.com/image/fetch/$s_!bzyl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 1272w, https://substackcdn.com/image/fetch/$s_!bzyl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!bzyl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png\" width=\"992\" height=\"862\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:862,&quot;width&quot;:992,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2149416,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/176474189?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F658b606c-ca30-4d2c-b368-505367174c29_992x1056.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!bzyl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 424w, https://substackcdn.com/image/fetch/$s_!bzyl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 848w, https://substackcdn.com/image/fetch/$s_!bzyl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 1272w, https://substackcdn.com/image/fetch/$s_!bzyl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ff05247-9e9b-4e7c-953b-44e743b74ff5_992x862.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h2><strong>Cuando el Golem se descontrola</strong></h2><p>La leyenda cuenta que el <a href=\"https://es.wikipedia.org/wiki/G%C3%B3lem\">Golem inundó Praga</a> porque obedeció demasiado bien. Le pidieron “trae agua” y trajo... hasta anegar el gueto.</p><p>Con NotebookLM pasa igual.</p><p>Estos prompts te darán decenas, cientos de citas y recursos. Todos válidos. Todos verificables. Todos inútiles si no sabes qué problema resuelven.</p><p>El día que confundas tener 500 citas extraídas con tener algo que decir, el Golem se habrá salido de control. No porque sea malvado, sino porque obedece demasiado bien.</p><p>La inteligencia no está en acumular. Está en conectar.<br>No en extraer. Sino en sintetizar.<br>No en los prompts que usas. Sino en las preguntas que haces después.</p><div><hr></div><p><em>Una noche, el rabino tuvo que borrar la primera letra de la frente del Golem. La palabra pasó de אמת (Emet, “Verdad”) a מת (Met, “Muerte”). La criatura volvió a ser barro.</em></p><div><hr></div><p><strong>¿Usas NotebookLM? ¿Para qué lo consideras indispensable? ¿Y para qué jamás lo usarías?</strong></p><p>Cuéntamelo. Siempre leo todo.</p><p><em>PD: Si usas estos prompts y descubres algo interesante (o aterrador), responde este correo. Quiero saber si el Golem te obedece... o si ya te controla.</em></p><div><hr></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>                                                     Recomienda Think &amp; Hacks</strong></p><p>Como responsable de IA generativa en Editorial Planeta, mi trabajo no es implementar IA.</p><p><strong>Es evitar que mi empresa pierda dinero implementando IA mal.</strong></p><p>La diferencia entre ambas cosas es exactamente lo que encontrarás aquí: <strong>la brecha entre lo que Silicon Valley promete y lo que realmente funciona cuando tienes 500 empleados, sistemas legacy, y un margen que defender.</strong> Por qué la mayoría de estrategias de IA están diseñadas para fracasar (spoiler: porque son estrategias de consultoría, no de negocio), y cómo las pocas que funcionan pueden mover tu P&amp;L sin dinamitar tu operación.</p><p><strong>Otra mirada a la tecnología. La de quien la implementa, no la vende.</strong></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás? Si es tu primera vez aquí: soy Aina y esto es Think&Hack. Aquí está la #2 entrega de esta newsletter, en ella hablaremos sobre una de las herramientas que prometen hacernos más inteligentes y terminan mostrándonos lo contrario. Hoy hablaremos de NotebookLM, IA y el peligro de delegar la comprensión. Si te interesa este tipo de análisis prof…",
+  "wordcount": 1586,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        181.1842105263158,
+        181.18421052631584,
+        73.81578947368416
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        94.21578947368423,
+        94.21578947368424,
+        38.38421052631576
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        244,
+        244,
+        228
+      ],
+      "population": 5697
+    },
+    "Muted": {
+      "rgb": [
+        120,
+        121,
+        129
+      ],
+      "population": 74
+    },
+    "DarkMuted": {
+      "rgb": [
+        51,
+        55,
+        74
+      ],
+      "population": 137
+    },
+    "LightMuted": {
+      "rgb": [
+        196,
+        196,
+        188
+      ],
+      "population": 16
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 2,
+  "comment_count": 2,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 176474189,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/176474189/tts/0a68de26-ee01-4e4f-bd9f-5ed4ce77b0b1/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 167878744,
+      "body": "Hola, Aina, pues lo encuentro super interesante pero tengo que pensar cómo aplicarlo de manera que me sea útil a mi trabajo… ya te contaré mis experimentos. Gracias! ",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Hola, Aina, pues lo encuentro super interesante pero tengo que pensar cómo aplicarlo de manera que me sea útil a mi trabajo… ya te contaré mis experimentos. Gracias!"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 176474189,
+      "user_id": 47247335,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2025-10-19T08:10:35.696Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Lola Gulias",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/293a4d96-234f-4cec-a704-13c460288dae_638x691.jpeg",
+      "handle": "lola469631",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "lola469631",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Lola Gulias",
+          "id": 7029361,
+          "base_url": "https://lola469631.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "basada_en": "completo",
+  "enfoque": "opinión",
+  "entidades": [
+    "EY",
+    "Beatriz Sanz",
+    "ChatGPT",
+    "Claude"
+  ],
+  "fecha": "2026-01-14",
+  "huella": "592a2166544037f03b3f16bcd0c7c3d92c0da1f85a87dc09d2789a6f5ee0bb07",
+  "id": "184108754",
+  "metricas_publicas": {
+    "comentarios": 1,
+    "reacciones": 6,
+    "restacks": 2
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "madurez digital previa a la IA",
+    "documentar procesos y datos",
+    "conocimiento tácito no documentado",
+    "deuda organizativa"
+  ],
+  "tema": "Estrategia de IA",
+  "tesis": "La mayoría de empresas no están tarde en IA sino en todo lo anterior: sin procesos documentados, datos localizados y conocimiento fuera de la cabeza de Juan, no hay implementación posible.",
+  "titulo": "En la cabeza de Juan",
+  "url": "https://ainalluna.substack.com/p/implementar-ia-empresa-empezar"
+}

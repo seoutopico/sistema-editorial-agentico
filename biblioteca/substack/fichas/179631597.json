@@ -1,0 +1,30 @@
+{
+  "basada_en": "completo",
+  "enfoque": "opinión",
+  "entidades": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Perplexity",
+    "Grok"
+  ],
+  "fecha": "2025-11-23",
+  "huella": "6cb005eb393513c2d7f6da9c4e9ccbadac13504c935188515e23d50a6f7a30d9",
+  "id": "179631597",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 6,
+    "restacks": 5
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "especialización de modelos por tarea",
+    "comparativa de modelos",
+    "inercia cognitiva",
+    "asignación de roles a cada IA"
+  ],
+  "tema": "Herramientas de IA",
+  "tesis": "La lealtad a un solo modelo de IA por comodidad te cuesta dinero y criterio: el mercado se ha fragmentado en especialistas y hay que elegir el modelo según la tarea, no el amigo cómodo.",
+  "titulo": "#7 Sé infiel a ChatGPT.",
+  "url": "https://ainalluna.substack.com/p/7-se-infiel-a-chatgpt"
+}

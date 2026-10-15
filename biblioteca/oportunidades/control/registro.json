@@ -1,0 +1,392 @@
+[
+ {
+  "grupo_id": "agentes-de-ia-anthropic",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es exactamente nuestro nicho y nuestra forma de tratarlo, y precisamente por eso no hay pieza nueva: lo que el vídeo aconseja sin demostrar ya lo publicamos nosotros con pruebas propias, y repetir sus consejos no es aportar."
+  },
+  "no_cubierto": {
+   "cumple": false,
+   "detalle": "cobertura=cubierto"
+  },
+  "aportacion_ok": {
+   "cumple": false,
+   "detalle": "sin aportación"
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "no cumple: no_cubierto, aportacion",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "",
+  "estado_actual": "",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "agentes-de-ia-chatgpt",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es nuestro nicho (agentes aplicados al trabajo, sin exigir programar) y nuestra forma exacta de tratarlo: probar el flujo real y contar lo que funciona y lo que se rompe. Es la misma historia que la oportunidad ya propuesta 2026-10-14-agentes-de-ia, que absorbe este mismo vídeo: añadir ahí, no duplicar."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Prueba propia del flujo completo sin terminal con un caso nuestro (no presupuestos de reformas): montar la carpeta de agente, cargarla como proyecto en ChatGPT, dejar que escriba memoria y skills, y pasar la misma carpeta a Claude Cowork. Contrastar lo que el vídeo promete sin demostrar: si las skills y la memoria escritas por ChatGPT las lee y respeta de verdad otro modelo o son texto que cada uno interpreta a su manera (fuente:ZnlLfKR-vDQ preguntas_abiertas), qué pasa cuando los criterios acumulados se contradicen, y qué planes de pago exige cada herramienta. Ejecutable en una semana con ChatGPT Plus y Claude Cowork, que la autora ya tiene."
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "ya existe la oportunidad '2026-10-14-agentes-de-ia' en estado propuesta: añadir las evidencias nuevas con guardar-oportunidad --actualizar",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-14-agentes-de-ia",
+  "estado_actual": "propuesta",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "agentes-de-ia-kylon",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es nuestro nicho (agentes y automatización de procesos), pero el único ángulo no cubierto es la plataforma del patrocinador: ambos vídeos están patrocinados por Kylon, sus cifras centrales (negocio 50-60x más eficiente, 7 meses en 7 días, 250 horas/mes ahorradas, youtube:IXDYEF22CG8@15:41 y youtube:T2v2pf_uypE@05:05) no están verificadas ni demostradas más allá de un test único y una demo de 20-30 minutos, y la parte defendible ya la publicamos nosotros; probar Kylon sería reproducir una demo patrocinada, y una migración honesta de nuestro sistema editorial a una plataforma cerrada para contrastarla no cabe en una semana de trabajo real, así que no hay aportación que no sea repetir el vídeo."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": false,
+   "detalle": "sin aportación"
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "no cumple: aportacion",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "",
+  "estado_actual": "",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "agentes-de-ia-openai",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "El tema es nuestro nicho, pero este vídeo no deja nada que probar que no esté ya recogido: es íntegramente relato sin demostración en pantalla (fuente:1qGH6NwTj3o promete_sin_demostrar), sus casos (Mollick, Logora, Playco, Vercel) solo se podrían contrastar con fuentes primarias ajenas, no con una prueba propia en una semana, y la oportunidad propuesta 2026-10-14-agentes-de-ia ya absorbe esta ficha como señal de interés advirtiendo que no sirve como evidencia. Repetir su relato no es aportar; lo ejecutable ya está en esa propuesta."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": false,
+   "detalle": "sin aportación"
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "no cumple: aportacion",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "",
+  "estado_actual": "",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "agentes-de-ia",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=2"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es exactamente nuestro nicho (agentes aplicados al trabajo diario) y podemos hacer lo que hacemos siempre: reproducir el flujo con un caso propio y contar qué aguanta y qué se rompe, algo que ninguno de los dos vídeos demuestra del todo."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Probar nosotros el flujo completo de la carpeta de agente portable sin terminal con un caso propio: montarla, cargarla como proyecto en ChatGPT y repetir el segundo encargo en Claude Cowork, y contrastar lo que el vídeo promete sin demostrar: si las skills y la memoria que escribe ChatGPT (youtube:ZnlLfKR-vDQ@11:34, @10:32) las lee y respeta de verdad Claude Cowork o solo son texto que cada modelo interpreta a su manera, qué pasa cuando los criterios acumulados se contradicen, y si el método sirve fuera del caso de presupuestos (youtube:ZnlLfKR-vDQ, promete 'para cualquier tarea' sin enseñarlo). Publicar el proceso real con lo que funciona y lo que no, incluida la revisión manual que exige el resultado antes de darlo por bueno."
+  },
+  "es_oportunidad": true,
+  "motivo_descarte_eval": "",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-14-agentes-de-ia",
+  "estado_actual": "propuesta",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-14"
+ },
+ {
+  "grupo_id": "contenido-y-curacion-con-ia-claude-opus-5-5",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=2"
+  },
+  "encaje": {
+   "cumple": false,
+   "detalle": "El corazón del vídeo es producción audiovisual (animación, motion graphics, After Effects, videojuegos), terreno que la autora declaró que no es el suyo al descartar 2026-10-14-contenido-y-curacion-con-ia y que figura fuera de alcance en sus recursos. Nada ha cambiado desde ese descarte: el vídeo es del 2026-09-24, anterior a la decisión, y no aporta una vía que evite el vídeo. El posible ángulo de puro texto/proceso no tiene sustancia propia aquí: el propio autor admite que en tareas no visuales GPT-6 Astra sigue siendo superior (fuente:j906Pf7n7Sg@13:14), así que quitarle lo audiovisual a esta ficha es quitarle la tesis. Repetir lo que enseña el vídeo no es aportar y la prueba propia que exigiría (animar, integrar con After Effects) no es ejecutable con sus herramientas ni su semana de trabajo."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": false,
+   "detalle": "sin aportación"
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "no cumple: encaje, aportacion",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "",
+  "estado_actual": "",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "contenido-y-curacion-con-ia",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es nuestro nicho (IA aplicada a la creación de contenido) y encaja exactamente con nuestra aportación: probar el flujo de verdad y contar el proceso real con fallos, costes y prompts, lo que el vídeo promete sin demostrar."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=nuevo"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Probar nosotras el flujo que el vídeo enseña pero no documenta: generar una animación explicativa real para la propia newsletter con Opus 5.5 (y el mismo prompt en GPT-6 Astra como contraste), publicando los prompts completos, el número de intentos descartados, el tiempo y el consumo de cuota por generación, justo lo que el vídeo deja como preguntas abiertas (solo enseña los resultados buenos y no muestra ni prompts completos ni tasa de fallo ni coste). Es el caso en español y aplicado a creación de contenido de trabajo, no a demos espectaculares."
+  },
+  "es_oportunidad": true,
+  "motivo_descarte_eval": "",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-14-contenido-y-curacion-con-ia",
+  "estado_actual": "descartada",
+  "motivo_estado": "La autora no trabaja vídeo ni es su terreno; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)",
+  "fecha_evaluacion": "2026-10-14"
+ },
+ {
+  "grupo_id": "herramientas-de-ia-google",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es IA aplicada al trabajo (un tutor que te guía dentro de tus programas) y podemos tratarlo como siempre: probarlo nosotras en español con nuestras herramientas y contar el proceso real con errores y límites. Es la misma historia que la propuesta existente 2026-10-14-herramientas-de-ia-google, que ya esquiva el descarte por GPU al probarse gratis en navegador; la ficha nueva de Qwen local recae íntegramente en el descarte 2026-10-14-herramientas-de-ia y nada ha cambiado desde esa decisión, así que no reabre aquel ángulo ni justifica una oportunidad aparte."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Prueba propia en español, contada con texto y capturas: compartir pantalla con una herramienta real del flujo de la autora (n8n, Obsidian o WordPress) y que Gemini Live la guíe por voz en una tarea concreta, anotando los errores del tutor (en el vídeo da primero una indicación errónea en Premiere, fuente:4_fM3Nv8BB0@13:02), los límites del acceso gratuito en AI Studio y cómo funciona la voz en español, que el vídeo deja sin verificar. Ejecutable gratis en el navegador con un PC de consumo, sin GPU ni producción de vídeo, en una semana."
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "ya existe la oportunidad '2026-10-14-herramientas-de-ia-google' en estado propuesta: añadir las evidencias nuevas con guardar-oportunidad --actualizar",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-14-herramientas-de-ia-google",
+  "estado_actual": "propuesta",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "herramientas-de-ia-jev",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=3, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es exactamente nuestro nicho (IA aplicada a procesos) y nuestra forma de tratarlo: probarlo en nuestro sistema real y contar el proceso con cifras propias, incluyendo si la precisión no acompaña al ahorro."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Probar Jev como clasificador dentro de nuestro propio sistema editorial, a escala real: clasificar los cientos de fichas y artículos de la biblioteca según nuestros criterios editoriales, con un conjunto de referencia de ~100 casos etiquetados a mano para medir precisión además de coste y velocidad (lo que ningún vídeo muestra), y montar el patrón de enrutado (Jev filtra, el LLM caro solo recibe lo que pasa el corte) midiendo cuánto baja la factura del proceso. Es texto y proceso, con API en la nube sin GPU, continúa lo que el artículo 217023771 dejó anunciado y cabe en una semana de trabajo real."
+  },
+  "es_oportunidad": true,
+  "motivo_descarte_eval": "",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-15-herramientas-de-ia-jev",
+  "estado_actual": "propuesta",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "herramientas-de-ia-nate-herk",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Elegir cuánto razonamiento pagar por cada tarea es IA aplicada a procesos de trabajo, y la pieza sería exactamente nuestro método: probarlo nosotras con una tarea real y contar el proceso con cifras, incluido lo que no compensa. Los dos vídeos de edición de vídeo del grupo (7jHXoPGnA4c, o3IEkKXXXvo) caen en el descarte vigente de la autora (no trabaja vídeo) y sus ángulos de skills con feedback ya los cubrimos en 216545004 y 217631531: la oportunidad se ciñe al ángulo de niveles de esfuerzo y coste, que no toca vídeo ni hardware."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Replicar el experimento de niveles de esfuerzo sobre una tarea de trabajo de conocimiento real de nuestro sistema editorial (texto, procesos y hojas de cálculo, no mundos 3D): el mismo encargo en varios niveles de esfuerzo de Opus 5.5 en Claude Code, con más de una ejecución por nivel donde el vídeo solo hizo una (fuente:QCkHIyEPIYo@25:43 reconoce n=1 y juicio subjetivo), midiendo coste, tiempo, tokens y calidad contra criterios definidos de antemano. Contrasta la recomendación de Anthropic de empezar en medio (fuente:QCkHIyEPIYo@07:12) y responde la pregunta abierta de si el patrón 'Extra gana a Max' se sostiene fuera de la generación creativa. Ejecutable con Claude Code en un PC de consumo, sin vídeo ni GPU, y en tareas de texto el coste por ejecución es una fracción de los 127 $ del vídeo; cabe en una semana de trabajo real."
+  },
+  "es_oportunidad": true,
+  "motivo_descarte_eval": "",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-15-herramientas-de-ia-nate-herk",
+  "estado_actual": "aceptada",
+  "motivo_estado": "Primera ejecución completa del pipeline; único experimento ejecutable sin manos de Aina (encargo: 'lanza el proceso completo')",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "herramientas-de-ia-openai",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es nuestro nicho (agentes aplicados al trabajo diario) y se puede tratar a nuestra manera: probar ambas herramientas con un proceso real propio y contar qué funciona, qué falla y qué pasa con el control y la privacidad."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Prueba propia con nuestros recursos: crear un dot con la suscripción de ChatGPT que ya pagamos y probar Muse en su capa gratuita (100M tokens/semana, youtube:BvvfZKKz4Yo@06:40), portar nuestros archivos de criterio (mapa, voz, lecciones) a la memoria/alma de cada uno y encargarles una tarea editorial real recurrente, contrastando la tesis de 195602355 en agentes de nube cerrados y verificando lo que el vídeo cuenta de un solo día de uso, incluido que Dots da instrucciones falsas sobre su propia interfaz (youtube:BvvfZKKz4Yo@11:49). Texto y capturas, en español, en una semana."
+  },
+  "es_oportunidad": true,
+  "motivo_descarte_eval": "",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-15-herramientas-de-ia-openai",
+  "estado_actual": "propuesta",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-15"
+ },
+ {
+  "grupo_id": "herramientas-de-ia-qwen-3-8",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=1, canales_tema=2"
+  },
+  "encaje": {
+   "cumple": false,
+   "detalle": "El tema cae en nuestro nicho, pero nuestra aportación es probar y contar el proceso real y la prueba exige GPU dedicada: el vídeo se hizo en una RTX 5090 (fuente:ZqkljdI1HT0@02:37) y lo de que baste con 8 GB de VRAM es promesa sin demostrar; la autora trabaja en un PC de consumo sin GPU para modelos locales y el hardware caro está fuera de alcance. Es el mismo ángulo que la oportunidad 2026-10-14-herramientas-de-ia, descartada hoy por ese motivo, y nada ha cambiado desde el descarte (el vídeo es del 2026-08-23, anterior a la decisión), así que no hay razón nueva: repetir lo que dice el vídeo sin poder reproducirlo no es aportar."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=nuevo"
+  },
+  "aportacion_ok": {
+   "cumple": false,
+   "detalle": "sin aportación"
+  },
+  "es_oportunidad": false,
+  "motivo_descarte_eval": "no cumple: encaje, aportacion",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "",
+  "estado_actual": "",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-14"
+ },
+ {
+  "grupo_id": "herramientas-de-ia",
+  "tema": "",
+  "fichas": "",
+  "cobertura": "",
+  "interes_real": {
+   "cumple": true,
+   "detalle": "mejor_interes=alto, canales=2"
+  },
+  "encaje": {
+   "cumple": true,
+   "detalle": "Es exactamente nuestro nicho (IA aplicada al trabajo) y nuestra forma de tratarlo: una prueba propia reproducible que verifica una promesa concreta que el vídeo no demuestra, aunque la propuesta debe ceñirse al ángulo del modelo local (y quizá el tutor de Gemini Live como pieza aparte) porque el grupo mezcla tres temas distintos y el de Jev ya está cubierto."
+  },
+  "no_cubierto": {
+   "cumple": true,
+   "detalle": "cobertura=ampliación"
+  },
+  "aportacion_ok": {
+   "cumple": true,
+   "detalle": "Probar Qwen 3.8 en local en hardware modesto (una GPU de 8-16 GB de VRAM, no una RTX 5090) con una tarea real nuestra de trabajo, documentando el proceso completo: configuración de LM Studio y del razonamiento (el vídeo cita que viene mal configurado de fábrica, youtube:ZqkljdI1HT0@16:50), velocidad real en tokens por segundo, qué cuantización cabe, y dónde se rompe frente a un modelo de pago. Así se contrasta la promesa no demostrada del vídeo (usable desde 8 GB, youtube:ZqkljdI1HT0@02:37) con lo que funciona y lo que no en un equipo que la audiencia sí tiene."
+  },
+  "es_oportunidad": true,
+  "motivo_descarte_eval": "",
+  "parecida_a": "",
+  "razon_nueva": "",
+  "oportunidad_id": "2026-10-14-herramientas-de-ia-google",
+  "estado_actual": "propuesta",
+  "motivo_estado": "",
+  "fecha_evaluacion": "2026-10-14"
+ }
+]

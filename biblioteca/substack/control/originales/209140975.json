@@ -1,0 +1,356 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/piloto-ia-disenar-medir-escalar",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 209140975,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-08-02T05:04:29.021Z",
+  "updated_at": "2026-08-02T06:12:44.739Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "piloto-ia-disenar-medir-escalar",
+  "social_title": null,
+  "subtitle": "Cómo diseñar y medir un piloto de IA para comprobar si un agente mejora el proceso antes de escalarlo.",
+  "teaser_post_eligible": true,
+  "title": "Cinco agentes no son una estrategia de IA",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 1,
+  "reactions": {
+    "❤": 7
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "harness-engineering-agentes-ia",
+  "next_post_slug": "qmd-buscador-local-markdown",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!Ko-t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png",
+  "cover_image_is_square": true,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 209140975,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Cómo diseñar y medir un piloto de IA para comprobar si un agente mejora el proceso antes de escalarlo.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Ko-t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Ko-t!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 424w, https://substackcdn.com/image/fetch/$s_!Ko-t!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 848w, https://substackcdn.com/image/fetch/$s_!Ko-t!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 1272w, https://substackcdn.com/image/fetch/$s_!Ko-t!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Ko-t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png\" width=\"1254\" height=\"1254\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1254,&quot;width&quot;:1254,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2001972,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/209140975?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Ko-t!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 424w, https://substackcdn.com/image/fetch/$s_!Ko-t!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 848w, https://substackcdn.com/image/fetch/$s_!Ko-t!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 1272w, https://substackcdn.com/image/fetch/$s_!Ko-t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26524585-bbe3-4fc0-8f75-327ea15d65ec_1254x1254.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p>Acabo de terminar el <strong>Programa en Resolución de Problemas Complejos de UNIR</strong>. Durante seis meses hemos trabajado metodologías de diagnóstico, análisis, estrategia y comunicación y, en paralelo, hemos desarrollado y defendido un caso práctico en un equipo de cinco personas.</p><p>La formación ha coincidido con una serie de newsletters en la que hemos construido varias piezas de un sistema con IA: una skill para conservar el método, un agente para recibir el trabajo y un arnés para limitarlo y comprobarlo.</p><p>Podríamos seguir añadiendo componentes. Sin embargo, esta formación me ha devuelto a una pregunta anterior a todos ellos:</p><p><strong>¿Qué problema justifica construir el sistema?</strong></p><p>Puedes tener una skill bien definida, un agente que respeta sus límites y un arnés que verifica cada salida. Todo puede funcionar exactamente como lo diseñaste y, aun así, no mejorar el trabajo que querías mejorar.</p><div class=\"pullquote\"><p>Una herramienta puede cumplir exactamente su función y, aun así, fracasar en su propósito: la eficacia técnica no compensa una estrategia que ha elegido la solución antes de comprender el problema.</p></div><p>Esta semana no quiero enseñarte otra pieza técnica. Quiero llevar una idea de la resolución de problemas complejos a la implantación de IA: dejar de aprobar soluciones acompañadas de una cifra y empezar a formular hipótesis que podamos poner a prueba.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><h2>El error de empezar por los agentes</h2><p>Imagina que una organización aprueba este plan:</p><blockquote><p><code>Implantaremos cinco agentes y reduciremos costes un 20 %.</code></p></blockquote><p>La frase parece concreta. Tiene una tecnología, una cantidad y un resultado. También esconde casi todo lo que necesitamos saber.</p><p>¿Dónde está hoy el problema? ¿Qué parte del proceso genera el coste? ¿Por qué pensamos que un agente puede cambiarla? ¿De dónde sale el 20 %? ¿Qué ocurre si la herramienta acelera una tarea, pero añade revisión en la siguiente? ¿Qué calidad no estamos dispuestos a perder? ¿Cuándo sabremos que conviene corregir el sistema en lugar de ampliarlo?</p><p>«Implantar cinco agentes» describe una <strong>actividad</strong>. «Reducir costes un 20 %» promete un <strong>impacto</strong>. Entre ambas cosas falta el argumento que las conecta.</p><p>La organización ha elegido la solución antes de terminar el diagnóstico y ha convertido dos suposiciones en certezas: que los agentes atacan la causa relevante y que hacerlo producirá ese ahorro. A partir de ahí, el piloto corre el riesgo de convertirse en una demostración: ya no se diseña para averiguar si la idea funciona, sino para justificar una decisión tomada.</p><p>Este orden resulta especialmente tentador con la IA. La solución es visible, nueva y fácil de enseñar. El problema, en cambio, suele ser más incómodo: información dispersa, responsabilidades mal repartidas, aprobaciones innecesarias, datos que llegan tarde o procesos que nadie ha observado de principio a fin.</p><div class=\"pullquote\"><p>Cuando una organización empieza por la tecnología, termina buscando una dificultad que la justifique; el diagnóstico deja de orientar la decisión y pasa a servir de coartada.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/piloto-ia-disenar-medir-escalar?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/piloto-ia-disenar-medir-escalar?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartir</span></a></p></div><h2>Antes del piloto: diagnosticar el problema correcto</h2><p>Una de las ideas centrales que hemos trabajado venía de Richard Rumelt: la estrategia es, en esencia, resolución de problemas. Su núcleo encadena <strong>diagnóstico, política guía y acciones coherentes</strong>. No empieza con un roadmap ni con una cifra aspiracional, sino con una explicación de qué desafío importa y qué lo está sosteniendo.</p><p>Esto no convierte cualquier caso de uso de IA en un problema complejo. <strong>La gestión de tickets, tal como la hemos planteado, es un proceso operativo acotado:</strong> tiene entradas observables, etapas identificables y resultados que podemos medir. Puede ser complicado, pero no es complejo en el sentido de CPS que hemos estudiado durante el programa.</p><p>Lo que traslado de este aprendizaje no es la etiqueta, sino una forma de razonar que también resulta útil aquí: separar el problema de la solución, tratar el diagnóstico como una explicación que debe comprobarse y decidir de antemano qué evidencia nos hará continuar, corregir o parar.</p><p>Supongamos que las solicitudes de clientes tardan demasiado. Podemos observar que el equipo dedica muchas horas a clasificar correos, buscar información y preparar una primera respuesta. Aun así, todavía no sabemos si esa es la causa principal del retraso.</p><p>Quizá el cuello de botella esté en la aprobación posterior. Quizá la información necesaria no está actualizada. Quizá las solicitudes llegan mal categorizadas. O quizá la redacción sí consume tiempo, pero el proceso completo tarda lo mismo porque las respuestas generadas necesitan más revisiones.</p><p>No necesitamos presentar esa causa como cierta antes de actuar. Necesitamos <strong>hacer explícita la hipótesis</strong> y diseñar una intervención que nos permita comprobarla.</p><p>En este caso no estamos intentando navegar un escenario complejo. Estamos acotando una mejora operativa y probando si nuestra explicación del retraso es correcta antes de extender la solución.</p><div><hr></div><h2>Cómo diseñar un piloto de IA que permita decidir</h2><p>El mismo plan podría formularse así:</p><blockquote><p><code>Las solicitudes de clientes tardan demasiado porque el equipo dedica muchas horas a clasificar correos, buscar información y preparar una primera respuesta. Creemos que automatizar la clasificación y el borrador inicial puede reducir ese tiempo sin empeorar la calidad del servicio.</code></p><p><code>Durante seis semanas lo probaremos con un solo equipo y un tipo concreto de solicitud. Antes de empezar, mediremos cuánto tarda hoy el proceso y cuántos errores, reclamaciones y revisiones genera.</code></p><p><code>Consideraremos que la prueba funciona si reduce al menos un 15 % el tiempo total sin aumentar los errores, las reclamaciones ni la carga de revisión humana. Si solo acelera la redacción, pero no el proceso completo, revisaremos nuestro diagnóstico. Si empeora la calidad o desplaza trabajo a otras personas, detendremos la prueba.</code></p><p><code>Solo ampliaremos el sistema cuando tengamos evidencia de que mejora el proceso completo, no simplemente de que el agente funciona.</code></p></blockquote><p>Esta formulación es menos espectacular y mucho más útil.</p><p>El 15 % ya no aparece como una predicción que la organización promete cumplir. Funciona como un <strong>umbral de decisión elegido antes de ver los resultados</strong>. Sirve para distinguir una mejora que justifica continuar de una variación pequeña que no compensa el coste, el riesgo o el mantenimiento del sistema.</p><p>También obliga a decir qué haríamos si la prueba contradice nuestra explicación. Si el agente redacta más rápido, pero el tiempo total apenas cambia, no basta con ajustar el prompt y repetir la demo. Puede que el cuello de botella estuviera en otro lugar.</p><p><strong>El primer planteamiento</strong> contiene una solución y una promesa:</p><ul><li><p>cinco agentes;</p></li><li><p>un 20 % de ahorro.</p></li></ul><p><strong>El segundo </strong>contiene una hipótesis comprobable:</p><ul><li><p>dónde creemos que está el problema;</p></li><li><p>qué intervención acotada probaremos;</p></li><li><p>durante cuánto tiempo;</p></li><li><p>contra qué situación inicial la compararemos;</p></li><li><p>qué resultado esperamos;</p></li><li><p>qué efectos adversos vigilaremos;</p></li><li><p>qué observación nos obligaría a corregir el diagnóstico;</p></li><li><p>qué evidencia exigiremos antes de escalar.</p></li></ul><p><strong>No garantiza que acertemos. Hace posible aprender sin confundir actividad con avance.</strong></p><div><hr></div><h2>Un agente puede funcionar y no mejorar el proceso</h2><p>En las newsletters anteriores he insistido en que <a href=\"https://substack.com/@ainalluna/p-202814101\">un agente no termina cuando afirma que ha terminado</a>. Necesitamos evidencia externa: archivos creados, fuentes verificadas, tests superados o criterios de aceptación observables.</p><p>Aquí ocurre algo parecido, pero un nivel por encima. Un agente puede superar todas sus pruebas técnicas y no producir una mejora organizativa.</p><p>Puede clasificar correctamente el 95 % de los correos y no reducir la cola. Puede generar un borrador en veinte segundos y hacer que una persona dedique diez minutos más a comprobarlo. Puede aumentar el número de respuestas enviadas y empeorar la resolución en el primer contacto. Puede ahorrar tiempo en un equipo desplazando trabajo a otro.</p><div class=\"pullquote\"><p>Mejorar una tarea no equivale a mejorar el trabajo: si la automatización ahorra minutos en un punto y añade revisiones en otro, solo ha trasladado el coste.</p></div><p>Un estudio publicado en <em>The Quarterly Journal of Economics</em> observó el despliegue de un asistente generativo entre más de 5.000 agentes de atención al cliente. La productividad no se definió como «el modelo escribe rápido», sino mediante conversaciones resueltas por hora, una medida que combinaba tiempo, volumen y resolución. El efecto medio fue positivo, pero no fue igual para todo el mundo: las mejoras se concentraron especialmente en las personas con menos experiencia.</p><p>En otro contexto, METR estudió a desarrolladores experimentados trabajando en sus propios repositorios. En su experimento de principios de 2025, los participantes creían que la IA los había acelerado, pero el tiempo observado mostraba una ralentización. Cuando el equipo intentó repetir la medición con herramientas más recientes, aparecieron problemas de selección y nuevas formas de trabajo, como usar varios agentes en paralelo, que hicieron menos fiable la estimación. En febrero de 2026 decidieron rediseñar el experimento.</p><p>Estos trabajos no permiten trasladar una cifra a cualquier empresa. Enseñan algo más importante: <strong>el efecto depende de la tarea, de las personas, del contexto y de cómo definimos y medimos el resultado</strong>. Incluso una prueba bien planteada puede necesitar correcciones cuando cambia la forma de trabajar.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><h2>Qué medir antes de poner en marcha el piloto</h2><p>Antes de introducir el agente necesitamos saber cómo funciona hoy el proceso. No para producir un dashboard enorme, sino para poder comparar.</p><p>En el ejemplo de atención al cliente, una línea base útil podría registrar el tiempo desde que entra una solicitud hasta que queda resuelta, cuánto tiempo permanece esperando, cuántas veces se reabre, cuántas revisiones necesita y qué errores o reclamaciones genera. Si solo medimos los minutos dedicados a redactar, habremos elegido como realidad una parte demasiado pequeña del sistema.</p><p>Conviene separar tres tipos de señales:</p><ul><li><p><strong>Resultado:</strong> tiempo total de resolución, solicitudes resueltas correctamente o satisfacción del cliente.</p></li><li><p><strong>Proceso:</strong> tiempo de clasificación, búsqueda y redacción, porcentaje de borradores aceptados o número de revisiones.</p></li><li><p><strong>Efectos adversos:</strong> errores, reclamaciones, escalados, trabajo desplazado, pérdida de aprendizaje o diferencias entre grupos.</p></li></ul><p>Esta separación evita un engaño frecuente. Podemos mejorar una métrica intermedia y empeorar el resultado final. También podemos reducir el tiempo medio ocultando que las solicitudes más difíciles ahora tardan más o que una parte del equipo absorbe toda la revisión.</p><p>Aquí aparece otra lección de estadística que me llevo al trabajo con IA: <strong>medir más no corrige medir mal.</strong> Si probamos el agente solo con solicitudes fáciles, excluimos los fallos o no contamos el tiempo de quienes revisan, miles de registros seguirán ofreciendo una imagen falsa del proceso.</p><p>No se trata de medir todo. Se trata de medir lo suficiente para que la decisión no dependa de la fluidez de la demo ni de la sensación de velocidad.</p><div><hr></div><h2>Cuándo continuar, corregir o detener la prueba</h2><p>La pregunta más útil de un piloto no es «¿cómo demostraremos que funciona?». Es otra: <strong>¿Qué tendría que ocurrir para que continuemos, corrijamos o paremos?</strong></p><p>Si no podemos responderla antes de empezar, cualquier resultado podrá reinterpretarse como un éxito. Cuando el tiempo mejore, diremos que la IA funciona. Si no mejora, diremos que falta entrenamiento. Si aumenta la revisión, diremos que es una fase temporal. Si aparecen errores, pediremos otro modelo. La hipótesis se vuelve imposible de refutar.</p><p>Un marco sencillo puede ayudarnos a fijar de antemano las condiciones de la prueba:</p><div class=\"callout-block\" data-callout=\"true\"><p>Observamos que <em><strong>[problema concreto y medible]</strong></em>.</p><p>Creemos que se debe principalmente a <em><strong>[diagnóstico o mecanismo]</strong></em>, basándonos en <em><strong>[evidencia disponible]</strong></em>.</p><p>Probaremos<em><strong> [intervención acotada]</strong></em> en <em><strong>[ámbito</strong></em>] durante <em><strong>[plazo].</strong></em></p><p>Antes de empezar, mediremos <em><strong>[línea base</strong></em>].</p><p>Esperamos observar <em><strong>[cambio concreto]</strong></em> en <em><strong>[métricas de resultado].</strong></em></p><p>También vigilaremos <em><strong>[errores, costes desplazados, efectos adversos y grupos afectados].</strong></em></p><p>Consideraremos que funciona si <em><strong>[umbral y criterio de éxito]</strong></em>.</p><p>Revisaremos el diagnóstico si <em><strong>[resultado que contradice la hipótesis]</strong></em>.</p><p>Detendremos la prueba si <em><strong>[límites de daño o coste].</strong></em></p><p>Solo ampliaremos la intervención si <em><strong>[evidencia necesaria para escalar]</strong></em>.</p></div><p>No hace falta que el documento sea largo. Hace falta que obligue a diferenciar lo que sabemos, lo que creemos y lo que vamos a observar.</p><p>El marco de gestión de riesgos de IA de NIST sigue una lógica compatible: antes de desplegar, propone entender el contexto y el uso previsto, definir el alcance, comparar beneficios y costes con referencias adecuadas, medir el comportamiento en condiciones parecidas a las reales y mantener mecanismos para corregir o desactivar el sistema si sus resultados no encajan con el propósito.</p><p>La plantilla no sustituye ese trabajo de gobernanza. Sirve para que el primer piloto no nazca ya desconectado de él.</p><div><hr></div><h2>¿Qué debe demostrar el piloto antes de escalar el agente?</h2><p>Una demostración prueba que una máquina puede hacer algo; un <strong>piloto debe probar que ese algo mejora un proceso real,</strong> para unas personas concretas y bajo condiciones observables.</p><p>Escalar exige una pregunta adicional: <strong>¿tenemos razones para pensar que la mejora se mantiene cuando ampliamos el volumen, los casos, los equipos y el tiempo?</strong></p><p>Son tres niveles distintos. Saltar del primero al tercero porque una respuesta impresiona es una manera rápida de convertir incertidumbre técnica en coste organizativo.</p><p>Una de las ideas que me llevo de estos meses es que los problemas complejos no suelen resolverse de una vez: se navegan. <strong>Eso no significa que todo proyecto de IA sea un problema complejo.</strong> El caso de los tickets no lo es. La transferencia es más pequeña y, precisamente por eso, más útil: incluso ante un problema operativo acotado, conviene diagnosticar antes de elegir la solución, comprobar nuestras suposiciones y decidir a partir de evidencia.</p><p>Por eso una estrategia de IA rigurosa no debería prometer que ya conoce el resultado. Debería explicar cómo aprenderá lo suficiente para tomar la siguiente decisión.</p><p style=\"text-align: center;\"><strong>Tools are great. <mark data-color=\"#ff9900\" style=\"background-color: rgb(255, 153, 0); color: rgb(0, 0, 0);\">Systems</mark> are better.</strong></p><p>En las últimas semanas hemos visto cómo construir un sistema con skills, agentes y arneses. Esta es la pieza que va antes: el problema que merece el sistema y la evidencia que exigiremos para conservarlo.</p><p>Una estrategia rigurosa no dice: «Sabemos que esto reducirá los costes un 20 %». Dice: «Esta es nuestra mejor explicación del problema, esta es la prueba que haremos y esto es lo que tendría que ocurrir para continuar, corregir o parar».</p><p>O, todavía más breve:</p><div class=\"pullquote\"><p><strong>La estrategia no consiste en prometer de antemano el resultado, sino en diseñar una prueba que permita distinguir cuándo avanzar, cuándo corregir y cuándo detenerse.</strong></p></div><p><strong>P. D.</strong> Esta newsletter también nace de seis meses de trabajo compartido. Gracias a mis compañeros de equipo, <strong>Edgar, Elena, Nuria y Steven</strong>, por el tiempo, las conversaciones y todo el trabajo que hubo detrás de nuestro caso práctico. Una parte importante de lo que me llevo del programa la construimos entre los cinco.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/piloto-ia-disenar-medir-escalar?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/piloto-ia-disenar-medir-escalar?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartir</span></a></p><div><hr></div><p></p><h2>Recursos</h2><p>- <a href=\"https://www.unir.net/empresa/programa-resolucion-problemas-complejos/\">UNIR: Programa en Resolución de Problemas Complejos</a></p><p>- <a href=\"https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/strategys-strategist-an-interview-with-richard-rumelt\">Richard Rumelt: *Strategy's strategist*</a></p><p>- <a href=\"https://airc.nist.gov/airmf-resources/airmf/5-sec-core/\">NIST: AI Risk Management Framework Core</a></p><p>- <a href=\"https://academic.oup.com/qje/article/140/2/889/7990658\">*Generative AI at Work*, The Quarterly Journal of Economics</a></p><p>- <a href=\"https://metr.org/blog/2026-02-24-uplift-update/\">METR: *We are Changing our Developer Productivity Experiment Design*</a></p><div class=\"pullquote\"><p style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h1 style=\"text-align: center;\"><strong>Suscríbete a Think&amp;Hack</strong></h1><p style=\"text-align: center;\"><strong><span>Tools are great. </span><mark data-color=\"rgb(230, 145, 56)\" style=\"background-color: rgb(230, 145, 56); color: rgb(0, 0, 0);\"><span>Systems</span></mark><span> are better.</span></strong></p><p>Casos reales, flujos que funcionan y formas concretas de usar la IA sin perder el control del proceso.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 2417,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        183,
+        110,
+        93
+      ],
+      "population": 8
+    },
+    "DarkVibrant": {
+      "rgb": [
+        91.8,
+        50.433333333333344,
+        40.80000000000001
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        214.20000000000002,
+        172.83333333333331,
+        163.2
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        129,
+        128,
+        128
+      ],
+      "population": 180
+    },
+    "DarkMuted": {
+      "rgb": [
+        82,
+        82,
+        82
+      ],
+      "population": 127
+    },
+    "LightMuted": {
+      "rgb": [
+        188,
+        188,
+        188
+      ],
+      "population": 163
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 7,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 209140975,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/209140975/tts/681d1285-58d3-4860-a102-d848e0ce3dd1/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 306524615,
+      "body": "Enhorabuena por el Master!",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Enhorabuena por el Master!"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 209140975,
+      "user_id": 84979029,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-08-02T09:04:04.308Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Eva FT",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "handle": "evaft",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "evaft",
+      "metadata": {
+        "is_author": true,
+        "membership_state": "subscribed",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Eva FT",
+          "id": 6846930,
+          "base_url": "https://evaft.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 30,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

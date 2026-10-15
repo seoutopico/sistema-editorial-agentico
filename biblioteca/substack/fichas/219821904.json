@@ -1,0 +1,33 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "Codex",
+    "VS Code",
+    "React",
+    "TypeScript",
+    "Vite",
+    "shadcn/ui",
+    "AGENTS.md"
+  ],
+  "fecha": "2026-10-11",
+  "huella": "dd56cb63208385327728e001e26f47ddd79d258cd8550f52c2e498a755a9dd18",
+  "id": "219821904",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 8,
+    "restacks": 1
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "sistema de diseño",
+    "agente constructor y agente revisor",
+    "skills de construcción y revisión",
+    "componentes reutilizables",
+    "catálogo de componentes"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "Para que las aplicaciones hechas con IA no parezcan un Frankenstein hay que guardar las decisiones de diseño en un sistema consultable y montar un arnés con dos agentes: uno construye y otro revisa.",
+  "titulo": "He montado un pequeño equipo de IA para que mis aplicaciones no parezcan un Frankenstein",
+  "url": "https://ainalluna.substack.com/p/crear-sistema-diseno-codex-agentes-ia"
+}

@@ -1,0 +1,27 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "ChatGPT",
+    "GPT-5.2 Thinking"
+  ],
+  "fecha": "2025-12-15",
+  "huella": "9625e4326bddac374f118802d9c38cf6e78e1e6ec2c2eb674fe0518294f72719",
+  "id": "181575255",
+  "metricas_publicas": {
+    "comentarios": 5,
+    "reacciones": 8,
+    "restacks": 2
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "ADN Verbal",
+    "voz propia",
+    "archivos de contexto en JSON",
+    "análisis de muestras de escritura"
+  ],
+  "tema": "Escribir con IA",
+  "tesis": "Para que la IA escriba como tú no sirve un perfil genérico: necesitas un ADN Verbal estructurado en JSON que capture tu tono, tus patrones y lo que nunca sonarías.",
+  "titulo": "#10 El método para que tu IA hable como tú",
+  "url": "https://ainalluna.substack.com/p/10-el-metodo-para-que-tu-ia-hable"
+}

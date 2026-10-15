@@ -1,0 +1,43 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "descripcion": "GPT-6 Astra is out, and it changes what an AI agent can be trusted to do alone. Here is what self-directed agents mean for your work, your skills, and the next six months.\n\nFull post:\nhttps://natesnewsletter.substack.com/p/gpt-6-astra-self-directed-agents?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true\n\nMy Links 🔗\n👉🏻 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nWhat's really happening inside the shift to self-directed AI agents?\nThe common story is that a smarter model arrived, but the real question is what happens when you stop supplying the method.\n\nIn this video, I share the inside scoop on what changes when agents stop needing your method:\n\n- Why Astra counts as AGI without winning a benchmark argument\n- How agents work around obstacles now instead of stopping to ask\n- What standing jobs replace when you stop handing out tasks\n- Where junior careers break when agents do the learning work\n\nThe capability is here and none of it can be recalled, and the decision still in front of you is how much of your world you hand over and how carefully you watch it.\n\nChapters:\n00:00 Why this counts as AGI\n01:39 What OpenAI shipped with GPT-6 Astra\n02:57 What makes a super agent\n04:32 Agents that find and message each other\n06:59 From tasks to standing areas of concern\n08:01 Which work moves to agents first\n10:38 The unowned work inside big companies\n13:09 When your agent talks to their agent\n15:19 Reliability, not intelligence, is the bottleneck\n18:56 Memory and the cost of switching agents\n21:51 How juniors learn when agents do the work\n25:12 What takeoff actually looks like\n\nListen to this video as a podcast.\n\nSpotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4\nApple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+  "duracion_segundos": 1655,
+  "estadisticas": {
+    "comentarios": 1300,
+    "fecha_captura": "2026-10-14T19:00:07Z",
+    "likes": 6648,
+    "visualizaciones": 402487
+  },
+  "fecha": "2026-09-06",
+  "fecha_precision": "exacta",
+  "formula_titulo": "sin clasificar",
+  "id": "1qGH6NwTj3o",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Agentes que no necesitan instrucciones; cambia cómo se trabaja; requiere ver contenido",
+    "relevante": true,
+    "tema": "Agentes de IA"
+  },
+  "senales": {
+    "dias": 38,
+    "formato_largo": true,
+    "interaccion": 0.0197,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 6.24,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:08:26Z",
+    "idioma": "es",
+    "origen": "manuales"
+  },
+  "titulo": "GPT-6 Astra Doesn't Need Your Instructions Anymore.",
+  "url": "https://www.youtube.com/watch?v=1qGH6NwTj3o"
+}

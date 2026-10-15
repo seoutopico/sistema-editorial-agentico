@@ -1,0 +1,109 @@
+{
+  "grupo_id": "herramientas-de-ia-jev",
+  "fecha": "2026-10-15",
+  "evaluacion": {
+    "grupo_id": "herramientas-de-ia-jev",
+    "articulos_comparados": [
+      "217023771",
+      "188057916",
+      "214284185",
+      "179631597",
+      "189540705"
+    ],
+    "cobertura": "ampliación",
+    "que_hemos_publicado": "Ya probamos Jev con prueba propia (217023771): qué es, el playground, la necesidad de explicitar criterios y definiciones (el sándwich), y una comparativa de coste y velocidad contra GPT-5.5 sobre 8 casos (19x más lento, ~354x más caro). También defendimos elegir el modelo según la tarea (179631597) y el resto de artículos comparados tocan contexto, agentes y SEO, no clasificación.",
+    "diferencia": "Nuestra prueba fue de juguete (8 casos en el playground) y el artículo cerró anunciando llevar Jev a nuestros procesos sin entregarlo. Los tres vídeos aportan ángulos que no cubrimos: clasificación a escala con cifras en directo (1.000 correos en 70 s por 9 centavos, youtube:ymgH8jS6Wb8@06:09; lotes de 20 vídeos, youtube:AwYYpXfFM9k@16:36), el patrón de enrutado donde Jev filtra y el modelo caro solo procesa lo que pasa el filtro (youtube:ymgH8jS6Wb8@04:06, youtube:tYugqJ9YytQ@13:34), la evaluación con un conjunto de referencia etiquetado antes de fiarse (youtube:ymgH8jS6Wb8@12:48) y el marco del clasificador como tercer primitivo del software (youtube:tYugqJ9YytQ@12:31), cuyas cifras son relatadas y sin verificar.",
+    "aportacion": "Probar Jev como clasificador dentro de nuestro propio sistema editorial, a escala real: clasificar los cientos de fichas y artículos de la biblioteca según nuestros criterios editoriales, con un conjunto de referencia de ~100 casos etiquetados a mano para medir precisión además de coste y velocidad (lo que ningún vídeo muestra), y montar el patrón de enrutado (Jev filtra, el LLM caro solo recibe lo que pasa el corte) midiendo cuánto baja la factura del proceso. Es texto y proceso, con API en la nube sin GPU, continúa lo que el artículo 217023771 dejó anunciado y cabe en una semana de trabajo real.",
+    "parecida_a": "2026-10-14-herramientas-de-ia",
+    "razon_nueva": "Aquel descarte (exige GPU/hardware) aplicaba al ángulo del modelo local Qwen al que se ciñó esa propuesta, que además decía expresamente 'Jev ya lo publicamos'. Este grupo es otro: tres vídeos de tres canales solo sobre Jev, con ángulos posteriores a nuestra prueba (escala, enrutado, evaluación de precisión) ejecutables sin hardware, vía API, y con una continuación que nuestro propio artículo dejó pendiente.",
+    "encaje": true,
+    "motivo": "Es exactamente nuestro nicho (IA aplicada a procesos) y nuestra forma de tratarlo: probarlo en nuestro sistema real y contar el proceso con cifras propias, incluyendo si la precisión no acompaña al ahorro."
+  },
+  "condiciones": {
+    "interes_real": {
+      "cumple": true,
+      "detalle": "mejor_interes=alto, canales=3, canales_tema=4"
+    },
+    "encaje": {
+      "cumple": true,
+      "detalle": "Es exactamente nuestro nicho (IA aplicada a procesos) y nuestra forma de tratarlo: probarlo en nuestro sistema real y contar el proceso con cifras propias, incluyendo si la precisión no acompaña al ahorro."
+    },
+    "no_cubierto": {
+      "cumple": true,
+      "detalle": "cobertura=ampliación"
+    },
+    "aportacion": {
+      "cumple": true,
+      "detalle": "Probar Jev como clasificador dentro de nuestro propio sistema editorial, a escala real: clasificar los cientos de fichas y artículos de la biblioteca según nuestros criterios editoriales, con un conjunto de referencia de ~100 casos etiquetados a mano para medir precisión además de coste y velocidad (lo que ningún vídeo muestra), y montar el patrón de enrutado (Jev filtra, el LLM caro solo recibe lo que pasa el corte) midiendo cuánto baja la factura del proceso. Es texto y proceso, con API en la nube sin GPU, continúa lo que el artículo 217023771 dejó anunciado y cabe en una semana de trabajo real."
+    }
+  },
+  "es_oportunidad": true,
+  "accion": "proponer",
+  "motivo_descarte": null,
+  "contexto": {
+    "fichas": [
+      [
+        "AwYYpXfFM9k",
+        "adad0113a995285ee656d76e9b9a23e5ae97e9422e04414e7d70e81b8bffbeb1"
+      ],
+      [
+        "tYugqJ9YytQ",
+        "1999077ac0bab9061ac2feec14f111cbc1f02bd82a62b1f7020b88a9f16801e2"
+      ],
+      [
+        "ymgH8jS6Wb8",
+        "f4a9f428f6762bf302fc39cf9fa9e9588e565f17a8590f12e08d1ca70ed522ac"
+      ]
+    ],
+    "articulos": [
+      [
+        "179631597",
+        "6cb005eb393513c2d7f6da9c4e9ccbadac13504c935188515e23d50a6f7a30d9"
+      ],
+      [
+        "188057916",
+        "ff717bc82b1cb2ed942f45b000c551f8c40372ddba2575bb7815fc21215df866"
+      ],
+      [
+        "189540705",
+        "15eac8b8f0480b5ff7a09e013f8bc48c8cbacde5eb0c20ad62db9c3c02c73273"
+      ],
+      [
+        "214284185",
+        "8543c31d5c50342cf95d62dbaf3a5da366afccda55749bbaf6471b00a259d1e3"
+      ],
+      [
+        "217023771",
+        "a138fbe9861a4e2acde4f8b195c538d0167dbaae77c0390ed4a5c8560b206af8"
+      ]
+    ],
+    "oportunidades": [
+      [
+        "2026-10-14-agentes-de-ia",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-14-herramientas-de-ia",
+        "descartada",
+        "Exige GPU/hardware que la autora no tiene; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)"
+      ],
+      [
+        "2026-10-14-herramientas-de-ia-google",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-nate-herk",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-openai",
+        "propuesta",
+        ""
+      ]
+    ]
+  },
+  "huella_contexto": "dba49e41b39e975ae69a299d505fabad6ec12b1d7f220da43f5804cc4333acde"
+}

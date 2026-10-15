@@ -1,0 +1,357 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/como-converti-mi-inbox-en-un-sistema",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 201948710,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-06-14T06:04:13.616Z",
+  "updated_at": "2026-06-14T06:08:39.404Z",
+  "publication_id": 5143893,
+  "search_engine_description": "Cómo convertir un inbox en un sistema de agentes de IA con cola, memoria, revisión y checks para cerrar tareas solo con evidencia",
+  "search_engine_title": "Arnés agéntico: agentes de IA verificables",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "como-converti-mi-inbox-en-un-sistema",
+  "social_title": null,
+  "subtitle": "Esta semana di una ponencia sobre cómo pasé de un pipeline lineal a un arnés agentic con cola, memoria, delegación, revisión y cierre verificable.",
+  "teaser_post_eligible": true,
+  "title": "Cómo convertí mi inbox en un sistema verificable de agentes",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 11
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "la-skill-que-convierte-webs-en-herramientas",
+  "next_post_slug": "seo-con-ia-agentes-sin-alucinar",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!TFLL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 201948710,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Esta semana di una ponencia sobre cómo pasé de un pipeline lineal a un arnés agentic con cola, memoria, delegación, revisión y cierre verificable.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!TFLL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!TFLL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 424w, https://substackcdn.com/image/fetch/$s_!TFLL!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 848w, https://substackcdn.com/image/fetch/$s_!TFLL!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 1272w, https://substackcdn.com/image/fetch/$s_!TFLL!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!TFLL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png\" width=\"892\" height=\"417\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3e262513-3f92-474e-881a-91a493ffba59_892x417.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:417,&quot;width&quot;:892,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:158423,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/201948710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!TFLL!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 424w, https://substackcdn.com/image/fetch/$s_!TFLL!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 848w, https://substackcdn.com/image/fetch/$s_!TFLL!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 1272w, https://substackcdn.com/image/fetch/$s_!TFLL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e262513-3f92-474e-881a-91a493ffba59_892x417.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p>Esta semana di una ponencia de 20 minutos sobre algo que me lleva obsesionando bastante tiempo: <strong>qué pasa cuando dejamos de usar la IA como una conversación y empezamos a rodearla de un sistema.</strong></p><p>No hablé de prompts mágicos.</p><p>No hablé de una herramienta nueva que lo hace todo.</p><p>Hablé de una cosa mucho menos vistosa, pero mucho más importante si quieres trabajar con agentes de verdad: <strong>cómo diseñar un arnés alrededor de la IA para que pueda operar, fallar, revisar y cerrar bien.</strong></p><p>La charla se titulaba: <em>Cómo convertí mi inbox en un sistema verificable de agentes</em>.</p><p>Y la tesis era esta:</p><p><strong>No rehice carpetas. Cambié el contrato de trabajo con la IA.</strong></p><p>Antes tenía un sistema potente: inbox, proyectos, memoria, comandos, agentes, hooks, skills y automatización. Funcionaba. Me ayudaba a convertir entradas sueltas en trabajo organizado.</p><p>Pero había un problema de fondo.</p><p>El sistema dependía demasiado de que el modelo recordara qué estaba haciendo, qué faltaba, qué criterio tenía que cumplir y cuándo podía decir “he terminado”.</p><p>Y ahí aparece una de las frases centrales de la charla:</p><p><strong>Un agente no termina cuando responde. Termina cuando verifica.</strong></p><p>Si quieres aprender a convertir la IA en sistemas útiles, suscríbete a Think&amp;Hack.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><h2>El problema: confundimos respuesta con cierre.</h2><p>Cuando trabajas con IA en tareas pequeñas, una respuesta puede parecer suficiente.</p><p>Le pides que resuma algo, que reescriba un texto, que proponga una estructura o que te ayude a pensar una idea. La conversación empieza, la conversación termina y tú decides si te sirve.</p><p>Pero cuando empiezas a usar agentes para operar sobre sistemas reales, esa lógica se rompe.</p><p>Un agente puede tocar archivos, mover documentos, actualizar estados, clasificar una bandeja de entrada, crear proyectos, lanzar comandos, dejar trazas en una memoria y coordinar subagentes.</p><p>Y entonces la pregunta ya no es: “¿Me ha dado una buena respuesta?”.</p><p>La pregunta es otra:</p><p><strong>¿El sistema puede demostrar que la tarea está hecha?</strong></p><p>Ese matiz lo cambia todo.</p><p>Porque el agente puede sonar seguro y estar equivocado. Puede decir que ha actualizado un README y haber olvidado una parte. Puede procesar una entrada y dejar un adjunto huérfano. Puede cambiar el estado de un proyecto y no dejar log. Puede cerrar una tarea porque su resumen parece coherente, no porque haya verificado la evidencia.</p><div class=\"pullquote\"><p>Ese era el fallo de diseño de mi sistema anterior.</p></div><p>No le faltaban piezas. Tenía muchas.</p><p>Tenía comandos para procesar inbox, crear proyectos, refrescar estado, hacer lint del sistema y mantener memoria.</p><p>Tenía subagentes para clasificar entradas, actualizar proyectos, refrescar estado y mantener la wiki.</p><p>Tenía hooks para enganchar comportamiento al arranque, validar el sistema y evitar cierres falsos.</p><p><strong>Era potente.</strong></p><p>Pero no formaba un ciclo cerrado de trabajo.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!NWeO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!NWeO!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 424w, https://substackcdn.com/image/fetch/$s_!NWeO!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 848w, https://substackcdn.com/image/fetch/$s_!NWeO!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 1272w, https://substackcdn.com/image/fetch/$s_!NWeO!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!NWeO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png\" width=\"992\" height=\"314\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:314,&quot;width&quot;:992,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:39811,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/201948710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!NWeO!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 424w, https://substackcdn.com/image/fetch/$s_!NWeO!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 848w, https://substackcdn.com/image/fetch/$s_!NWeO!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 1272w, https://substackcdn.com/image/fetch/$s_!NWeO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ddb439-a960-4970-baf6-ae85bba8ecaa_992x314.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"pullquote\"><p>Había acción, automatización y memoria. Pero el cierre seguía siendo débil.</p></div><h2>La solución: default-FAIL</h2><p>La nueva versión parte de una regla muy sencilla:</p><p><strong>Por defecto, nada está hecho.</strong></p><p>No porque desconfiemos de la IA de forma abstracta. Sino porque, si el sistema puede cambiar cosas importantes, el cierre no puede depender del tono de seguridad del modelo.</p><p>La unidad de trabajo entra en una cola; el líder la lee, los workers ejecutan, el revisor contrasta, el check valida y solo entonces se puede marcar como hecho.</p><div class=\"callout-block\" data-callout=\"true\"><p><strong>El flujo ya no es: </strong>“Haz esto y dime cuando termines”.</p><p><strong>Es:</strong> “Esta unidad tiene criterios de aceptación. Trabaja sobre ella, deja evidencia, permite revisión y no cierres hasta que el sistema lo demuestre”.</p></div><p><strong>Ahí aparece el arnés.</strong></p><p>No como una metáfora bonita, sino como una arquitectura concreta:</p><div class=\"highlighted_code_block\" data-attrs=\"{&quot;language&quot;:&quot;plaintext&quot;,&quot;nodeId&quot;:&quot;facdbe74-5d91-4eb5-bfd8-955fb9c3a48d&quot;}\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre class=\"shiki\"><code class=\"language-plaintext\">`_cola/` para convertir peticiones en unidades verificables.\n`_progress/` para sacar memoria operativa del contexto.\n`_projects/` para mantener el dominio.\n`_memory/` para dejar aprendizaje y trazabilidad.\n`bin/check.ps1` para validar invariantes.\nagentes `.md` para definir roles.\nplaybooks para describir procesos.\nrevisor para juzgar evidencia.</code></pre></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!-OBK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!-OBK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 424w, https://substackcdn.com/image/fetch/$s_!-OBK!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 848w, https://substackcdn.com/image/fetch/$s_!-OBK!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 1272w, https://substackcdn.com/image/fetch/$s_!-OBK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!-OBK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png\" width=\"979\" height=\"384\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:384,&quot;width&quot;:979,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:308252,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/201948710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!-OBK!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 424w, https://substackcdn.com/image/fetch/$s_!-OBK!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 848w, https://substackcdn.com/image/fetch/$s_!-OBK!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 1272w, https://substackcdn.com/image/fetch/$s_!-OBK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e204ee5-d2e8-448d-9e7b-06809378efd1_979x384.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>La cola cambia todo.</h2><p>Uno de los cambios más importantes fue convertir las peticiones en unidades de trabajo explícitas.</p><div class=\"pullquote\"><p>Antes, una petición podía vivir como una frase: “Procesa esto”, “actualiza este proyecto”, “archiva esta comunicación” o “crea una nueva ficha”.</p></div><p>El problema es que una frase deja demasiado espacio a la interpretación. Y cuando una sesión se alarga, se compacta, se interrumpe o cambia de agente, esa interpretación empieza a degradarse.</p><p><strong>Ahora una unidad vive en `_cola/trabajo.json`.</strong></p><p>Tiene un `id`, un tipo, un título, criterios, estado y, sobre todo, una definición externa a la conversación.</p><p>Por ejemplo, una unidad no se cierra porque el agente diga “he terminado”.</p><p>Se cierra si se cumplen criterios como:</p><ul><li><p>el README se ha actualizado;</p></li><li><p>el log ha recibido una entrada append-only;</p></li><li><p>`STATUS.md` queda coherente si cambia el estado;</p></li><li><p>`bin/check` sale en verde;</p></li><li><p>el revisor devuelve `PASS`.</p></li></ul><p>Esto parece más complejo.</p><p>Lo es.</p><div class=\"callout-block\" data-callout=\"true\"><p>Pero esa complejidad compra algo que la conversación sola no puede darte: <strong>continuidad</strong>.</p></div><p>Si la sesión se corta, la cola sigue ahí. Si el contexto se compacta, `_progress/` sigue ahí. Si otro agente retoma la tarea, los criterios siguen ahí.</p><p>Una unidad pendiente sigue pendiente aunque el agente anterior se sintiera terminado.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!peix!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!peix!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 424w, https://substackcdn.com/image/fetch/$s_!peix!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 848w, https://substackcdn.com/image/fetch/$s_!peix!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 1272w, https://substackcdn.com/image/fetch/$s_!peix!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!peix!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png\" width=\"1110\" height=\"456\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:456,&quot;width&quot;:1110,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!peix!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 424w, https://substackcdn.com/image/fetch/$s_!peix!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 848w, https://substackcdn.com/image/fetch/$s_!peix!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 1272w, https://substackcdn.com/image/fetch/$s_!peix!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F398db976-67b3-4a97-81c4-2b61f5a2c85a_1110x456.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>Sacar la memoria del modelo</h2><p>Hay una idea que atraviesa toda la charla:</p><p><strong>Memoria útil no es más contexto. Es estado legible y verificable.</strong></p><p>Durante mucho tiempo hemos tratado la ventana de contexto como si fuera el lugar natural donde debía vivir el trabajo.</p><p>Añades más instrucciones, más historial, más ejemplos, más documentos y más conversación.</p><p>Y durante un rato funciona.</p><p>Hasta que deja de funcionar.</p><p>El contexto se vuelve pesado. El agente empieza a mezclar pasos. Recuerda unas cosas y pierde otras. Arrastra decisiones antiguas. Resume demasiado. O peor: mantiene una sensación de continuidad que ya no está respaldada por el estado real del sistema.</p><p>Por eso en el arnés la memoria operativa sale del modelo.</p><div class=\"pullquote\"><p><strong>Los subagentes no tienen que devolverlo todo en la conversación principal: escriben en `_progress/`, el líder puede leer lo necesario y el revisor puede contrastar lo que se hizo.</strong></p></div><p>El sistema puede continuar sin exigir que el modelo cargue todo en la cabeza.</p><p>Esto no elimina el contexto.</p><p>Lo vuelve más limpio.</p><p>El agente usa la conversación para coordinar y razonar, no para sostener todo el estado del mundo.</p><p>El arnés, en ese sentido, es un patrón de navegación.</p><p>Le dice al agente dónde mirar, qué dejar escrito, qué comprobar y cuándo no puede cerrar.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!T3lc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!T3lc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 424w, https://substackcdn.com/image/fetch/$s_!T3lc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 848w, https://substackcdn.com/image/fetch/$s_!T3lc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 1272w, https://substackcdn.com/image/fetch/$s_!T3lc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!T3lc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png\" width=\"1456\" height=\"698\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:698,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:205917,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/201948710?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!T3lc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 424w, https://substackcdn.com/image/fetch/$s_!T3lc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 848w, https://substackcdn.com/image/fetch/$s_!T3lc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 1272w, https://substackcdn.com/image/fetch/$s_!T3lc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F207be2ca-80cf-44f6-9f3e-040de06a5608_1818x872.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>El revisor no evalúa intenciones.</h2><p>La <strong>pieza </strong>más <strong>importante </strong>no es el líder ni son los workers. Es el <strong>revisor</strong>.</p><p>Porque el revisor cambia la pregunta.</p><div class=\"callout-block\" data-callout=\"true\"><p><strong>No pregunta:</strong> “¿El agente dice que lo ha hecho?”.</p><p><strong>Pregunta:</strong> “¿Dónde está la evidencia?”.</p></div><p><strong>El protocolo del revisor es muy concreto:</strong></p><ol><li><p>Lee los criterios de aceptación.</p></li><li><p>Lee `_<code>rogress/&lt;run-id&gt;/`.</code></p></li><li><p>Contrasta con el `git diff`.</p></li><li><p>Verifica las escrituras esperadas.</p></li><li><p>Ejecuta `bin/check`.</p></li><li><p>Devuelve `PASS` o `NEEDS_WORK`.</p></li></ol><p>Esa última parte importa.</p><p>Ante la duda, `NEEDS_WORK`.</p><p>No porque queramos ponerle trabas al agente, sino porque la autonomía sin revisión produce deuda.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!uaxX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!uaxX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 424w, https://substackcdn.com/image/fetch/$s_!uaxX!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 848w, https://substackcdn.com/image/fetch/$s_!uaxX!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 1272w, https://substackcdn.com/image/fetch/$s_!uaxX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!uaxX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png\" width=\"1035\" height=\"606\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:606,&quot;width&quot;:1035,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!uaxX!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 424w, https://substackcdn.com/image/fetch/$s_!uaxX!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 848w, https://substackcdn.com/image/fetch/$s_!uaxX!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 1272w, https://substackcdn.com/image/fetch/$s_!uaxX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6362b779-806f-48ba-b3ec-b3838961a8af_1035x606.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"pullquote\"><p>Un sistema agentic que puede hacer cosas por ti necesita una forma de decir: “Todavía no”.</p></div><p>Y esa forma no puede depender de una intuición. Tiene que depender de criterios.</p><div><hr></div><h2>El arquitecto cambia el sistema</h2><p>La otra pieza que enseñé en la ponencia es el arquitecto.</p><p><mark data-color=\"#f1c232\" style=\"background-color: rgb(241, 194, 50); color: rgb(0, 0, 0);\">Si el líder opera el sistema y el revisor valida el trabajo, el arquitecto cambia el propio arnés.</mark> Es el <strong>agente </strong>que <strong>entra </strong>cuando no <strong>quieres </strong>procesar una unidad más, sino <strong>extender el sistema:</strong> añadir una regla, crear un comando, modificar una skill, documentar una convención o sumar una nueva comprobación.</p><p>Esto también cambia el tipo de confianza que puedes tener en el sistema.</p><p>Porque una mejora no se queda solo como “a partir de ahora acuérdate de esto”. Si aparece una regla nueva, el arquitecto la documenta y añade la forma de verificarla en `bin/check`.</p><p>El sistema no mejora porque el modelo prometa portarse mejor la próxima vez.</p><p>Mejora porque una parte del arnés cambia.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ywqq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ywqq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 424w, https://substackcdn.com/image/fetch/$s_!ywqq!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 848w, https://substackcdn.com/image/fetch/$s_!ywqq!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 1272w, https://substackcdn.com/image/fetch/$s_!ywqq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ywqq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png\" width=\"1077\" height=\"805\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:805,&quot;width&quot;:1077,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ywqq!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 424w, https://substackcdn.com/image/fetch/$s_!ywqq!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 848w, https://substackcdn.com/image/fetch/$s_!ywqq!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 1272w, https://substackcdn.com/image/fetch/$s_!ywqq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c2192c7-c822-4565-914d-1b08e37ee735_1077x805.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>El repo que enseñé en el QR</h2><p>Al final de la ponencia puse un QR al repo porque no quería que esto quedara como una idea abstracta.</p><div class=\"callout-block\" data-callout=\"true\"><p><strong>El ejemplo está aquí: </strong><a href=\"https://github.com/seoutopico/pm_claude_code/tree/v3\">https://github.com/seoutopico/pm_claude_code/tree/v3</a></p></div><p>Es un sistema de gestión de proyectos en Claude Code, hecho con Markdown, memoria persistente, agentes, cola de trabajo y checks. La gracia está en comparar la V1 con la V3: el dominio es parecido, pero la V3 añade el arnés que convierte una petición en una unidad trazable y revisable.</p><p>Ahí se ve mucho mejor el cambio: no es pedirle a la IA que “sea más cuidadosa”, sino construir un entorno donde no pueda cerrar sin evidencia.</p><p>Para mí, esa es la parte importante: <strong>la respuesta ya no es el final del trabajo. El final del trabajo es la evidencia.</strong></p><p>En la ponencia cerré con una frase que resume muy bien el punto:</p><p><strong>Que la IA gestione sistemas no la convierte en responsable. La responsabilidad sigue siendo tuya.</strong></p><p>Por eso me interesa tanto esta forma de trabajar. No quita responsabilidad: la vuelve más visible.</p><p><strong>Un agente no termina cuando responde. Termina cuando verifica.</strong></p><p>Si al leer esto has pensado “esto es justo lo que me pasa cuando intento usar agentes para trabajo real”, probablemente conoces a alguien que también debería leerlo.</p><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/como-converti-mi-inbox-en-un-sistema?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/como-converti-mi-inbox-en-un-sistema?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartir</span></a></p><p></p><h2>Recursos:</h2><div class=\"callout-block\" data-callout=\"true\"><p><strong>El repo para trastear: </strong><a href=\"https://github.com/seoutopico/pm_claude_code/tree/v3\">https://github.com/seoutopico/pm_claude_code/tree/v3</a></p><p><strong>La presentación: </strong><a href=\"https://docs.google.com/presentation/d/1K8syMHbtw_TaLoB57Z7HIHKXc7MiGUpav6cYLfdYhVc/edit?usp=sharing\">https://docs.google.com/presentation/d/1K8syMHbtw_TaLoB57Z7HIHKXc7MiGUpav6cYLfdYhVc/edit?usp=sharing</a></p></div><p></p><p style=\"text-align: center;\"></p><div class=\"pullquote\"><p style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h1 style=\"text-align: center;\"><strong>Suscríbete a Think&amp;Hack</strong></h1><p>Casos reales, flujos que funcionan y formas concretas de usar la IA sin perder el control del proceso.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 1577,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        165.27777777777777,
+        127.5,
+        89.72222222222223
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        85.94444444444444,
+        66.3,
+        46.655555555555566
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        208.34444444444443,
+        188.7,
+        169.05555555555557
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        115,
+        124,
+        129
+      ],
+      "population": 59
+    },
+    "DarkMuted": {
+      "rgb": [
+        64,
+        72,
+        82
+      ],
+      "population": 12
+    },
+    "LightMuted": {
+      "rgb": [
+        236,
+        228,
+        220
+      ],
+      "population": 5227
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 11,
+  "comment_count": 4,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 201948710,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/201948710/tts/813a9cf2-25f3-498c-9a6f-c68c14a9d7f5/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 284102554,
+      "body": "Lo leo justo después de pasar la mañana haciendo a mano lo que describes: verificar contra fuente primaria si un capturador nocturno de mi sistema seguía vivo. Status 0, timer en verde, mtime de hoy — y resultó que llevaba días reescribiendo datos viejos. Tu frase \"un agente no termina cuando responde, termina cuando verifica\" es exactamente la disciplina que me ahorró creerme el \"hecho\". Gracias por ponerle arquitectura a algo que yo tenía solo como costumbre.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lo leo justo después de pasar la mañana haciendo a mano lo que describes: verificar contra fuente primaria si un capturador nocturno de mi sistema seguía vivo. Status 0, timer en verde, mtime de hoy — y resultó que llevaba días reescribiendo datos viejos. Tu frase \"un agente no termina cuando responde, termina cuando verifica\" es exactamente la disciplina que me ahorró creerme el \"hecho\". Gracias por ponerle arquitectura a algo que yo tenía solo como costumbre."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 201948710,
+      "user_id": 116660374,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-06-28T05:38:08.036Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "juan gonzalez",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/c23d70a9-542b-4023-89bd-a5826452ce21_1024x1536.jpeg",
+      "handle": "juangonzalezca",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "juangonzalezca",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "juan gonzalez",
+          "id": 5564628,
+          "base_url": "https://descubriendoloesencial.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "3 respuestas de Aina Lluna y otros"
+    }
+  ]
+}

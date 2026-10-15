@@ -1,0 +1,1 @@
+Cada vez que pedía una pantalla nueva, la IA me cambiaba los botones, los espacios, los colores. El problema no era el modelo: era que mis decisiones de diseño no quedaban guardadas en ningún sitio que pudiera consultar. Lo he resuelto montando mi sistema de diseño con Codex y dos agentes, uno que construye y otro que revisa. Lo cuento paso a paso aquí: {{enlace}}

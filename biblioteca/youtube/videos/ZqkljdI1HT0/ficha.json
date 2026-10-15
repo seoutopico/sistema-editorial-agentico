@@ -1,0 +1,128 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "00:02",
+      "texto": "Qwen 3.8 ocupa 17 GB, se puede ejecutar en una gráfica de gaming, es gratuito y puntúa por delante de modelos de pago según Artificial Analysis.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "01:04",
+      "texto": "En el índice inteligencia frente a tamaño que publicó Georgi Gerganov (creador de llama.cpp), la versión anterior de Qwen sacaba 38 puntos y esta 52; los modelos que puntúan como Qwen pesan 10, 20 o 100 veces más.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "01:35",
+      "texto": "Qwen 3.8 no supera a lo más top de Anthropic (Opus 5 y Fable 5 siguen arriba) pero sí adelanta a las generaciones anteriores que mucha gente aún paga y que hicieron realidad la IA agéntica.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "02:37",
+      "texto": "Las pruebas se hicieron en un PC con una RTX 5090, con LM Studio como servidor y el agente de Hermes como arnés; con una GPU desde 8 GB de VRAM ya se puede probar el modelo.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "03:51",
+      "texto": "Con un mismo prompt, Qwen 3.8 en local, Gemini 3.7 Flash y Opus 5 construyen de forma autónoma la web completa FridgeFlow (textos, aplicación de menús, imágenes y vídeo) usando un MCP para generar los recursos visuales.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "09:37",
+      "texto": "Auditados por Claude probando la aplicación, Opus 5 obtiene un 8,3 (app usable ya), Qwen un 6 (funciona pero propone menús de 294 kcal/día) y Gemini queda último por entregar un mockup con el menú escrito fijo que no se actualiza.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "13:13",
+      "texto": "En el segundo test, analizar 42 documentos de empresa y producir un informe ejecutivo y un cuadro de mando en Excel, la auditoría de Opus 5 puntúa a Qwen con 7,6 y a Gemini con 6,7.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "14:15",
+      "texto": "Gemini tuvo fallos críticos: solo representó 28 de los 42 documentos en su cuadro de mando y contabilizó como gasto dos salarios de currículums de personas aún no contratadas.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "15:16",
+      "texto": "Al mover la fecha de referencia del 17 al 25 de agosto, el Excel de Qwen recalcula bien el dinero vencido (de 2.904 a 4.865 euros) mientras que el de Gemini se queda congelado en 2.904.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "15:47",
+      "texto": "De las 21 discrepancias internas entre documentos que identificó Opus, Qwen encontró 12 (7 de las 8 más caras) y Gemini solo 9 (4 de 7).",
+      "tipo": "dato"
+    },
+    {
+      "marca": "16:50",
+      "texto": "El modelo viene mal configurado de fábrica: con el razonamiento al máximo, Simon Willison tardó 21 minutos y 22.000 palabras de pensamiento para producir 3.000 de resultado; con el razonamiento apagado el mismo encargo llevó 2 minutos.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "17:50",
+      "texto": "Con la configuración por defecto en LM Studio genera entre 15 y 30 tokens por segundo, pero optimizado puede llegar a 70 tokens por segundo en una 4090 con visión y 100.000 tokens de contexto.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "18:23",
+      "texto": "Si mañana OpenAI, Google y Anthropic cortaran el grifo, el autor podría seguir trabajando solo con IA local con casi la misma calidad, aunque perdiendo agilidad.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "18:54",
+      "texto": "Lo que no se pararía si cortaran el acceso a la nube es lo que pagas por costumbre; la pregunta real es si el modelo que puedes ejecutar en casa ya resuelve tu problema.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "Xavier Mitjana",
+  "avisos_transcripcion": [
+    "00:02 la transcripción deforma nombres de modelos ('Cloutopus 4.8', 'QV4 Pro', 'GPT 5.6 Luna'); no está claro a qué modelos exactos se refiere.",
+    "01:04 'Klein' parece referirse a Cline, pero la transcripción no permite confirmarlo.",
+    "01:04 'Diipsig' y 'Gémin Flies' parecen DeepSeek y algún Gemini Flash, sin confirmación en la transcripción.",
+    "05:26 'Sidens 2.5' (modelo de vídeo del patrocinador Topview) aparece deformado; posiblemente Seedance 2.5.",
+    "11:41 se menciona 'Spark' como arnés de Gemini sin que quede claro qué herramienta es."
+  ],
+  "demuestra": "Dos casos de uso agénticos completos ejecutados con Qwen 3.8 en local (RTX 5090, LM Studio + Hermes) frente a Gemini 3.7 Flash, con Opus 5 como control y auditor: una web con aplicación funcional de menús (FridgeFlow) donde Qwen entrega producto funcional y Gemini solo un mockup, y el análisis de 42 documentos de empresa con cuadro de mando en Excel donde el de Qwen recalcula bien al cambiar la fecha de referencia y detecta más discrepancias que el de Gemini.",
+  "entidades": [
+    "Qwen 3.8",
+    "Gemini 3.7 Flash",
+    "Claude Opus 5",
+    "Fable 5",
+    "LM Studio",
+    "llama.cpp",
+    "Georgi Gerganov",
+    "Simon Willison",
+    "Hermes",
+    "Claude Code",
+    "Topview MCP",
+    "Artificial Analysis",
+    "Alibaba",
+    "Anthropic",
+    "Google",
+    "OpenAI",
+    "RTX 5090",
+    "Xavier Mitjana"
+  ],
+  "fecha": "2026-08-23",
+  "fuente": "youtube",
+  "huella": "c1b82385c3cfbbf52db7304ee46094721da71a7430d70705edf9c5570c5212b3",
+  "id": "ZqkljdI1HT0",
+  "preguntas_abiertas": [
+    "¿Qué rendimiento real (velocidad y ventana de contexto) tiene Qwen 3.8 en GPUs modestas de 8-16 GB de VRAM, y con qué cuantización?",
+    "¿Hasta qué punto es fiable usar Opus 5, un modelo de pago de la competencia, como único auditor de los resultados?",
+    "¿Son reproducibles las conclusiones con una sola ejecución por modelo y sin comparar contra Gemini Pro u otros modelos de pago actuales?",
+    "¿Cuál es el coste total real de montar y mantener el stack local (hardware, configuración, tutoriales) frente a una suscripción en la nube?"
+  ],
+  "promete_sin_demostrar": "Que el modelo sea usable desde solo 8 GB de VRAM (todas las pruebas son en una 5090); los 70 tokens por segundo en una 4090 tras optimizar (citado, no mostrado); el caso de Simon Willison sobre el razonamiento por defecto (referido de terceros); las posiciones en los índices de Artificial Analysis y de Gerganov (mostradas como tablas, no verificadas); y la conclusión de que casi nada de su trabajo se pararía si los laboratorios cerraran el acceso.",
+  "senales": {
+    "dias": 52,
+    "interaccion": 0.0223,
+    "multiplo_mediana": 2.14
+  },
+  "subtemas": [
+    "modelos abiertos en local",
+    "comparativa de modelos",
+    "comparativa de coste y velocidad",
+    "dependencia tecnológica de los equipos"
+  ],
+  "tema": "Herramientas de IA",
+  "tesis": "Un modelo abierto gratuito (Qwen 3.8) ejecutado 100% en local en una GPU de consumo ya rinde al nivel de los mejores modelos de pago de hace pocos meses y supera a Gemini 3.7 Flash en trabajo agéntico real, así que conviene preguntarse cuánto de lo que se paga en la nube es solo costumbre.",
+  "url": "https://www.youtube.com/watch?v=ZqkljdI1HT0"
+}

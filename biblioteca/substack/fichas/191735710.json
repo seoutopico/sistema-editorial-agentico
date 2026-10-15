@@ -1,0 +1,29 @@
+{
+  "basada_en": "completo",
+  "enfoque": "explicación",
+  "entidades": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "OpenAI"
+  ],
+  "fecha": "2026-03-23",
+  "huella": "93aa51d11b6cdef5a74b5fcff4eb87059ecbb4cd4664940ccc23079ce2157175",
+  "id": "191735710",
+  "metricas_publicas": {
+    "comentarios": 4,
+    "reacciones": 11,
+    "restacks": 4
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "instrucciones personalizadas",
+    "contexto previo a la conversación",
+    "protocolo ante ambigüedad",
+    "diferencias entre plataformas"
+  ],
+  "tema": "Herramientas de IA",
+  "tesis": "La calidad de las respuestas no depende solo del prompt del momento sino del contexto previo: configurar instrucciones personalizadas reduce respuestas genéricas sin delegar el pensamiento.",
+  "titulo": "La configuración que casi nadie toca y cambia cómo trabajas con ChatGPT, Claude y Gemini",
+  "url": "https://ainalluna.substack.com/p/instrucciones-personalizadas-chatgpt-claude-gemini"
+}

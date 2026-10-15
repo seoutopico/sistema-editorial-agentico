@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 1213,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 77000
+  },
+  "fecha": "2026-10-05",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La novedad",
+  "id": "A3o6PtnPn1M",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Migración de GPTs/Gems al sistema nuevo, tema ya tratado en la newsletter",
+    "relevante": true,
+    "tema": "Skills para agentes"
+  },
+  "senales": {
+    "dias": 9,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.78,
+    "senal_incompleta": false
+  },
+  "titulo": "GPTS and GEMS are being eliminated! The NEW system is better (Switch NOW)",
+  "url": "https://www.youtube.com/watch?v=A3o6PtnPn1M"
+}

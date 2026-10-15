@@ -1,0 +1,29 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "duracion_segundos": 875,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:29Z",
+    "likes": null,
+    "visualizaciones": 40000
+  },
+  "fecha": "2026-03-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "oC1h922cDoY",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 213,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.85,
+    "senal_incompleta": false
+  },
+  "titulo": "The Biggest Shift in Business Since the Internet Just Happened",
+  "url": "https://www.youtube.com/watch?v=oC1h922cDoY"
+}

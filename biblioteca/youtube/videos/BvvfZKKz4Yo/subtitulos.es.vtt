@@ -1,0 +1,1759 @@
+WEBVTT
+
+00:00:00.160 --> 00:00:02.975
+Hoy voy a comparar Dots de OpenAI y
+
+00:00:02.027 --> 00:00:04.479
+ Muse de Meta en cuanto a sus
+
+00:00:03.531 --> 00:00:06.242
+ características, funcionalidad y
+
+00:00:05.294 --> 00:00:08.190
+ sensación general. También hablaré
+
+00:00:07.226 --> 00:00:09.592
+ de los precios y hacia dónde creo que
+
+00:00:08.628 --> 00:00:10.993
+ se dirigen estas aplicaciones para que
+
+00:00:10.029 --> 00:00:12.395
+ aprovechen bien su tiempo, y claro, no
+
+00:00:11.431 --> 00:00:13.796
+ quiero perder más su tiempo, así que
+
+00:00:12.832 --> 00:00:15.993
+ empecemos de inmediato. Bien, tenemos
+
+00:00:15.041 --> 00:00:17.602
+ Muse de Meta, que rápidamente se
+
+00:00:16.649 --> 00:00:19.352
+ convirtió en la aplicación número
+
+00:00:18.399 --> 00:00:21.244
+ uno en la Apple App Store, y luego, por
+
+00:00:20.291 --> 00:00:22.900
+ supuesto, tenemos Dots de ChatGPT.
+
+00:00:22.520 --> 00:00:25.439
+ Ahora, mi reacción inmediata al entrar
+
+00:00:24.488 --> 00:00:27.112
+ y empezar a probar Dots es que se
+
+00:00:26.161 --> 00:00:28.588
+ sintió como un proyecto algo
+
+00:00:27.637 --> 00:00:30.359
+ apresurado para intentar ponerse al
+
+00:00:29.409 --> 00:00:32.229
+ día, porque vieron cómo Muse estaba
+
+00:00:31.278 --> 00:00:34.001
+ dominando y se dieron cuenta de que
+
+00:00:33.050 --> 00:00:35.969
+ tenemos un mejor modelo y, ya saben, ya
+
+00:00:35.018 --> 00:00:37.494
+ tenemos mucha gente en nuestro
+
+00:00:36.544 --> 00:00:39.081
+ ecosistema ChatGPT. Démosles,
+
+00:00:38.126 --> 00:00:40.809
+ esencialmente, lo que es Muse, pero en
+
+00:00:39.853 --> 00:00:42.447
+ nuestro ecosistema, y simplemente se
+
+00:00:41.491 --> 00:00:44.268
+ siente súper apresurado. Pueden ver
+
+00:00:43.323 --> 00:00:46.245
+ incluso durante el Dev Day de ayer,
+
+00:00:45.300 --> 00:00:48.387
+ cuando anunciaron este nuevo producto,
+
+00:00:47.441 --> 00:00:50.607
+ que literalmente falló. Ella intentaba
+
+00:00:49.656 --> 00:00:52.181
+ llamarlo aquí y simplemente no
+
+00:00:51.230 --> 00:00:54.049
+ respondía y tardaba una eternidad, y
+
+00:00:53.099 --> 00:00:55.967
+ terminó diciendo: "Oh, creo que Dotty
+
+00:00:55.016 --> 00:00:57.885
+ o como se llame está teniendo un día
+
+00:00:56.934 --> 00:00:59.355
+ lento". y terminaron simplemente
+
+00:00:58.396 --> 00:01:00.779
+ pasando de largo, pero como que lo
+
+00:00:59.820 --> 00:01:02.407
+ silenciaron en la transmisión en vivo.
+
+00:01:01.507 --> 00:01:04.125
+ Así que todos los que estaban allí en
+
+00:01:03.167 --> 00:01:05.785
+ persona vieron la demostración en vivo
+
+00:01:04.785 --> 00:01:07.761
+. Ambos tienen la capacidad de nombrar
+
+00:01:06.807 --> 00:01:09.585
+ a tu pequeño Muse o tus Dots, y puedes
+
+00:01:08.631 --> 00:01:11.534
+ personalizarlo un poco. Como pueden ver
+
+00:01:10.534 --> 00:01:13.444
+, exactamente lo mismo aquí dentro de
+
+00:01:12.495 --> 00:01:15.455
+ la aplicación de escritorio de ChatGPT
+
+00:01:14.506 --> 00:01:17.366
+ o Codex, donde puedo acceder a mi Dot
+
+00:01:16.416 --> 00:01:19.267
+ justo aquí. Ahora, lo primero que me
+
+00:01:18.308 --> 00:01:20.833
+ sorprendió fue que esperaba que Dots
+
+00:01:19.874 --> 00:01:22.110
+ fuera más una aplicación con
+
+00:01:21.151 --> 00:01:23.552
+ sensación de bot tipo Grok, donde
+
+00:01:22.593 --> 00:01:24.829
+ tendríamos un montón de bots
+
+00:01:23.870 --> 00:01:26.476
+ diferentes que podríamos crear y hacer
+
+00:01:25.518 --> 00:01:28.001
+ que hablaran entre sí; pero esto es
+
+00:01:27.042 --> 00:01:29.525
+ mucho más parecido a Muse, donde es
+
+00:01:28.566 --> 00:01:31.132
+ como un solo hilo o un solo agente con
+
+00:01:30.173 --> 00:01:32.779
+ el que hablas y que te ayuda con todo a
+
+00:01:31.821 --> 00:01:34.516
+ nivel personal. Así que veremos la
+
+00:01:33.567 --> 00:01:36.440
+ interfaz de usuario, compararemos las
+
+00:01:35.491 --> 00:01:38.313
+ diferencias y hablaremos de cuál me
+
+00:01:37.364 --> 00:01:40.236
+ gusta más, pero primero, hablemos de
+
+00:01:39.287 --> 00:01:42.154
+ algunas cosas fundamentales. Entonces,
+
+00:01:41.193 --> 00:01:43.614
+ trabajo en segundo plano. Ambos son
+
+00:01:42.653 --> 00:01:45.015
+ agentes persistentes en la nube que
+
+00:01:44.054 --> 00:01:46.416
+ pueden tener horarios y con los que
+
+00:01:45.455 --> 00:01:47.817
+ puedes conversar, y ambos tienen su
+
+00:01:46.856 --> 00:01:49.763
+ propia computadora en la nube. El
+
+00:01:48.819 --> 00:01:51.897
+ modelo que impulsa a Dots ahora mismo
+
+00:01:50.953 --> 00:01:54.143
+ es GBD-6 Astra, y el que impulsa a Muse
+
+00:01:53.200 --> 00:01:55.899
+ es Muse Spark 1.3. Hablaré un poco
+
+00:01:54.935 --> 00:01:57.296
+ más sobre las diferencias entre esos
+
+00:01:56.333 --> 00:01:59.245
+ modelos más adelante en el video. En
+
+00:01:58.287 --> 00:02:00.866
+ cuanto a la configuración de trabajo
+
+00:01:59.908 --> 00:02:02.358
+ existente, ya tienes una conexión
+
+00:02:01.401 --> 00:02:03.937
+ directa en Dots a ChatGPT y Codex si
+
+00:02:02.979 --> 00:02:05.600
+ tienes la aplicación de escritorio y,
+
+00:02:04.643 --> 00:02:08.048
+ bueno, si permites el acceso. En cuanto
+
+00:02:07.083 --> 00:02:09.215
+ a Muse, tiene su propio equipo y
+
+00:02:08.250 --> 00:02:10.524
+ herramientas, y ambos cuentan con un
+
+00:02:09.559 --> 00:02:11.762
+ ecosistema de conectores realmente
+
+00:02:10.797 --> 00:02:13.344
+ bueno. Es algo así como un inicio de
+
+00:02:12.385 --> 00:02:14.907
+ sesión único súper simple: solo te
+
+00:02:13.949 --> 00:02:16.348
+ conectas con un botón en lugar de
+
+00:02:15.389 --> 00:02:17.747
+ tener que gestionar un montón de
+
+00:02:16.788 --> 00:02:19.461
+ claves API y cosas por el estilo. Y
+
+00:02:18.503 --> 00:02:21.094
+ como ambos tienen sus propios equipos,
+
+00:02:20.136 --> 00:02:22.768
+ aún pueden ejecutar scripts y todavía
+
+00:02:21.810 --> 00:02:24.443
+ podrías conectar APIs que quizás aún
+
+00:02:23.485 --> 00:02:26.270
+ no tengan un conector nativo. Ambos
+
+00:02:25.320 --> 00:02:28.026
+ crean documentos, presentaciones y
+
+00:02:27.076 --> 00:02:29.974
+ paneles interactivos. Pueden crear todo
+
+00:02:29.018 --> 00:02:31.287
+ eso y mantenerlo dentro de su
+
+00:02:30.331 --> 00:02:33.308
+ ecosistema. Como puedes ver aquí, si
+
+00:02:32.364 --> 00:02:35.318
+ voy a mi biblioteca dentro de Muse,
+
+00:02:34.374 --> 00:02:37.495
+ puedo ver estos diferentes artefactos,
+
+00:02:36.551 --> 00:02:39.728
+ ya sea un documento o algo más como un
+
+00:02:38.784 --> 00:02:41.808
+ panel web dinámico. Y luego, dentro de
+
+00:02:40.853 --> 00:02:43.422
+ mis Dots, puedes ver que hay muchas
+
+00:02:42.467 --> 00:02:45.171
+ formas de ver los resultados aquí, ya
+
+00:02:44.216 --> 00:02:46.965
+ sean archivos markdown, paneles u otras
+
+00:02:46.010 --> 00:02:48.652
+ cosas, por supuesto. Especialmente
+
+00:02:47.691 --> 00:02:50.167
+ porque con Dots, tu memoria comenzará
+
+00:02:49.205 --> 00:02:51.487
+ con tu memoria de ChatGPT y luego
+
+00:02:50.526 --> 00:02:52.807
+ empezará a desarrollar su propio
+
+00:02:51.846 --> 00:02:54.244
+ contexto y a aprender con el tiempo.
+
+00:02:53.344 --> 00:02:55.832
+ Así que, de inmediato, mi Dot estaba
+
+00:02:54.873 --> 00:02:57.402
+ conectado a toda mi memoria de ChatGPT
+
+00:02:56.442 --> 00:02:58.931
+ y decía: "Oh, ya sabes, diriges este
+
+00:02:57.971 --> 00:03:00.540
+ negocio, usas Anydyne todos los días y
+
+00:02:59.581 --> 00:03:01.854
+ haces esto". Y yo estaba como: "Bien,
+
+00:03:00.880 --> 00:03:03.106
+ esa es una memoria muy vieja. Esa es la
+
+00:03:02.145 --> 00:03:04.693
+ memoria de ChatGPT. Déjame conectarte
+
+00:03:03.731 --> 00:03:06.115
+ a mis archivos locales reales y a mi
+
+00:03:05.153 --> 00:03:07.613
+ memoria de Codex para que tengas datos
+
+00:03:06.651 --> 00:03:09.150
+ más en tiempo real de lo que realmente
+
+00:03:08.188 --> 00:03:10.418
+ estoy haciendo y cuáles son mis
+
+00:03:09.456 --> 00:03:12.237
+ prioridades". Pero lo que realmente me
+
+00:03:11.286 --> 00:03:14.108
+ gusta de Muse es que, para la persona
+
+00:03:13.157 --> 00:03:15.929
+ promedio, digamos que entras aquí y
+
+00:03:14.978 --> 00:03:17.699
+ haces clic en tu Muse. El mío se llama
+
+00:03:16.732 --> 00:03:19.437
+ Charlie en este caso. Hay una pequeña
+
+00:03:18.478 --> 00:03:20.836
+ pestaña de identidad aquí donde
+
+00:03:19.877 --> 00:03:22.317
+ podemos ver el archivo de alma y el
+
+00:03:21.358 --> 00:03:23.904
+ archivo de memoria. Entonces, en el
+
+00:03:22.938 --> 00:03:25.084
+ archivo de memoria, podemos editar
+
+00:03:24.117 --> 00:03:26.361
+ cosas. Esto es como hechos,
+
+00:03:25.408 --> 00:03:27.962
+ preferencias y compromisos por el
+
+00:03:27.009 --> 00:03:29.736
+ estilo. Y luego, si volvemos aquí y
+
+00:03:28.776 --> 00:03:30.991
+ vamos al alma, esto es como la
+
+00:03:30.031 --> 00:03:32.511
+ personalidad de Muse. Entonces, ya
+
+00:03:31.555 --> 00:03:34.187
+ sabes, si has creado un agente Hermes
+
+00:03:33.231 --> 00:03:35.555
+ en el pasado o Open Claw y has
+
+00:03:34.599 --> 00:03:37.319
+ trabajado con estos archivos de memoria
+
+00:03:36.363 --> 00:03:39.683
+ y alma, te resultará familiar. Pero
+
+00:03:38.729 --> 00:03:41.527
+ incluso si no lo has hecho, simplemente
+
+00:03:40.573 --> 00:03:43.279
+ lo hace súper fácil y visual porque
+
+00:03:42.325 --> 00:03:44.847
+ puedes verlo desde esta interfaz,
+
+00:03:43.893 --> 00:03:46.552
+ mientras que con los dots es un poco
+
+00:03:45.599 --> 00:03:48.074
+ más abstracto en cuanto a cómo
+
+00:03:47.120 --> 00:03:49.826
+ entiende la memoria y no tienes tanto
+
+00:03:48.872 --> 00:03:52.003
+ que hacer con el perfil. No sé por
+
+00:03:51.046 --> 00:03:53.699
+ qué se ve súper pixelado ahora mismo.
+
+00:03:53.399 --> 00:03:56.180
+ Pero en general, diría que la interfaz
+
+00:03:55.226 --> 00:03:57.688
+ de Muse es simplemente una mejor
+
+00:03:56.733 --> 00:03:59.423
+ experiencia, especialmente si piensas
+
+00:03:58.469 --> 00:04:01.225
+ en alguien que no es técnico. Por
+
+00:04:00.257 --> 00:04:02.212
+ cierto, chicos, tengo este SOP
+
+00:04:01.244 --> 00:04:03.359
+ completamente gratuito para ustedes
+
+00:04:02.391 --> 00:04:04.474
+ sobre cómo conseguir sus primeros
+
+00:04:03.506 --> 00:04:05.851
+ clientes de automatización de IA. Va a
+
+00:04:04.889 --> 00:04:07.148
+ repasar los pasos exactos que han
+
+00:04:06.186 --> 00:04:08.559
+ demostrado funcionar para cientos de
+
+00:04:07.598 --> 00:04:09.895
+ nuestros miembros de AIs plus para
+
+00:04:08.933 --> 00:04:11.420
+ conseguir sus primeros trabajos pagados
+
+00:04:10.420 --> 00:04:13.012
+. Repasa el discurso de servicio de una
+
+00:04:12.051 --> 00:04:14.445
+ oración que te permite empezar hoy,
+
+00:04:13.483 --> 00:04:15.839
+ por qué tu primer cliente debería
+
+00:04:14.877 --> 00:04:17.349
+ costarte dinero, el video de 5 minutos
+
+00:04:16.387 --> 00:04:18.859
+ que responde si esta persona realmente
+
+00:04:17.898 --> 00:04:20.330
+ puede cumplir antes de haber recibido
+
+00:04:19.369 --> 00:04:21.802
+ dinero, y qué hacer cuando no tienes
+
+00:04:20.840 --> 00:04:23.802
+ casos de estudio. Hay tantas cosas
+
+00:04:22.843 --> 00:04:25.171
+ buenas aquí que te van a ayudar,
+
+00:04:24.211 --> 00:04:26.539
+ incluso si ya tienes clientes, te
+
+00:04:25.579 --> 00:04:28.028
+ recomendaría que lo obtengas porque
+
+00:04:27.069 --> 00:04:29.638
+ como dije, es tuyo completamente gratis
+
+00:04:28.638 --> 00:04:31.494
+. Así que, si quieres conseguirlo, hay
+
+00:04:30.527 --> 00:04:32.967
+ un enlace en la descripción. Volvamos
+
+00:04:32.013 --> 00:04:34.159
+ al video. Ahora, aquí hay otra
+
+00:04:33.189 --> 00:04:35.359
+ diferencia. Con la comunicación,
+
+00:04:34.394 --> 00:04:36.699
+ obviamente puedes hacer esto desde tu
+
+00:04:35.735 --> 00:04:38.107
+ teléfono. Puedes usar la aplicación
+
+00:04:37.142 --> 00:04:39.344
+ Muse o la aplicación ChatGPT para
+
+00:04:38.379 --> 00:04:40.934
+ hablar con tu dot o con tu Muse. Con
+
+00:04:39.986 --> 00:04:42.432
+ los dots, puedes integrarlos
+
+00:04:41.483 --> 00:04:44.445
+ instantáneamente en Slack, lo cual es
+
+00:04:43.497 --> 00:04:46.209
+ genial. Entonces, esto fue literalmente
+
+00:04:45.241 --> 00:04:47.430
+ una configuración de tres clics donde
+
+00:04:46.461 --> 00:04:48.619
+ agregué esta aplicación a mi Slack.
+
+00:04:47.719 --> 00:04:50.464
+ Así que, ahora podría chatear con mi
+
+00:04:49.510 --> 00:04:52.209
+ dot real aquí mismo, y procedería a
+
+00:04:51.255 --> 00:04:54.234
+ responder. Si abro la aplicación de
+
+00:04:53.291 --> 00:04:56.277
+ escritorio rápidamente, puedes ver
+
+00:04:55.334 --> 00:04:58.123
+ aquí que está pensando. Entonces,
+
+00:04:57.153 --> 00:04:59.202
+ puedes ver en la parte superior que
+
+00:04:58.232 --> 00:05:00.161
+ dice pensando, hay una pequeña
+
+00:04:59.191 --> 00:05:01.329
+ bombilla, y luego en mi Slack, así es
+
+00:05:00.359 --> 00:05:02.816
+ como va a responder. Pero también,
+
+00:05:01.866 --> 00:05:04.758
+ dentro de un canal, puedo hacer que me
+
+00:05:03.808 --> 00:05:06.600
+ hable aquí invitándolo a un canal.
+
+00:05:05.720 --> 00:05:08.098
+ Así que, tu equipo realmente podría
+
+00:05:07.135 --> 00:05:09.438
+ enviarle mensajes a tu dot, lo cual
+
+00:05:08.476 --> 00:05:11.322
+ creo que es bastante genial. Y una vez
+
+00:05:10.372 --> 00:05:13.045
+ más, puedes responder aquí, y se
+
+00:05:12.094 --> 00:05:14.767
+ mostrará en la aplicación que ha
+
+00:05:13.816 --> 00:05:16.391
+ recibido este mensaje, que está
+
+00:05:15.440 --> 00:05:18.360
+ pensando y que intenta responder dentro
+
+00:05:17.409 --> 00:05:20.232
+ de ese hilo. Y como puedes ver ahora,
+
+00:05:19.268 --> 00:05:21.638
+ está pensando, y luego va a enviar un
+
+00:05:20.674 --> 00:05:23.008
+ mensaje de vuelta al hilo justo ahí.
+
+00:05:22.108 --> 00:05:25.030
+ Dijo: "Hola, aquí estoy". Así que eso
+
+00:05:24.082 --> 00:05:26.734
+ es genial. Pero con Muse, lo que puedes
+
+00:05:25.768 --> 00:05:28.037
+ hacer es gestionar un montón de chats
+
+00:05:27.071 --> 00:05:29.404
+ diferentes. Tienes tu chat principal y
+
+00:05:28.437 --> 00:05:30.568
+ luego puedes configurar diferentes
+
+00:05:29.602 --> 00:05:31.900
+ chats secundarios para distintos temas.
+
+00:05:31.120 --> 00:05:33.932
+ Y también tienes un conector nativo de
+
+00:05:32.978 --> 00:05:35.846
+ WhatsApp, lo cual es genial. Así que,
+
+00:05:34.889 --> 00:05:37.570
+ en la aplicación Muse, esto es solo de
+
+00:05:36.613 --> 00:05:39.515
+ visualización. Entonces, lo que haría
+
+00:05:38.562 --> 00:05:41.419
+ es, dentro de mi WhatsApp, ya sea en mi
+
+00:05:40.467 --> 00:05:42.895
+ computadora o en mi teléfono,
+
+00:05:41.943 --> 00:05:44.800
+ simplemente puedo decir: "¿Hola, cómo
+
+00:05:43.847 --> 00:05:47.198
+ estás hoy?" Y obviamente este es
+
+00:05:46.255 --> 00:05:49.478
+ Charlie, mi Muse respondiendo en tiempo
+
+00:05:48.535 --> 00:05:51.409
+ real. Y luego, en la aplicación Muse,
+
+00:05:50.450 --> 00:05:53.004
+ podría ver esta interacción, pero no
+
+00:05:52.045 --> 00:05:54.606
+ responder aquí. Así que es un hilo
+
+00:05:53.646 --> 00:05:56.179
+ separado, en lo que respecta a mi chat
+
+00:05:55.220 --> 00:05:57.793
+ principal, mi canal de WhatsApp y estos
+
+00:05:56.833 --> 00:05:59.546
+ chats secundarios. Y lo otro que es muy
+
+00:05:58.585 --> 00:06:01.362
+ interesante es el ecosistema. Como Dots
+
+00:06:00.422 --> 00:06:03.703
+ ya está integrado en Codex y ChatGPT,
+
+00:06:02.764 --> 00:06:05.985
+ si ya utilizas mucho Codex y ChatGPT,
+
+00:06:05.045 --> 00:06:08.327
+ entonces Dots probablemente tiene más
+
+00:06:07.387 --> 00:06:10.488
+ sentido al principio cuando quieres
+
+00:06:09.548 --> 00:06:12.820
+ descubrir cómo se siente esto. Pero
+
+00:06:11.861 --> 00:06:14.440
+ con Muse, tiene algunas de estas cosas,
+
+00:06:13.480 --> 00:06:15.979
+ ya sabes, como el ecosistema de Meta.
+
+00:06:15.122 --> 00:06:17.500
+ Como Instagram, Facebook, Facebook
+
+00:06:16.541 --> 00:06:19.123
+ Marketplace, y simplemente se siente un
+
+00:06:18.163 --> 00:06:20.664
+ poco más, ya sabes, separado de este
+
+00:06:19.704 --> 00:06:22.326
+ tipo de cosas de programación. En fin,
+
+00:06:21.364 --> 00:06:23.688
+ ese es solo un resumen muy rápido.
+
+00:06:22.788 --> 00:06:24.769
+ Vamos a profundizar en algunas cosas
+
+00:06:23.796 --> 00:06:26.347
+ más aquí. Pero en general, después
+
+00:06:25.392 --> 00:06:28.107
+ de jugar con cada uno durante un día,
+
+00:06:27.152 --> 00:06:29.642
+ así es como me siento si pudiera
+
+00:06:28.687 --> 00:06:32.157
+ resumirlo. Dots se adapta a tu entorno
+
+00:06:31.203 --> 00:06:33.692
+ de trabajo actual si usas Codex y
+
+00:06:32.737 --> 00:06:35.063
+ ChatGPT. Puede utilizar habilidades
+
+00:06:34.096 --> 00:06:36.428
+ locales. No sientes que tienes que
+
+00:06:35.467 --> 00:06:37.977
+ empezar de cero explicando muchas cosas
+
+00:06:37.016 --> 00:06:39.630
+ como prioridades y asuntos similares. Y
+
+00:06:38.680 --> 00:06:41.648
+ ofrece una ruta directa a Codex y Slack
+
+00:06:40.648 --> 00:06:43.574
+. Mientras que Muse es mucho más
+
+00:06:42.623 --> 00:06:45.530
+ fácil de evaluar gratis, porque puedes
+
+00:06:44.579 --> 00:06:47.570
+ empezar a usarlo sin costo. Tiene una
+
+00:06:46.616 --> 00:06:49.077
+ entrada paga económica, memoria
+
+00:06:48.122 --> 00:06:50.629
+ editable, acceso a WhatsApp y una
+
+00:06:49.675 --> 00:06:52.386
+ fuerte integración con Meta. En
+
+00:06:51.439 --> 00:06:54.422
+ general, si quisiera que mis padres o
+
+00:06:53.476 --> 00:06:56.405
+ personas que conozco que no son nada
+
+00:06:55.459 --> 00:06:58.281
+ técnicas lo usaran, probablemente
+
+00:06:57.334 --> 00:07:00.179
+ recomendaría Muse. Simplemente tiene
+
+00:06:59.222 --> 00:07:01.551
+ una mejor experiencia. Y cuando
+
+00:07:00.587 --> 00:07:02.782
+ hablamos de precios reales, en la
+
+00:07:01.818 --> 00:07:04.012
+ versión gratuita de Muse, puedes
+
+00:07:03.048 --> 00:07:05.351
+ obtener hasta 100 millones de tokens
+
+00:07:04.387 --> 00:07:06.763
+ por semana, y puedes empezar ya mismo.
+
+00:07:05.863 --> 00:07:08.103
+ Como yo, que todavía no he pagado por
+
+00:07:07.135 --> 00:07:09.326
+ Muse. Y luego puedes acceder a
+
+00:07:08.362 --> 00:07:10.771
+ suscripciones y aumentar tu cantidad de
+
+00:07:09.807 --> 00:07:13.225
+ tokens. Mientras que en ChatGPT con
+
+00:07:12.275 --> 00:07:15.249
+ Dots, tienes que tener una suscripción
+
+00:07:14.299 --> 00:07:17.171
+ de pago para poder empezar a crear tu
+
+00:07:16.222 --> 00:07:19.778
+ primer dot. Ahora, hay algo vigente en
+
+00:07:18.831 --> 00:07:21.817
+ este momento, no están descontando el
+
+00:07:20.869 --> 00:07:23.646
+ uso de tus dots de tu suscripción
+
+00:07:22.698 --> 00:07:25.527
+ semanal, pero creo que es solo para
+
+00:07:24.580 --> 00:07:27.618
+ fomentar la adopción, y luego sin duda
+
+00:07:26.670 --> 00:07:29.500
+ lo descontarán de tu suscripción.
+
+00:07:28.688 --> 00:07:32.052
+ Además, como mencionamos, Muse
+
+00:07:31.129 --> 00:07:35.028
+ funciona con Spark y Dots funciona con
+
+00:07:34.104 --> 00:07:36.850
+ Astra. Así que, hablemos un poco sobre
+
+00:07:35.887 --> 00:07:38.242
+ estos modelos. Aquí hay algunos puntos
+
+00:07:37.273 --> 00:07:39.789
+ de referencia generales. Astra es un
+
+00:07:38.841 --> 00:07:41.617
+ poco más inteligente, pero cuando
+
+00:07:40.670 --> 00:07:43.394
+ pensamos en trabajo profesional y
+
+00:07:42.446 --> 00:07:45.431
+ gestión del conocimiento, Spark no lo
+
+00:07:44.483 --> 00:07:47.428
+ hace nada mal. Para crear algunos de
+
+00:07:46.481 --> 00:07:49.443
+ estos documentos, ayudarte con tareas
+
+00:07:48.496 --> 00:07:51.457
+ rutinarias y ver cómo desbloquearte,
+
+00:07:50.510 --> 00:07:53.452
+ cosas así. Ahora, cuando se trata de
+
+00:07:52.492 --> 00:07:54.684
+ crear aplicaciones, software y
+
+00:07:53.724 --> 00:07:56.194
+ automatizaciones, obviamente Astra es
+
+00:07:55.234 --> 00:07:57.664
+ mucho mejor con la programación, es
+
+00:07:56.704 --> 00:07:59.426
+ bastante superior. Pero Muse también
+
+00:07:58.462 --> 00:08:00.956
+ va a ser un poco más rápido. Así que
+
+00:07:59.995 --> 00:08:02.541
+ supongo que lo que intento decir es que
+
+00:08:01.541 --> 00:08:03.690
+, si estuviera creando muchas
+
+00:08:02.730 --> 00:08:05.196
+ automatizaciones pequeñas, scripts y
+
+00:08:04.236 --> 00:08:06.544
+ cosas así, además de paneles de
+
+00:08:05.583 --> 00:08:08.090
+ control con una de estas herramientas,
+
+00:08:07.129 --> 00:08:10.161
+ probablemente elegiría Dots. Pero como
+
+00:08:09.201 --> 00:08:11.567
+ dije, para trabajo de conocimiento
+
+00:08:10.607 --> 00:08:13.133
+ general, si solo lo uso como asistente
+
+00:08:12.174 --> 00:08:14.620
+ para ayudarme a mantener el enfoque,
+
+00:08:13.660 --> 00:08:16.146
+ gestionar correos, recordarme cosas y
+
+00:08:15.186 --> 00:08:17.753
+ administrar al equipo, probablemente me
+
+00:08:16.793 --> 00:08:19.199
+ sentiría muy cómodo usando Spark.
+
+00:08:18.349 --> 00:08:20.772
+ Así que déjame mostrarte. He dicho
+
+00:08:19.823 --> 00:08:22.707
+ varias veces que creo que la interfaz
+
+00:08:21.758 --> 00:08:24.591
+ de Muse y la experiencia de Muse son
+
+00:08:23.642 --> 00:08:26.463
+ simplemente mejores. Déjame mostrarte
+
+00:08:25.504 --> 00:08:28.346
+ por qué. Dentro de Muse, obviamente
+
+00:08:27.393 --> 00:08:30.259
+ entras aquí y creas un hilo. Con Grok
+
+00:08:29.299 --> 00:08:31.819
+ Bot puede resultar un poco intimidante
+
+00:08:30.859 --> 00:08:33.059
+ para algunos, porque existe la
+
+00:08:32.099 --> 00:08:34.659
+ posibilidad de seguir creando más bots
+
+00:08:33.659 --> 00:08:36.500
+, pero aquí solo creas uno. Lo que ves
+
+00:08:35.539 --> 00:08:38.078
+ aquí mismo es el día de hoy. Ves las
+
+00:08:37.118 --> 00:08:39.688
+ cosas en las que se ha trabajado según
+
+00:08:38.728 --> 00:08:41.011
+ la fecha. También puedes hacer clic en
+
+00:08:40.040 --> 00:08:42.002
+ esta siguiente pestaña, que es de
+
+00:08:41.030 --> 00:08:43.134
+ aprobaciones, por si hay algo pendiente
+
+00:08:42.162 --> 00:08:44.368
+ que debas autorizar. Así que es una
+
+00:08:43.404 --> 00:08:45.700
+ interfaz súper sencilla y agradable
+
+00:08:44.736 --> 00:08:46.995
+ para aprobar cosas si tienes muchas
+
+00:08:46.031 --> 00:08:48.527
+ automatizaciones en ejecución. Tienes
+
+00:08:47.571 --> 00:08:50.308
+ una pestaña de calendario donde puedes
+
+00:08:49.352 --> 00:08:51.955
+ ver tus recordatorios, las cosas que
+
+00:08:51.000 --> 00:08:53.647
+ están en curso, e incluso revisar el
+
+00:08:52.692 --> 00:08:55.579
+ pulso que se ejecuta cada 30 minutos. Y
+
+00:08:54.624 --> 00:08:57.307
+ el pulso revisará proactivamente tus
+
+00:08:56.353 --> 00:08:58.808
+ documentos de Google y tu correo
+
+00:08:57.854 --> 00:09:00.628
+ electrónico, te enviará alertas sobre
+
+00:08:59.673 --> 00:09:02.310
+ temas y hasta te dará recordatorios
+
+00:09:01.356 --> 00:09:04.354
+ como: "Oye, úsame". "Configura esto".
+
+00:09:03.454 --> 00:09:06.436
+ Sabes, simplemente se siente mucho más
+
+00:09:05.487 --> 00:09:08.258
+ fácil de usar ahí. Y luego, por
+
+00:09:07.296 --> 00:09:09.750
+ supuesto, tienes la identidad para ver
+
+00:09:08.788 --> 00:09:11.190
+ cosas como tu alma y memoria. Ahora,
+
+00:09:10.222 --> 00:09:12.250
+ también notarás que en el lado
+
+00:09:11.282 --> 00:09:13.502
+ izquierdo podemos realizar búsquedas.
+
+00:09:12.602 --> 00:09:14.830
+ Así que podemos buscar entre varios
+
+00:09:13.864 --> 00:09:15.989
+ chats para averiguar: "Oh, estaba
+
+00:09:15.024 --> 00:09:17.286
+ hablando de esto con Muse, ¿a dónde
+
+00:09:16.320 --> 00:09:18.896
+ fue a parar?". También puedes ver tus
+
+00:09:17.932 --> 00:09:20.103
+ diferentes chats, como mencioné,
+
+00:09:19.139 --> 00:09:21.452
+ puedes gestionarlos aquí, lo cual me
+
+00:09:20.488 --> 00:09:22.872
+ gustó mucho porque no es tan abrumador
+
+00:09:21.908 --> 00:09:24.292
+ como tener que crear un montón de bots
+
+00:09:23.328 --> 00:09:25.854
+ diferentes. Es más como: "Oh, puedes
+
+00:09:24.886 --> 00:09:26.994
+ tener un par de chats paralelos si
+
+00:09:26.026 --> 00:09:28.232
+ tienes un proyecto muy específico en
+
+00:09:27.264 --> 00:09:29.458
+ el que quieres mi ayuda". "De lo
+
+00:09:28.491 --> 00:09:30.619
+ contrario, usa el chat principal y
+
+00:09:29.653 --> 00:09:31.781
+ aquí está el canal al que me has
+
+00:09:30.814 --> 00:09:33.830
+ conectado". Y esto es en plural. Así
+
+00:09:32.874 --> 00:09:35.568
+ que lo que asumo es que van a empezar a
+
+00:09:34.611 --> 00:09:37.088
+ añadir más, probablemente Slack,
+
+00:09:36.132 --> 00:09:38.652
+ probablemente Teams, Discord, cosas
+
+00:09:37.695 --> 00:09:40.160
+ así. Muchas veces escucho a la gente
+
+00:09:39.197 --> 00:09:41.566
+ decir: está bien, si fuera a usar la
+
+00:09:40.603 --> 00:09:42.973
+ IA, ¿para qué la usaría realmente?
+
+00:09:42.400 --> 00:09:45.293
+ Bueno, Muse hace un buen trabajo
+
+00:09:44.352 --> 00:09:47.069
+ dándote ideas. Puedes establecer
+
+00:09:46.105 --> 00:09:48.402
+ objetivos, lo cual me parece genial.
+
+00:09:47.502 --> 00:09:49.874
+ Optimizar mi sueño, metas de salud,
+
+00:09:48.912 --> 00:09:50.903
+ metas de relaciones, metas
+
+00:09:49.941 --> 00:09:52.237
+ profesionales, metas de intereses.
+
+00:09:51.375 --> 00:09:54.085
+ Puedes venir aquí y buscar ideas. Te
+
+00:09:53.134 --> 00:09:55.992
+ dirá en qué deberías estar pensando
+
+00:09:55.041 --> 00:09:57.556
+ y cómo deberías iniciar estas
+
+00:09:56.605 --> 00:09:59.316
+ diferentes automatizaciones y cosas
+
+00:09:58.365 --> 00:10:01.399
+ así, creando artefactos. Es realmente
+
+00:10:00.444 --> 00:10:03.401
+ muy genial. Y luego, si vas al feed,
+
+00:10:02.448 --> 00:10:04.897
+ puedes ver que realmente puedes
+
+00:10:03.944 --> 00:10:06.791
+ personalizar lo que quieres ver. Puedes
+
+00:10:05.825 --> 00:10:08.001
+ ver cosas sobre el sueño porque he
+
+00:10:07.035 --> 00:10:09.614
+ estado hablando sobre el sueño. Puedes
+
+00:10:08.681 --> 00:10:11.433
+ ver OpenAI. Puedes ver todas estas
+
+00:10:10.475 --> 00:10:13.227
+ cosas diferentes. Y si te gusta esto,
+
+00:10:12.276 --> 00:10:14.912
+ puedes discutirlo. Y simplemente puedes
+
+00:10:13.944 --> 00:10:16.159
+ enviarle una tarea a tu Muse diciendo:
+
+00:10:15.191 --> 00:10:17.311
+ "Oye, ¿podemos profundizar un poco
+
+00:10:16.343 --> 00:10:18.509
+ más en esto?". "Constrúyeme un
+
+00:10:17.546 --> 00:10:20.131
+ artefacto para esto". "Hablemos sobre
+
+00:10:19.179 --> 00:10:21.789
+ esto". Lo que sea. También puedes
+
+00:10:20.824 --> 00:10:23.139
+ darle "me gusta" a las cosas, lo cual
+
+00:10:22.174 --> 00:10:24.489
+ cambiará el algoritmo para ofrecerte
+
+00:10:23.525 --> 00:10:25.697
+ más contenido que sea, ya sabes,
+
+00:10:24.733 --> 00:10:27.119
+ realmente relevante para ti en tu feed.
+
+00:10:26.219 --> 00:10:28.187
+ Creo que esta es una experiencia
+
+00:10:27.217 --> 00:10:29.866
+ realmente genial. Y luego, si voy a mis
+
+00:10:28.909 --> 00:10:31.446
+ artefactos, puedes ver que tengo, ya
+
+00:10:30.489 --> 00:10:33.112
+ sabes, todos estos aquí, documentos o
+
+00:10:32.155 --> 00:10:34.417
+ web. También podemos crear imágenes.
+
+00:10:33.517 --> 00:10:36.222
+ Podemos crear videos. Y también puedes
+
+00:10:35.263 --> 00:10:37.778
+ crear podcasts, lo cual me parece muy
+
+00:10:36.819 --> 00:10:39.643
+ genial. Así que, tal vez quieras
+
+00:10:38.690 --> 00:10:41.063
+ convertir tu feed de noticias
+
+00:10:40.110 --> 00:10:42.767
+ tecnológicas diarias en un podcast
+
+00:10:41.814 --> 00:10:44.518
+ matutino, un podcast de 3 minutos, o
+
+00:10:43.565 --> 00:10:46.411
+ quieras un podcast semanal sobre lo que
+
+00:10:45.459 --> 00:10:48.210
+ tu equipo logró esta semana, o cómo
+
+00:10:47.257 --> 00:10:50.632
+ fueron tus ejercicios. Esto es muy, muy
+
+00:10:49.700 --> 00:10:53.128
+ genial. Y algo que pienso es que la
+
+00:10:52.170 --> 00:10:54.632
+ gente común que se adentra en todo
+
+00:10:53.674 --> 00:10:56.262
+ este mundo de la IA, pensará que esto
+
+00:10:55.304 --> 00:10:57.933
+ es mucho mejor que si entramos en Dots;
+
+00:10:56.975 --> 00:11:00.005
+ la interfaz simplemente no es buena. Se
+
+00:10:59.049 --> 00:11:01.986
+ siente apresurada. Se siente muy simple
+
+00:11:00.986 --> 00:11:04.093
+. Mmm, lo único que creo que tiene de
+
+00:11:03.137 --> 00:11:05.842
+ bueno, que Muse no tiene, es que puedes
+
+00:11:04.886 --> 00:11:08.238
+ llamarlo. Así que, puedes llamar a tu
+
+00:11:07.294 --> 00:11:10.410
+ dot, que es en realidad lo que mostré
+
+00:11:09.465 --> 00:11:12.247
+ antes, lo cual falló durante el
+
+00:11:11.302 --> 00:11:14.292
+ lanzamiento del Dev Day. Pero, puedes
+
+00:11:13.335 --> 00:11:15.690
+ llamarlo. Puedes hablar con él.
+
+00:11:14.790 --> 00:11:17.381
+ Responderá en tiempo real. Tiene una
+
+00:11:16.417 --> 00:11:19.677
+ voz bastante buena. La latencia no es
+
+00:11:18.764 --> 00:11:21.707
+ nada mala. Ambos tienen sus propias
+
+00:11:20.745 --> 00:11:23.292
+ computadoras, como puedes ver. Y aun
+
+00:11:22.331 --> 00:11:24.791
+ así, esto guarda inicios de sesión,
+
+00:11:23.830 --> 00:11:26.251
+ muy parecido a Grokbot, donde puedes
+
+00:11:25.290 --> 00:11:27.999
+ guardar inicios de sesión. Puedes ver
+
+00:11:27.053 --> 00:11:30.100
+ el tipo de terminal real. Y también
+
+00:11:29.148 --> 00:11:31.897
+ puedes crear y guardar archivos aquí
+
+00:11:30.944 --> 00:11:33.365
+ mismo. Así es como configuras esa
+
+00:11:32.404 --> 00:11:34.864
+ conexión de ranura, y también puedes
+
+00:11:33.903 --> 00:11:36.377
+ revisar la actividad reciente. No es
+
+00:11:35.422 --> 00:11:37.798
+ muy fácil gestionar tus tareas
+
+00:11:36.842 --> 00:11:39.493
+ programadas dentro de Dots. Como puedes
+
+00:11:38.525 --> 00:11:40.844
+ ver, aquí hay una, ¿verdad? Planear
+
+00:11:39.885 --> 00:11:42.341
+ mañana, y esta es una tarea diaria
+
+00:11:41.382 --> 00:11:44.004
+ repetitiva a las 8:00 p.m. hora central
+
+00:11:43.004 --> 00:11:45.335
+. Tenemos algunos ajustes avanzados
+
+00:11:44.371 --> 00:11:47.308
+ también. Pero, le estaba preguntando a
+
+00:11:46.353 --> 00:11:49.113
+ Dots: "¿Cómo gestiono realmente esto?
+
+00:11:48.113 --> 00:11:50.925
+" Y fue como: "Oh, haz clic en mi
+
+00:11:49.969 --> 00:11:52.889
+ perfil y ve a programadas". No hay
+
+00:11:51.917 --> 00:11:54.010
+ ninguna sección de "programadas" aquí
+
+00:11:53.010 --> 00:11:56.444
+. Supongo que la forma de hacerlo es ir
+
+00:11:55.482 --> 00:11:57.715
+ a tus tareas programadas como si
+
+00:11:56.753 --> 00:11:58.832
+ estuvieras viendo tus tareas
+
+00:11:57.870 --> 00:12:00.334
+ programadas de Codex o las de ChatGPT,
+
+00:11:59.372 --> 00:12:03.124
+ y puedes verlas aquí. Pero, ¿por qué
+
+00:12:02.170 --> 00:12:04.659
+ no podrías gestionar tus tareas
+
+00:12:03.706 --> 00:12:06.380
+ programadas dentro de la interfaz de
+
+00:12:05.427 --> 00:12:08.264
+ Dots? Pensé que eso era un poco
+
+00:12:07.309 --> 00:12:10.246
+ extraño. Y también me decía que era
+
+00:12:09.289 --> 00:12:11.730
+ muy bueno gestionando mis hilos de
+
+00:12:10.772 --> 00:12:13.086
+ Codex, lo cual era genial, pero
+
+00:12:12.128 --> 00:12:14.744
+ realmente no lo hace. Aquí puedes ver,
+
+00:12:13.776 --> 00:12:15.834
+ pensé: "Oh, está bien, así que
+
+00:12:14.866 --> 00:12:16.860
+ estás iniciando nuevos hilos y
+
+00:12:15.892 --> 00:12:18.111
+ simplemente aparecen en mis recientes.
+
+00:12:17.211 --> 00:12:19.555
+ No los está poniendo realmente dentro
+
+00:12:18.590 --> 00:12:21.223
+ de mi Herk too". Entonces, obviamente
+
+00:12:20.265 --> 00:12:22.703
+ me gusta gestionar mis hilos aquí
+
+00:12:21.746 --> 00:12:24.396
+ mismo en mi proyecto Herk too, pero los
+
+00:12:23.438 --> 00:12:25.890
+ iniciaba aquí abajo. Así que, aquí
+
+00:12:24.921 --> 00:12:27.064
+ mismo puedes ver, este es un hilo que
+
+00:12:26.094 --> 00:12:29.093
+ inició. En realidad, no, ese no. Este.
+
+00:12:28.193 --> 00:12:30.422
+ Puedes ver que fue enviado por Herk.
+
+00:12:29.522 --> 00:12:31.844
+ Así que, mi Dot básicamente está
+
+00:12:30.882 --> 00:12:33.205
+ iniciando estas tareas, pero no las
+
+00:12:32.243 --> 00:12:34.604
+ está poniendo dentro de mi proyecto
+
+00:12:33.641 --> 00:12:35.842
+ Herk too. Entonces, siento que estoy
+
+00:12:34.871 --> 00:12:37.280
+ perdiendo la organización. Así que,
+
+00:12:36.331 --> 00:12:39.330
+ eso me lleva a este punto, que es como:
+
+00:12:38.381 --> 00:12:41.380
+ "Dots ni siquiera sabe cómo funciona".
+
+00:12:40.593 --> 00:12:43.281
+ Me encanta cuando puedo hablar con
+
+00:12:42.331 --> 00:12:45.019
+ Claude Code, Codex o Grokbot sobre
+
+00:12:44.069 --> 00:12:46.807
+ cómo funciona, para poder entender
+
+00:12:45.856 --> 00:12:48.748
+ mejor cómo debería utilizarlo. Pero,
+
+00:12:47.785 --> 00:12:50.173
+ Dots simplemente me dice cosas como: "
+
+00:12:49.173 --> 00:12:51.598
+Está bien, en realidad no es así como
+
+00:12:50.635 --> 00:12:53.135
+ funcionas". Entonces, ¿cómo puedo...?
+
+00:12:52.299 --> 00:12:54.821
+ Ya sabes, empiezo a perder la confianza
+
+00:12:53.860 --> 00:12:56.188
+ en qué tipo de conocimiento tiene
+
+00:12:55.227 --> 00:12:58.197
+ realmente. Pero, bueno, al menos este
+
+00:12:57.241 --> 00:12:59.773
+ pequeño es lindo y personalizable,
+
+00:12:58.817 --> 00:13:01.437
+ porque al final parece que a la gente
+
+00:13:00.481 --> 00:13:03.672
+ le importa mucho más eso. Bien,
+
+00:13:02.711 --> 00:13:04.833
+ entonces, al final, ¿en qué
+
+00:13:03.871 --> 00:13:06.971
+ situación estamos ahora? Bueno, creo
+
+00:13:06.046 --> 00:13:09.691
+ que voy a seguir experimentando con
+
+00:13:08.766 --> 00:13:12.392
+ ambos. Pero, si tuviera que elegir uno,
+
+00:13:11.456 --> 00:13:14.380
+ por mi parte, elegiría Codex.
+
+00:13:13.480 --> 00:13:17.713
+ Elegiría Dots. Simplemente porque vivo
+
+00:13:16.790 --> 00:13:21.451
+ dentro de Codex y Claude Code. No me
+
+00:13:20.501 --> 00:13:23.209
+ importa tanto esta interfaz súper
+
+00:13:22.259 --> 00:13:24.967
+ pulida y agradable porque ya tengo
+
+00:13:24.017 --> 00:13:26.725
+ ideas, metas establecidas y muchas
+
+00:13:25.775 --> 00:13:28.583
+ cosas configuradas, pero si no fuera
+
+00:13:27.633 --> 00:13:32.028
+ así, querría esto al 100%. Porque la
+
+00:13:31.095 --> 00:13:34.468
+ interfaz de Muse es mucho mejor. Su
+
+00:13:33.513 --> 00:13:36.378
+ ventaja ahí es significativa. Pero lo
+
+00:13:35.424 --> 00:13:38.204
+ que me parece interesante es que Dots u
+
+00:13:37.249 --> 00:13:39.984
+ OpenAI probablemente estén recibiendo
+
+00:13:39.029 --> 00:13:41.444
+ tantos comentarios sobre Dots y
+
+00:13:40.490 --> 00:13:43.270
+ obviamente han estado observando a Muse
+
+00:13:42.315 --> 00:13:45.095
+ y tomando inspiración de ella, por eso
+
+00:13:44.141 --> 00:13:47.423
+ estoy tan confundido. Esperaba que Dots
+
+00:13:46.472 --> 00:13:49.071
+ saliera y tuviera una interfaz de
+
+00:13:48.119 --> 00:13:51.009
+ estilo muy similar, pero simplemente le
+
+00:13:50.057 --> 00:13:53.108
+ falta mucho. Pero lo que probablemente
+
+00:13:52.152 --> 00:13:54.688
+ harán es ir a Muse y decir: "Bien,
+
+00:13:53.732 --> 00:13:56.317
+ genial. Me gusta esta, ya sabes,
+
+00:13:55.366 --> 00:13:58.237
+ pestaña de ideas. Pongamos eso dentro
+
+00:13:57.284 --> 00:13:59.604
+ de Dots. Me gusta la forma en que
+
+00:13:58.640 --> 00:14:01.084
+ están configurados estos artefactos. Y
+
+00:14:00.084 --> 00:14:02.542
+, bueno, OpenAI también anunció su
+
+00:14:01.582 --> 00:14:04.081
+ cosa de Spaces, lo cual será genial.
+
+00:14:04.020 --> 00:14:06.642
+ Pero simplemente van a tomar las
+
+00:14:05.693 --> 00:14:08.417
+ características que a la gente le
+
+00:14:07.468 --> 00:14:10.395
+ gustan de Muse o de Grokbot y también
+
+00:14:09.445 --> 00:14:13.171
+ las incluirán ahí. Entonces, lo que
+
+00:14:12.230 --> 00:14:15.549
+ creo que pasará es que Muse, Grokbot y
+
+00:14:14.608 --> 00:14:17.748
+ Dots probablemente se fusionarán en
+
+00:14:16.808 --> 00:14:20.067
+ una sola herramienta, lo que significa
+
+00:14:19.126 --> 00:14:22.326
+ que funcionalmente se verán muy, muy
+
+00:14:21.385 --> 00:14:24.554
+ similares. Las diferencias serán
+
+00:14:23.600 --> 00:14:26.353
+ algunas de las conexiones nativas y la
+
+00:14:25.399 --> 00:14:28.106
+ capacidad de integrarse con lo que ya
+
+00:14:27.152 --> 00:14:29.951
+ tienes, obviamente el modelo subyacente
+
+00:14:28.997 --> 00:14:31.796
+ que impulsa la cosa, y luego el precio;
+
+00:14:30.842 --> 00:14:33.457
+ ya sabes, los más baratos podrían
+
+00:14:32.503 --> 00:14:35.117
+ percibirse como mejores para cierto
+
+00:14:34.163 --> 00:14:37.279
+ público. Y ese era más o menos mi
+
+00:14:36.319 --> 00:14:38.839
+ siguiente punto, que creo que Astra es
+
+00:14:37.879 --> 00:14:40.319
+ obviamente un modelo mucho mejor que
+
+00:14:39.359 --> 00:14:42.311
+ Muse Spark. Así que esa es una ventaja
+
+00:14:41.356 --> 00:14:44.238
+ que tiene ahora mismo. También creo
+
+00:14:43.294 --> 00:14:45.804
+ que Grokbot es un modelo de
+
+00:14:44.860 --> 00:14:48.041
+ organización diferente porque tiene un
+
+00:14:47.097 --> 00:14:50.110
+ grupo de Grokbots que usas juntos en
+
+00:14:49.166 --> 00:14:52.254
+ lugar de trabajar solo con un hilo. Y
+
+00:14:51.285 --> 00:14:53.460
+ creo que cada uno tiene sus pros y sus
+
+00:14:52.491 --> 00:14:55.638
+ contras. Creo que al usuario promedio
+
+00:14:54.684 --> 00:14:57.446
+ que no está muy metido en el mundo de
+
+00:14:56.492 --> 00:14:59.161
+ la IA probablemente le guste más la
+
+00:14:58.208 --> 00:15:00.923
+ interfaz de Muse y Dots porque parece
+
+00:14:59.969 --> 00:15:03.236
+ más sencilla. Oh, tengo un asistente
+
+00:15:02.274 --> 00:15:04.683
+ personal con el que puedo hablar y al
+
+00:15:03.721 --> 00:15:06.130
+ que puedo delegar trabajo en lugar de
+
+00:15:05.168 --> 00:15:07.425
+ tratar de averiguar cuántos bots
+
+00:15:06.463 --> 00:15:09.066
+ debería crear dentro de Grokbot. Y
+
+00:15:08.113 --> 00:15:10.649
+ finalmente, un poco de decepción
+
+00:15:09.696 --> 00:15:12.840
+ porque Dots se siente tan apresurado. O
+
+00:15:11.883 --> 00:15:14.295
+ sea, estaba muy emocionado cuando
+
+00:15:13.338 --> 00:15:15.922
+ escuché que OpenAI estaba trabajando
+
+00:15:14.964 --> 00:15:17.634
+ en sus propios agentes siempre activos.
+
+00:15:16.734 --> 00:15:19.517
+ Pensé que sería como Grokbot. Pensé
+
+00:15:18.578 --> 00:15:21.845
+ que sería muy, muy nítido y pulido,
+
+00:15:20.906 --> 00:15:24.230
+ pero se siente con muchos errores. De
+
+00:15:23.265 --> 00:15:25.566
+ hecho, tuiteé esto anoche y dije que
+
+00:15:24.601 --> 00:15:26.797
+ Dots debería haberse llamado Bugs
+
+00:15:25.832 --> 00:15:28.203
+ porque estaba teniendo muchos problemas
+
+00:15:27.203 --> 00:15:30.050
+. Iba a hacer un video ayer, pero me
+
+00:15:29.095 --> 00:15:31.691
+ estaba frustrando tanto porque nada
+
+00:15:30.737 --> 00:15:33.469
+ funcionaba, no podía instalarlo en mi
+
+00:15:32.515 --> 00:15:34.837
+ teléfono y mi aplicación de
+
+00:15:33.883 --> 00:15:36.570
+ escritorio no funcionaba, y estaba un
+
+00:15:35.616 --> 00:15:38.277
+ poco frustrado. Se sentía con muchos
+
+00:15:37.315 --> 00:15:39.635
+ errores y todavía lo hace, pero se
+
+00:15:38.673 --> 00:15:41.536
+ siente mejor hoy. Pero es curioso lo
+
+00:15:40.580 --> 00:15:43.128
+ limitado que se siente Dots en este
+
+00:15:42.172 --> 00:15:44.808
+ momento, especialmente cuando tenías
+
+00:15:43.852 --> 00:15:46.577
+ un ejemplo muy claro como Muse del cual
+
+00:15:45.621 --> 00:15:48.120
+ aprender. En fin, como hablé
+
+00:15:47.158 --> 00:15:49.525
+ anteriormente, creo que realmente se
+
+00:15:48.563 --> 00:15:51.043
+ trata de entender cuáles son las cosas
+
+00:15:50.081 --> 00:15:53.046
+ que más te importan. ¿Ya estás algo
+
+00:15:52.094 --> 00:15:54.866
+ integrado en el ecosistema de ChatGPT
+
+00:15:53.914 --> 00:15:56.447
+ Codex o estás más integrado en
+
+00:15:55.495 --> 00:15:58.363
+ Instagram, Facebook y ese tipo de cosas
+
+00:15:57.411 --> 00:16:00.183
+ que podrían ser más útiles para ti
+
+00:15:59.231 --> 00:16:02.018
+ ahora?¿Preferirías poder hablar con
+
+00:16:01.056 --> 00:16:03.502
+ esto por WhatsApp o preferirías poder
+
+00:16:02.540 --> 00:16:05.059
+ tenerlo en Slack con tu equipo? Digo,
+
+00:16:04.105 --> 00:16:06.616
+ creo que la posibilidad de que mi
+
+00:16:05.662 --> 00:16:07.898
+ equipo pueda hablar con mi,
+
+00:16:06.944 --> 00:16:09.773
+ esencialmente, mi Codex en Slack. Creo
+
+00:16:08.827 --> 00:16:11.844
+ que esa es una funcionalidad bastante
+
+00:16:10.898 --> 00:16:14.039
+ genial. O que yo pueda asignarle tareas
+
+00:16:13.093 --> 00:16:16.180
+ a mi Codex desde Slack y que se envíen
+
+00:16:15.234 --> 00:16:18.160
+ directamente de vuelta a Slack. Creo
+
+00:16:17.201 --> 00:16:19.770
+ que eso es súper genial y me gustaría
+
+00:16:18.811 --> 00:16:21.219
+ ver que llegue a otras aplicaciones
+
+00:16:20.259 --> 00:16:22.906
+ también. Pero eso es todo por hoy.
+
+00:16:22.006 --> 00:16:24.020
+ Así que si les gustó y aprendieron
+
+00:16:23.048 --> 00:16:25.006
+ algo nuevo, por favor denle un" me
+
+00:16:24.034 --> 00:16:26.167
+ gusta ", me ayuda muchísimo. Y como
+
+00:16:25.203 --> 00:16:27.607
+ siempre, agradezco que hayan llegado al
+
+00:16:26.643 --> 00:16:28.938
+ final del video. Nos vemos en el
+
+00:16:27.970 --> 00:16:30.539
+ próximo. Gracias a todos.

@@ -1,0 +1,105 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "01:01",
+      "texto": "El experimento: el mismo prompt (convertir 105 GB de grabaciones de un evento virtual en un mundo 3D explorable) ejecutado en los seis niveles de esfuerzo de Opus 5.5.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "03:35",
+      "texto": "Nivel bajo: 16 min 43 s, 3,91 $ en facturación API, 191.000 tokens, 22 comprobaciones, cero preguntas al usuario.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "06:40",
+      "texto": "Nivel medio: 1 h 13 min, 12,44 $, 490.000 tokens, 23 comprobaciones, cero preguntas.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "07:12",
+      "texto": "Anthropic recomienda en su artículo sobre prompting de Opus 5.5 empezar en esfuerzo medio y escalar arriba o abajo según necesidad.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "10:48",
+      "texto": "Nivel alto: 1 h 7 min, 16,31 $, 509.000 tokens, 22 comprobaciones; fue el único nivel que hizo una pregunta al usuario en todo el experimento.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "13:21",
+      "texto": "Nivel extra: 1 h 30 min, 25,92 $, 733.000 tokens y 34 comprobaciones, las más numerosas hasta ese punto.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "17:28",
+      "texto": "Nivel max: 2 h 28 min, 50,38 $, 1,18 millones de tokens (tuvo que autocompactarse), 51 comprobaciones, y aun así con fallos visibles de física y colisiones.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "21:05",
+      "texto": "UltraCode: 1 h 35 min, 18,69 $, 606.000 tokens, 42 comprobaciones; más barato que Extra y mucho más que Max.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "21:36",
+      "texto": "Ninguna de las seis ejecuciones utilizó subagentes: ningún nivel quiso delegar.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "22:07",
+      "texto": "En sus pruebas recientes UltraCode no activa los flujos de trabajo dinámicos que lo definen; sospecha un bug del arnés de Claude Code o del propio Opus 5.5.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "22:37",
+      "texto": "La ejecución más cara costó 12,9 veces más que la más barata (3,91 $ frente a 50,38 $) y el coste total de las seis fue de unos 127 $.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "25:43",
+      "texto": "El ganador fue Extra: Max fue demasiado caro y lento para lo que entregó, y Medio basta para la mayoría del trabajo de conocimiento pero no para una tarea con tanto razonamiento.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "Nate Herk | AI Automation",
+  "avisos_transcripcion": [
+    "Traducción automática del inglés: 'cheques' en 13:21 y 23:08 significa 'checks' (comprobaciones de verificación).",
+    "En 10:48 'usó la mitad de un token, 509 000' es una traducción degradada (probablemente 'medio millón de tokens').",
+    "En 10:17 'un enemigo de tres reales' parece ser la sesión 'Anatomy of Three Real Deals' mal traducida.",
+    "Los nombres 'Nate Hurk', 'Hurt 2' y 'Herk too' (01:01, 12:20) son degradaciones de Nate Herk y su proyecto Herk 2."
+  ],
+  "demuestra": "Los seis mundos 3D generados desde el mismo prompt se recorren en pantalla uno a uno (marca, vídeos reproduciéndose, física, NPCs, zona VIP), y cada nivel se cierra con sus métricas reales de duración, coste API, tokens, comprobaciones y preguntas, más gráficos comparativos finales.",
+  "entidades": [
+    "Opus 5.5",
+    "Claude Code",
+    "Anthropic",
+    "Hostinger",
+    "Frame.io",
+    "Nate Herk"
+  ],
+  "fecha": "2026-09-24",
+  "fuente": "youtube",
+  "huella": "2c69bc0403c1d1fc12b74bb26849bf2feaf8bb9a6506279864e2c723874505ba",
+  "id": "QCkHIyEPIYo",
+  "preguntas_abiertas": [
+    "Cuánta variabilidad hay entre ejecuciones repetidas del mismo nivel de esfuerzo (aquí n=1 por nivel).",
+    "Si el patrón 'Extra gana a Max' se sostiene en tareas que no sean generación creativa de mundos 3D.",
+    "Cómo se mediría la calidad con criterios objetivos en lugar del paseo subjetivo del autor.",
+    "Por qué ningún nivel de esfuerzo decidió usar subagentes en una tarea tan grande."
+  ],
+  "promete_sin_demostrar": "Que la relación esfuerzo-calidad observada generalice a otras tareas: es una sola tarea, una sola ejecución por nivel y la calidad se juzga por impresión subjetiva del autor; también afirma sin evidencia concluyente que UltraCode 'usa flujos de trabajo más dinámicos' (en sus logs no se activaron).",
+  "senales": {
+    "dias": 20,
+    "interaccion": 0.0098,
+    "multiplo_mediana": 3.18
+  },
+  "subtemas": [
+    "niveles de esfuerzo de razonamiento",
+    "comparativa de coste y velocidad",
+    "verificación del resultado",
+    "métricas del experimento"
+  ],
+  "tema": "Herramientas de IA",
+  "tesis": "Más esfuerzo de razonamiento no garantiza mejor resultado: con el mismo prompt agéntico complejo, el nivel Extra de Opus 5.5 superó a Max costando la mitad, así que el nivel óptimo depende de la tarea y no es el máximo.",
+  "url": "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+}

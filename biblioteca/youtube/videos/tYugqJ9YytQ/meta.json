@@ -1,0 +1,43 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "descripcion": "Jev is a new AI classifier from TypeSafe that reads complicated text and returns one choice, never a sentence. I walk through where it belongs in real software, what it costs to try, and where it falls over.\n\nFull post:\nhttps://natesnewsletter.substack.com/p/jev-classifier-use-cases?utm_source=youtube&utm_medium=video&utm_campaign=free-to-paid&utm_content=description\n\nThe Jev-Shaped Problems Guide: \nhttps://unlock-ai.natebjones.com/guides/jev-shaped-problems?utm_source=youtube&utm_medium=video&utm_campaign=free-to-paid&utm_content=description\n\nMy Links 🔗\n👉🏻 Newsletter: https://natesnewsletter.substack.com/\n👉🏻 X: https://x.com/natebjones\n👉🏻 TikTok: https://www.tiktok.com/@nate.b.jones\n👉🏻 Instagram: https://www.instagram.com/nate.b.jones\n\nWhat's really happening inside the fastest-adopted model launch in Vercel's AI gateway history? The common story is that better AI means models that write more. The real question is how much of your AI bill goes to decisions that never needed a sentence.\n\nIn this video, I share the inside scoop on where a general purpose classifier belongs in your software:\n\n- Why a model that cannot write text got adopted fastest\n- How four architecture patterns put classifiers inside software you already run\n- What Jev costs to run at a million requests\n- Where Jev falls over and an LLM is still the right call\n\nCheap classification opens up work you skipped when intelligence was expensive, and it only pays if you test it against the LLM call it replaces.\n\nChapters:\n00:00 Why a model that only chooses matters\n01:28 The missing general purpose classifier\n09:30 A new building block for software\n17:01 Scale, research, and agent orchestration\n21:08 Spreadsheets that respond to meaning\n23:06 Testing Jev and getting started\n26:29 Cost and speed\n27:20 Jevons paradox and the future of software\n\nListen to this video as a podcast.\n\nSpotify: https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4\nApple Podcasts: https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+  "duracion_segundos": 1981,
+  "estadisticas": {
+    "comentarios": 407,
+    "fecha_captura": "2026-10-14T19:37:28Z",
+    "likes": 3548,
+    "visualizaciones": 226012
+  },
+  "fecha": "2026-09-21",
+  "fecha_precision": "exacta",
+  "formula_titulo": "La pregunta directa",
+  "id": "tYugqJ9YytQ",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Límites de la IA escribiendo código y texto; requiere ver contenido",
+    "relevante": true,
+    "tema": "Escribir con IA"
+  },
+  "senales": {
+    "dias": 23,
+    "formato_largo": true,
+    "interaccion": 0.0175,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 3.5,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es-US.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:40:10Z",
+    "idioma": "es-US",
+    "origen": "automaticos"
+  },
+  "titulo": "Why Developers Are Losing Their Minds Over AI That Can't Write",
+  "url": "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+}

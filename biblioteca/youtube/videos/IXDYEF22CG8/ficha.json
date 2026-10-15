@@ -1,0 +1,119 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "00:31",
+      "texto": "25 contables de la firma dedican más de la mitad de la semana laboral —más de 20 horas semanales cada uno— a rellenar working papers a mano.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "00:00",
+      "texto": "La firma Thomas and Co lleva cinco años seguidos doblando facturación (crecimiento del 100% anual, según su fundador).",
+      "tipo": "dato"
+    },
+    {
+      "marca": "01:34",
+      "texto": "Auditan en una pizarra los 17 tipos de working papers con frecuencia, duración, dificultad y tiempo automatizable para elegir las victorias rápidas.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "02:04",
+      "texto": "Una sola de esas tareas suma unas 250 horas al mes; reducirla a 5 minutos sería enorme.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "02:36",
+      "texto": "Eligen el VAT como pieza central porque lo usan el 100% de los clientes y lleva alrededor de una hora; si funciona, la misma infraestructura escalaría a los otros 16 working papers.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "03:40",
+      "texto": "La IA puede hacer el trabajo pero no puede asumir la responsabilidad legal: un humano tiene que firmar, y en una industria regulada hay consecuencias reales si algo sale mal.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "03:08",
+      "texto": "Gran parte del conocimiento de empresa y de clientes vive en las cabezas de los account managers, y hay que volcarlo al sistema o todo se viene abajo.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "06:16",
+      "texto": "'La hoja de cálculo ha muerto y la base de datos es el rey': seguir en hojas de cálculo delata que no tienes los raíles para construir IA encima.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "07:19",
+      "texto": "El onboarding de Kylon (patrocinador del vídeo) lee la web de la firma, confirma su entendimiento del negocio y pide un flujo repetitivo que consuma tiempo del equipo.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "07:50",
+      "texto": "El objetivo no es quitar al humano sino dejar de gastar su tiempo en entrada manual de datos: el agente corre la conciliación en verde/rojo y el humano entra solo donde hay bloqueo.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "09:58",
+      "texto": "Un agente de voz llama al asesor senior y extrae en una conversación el contexto operativo: 4 tipos de working papers, el flujo de estados de la conciliación y los dos tipos de bloqueo (descuadres de datos de origen e información que falta del cliente).",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "13:39",
+      "texto": "Enseñan la app de seguimiento construida para el cliente: tablero por cliente con estado de cada declaración, revisiones pendientes y peticiones enviadas.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "14:41",
+      "texto": "El test end-to-end de la conciliación de VAT se ejecuta y, según lo mostrado, el resultado coincide con el que los contables ya habían hecho a mano.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "15:41",
+      "texto": "El fundador estima que tendrán un negocio 50-60 veces más eficiente y que escalarán sin aumentar plantilla.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "12:01",
+      "texto": "El equipo convierte lo construido en un repositorio que la firma puede ejecutar sola, para que la siguiente automatización no les necesite en la sala.",
+      "tipo": "dato"
+    }
+  ],
+  "autor": "Liam Ottley",
+  "avisos_transcripcion": [
+    "Transcripción automática en inglés plagada de marcas [music] y diálogo entrecortado de varias voces; hay tramos casi ininteligibles de bromas entre el equipo (08:56-09:27).",
+    "10:28: 'adjustments in zero' probablemente se refiere al software contable Xero.",
+    "El nombre de la plataforma aparece como Kylon, Killon y Kylene en distintos puntos."
+  ],
+  "demuestra": "La auditoría en pizarra de los 17 working papers con tiempos y dificultad, el onboarding de Kylon desde la web de la firma, un agente de voz que entrevista al asesor senior para capturar el flujo real de trabajo, la app-tablero para seguir declaraciones, y un único test end-to-end de conciliación de VAT cuyo resultado coincide con el hecho a mano.",
+  "entidades": [
+    "Kylon",
+    "Thomas and Co",
+    "Josh Thomas",
+    "Liam Ottley"
+  ],
+  "fecha": "2026-09-21",
+  "fuente": "youtube",
+  "huella": "082c007f42ba2a8e017063559b687c529979f15c3779307b88c598209ae67624",
+  "id": "IXDYEF22CG8",
+  "preguntas_abiertas": [
+    "¿Qué precisión tiene el sistema sobre decenas de clientes reales y quién responde cuando la conciliación cuadra mal?",
+    "¿Cuánto costó el proyecto (4 días de equipo desplazado más plataforma) frente al ahorro real?",
+    "¿Cómo se mantiene el sistema cuando cambia la normativa fiscal o las fuentes de datos?",
+    "¿Se midió después el tiempo realmente recuperado por los 25 contables?",
+    "¿Cómo encaja la revisión y firma humana en el flujo sin reintroducir el cuello de botella?"
+  ],
+  "promete_sin_demostrar": "El negocio '50-60 veces más eficiente' y escalar sin contratar; que la misma infraestructura absorberá los otros 16 tipos de working papers; el ahorro de las 250 horas/mes (solo se ve un test con un caso); la autogestión de la firma tras la entrega del repo. El vídeo está patrocinado por Kylon y no muestra uso en producción ni tasas de error sobre más expedientes.",
+  "senales": {
+    "dias": 23,
+    "interaccion": 0.0052,
+    "multiplo_mediana": 2.12
+  },
+  "subtemas": [
+    "diagnóstico antes de la solución",
+    "conocimiento tácito no documentado",
+    "automatización en sector regulado",
+    "revisión humana de propuestas",
+    "teams de agentes"
+  ],
+  "tema": "Estrategia de IA",
+  "tesis": "Para automatizar con IA una firma de servicios regulada no se empieza por la herramienta sino por medir dónde se va el tiempo, elegir una sola tarea de alto volumen (la conciliación de VAT entre 17 tipos de working papers), extraer el conocimiento que vive en las cabezas del equipo y dejar al humano la revisión y la firma.",
+  "url": "https://www.youtube.com/watch?v=IXDYEF22CG8"
+}

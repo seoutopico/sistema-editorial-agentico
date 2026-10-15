@@ -1,0 +1,33 @@
+{
+  "basada_en": "completo",
+  "enfoque": "opinión",
+  "entidades": [
+    "McKinsey",
+    "OCDE",
+    "Dario Amodei",
+    "Anthropic",
+    "Sam Altman",
+    "ChatGPT",
+    "Editorial Planeta",
+    "GPTs"
+  ],
+  "fecha": "2025-10-12",
+  "huella": "bde71b8b52b9089ee185a17f78c568b3dacd31746e4832d0cadf50511e643f8e",
+  "id": "164561611",
+  "metricas_publicas": {
+    "comentarios": 1,
+    "reacciones": 3,
+    "restacks": 1
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "madurez en adopción de IA",
+    "rediseño de procesos antes de automatizar",
+    "dependencia tecnológica de los equipos",
+    "contexto cultural en prompts"
+  ],
+  "tema": "Estrategia de IA",
+  "tesis": "Invertir en IA no transforma el negocio: solo las empresas que rediseñan sus procesos desde cero obtienen retornos reales, el resto suma gastos a procesos rotos.",
+  "titulo": "#1 La paradoja de la IA: ¿Estás invirtiendo o transformando? | Think & Hack",
+  "url": "https://ainalluna.substack.com/p/1-la-paradoja-de-la-ia-estas-invirtiendo"
+}

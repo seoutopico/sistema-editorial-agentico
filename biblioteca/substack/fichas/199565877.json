@@ -1,0 +1,27 @@
+{
+  "basada_en": "completo",
+  "enfoque": "explicación",
+  "entidades": [
+    "ChatGPT",
+    "Claude Code"
+  ],
+  "fecha": "2026-05-31",
+  "huella": "4b93f3ad25a28e981f4dc323d5152c263bd61d80cdd1037b49007c6910d4ab9e",
+  "id": "199565877",
+  "metricas_publicas": {
+    "comentarios": 3,
+    "reacciones": 5,
+    "restacks": 2
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "desajuste de intención",
+    "conversaciones multivuelta",
+    "editar y ramificar hilos",
+    "cuándo reiniciar un chat"
+  ],
+  "tema": "Memoria y contexto",
+  "tesis": "Cuando una conversación con la IA se tuerce, insistir en el mismo hilo suele empeorarlo porque el modelo recuerda demasiado bien el contexto equivocado: hay que cambiar el punto desde el que piensa editando, ramificando, rebobinando o reiniciando.",
+  "titulo": "Cuando la IA se pierde en la conversación (y por qué insistir puede empeorarlo)",
+  "url": "https://ainalluna.substack.com/p/ia-se-pierde-conversacion-control-contexto"
+}

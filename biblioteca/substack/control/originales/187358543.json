@@ -1,0 +1,267 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/por-que-prohibi-la-ia-en-mis-sesiones",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 187358543,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-02-09T06:08:29.816Z",
+  "updated_at": "2026-02-09T06:08:58.856Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "por-que-prohibi-la-ia-en-mis-sesiones",
+  "social_title": null,
+  "subtitle": "Tu equipo ya no piensa. Sólo presenta lo que le dijo ChatGPT",
+  "teaser_post_eligible": true,
+  "title": "Por qué prohibí la IA en mis sesiones de Brainstorming",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 1,
+  "reactions": {
+    "❤": 7
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "chatgpt-wordpress-calendario-editorial",
+  "next_post_slug": "una-ia-escribe-esta-newsletter",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!zzD9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Tu equipo ya no piensa. Sólo presenta lo que le dijo ChatGPT",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Eva y esto es Think&amp;Hack.</p><p>Últimamente siento algo extraña en las reuniones de brainstorming. Hay menos debate. Más silencios. Las ideas que se presentan son impecables, bien estructuradas, pero... carecen de chispa. Suenan todas peligrosamente parecidas.</p><p>Al principio pensé que era cansancio post-pandemia, pero he llegado a una conclusión diferente. Creo que estamos ante el <strong>“Silencio de la IA”.</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!zzD9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!zzD9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!zzD9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!zzD9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!zzD9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!zzD9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:7143385,&quot;alt&quot;:&quot;Por qué prohibí la IA en mis sesiones de Brainstorming&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/187358543?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Por qué prohibí la IA en mis sesiones de Brainstorming\" title=\"Por qué prohibí la IA en mis sesiones de Brainstorming\" srcset=\"https://substackcdn.com/image/fetch/$s_!zzD9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!zzD9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!zzD9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!zzD9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12d1c455-afa2-496e-bee8-db3dbada7ae8_2752x1536.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Por qué prohibí la IA en mis sesiones de Brainstorming</figcaption></figure></div><p>Es un fenómeno sutil con dos actores principales:</p><ol><li><p><strong>El Lector de Prompts:</strong> Es el compañero que, en lugar de generar una idea propia, ha externalizado esa tarea a una IA. Llega a la reunión no con una convicción, sino con un script. Expone un output pulido, elocuente y bien estructurado, pero no lo defiende con pasión porque la idea no nació de su propia reflexión. Es un mero presentador.</p></li><li><p><strong>El Silencio por Comparación:</strong> Es la persona que sí tiene una idea propia, una semilla imperfecta y a medio formar. Pero al ver la perfección artificial de la idea de su compañero, se siente intimidado. Su aportación, en su estado inicial, parece débil en comparación. Así que elige no decir nada.</p></li></ol><p>El resultado es devastador.</p><p>Las <strong>reuniones, que deberían ser un espacio para el caos creativo,</strong> la fricción de ideas y la construcción colectiva, se están convirtiendo en una simple <em>“puesta en común” </em>de los deberes que cada uno hizo con su IA por separado.</p><p>Estamos cambiando la inteligencia colectiva, con toda su gloriosa imperfección, por una suma de inteligencias artificiales individuales. Y el resultado es una conversación estéril, sin alma.</p><h3>Cómo romper el silencio y recuperar el debate</h3><p>La solución no es prohibir la IA. Es rediseñar la forma en que colaboramos. He empezado a probar tres tácticas:</p><ol><li><p> <strong>Reuniones Analógicas:</strong> Designo ciertas sesiones, sobre todo las de brainstorming puro, como “zonas libres de IA”. La única regla es que está prohibido traer ideas pre-cocinadas con una herramienta. El objetivo es forzar el pensamiento en tiempo real, con la mente como única herramienta. Es incómodo al principio, pero la calidad del debate que emerge es infinitamente superior.</p></li><li><p><strong>Empezar por el Problema, no por la Solución:</strong> En lugar de abrir una reunión con “¿qué ideas tenemos para X?”, la empiezo con un debate profundo sobre <em>“¿cuál es el verdadero problema que tenemos con X?”</em>. Obliga al <strong>equipo a pensar y a discutir desde la base</strong>, antes de que nadie pueda correr a pedirle la solución a una IA.</p></li><li><p><strong>El rol del “Abogado del Diablo”:</strong> Asigno a un miembro del equipo para que, por defecto, cuestione y encuentre los puntos débiles de cualquier idea que se presente, sobre todo las que suenan “demasiado perfectas”. Esto introduce una fricción sana y obliga a los “Lectores de Prompts” a ir más allá del guion que les dio la máquina.</p></li></ol><blockquote><p>La IA nos está haciendo ultra-eficientes a nivel individual. Pero esa eficiencia puede tener un coste altísimo: la atrofia de nuestra capacidad para crear, debatir y construir en equipo.</p></blockquote><p>La próxima vez que estés en una reunión y notes ese silencio extraño, pregúntate: ¿estamos pensando juntos, o simplemente estamos presentando los deberes que nos hizo la IA?</p><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think &amp; Hacks</strong></p><p>Soy Eva, entusiasta del mundo de la IA y las automatizaciones.</p><p>Solo te pido tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte:</strong> Reenvía este correo a ese compañero que sigue estancado en 2023.</p></li><li><p>💬 <strong>Comenta:</strong> Dale a “responder” y dime: ¿Qué modelo usas tú fuera de ChatGPT?</p></li><li><p>📩 <strong>Suscríbete:</strong> ¿Llegas tarde? para recibir la próxima antes que nadie.</p></li><li><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p></li></ol>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 576,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        81,
+        145,
+        179
+      ],
+      "population": 281
+    },
+    "DarkVibrant": {
+      "rgb": [
+        60,
+        108,
+        140
+      ],
+      "population": 31
+    },
+    "LightVibrant": {
+      "rgb": [
+        231,
+        213,
+        170
+      ],
+      "population": 20
+    },
+    "Muted": {
+      "rgb": [
+        84,
+        129,
+        157
+      ],
+      "population": 18
+    },
+    "DarkMuted": {
+      "rgb": [
+        55,
+        84,
+        101
+      ],
+      "population": 21
+    },
+    "LightMuted": {
+      "rgb": [
+        202,
+        193,
+        169
+      ],
+      "population": 6
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 84979029,
+      "name": "Eva FT",
+      "handle": "evaft",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "bio": "Formador en Inteligencia Artificial Generativa para Empresas | Talleres prácticos que impulsan productividad y ventas de tu Empresa// Colaborando con la Newsletter especializada en IA de Think & Hack.",
+      "profile_set_up_at": "2025-03-21T20:40:50.882Z",
+      "reader_installed_at": "2025-03-21T20:40:43.011Z",
+      "publicationUsers": [
+        {
+          "id": 6987845,
+          "user_id": 84979029,
+          "publication_id": 6846930,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 6846930,
+            "name": "Eva FT",
+            "subdomain": "evaft",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 84979029,
+            "primary_user_id": 84979029,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-11-08T20:32:12.225Z",
+            "email_from_name": null,
+            "copyright": "Eva FT",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true,
+            "logo_url_wide": null
+          }
+        },
+        {
+          "id": 7493413,
+          "user_id": 84979029,
+          "publication_id": 5143893,
+          "role": "contributor",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 7,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 187358543,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/187358543/tts/3262307c-3356-4f80-ae86-9b11688685ac/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": []
+}

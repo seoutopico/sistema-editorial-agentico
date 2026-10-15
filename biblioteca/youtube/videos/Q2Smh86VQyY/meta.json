@@ -1,0 +1,29 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "duracion_segundos": 1194,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:25Z",
+    "likes": null,
+    "visualizaciones": 225000
+  },
+  "fecha": "2026-06-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "Q2Smh86VQyY",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 121,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "alto",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 2.01,
+    "senal_incompleta": false
+  },
+  "titulo": "MILESTONE! OPENAI has solved a HISTORIC MATH PROBLEM",
+  "url": "https://www.youtube.com/watch?v=Q2Smh86VQyY"
+}

@@ -1,0 +1,168 @@
+{
+  "comando": "subtitulos",
+  "errores": [
+    {
+      "id": "T2v2pf_uypE",
+      "motivo": "[info] Writing video subtitles to: biblioteca\\youtube\\videos\\T2v2pf_uypE\\subtitulos.es.vtt"
+    },
+    {
+      "id": "o3IEkKXXXvo",
+      "motivo": "[info] Writing video subtitles to: biblioteca\\youtube\\videos\\o3IEkKXXXvo\\subtitulos.es.vtt"
+    },
+    {
+      "id": "IXDYEF22CG8",
+      "motivo": "[info] Writing video subtitles to: biblioteca\\youtube\\videos\\IXDYEF22CG8\\subtitulos.es.vtt"
+    },
+    {
+      "id": "7jHXoPGnA4c",
+      "motivo": "[info] Writing video subtitles to: biblioteca\\youtube\\videos\\7jHXoPGnA4c\\subtitulos.es.vtt"
+    },
+    {
+      "id": "tYugqJ9YytQ",
+      "motivo": "[info] Writing video subtitles to: biblioteca\\youtube\\videos\\tYugqJ9YytQ\\subtitulos.es.vtt"
+    },
+    {
+      "id": "eF3yeJuifoQ",
+      "motivo": "[info] Writing video subtitles to: biblioteca\\youtube\\videos\\eF3yeJuifoQ\\subtitulos.es.vtt"
+    }
+  ],
+  "fecha_utc": "2026-10-14T19:38:48Z",
+  "llamadas_ytdlp": [
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\T2v2pf_uypE",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=T2v2pf_uypE"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\T2v2pf_uypE",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=T2v2pf_uypE"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\o3IEkKXXXvo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=o3IEkKXXXvo"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\o3IEkKXXXvo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=o3IEkKXXXvo"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\IXDYEF22CG8",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=IXDYEF22CG8"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\IXDYEF22CG8",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=IXDYEF22CG8"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\7jHXoPGnA4c",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\7jHXoPGnA4c",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\tYugqJ9YytQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\tYugqJ9YytQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\eF3yeJuifoQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\eF3yeJuifoQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+    ]
+  ],
+  "omitidos_con_transcripcion": [],
+  "run_id": "20261014T193848Z",
+  "subtitulos_no_disponibles": [],
+  "subtitulos_obtenidos": []
+}

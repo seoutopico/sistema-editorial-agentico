@@ -1,0 +1,27 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "ChatGPT",
+    "Think&Hack"
+  ],
+  "fecha": "2025-12-21",
+  "huella": "de29667e461d8006b719e129e2a3f9bfc86bd2b2052af025b6cc775b60f4df6d",
+  "id": "181659858",
+  "metricas_publicas": {
+    "comentarios": 1,
+    "reacciones": 5,
+    "restacks": 2
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "perfil de cliente ideal",
+    "archivos de contexto",
+    "audiencia",
+    "prompts guiados por preguntas"
+  ],
+  "tema": "Escribir con IA",
+  "tesis": "Si no le dices a la IA para quién escribes, escribe para nadie: un perfil de cliente ideal en JSON con el lenguaje real de tu audiencia convierte contenido genérico en contenido que resuena.",
+  "titulo": "#11 Para quién escribe tu IA (si no le dices, inventa)",
+  "url": "https://ainalluna.substack.com/p/11-para-quien-escribe-tu-ia-si-no"
+}

@@ -1,0 +1,29 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "ChatGPT",
+    "RLHF",
+    "ChatGPT Projects",
+    "Claude Projects"
+  ],
+  "fecha": "2025-12-07",
+  "huella": "7fc4e5082731fc3f31cba8de38108fb806a942fbdfdfc6f55fe08eb7558f2de8",
+  "id": "180777878",
+  "metricas_publicas": {
+    "comentarios": 6,
+    "reacciones": 7,
+    "restacks": 3
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "sicofancia y sesgo de complacencia",
+    "arquitectura de contexto modular",
+    "migración de la memoria a archivos externos",
+    "sistema de escritura con IA"
+  ],
+  "tema": "Memoria y contexto",
+  "tesis": "La memoria nativa de ChatGPT amplifica el sesgo complaciente del modelo; conviene borrarla y sustituirla por archivos de contexto externos que tú controlas e inyectas por tarea.",
+  "titulo": "#9 Por qué he borrado la memoria de ChatGPT (y tú deberías también)",
+  "url": "https://ainalluna.substack.com/p/borrar-memoria-chatgpt"
+}

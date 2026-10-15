@@ -1,0 +1,29 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "duracion_segundos": 1273,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:29Z",
+    "likes": null,
+    "visualizaciones": 43000
+  },
+  "fecha": "2026-04-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La estadística",
+  "id": "yd9tr0xqg-Y",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 182,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.91,
+    "senal_incompleta": false
+  },
+  "titulo": "how to sell $5,000 Claude Code AIOS to SMBs (full breakdown)",
+  "url": "https://www.youtube.com/watch?v=yd9tr0xqg-Y"
+}

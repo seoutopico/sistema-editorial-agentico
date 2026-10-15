@@ -1,0 +1,28 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "Claude Code",
+    "ChatGPT",
+    "Think&Hack"
+  ],
+  "fecha": "2026-02-16",
+  "huella": "32f10eedc95ef5d7c72e05a0c341077cb1e4217e39c635ae205f223ea9fccb10",
+  "id": "187513657",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 12,
+    "restacks": 3
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "sistema editorial con agentes",
+    "archivos de contexto",
+    "skills de escritura",
+    "criterio editorial humano"
+  ],
+  "tema": "Escribir con IA",
+  "tesis": "Un sistema de skills y archivos de contexto en Claude Code puede producir borradores con la voz de la autora, pero el criterio editorial sigue siendo humano: cada 'no' de Aina se convierte en las instrucciones de la siguiente sesión.",
+  "titulo": "Una IA escribe esta newsletter",
+  "url": "https://ainalluna.substack.com/p/una-ia-escribe-esta-newsletter"
+}

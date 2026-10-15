@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 808,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 81000
+  },
+  "fecha": "2026-09-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "l_tMctYN2k8",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Método de aprendizaje con IA; requiere ver contenido",
+    "relevante": true,
+    "tema": "Pensamiento crítico con IA"
+  },
+  "senales": {
+    "dias": 29,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.82,
+    "senal_incompleta": false
+  },
+  "titulo": "Master ANY SUBJECT with AI. The method MIT invented in 1972",
+  "url": "https://www.youtube.com/watch?v=l_tMctYN2k8"
+}

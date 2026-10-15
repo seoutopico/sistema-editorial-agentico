@@ -1,0 +1,101 @@
+{
+  "grupo_id": "agentes-de-ia-anthropic",
+  "fecha": "2026-10-15",
+  "evaluacion": {
+    "grupo_id": "agentes-de-ia-anthropic",
+    "articulos_comparados": [
+      "200734614",
+      "201948710",
+      "205019542",
+      "206663634",
+      "219821904"
+    ],
+    "cobertura": "cubierto",
+    "que_hemos_publicado": "Ya defendimos con prueba propia cada una de las cuatro prácticas del vídeo: guardar el código probado como herramienta reutilizable en vez de que el agente lo reescriba cada vez (la skill de scripts de navegador, 200734614); descriptions que delimitan cuándo activarse y qué queda fuera, con la anatomía completa de una skill (205019542); convertir cada corrección en un cambio permanente del sistema, no en una promesa del chat (el agente arquitecto que documenta la regla y añade su comprobación a bin/check, 201948710; actualizar AGENTS.md con la condición de cierre nueva, 206663634); y verificar con evidencia externa al borrador antes de aceptar nada (revisor con default-FAIL en 201948710, condiciones de cierre observables en 206663634, constructor y revisor separados en 219821904).",
+    "diferencia": "El vídeo aporta la analogía del teléfono (fuente:HIRDzMtuWFk@01:01), el relato de origen de las skills en Anthropic (fuente:HIRDzMtuWFk@00:31) y la portabilidad del formato abierto entre entornos (fuente:HIRDzMtuWFk@06:08), ángulo que también tratamos al probar Codex sobre un sistema de Claude Code. Lo que nosotros no hemos tratado es cómo medir objetivamente que una skill mejora tras el bucle de corrección, pero el vídeo tampoco lo resuelve: es su propia pregunta abierta y todo él es consejo sin ejecución en pantalla, sin ninguna skill funcionando ni métrica de mejora (fuente:HIRDzMtuWFk promete_sin_demostrar).",
+    "aportacion": null,
+    "parecida_a": null,
+    "razon_nueva": null,
+    "encaje": true,
+    "motivo": "Es exactamente nuestro nicho y nuestra forma de tratarlo, y precisamente por eso no hay pieza nueva: lo que el vídeo aconseja sin demostrar ya lo publicamos nosotros con pruebas propias, y repetir sus consejos no es aportar."
+  },
+  "condiciones": {
+    "interes_real": {
+      "cumple": true,
+      "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+    },
+    "encaje": {
+      "cumple": true,
+      "detalle": "Es exactamente nuestro nicho y nuestra forma de tratarlo, y precisamente por eso no hay pieza nueva: lo que el vídeo aconseja sin demostrar ya lo publicamos nosotros con pruebas propias, y repetir sus consejos no es aportar."
+    },
+    "no_cubierto": {
+      "cumple": false,
+      "detalle": "cobertura=cubierto"
+    },
+    "aportacion": {
+      "cumple": false,
+      "detalle": "sin aportación"
+    }
+  },
+  "es_oportunidad": false,
+  "accion": "descartar",
+  "motivo_descarte": "no cumple: no_cubierto, aportacion",
+  "contexto": {
+    "fichas": [
+      [
+        "HIRDzMtuWFk",
+        "339eff736bc13aa8f4c4b4746182b4aa98804f41a7805745b33076c5d6f761eb"
+      ]
+    ],
+    "articulos": [
+      [
+        "200734614",
+        "696c34f9daa72e24b289a3deaff59543cad3bfa1c64422f026b1eb29f89b5b05"
+      ],
+      [
+        "201948710",
+        "f15fef545a57773f6c4bff48b45f0ebe2cdcfe69bd71268f03ff44d1472dc115"
+      ],
+      [
+        "205019542",
+        "1ec49ffae6bc19bc99dc94bc4ffcd14fa1e6211afcaa33d47fd3b90796c9bd7b"
+      ],
+      [
+        "206663634",
+        "f0d72efda22f728388d8e5d74ebecd239d7e7ed9723871690db886691bf9d07d"
+      ],
+      [
+        "219821904",
+        "dd56cb63208385327728e001e26f47ddd79d258cd8550f52c2e498a755a9dd18"
+      ]
+    ],
+    "oportunidades": [
+      [
+        "2026-10-14-agentes-de-ia",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-14-herramientas-de-ia",
+        "descartada",
+        "Exige GPU/hardware que la autora no tiene; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)"
+      ],
+      [
+        "2026-10-14-herramientas-de-ia-google",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-jev",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-nate-herk",
+        "propuesta",
+        ""
+      ]
+    ]
+  },
+  "huella_contexto": "522d991d64a3983d8043817cc2e7b69508fec524c42f107bc34b68d2dd1ed9be"
+}

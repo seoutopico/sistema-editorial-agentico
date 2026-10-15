@@ -1,0 +1,32 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "Google Trends",
+    "Google Natural Language",
+    "Think&Hack",
+    "Claude Code",
+    "Mujeres en SEO",
+    "GitHub"
+  ],
+  "fecha": "2026-06-21",
+  "huella": "0c545330f9e01458f93cf2b9cd58ab721178f4dbd3c4a48e0a144e5f867f9ad6",
+  "id": "202814101",
+  "metricas_publicas": {
+    "comentarios": 1,
+    "reacciones": 6,
+    "restacks": 2
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "separar tareas objetivas y cualitativas",
+    "scripts, skills y agentes",
+    "gaps de entidades",
+    "arnés de verificación Default-FAIL",
+    "trazabilidad del análisis"
+  ],
+  "tema": "SEO y visibilidad con IA",
+  "tesis": "Para usar agentes de IA en SEO sin análisis inventados no hay que pedirle al modelo que sea más cuidadoso, sino diseñar un proceso con datos, límites y evidencia donde el atajo no compile.",
+  "titulo": "Agentes de IA para SEO: procesos con evidencia",
+  "url": "https://ainalluna.substack.com/p/seo-con-ia-agentes-sin-alucinar"
+}

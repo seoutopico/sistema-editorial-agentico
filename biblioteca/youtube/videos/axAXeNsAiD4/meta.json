@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 779,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 40000
+  },
+  "fecha": "2026-09-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "axAXeNsAiD4",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Titular apocalíptico sin aplicación al trabajo",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 29,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.4,
+    "senal_incompleta": false
+  },
+  "titulo": "AI Could END Humanity According to Anthropic",
+  "url": "https://www.youtube.com/watch?v=axAXeNsAiD4"
+}

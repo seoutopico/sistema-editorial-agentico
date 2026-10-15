@@ -1,0 +1,425 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/harness-engineering-agentes-ia",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 206663634,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-07-19T06:01:48.390Z",
+  "updated_at": "2026-07-22T08:17:34.129Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "harness-engineering-agentes-ia",
+  "social_title": null,
+  "subtitle": "Un ejemplo práctico de harness engineering para guardar el estado, limitar acciones y comprobar resultados mediante una biblioteca de transcripciones.",
+  "teaser_post_eligible": true,
+  "title": "Cómo construir un arnés para que tu agente trabaje de forma fiable",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 7
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "crear-agentes-claude-code",
+  "next_post_slug": "piloto-ia-disenar-medir-escalar",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!0GNA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 206663634,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Un ejemplo práctico de harness engineering para guardar el estado, limitar acciones y comprobar resultados mediante una biblioteca de transcripciones.",
+  "body_html": "<p><em>Cómo construir un arnés sencillo para guardar, clasificar y recuperar transcripciones sin depender de la memoria del chat.</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!0GNA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!0GNA!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 424w, https://substackcdn.com/image/fetch/$s_!0GNA!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 848w, https://substackcdn.com/image/fetch/$s_!0GNA!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 1272w, https://substackcdn.com/image/fetch/$s_!0GNA!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!0GNA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png\" width=\"1456\" height=\"832\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:832,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2598857,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!0GNA!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 424w, https://substackcdn.com/image/fetch/$s_!0GNA!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 848w, https://substackcdn.com/image/fetch/$s_!0GNA!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 1272w, https://substackcdn.com/image/fetch/$s_!0GNA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p>En las dos últimas newsletters hemos construido dos piezas de un sistema. Primero vimos <a href=\"https://ainalluna.substack.com/p/crear-skills-agentes-ia-verificables\">cómo crear una skill para que un agente tome mejores decisiones</a>. Después distinguimos <a href=\"https://ainalluna.substack.com/p/crear-agentes-claude-code\">cuándo basta un agente, cuándo conviene guardar uno y cuándo tiene sentido formar un equipo</a>.</p><p>Ya tenemos un procedimiento y alguien capaz de ejecutarlo. Pero todavía falta algo.</p><p>Imagina que cada semana guardas transcripciones de vídeos, reuniones, entrevistas o pódcast. Hoy le pasas una a un agente y le pides que la clasifique. El resultado parece bueno. Dentro de tres meses quieres recuperar todas las conversaciones en las que alguien habló de memoria para agentes y descubres que una quedó en el chat, otra tiene etiquetas diferentes y una tercera no conserva el enlace original.</p><p>El modelo sabía analizar el texto. El problema es que <strong>nunca diseñamos el lugar donde debía trabajar</strong>.</p><p>Esta semana vamos a construir ese lugar. Será una biblioteca pequeña de transcripciones: recibirá archivos nuevos, los clasificará, creará fichas que podamos consultar y comprobará que cada resultado sigue conectado con su fuente.</p><p>No hace falta programar una aplicación ni empezar con una base de datos. Vamos a hacerlo con carpetas, archivos Markdown y un catálogo. Lo suficiente para entender qué <strong>aporta un arnés</strong>.</p><div><hr></div><h2>Qué es un arnés y por qué no es otro agente</h2><p>La palabra <code>`harness` </code>se está utilizando con dos niveles de significado que conviene separar.</p><p>En sentido técnico, <strong>el arnés es la capa que mantiene en marcha el bucle del agente</strong>: envía contexto al modelo, recibe sus decisiones, dirige las llamadas a herramientas, devuelve los resultados y controla la ejecución. Claude Code, Codex o el Agents SDK ya incorporan buena parte de ese arnés.</p><p>Cuando hablamos de <code>`harness engineering`</code>, el foco se amplía. Ya no pensamos solo en el bucle, sino en <strong>el entorno que hemos preparado para que ese bucle haga un trabajo fiable</strong>: qué instrucciones encuentra, qué archivos puede leer, dónde deja el estado, qué herramientas puede utilizar, qué permisos tiene y cómo se comprueba el resultado.</p><p>La diferencia con las piezas anteriores se puede resumir así:</p><pre><code><strong>Skill  </strong>→ conserva cómo se hace una tarea.\n<strong>Agente </strong>→ recibe el trabajo y decide cómo avanzar.\n<strong>Arnés</strong>  → controla el entorno en el que trabaja y qué cuenta como terminado.</code></pre><p>Un arnés no tiene por qué incluir varios agentes. Tampoco es un `AGENTS.md` con muchas reglas ni un nombre sofisticado para una carpeta. Es el conjunto de condiciones que permite repetir un proceso sin reconstruir el contexto en cada conversación.</p><p>Vamos a verlo con nuestro archivo de transcripciones.</p><div><hr></div><h2>Qué tiene que decidir el sistema al guardar una transcripción</h2><p>Partimos de una petición normal:</p><pre><code>Guarda esta transcripción para que pueda encontrarla cuando vuelva a necesitarla.</code></pre><p>Un modelo puede resumir el contenido y proponer cinco etiquetas. Sin embargo, la petición deja casi todas las decisiones importantes abiertas.</p><p>¿Dónde debe guardar el original? ¿Puede modificarlo? ¿Qué datos mínimos necesita? ¿Debe inventar una fecha si no aparece? ¿Puede crear una categoría nueva? ¿Cómo sabe si esa transcripción ya existe? ¿Qué archivo tiene que consultar cuando le pidamos recuperarla? ¿Cuándo puede afirmar que ha terminado?</p><p>Si esas decisiones no están en el sistema, el agente tendrá que resolverlas de nuevo cada vez. Puede elegir bien en una sesión y de otra manera en la siguiente. <strong>El arnés empieza donde dejamos de confiar esas decisiones a la improvisación del chat.</strong></p><p>Nuestro sistema mínimo tendrá esta forma:</p><pre><code>biblioteca-transcripciones/\n├── AGENTS.md\n├── claude.md\n├── inbox/\n├── fichas/\n│   └── nombre-transcripcion/\n│       ├── original.md\n│       └── ficha.md\n├── catalogo.csv\n├── taxonomia.md\n└── registro.md</code></pre><ul><li><p><code>AGENTS.md</code> contiene las instrucciones compartidas.</p></li><li><p><code>CLAUDE.md</code> permite que Claude Code cargue esas mismas instrucciones.</p></li><li><p><code>inbox/</code> recibe las transcripciones pendientes.</p></li><li><p><code>fichas/</code> guarda una versión breve y consultable de cada una.</p></li><li><p><code>catalogo.csv</code> funciona como índice.</p></li><li><p><code>taxonomia.md</code> contiene las categorías aceptadas.</p></li><li><p><code>registro.md</code> conserva qué ocurrió durante cada ejecución.</p></li></ul><p><strong>La estructura propuesta convierte en decisiones concretas todo lo que el prompt inicial había dejado abierto.</strong></p><div><hr></div><h2>Primera pieza: un punto de entrada claro</h2><p>Podríamos poner todas las reglas, ejemplos y excepciones dentro de <code>`AGENTS.md`</code>. Sería cómodo al principio y difícil de mantener después.</p><p><span>En </span><strong><span>Codex</span></strong><span>, estas instrucciones del proyecto se guardan en </span><code>AGENTS.md</code><span>.</span><strong><span> Claude Code </span></strong><span>no lee ese archivo directamente, pero </span><code>CLAUDE.md</code><span> puede importarlo. Así mantenemos una sola fuente de instrucciones. Si ambos archivos están en la raíz, </span><code>CLAUDE.md</code><span> solo necesita esta línea:</span></p><pre><code><code>@AGENTS.md</code></code></pre><p>La ruta se resuelve desde la ubicación de <code>CLAUDE.md</code>. </p><p>El contenido que sí mantenemos en <code>AGENTS.md</code> podría ser este:</p><div class=\"highlighted_code_block\" data-attrs=\"{&quot;language&quot;:&quot;markdown&quot;,&quot;nodeId&quot;:&quot;1359923d-ab91-49c8-ad18-bcb6a986c113&quot;}\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre class=\"shiki\"><code class=\"language-markdown\"># Biblioteca de transcripciones\n\nEste proyecto permite guardar, clasificar y recuperar transcripciones sin perder la relación con el documento original.\n\n## Estructura del proyecto\n\n- `inbox/`: transcripciones pendientes de procesar.\n- `fichas/&lt;id&gt;/original.md`: copia canónica e intacta de la transcripción.\n- `fichas/&lt;id&gt;/ficha.md`: ficha consultable creada a partir del original.\n- `catalogo.csv`: índice de transcripciones procesadas.\n- `taxonomia.md`: categorías permitidas.\n- `registro.md`: historial de resultados, dudas y bloqueos.\n\n## Fuentes de verdad\n\n- `original.md` conserva el contenido recibido y es la fuente de las citas.\n- `taxonomia.md` contiene las únicas categorías que puedes asignar.\n- `catalogo.csv` sirve para detectar duplicados y localizar materiales procesados.\n- `ficha.md` facilita la consulta, pero no sustituye al original cuando haya que verificar una afirmación.\n\n## Procesar una transcripción\n\nCuando el usuario pida guardar, registrar, archivar, clasificar o procesar una transcripción:\n\n1. Trabaja solo con el archivo de `inbox/` indicado por el usuario.\n2. Lee el archivo completo, `taxonomia.md` y `catalogo.csv`.\n3. Comprueba que aparecen título, tipo, fecha y URL de la fuente.\n4. Busca la URL en `catalogo.csv` para detectar duplicados.\n5. Si falta un dato obligatorio o la URL ya existe, no proceses el archivo. Explica el problema y anótalo en `registro.md`.\n6. Usa el nombre del archivo sin extensión como identificador `&lt;id&gt;`.\n7. Calcula el hash SHA-256 del archivo y conserva el valor.\n8. Crea la carpeta `fichas/&lt;id&gt;/`.\n9. Mueve el archivo de `inbox/` a `fichas/&lt;id&gt;/original.md` sin reescribir su contenido.\n10. Calcula el hash de `original.md` y comprueba que coincide con el valor anterior.\n11. Crea `fichas/&lt;id&gt;/ficha.md`, incluye allí el hash y sigue el formato de este documento.\n12. Añade una única fila a `catalogo.csv`.\n13. Anota el resultado en `registro.md`.\n14. Revisa todas las condiciones de cierre antes de terminar.\n\nSi el proceso falla después de mover el original, devuélvelo a `inbox/` y no añadas la transcripción al catálogo como procesada.\n\n## Formato de ficha\n\n```markdown\n# Título de la transcripción\n\n- Tipo: entrevista | vídeo | pódcast | reunión\n- Fuente: URL\n- Fecha: AAAA-MM-DD\n- Temas: tema-1, tema-2\n- Original: fichas/&lt;id&gt;/original.md\n- Estado: procesada\n- SHA-256: valor completo del hash de original.md\n\n## Idea principal\n\nUn párrafo breve con la aportación central de la transcripción.\n\n## Ideas recuperables\n\n- Entre dos y cuatro ideas útiles para búsquedas posteriores.\n\n## Fragmentos verificables\n\n&gt; Uno o dos fragmentos literales presentes en `original.md`.\n\n## Límites o dudas\n\nDatos ausentes, afirmaciones que requieren contraste o ambigüedades.\n```\n\n## Catálogo\n\nMantén exactamente estas columnas:\n\n```text\nid,titulo,tipo,fecha,fuente,temas,ficha,original,estado\n```\n\n- Usa `&lt;id&gt;` como identificador.\n- Separa varios temas con `|`.\n- Usa rutas relativas al proyecto.\n- No añadas una fila si la URL ya existe.\n\n## Recuperar información\n\nCuando el usuario pida encontrar, recuperar o comparar ideas guardadas:\n\n1. Consulta primero `catalogo.csv`.\n2. Abre las fichas que puedan responder a la búsqueda.\n3. Vuelve a `original.md` para comprobar cada fragmento literal y su contexto.\n4. Descarta cualquier resultado que no puedas conectar con un original.\n5. Devuelve para cada resultado el título, la idea relevante, un fragmento literal, la URL, la ruta de la ficha y la ruta del original.\n6. Si no hay evidencia suficiente, dilo con claridad.\n\n## Límites\n\n- No inventes fuentes, fechas, personas, temas ni citas.\n- No corrijas, resumas ni reformatees el contenido de `original.md`.\n- No crees categorías nuevas sin aprobación del usuario.\n- No publiques ni envíes contenido.\n- No accedas a carpetas situadas fuera de este proyecto.\n- No marques una transcripción como procesada solo porque exista `ficha.md`.\n\n## Condiciones de cierre\n\nUna transcripción está procesada solo si:\n\n- ya no aparece en `inbox/`;\n- `fichas/&lt;id&gt;/original.md` y `fichas/&lt;id&gt;/ficha.md` existen;\n- la ficha contiene tipo, fuente, fecha, temas y ruta al original;\n- el SHA-256 guardado en la ficha coincide con el hash actual de `original.md`;\n- todos los temas existen en `taxonomia.md`;\n- el catálogo contiene exactamente una fila para la URL;\n- las rutas del catálogo abren los archivos correctos;\n- los fragmentos literales de la ficha aparecen en `original.md`;\n- el resultado está anotado en `registro.md`.\n\nSi alguna condición falla, no declares la tarea terminada. Explica qué falta o qué has restaurado.\n</code></pre></div><p>El archivo no explica cómo resumir una entrevista ni contiene toda la taxonomía. Indica <strong>dónde está cada fuente de verdad, en qué orden debe consultarse y qué límites no puede saltarse</strong>.</p><p>Esta distinción importa. OpenAI cuenta que su equipo intentó utilizar un único `AGENTS.md` enorme y terminó tratándolo como un índice que apunta a documentación más específica. <strong>Cuando todo está cargado desde el principio, las instrucciones compiten con la tarea y se vuelven más difíciles de mantener y verificar.</strong></p><p>En nuestra biblioteca, el agente empieza con un mapa pequeño y abre `taxonomia.md` solo cuando necesita clasificar. No necesita cargar todas las fichas para procesar una transcripción nueva. Para comprobar duplicados, busca primero en el catálogo.</p><p><strong>No se trata de darle menos contexto. Se trata de organizarlo para que pueda encontrar el contexto adecuado en el momento adecuado.</strong></p><div><hr></div><h2>Segunda pieza: cómo conservar el trabajo entre sesiones</h2><p>Supongamos que dejamos en `inbox/` una entrevista titulada `como-usar-ia-negocio-loc<code>l.md`.</code></p><pre><code><code>Procesa inbox/entrevista-ia-negocio-local.md.\nAntes de terminar, enséñame las comprobaciones que has realizado.</code></code></pre><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!e7s2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!e7s2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 424w, https://substackcdn.com/image/fetch/$s_!e7s2!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 848w, https://substackcdn.com/image/fetch/$s_!e7s2!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 1272w, https://substackcdn.com/image/fetch/$s_!e7s2!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!e7s2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png\" width=\"1456\" height=\"964\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:964,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:113843,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!e7s2!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 424w, https://substackcdn.com/image/fetch/$s_!e7s2!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 848w, https://substackcdn.com/image/fetch/$s_!e7s2!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 1272w, https://substackcdn.com/image/fetch/$s_!e7s2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84db0ab1-c723-410e-8811-78d4a66bef33_1555x1030.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>El agente la lee y crea una ficha como esta:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!kLqc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!kLqc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 424w, https://substackcdn.com/image/fetch/$s_!kLqc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 848w, https://substackcdn.com/image/fetch/$s_!kLqc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 1272w, https://substackcdn.com/image/fetch/$s_!kLqc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!kLqc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png\" width=\"980\" height=\"977\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/fea764c9-0373-41ed-8409-41c467d2bef1_980x977.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:977,&quot;width&quot;:980,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:75798,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!kLqc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 424w, https://substackcdn.com/image/fetch/$s_!kLqc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 848w, https://substackcdn.com/image/fetch/$s_!kLqc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 1272w, https://substackcdn.com/image/fetch/$s_!kLqc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffea764c9-0373-41ed-8409-41c467d2bef1_980x977.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Después añade una fila a `catalogo.csv` con el título, la fuente, la fecha, los temas y la ruta de la ficha. Finalmente deja en `registro.md` una anotación breve: qué archivo procesó, qué cambió y si encontró<code>alguna duda.</code></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!V5VK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!V5VK!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 424w, https://substackcdn.com/image/fetch/$s_!V5VK!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 848w, https://substackcdn.com/image/fetch/$s_!V5VK!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 1272w, https://substackcdn.com/image/fetch/$s_!V5VK!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!V5VK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png\" width=\"1287\" height=\"466\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/f7f20011-154b-4569-8d46-4af18238f34d_1287x466.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:466,&quot;width&quot;:1287,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:38541,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!V5VK!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 424w, https://substackcdn.com/image/fetch/$s_!V5VK!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 848w, https://substackcdn.com/image/fetch/$s_!V5VK!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 1272w, https://substackcdn.com/image/fetch/$s_!V5VK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7f20011-154b-4569-8d46-4af18238f34d_1287x466.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Antes de cerrar, calcula el hash SHA-256 de `original.md` y guarda ese valor en la ficha. El hash es una huella del contenido: si el archivo cambia, aunque sea en un solo carácter, la huella también cambia. No sirve para clasificar la transcripción; <strong>sirve para comprobar en otra sesión que el original sigue intacto.</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Wvqc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Wvqc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 424w, https://substackcdn.com/image/fetch/$s_!Wvqc!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 848w, https://substackcdn.com/image/fetch/$s_!Wvqc!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 1272w, https://substackcdn.com/image/fetch/$s_!Wvqc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Wvqc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png\" width=\"1004\" height=\"472\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:472,&quot;width&quot;:1004,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:46226,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Wvqc!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 424w, https://substackcdn.com/image/fetch/$s_!Wvqc!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 848w, https://substackcdn.com/image/fetch/$s_!Wvqc!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 1272w, https://substackcdn.com/image/fetch/$s_!Wvqc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ec5e27c-6b8a-4ab3-bfd3-bc370a361501_1004x472.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Esos archivos hacen algo que el chat no puede garantizar por sí solo: <strong>conservar el estado del trabajo entre sesiones</strong>.</p><p>La semana siguiente podemos abrir una conversación nueva y pedir:</p><pre><code>Encuentra las transcripciones en las que alguien explique por qué empezó\nautomatizando una tarea pequeña. Devuélveme la idea, el fragmento que la\nsostiene y el enlace a la fuente.</code></pre><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!a9aO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!a9aO!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 424w, https://substackcdn.com/image/fetch/$s_!a9aO!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 848w, https://substackcdn.com/image/fetch/$s_!a9aO!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 1272w, https://substackcdn.com/image/fetch/$s_!a9aO!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!a9aO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png\" width=\"1027\" height=\"421\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:421,&quot;width&quot;:1027,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:25507,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!a9aO!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 424w, https://substackcdn.com/image/fetch/$s_!a9aO!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 848w, https://substackcdn.com/image/fetch/$s_!a9aO!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 1272w, https://substackcdn.com/image/fetch/$s_!a9aO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e72a1e5-90ca-430e-93bd-2da16a521f03_1027x421.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>El agente no necesita recordar la conversación anterior. <strong>Puede consultar el catálogo, abrir las fichas candidatas y volver al original cuando necesite verificar una cita.</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!5-tN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!5-tN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 424w, https://substackcdn.com/image/fetch/$s_!5-tN!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 848w, https://substackcdn.com/image/fetch/$s_!5-tN!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 1272w, https://substackcdn.com/image/fetch/$s_!5-tN!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!5-tN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png\" width=\"1026\" height=\"970\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:970,&quot;width&quot;:1026,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:77853,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/206663634?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!5-tN!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 424w, https://substackcdn.com/image/fetch/$s_!5-tN!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 848w, https://substackcdn.com/image/fetch/$s_!5-tN!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 1272w, https://substackcdn.com/image/fetch/$s_!5-tN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc967413c-dbd4-4f07-9369-3a9840fa14ab_1026x970.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>Tercera pieza: qué archivos puede leer y modificar el agente</h2><p>Hasta ahora hemos decidido cómo se organiza la información. El arnés también tiene que establecer qué operaciones necesita el agente y cuáles quedan fuera del proceso..</p><p><span>Para procesar una transcripción, el agente debe leer el archivo indicado en </span><code>inbox/</code><span>, consultar </span><code>taxonomia.md</code><span> y comprobar duplicados en </span><code>catalogo.csv</code><span>. Después crea </span><code>fichas/&lt;id&gt;/</code><span>, mueve la transcripción sin alterar su contenido a </span><code>original.md</code><span>, genera </span><code>ficha.md</code><span>, guarda allí el hash SHA-256 y actualiza el catálogo y el registro.</span></p><p>La política queda así:</p><pre><code><strong>Puede leer</strong>: inbox/, taxonomia.md, catalogo.csv y fichas/.\n<strong>Puede crear y actualizar: </strong>fichas/&lt;id&gt;/ficha.md, catalogo.csv y registro.md.\n<strong>Puede mover</strong>: la transcripción indicada desde inbox/ hasta fichas/&lt;id&gt;/original.md.\n<strong>No puede modificar:</strong> el contenido de original.md, la taxonomía ni las instrucciones del proyecto.\n<strong>No puede publicar,</strong> enviar contenido ni trabajar fuera de esta biblioteca.\n<strong>Debe pedir ayuda: </strong>si falta la fuente o la fecha, encuentra un posible duplicado o necesita una categoría que no existe.</code></pre><p>Mover el original no significa tener permiso para reescribirlo. El archivo deja de estar pendiente en <code>inbox/</code> y pasa a ser la fuente canónica de esa transcripción. Desde ese momento solo se consulta. La ficha puede corregirse o ampliarse; el original no.</p><p><code>AGENTS.md</code><span> describe esta política y</span><strong><span> orienta el comportamiento</span></strong><span>, pero escribir una regla ahí </span><strong><span>no obliga por sí solo al agente a cumplirla.</span></strong><span> En esta versión sencilla, Claude Code muestra las operaciones de escritura y traslado para que podamos revisarlas antes de aprobarlas.</span></p><div><hr></div><h2>Cuarta pieza: el agente no termina porque lo diga</h2><p>La parte más valiosa del ejemplo aparece al final.</p><p>Imagina que el agente responde:</p><blockquote><p>He clasificado correctamente la transcripción.</p></blockquote><p><strong>Eso es una afirmación, no una comprobación.</strong> Para aceptar el trabajo necesitamos observar algo fuera de su propia respuesta.</p><p>Además de decidir qué puede hacer el agente, necesitamos decidir qué rastro debe dejar. Cada transcripción procesada debería permitir reconstruir qué original recibió, dónde lo guardó, qué ficha creó, qué cambios hizo en el catálogo y qué dudas encontró. <strong>Sin ese registro, el proceso puede funcionar, pero nosotros no podemos auditarlo ni corregirlo cuando algo falla.</strong></p><p>En nuestra biblioteca, ese rastro se ve en cuatro sitios:</p><ul><li><p><code>inbox/</code> muestra qué transcripciones siguen pendientes o bloqueadas.</p></li><li><p><code>fichas/&lt;id&gt;/</code> conserva juntas la fuente original, la ficha y la huella SHA-256.</p></li><li><p><code>catalogo.csv</code> indica qué se procesó, con qué estado y dónde están los archivos.</p></li><li><p><code>registro.md</code> explica qué ocurrió durante la ejecución: si terminó, qué dudas aparecieron o por qué se rechazó.</p></li></ul><p>En esta primera versión podemos<strong> usar una lista de control:</strong></p><pre><code><code>[ ] La transcripción original sigue intacta. \n[ ] La ficha contiene título, tipo, fuente y fecha. \n[ ] Los temas existen en taxonomia.md. \n[ ] El catálogo contiene una sola fila para esa fuente. \n[ ] La ruta incluida en el catálogo abre la ficha correcta. \n[ ] Los fragmentos literales aparecen en el original. \n[ ] El resultado quedó anotado en registro.md.</code></code></pre><p>Más adelante, varias comprobaciones pueden convertirse en un script: detectar campos vacíos, rutas rotas, categorías desconocidas o fuentes duplicadas. El criterio editorial seguirá necesitando revisión, pero la estructura no tiene por qué revisarse a mano cada vez.</p><div class=\"pullquote\"><p>Aquí se ve con claridad para qué sirve el arnés. El agente propone que la tarea está terminada; el sistema reúne evidencia para decidir si podemos aceptarla.</p></div><p><span>También cambia la forma de corregir errores. Si el agente inventa una fecha, no basta con repetir el prompt con más énfasis. Actualizamos </span><code>AGENTS.md</code><span> para indicar que debe detenerse cuando falte ese dato y añadimos una condición de cierre: la fecha de </span><code>ficha.md</code><span> tiene que aparecer en </span><code>original.md</code><span>. La corrección queda incorporada al sistema y se aplica en las siguientes sesiones.</span></p><div class=\"callout-block\" data-callout=\"true\"><p><strong>El fallo deja de ser una anécdota de la conversación y se convierte en información para mejorar el proceso.</strong></p></div><div><hr></div><h2>Seis pruebas para comprobar si el arnés funciona</h2><p>Cada prueba parte de una situación concreta y define qué debería hacer el sistema. Si el resultado es distinto, hemos encontrado un fallo en el arnés.</p><ol><li><p><strong>Probamos una transcripción válida.</strong> Incluye título, fecha y URL. <strong>El resultado correcto</strong> es que el sistema guarde <code>original.md</code> y <code>ficha.md</code> dentro de <code>fichas/&lt;id&gt;/</code>, añada la entrada al catálogo y anote el proceso en el registro.</p></li><li><p><strong>Probamos una transcripción sin URL.</strong> <strong>El resultado correcto</strong> es que el archivo permanezca en <code>inbox/</code>, no se añada al catálogo y el sistema indique qué dato debemos completar. Si inventa una URL o da el trabajo por terminado, el arnés ha fallado.</p></li><li><p><strong>Probamos una transcripción duplicada.</strong> Su URL ya figura en el catálogo. <strong>El resultado correcto</strong> es que el sistema señale la coincidencia y no cree otra ficha ni mueva el archivo. Si guarda una segunda copia sin avisar, el arnés ha fallado.</p></li><li><p><strong>Probamos un contenido que no encaja en la taxonomía.</strong> <strong>El resultado correcto</strong> es que el sistema explique la duda y nos pida una decisión. Si crea una categoría nueva por su cuenta, el arnés ha fallado.</p></li><li><p><strong>Modificamos un original después de procesarlo.</strong> Volvemos a calcular su SHA-256 y lo comparamos con el valor guardado en la ficha. <strong>El resultado correcto</strong> es que el sistema detecte que los valores no coinciden y avise del cambio. Si lo pasa por alto, hemos perdido la garantía de que la ficha sigue vinculada al mismo original.</p></li><li><p><strong>Buscamos una idea con palabras distintas de las etiquetas.</strong> <strong>El resultado correcto</strong> es que el sistema localice posibles fichas, consulte los originales y responda con fragmentos y fuentes que podamos comprobar. Si responde sin volver a las fuentes, no podemos verificar el resultado.</p></li></ol><div class=\"pullquote\"><p>Estas pruebas no miden solo la calidad del resumen. Comprueban si el sistema completa un caso válido, se detiene ante un problema, conserva el original y deja evidencia de sus decisiones</p></div><h2>No construyas una plataforma cuando todavía necesitas una carpeta</h2><p>Al hablar de <code>arneses </code>aparecen enseguida bases vectoriales, orquestadores, memoria semántica, colas de tareas y equipos de agentes. Algunas bibliotecas necesitarán esas piezas. La nuestra todavía no.</p><p>Para unas decenas o cientos de transcripciones, una estructura de archivos y un catálogo pueden ser suficientes para descubrir el proceso real. Nos permiten saber qué campos importan, qué taxonomía aguanta el uso, qué búsquedas hacemos de verdad y dónde falla el agente.</p><p>Solo después tendrá sentido preguntar si necesitamos una base de datos, búsqueda semántica o varios agentes trabajando en paralelo. Añadir arquitectura antes de conocer esos patrones no elimina la incertidumbre. La esconde dentro de un sistema más caro de mantener.</p><p>La versión mínima del arnés responde cinco preguntas:</p><ol><li><p><strong>¿Dónde entra el trabajo?</strong> En `inbox/`.</p></li><li><p><strong>¿Qué reglas debe consultar?</strong> El mapa del proyecto y la taxonomía.</p></li><li><p><strong>¿Dónde queda el estado?</strong> En las fichas, el catálogo y el registro.</p></li><li><p><strong>¿Qué puede modificar?</strong> Solo las salidas necesarias.</p></li><li><p><strong>¿Cómo se comprueba?</strong> Con condiciones observables y, cuando sea posible, validaciones automáticas.</p></li></ol><p>Si no puedes responder estas preguntas, cambiar de modelo probablemente no arreglará el proceso.</p><p style=\"text-align: center;\"><strong>Tools are great. <mark data-color=\"#ff9900\" style=\"background-color: rgb(255, 153, 0); color: rgb(0, 0, 0);\">Systems</mark> are better.</strong></p><div class=\"pullquote\"><p>Una skill conserva una forma de clasificar. Un agente puede recibir el encargo y realizar el trabajo. El arnés hace que ese trabajo ocurra dentro de un entorno que recuerda, limita y comprueba.</p></div><p>Ese es el salto de esta serie: dejar de pensar solo en lo que el modelo puede responder y empezar a diseñar <strong>las condiciones que necesita para trabajar bien más de una vez</strong>.</p><div><hr></div><h2>Sigue la serie: de prompts a sistemas.</h2><p>En la primera entrega vimos cómo crear una skill pequeña, activable y verificable. En la segunda, cómo elegir entre una conversación principal, un subagente, un agente reutilizable y un equipo.</p><p>En esta tercera hemos unido las piezas dentro de un entorno de trabajo: instrucciones que funcionan como mapa, estado fuera de la conversación, permisos ajustados a la tarea y pruebas que deciden cuándo aceptar el resultado.</p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;86d164d3-7642-429c-95d6-1a725cf9e25d&quot;,&quot;caption&quot;:&quot;Cómo diseñar una skill pequeña, activable y verificable sin convertirla en otra carpeta de documentación.&quot;,&quot;cta&quot;:null,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Cómo crear una skill para que tu agente tome mejores decisiones.&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:136220542,&quot;name&quot;:&quot;Aina Lluna&quot;,&quot;bio&quot;:&quot;Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2026-07-05T05:02:09.038Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!6z-o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdaa308c-0c87-4a40-8ce7-311725b33bdb_1672x941.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://ainalluna.substack.com/p/crear-skills-agentes-ia-verificables&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:205019542,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:13,&quot;comment_count&quot;:0,&quot;publication_id&quot;:5143893,&quot;publication_name&quot;:&quot;Think &amp; Hack &quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!QSaK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;4cf52387-907f-4121-b667-26ff0b8d87b6&quot;,&quot;caption&quot;:&quot;Tres niveles de delegación para saber cuándo basta un agente puntual, cuándo conviene guardar uno y cuándo tiene sentido formar un equipo.&quot;,&quot;cta&quot;:null,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Un agente, un subagente o un equipo: ¿qué necesitas realmente?&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:136220542,&quot;name&quot;:&quot;Aina Lluna&quot;,&quot;bio&quot;:&quot;Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2026-07-12T05:32:14.698Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!Vx6F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2cdbcd6a-2e16-433f-bfba-ec78b4218795_1536x1024.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://ainalluna.substack.com/p/crear-agentes-claude-code&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:206658860,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:0,&quot;comment_count&quot;:0,&quot;publication_id&quot;:5143893,&quot;publication_name&quot;:&quot;Think &amp; Hack &quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!QSaK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div><hr></div><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;25ab08ac-91c7-4195-9ef1-cee12f571616&quot;,&quot;caption&quot;:&quot;Cómo construir un arnés sencillo para guardar, clasificar y recuperar transcripciones sin depender de la memoria del chat.&quot;,&quot;cta&quot;:null,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;Cómo construir un arnés para que tu agente trabaje de forma fiable&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:136220542,&quot;name&quot;:&quot;Aina Lluna&quot;,&quot;bio&quot;:&quot;Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2026-07-19T06:01:48.390Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!0GNA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6e3d332c-1a17-4770-a959-6a4f69e311b2_1659x948.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://ainalluna.substack.com/p/harness-engineering-agentes-ia&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:206663634,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:5,&quot;comment_count&quot;:3,&quot;publication_id&quot;:5143893,&quot;publication_name&quot;:&quot;Think &amp; Hack &quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!QSaK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><h2>Recursos</h2><ul><li><p><a href=\"https://openai.com/index/harness-engineering/\">OpenAI: Harness engineering — leveraging Codex in an agent-first world</a></p></li><li><p><a href=\"https://openai.com/index/the-next-evolution-of-the-agents-sdk/\">OpenAI: The next evolution of the Agents SDK</a></p></li><li><p><a href=\"https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents\">Anthropic: Effective harnesses for long-running agents</a></p></li><li><p><a href=\"https://www.anthropic.com/engineering/managed-agents\">Anthropic: Scaling Managed Agents — Decoupling the brain from the hands</a></p></li><li><p><a href=\"https://agents.md/\">AGENTS.md: formato abierto para guiar agentes</a></p></li><li><p><a href=\"https://ainalluna.substack.com/p/crear-skills-agentes-ia-verificables\">Think&amp;Hack: Cómo crear una skill para que tu agente tome mejores decisiones</a></p></li><li><p><a href=\"https://ainalluna.substack.com/p/crear-agentes-claude-code\">Think&amp;Hack: Un agente, un subagente o un equipo — ¿qué necesitas realmente?</a></p></li></ul><div class=\"pullquote\"><p style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h1 style=\"text-align: center;\"><strong>Suscríbete a Think&amp;Hack</strong></h1><p style=\"text-align: center;\"><strong><span>Tools are great. </span><mark data-color=\"rgb(230, 145, 56)\" style=\"background-color: rgb(230, 145, 56); color: rgb(0, 0, 0);\"><span>Systems</span></mark><span> are better.</span></strong></p><p>Casos reales, flujos que funcionan y formas concretas de usar la IA sin perder el control del proceso.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "Cómo construir un arnés sencillo para guardar, clasificar y recuperar transcripciones sin depender de la memoria del chat.",
+  "wordcount": 3132,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        212.49999999999997,
+        76.50000000000001,
+        42.50000000000002
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        100,
+        36,
+        20
+      ],
+      "population": 2
+    },
+    "LightVibrant": {
+      "rgb": [
+        252,
+        252,
+        244
+      ],
+      "population": 146
+    },
+    "Muted": {
+      "rgb": [
+        135,
+        134,
+        131
+      ],
+      "population": 444
+    },
+    "DarkMuted": {
+      "rgb": [
+        52,
+        52,
+        50
+      ],
+      "population": 620
+    },
+    "LightMuted": {
+      "rgb": [
+        189,
+        188,
+        186
+      ],
+      "population": 374
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 7,
+  "comment_count": 3,
+  "child_comment_count": 2,
+  "audio_items": [
+    {
+      "post_id": 206663634,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/206663634/tts/b454db1b-dba6-4b99-99b2-b2c50de7c648/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 297737664,
+      "body": "Sigo con mucho interés esta serie. Me encanta como estamos llegando a conclusiones parecidas en cuanto a lo que necesita la arquitectura de los sistemas de IA que estamos montando. De este post me llevo la parte de comprobación que no la tenía incorporada. 😊",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sigo con mucho interés esta serie. Me encanta como estamos llegando a conclusiones parecidas en cuanto a lo que necesita la arquitectura de los sistemas de IA que estamos montando. De este post me llevo la parte de comprobación que no la tenía incorporada. 😊"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 206663634,
+      "user_id": 261319696,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-07-19T18:16:02.493Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Myriam Navas",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/b399d247-d203-4d2b-87b2-f2e4986c148d_990x990.png",
+      "handle": "myriamnavas",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "myriamnavas",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Saludos desde Marte",
+          "id": 3944410,
+          "base_url": "https://saludosdesdemarte.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    },
+    {
+      "id": 297448940,
+      "body": "Como siempre ✍️✍️✍️✍️📙",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Como siempre ✍️✍️✍️✍️📙"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 206663634,
+      "user_id": 129736880,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-07-19T06:56:50.070Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Alejandro Albert",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/ad2ba90a-a67f-48b7-8aa6-f026d49207c9_1269x1269.jpeg",
+      "handle": "jandro84",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "jandro84",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

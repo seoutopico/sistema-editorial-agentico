@@ -1,0 +1,281 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/rag-notebooklm-gemini",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 183914023,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-01-18T08:04:17.628Z",
+  "updated_at": "2026-01-18T08:09:37.098Z",
+  "publication_id": 5143893,
+  "search_engine_description": "Monta tu propio sistema RAG con NotebookLM y Gemini. 300 documentos, cero código, sin equipo técnico. Tutorial paso a paso.",
+  "search_engine_title": "RAG sin código: Cómo usar NotebookLM con Gemini",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "rag-notebooklm-gemini",
+  "social_title": null,
+  "subtitle": "Lo que usan las empresas grandes, gratis y sin código.",
+  "teaser_post_eligible": true,
+  "title": "Think&Hack #17 — de 10 archivos a 300 sin código",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 7
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "implementar-ia-empresa-empezar",
+  "next_post_slug": "rodeado-de-idiotas",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!LjCl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 183914023,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Lo que usan las empresas grandes, gratis y sin código.",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p><strong>Esta semana</strong> te enseño cómo montar tu propio sistema RAG sin tocar una línea de código. Y por qué la nueva integración de NotebookLM con Gemini cambia las reglas.</p><div class=\"pullquote\"><p>Las empresas grandes usan sistemas RAG para que la IA responda sobre su información interna. Tú puedes tener uno en 5 minutos sin escribir código.</p></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!LjCl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!LjCl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!LjCl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!LjCl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!LjCl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!LjCl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png\" width=\"1456\" height=\"794\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:794,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:6610138,&quot;alt&quot;:&quot;Crea tu RAG con Genimi + NotebookLM&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/183914023?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Crea tu RAG con Genimi + NotebookLM\" title=\"Crea tu RAG con Genimi + NotebookLM\" srcset=\"https://substackcdn.com/image/fetch/$s_!LjCl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!LjCl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!LjCl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!LjCl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56df0d7e-2a86-4788-be98-42ee512a36c8_2816x1536.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Crea tu RAG con Genimi + NotebookLM</figcaption></figure></div><p>Diez archivos.</p><p>Ese es el límite de los Gems de Gemini. Diez documentos para crear tu “experto personalizado”.</p><p>Suena razonable. Hasta que haces cuentas:</p><ul><li><p>Documentación de un proyecto: 15-20 archivos</p></li><li><p>Transcripciones de reuniones del trimestre: 12+</p></li><li><p>Informes mensuales, manuales, ese PDF de onboarding que nadie encuentra...</p></li></ul><p><strong>De repente diez es nada.</strong></p><pre><code><strong>Y ahí está el problema: </strong>llevas meses copiando y pegando fragmentos de documentos en ChatGPT esperando que los recuerde. No los recuerda. Nunca los recordará.</code></pre><div><hr></div><p>Hasta ahora tenías dos opciones separadas:</p><ul><li><p><strong>Gems de Gemini:</strong> instrucciones personalizadas + máximo 10 archivos. Perfecto para tareas repetitivas con contexto pequeño.</p></li><li><p><strong>NotebookLM:</strong> 50 fuentes gratis, 300 con el plan de pago (600 con Ultra). Análisis profundo pero encerrado en su propia interfaz.</p></li></ul><p>En diciembre, Google lanzó algo que nadie explicó bien: ahora puedes conectar NotebookLM directamente con Gemini.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!tVHG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!tVHG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!tVHG!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!tVHG!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!tVHG!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!tVHG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png\" width=\"1456\" height=\"794\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:794,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5598401,&quot;alt&quot;:&quot;RAG NotebookLM+Gemini&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/183914023?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"RAG NotebookLM+Gemini\" title=\"RAG NotebookLM+Gemini\" srcset=\"https://substackcdn.com/image/fetch/$s_!tVHG!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!tVHG!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!tVHG!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!tVHG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fb1e926-1be4-44f7-b667-5a6b224e3807_2816x1536.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">RAG NotebookLM+Gemini</figcaption></figure></div><p>Trescientos documentos. En tu chat de Gemini. Sin configurar nada.</p><div><hr></div><p>NotebookLM hace algo que ChatGPT o Claude no hacen por defecto: no inventa. Si la respuesta no está en tus documentos, te lo dice. Punto. Sin alucinar. <a href=\"https://ainalluna.substack.com/p/2-notebooklm-lee-por-ti-ese-es-el\">Aquí expliqué cómo usarlo sin delegar tu pensamiento crítico</a>.</p><p>Funciona así:</p><ol><li><p>Subes archivos (PDFs, webs, Google Docs, YouTube …)</p></li><li><p>NotebookLM los trocea e indexa</p></li><li><p>Cuando preguntas, recupera solo los trozos relevantes</p></li></ol><pre><code><strong>Eso es un RAG. Retrieval-Augmented Generation</strong>. La arquitectura que usan las empresas grandes para que la IA responda sobre su información interna.</code></pre><p>Solo que aquí no necesitas ingenieros. Solo arrastrar archivos.</p><div><hr></div><p>Mi flujo real:</p><p><strong>Análisis puntual:</strong></p><ol><li><p>Crear notebook con todas las fuentes del proyecto</p></li><li><p>Dejar que procese e indexe</p></li><li><p>Desde Gemini → adjuntar el notebook al chat</p></li><li><p>Preguntar combinando notebook + inteligencia de Gemini</p></li></ol><p><strong>Consultas recurrentes:</strong></p><ol><li><p>Crear un Gem con instrucciones de tono y enfoque</p></li><li><p>Exportar conclusiones clave de NotebookLM a Google Doc</p></li><li><p>Añadir ese Doc como conocimiento del Gem</p></li><li><p>Usar el Gem para consultas rápidas con contexto destilado</p><p></p></li></ol><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;7af0b3fd-ea97-463f-b9dd-be8c74e834c1&quot;,&quot;duration&quot;:null}\"></div><div><hr></div><p>Imagina un notebook con todos los manuales de tu equipo, procesos de onboarding, guías de estilo, protocolos de cliente.</p><p>Tu equipo pregunta: <em>“¿Cómo entregamos un proyecto al cliente?”</em></p><p>Respuesta exacta. Con referencia al documento original.</p><p>Pasas de buscar en una wiki a preguntar directamente. Con la fuente incluida.</p><div><hr></div><p>Una limitación importante: Gemini ve las fuentes de tu notebook, no tus conversaciones anteriores con esas fuentes.</p><p>Si pasaste horas refinando un análisis en NotebookLM, Gemini no hereda ese trabajo. Solo ve los documentos originales.</p><p>La solución: exporta tus conclusiones a un Google Doc y añádelo como fuente adicional.</p><div><hr></div><p>La pregunta no es si necesitas un sistema RAG.</p><p>La pregunta es cuánto tiempo vas a seguir copiando y pegando fragmentos de documentos en ChatGPT esperando que los recuerde.</p><p>NotebookLM no es perfecto. La integración solo funciona en web. Y sí, tienes que dedicar tiempo a organizar tus fuentes.</p><p>Pero es la forma más accesible de tener tu propio sistema de conocimiento con IA. Sin código. Sin infraestructura. Sin equipo técnico.</p><p>¿Ya lo has probado?</p><p><strong>Links:</strong></p><ul><li><p><a href=\"https://notebooklm.google.com/\">NotebookLM</a></p></li><li><p><a href=\"https://support.google.com/gemini/answer/14575153\">Gems de Gemini</a></p></li><li><p><a href=\"https://blog.google/technology/ai/notebooklm-gemini-integration/\">Integración NotebookLM + Gemini</a></p></li></ul><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/gestion-memorias-llm?utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;action=share&amp;token=eyJ1c2VyX2lkIjoxMzYyMjA1NDIsInBvc3RfaWQiOjE4MzY0NDA5MSwiaWF0IjoxNzY3ODg1MjYyLCJleHAiOjE3NzA0NzcyNjIsImlzcyI6InB1Yi01MTQzODkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ogb8FPT6dWkMpWFfH-NtxDdmKgVruaXNZy3s8XJ1tSo&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:&quot;button-wrapper&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary button-wrapper\" href=\"https://ainalluna.substack.com/p/gestion-memorias-llm?utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;action=share&amp;token=eyJ1c2VyX2lkIjoxMzYyMjA1NDIsInBvc3RfaWQiOjE4MzY0NDA5MSwiaWF0IjoxNzY3ODg1MjYyLCJleHAiOjE3NzA0NzcyNjIsImlzcyI6InB1Yi01MTQzODkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.ogb8FPT6dWkMpWFfH-NtxDdmKgVruaXNZy3s8XJ1tSo\"><span>Compartir</span></a></p><p><strong>Recomienda Think&amp;Hacks</strong></p><p>Soy Aina. Responsable de IA generativa en Planeta.</p><p>Tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte:</strong> Reenvía esto a quien siga confiando ciegamente en la memoria de ChatGPT.<br>💬 <strong>Responde:</strong> ¿Usas archivos de contexto externos? ¿Qué sistema tienes?<br>📩 <strong>Suscríbete:</strong> Si te han reenviado esto, <a href=\"https://ainalluna.substack.com/\">únete aquí</a></p></li></ol><p>¡Gracias por leer Think &amp; Hack! Suscríbete gratis para recibir nuevos posts y apoyar nuestros trabajo.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p><strong>PS:</strong> Si montas tu primer notebook esta semana, cuéntame qué tal. Me interesa saber qué casos de uso encuentras. Y si aún no conoces NotebookLM, <a href=\"https://ainalluna.substack.com/p/2-notebooklm-lee-por-ti-ese-es-el\">empieza por aquí</a>.</p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 634,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        228,
+        135,
+        123
+      ],
+      "population": 339
+    },
+    "DarkVibrant": {
+      "rgb": [
+        110.08301886792454,
+        32.52452830188679,
+        22.51698113207547
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        246,
+        209,
+        123
+      ],
+      "population": 301
+    },
+    "Muted": {
+      "rgb": [
+        125,
+        153,
+        157
+      ],
+      "population": 162
+    },
+    "DarkMuted": {
+      "rgb": [
+        127.01886792452831,
+        37.52830188679244,
+        25.98113207547169
+      ],
+      "population": 0
+    },
+    "LightMuted": {
+      "rgb": [
+        157,
+        197,
+        171
+      ],
+      "population": 311
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 7,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 183914023,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/183914023/tts/919a1192-46ce-4835-88c3-5846e04f26d1/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": []
+}

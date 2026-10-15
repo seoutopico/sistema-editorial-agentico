@@ -1,0 +1,43 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "descripcion": "Anthropic acaba de presentar su nuevo modelo Opus 5.5, un modelo que ha llevado la animación, motion graphics y el 3D con IA al siguiente nivel ¡Vamos a probarlo!\n\n🔴 Mi canal principal (DotCSV) https://www.youtube.com/c/dotcsv\n🟠 Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5\n\n-- ¡MÁS DOTCSV! ---\n\n📸 Instagram : https://www.instagram.com/dotcsv/\n💸 Patreon : https://www.patreon.com/dotcsv\n👾 Twitch!!! : https://www.twitch.tv/dotcsv\n🐥 Twitter : https://twitter.com/dotCSV\n\n-- CAPÍTULOS ---\n\n00:00 Introducción\n03:12 Cómo evoluciona la IA\n06:36 Animaciones con Opus 5.5\n09:30 Animaciones pixelart\n13:13 Diseño de videojuegos\n16:09 Dioramas pixelart\n19:24 Cómo se hacen las animaciones de DotCSV\n22:21 Opus 5.5 en programas profesionales\n23:47 Creo mi pripio GTA Gran Canaria",
+  "duracion_segundos": 1673,
+  "estadisticas": {
+    "comentarios": 522,
+    "fecha_captura": "2026-10-14T19:00:10Z",
+    "likes": 8984,
+    "visualizaciones": 445304
+  },
+  "fecha": "2026-09-24",
+  "fecha_precision": "exacta",
+  "formula_titulo": "sin clasificar",
+  "id": "j906Pf7n7Sg",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Capacidades audiovisuales de Opus 5.5; requiere ver contenido",
+    "relevante": true,
+    "tema": "Contenido y curación con IA"
+  },
+  "senales": {
+    "dias": 20,
+    "formato_largo": true,
+    "interaccion": 0.0213,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 3.98,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:04:27Z",
+    "idioma": "es",
+    "origen": "manuales"
+  },
+  "titulo": "CLAUDE OPUS 5.5 is A COMPLETE AUDIOVISUAL REVOLUTION (...sorry Astra)",
+  "url": "https://www.youtube.com/watch?v=j906Pf7n7Sg"
+}

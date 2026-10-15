@@ -1,0 +1,34 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "Claude Code",
+    "Playwright MCP",
+    "LinkedIn",
+    "Product Hunt",
+    "Hacker News",
+    "Google Search Console",
+    "Substack",
+    "GitHub"
+  ],
+  "fecha": "2026-06-07",
+  "huella": "696c34f9daa72e24b289a3deaff59543cad3bfa1c64422f026b1eb29f89b5b05",
+  "id": "200734614",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 15,
+    "restacks": 3
+  },
+  "nivel": "avanzado",
+  "subtemas": [
+    "automatización de flujos de navegador",
+    "scripts reutilizables frente a navegación clic a clic",
+    "radar editorial multifuente",
+    "pseudo-API para webs sin API",
+    "coste de construir el sistema"
+  ],
+  "tema": "Skills para agentes",
+  "tesis": "Convertir un flujo repetible de navegador en un script guardado evita que el agente redescubra la web cada vez: la primera ejecución construye el sistema y la segunda ya solo lo usa.",
+  "titulo": "La skill que convierte webs en herramientas para agentes IA.",
+  "url": "https://ainalluna.substack.com/p/la-skill-que-convierte-webs-en-herramientas"
+}

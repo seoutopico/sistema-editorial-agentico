@@ -1,0 +1,318 @@
+{
+  "run_id": "20261014T184051Z",
+  "inicio": "2026-10-14T18:40:51Z",
+  "fin": "2026-10-14T18:41:40Z",
+  "limite": null,
+  "paginas_leidas": 6,
+  "paginacion_completa": true,
+  "contadores": {
+    "nuevos": 50,
+    "actualizados": 0,
+    "sin_cambios": 5,
+    "extractos": 0,
+    "errores": 0
+  },
+  "cambios": [
+    {
+      "tipo": "nuevo",
+      "id": "214834987",
+      "slug": "agente-ia-calendario-editorial-newsletter",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "214284185",
+      "slug": "el-contenido-me-lo-das-tu-como-consumirlo",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "213410953",
+      "slug": "hacki-semana-1",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "212834895",
+      "slug": "crear-archivos-markdown-windows-powershell",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "212107861",
+      "slug": "agente-ia-autonomo-hermes-agent",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "210041929",
+      "slug": "qmd-buscador-local-markdown",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "209140975",
+      "slug": "piloto-ia-disenar-medir-escalar",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "206663634",
+      "slug": "harness-engineering-agentes-ia",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "206658860",
+      "slug": "crear-agentes-claude-code",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "205019542",
+      "slug": "crear-skills-agentes-ia-verificables",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "202934827",
+      "slug": "agent-to-agent-seo",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "202814101",
+      "slug": "seo-con-ia-agentes-sin-alucinar",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "201948710",
+      "slug": "como-converti-mi-inbox-en-un-sistema",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "200734614",
+      "slug": "la-skill-que-convierte-webs-en-herramientas",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "199565877",
+      "slug": "ia-se-pierde-conversacion-control-contexto",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "199179747",
+      "slug": "este-junio-tienes-dos-oportunidades",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "197079930",
+      "slug": "transcribir-youtube-ia",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "195602355",
+      "slug": "codex-chatgpt-plus-incluido",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "193981605",
+      "slug": "mejorar-newsletter-ia",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "193045310",
+      "slug": "analizar-youtube-ia",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "192395850",
+      "slug": "por-que-ia-resultados-mediocres",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "191735710",
+      "slug": "instrucciones-personalizadas-chatgpt-claude-gemini",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "190999730",
+      "slug": "subagentes-vs-agent-teams-claude-code",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "190295495",
+      "slug": "netflix-publico-sus-secretos-de-ctr",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "189540705",
+      "slug": "como-auditar-tu-visibilidad-en-google",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "188057916",
+      "slug": "chatgpt-no-es-tu-terapeuta",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "187513657",
+      "slug": "una-ia-escribe-esta-newsletter",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "187358543",
+      "slug": "por-que-prohibi-la-ia-en-mis-sesiones",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "186168347",
+      "slug": "chatgpt-wordpress-calendario-editorial",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "185568447",
+      "slug": "rodeado-de-idiotas",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "184848409",
+      "slug": "nano-banana-pro-prompts",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "183914023",
+      "slug": "rag-notebooklm-gemini",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "184108754",
+      "slug": "implementar-ia-empresa-empezar",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "183130708",
+      "slug": "14-guia-prompting-gpt-52-lo-que-cambio",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "183644091",
+      "slug": "gestion-memorias-llm",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "181661791",
+      "slug": "proyectos-chatgpt-sistema",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "181661075",
+      "slug": "perfil-negocio-chatgpt",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "182224213",
+      "slug": "hoy-vamos-a-ver-si-la-ia-puede-predecir",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "181659858",
+      "slug": "11-para-quien-escribe-tu-ia-si-no",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "181575255",
+      "slug": "10-el-metodo-para-que-tu-ia-hable",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "180777878",
+      "slug": "borrar-memoria-chatgpt",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "180255237",
+      "slug": "8-quieres-tener-un-mayordomo-digital",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "179631597",
+      "slug": "7-se-infiel-a-chatgpt",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "178477997",
+      "slug": "6-estas-construyendo-una-ciudad-o",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "178260057",
+      "slug": "5-deep-research-acelera-tu-mente",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "178072851",
+      "slug": "1-hack-guarde-mis-prompts-en-el-movil",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "177779518",
+      "slug": "4-y-la-maquina-dibujo-exactamente",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "177152947",
+      "slug": "3-tu-prompt-no-falla-falla-tu-rol",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "176474189",
+      "slug": "2-notebooklm-lee-por-ti-ese-es-el",
+      "estado": "completo"
+    },
+    {
+      "tipo": "nuevo",
+      "id": "164561611",
+      "slug": "1-la-paradoja-de-la-ia-estas-invirtiendo",
+      "estado": "completo"
+    }
+  ],
+  "errores": []
+}

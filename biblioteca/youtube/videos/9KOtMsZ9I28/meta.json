@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 1625,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 50000
+  },
+  "fecha": "2026-09-24",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La estadística",
+  "id": "9KOtMsZ9I28",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Cómo construir skills de Codex, encaja con artículos propios",
+    "relevante": true,
+    "tema": "Skills para agentes"
+  },
+  "senales": {
+    "dias": 20,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.4,
+    "senal_incompleta": false
+  },
+  "titulo": "How to Build Codex Skills Better than 99% of People",
+  "url": "https://www.youtube.com/watch?v=9KOtMsZ9I28"
+}

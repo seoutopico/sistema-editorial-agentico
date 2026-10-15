@@ -1,0 +1,29 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "duracion_segundos": 1190,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:25Z",
+    "likes": null,
+    "visualizaciones": 74000
+  },
+  "fecha": "2026-07-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La comparativa",
+  "id": "pafzciz7COQ",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 91,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.66,
+    "senal_incompleta": false
+  },
+  "titulo": "U.S. BLOCKS FABLE 5! (Analysis and Opinion) 💥 Anthropic vs. Trump",
+  "url": "https://www.youtube.com/watch?v=pafzciz7COQ"
+}

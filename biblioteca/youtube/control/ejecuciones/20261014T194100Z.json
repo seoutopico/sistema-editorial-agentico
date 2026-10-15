@@ -1,0 +1,282 @@
+{
+  "comando": "subtitulos",
+  "errores": [],
+  "fecha_utc": "2026-10-14T19:41:00Z",
+  "llamadas_ytdlp": [
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\T2v2pf_uypE",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=T2v2pf_uypE"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\T2v2pf_uypE",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=T2v2pf_uypE"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\o3IEkKXXXvo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=o3IEkKXXXvo"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\o3IEkKXXXvo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=o3IEkKXXXvo"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\IXDYEF22CG8",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=IXDYEF22CG8"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\IXDYEF22CG8",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=IXDYEF22CG8"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\7jHXoPGnA4c",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\7jHXoPGnA4c",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\tYugqJ9YytQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\tYugqJ9YytQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=tYugqJ9YytQ"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\eF3yeJuifoQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\eF3yeJuifoQ",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\BvvfZKKz4Yo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=BvvfZKKz4Yo"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\BvvfZKKz4Yo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=BvvfZKKz4Yo"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\QCkHIyEPIYo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\QCkHIyEPIYo",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\ymgH8jS6Wb8",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=ymgH8jS6Wb8"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\ymgH8jS6Wb8",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=ymgH8jS6Wb8"
+    ],
+    [
+      "--skip-download",
+      "--write-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\HIRDzMtuWFk",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+    ],
+    [
+      "--skip-download",
+      "--write-auto-subs",
+      "--sub-langs",
+      "es,en",
+      "--paths",
+      "biblioteca\\youtube\\videos\\HIRDzMtuWFk",
+      "-o",
+      "subtitulos.%(ext)s",
+      "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+    ]
+  ],
+  "omitidos_con_transcripcion": [],
+  "run_id": "20261014T194100Z",
+  "subtitulos_no_disponibles": [],
+  "subtitulos_obtenidos": [
+    {
+      "id": "T2v2pf_uypE",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "o3IEkKXXXvo",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "IXDYEF22CG8",
+      "idioma": "en",
+      "origen": "automaticos"
+    },
+    {
+      "id": "7jHXoPGnA4c",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "tYugqJ9YytQ",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "eF3yeJuifoQ",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "BvvfZKKz4Yo",
+      "idioma": "es",
+      "origen": "automaticos"
+    },
+    {
+      "id": "QCkHIyEPIYo",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "ymgH8jS6Wb8",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    },
+    {
+      "id": "HIRDzMtuWFk",
+      "idioma": "es-US",
+      "origen": "automaticos"
+    }
+  ]
+}

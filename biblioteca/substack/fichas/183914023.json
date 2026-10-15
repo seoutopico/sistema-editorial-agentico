@@ -1,0 +1,31 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "NotebookLM",
+    "Gemini",
+    "Gems de Gemini",
+    "RAG",
+    "ChatGPT",
+    "Google"
+  ],
+  "fecha": "2026-01-18",
+  "huella": "85a5a0ef3f1bb5281ebadf12b2db5e800bcab37938fcd1a2656142693ff4c4bb",
+  "id": "183914023",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 7,
+    "restacks": 2
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "RAG sin código",
+    "integración NotebookLM con Gemini",
+    "límites de fuentes",
+    "respuestas con cita a la fuente"
+  ],
+  "tema": "Herramientas de IA",
+  "tesis": "La integración de NotebookLM con Gemini te permite montar tu propio sistema RAG de hasta 300 documentos sin escribir código, en lugar de seguir copiando fragmentos en ChatGPT.",
+  "titulo": "Think&Hack #17 — de 10 archivos a 300 sin código",
+  "url": "https://ainalluna.substack.com/p/rag-notebooklm-gemini"
+}

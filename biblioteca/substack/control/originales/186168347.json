@@ -1,0 +1,433 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/chatgpt-wordpress-calendario-editorial",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 186168347,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-02-02T06:31:21.291Z",
+  "updated_at": "2026-02-02T06:35:21.865Z",
+  "publication_id": 5143893,
+  "search_engine_description": "Conecta tu GPT personalizado con la API de WordPress. Extrae ideas de posts antiguos y genera calendarios editoriales sin plugins.",
+  "search_engine_title": "Cómo conectar ChatGPT con WordPress para crear calendarios editoriales",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "chatgpt-wordpress-calendario-editorial",
+  "social_title": null,
+  "subtitle": "Me propuso un año de contenido en 3 segundos",
+  "teaser_post_eligible": true,
+  "title": "He conectado ChatGPT con mi WordPress",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 9
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "rodeado-de-idiotas",
+  "next_post_slug": "por-que-prohibi-la-ia-en-mis-sesiones",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!nM_q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png",
+  "cover_image_is_square": true,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 186168347,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Me propuso un año de contenido en 3 segundos",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p>Esta semana te cuento cómo hice que ChatGPT leyera mi WordPress y me propusiera un calendario editorial basado en lo que ya tengo publicado.</p><div class=\"pullquote\"><p>847 posts. Cero idea de qué hacer con ellos.</p></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!nM_q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!nM_q!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 424w, https://substackcdn.com/image/fetch/$s_!nM_q!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 848w, https://substackcdn.com/image/fetch/$s_!nM_q!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!nM_q!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!nM_q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png\" width=\"1024\" height=\"1024\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1024,&quot;width&quot;:1024,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1315843,&quot;alt&quot;:&quot;He conectado ChatGPT con mi WordPress&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/186168347?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"He conectado ChatGPT con mi WordPress\" title=\"He conectado ChatGPT con mi WordPress\" srcset=\"https://substackcdn.com/image/fetch/$s_!nM_q!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 424w, https://substackcdn.com/image/fetch/$s_!nM_q!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 848w, https://substackcdn.com/image/fetch/$s_!nM_q!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!nM_q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f48e43d-abb5-4c15-bc1b-3e023723220e_1024x1024.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">He conectado ChatGPT con mi WordPress</figcaption></figure></div><p>El otro día estaba mirando un proyecto abandonado. Info-playas.com. Una web de playas españolas que dejé de actualizar hace tiempo.</p><p>847 posts. Guías de playas, servicios, accesos. Contenido que en su momento funcionaba y ahora acumula polvo digital.</p><p><strong>Me hice la pregunta obvia: ¿Qué hago con esto?</strong></p><p>Y entonces me acordé de algo que escribí la semana pasada. Que el contenido no se inventa, se extrae. Que cada proyecto terminado tiene al menos cinco ángulos de contenido.</p><p>Pero 847 posts. No voy a revisarlos uno a uno.</p><div><hr></div><h3>Y ahí está el problema</h3><p>La mayoría piensa que necesita más ideas. Lo que necesita es un sistema que lea las que ya tiene.</p><p>Tenemos años de contenido acumulado y ninguna forma práctica de analizarlo. Los CMS te dicen cuántas visitas tiene cada post. No te dicen qué patrones hay entre ellos, qué temas nunca desarrollaste del todo, qué contenido podrías actualizar.</p><p><strong>Eso requiere lectura. Análisis. Tiempo que no tenemos.</strong></p><p>O una IA que pueda leerlo por ti.</p><h3>Lo que hice</h3><p>Los GPTs personalizados de ChatGPT tienen algo que mucha gente no conoce: Actions. La capacidad de conectarse con APIs externas.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!s__4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!s__4!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 424w, https://substackcdn.com/image/fetch/$s_!s__4!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 848w, https://substackcdn.com/image/fetch/$s_!s__4!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 1272w, https://substackcdn.com/image/fetch/$s_!s__4!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!s__4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png\" width=\"959\" height=\"808\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:808,&quot;width&quot;:959,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:38876,&quot;alt&quot;:&quot;Acciones ChatGPT&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/186168347?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Acciones ChatGPT\" title=\"Acciones ChatGPT\" srcset=\"https://substackcdn.com/image/fetch/$s_!s__4!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 424w, https://substackcdn.com/image/fetch/$s_!s__4!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 848w, https://substackcdn.com/image/fetch/$s_!s__4!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 1272w, https://substackcdn.com/image/fetch/$s_!s__4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3246e79e-4f7b-4510-afd7-36bf74ff00e4_959x808.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Acciones ChatGPT</figcaption></figure></div><p>Y WordPress tiene una API REST activada por defecto desde hace años. Tu contenido ya está disponible en formato JSON. Solo hay que conectar los puntos.</p><p>Esto es lo que configuré:</p><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Y8-9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 424w, https://substackcdn.com/image/fetch/$s_!Y8-9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 848w, https://substackcdn.com/image/fetch/$s_!Y8-9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 1272w, https://substackcdn.com/image/fetch/$s_!Y8-9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Y8-9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png\" width=\"537\" height=\"204\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:204,&quot;width&quot;:537,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:8622,&quot;alt&quot;:&quot;actions_custom_gpts_chatgpt&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/186168347?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"actions_custom_gpts_chatgpt\" title=\"actions_custom_gpts_chatgpt\" srcset=\"https://substackcdn.com/image/fetch/$s_!Y8-9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 424w, https://substackcdn.com/image/fetch/$s_!Y8-9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 848w, https://substackcdn.com/image/fetch/$s_!Y8-9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 1272w, https://substackcdn.com/image/fetch/$s_!Y8-9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07444b8d-3c48-47c1-80e0-a499f023bc6e_537x204.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div><figcaption class=\"image-caption\">actions custom gpts chatgpt</figcaption></figure></div><h3>La prueba real</h3><p>Le pedí a mi GPT: “Busca contenido sobre niños en info-playas.com”.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!MEiL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!MEiL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 424w, https://substackcdn.com/image/fetch/$s_!MEiL!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 848w, https://substackcdn.com/image/fetch/$s_!MEiL!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 1272w, https://substackcdn.com/image/fetch/$s_!MEiL!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!MEiL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png\" width=\"612\" height=\"803\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a655599b-02d7-4786-8bdc-79d860265e15_612x803.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:803,&quot;width&quot;:612,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:46002,&quot;alt&quot;:&quot;Resultado wordpress custom gpts chatgpt&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/186168347?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Resultado wordpress custom gpts chatgpt\" title=\"Resultado wordpress custom gpts chatgpt\" srcset=\"https://substackcdn.com/image/fetch/$s_!MEiL!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 424w, https://substackcdn.com/image/fetch/$s_!MEiL!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 848w, https://substackcdn.com/image/fetch/$s_!MEiL!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 1272w, https://substackcdn.com/image/fetch/$s_!MEiL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa655599b-02d7-4786-8bdc-79d860265e15_612x803.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Resultado wordpress custom gpts chatgpt</figcaption></figure></div><p></p><p>Ocho posts que había olvidado que existían. Pero lo mejor no es la búsqueda. Es lo que viene después.</p><div class=\"pullquote\"><p>El GPT me pregunta: “¿Qué quieres hacer con este contenido?” Y me ofrece: un resumen, un nuevo artículo SEO basado en ellos, reutilizarlos para redes sociales, o fusionar varios en uno solo.</p></div><p>De una búsqueda, un calendario editorial completo. Del archivo que ya tenía.</p><h3>Lo que necesitas</h3><p>No hace falta saber programar. Solo entender dos cosas:</p><p><strong>1. Tu WordPress ya tiene API</strong></p><p>Prueba esto en tu navegador:</p><p>https://tudominio.com/wp-json/wp/v2/posts</p><p>Si ves un bloque de JSON, ya está funcionando.</p><p><strong>2. El GPT necesita un schema</strong></p><p>Es un archivo que le dice a ChatGPT qué puede pedirle a tu web. Los endpoints, los parámetros, el formato.</p><p>El schema completo está en el bonus. Copia, pega, cambia tu dominio.</p><pre><code> {\n    \"openapi\": \"3.1.0\",\n    \"info\": {\n      \"title\": <strong>\"[PON TU WEB]</strong> API\",\n      \"description\": \"API para acceder a posts de <strong>[PON TU WEB]</strong>\",\n      \"version\": \"1.0.0\"\n    },\n    \"servers\": [\n      {\n      <strong>  \"url\": \"https://tudominio.com/wp-json/wp/v2\"</strong>\n      }\n    ],\n    \"paths\": {\n      \"/posts\": {\n        \"get\": {\n          \"summary\": \"Listar posts\",\n          \"operationId\": \"listPosts\",\n          \"parameters\": [\n            {\n              \"name\": \"per_page\",\n              \"in\": \"query\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"integer\",\n                \"default\": 10\n              }\n            },\n            {\n              \"name\": \"page\",\n              \"in\": \"query\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"integer\",\n                \"default\": 1\n              }\n            },\n            {\n              \"name\": \"_fields\",\n              \"in\": \"query\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"default\": \"id,title,slug,excerpt,link\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"Lista de posts\"\n            }\n          }\n        }\n      },\n      \"/posts/{id}\": {\n        \"get\": {\n          \"summary\": \"Obtener post por ID\",\n          \"operationId\": \"getPostById\",\n          \"parameters\": [\n            {\n              \"name\": \"id\",\n              \"in\": \"path\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"integer\"\n              }\n            },\n            {\n              \"name\": \"_fields\",\n              \"in\": \"query\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"default\": \"id,title,content,link\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"Post completo\"\n            }\n          }\n        }\n      }\n    }\n  }</code></pre><h3>Por qué esto importa</h3><p>La semana pasada hablé de extraer contenido de lo que ya haces. Esta semana lo automatizamos.</p><p>El patrón es el mismo. No inventar. Extraer. Pero ahora con una herramienta que puede leer años de archivo en segundos.</p><p>Volví a mirar esos 847 posts. Ya no son contenido abandonado. Son materia prima para el próximo año de calendario editorial.</p><p>La pregunta no es de qué escribo esta semana. La pregunta es qué tengo que aún no he explotado.</p><p>¿Tienes un WordPress lleno de contenido acumulado? </p><h2>📩 ¿Quieres la guía completa?</h2><p><em><strong>Si quieres el paso a paso con capturas para configurar tu GPT (sin tocar código), déjame un comentario con tu caso de uso y te la envío.</strong></em></p><div class=\"pullquote\"><p>Cuéntamelo. Siempre leo todo.</p></div><p><strong>Fuentes:</strong></p><ul><li><p><a href=\"https://platform.openai.com/docs/actions/introduction\">OpenAI GPT Actions Documentation</a></p></li><li><p><a href=\"https://developer.wordpress.org/rest-api/reference/posts/\">WordPress REST API Reference</a></p></li></ul><div><hr></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think&amp;Hack</strong></p><p>Soy Aina. Responsable de IA generativa en Planeta.</p><p><strong>Comparte:</strong> Reenvía esto a quien tenga años de contenido en WordPress acumulando polvo.<br><strong>Responde:</strong> ¿Tienes un archivo de posts que no sabes cómo reutilizar? Cuéntame.<br><strong>Suscríbete:</strong> Si te han reenviado esto, <a href=\"https://ainalluna.substack.com/\">únete aquí</a></p><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 712,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [
+    {
+      "id": "18824e5d-5f01-4300-8170-67d24b861645",
+      "publication_id": 5143893,
+      "name": "hacks",
+      "slug": "hacks",
+      "hidden": false
+    }
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        220,
+        100,
+        36
+      ],
+      "population": 1
+    },
+    "DarkVibrant": {
+      "rgb": [
+        42,
+        92,
+        132
+      ],
+      "population": 4
+    },
+    "LightVibrant": {
+      "rgb": [
+        156,
+        196,
+        225
+      ],
+      "population": 9
+    },
+    "Muted": {
+      "rgb": [
+        88,
+        138,
+        173
+      ],
+      "population": 21
+    },
+    "DarkMuted": {
+      "rgb": [
+        19,
+        27,
+        33
+      ],
+      "population": 36
+    },
+    "LightMuted": {
+      "rgb": [
+        205,
+        198,
+        176
+      ],
+      "population": 39
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 9,
+  "comment_count": 7,
+  "child_comment_count": 4,
+  "audio_items": [
+    {
+      "post_id": 186168347,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/186168347/tts/2813f228-18e0-4768-a5b9-0bf8753afb4d/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 208778881,
+      "body": "Me gustaría poder hacerlo con la guía completa que mencionas. Muchas gracias por compartir.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Me gustaría poder hacerlo con la guía completa que mencionas. Muchas gracias por compartir."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 186168347,
+      "user_id": 443001159,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-02-02T13:00:31.365Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Ángel García Fernández",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4937f674-3063-4385-a072-abd9d882de73_879x881.png",
+      "handle": "lacasagiratoria",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "lacasagiratoria",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "unsubscribed",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "La Casa Giratoria",
+          "id": 7823953,
+          "base_url": "https://lacasagiratoria.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "2 respuestas de Aina Lluna y otros"
+    },
+    {
+      "id": 208744757,
+      "body": "boníssim! vull la guia please!! :_DD",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "boníssim! vull la guia please!! :_DD"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 186168347,
+      "user_id": 57753827,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-02-02T10:55:08.960Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Gerard Cuenca",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/8a1cae11-39a5-4f99-9295-b13d899d3f9b_96x96.jpeg",
+      "handle": "gerardcuenca",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "gerardcuenca",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    }
+  ]
+}

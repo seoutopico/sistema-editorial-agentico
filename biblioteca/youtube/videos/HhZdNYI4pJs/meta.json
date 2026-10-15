@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 637,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 192000
+  },
+  "fecha": "2026-10-12",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El experimento",
+  "id": "HhZdNYI4pJs",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Selección probada de repos útiles para Claude",
+    "relevante": true,
+    "tema": "Skills para agentes"
+  },
+  "senales": {
+    "dias": 2,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.52,
+    "senal_incompleta": true
+  },
+  "titulo": "I Tried 100+ Github Repos for Claude. These 6 Are the Best",
+  "url": "https://www.youtube.com/watch?v=HhZdNYI4pJs"
+}

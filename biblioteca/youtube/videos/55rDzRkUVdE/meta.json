@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 1096,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 95000
+  },
+  "fecha": "2026-09-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El caso con cifras",
+  "id": "55rDzRkUVdE",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Prueba real de creación de vídeo con Fable 5.1; requiere ver contenido",
+    "relevante": true,
+    "tema": "Contenido y curación con IA"
+  },
+  "senales": {
+    "dias": 29,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.47,
+    "senal_incompleta": false
+  },
+  "titulo": "Everyone's Testing Claude Fable 5.1 On Code. It Made Me A 37-Second Film.",
+  "url": "https://www.youtube.com/watch?v=55rDzRkUVdE"
+}

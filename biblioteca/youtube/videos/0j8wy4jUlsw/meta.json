@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 2181,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 118000
+  },
+  "fecha": "2026-10-05",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La pregunta directa",
+  "id": "0j8wy4jUlsw",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Tesis sobre el fin de las apps y qué viene; requiere ver contenido",
+    "relevante": true,
+    "tema": "Estrategia de IA"
+  },
+  "senales": {
+    "dias": 9,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.83,
+    "senal_incompleta": false
+  },
+  "titulo": "The end of the app era: What comes next?",
+  "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw"
+}

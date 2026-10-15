@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 1236,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 27000
+  },
+  "fecha": "2026-10-14",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "pTh4IJ-Mi3Y",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Separar hitos de laboratorio del impacto real en el empleo",
+    "relevante": true,
+    "tema": "Pensamiento crítico con IA"
+  },
+  "senales": {
+    "dias": 0,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.42,
+    "senal_incompleta": true
+  },
+  "titulo": "OpenAI's 700 Math Papers Look Like Superintelligence. That Doesn't Mean Your Job Is Next.",
+  "url": "https://www.youtube.com/watch?v=pTh4IJ-Mi3Y"
+}

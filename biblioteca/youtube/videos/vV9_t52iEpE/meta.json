@@ -1,0 +1,29 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 919,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 167000
+  },
+  "fecha": "2026-07-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El superlativo",
+  "id": "vV9_t52iEpE",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 91,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.69,
+    "senal_incompleta": false
+  },
+  "titulo": "China is giving you the best AI (Silicon Valley is muzzled)",
+  "url": "https://www.youtube.com/watch?v=vV9_t52iEpE"
+}

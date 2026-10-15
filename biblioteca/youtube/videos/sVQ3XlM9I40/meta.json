@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 957,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 50000
+  },
+  "fecha": "2026-10-08",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "sVQ3XlM9I40",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Leaderboards frente a benchmarks que importan",
+    "relevante": true,
+    "tema": "Pensamiento crítico con IA"
+  },
+  "senales": {
+    "dias": 6,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.78,
+    "senal_incompleta": true
+  },
+  "titulo": "Google's Gemini Argon Is #1 On A Leaderboard. It Hasn't Passed The Benchmark That Matters.",
+  "url": "https://www.youtube.com/watch?v=sVQ3XlM9I40"
+}

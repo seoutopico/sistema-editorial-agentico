@@ -1,0 +1,106 @@
+{
+  "grupo_id": "herramientas-de-ia-google",
+  "fecha": "2026-10-15",
+  "evaluacion": {
+    "grupo_id": "herramientas-de-ia-google",
+    "articulos_comparados": [
+      "184848409",
+      "177779518",
+      "183914023",
+      "179631597",
+      "191735710"
+    ],
+    "cobertura": "ampliación",
+    "que_hemos_publicado": "Hemos cubierto el ecosistema de Google con prueba propia: generación de imágenes con Nano Banana y Nano Banana Pro con patrones de prompt (184848409, 177779518) y RAG sin código con NotebookLM + Gemini (183914023). También la idea de elegir el modelo según la tarea (179631597) y las instrucciones personalizadas en ChatGPT, Claude y Gemini (191735710).",
+    "diferencia": "Nunca hemos tratado la conversación por voz en tiempo real con la pantalla como contexto: Gemini 3.8 Live razona y ejecuta tareas en segundo plano mientras habla y ve tu pantalla (fuente:4_fM3Nv8BB0@02:04), gratis en AI Studio y aún fuera de la app de Gemini (fuente:4_fM3Nv8BB0@02:35), guiando dentro de un programa y corrigiendo su propia indicación errónea al ver la pantalla (fuente:4_fM3Nv8BB0@13:02), con apps conversacionales generadas con un prompt en Build (fuente:4_fM3Nv8BB0@08:20). La segunda ficha del grupo (Qwen 3.8 en local, fuente:ZqkljdI1HT0@02:37) no añade ángulo nuevo ejecutable: todas sus pruebas son en una RTX 5090 y es la historia ya descartada por hardware.",
+    "aportacion": "Prueba propia en español, contada con texto y capturas: compartir pantalla con una herramienta real del flujo de la autora (n8n, Obsidian o WordPress) y que Gemini Live la guíe por voz en una tarea concreta, anotando los errores del tutor (en el vídeo da primero una indicación errónea en Premiere, fuente:4_fM3Nv8BB0@13:02), los límites del acceso gratuito en AI Studio y cómo funciona la voz en español, que el vídeo deja sin verificar. Ejecutable gratis en el navegador con un PC de consumo, sin GPU ni producción de vídeo, en una semana.",
+    "parecida_a": "2026-10-14-herramientas-de-ia-google",
+    "razon_nueva": null,
+    "encaje": true,
+    "motivo": "Es IA aplicada al trabajo (un tutor que te guía dentro de tus programas) y podemos tratarlo como siempre: probarlo nosotras en español con nuestras herramientas y contar el proceso real con errores y límites. Es la misma historia que la propuesta existente 2026-10-14-herramientas-de-ia-google, que ya esquiva el descarte por GPU al probarse gratis en navegador; la ficha nueva de Qwen local recae íntegramente en el descarte 2026-10-14-herramientas-de-ia y nada ha cambiado desde esa decisión, así que no reabre aquel ángulo ni justifica una oportunidad aparte.",
+    "huella_contexto": "568d3776fd6b12c2cb118b2446515f8422bfc0d513ae4779043875c9cf1496be"
+  },
+  "condiciones": {
+    "interes_real": {
+      "cumple": true,
+      "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+    },
+    "encaje": {
+      "cumple": true,
+      "detalle": "Es IA aplicada al trabajo (un tutor que te guía dentro de tus programas) y podemos tratarlo como siempre: probarlo nosotras en español con nuestras herramientas y contar el proceso real con errores y límites. Es la misma historia que la propuesta existente 2026-10-14-herramientas-de-ia-google, que ya esquiva el descarte por GPU al probarse gratis en navegador; la ficha nueva de Qwen local recae íntegramente en el descarte 2026-10-14-herramientas-de-ia y nada ha cambiado desde esa decisión, así que no reabre aquel ángulo ni justifica una oportunidad aparte."
+    },
+    "no_cubierto": {
+      "cumple": true,
+      "detalle": "cobertura=ampliación"
+    },
+    "aportacion": {
+      "cumple": true,
+      "detalle": "Prueba propia en español, contada con texto y capturas: compartir pantalla con una herramienta real del flujo de la autora (n8n, Obsidian o WordPress) y que Gemini Live la guíe por voz en una tarea concreta, anotando los errores del tutor (en el vídeo da primero una indicación errónea en Premiere, fuente:4_fM3Nv8BB0@13:02), los límites del acceso gratuito en AI Studio y cómo funciona la voz en español, que el vídeo deja sin verificar. Ejecutable gratis en el navegador con un PC de consumo, sin GPU ni producción de vídeo, en una semana."
+    }
+  },
+  "es_oportunidad": false,
+  "accion": "actualizar:2026-10-14-herramientas-de-ia-google",
+  "motivo_descarte": "ya existe la oportunidad '2026-10-14-herramientas-de-ia-google' en estado propuesta: añadir las evidencias nuevas con guardar-oportunidad --actualizar",
+  "contexto": {
+    "fichas": [
+      [
+        "4_fM3Nv8BB0",
+        "eaa0bca957752c954419c3b80552f3b28d0f464f6672dbee983f6b76d5d5014e"
+      ],
+      [
+        "ZqkljdI1HT0",
+        "c1b82385c3cfbbf52db7304ee46094721da71a7430d70705edf9c5570c5212b3"
+      ]
+    ],
+    "articulos": [
+      [
+        "177779518",
+        "53b5302ed755a725e31465e5b08e8485e3af7ca1f29928fc88123835daf48ba0"
+      ],
+      [
+        "179631597",
+        "6cb005eb393513c2d7f6da9c4e9ccbadac13504c935188515e23d50a6f7a30d9"
+      ],
+      [
+        "183914023",
+        "85a5a0ef3f1bb5281ebadf12b2db5e800bcab37938fcd1a2656142693ff4c4bb"
+      ],
+      [
+        "184848409",
+        "1ff3dd705381ed39dce0db8c2c664df58a12ad249c046458160c33be339cbdbf"
+      ],
+      [
+        "191735710",
+        "93aa51d11b6cdef5a74b5fcff4eb87059ecbb4cd4664940ccc23079ce2157175"
+      ]
+    ],
+    "oportunidades": [
+      [
+        "2026-10-14-agentes-de-ia",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-14-herramientas-de-ia",
+        "descartada",
+        "Exige GPU/hardware que la autora no tiene; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)"
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-jev",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-nate-herk",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-openai",
+        "propuesta",
+        ""
+      ]
+    ]
+  },
+  "huella_contexto": "568d3776fd6b12c2cb118b2446515f8422bfc0d513ae4779043875c9cf1496be"
+}

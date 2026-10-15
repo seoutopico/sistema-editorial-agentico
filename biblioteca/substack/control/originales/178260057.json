@@ -1,0 +1,281 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/5-deep-research-acelera-tu-mente",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 178260057,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-11-09T08:07:11.464Z",
+  "updated_at": "2026-01-15T08:10:44.002Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "5-deep-research-acelera-tu-mente",
+  "social_title": null,
+  "subtitle": "Delegar la investigación nos da conclusiones prestadas, no criterio propio.",
+  "teaser_post_eligible": true,
+  "title": "#5 Deep Research: ¿Acelera tu mente o la reemplaza?",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 3
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "1-hack-guarde-mis-prompts-en-el-movil",
+  "next_post_slug": "6-estas-construyendo-una-ciudad-o",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!szLT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 178260057,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Delegar la investigación nos da conclusiones prestadas, no criterio propio.",
+  "body_html": "<p><strong>¿Cómo estás? </strong></p><p>Soy Aina y esto es Think&amp;Hack. Aquí está la <strong>#5 entrega de esta newsletter</strong>. Esta semana vamos a hablar de algo que me tiene preocupada: las herramientas de <strong>“Deep Research”</strong> que prometen investigar por ti en minutos lo que tardarías horas en hacer. Perplexity Deep Research, ChatGPT Deep Research, Gemini Deep Research. modo investigación de Claude... <em>todos compiten por ser tu investigador personal.</em> </p><p><em>Suena fantástico, ¿verdad? </em></p><p>Si te interesa este tipo de análisis, suscríbete para no perderte las próximas entregas. Si ya eres habitual, gracias por estar de nuevo.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div class=\"pullquote\"><p>Cuando delegas la búsqueda del conocimiento, te conviertes en algo peor que ignorante: te conviertes en alguien que <em>cree</em> saber sin haber hecho el trabajo de pensar.</p></div><h3>Delegación del pensamiento</h3><p>Hace un par de meses, un compañero me envió un informe de 12 páginas sobre IA en educación. <em>“Mira lo que me ha sacado ChatGPT Deep Research en tres minutos”</em>, me dijo. El documento era impecable: estructura clara, datos actuales, citas verificables. Le pregunté:</p><pre><code>¿Y qué opinas tú?\n<strong>Silencio. </strong>\nPues... lo que dice aquí, ¿no?</code></pre><p>Ese momento me inquietó. No porque el informe fuera malo. Sino porque mi compañero había delegado completamente su capacidad de pensar. Tenía un informe brillante y cero criterio propio.</p><div><hr></div><h3>Qué es Deep Research</h3><p>Las herramientas de Deep Research (Perplexity, ChatGPT, Gemini, Claude) prometen hacer en minutos lo que tú tardarías horas: buscar información, contrastar fuentes, sintetizar hallazgos, estructurar conclusiones. Les das un tema y en 5-10 minutos recibes un informe completo con citas, datos y análisis.</p><p>Suena perfecto hasta que te das cuenta de lo que estás delegando.</p><p>No es sólo la búsqueda. Es la construcción del criterio. Ese proceso lento, incómodo y fundamental donde aprendes a distinguir una fuente fiable de una mediocre, un argumento sólido de uno que solo suena bien, una correlación de una causalidad.</p><div class=\"pullquote\"><p>Cuando un LLM hace ese trabajo por ti, te quedas con conclusiones prestadas. Y lo peor: te quedas convencido de que comprendes algo que en realidad nunca procesaste.</p></div><h3>El filósofo</h3><p><em>Esta situación me recordó a Sócrates</em>. Y sé que puede sonar pretencioso comparar un informe de IA con filosofía griega, pero la conexión es inquietante.</p><p>Sócrates no daba respuestas. Hacía preguntas. Cuando alguien afirmaba “sé qué es la justicia”, él contestaba: “Perfecto. Explícamelo entonces”. Tras cinco minutos de diálogo, esa persona descubría que no tenía ni idea de qué era la justicia. Peor: descubría que lo que consideraba conocimiento sólido <strong>era una creencia sin fundamento.</strong></p><pre><code><code>Los griegos tenían una palabra para ese momento: </code><strong>aporia</strong><code>. </code></code></pre><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!szLT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!szLT!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 424w, https://substackcdn.com/image/fetch/$s_!szLT!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 848w, https://substackcdn.com/image/fetch/$s_!szLT!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 1272w, https://substackcdn.com/image/fetch/$s_!szLT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!szLT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png\" width=\"1280\" height=\"800\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:800,&quot;width&quot;:1280,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:620557,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/178260057?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!szLT!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 424w, https://substackcdn.com/image/fetch/$s_!szLT!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 848w, https://substackcdn.com/image/fetch/$s_!szLT!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 1272w, https://substackcdn.com/image/fetch/$s_!szLT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F858fef4b-ff6e-4d4c-b26c-328fcc9dc8ff_1280x800.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>No es perplejidad cualquiera. Es el colapso específico donde tu certeza se desmorona. <strong>Donde descubres que lo que creías verdad era falso saber:</strong> opiniones heredadas, lugares comunes, ideas que nunca cuestionaste porque sonaban convincentes.</p><p>Esto formaba parte del método socrático, o mayéutica.<em> Un proceso donde mediante preguntas estratégicas, alguien te ayudaba a descubrir por ti mismo lo que realmente sabías <strong>(o no sabías)</strong>. </em>Sócrates no te regalaba respuestas. Te hacía trabajar para construir tu propio razonamiento. Pero primero tenía que destruir el falso saber que ocupaba el lugar del conocimiento real.</p><p>Mi compañero con su informe de Deep Research nunca experimentó aporia. Nunca descubrió su falso saber sobre IA en educación porque la máquina le dio respuestas pulidas antes de que pudiera cuestionarse qué sabía realmente.</p><div><hr></div><h3>Cómo usar Deep Research </h3><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!aCjR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!aCjR!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 424w, https://substackcdn.com/image/fetch/$s_!aCjR!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 848w, https://substackcdn.com/image/fetch/$s_!aCjR!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 1272w, https://substackcdn.com/image/fetch/$s_!aCjR!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!aCjR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png\" width=\"1200\" height=\"1200\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1200,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:91156,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/178260057?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!aCjR!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 424w, https://substackcdn.com/image/fetch/$s_!aCjR!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 848w, https://substackcdn.com/image/fetch/$s_!aCjR!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 1272w, https://substackcdn.com/image/fetch/$s_!aCjR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f4f8529-d726-4ff8-bd46-19fc209e2144_1200x1200.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Porque aquí está la paradoja: estas herramientas son extraordinariamente útiles. De hecho, son de lo mejor que tenemos ahora mismo para procesar grandes volúmenes de información rápidamente. Pero sólo si entiendes qué son y qué no son.</p><p><strong>Lo que Deep Research SÍ hace:</strong></p><ul><li><p>Recuperación masiva de fuentes en minutos</p></li><li><p>Síntesis de información dispersa</p></li><li><p>Identificación de patrones en grandes conjuntos de datos</p></li><li><p>Estructuración inicial de investigaciones complejas</p></li></ul><p><strong>Lo que Deep Research NO hace:</strong></p><ul><li><p>Pensar críticamente por ti</p></li><li><p>Cuestionar las fuentes que encuentra</p></li><li><p>Detectar sesgos metodológicos</p></li><li><p>Tener criterio sobre qué información importa y por qué</p></li></ul><div><hr></div><h4>El prompt que transforma Deep Research en herramienta de pensamiento</h4><p>He estado experimentando con un enfoque, no se trata de usar Deep Research como reemplazo de tu criterio, sino como acelerador de tu proceso de investigación. La <em>diferencia está en cómo estructuras la petición</em>.</p><p><strong>El método tiene tres fases (DEV)</strong> Define - Estructura - Valida</p><h4>1. Definir el problema (antes de tocar la herramienta)</h4><p>Dedica <strong>15 minutos a escribir qué necesitas saber y por qué</strong>. Si no puedes articularlo en un párrafo claro, no estás listo para investigar. Esto obliga a claridad conceptual antes de delegar nada.</p><pre><code><strong>Ejemplo malo:</strong> “Investiga tendencias de IA en educación”</code></pre><pre><code><strong>Ejemplo bueno:</strong> “Necesito entender cómo están usando IA los departamentos universitarios de Ciencias Sociales para evaluar trabajos escritos. Específicamente: qué herramientas usan, qué resultados reportan, qué problemas éticos han identificado. Mi hipótesis es que hay resistencia institucional más allá de limitaciones técnicas.”</code></pre><h4>2. Estructurar la investigación (el prompt que importa)</h4><p>El prompt tiene nueve secciones que obligan a la IA a investigar con rigor:</p><pre><code>Eres un investigador senior especializado en [TU CAMPO].\n\n##OBJETIVO PRINCIPAL:\n[Define exactamente qué pregunta necesitas responder, la que has defido antes en el papel]\n\n##CONTEXTO Y ALCANCE:\n[Tu conocimiento actual sobre el tema]\n[Qué aspectos específicamente te interesan]\n[Qué quieres excluir de la investigación]\n[Periodo temporal relevante]\n\n##TÉRMINOS CLAVE:\n[Define conceptos ambiguos que la IA debe usar correctamente]\n\n##PASOS DE INVESTIGACIÓN:\n[Primer área de exploración con preguntas específicas]\n[Segunda área...]\n[etc.]\n\n##FORMATO DEL INFORME:\n[Estructura exacta que necesitas]\n[Longitud objetivo]\n[Estilo de presentación]\n\n##FUENTES REQUERIDAS:\n[Tipos de fuentes aceptables]\n[Calidad mínima esperada]\n[Preferencia temporal]\n\n##ANTES DE EMPEZAR:\nSi algo de este prompt es ambiguo o contradictorio, pregunta. No asumas.\n\n##REVISIÓN FINAL:\n**Verifica que tu informe:**\n-Responde directamente la pregunta principal\n-Cita todas las afirmaciones significativas\n-Sintetiza información, no solo la lista\n-Identifica gaps o contradicciones en la investigación</code></pre><h4><strong>3. Validar y cuestionar (después del informe)</strong></h4><p>Cuando recibes el informe, no lo aceptes como verdad revelada. Úsalo como mapa inicial para tu propia exploración:</p><ul><li><p>Verifica al menos 3 citas clave manualmente</p></li><li><p>Busca voces ausentes: ¿Qué perspectivas no aparecen?</p></li><li><p>Identifica sesgos: ¿todas las fuentes vienen del mismo ámbito?</p></li><li><p>Cuestiona conclusiones: ¿los datos realmente apoyan esas afirmaciones?</p></li></ul><div><hr></div><h2>Resultados</h2><p>Probé el mismo prompt estructurado en tres herramientas. Mismo texto, misma pregunta, tres ejecuciones paralelas. No me devolvieron “tres informes sobre el mismo tema”. Me dieron tres formas completamente distintas de mirar el problema.</p><p><strong>ChatGPT (GPT-4 + Deep Research):</strong> 33 minutos investigando. 19 fuentes. 139 búsquedas ejecutadas. Me devolvió un mapa del territorio: qué instituciones hacen qué, con qué herramientas, con qué resultados medibles. Datos duros, casos documentados, números que puedes verificar. El tipo de informe que te permite decidir sin adivinar.</p><p><strong>Gemini 2.5 Pro:</strong> Me dio exactamente el tipo de documento que te hace pensar “leo tres páginas y no sé qué hacer con esto”. Genérico. Superficial. Cero profundidad en papers académicos. Lo leí, lo cerré, no volví a abrirlo.</p><p><strong>Claude (Sonnet 4.5):</strong> 48 minutos pensando. 584 fuentes consultadas. No me trajo más datos que ChatGPT. Me trajo los fracasos. Los proyectos que sonaban brillantes sobre papel y se estrellaron en la implementación. Los problemas éticos que nadie menciona en los casos de éxito. Los obstáculos reales que enfrentan los equipos cuando intentan escalar estas soluciones.</p><p>Cantidad no es sinónimo de mejor. Claude consultó 584 fuentes y me dio tres insights críticos. ChatGPT consultó 19 y me creó el mapa completo. Gemini... bueno, Gemini existe.</p><p><strong>Lo que haces después de leer estos informes es lo que marca la diferencia.</strong> Porque la mayoría se queda ahí: leen tres PDFs brillantes y se convencen de que entienden el tema. </p><p>Falso conocimiento. </p><div><hr></div><h2>Cómo trabajo con los resultados </h2><p>Te voy a contar algo que no suelo <strong>compartir</strong>: <strong>mi método real cuando hago una investigación.</strong> Porque esto no va de tener un buen prompt. Va de qué haces con los datos después para no caer en la trampa de creerte experto sin haber pensado realmente.</p><p>Para evitar la <strong>aporia</strong> (ese falso saber que colapsa cuando lo cuestionas).</p><p>Cuando usas Deep Research sin procesar los datos después, te quedas con conclusiones prestadas. Y lo peor: convencido de que comprendes algo que en realidad nunca procesaste.</p><p><strong>1. Crea tu metaprompt una sola vez</strong></p><p>Ese prompt de nueve secciones que compartí antes. Lo convierto en un asistente de ChatGPT o un Gem de Google. Lo configuro una vez, lo uso cientos. No vuelvo a escribir el prompt desde cero nunca más.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!q3Gm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!q3Gm!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 424w, https://substackcdn.com/image/fetch/$s_!q3Gm!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 848w, https://substackcdn.com/image/fetch/$s_!q3Gm!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 1272w, https://substackcdn.com/image/fetch/$s_!q3Gm!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!q3Gm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png\" width=\"1456\" height=\"719\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/59849d3e-f364-4308-a264-3702877fae51_1898x937.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:719,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:139272,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/178260057?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!q3Gm!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 424w, https://substackcdn.com/image/fetch/$s_!q3Gm!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 848w, https://substackcdn.com/image/fetch/$s_!q3Gm!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 1272w, https://substackcdn.com/image/fetch/$s_!q3Gm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59849d3e-f364-4308-a264-3702877fae51_1898x937.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"pullquote\"><pre><code><code>He convertido el método DEV en GPT \nLe describes tu necesidad de investigación y te genera el prompt estructurado de 5.000 palabras con las 9 secciones, sectores cercanos, y métricas de tu campo. \n10 minutos de setup. \nLo usas siempre. \nIncluye: Guía paso a paso + meta-prompt.txt</code></code></pre><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.gumroad.com/l/deepresearch&quot;,&quot;text&quot;:&quot;Comprar la guía por 4,99€&quot;,&quot;action&quot;:null,&quot;class&quot;:&quot;button-wrapper&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary button-wrapper\" href=\"https://ainalluna.gumroad.com/l/deepresearch\"><span>Comprar la guía por 4,99€</span></a></p></div><p><strong>2. Lanza el prompt en todos los LLMs que quieras</strong></p><p>ChatGPT, Claude, Gemini … No elijo uno. Los uso todos. <strong>Mismo prompt, tres ejecuciones paralelas</strong>. Cada uno me devuelve un informe distinto porque cada modelo tiene arquitectura, entrenamiento y acceso a fuentes diferentes.</p><p><strong>3. Trabaja con los datos en un Miro</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!oF-f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!oF-f!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 424w, https://substackcdn.com/image/fetch/$s_!oF-f!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 848w, https://substackcdn.com/image/fetch/$s_!oF-f!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 1272w, https://substackcdn.com/image/fetch/$s_!oF-f!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!oF-f!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png\" width=\"1200\" height=\"1200\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1200,&quot;width&quot;:1200,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:186783,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/178260057?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!oF-f!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 424w, https://substackcdn.com/image/fetch/$s_!oF-f!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 848w, https://substackcdn.com/image/fetch/$s_!oF-f!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 1272w, https://substackcdn.com/image/fetch/$s_!oF-f!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821d2534-eb40-446f-b1c3-060660068c58_1200x1200.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Aquí es donde la investigación deja de ser un montón de PDFs y se convierte en conocimiento accionable.</p><p>Creo un tablero en <a href=\"https://miro.com/es/\">Miro</a> con:</p><ul><li><p><strong>Columna de fuentes</strong>: todas las que mencionaron los tres LLMs. Las más citadas son las que luego uso para scouting.</p></li><li><p><strong>Casos de uso detectados</strong>: post-its con códigos de colores. Azul = ya lo hacemos. Rojo = no lo hacemos y deberíamos. Verde = oportunidad que nadie está tocando.</p></li><li><p><strong>Las investigaciones completas</strong>: guardadas como referencia contextual.</p></li><li><p><strong>Columna de ideas</strong>: ahí van los insights que me vienen mientras proceso toda esta información. Algunas son absurdas. Otras se convierten en proyectos reales.</p></li></ul><p><strong>4. Itera sobre los resultados con contexto acumulado</strong></p><p>Aquí es donde vuelvo a <strong>Sócrates</strong>. Cuando ya tienes los tres informes procesados en el Miro, vuelves al chat. Pero no para aceptar las conclusiones. Para cuestionarlas.</p><p><em>Le haces preguntas al LLM como Sócrates haría contigo:</em></p><pre><code>“Dices que esta tendencia es dominante. ¿Qué fuentes contradicen eso?” “Mencionas estos tres casos de éxito. ¿Qué proyectos similares fracasaron y por qué?” “Esta conclusión asume X. ¿Qué pasa si X es falso?” “¿Qué voces están ausentes en esta investigación?”</code></pre><p><strong>Ahora tienes el mejor contexto posible</strong>: tu propia investigación cargada en la conversación. Y en lugar de pedirle más respuestas, le pides que cuestione sus propias conclusiones. </p><p><strong>Aprende más sobre la importancia del contexto:</strong></p><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;c459d9de-c701-47df-847e-255ecb927287&quot;,&quot;caption&quot;:&quot;¿Cómo estás? Por si es tu primera vez aquí, me presento: soy Aina y te doy la bienvenida a Think&amp;Hack, una newsletter donde te cuento ideas y procesos para pensar mejor, decidir mejor y ejecutar mejor.&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;#3 Tu prompt no falla: falla tu rol&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:136220542,&quot;name&quot;:&quot;Aina Lluna&quot;,&quot;bio&quot;:&quot;Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-10-26T08:40:50.446Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!CVEt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b847241-27c9-4486-a76b-f2792ed2cbab_1141x635.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://ainalluna.substack.com/p/3-tu-prompt-no-falla-falla-tu-rol&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:177152947,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:1,&quot;comment_count&quot;:0,&quot;publication_id&quot;:5143893,&quot;publication_name&quot;:&quot;Think &amp; Hack escrito por Aina-Lluna&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!mH6M!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe14e0980-4559-46f9-aa38-6bc51d0aa174_256x256.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><p>El LLM responde con precisión porque ya conoce todo el territorio que mapeaste. Pero tú mantienes el criterio.<em> Tú decides qué líneas profundizar, qué contradicciones explorar, qué gaps investigar.</em></p><div class=\"pullquote\"><p><strong>No hay mejor contexto que el resultado de tu propia investigación. Y no hay mejor uso de ese contexto que cuestionarlo hasta que se sostenga solo.</strong></p></div><h3>Los tres niveles de uso</h3><ul><li><p><strong>Nivel 1 - El delegador completo:</strong> Pide un informe genérico sobre un tema. Lo acepta sin cuestionar. Se queda con la ilusión de conocimiento.</p></li><li><p><strong>Nivel 2 - El usuario eficiente:</strong> Estructura bien la petición. Obtiene informes relevantes. Pero sigue confiando demasiado en las conclusiones de la máquina.</p></li><li><p><strong>Nivel 3 - El investigador asistido:</strong> Usa Deep Research como acelerador de su propio proceso de pensamiento crítico. Valida, cuestiona, sintetiza. La herramienta mapea el territorio, pero él decide el camino.</p></li></ul><div><hr></div><h3>El prompt que nunca deberías usar</h3><pre><code>“Dame un informe completo sobre [tema vago] para quedar bien en la reunión”</code></pre><p>Porque eso convierte Deep Research en generador de falso saber. Te da munición para sonar informado sin entender realmente lo que estás diciendo.</p><div><hr></div><h3>La pregunta incómoda</h3><p>¿Cuántas veces has usado estas herramientas para evitar el trabajo de pensar en vez de acelerarlo?</p><p>Yo lo he hecho. Y cada vez que lo hago, noto la diferencia. Cuando investigo manualmente (aunque use IA como apoyo), tengo criterio propio. Puedo debatir, matizar, cuestionar. </p><div class=\"pullquote\"><p>Cuando delego completamente, solo puedo repetir.</p></div><p><strong>¿Usas Deep Research? ¿Para evitar pensar o para pensar mejor? ¿Qué preguntas te haces DESPUÉS de recibir el informe?</strong></p><p>Cuéntamelo. Siempre leo todo.</p><p><strong>PD:</strong> Si usas estas herramientas y descubres algo inquietante, o peor, si descubres que llevas semanas usando Deep Research sin hacer una sola pregunta socrática,  responde este correo. Quiero saber si la máquina investiga por ti... o si ya investigas a través de la máquina.</p><div class=\"pullquote\"><pre><code><code>He convertido el método DEV en GPT \nLe describes tu necesidad de investigación y te genera el prompt estructurado de 5.000 palabras con las 9 secciones, sectores cercanos, y métricas de tu campo. \n10 minutos de setup. \nLo usas siempre. \nIncluye: Guía paso a paso + meta-prompt.txt</code></code></pre><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.gumroad.com/l/deepresearch&quot;,&quot;text&quot;:&quot;Comprar la guía por 4,99€&quot;,&quot;action&quot;:null,&quot;class&quot;:&quot;button-wrapper&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary button-wrapper\" href=\"https://ainalluna.gumroad.com/l/deepresearch\"><span>Comprar la guía por 4,99€</span></a></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think &amp; Hacks</strong></p><p>Como responsable de IA generativa en Editorial Planeta, mi trabajo no es implementar IA.</p><p><strong>Es evitar que mi empresa pierda dinero implementando IA mal.</strong></p><p>La diferencia entre ambas cosas es exactamente lo que encontrarás aquí: <strong>la brecha entre lo que Silicon Valley promete y lo que realmente funciona cuando tienes 500 empleados, sistemas legacy, y un margen que defender.</strong> Por qué la mayoría de estrategias de IA están diseñadas para fracasar (spoiler: porque son estrategias de consultoría, no de negocio), y cómo las pocas que funcionan pueden mover tu P&amp;L sin dinamitar tu operación.</p><p><strong>Otra mirada a la tecnología. La de quien la implementa, no la vende.</strong></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 2151,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        90,
+        174,
+        199
+      ],
+      "population": 208
+    },
+    "DarkVibrant": {
+      "rgb": [
+        33.6,
+        83.99999999999996,
+        99
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        108,
+        196,
+        220
+      ],
+      "population": 3
+    },
+    "Muted": {
+      "rgb": [
+        80,
+        148,
+        164
+      ],
+      "population": 2
+    },
+    "DarkMuted": {
+      "rgb": [
+        66,
+        66,
+        68
+      ],
+      "population": 4
+    },
+    "LightMuted": {
+      "rgb": [
+        186,
+        216,
+        224
+      ],
+      "population": 84
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 3,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 178260057,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/178260057/tts/9b966217-ab51-43b3-b82e-0f237fcb606a/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": []
+}

@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 955,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 48000
+  },
+  "fecha": "2026-10-01",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La vía rápida",
+  "id": "aOhVFHjruY8",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Presentaciones profesionales con ChatGPT en un clic",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 13,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.48,
+    "senal_incompleta": false
+  },
+  "titulo": "Create PROFESSIONAL presentations in 1 click with CHATGPT (In 5 Minutes)",
+  "url": "https://www.youtube.com/watch?v=aOhVFHjruY8"
+}

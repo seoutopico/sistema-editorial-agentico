@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 1877,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 78000
+  },
+  "fecha": "2026-10-01",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La estadística",
+  "id": "gbbPBr3OraQ",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Caso con cifras de automatizar una tarea aburrida",
+    "relevante": true,
+    "tema": "Automatización de procesos"
+  },
+  "senales": {
+    "dias": 13,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.21,
+    "senal_incompleta": false
+  },
+  "titulo": "I Gave Meta's Muse The Most Boring Job I Had. It Found $5,350 A Year.",
+  "url": "https://www.youtube.com/watch?v=gbbPBr3OraQ"
+}

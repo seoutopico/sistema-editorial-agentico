@@ -1,0 +1,1834 @@
+WEBVTT
+
+00:00:00.184 --> 00:00:02.383
+Jev está literalmente en todas partes
+
+00:00:01.415 --> 00:00:03.646
+ y creo que va a cambiar la forma en que
+
+00:00:02.678 --> 00:00:04.815
+ se crean las automatizaciones de IA.
+
+00:00:03.959 --> 00:00:06.507
+ Así que vine aquí y lo probé en 12
+
+00:00:05.549 --> 00:00:08.056
+ casos de uso y lo comparé con otros
+
+00:00:07.098 --> 00:00:09.479
+ modelos de IA en aspectos como la
+
+00:00:08.521 --> 00:00:11.235
+ velocidad y el coste. Incluso pude
+
+00:00:10.284 --> 00:00:13.004
+ crear esta extensión de Chrome que
+
+00:00:12.053 --> 00:00:14.919
+ etiquetará X tuits como "breaking" o,
+
+00:00:13.969 --> 00:00:16.835
+ ya sabes, "golden nuggets" o "AI slop"
+
+00:00:15.884 --> 00:00:18.870
+ en tiempo real para mí. En el back-end
+
+00:00:17.921 --> 00:00:20.485
+ puedes ver que utiliza Jev para
+
+00:00:19.535 --> 00:00:22.453
+ categorizar todo al instante en cuanto
+
+00:00:21.504 --> 00:00:24.570
+ entra en mi pantalla. No le está yendo
+
+00:00:23.616 --> 00:00:26.112
+ muy bien en la primera hora, pero
+
+00:00:25.157 --> 00:00:27.744
+ también creé este Jev Trader, que
+
+00:00:26.789 --> 00:00:29.422
+ analiza literalmente cada segundo si
+
+00:00:28.467 --> 00:00:31.190
+ Bitcoin va a subir, bajar o mantenerse
+
+00:00:30.235 --> 00:00:32.505
+ y luego básicamente realiza
+
+00:00:31.550 --> 00:00:34.183
+ operaciones en tiempo real para mí.
+
+00:00:33.283 --> 00:00:35.478
+ Porque este modelo es muy bueno para
+
+00:00:34.511 --> 00:00:36.715
+ tomar decisiones rápidas. Pero de
+
+00:00:35.749 --> 00:00:37.986
+ todos modos, al final de este vídeo
+
+00:00:37.020 --> 00:00:39.360
+ entenderás cómo funciona Jev y dónde
+
+00:00:38.395 --> 00:00:40.731
+ deberías usarlo en tu vida. Así que
+
+00:00:39.765 --> 00:00:41.897
+ no perdamos más tiempo y vayamos
+
+00:00:40.931 --> 00:00:43.317
+ directo al grano. Vale, vamos a empezar
+
+00:00:42.350 --> 00:00:44.817
+ por algo así como ¿qué es Jev? No
+
+00:00:43.856 --> 00:00:46.261
+ voy a profundizar demasiado, solo lo
+
+00:00:45.300 --> 00:00:47.667
+ suficiente para que entiendas cómo
+
+00:00:46.706 --> 00:00:48.994
+ funciona y qué vamos a ver en el
+
+00:00:48.033 --> 00:00:50.717
+ vídeo de hoy. Lo interesante de Jev es
+
+00:00:49.753 --> 00:00:51.861
+ que se trata de una IA que toma
+
+00:00:50.897 --> 00:00:53.292
+ decisiones por su cuenta, pero no llega
+
+00:00:52.327 --> 00:00:55.408
+ a escribir nada. No genera tokens. No
+
+00:00:54.442 --> 00:00:56.651
+ es algo con lo que realmente puedas
+
+00:00:55.686 --> 00:00:58.396
+ mantener una conversación. Simplemente
+
+00:00:57.450 --> 00:01:00.659
+ toma decisiones. Este es el tuit de
+
+00:00:59.715 --> 00:01:03.108
+ anuncio de Diogo. Él co-inventó Chat
+
+00:01:02.173 --> 00:01:05.704
+ GPT y en los últimos 2 años ha estado
+
+00:01:04.769 --> 00:01:07.912
+ desarrollando esta nueva forma de
+
+00:01:06.976 --> 00:01:10.377
+ entrenar modelos, RLCD. Puedes ver lo
+
+00:01:09.435 --> 00:01:12.707
+ que significa: aprendizaje por refuerzo
+
+00:01:11.766 --> 00:01:14.706
+ para decisiones calibradas. Y esto
+
+00:01:13.747 --> 00:01:16.325
+ está en el blog de Type Safe. Por
+
+00:01:15.381 --> 00:01:18.402
+ cierto, si quieres entrar aquí para
+
+00:01:17.458 --> 00:01:20.647
+ empezar a jugar con Jev, ve a Type Safe
+
+00:01:19.703 --> 00:01:24.422
+ AI y únete a la lista de espera. Con
+
+00:01:23.439 --> 00:01:25.055
+ suerte, en unas horas podrás iniciar
+
+00:01:24.071 --> 00:01:25.720
+ sesión. Además, esto está disponible
+
+00:01:24.737 --> 00:01:26.319
+ a través de la puerta de enlace de
+
+00:01:25.336 --> 00:01:28.799
+ Vercel y del enrutador abierto. Por lo
+
+00:01:27.842 --> 00:01:30.532
+ tanto, si aún no estás en la lista de
+
+00:01:29.576 --> 00:01:32.180
+ espera, puedes salir y jugar con Jev.
+
+00:01:31.439 --> 00:01:33.565
+ Pero, en fin, lo que ocurre
+
+00:01:32.607 --> 00:01:35.067
+ básicamente es que, en lugar de un
+
+00:01:34.109 --> 00:01:36.402
+ modelo de chat normal en el que
+
+00:01:35.444 --> 00:01:38.071
+ enviarías un mensaje como este, es una
+
+00:01:37.112 --> 00:01:39.489
+ especie de ticket de soporte y el
+
+00:01:38.531 --> 00:01:41.033
+ modelo de IA lo leería, razonaría,
+
+00:01:40.075 --> 00:01:42.702
+ pensaría y luego generaría un mensaje
+
+00:01:41.743 --> 00:01:44.079
+ o algún tipo de clasificación.
+
+00:01:43.564 --> 00:01:46.561
+ Básicamente, solo genera este tipo de
+
+00:01:45.614 --> 00:01:48.664
+ cosas, que son un nivel de confianza de
+
+00:01:47.717 --> 00:01:50.714
+ sí o no, una categoría y una especie
+
+00:01:49.767 --> 00:01:52.292
+ de puntuación. Entonces, para el
+
+00:01:51.330 --> 00:01:53.737
+ primero, ¿es urgente? El 99%de
+
+00:01:52.797 --> 00:01:55.883
+ confianza es sí, es urgente. ¿Qué
+
+00:01:54.922 --> 00:01:57.494
+ equipo? Probablemente había varias
+
+00:01:56.538 --> 00:01:59.138
+ rutas, como técnica, facturación o
+
+00:01:58.183 --> 00:02:00.872
+ soporte, y lo etiquetó como técnico.
+
+00:01:59.972 --> 00:02:02.309
+ ¿Y qué tan frustrado estaba? Le dio
+
+00:02:01.354 --> 00:02:03.959
+ un uno sobre dos en la puntuación o
+
+00:02:03.004 --> 00:02:05.671
+ escala de frustración. Pero tú tienes
+
+00:02:04.707 --> 00:02:07.156
+ el control total. Básicamente, le
+
+00:02:06.202 --> 00:02:08.810
+ dirás a Jev: "Oye, así es como se
+
+00:02:07.856 --> 00:02:10.510
+ supone que debes tomar decisiones, y
+
+00:02:09.556 --> 00:02:11.979
+ aquí tienes algo así como los
+
+00:02:11.025 --> 00:02:13.679
+ criterios de clasificación". Por lo
+
+00:02:12.716 --> 00:02:15.045
+ tanto, son tres tipos de decisiones,
+
+00:02:14.082 --> 00:02:17.051
+ como dije. El sí o el no se llama nulo
+
+00:02:16.051 --> 00:02:18.614
+. La opción "elegir uno" es una
+
+00:02:17.657 --> 00:02:19.933
+ elección, y luego tenemos una
+
+00:02:18.975 --> 00:02:21.368
+ puntuación real. Y les mostraré
+
+00:02:20.401 --> 00:02:22.409
+ ejemplos reales de todas estas
+
+00:02:21.443 --> 00:02:23.753
+ decisiones ejecutadas en estos 12 casos
+
+00:02:22.787 --> 00:02:25.205
+ de uso, así que no se preocupen. Pero
+
+00:02:24.257 --> 00:02:27.120
+ solo quería sentar las bases aquí.
+
+00:02:26.299 --> 00:02:28.607
+ Entonces, como dije, en este ejemplo,
+
+00:02:27.642 --> 00:02:29.951
+ es sí o no, y hay una puntuación de
+
+00:02:28.986 --> 00:02:31.917
+ confianza. Y el ejemplo del equipo o
+
+00:02:30.961 --> 00:02:33.348
+ categorización, son diferentes
+
+00:02:32.393 --> 00:02:35.092
+ categorías, así como una puntuación
+
+00:02:34.137 --> 00:02:36.979
+ de confianza. Y luego una puntuación
+
+00:02:36.019 --> 00:02:38.540
+ de cero a 10 en algún tipo de escala.
+
+00:02:37.800 --> 00:02:40.749
+ Y aquí, uno significaba que estaban
+
+00:02:39.803 --> 00:02:42.978
+ frustrados. Y la razón por la que esto
+
+00:02:42.029 --> 00:02:44.740
+ está ganando tanta popularidad es
+
+00:02:43.790 --> 00:02:46.602
+ porque Diogo dijo que es de 20 a 200
+
+00:02:45.652 --> 00:02:48.565
+ veces más rápido y de 40 a 400 veces
+
+00:02:47.615 --> 00:02:50.226
+ más barato con tokens de salida
+
+00:02:49.276 --> 00:02:51.968
+ gratuitos. Y si nos fijamos en la
+
+00:02:51.017 --> 00:02:53.720
+ velocidad aquí en comparación con
+
+00:02:52.768 --> 00:02:55.568
+ modelos como Terra, Luna y Soul, esto
+
+00:02:54.617 --> 00:02:57.416
+ va a ser mucho más rápido. Esta fue
+
+00:02:56.458 --> 00:02:59.014
+ solo una prueba muy rápida que hice.
+
+00:02:58.114 --> 00:03:00.807
+ Esto no significa que Terra sea siempre
+
+00:02:59.850 --> 00:03:02.414
+ más rápido que Luna, pero este fue
+
+00:03:01.457 --> 00:03:03.716
+ solo un ejemplo rápido de lo
+
+00:03:02.760 --> 00:03:05.410
+ significativamente más rápido que es
+
+00:03:04.453 --> 00:03:06.704
+ Jebb. Una vez más, no tiene que
+
+00:03:05.736 --> 00:03:07.939
+ generar todos estos tokens o razones.
+
+00:03:07.180 --> 00:03:10.018
+ Simplemente, toma una decisión y la
+
+00:03:09.069 --> 00:03:12.159
+ genera en este formato JSON. Y lo mismo
+
+00:03:11.199 --> 00:03:13.599
+ desde una perspectiva de costes, si
+
+00:03:12.639 --> 00:03:15.159
+ estuvieras ejecutando miles y miles de
+
+00:03:14.199 --> 00:03:16.559
+ decisiones al día, esto es lo que
+
+00:03:15.599 --> 00:03:18.039
+ realmente podría acabar pareciendo.
+
+00:03:17.285 --> 00:03:19.691
+ Ahora bien, obviamente lo importante es
+
+00:03:18.727 --> 00:03:21.025
+ que estás pagando mucho menos, así
+
+00:03:20.061 --> 00:03:22.215
+ que quieres asegurarte de que la
+
+00:03:21.251 --> 00:03:23.657
+ calidad sea exactamente la misma que la
+
+00:03:22.693 --> 00:03:24.919
+ que obtendrías aquí o aquí para
+
+00:03:23.955 --> 00:03:26.782
+ justificarlo. Si solo nos fijamos en el
+
+00:03:25.832 --> 00:03:28.794
+ coste actual, es bastante más barato y
+
+00:03:27.845 --> 00:03:30.986
+ está demostrado que lo es. Por tanto,
+
+00:03:30.027 --> 00:03:32.414
+ lo que no puede hacer es escribir,
+
+00:03:31.455 --> 00:03:33.882
+ resumir, encontrar temas o realizar
+
+00:03:32.923 --> 00:03:36.357
+ análisis profundos. Básicamente, solo
+
+00:03:35.402 --> 00:03:38.899
+ genera decisiones. Y otra limitación
+
+00:03:37.939 --> 00:03:40.299
+ actual es que tiene una ventana de
+
+00:03:39.339 --> 00:03:41.890
+ contexto de entrada muy pequeña. Son
+
+00:03:40.933 --> 00:03:43.538
+ 64 000 tokens, mientras que muchos de
+
+00:03:42.581 --> 00:03:45.273
+ los modelos que estamos acostumbrados a
+
+00:03:44.316 --> 00:03:46.921
+ utilizar hoy en día, ya sea Claude o
+
+00:03:45.964 --> 00:03:48.655
+ GPT, están más bien en el entorno del
+
+00:03:47.699 --> 00:03:50.337
+ millón de tokens. Por tanto, si nos
+
+00:03:49.377 --> 00:03:51.741
+ fijamos en un caso de uso como los
+
+00:03:50.781 --> 00:03:53.306
+ comentarios de YouTube, si introdujera
+
+00:03:52.346 --> 00:03:54.630
+ 5000 comentarios de YouTube, Jev
+
+00:03:53.670 --> 00:03:56.114
+ podría clasificarlos de forma mucho
+
+00:03:55.154 --> 00:03:57.559
+ más barata y rápida que cualquier
+
+00:03:56.599 --> 00:03:58.762
+ modelo de IA, y luego podría
+
+00:03:57.803 --> 00:04:00.086
+ categorizarlos como: "Oye, estos
+
+00:03:59.127 --> 00:04:01.583
+ necesitan una respuesta. Estos están
+
+00:04:00.616 --> 00:04:02.917
+ atascados. Estas personas quieren
+
+00:04:01.956 --> 00:04:04.684
+ comprar". Y entonces lo que podrías
+
+00:04:03.725 --> 00:04:06.239
+ hacer es alimentarlo con un modelo de
+
+00:04:05.280 --> 00:04:07.753
+ IA más inteligente, un modelo de IA
+
+00:04:06.794 --> 00:04:09.267
+ que realmente responda a las cosas y
+
+00:04:08.308 --> 00:04:10.864
+ genere resultados, y podrías decir: "
+
+00:04:09.864 --> 00:04:12.460
+Oye, ChatGPT, ¿podrías leer solo esto
+
+00:04:11.501 --> 00:04:14.097
+ ahora y luego ayudarme a analizar temas
+
+00:04:13.138 --> 00:04:15.652
+ o ayudarme a responder a estos o algo
+
+00:04:14.693 --> 00:04:17.507
+ así?". De esa manera, no estarías
+
+00:04:16.552 --> 00:04:19.214
+ usando un modelo más lento y costoso
+
+00:04:18.259 --> 00:04:21.011
+ para categorizar todos esos comentarios
+
+00:04:20.056 --> 00:04:22.705
+ en primer lugar. Porque Jev no es un
+
+00:04:21.749 --> 00:04:24.387
+ modelo de IA de frontera. Ni siquiera
+
+00:04:23.427 --> 00:04:25.841
+ está en el mismo grupo que Astra o
+
+00:04:24.881 --> 00:04:27.012
+ Fable. Es un tipo de modelo
+
+00:04:26.052 --> 00:04:28.499
+ completamente diferente. Entonces, ¿
+
+00:04:27.499 --> 00:04:29.801
+cuándo usarlo? Si tienes miles de
+
+00:04:28.840 --> 00:04:31.362
+ cosas, si tienes un corpus de datos, si
+
+00:04:30.401 --> 00:04:32.689
+ necesitas clasificar cosas, tomar
+
+00:04:31.728 --> 00:04:34.173
+ decisiones o estás ejecutando algún
+
+00:04:33.212 --> 00:04:35.539
+ tipo de flujo de trabajo basado en
+
+00:04:34.578 --> 00:04:37.061
+ decisiones o clasificación a escala y
+
+00:04:36.100 --> 00:04:38.809
+ en producción. Si necesitas decisiones
+
+00:04:37.854 --> 00:04:40.500
+ muy rápidas en tiempo real porque es
+
+00:04:39.545 --> 00:04:42.025
+ muy, muy rápido. Y quédate con
+
+00:04:41.060 --> 00:04:43.260
+ ChatGPT si necesitas cosas como un
+
+00:04:42.295 --> 00:04:44.423
+ puñado de artículos, necesitas
+
+00:04:43.459 --> 00:04:45.799
+ entender por qué, necesitas hacer una
+
+00:04:44.834 --> 00:04:47.068
+ lluvia de ideas, necesitas chatear,
+
+00:04:46.104 --> 00:04:48.189
+ cosas así. En fin, vayamos
+
+00:04:47.229 --> 00:04:49.663
+ directamente a algunos casos de uso.
+
+00:04:48.920 --> 00:04:51.683
+ Sé que esta pantalla puede parecer un
+
+00:04:50.730 --> 00:04:53.604
+ poco intimidante. Pero lo que quiero
+
+00:04:52.651 --> 00:04:55.292
+ mostrarte es un pequeño ejemplo de
+
+00:04:54.339 --> 00:04:57.110
+ cómo funciona esto en realidad. Por
+
+00:04:56.143 --> 00:04:58.133
+ cierto, chicos, tengo este SOP
+
+00:04:57.166 --> 00:04:59.355
+ completamente gratuito para ti sobre
+
+00:04:58.388 --> 00:05:00.610
+ cómo conseguir tus primeros clientes
+
+00:04:59.643 --> 00:05:02.240
+ de automatización de IA. Repasa los
+
+00:05:01.282 --> 00:05:03.730
+ pasos exactos que se han demostrado
+
+00:05:02.771 --> 00:05:05.260
+ para cientos de nuestros miembros de
+
+00:05:04.302 --> 00:05:06.709
+ AIs Plus para obtener sus primeros
+
+00:05:05.750 --> 00:05:08.298
+ trabajos pagos. Repasa el discurso de
+
+00:05:07.334 --> 00:05:09.453
+ servicio de una frase que puede
+
+00:05:08.489 --> 00:05:10.861
+ ayudarte a empezar hoy mismo, por qué
+
+00:05:09.897 --> 00:05:12.161
+ tu primer cliente debería costarte
+
+00:05:11.197 --> 00:05:13.424
+ dinero, el vídeo de 5 minutos que
+
+00:05:12.461 --> 00:05:14.616
+ responde a si esta persona puede
+
+00:05:13.652 --> 00:05:15.807
+ entregar algo antes de que hayas
+
+00:05:14.843 --> 00:05:17.179
+ recibido dinero, qué hacer cuando no
+
+00:05:16.215 --> 00:05:18.636
+ tienes ningún caso práctico. Hay
+
+00:05:17.688 --> 00:05:20.368
+ muchas cosas buenas aquí que te
+
+00:05:19.420 --> 00:05:22.467
+ ayudarán incluso si ya tienes clientes
+
+00:05:21.467 --> 00:05:24.510
+. Recomendaría descargar esto porque,
+
+00:05:23.553 --> 00:05:26.067
+ como dije, es completamente gratis.
+
+00:05:25.167 --> 00:05:27.438
+ Entonces, si quieres descargarlo, hay
+
+00:05:26.473 --> 00:05:28.942
+ un enlace en la descripción. Volvamos
+
+00:05:27.989 --> 00:05:30.542
+ al video. La primera que veremos son
+
+00:05:29.577 --> 00:05:32.066
+ los correos electrónicos. Ahora,
+
+00:05:31.108 --> 00:05:33.507
+ rápidamente, puedes ver que tengo
+
+00:05:32.548 --> 00:05:34.906
+ configuradas varias categorías o
+
+00:05:33.947 --> 00:05:36.678
+ varias preguntas diferentes. La primera
+
+00:05:35.721 --> 00:05:38.499
+ es factura o recibo. Es un sí o un no.
+
+00:05:37.619 --> 00:05:39.926
+ La segunda es acuerdo de marca. Es un
+
+00:05:38.969 --> 00:05:41.659
+ sí o un no. Estafador, phishing, sí o
+
+00:05:40.699 --> 00:05:42.939
+ no. También tenemos tipo de correo
+
+00:05:41.965 --> 00:05:44.148
+ electrónico. También tenemos urgencia
+
+00:05:43.177 --> 00:05:45.152
+ y también tenemos adecuación al
+
+00:05:44.182 --> 00:05:46.210
+ patrocinador. Entonces, tenemos
+
+00:05:45.242 --> 00:05:47.299
+ diferentes tipos de puntuación y
+
+00:05:46.331 --> 00:05:48.744
+ diferentes tipos de categorización. Y
+
+00:05:47.789 --> 00:05:50.276
+ puedes ver aquí, si ejecuto esto
+
+00:05:49.321 --> 00:05:51.989
+ rápidamente, si voy a rehacer todo y
+
+00:05:51.035 --> 00:05:53.748
+ presiono ejecutar, actualmente estamos
+
+00:05:52.793 --> 00:05:55.412
+ usando el modelo Jev. Y esto son 1000
+
+00:05:54.444 --> 00:05:57.074
+ correos electrónicos. Mira lo rápido
+
+00:05:56.120 --> 00:05:58.924
+ que es capaz de clasificar 1000 correos
+
+00:05:57.971 --> 00:06:01.246
+ electrónicos. Bueno, lo hizo en unos
+
+00:06:00.304 --> 00:06:03.542
+ 70 segundos por 9 centavos. Ahora bien,
+
+00:06:02.581 --> 00:06:04.930
+ obviamente no es algo superrápido,
+
+00:06:03.968 --> 00:06:06.395
+ como la velocidad del rayo, pero esto
+
+00:06:05.433 --> 00:06:07.945
+ no estaba paralelizado. Si hubiéramos
+
+00:06:06.980 --> 00:06:09.289
+ ejecutado todo eso individualmente en
+
+00:06:08.324 --> 00:06:10.491
+ paralelo, habría sido mucho más
+
+00:06:09.527 --> 00:06:11.854
+ rápido. Pero solo quería mostrar la
+
+00:06:10.887 --> 00:06:13.483
+ diferencia aquí. Vayamos incluso a
+
+00:06:12.538 --> 00:06:15.546
+ algo como GPT-5.6 Luna y ejecutaremos
+
+00:06:14.600 --> 00:06:17.548
+ esto de nuevo en todo. Entonces, los
+
+00:06:16.598 --> 00:06:19.457
+ 1000. Quiero decir, parece que tardó
+
+00:06:18.507 --> 00:06:21.259
+ una eternidad. Con Luna, tardó 5
+
+00:06:20.312 --> 00:06:22.946
+ minutos y fueron 62 centavos en
+
+00:06:21.999 --> 00:06:25.054
+ comparación con los 70 segundos y creo
+
+00:06:24.107 --> 00:06:26.908
+ que fueron 9 centavos. Y también
+
+00:06:25.947 --> 00:06:28.425
+ piensen que no solo estaba haciendo un
+
+00:06:27.463 --> 00:06:29.980
+ tipo de clasificación, estaba haciendo
+
+00:06:29.019 --> 00:06:31.721
+ las siete reglas. Y de hecho, acabo de
+
+00:06:30.759 --> 00:06:32.981
+ cambiar el back-end para que esto
+
+00:06:32.018 --> 00:06:34.426
+ procese las cosas más en paralelo con
+
+00:06:33.463 --> 00:06:35.901
+ cargas útiles más grandes. Así que
+
+00:06:34.939 --> 00:06:37.330
+ voy a ejecutar esto ahora y verán lo
+
+00:06:36.367 --> 00:06:38.954
+ mucho más rápido que es realmente. ¡
+
+00:06:37.954 --> 00:06:41.217
+Bum! Miren lo rápido que fue. Tardó 6
+
+00:06:40.262 --> 00:06:42.692
+ segundos y una vez más fueron 9
+
+00:06:41.736 --> 00:06:44.398
+ centavos. Bueno, eso solo muestra cómo
+
+00:06:43.434 --> 00:06:45.796
+ puedes optimizar ese back-end para que
+
+00:06:44.832 --> 00:06:47.175
+ Jev vaya aún más rápido. Y sí,
+
+00:06:46.214 --> 00:06:48.751
+ puedes hacer lo mismo con Luna, pero no
+
+00:06:47.791 --> 00:06:50.288
+ será tan rápido como 6 segundos para
+
+00:06:49.328 --> 00:06:51.707
+ 1000 correos electrónicos en siete
+
+00:06:50.747 --> 00:06:53.222
+ categorías. Sé que esta interfaz
+
+00:06:52.259 --> 00:06:54.774
+ puede ser un poco abrumadora. Vamos a
+
+00:06:53.821 --> 00:06:56.656
+ eliminar todo lo que hay aquí, excepto
+
+00:06:55.703 --> 00:06:58.099
+ la factura o el recibo. Esto es
+
+00:06:57.130 --> 00:06:59.321
+ literalmente lo que estamos diciendo: "
+
+00:06:58.321 --> 00:07:00.482
+Bueno, queremos configurar algún tipo
+
+00:06:59.513 --> 00:07:01.704
+ de clasificación para todos estos 1000
+
+00:07:00.735 --> 00:07:03.069
+ correos electrónicos". Vamos a darle
+
+00:07:02.110 --> 00:07:04.594
+ un nombre. Vamos a preguntar: "¿Este
+
+00:07:03.631 --> 00:07:06.017
+ correo electrónico es un recibo, una
+
+00:07:05.055 --> 00:07:07.516
+ factura, una confirmación de pago o un
+
+00:07:06.553 --> 00:07:08.894
+ aviso de facturación?". Y luego
+
+00:07:07.943 --> 00:07:10.811
+ definimos qué cuenta como sí. Por
+
+00:07:09.849 --> 00:07:12.202
+ ejemplo, tiene un cargo, un pago, un
+
+00:07:11.240 --> 00:07:13.668
+ desembolso o algún tipo de desembolso
+
+00:07:12.706 --> 00:07:15.386
+ fallido. Y lo llamamos sí cuando Jev
+
+00:07:14.432 --> 00:07:17.247
+ tiene al menos un 50%de confianza. Eso
+
+00:07:16.300 --> 00:07:19.309
+ es lo que estamos haciendo aquí. Y yo
+
+00:07:18.343 --> 00:07:20.638
+ seguiría adelante y elegiría rehacer
+
+00:07:19.672 --> 00:07:22.124
+ todo. Y así, cuando ejecutamos esto,
+
+00:07:21.162 --> 00:07:23.533
+ básicamente mirará todos esos 1000
+
+00:07:22.571 --> 00:07:25.057
+ correos electrónicos y decidirá si es
+
+00:07:24.095 --> 00:07:26.913
+ una factura o un recibo. Devuelve 5
+
+00:07:25.982 --> 00:07:29.082
+ centavos en 4 segundos. Y luego
+
+00:07:28.128 --> 00:07:30.830
+ aterrizó en no en 763 de ellos, pero
+
+00:07:29.876 --> 00:07:32.394
+ sí en 237. Este es un ejemplo de
+
+00:07:31.440 --> 00:07:34.143
+ categoría donde configuramos el tipo
+
+00:07:33.189 --> 00:07:35.569
+ de correo electrónico, ya sea
+
+00:07:34.615 --> 00:07:37.271
+ notificación, boletín informativo,
+
+00:07:36.317 --> 00:07:39.208
+ facturación u oportunidad. Y puedes
+
+00:07:38.251 --> 00:07:40.866
+ ver que si edito esto, lo que hicimos
+
+00:07:39.909 --> 00:07:42.568
+ fue elegir las opciones y definir cada
+
+00:07:41.611 --> 00:07:44.205
+ una de ellas. Así que este es un tipo
+
+00:07:43.244 --> 00:07:45.750
+ de automatización de clasificación de
+
+00:07:44.789 --> 00:07:47.478
+ IA bastante estándar. Pero luego, si
+
+00:07:46.523 --> 00:07:49.250
+ miramos la puntuación, por ejemplo, si
+
+00:07:48.294 --> 00:07:51.021
+ miramos la adecuación del patrocinador
+
+00:07:50.021 --> 00:07:52.615
+, si voy a cómo se ve esto, esto lo
+
+00:07:51.660 --> 00:07:54.343
+ califica en una escala, y básicamente
+
+00:07:53.387 --> 00:07:56.025
+ elegimos de menor a mayor cómo se ve
+
+00:07:55.070 --> 00:07:57.708
+ en cuanto a que no es una consulta de
+
+00:07:56.752 --> 00:07:59.302
+ patrocinio en absoluto, o si es una
+
+00:07:58.347 --> 00:08:01.329
+ gran adecuación. Y elegirá el nivel.
+
+00:08:00.429 --> 00:08:03.420
+ Como pueden ver aquí, muestra que 942
+
+00:08:02.473 --> 00:08:05.412
+ de ellos eran uno, y luego, ya saben,
+
+00:08:04.464 --> 00:08:07.509
+ no teníamos ninguno que encajara bien.
+
+00:08:06.700 --> 00:08:09.242
+ Pueden ver que había otra puntuación
+
+00:08:08.283 --> 00:08:10.542
+ que era de urgencia sobre si se
+
+00:08:09.582 --> 00:08:11.922
+ necesitaba alguna acción o no se
+
+00:08:10.963 --> 00:08:13.522
+ necesitaba nada en absoluto. Y esto fue
+
+00:08:12.552 --> 00:08:14.584
+ un poco más uniforme en todos los
+
+00:08:13.614 --> 00:08:16.232
+ ámbitos. La media fue de 2,8 sobre
+
+00:08:15.282 --> 00:08:18.977
+ cinco. La clasificación de correos es
+
+00:08:18.050 --> 00:08:21.231
+ solo un ejemplo. Y, obviamente, cuando
+
+00:08:20.275 --> 00:08:22.986
+ observas el coste y la velocidad reales
+
+00:08:22.029 --> 00:08:24.389
+ aquí, en el primer ejemplo que
+
+00:08:23.433 --> 00:08:25.969
+ ejecutamos, Luna tenía un coste 12
+
+00:08:25.013 --> 00:08:27.724
+ veces mayor y un tiempo 46 veces mayor.
+
+00:08:26.824 --> 00:08:29.454
+ Y eso también era solo Luna. ¿Qué
+
+00:08:28.485 --> 00:08:30.683
+ pasaría si hubiéramos subido a Terra
+
+00:08:29.715 --> 00:08:31.836
+ y Soul?¿Cuánto más caro habría
+
+00:08:30.865 --> 00:08:32.932
+ resultado aquello y cuánto más nos
+
+00:08:31.962 --> 00:08:34.029
+ habría llegado a costar finalmente?
+
+00:08:33.129 --> 00:08:35.405
+ Por lo tanto, muchos de estos casos de
+
+00:08:34.438 --> 00:08:36.345
+ uso están en el lado de la
+
+00:08:35.379 --> 00:08:37.663
+ clasificación. Hice exactamente lo
+
+00:08:36.698 --> 00:08:38.915
+ mismo aquí con los comentarios de
+
+00:08:37.951 --> 00:08:40.347
+ YouTube, donde puedo elegir categorías
+
+00:08:39.383 --> 00:08:42.027
+ o sí y no y puntuar. Puedo analizar
+
+00:08:41.073 --> 00:08:43.515
+ miles de comentarios a la vez en
+
+00:08:42.560 --> 00:08:45.318
+ aspectos como el tipo de comentario, si
+
+00:08:44.363 --> 00:08:47.075
+ merece la pena responderlos, si me dan
+
+00:08:46.121 --> 00:08:48.563
+ una idea del vídeo, cuál es el
+
+00:08:47.608 --> 00:08:50.321
+ sentimiento, cuál es la dificultad de
+
+00:08:49.366 --> 00:08:52.060
+ la pregunta. Y, una vez más, si
+
+00:08:51.116 --> 00:08:54.279
+ ejecuto Jev en los mil que hay, mira lo
+
+00:08:53.335 --> 00:08:56.106
+ rápido que va. Sería mucho más largo
+
+00:08:55.142 --> 00:08:57.566
+ si utilizáramos cualquier otro tipo de
+
+00:08:56.602 --> 00:08:59.188
+ modelo de IA. 5 segundos por 5
+
+00:08:58.251 --> 00:09:01.417
+ céntimos. Y si vamos a mi consola de
+
+00:09:00.472 --> 00:09:03.346
+ Jev rápidamente y actualizo, esto
+
+00:09:02.401 --> 00:09:05.551
+ mostrará que he utilizado 85 céntimos
+
+00:09:04.606 --> 00:09:07.146
+ con Jev. Pero mira cuántas solicitudes
+
+00:09:06.179 --> 00:09:08.834
+ he realizado. He realizado casi 20 000
+
+00:09:07.880 --> 00:09:10.313
+ solicitudes. Piensa en lo que nos
+
+00:09:09.351 --> 00:09:11.816
+ habrían costado 20 000 solicitudes en
+
+00:09:10.855 --> 00:09:13.239
+ un modelo de IA diferente. Y también
+
+00:09:12.268 --> 00:09:14.283
+ puedo hacer exactamente lo mismo con
+
+00:09:13.311 --> 00:09:15.394
+ mis publicaciones escolares. Puedo
+
+00:09:14.433 --> 00:09:16.439
+ configurar mis categorías
+
+00:09:15.478 --> 00:09:17.756
+ personalizadas o mis criterios de
+
+00:09:16.794 --> 00:09:19.265
+ clasificación personalizados para ver
+
+00:09:18.304 --> 00:09:20.620
+ qué tipo de preguntas tenemos, si
+
+00:09:19.659 --> 00:09:22.014
+ necesitan ayuda, si necesitamos una
+
+00:09:21.053 --> 00:09:23.524
+ respuesta del equipo, si hay riesgo de
+
+00:09:22.563 --> 00:09:24.956
+ abandono, el nivel de experiencia de
+
+00:09:23.995 --> 00:09:26.195
+ los miembros, la solidez de los
+
+00:09:25.234 --> 00:09:27.977
+ testimonios. Sí, es como una vista de
+
+00:09:27.018 --> 00:09:29.567
+ panel de control, pero ¿qué pasaría
+
+00:09:28.607 --> 00:09:31.115
+ si lo tuvieras en una automatización
+
+00:09:30.156 --> 00:09:32.643
+ real? En la que cada vez que se hiciera
+
+00:09:31.675 --> 00:09:33.926
+ una nueva publicación, actualizaras la
+
+00:09:32.958 --> 00:09:35.314
+ base de datos. Cada vez que llegara un
+
+00:09:34.350 --> 00:09:36.332
+ nuevo comentario en YouTube,
+
+00:09:35.367 --> 00:09:37.800
+ actualizaras la base de datos. Cada vez
+
+00:09:36.835 --> 00:09:39.201
+ que hubiera una nueva entrada en el CRM
+
+00:09:38.236 --> 00:09:40.602
+ interno o cada vez que un nuevo cliente
+
+00:09:39.637 --> 00:09:41.933
+ potencial enviara un formulario en tu
+
+00:09:40.968 --> 00:09:43.682
+ sitio web. Hay muchas cosas que puedes
+
+00:09:42.728 --> 00:09:45.447
+ hacer aquí, y aunque la velocidad no
+
+00:09:44.493 --> 00:09:47.166
+ importe demasiado cuando se trata de
+
+00:09:46.212 --> 00:09:48.977
+ tener automatizaciones en producción,
+
+00:09:48.024 --> 00:09:50.742
+ lo que sí se suma rápidamente es el
+
+00:09:49.789 --> 00:09:52.297
+ coste. Porque, una vez más, cuando
+
+00:09:51.338 --> 00:09:53.790
+ empiezas a procesar miles y miles de
+
+00:09:52.831 --> 00:09:55.404
+ solicitudes, el total se acumula de una
+
+00:09:54.445 --> 00:09:56.789
+ manera considerable. Por lo tanto,
+
+00:09:55.823 --> 00:09:57.968
+ cuando hablas de economía de IA y
+
+00:09:57.002 --> 00:09:58.978
+ enrutamiento de modelos, esto
+
+00:09:58.012 --> 00:10:00.224
+ definitivamente cambiará las reglas
+
+00:09:59.258 --> 00:10:01.570
+ del juego. Ahora bien, aquí hay otro
+
+00:10:00.604 --> 00:10:02.917
+ caso interesante en el que la velocidad
+
+00:10:01.950 --> 00:10:04.562
+ sí importa. Tengo uno llamado XFeed,
+
+00:10:03.603 --> 00:10:06.118
+ que básicamente extrae un montón de
+
+00:10:05.158 --> 00:10:07.673
+ publicaciones de mi feed y me dice si
+
+00:10:06.714 --> 00:10:09.229
+ están relacionadas con el tema o, ya
+
+00:10:08.270 --> 00:10:11.001
+ sabes, ¿de qué categoría son?¿Son
+
+00:10:10.033 --> 00:10:12.156
+ noticias de última hora?¿Hay
+
+00:10:11.197 --> 00:10:13.796
+ potencial para ideas de vídeo? Bueno,
+
+00:10:12.834 --> 00:10:15.158
+ una clasificación similar a la que
+
+00:10:14.196 --> 00:10:16.671
+ vimos en estas tres primeras, pero mira
+
+00:10:15.709 --> 00:10:18.128
+ lo que hice. Si actualizo mi X
+
+00:10:17.179 --> 00:10:20.013
+ rápidamente, verás que en la parte
+
+00:10:19.064 --> 00:10:21.796
+ inferior izquierda tengo esta cosa
+
+00:10:20.847 --> 00:10:23.504
+ llamada Jev juzgada. Y puedes ver que
+
+00:10:22.538 --> 00:10:24.737
+ juzgó esa como una porquería. Y
+
+00:10:23.792 --> 00:10:26.610
+ mientras me desplazo, esta es una
+
+00:10:25.665 --> 00:10:28.814
+ extensión de Chrome que creó para mí
+
+00:10:27.814 --> 00:10:30.908
+, que analiza las publicaciones de X y
+
+00:10:29.963 --> 00:10:32.946
+ las lee rápidamente y las clasifica
+
+00:10:32.001 --> 00:10:34.764
+ como novedades, pepitas de oro o
+
+00:10:33.820 --> 00:10:36.703
+ porquería de la IA. Básicamente, me
+
+00:10:35.740 --> 00:10:38.125
+ ayudará a mantenerme más concentrado
+
+00:10:37.162 --> 00:10:39.584
+ mientras me desplazo por X para ver, ya
+
+00:10:38.621 --> 00:10:41.043
+ sabes, como resaltar lo que podría ser
+
+00:10:40.080 --> 00:10:42.465
+ bueno leer y cuáles son las cosas que
+
+00:10:41.502 --> 00:10:43.924
+ probablemente debería ignorar debido a
+
+00:10:42.961 --> 00:10:45.773
+ la porquería de la IA. Y esas son solo
+
+00:10:44.816 --> 00:10:47.295
+ una extensión de Chrome que creé,
+
+00:10:46.337 --> 00:10:48.690
+ donde tengo a Jev en el back-end
+
+00:10:47.732 --> 00:10:50.464
+ impulsando todo esto. Así que es un
+
+00:10:49.504 --> 00:10:52.054
+ caso de uso bastante bueno y muestra lo
+
+00:10:51.094 --> 00:10:53.525
+ rápido que esto sucede realmente en
+
+00:10:52.565 --> 00:10:54.775
+ producción. Quiero decir, mira lo
+
+00:10:53.805 --> 00:10:55.681
+ rápido que reacciona a estas
+
+00:10:54.711 --> 00:10:56.677
+ publicaciones cuando llegan a mi
+
+00:10:55.707 --> 00:10:58.319
+ pantalla. Es básicamente instantáneo.
+
+00:10:57.419 --> 00:10:59.388
+ También pensé en lo que podrías
+
+00:10:58.416 --> 00:11:00.705
+ hacer con tus reuniones aquí. Podrías
+
+00:10:59.747 --> 00:11:02.333
+ analizar las reuniones a medida que se
+
+00:11:01.375 --> 00:11:04.003
+ transcriben en Fireflies o Granola o lo
+
+00:11:03.044 --> 00:11:05.630
+ que sea que uses y, en cuanto lleguen,
+
+00:11:04.672 --> 00:11:07.258
+ puedes clasificarlas según el tipo de
+
+00:11:06.300 --> 00:11:08.886
+ llamada, si se tomaron decisiones o si
+
+00:11:07.927 --> 00:11:10.347
+ se establecieron pasos de acción.
+
+00:11:09.447 --> 00:11:11.877
+ Pensé que esta era interesante porque,
+
+00:11:10.914 --> 00:11:13.235
+ digamos que ves que en muchas de tus
+
+00:11:12.272 --> 00:11:14.446
+ llamadas no se han discutido los
+
+00:11:13.483 --> 00:11:15.840
+ siguientes pasos o no se han definido
+
+00:11:14.877 --> 00:11:17.088
+ claramente con la propiedad y los
+
+00:11:16.124 --> 00:11:18.519
+ plazos, entonces puedes usar los datos
+
+00:11:17.555 --> 00:11:19.913
+ para cambiar la forma en que realizas
+
+00:11:18.950 --> 00:11:21.511
+ tus llamadas. Lo que creo que es
+
+00:11:20.556 --> 00:11:23.230
+ interesante es que Jev por sí solo no
+
+00:11:22.274 --> 00:11:24.948
+ analiza las cosas por ti, pero si eres
+
+00:11:23.992 --> 00:11:26.401
+ estratégico con la forma en que
+
+00:11:25.445 --> 00:11:28.119
+ planteas las preguntas, puedes obtener
+
+00:11:27.163 --> 00:11:29.684
+ análisis de ellas. Puedes hacer que
+
+00:11:28.721 --> 00:11:31.170
+ estos datos cuenten una historia. Haz
+
+00:11:30.207 --> 00:11:32.657
+ que Jev revise miles de transcripciones
+
+00:11:31.694 --> 00:11:33.920
+ y diga: "Oye, dime qué tengo que
+
+00:11:32.957 --> 00:11:35.221
+ mejorar en estas reuniones" o dime
+
+00:11:34.258 --> 00:11:37.321
+ temas comunes. Pero lo que puedes hacer
+
+00:11:36.367 --> 00:11:39.122
+ es darle categorías y puntuaciones, y
+
+00:11:38.169 --> 00:11:40.970
+ luego, a partir de todos estos tipos de
+
+00:11:40.016 --> 00:11:42.586
+ preguntas diferentes que planteas,
+
+00:11:41.633 --> 00:11:44.249
+ cuentas tu propia historia con esos
+
+00:11:43.295 --> 00:11:45.622
+ datos. Puedes ver que no hay mucha
+
+00:11:44.657 --> 00:11:46.748
+ tensión en algunas de nuestras
+
+00:11:45.783 --> 00:11:48.605
+ llamadas. Quiero decir, en esta hay
+
+00:11:47.651 --> 00:11:50.395
+ alguien que dice que está frustrado o
+
+00:11:49.440 --> 00:11:51.817
+ sobrecargado, pero todas estas
+
+00:11:50.863 --> 00:11:53.652
+ preguntas que creé para Jev aquí, hay
+
+00:11:52.698 --> 00:11:55.441
+ algún tipo de conclusión de cada una
+
+00:11:54.487 --> 00:11:57.467
+ de ellas. ¿Hay cosas esperando a Nate?
+
+00:11:56.567 --> 00:11:58.719
+¿Hay relevancia para los ingresos?
+
+00:11:57.819 --> 00:12:00.757
+ Cosas así. Y también probé este caso
+
+00:11:59.799 --> 00:12:02.086
+ de uso con videoclips en el que
+
+00:12:01.128 --> 00:12:03.706
+ básicamente pedí a Jev o a Astra que
+
+00:12:02.748 --> 00:12:05.368
+ dividieran un montón de mis vídeos de
+
+00:12:04.409 --> 00:12:07.202
+ YouTube en clips. Y luego pedí a Jev
+
+00:12:06.242 --> 00:12:08.695
+ que mirara esos clips y me dijera si
+
+00:12:07.736 --> 00:12:10.229
+ era posible publicarlos por sí solos
+
+00:12:09.270 --> 00:12:12.012
+ como un clip. Muchos de ellos no. ¿
+
+00:12:11.012 --> 00:12:13.203
+Cuál es la fuerza del gancho de estos
+
+00:12:12.234 --> 00:12:14.999
+ clips?¿Qué tipo de clips son?¿
+
+00:12:13.999 --> 00:12:16.457
+Necesito la pantalla en ellos?¿Hay una
+
+00:12:15.489 --> 00:12:17.616
+ línea que se pueda citar dentro de
+
+00:12:16.649 --> 00:12:19.183
+ este clip? Y entonces podría empezar a
+
+00:12:18.222 --> 00:12:20.732
+ hacer que extrajera cosas que podrían
+
+00:12:19.772 --> 00:12:22.321
+ valer la pena volver a publicar en otro
+
+00:12:21.360 --> 00:12:23.870
+ lugar o que podrían valer la pena que
+
+00:12:22.910 --> 00:12:25.419
+ yo pensara en la forma en que hablo en
+
+00:12:24.459 --> 00:12:27.126
+ estos videos y cosas así. Y estas
+
+00:12:26.170 --> 00:12:28.530
+ fueron muchas formas en las que
+
+00:12:27.574 --> 00:12:30.196
+ pensaría sobre cómo tomar un corpus
+
+00:12:29.240 --> 00:12:31.643
+ de información, un montón y un
+
+00:12:30.687 --> 00:12:33.309
+ montón de datos que quiero que la IA
+
+00:12:32.353 --> 00:12:34.932
+ analice, pero en lugar de pagar más
+
+00:12:33.976 --> 00:12:36.598
+ por ello y esperar más, averigüemos
+
+00:12:35.642 --> 00:12:38.045
+ cómo podemos usar las preguntas
+
+00:12:37.089 --> 00:12:39.580
+ correctas para que Jev lo haga por
+
+00:12:38.624 --> 00:12:41.640
+ nosotros. Y entonces no solo podremos
+
+00:12:40.682 --> 00:12:43.177
+ tener algún tipo de vista de panel,
+
+00:12:42.218 --> 00:12:44.754
+ sino también cómo integramos Jev en
+
+00:12:43.796 --> 00:12:46.332
+ nuestras automatizaciones de back-end
+
+00:12:45.373 --> 00:12:47.993
+ reales donde realmente nos beneficiará
+
+00:12:47.034 --> 00:12:49.446
+ tener un modelo realmente barato y
+
+00:12:48.487 --> 00:12:50.899
+ rápido a medida que aumentamos el
+
+00:12:49.940 --> 00:12:52.615
+ rendimiento. Ahora bien, diré que no
+
+00:12:51.656 --> 00:12:54.206
+ se limiten a conectar Jev y confiar en
+
+00:12:53.247 --> 00:12:55.827
+ lo que dice automáticamente. Lo que
+
+00:12:54.876 --> 00:12:57.653
+ realmente querrás hacer es ejecutar
+
+00:12:56.703 --> 00:12:59.381
+ evaluaciones, lo que significa que
+
+00:12:58.431 --> 00:13:01.010
+ tendrás un conjunto de datos de
+
+00:13:00.060 --> 00:13:02.837
+ referencia de 100 casos de uso y 100
+
+00:13:01.886 --> 00:13:04.516
+ respuestas correctas, y luego los
+
+00:13:03.565 --> 00:13:06.293
+ revisarás con Jeff, con Opus y con
+
+00:13:05.342 --> 00:13:08.268
+ Soul, y verás qué modelo te ofrece el
+
+00:13:07.317 --> 00:13:10.045
+ mejor equilibrio entre precisión y
+
+00:13:09.094 --> 00:13:11.841
+ coste. Y si te importa la velocidad en
+
+00:13:10.885 --> 00:13:13.585
+ ese caso de uso, también la velocidad.
+
+00:13:12.685 --> 00:13:14.159
+ Pero aquí tienes otras cosas que
+
+00:13:13.174 --> 00:13:14.833
+ podrías hacer. Pero aquí hay otras
+
+00:13:13.850 --> 00:13:15.435
+ cosas que también podrías hacer.
+
+00:13:14.927 --> 00:13:17.491
+ Podrías ver el tipo de riesgo, el tipo
+
+00:13:16.531 --> 00:13:19.055
+ de cláusula, podrías crear cualquier
+
+00:13:18.096 --> 00:13:20.419
+ tipo de pregunta que realmente te
+
+00:13:19.460 --> 00:13:21.743
+ importe cuando estés examinando
+
+00:13:20.783 --> 00:13:23.147
+ contratos. Lo mismo ocurre con los
+
+00:13:22.187 --> 00:13:24.632
+ trabajos y los clientes potenciales.
+
+00:13:25.411 --> 00:13:27.257
+ Puedes obtener señales de alerta,
+
+00:13:26.282 --> 00:13:28.078
+ puedes obtener la calidad de los
+
+00:13:27.103 --> 00:13:28.999
+ clientes potenciales, puedes obtener
+
+00:13:28.024 --> 00:13:30.774
+ los siguientes pasos. También puedes
+
+00:13:29.816 --> 00:13:32.466
+ hacer algo como un enrutador de volcado
+
+00:13:31.508 --> 00:13:33.904
+ de información, en el que hablas
+
+00:13:32.946 --> 00:13:35.511
+ constantemente por teléfono o hablas
+
+00:13:34.553 --> 00:13:37.118
+ por algo, y luego se lo pasas a Jeff,
+
+00:13:36.160 --> 00:13:38.809
+ que puede decirte de qué tipo de cosas
+
+00:13:37.852 --> 00:13:40.501
+ estás hablando, si son ideas, tareas o
+
+00:13:39.543 --> 00:13:42.024
+ diarios, si tienes cosas con fechas
+
+00:13:41.066 --> 00:13:43.546
+ límite, si tienes cosas que son de
+
+00:13:42.588 --> 00:13:45.069
+ alta prioridad, en qué área de tu
+
+00:13:44.111 --> 00:13:47.273
+ vida están. Hay muchas formas de usar
+
+00:13:46.312 --> 00:13:48.830
+ esto porque parte de lo que hacemos con
+
+00:13:47.869 --> 00:13:50.270
+ la IA, como he dicho, es simplemente
+
+00:13:49.309 --> 00:13:51.827
+ averiguar qué hacer con todos nuestros
+
+00:13:50.866 --> 00:13:53.757
+ datos. Y Jev puede hacerlo muy bien. Y
+
+00:13:52.795 --> 00:13:55.176
+ creo que uno de los mejores ejemplos
+
+00:13:54.214 --> 00:13:56.480
+ aquí es la atención al cliente.
+
+00:13:55.599 --> 00:13:57.795
+ Simplemente enrutar correos
+
+00:13:56.839 --> 00:13:59.523
+ electrónicos, averiguar, ya sabes, el
+
+00:13:58.567 --> 00:14:00.985
+ sentimiento, la urgencia, lo que
+
+00:14:00.029 --> 00:14:02.712
+ tenemos que hacer, cómo categorizamos
+
+00:14:01.757 --> 00:14:04.453
+ este tipo de cosas. Creo que esto va a
+
+00:14:03.495 --> 00:14:05.919
+ cambiar enormemente las reglas del
+
+00:14:04.961 --> 00:14:07.386
+ juego para la atención al cliente
+
+00:14:06.428 --> 00:14:09.062
+ porque hay muchas decisiones diferentes
+
+00:14:08.104 --> 00:14:11.062
+ que hay que tomar. Y Jev es realmente
+
+00:14:10.123 --> 00:14:13.023
+ bueno, rápido y barato tomando
+
+00:14:12.084 --> 00:14:14.760
+ decisiones. Bueno, aquí hay otro caso
+
+00:14:13.791 --> 00:14:15.884
+ de uso que pensé que sería genial
+
+00:14:14.916 --> 00:14:17.009
+ para hacer una especie de prueba de
+
+00:14:16.040 --> 00:14:18.412
+ concepto. Esto es trading en papel.
+
+00:14:17.512 --> 00:14:20.035
+ Esto no está muy investigado. Hay
+
+00:14:19.080 --> 00:14:21.708
+ muchas cosas que están mal en esto,
+
+00:14:20.754 --> 00:14:23.517
+ pero creo que Jev, al ser tan en tiempo
+
+00:14:22.562 --> 00:14:25.326
+ real y tomar decisiones tan rápido, va
+
+00:14:24.371 --> 00:14:27.044
+ a ser realmente interesante ver cómo
+
+00:14:26.090 --> 00:14:28.446
+ afecta a cosas como el trading
+
+00:14:27.491 --> 00:14:30.255
+ intradía o el trading de criptomonedas
+
+00:14:29.300 --> 00:14:32.250
+ en tiempo real. Puedes ver que cada
+
+00:14:31.292 --> 00:14:33.798
+ segundo Jev básicamente predice: ¿
+
+00:14:32.798 --> 00:14:35.624
+esto va a subir?¿No me queda claro?¿
+
+00:14:34.624 --> 00:14:37.426
+Va a bajar? Puedes ver que estas
+
+00:14:36.476 --> 00:14:39.322
+ puntuaciones de confianza saltan cada
+
+00:14:38.371 --> 00:14:41.117
+ segundo, y así es como decide qué
+
+00:14:40.167 --> 00:14:42.878
+ hacer. Así es como decide aquí abajo
+
+00:14:41.916 --> 00:14:44.335
+ realizar operaciones, comprar cosas o
+
+00:14:43.374 --> 00:14:45.718
+ vender cosas. Ahora bien, por desgracia
+
+00:14:44.718 --> 00:14:46.793
+, hay muchas de estas tarifas aquí.
+
+00:14:45.893 --> 00:14:48.310
+ Por lo tanto, las tarifas son mucho
+
+00:14:47.350 --> 00:14:49.848
+ más caras que las decisiones que Jev
+
+00:14:48.889 --> 00:14:51.459
+ toma por nosotros. Por lo tanto, ese es
+
+00:14:50.496 --> 00:14:52.904
+ un problema en el que nos preguntamos:
+
+00:14:51.941 --> 00:14:54.127
+ bueno, ¿cuánto tendríamos que
+
+00:14:53.164 --> 00:14:55.535
+ obtener realmente para que esto valga
+
+00:14:54.572 --> 00:14:57.001
+ la pena? Pero aquí mismo, puedes ver
+
+00:14:56.038 --> 00:14:58.440
+ el coste de ejecutar estas decisiones.
+
+00:14:57.560 --> 00:14:59.910
+ Mira cuánto más nos habría costado
+
+00:14:58.947 --> 00:15:01.079
+ esto al día con otros modelos.
+
+00:15:00.280 --> 00:15:03.082
+ Mientras que Jev nos costaría solo
+
+00:15:02.134 --> 00:15:04.988
+ unos dos dólares al día ejecutarlo
+
+00:15:04.040 --> 00:15:06.791
+ 24/7, y Soul, Opus y Fable serían
+
+00:15:05.842 --> 00:15:08.800
+ significativamente más caros que Jev.
+
+00:15:08.079 --> 00:15:10.670
+ Ahora bien, también he visto a gente
+
+00:15:09.713 --> 00:15:12.391
+ en X haciendo cosas como que Jev juegue
+
+00:15:11.434 --> 00:15:14.025
+ a videojuegos y haga diferentes cosas
+
+00:15:13.068 --> 00:15:15.660
+ creativas y divertidas, y creo que es
+
+00:15:14.703 --> 00:15:17.208
+ genial, como el uso del navegador y
+
+00:15:16.251 --> 00:15:18.721
+ todo eso. Es genial ver lo que es
+
+00:15:17.760 --> 00:15:20.026
+ posible, pero creo que tienes que
+
+00:15:19.065 --> 00:15:21.523
+ pensar dónde está el traspaso porque
+
+00:15:20.562 --> 00:15:22.905
+ con el uso del navegador, no podía
+
+00:15:21.944 --> 00:15:24.434
+ escribir cosas. Básicamente tomaba
+
+00:15:23.468 --> 00:15:25.740
+ decisiones y tenía que dirigirse a un
+
+00:15:24.773 --> 00:15:27.012
+ modelo diferente que fuera mejor para
+
+00:15:26.045 --> 00:15:28.283
+ controlar realmente el navegador para
+
+00:15:27.317 --> 00:15:30.289
+ hacer cosas. Por eso quería mostrar
+
+00:15:29.330 --> 00:15:31.754
+ cómo se ve esto en estos ejemplos,
+
+00:15:30.794 --> 00:15:33.218
+ porque creo que al crear paneles de
+
+00:15:32.259 --> 00:15:34.764
+ control o automatizaciones en los que
+
+00:15:33.804 --> 00:15:36.228
+ Jev lo potencia en el back-end para
+
+00:15:35.269 --> 00:15:37.774
+ cosas que realmente te importan en tu
+
+00:15:36.815 --> 00:15:39.401
+ vida, como este tipo de cosas, es donde
+
+00:15:38.442 --> 00:15:41.028
+ empezarás a jugar con Jev y obtendrás
+
+00:15:40.069 --> 00:15:42.615
+ algún beneficio, y luego descubrirás
+
+00:15:41.655 --> 00:15:44.079
+ cómo puedes ampliar o extender tus
+
+00:15:43.120 --> 00:15:45.666
+ flujos de trabajo con otros modelos en
+
+00:15:44.706 --> 00:15:48.000
+ el back-end. Pero de todos modos,
+
+00:15:47.037 --> 00:15:49.275
+ espero que al ver estos ejemplos,
+
+00:15:48.312 --> 00:15:50.700
+ aunque todos estos eran muy similares
+
+00:15:49.737 --> 00:15:52.050
+ en el ámbito de la clasificación,
+
+00:15:51.088 --> 00:15:53.475
+ espero que te ayuden a entender cómo
+
+00:15:52.513 --> 00:15:54.863
+ puedes empezar a hacer las preguntas
+
+00:15:53.900 --> 00:15:56.326
+ correctas aquí y cómo puedes empezar
+
+00:15:55.363 --> 00:15:57.638
+ a trabajar en las cosas que estás
+
+00:15:56.676 --> 00:15:58.951
+ haciendo para que realmente tengan
+
+00:15:57.988 --> 00:16:01.047
+ sentido. Pero eso es todo por ahora.
+
+00:16:00.147 --> 00:16:02.200
+ Así que, si lo habéis disfrutado o
+
+00:16:01.229 --> 00:16:03.311
+ habéis aprendido algo nuevo, dadle a
+
+00:16:02.340 --> 00:16:04.388
+ me gusta, me ayuda mucho. Y como
+
+00:16:03.419 --> 00:16:05.617
+ siempre, agradezco que hayáis llegado
+
+00:16:04.649 --> 00:16:06.815
+ hasta el final del vídeo y nos vemos
+
+00:16:05.847 --> 00:16:08.633
+ en el próximo. Gracias a todos.

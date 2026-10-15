@@ -1,0 +1,31 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "ChatGPT Work",
+    "ChatGPT",
+    "skill-creator",
+    "Substack Notes",
+    "Think&Hack"
+  ],
+  "fecha": "2026-09-20",
+  "huella": "8300b014b9c219d63c20434d6d05e041f19bfd3e5a069e9684ae916669d6d636",
+  "id": "216545004",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 6,
+    "restacks": 0
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "ChatGPT Work",
+    "flujo agéntico sin terminal",
+    "separar instrucciones en skills",
+    "revisión de resultados",
+    "tareas programadas"
+  ],
+  "tema": "Skills para agentes",
+  "tesis": "Con ChatGPT Work puedes montar tu primer flujo agéntico sin abrir una terminal: guardar las instrucciones en skills separadas permite repetir el trabajo, corregir solo la parte que falla y revisar qué hizo el agente en cada paso.",
+  "titulo": "Deja de explicarle lo mismo a ChatGPT. Monta un proceso con Work.",
+  "url": "https://ainalluna.substack.com/p/como-usar-chatgpt-work"
+}

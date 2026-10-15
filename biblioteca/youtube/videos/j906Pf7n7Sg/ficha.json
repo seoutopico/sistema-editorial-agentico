@@ -1,0 +1,118 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "00:01",
+      "texto": "Esta semana han salido tres modelos nuevos: GPT-6 Sol y GPT-6 Luna de OpenAI (desapareciendo la gama Terra) y Claude Opus 5.5 de Anthropic.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "02:06",
+      "texto": "Los nuevos GPT-6 Sol y Luna llegan con un descuento del 50% en el precio de la API y cuotas de uso que duran más en la suscripción de ChatGPT.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "00:33",
+      "texto": "Opus 5.5 mejora a Opus 5.0 (que salió 'bastante rana'), iguala en algunas tareas a Fable 5.1 y es más eficiente con las cuotas de uso.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "04:11",
+      "texto": "Las capacidades de la IA evolucionan como sigmoides que se recorren en tiempos distintos por dominio: lenguaje en 2022-2024, programación en 2024-2026 y creación audiovisual en los dos últimos meses.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "08:58",
+      "texto": "Para conseguir animaciones atractivas no basta con pedir 'hazme una animación': hay que dar referencias y condicionar a estilos ya establecidos en el prompt.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "10:00",
+      "texto": "Adaptando un prompt compartido por otro usuario, Opus 5.5 genera una animación pixel art de una red neuronal con forward pass y backpropagation; para ser 'riguroso' entrena un multilayer perceptron real con MNIST y las animaciones son fieles al entrenamiento.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "13:45",
+      "texto": "Con el mismo prompt de un juego de un pangolín surfero en pixel art, GPT-6 Astra produce un juego normalito con físicas mal calibradas y pixel art simulado vía modelo de imagen, mientras que Opus 5.5 entrega one shot un juego con pixel art puro, varios niveles y música reactiva.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "16:19",
+      "texto": "En un diorama pixel art sobre OpenAI y Anthropic, ChatGPT se apoya en su modelo de imágenes (estética imitada, textos por todas partes) mientras Opus 5.5 produce un pixel art programático lleno de memes y detalles animados.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "19:56",
+      "texto": "Para las animaciones del vídeo de Jeff, Opus 5.5 genera one shot, sincronizada con el audio, una animación superior a la que ChatGPT logró tras varias iteraciones y que el autor sitúa por encima de lo que él haría para su canal principal.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "22:32",
+      "texto": "Claude puede reconstruir una escena de referencia dentro de After Effects dejando el 90-95% del trabajo hecho como punto de partida editable; lo mismo aplicaría a Unity o Blender.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "24:06",
+      "texto": "Con 10 prompts en una tarde, GPT-6 Astra en modo agente crea una demo web tipo GTA de Las Palmas de Gran Canaria, descargando cartografía y alturas de mapas satelitales y modelando la ciudad con su callejero real.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "13:14",
+      "texto": "GPT-6 Astra sigue siendo superior a Opus 5.5 en la mayoría de tareas no visuales y con mayor eficiencia, pero en materia audiovisual no hay comparación.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "23:03",
+      "texto": "Estamos en un mundo distinto al de hace mes y medio: las nuevas capacidades hacen sinergia con lo anterior (programación, agentes) y aún no vemos las segundas y terceras derivadas de lo que desbloquean.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "Dot CSV Lab ",
+  "avisos_transcripcion": [
+    "En 20:26-21:29 la transcripción mezcla la narración del autor con el audio de la animación que se reproduce en pantalla; las frases entrecortadas ('tura de datos con abre corchete...') pertenecen al vídeo mostrado, no al discurso.",
+    "En 10:34 'momento Lise Dol' es probablemente una transcripción confusa de 'momento Lee Sedol' (referencia a AlphaGo)."
+  ],
+  "demuestra": "En pantalla enseña: la animación pixel art de una red neuronal donde Opus 5.5 entrena un MLP real con MNIST para que el forward/backward pass sea riguroso; la comparación del mismo prompt de juego de pangolín surfero (Astra vs Opus 5.5, con el juego de Opus jugable, con niveles y música reactiva); dioramas pixel art de OpenAI/Anthropic de ambos modelos; animaciones sincronizadas con audio para el vídeo de Jeff que superan a su flujo anterior con ChatGPT; una escena reconstruida por Claude dentro de After Effects; y una demo web tipo GTA de Las Palmas creada por GPT-6 Astra con 10 prompts.",
+  "entidades": [
+    "Claude Opus 5.5",
+    "Claude Opus 5",
+    "Claude Fable 5.1",
+    "GPT-6 Astra",
+    "GPT-6 Sol",
+    "GPT-6 Luna",
+    "Anthropic",
+    "OpenAI",
+    "ChatGPT",
+    "After Effects",
+    "Blender",
+    "Unity",
+    "MNIST",
+    "JavaScript",
+    "Carlos Santana (Dot CSV)"
+  ],
+  "fecha": "2026-09-24",
+  "fuente": "youtube",
+  "huella": "1c49ccf6a1e709f12a6d8c7fc4018ffca778bfb50906c4a34d25bc8d10a4bac2",
+  "id": "j906Pf7n7Sg",
+  "preguntas_abiertas": [
+    "¿Cuánto cuestan en tiempo y tokens estas generaciones (40-50 minutos por animación) y qué plan o cuota hace falta para trabajar así a diario?",
+    "¿Cómo se integra Claude con After Effects o Blender en la práctica (MCP, scripting, agente)? El vídeo no enseña el mecanismo.",
+    "¿Qué tasa de fallo hay? Solo se muestran los resultados buenos; no se ve cuántos intentos descartó ni cómo se depura un resultado malo.",
+    "¿Cuáles eran los prompts completos y qué peso tiene la referencia de estilo frente al modelo? No hay comparación controlada.",
+    "¿Qué implicaciones laborales y de flujo de trabajo tiene esto para animadores y motion designers más allá del entusiasmo del autor?"
+  ],
+  "promete_sin_demostrar": "Que las mejoras de eficiencia y el descuento del 50% en la API de GPT-6 Sol/Luna se noten de verdad en las cuotas (lo cita del anuncio, no lo mide); que Opus 5.5 iguale a Fable 5.1 en determinadas tareas y respete mejor las cuotas; que Astra siga siendo más inteligente que Opus 5.5 en tareas no visuales; el marco de las sigmoides por dominio como explicación del progreso (modelo mental, sin datos); y que la técnica funcione igual en Unity, Blender o cualquier software de diseño (solo enseña After Effects).",
+  "senales": {
+    "dias": 20,
+    "interaccion": 0.0213,
+    "multiplo_mediana": 3.98
+  },
+  "subtemas": [
+    "creación audiovisual con IA",
+    "comparativa de modelos",
+    "referencias de estilo en prompts",
+    "razonamiento antes de renderizar"
+  ],
+  "tema": "Contenido y curación con IA",
+  "tesis": "En los últimos dos meses los modelos de lenguaje han recorrido la fase exponencial de su sigmoide en creación audiovisual, y Claude Opus 5.5 lidera ese salto frente a GPT-6 Astra en animación, pixel art, motion graphics y diseño de videojuegos.",
+  "url": "https://www.youtube.com/watch?v=j906Pf7n7Sg"
+}

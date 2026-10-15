@@ -1,0 +1,3301 @@
+WEBVTT
+
+00:00:00.100 --> 00:00:02.993
+He estado probando Opus 5.5 y GBG 6
+
+00:00:02.047 --> 00:00:05.103
+ Soul todo el día, y los puse a prueba
+
+00:00:04.157 --> 00:00:07.480
+ en 10 casos de uso diferentes. Hablo de
+
+00:00:06.540 --> 00:00:09.640
+ cosas como crear sitios web, editar
+
+00:00:08.700 --> 00:00:11.920
+ videos, hacer presentaciones, uso del
+
+00:00:10.980 --> 00:00:14.200
+ navegador, mucho razonamiento y otras
+
+00:00:13.260 --> 00:00:16.142
+ cosas más. Así que no perdamos tiempo
+
+00:00:15.179 --> 00:00:17.430
+ y entremos de lleno en este video.
+
+00:00:16.530 --> 00:00:18.805
+ Bueno, antes de empezar a ver todas
+
+00:00:17.842 --> 00:00:20.227
+ estas comparaciones, quería hablarles
+
+00:00:19.263 --> 00:00:21.612
+ rápidamente sobre el precio de estos
+
+00:00:20.648 --> 00:00:23.855
+ dos modelos. Opus 5.5 a la izquierda
+
+00:00:22.921 --> 00:00:26.227
+ cuesta el doble que GBG 6 Soul a la
+
+00:00:25.292 --> 00:00:28.371
+ derecha. Pueden ver que Opus cuesta
+
+00:00:27.423 --> 00:00:30.482
+ cuatro dólares por la entrada y 20 por
+
+00:00:29.534 --> 00:00:32.592
+ la salida, mientras que Soul cuesta 2 y
+
+00:00:31.645 --> 00:00:34.641
+ 10 dólares. La razón por la que
+
+00:00:33.694 --> 00:00:36.605
+ quería mencionar esto es porque, al
+
+00:00:35.658 --> 00:00:38.727
+ ver estos precios, mi instinto me dice:
+
+00:00:37.781 --> 00:00:40.797
+ "Bueno, probablemente Opus sea un poco
+
+00:00:39.850 --> 00:00:42.569
+ mejor que Soul". Eso es lo que
+
+00:00:41.603 --> 00:00:43.885
+ normalmente piensas cuando algo es un
+
+00:00:42.920 --> 00:00:45.782
+ poco más caro. Sé que muchos de
+
+00:00:44.835 --> 00:00:47.694
+ ustedes pueden no estar de acuerdo,
+
+00:00:46.748 --> 00:00:49.713
+ pero la forma en que me gusta ver los
+
+00:00:48.767 --> 00:00:51.679
+ modelos de IA es pensar: "Si tuviera
+
+00:00:50.732 --> 00:00:53.751
+ cien dólares y se los diera a Opus, y
+
+00:00:52.805 --> 00:00:55.877
+ otros cien a Soul, ¿cuál me daría un
+
+00:00:54.930 --> 00:00:58.002
+ mejor resultado o calidad por esos cien
+
+00:00:57.055 --> 00:01:00.076
+ dólares?". Por eso creo que es
+
+00:00:59.133 --> 00:01:02.345
+ importante analizar esa métrica; tengo
+
+00:01:01.401 --> 00:01:04.443
+ una idea de cómo podrían ser estos
+
+00:01:03.500 --> 00:01:06.314
+ modelos, pero obviamente por eso
+
+00:01:05.371 --> 00:01:08.375
+ hacemos pruebas. En fin, ahora que ya
+
+00:01:07.421 --> 00:01:10.162
+ nos ocupamos de eso, pasemos a algunos
+
+00:01:09.207 --> 00:01:12.147
+ ejemplos. Rápido, antes de entrar en
+
+00:01:11.188 --> 00:01:13.734
+ los 10 casos de uso, quería hacer un
+
+00:01:12.776 --> 00:01:15.322
+ ejemplo sencillo solo para mostrarles
+
+00:01:14.363 --> 00:01:17.299
+ qué se siente y cómo piensan. A la
+
+00:01:16.345 --> 00:01:19.149
+ izquierda tenemos a Soul y a la derecha
+
+00:01:18.195 --> 00:01:20.999
+ a Opus, en la aplicación de escritorio
+
+00:01:20.045 --> 00:01:22.664
+ de Claude y de Codex, y envié este
+
+00:01:21.710 --> 00:01:24.144
+ mensaje: "Trae mis dos últimas
+
+00:01:23.191 --> 00:01:25.532
+ llamadas de Fireflies para la
+
+00:01:24.578 --> 00:01:27.012
+ planificación P4 e ingesta las
+
+00:01:26.058 --> 00:01:28.518
+ transcripciones en la wiki". Lo
+
+00:01:27.550 --> 00:01:29.610
+ escribí mal, así que espero que
+
+00:01:28.642 --> 00:01:31.019
+ entienda a qué me refería. Y dije: "
+
+00:01:30.019 --> 00:01:32.570
+Luego encuéntrame mi última sesión
+
+00:01:31.611 --> 00:01:34.204
+ de preguntas y respuestas de AIS donde
+
+00:01:33.246 --> 00:01:35.797
+ incluí llamadas en una wiki y una de
+
+00:01:34.839 --> 00:01:37.588
+ ellas está buscando algo". Será
+
+00:01:36.670 --> 00:01:40.784
+ interesante ver cómo piensan al hacer
+
+00:01:39.866 --> 00:01:43.055
+ esto en paralelo. Lo otro es que esto
+
+00:01:42.088 --> 00:01:44.259
+ no es algo súper, súper sencillo.
+
+00:01:43.379 --> 00:01:45.915
+ Estas dos llamadas combinadas suman
+
+00:01:44.959 --> 00:01:47.539
+ unas 4 horas de transcripción, así
+
+00:01:46.582 --> 00:01:49.294
+ que tiene que crear todos esos enlaces,
+
+00:01:48.338 --> 00:01:51.157
+ los índices y vincularlo todo. Así
+
+00:01:50.197 --> 00:01:52.626
+ que no es súper sencillo, pero solo
+
+00:01:51.665 --> 00:01:54.094
+ quiero ver qué tal se sienten estos
+
+00:01:53.134 --> 00:01:55.602
+ modelos y qué tan rápidos y ligeros
+
+00:01:54.642 --> 00:01:57.821
+ parecen. Y pueden ver que, hasta ahora,
+
+00:01:56.872 --> 00:01:59.748
+ Soul parece estar mucho más avanzado
+
+00:01:58.799 --> 00:02:01.543
+ que Opus 5.5. Está haciendo ambas
+
+00:02:00.590 --> 00:02:03.321
+ cosas en paralelo, como dije. Está
+
+00:02:02.361 --> 00:02:04.610
+ buscando las nuevas llamadas de
+
+00:02:03.651 --> 00:02:06.141
+ Fireflies y ajustándolas, y también
+
+00:02:05.182 --> 00:02:07.511
+ está localizando las preguntas y
+
+00:02:06.552 --> 00:02:09.060
+ respuestas al mismo tiempo. Así que
+
+00:02:08.085 --> 00:02:10.051
+ esto es bastante interesante. Han
+
+00:02:09.097 --> 00:02:11.839
+ pasado unos 6 minutos y Claude volvió
+
+00:02:10.885 --> 00:02:13.397
+ y dijo: "Oye, noté que algo más
+
+00:02:12.443 --> 00:02:15.001
+ también está haciendo esto". "
+
+00:02:14.001 --> 00:02:16.356
+Entonces, notó que Codex lo estaba
+
+00:02:15.394 --> 00:02:17.865
+ haciendo, y Codex hasta ahora tiene la
+
+00:02:16.904 --> 00:02:19.220
+ respuesta incorrecta sobre cuándo
+
+00:02:18.258 --> 00:02:20.768
+ mencioné a N por última vez y dijo el
+
+00:02:19.806 --> 00:02:22.006
+ 17 de agosto, pero la respuesta
+
+00:02:21.045 --> 00:02:23.515
+ correcta es la que encontró Opus, que
+
+00:02:22.554 --> 00:02:25.074
+ fue el 14 de septiembre". Así que, en
+
+00:02:24.104 --> 00:02:26.278
+ fin, dije que omitiera, que estaba bien
+
+00:02:25.278 --> 00:02:27.700
+. Ambos modelos siguen procesando, y
+
+00:02:26.738 --> 00:02:29.219
+ Soul acaba de terminar, como pueden ver
+
+00:02:28.219 --> 00:02:30.761
+, y obtuvo esta respuesta incorrecta. Y
+
+00:02:29.798 --> 00:02:32.362
+ eso no es bueno, ¿verdad? Es decir, no
+
+00:02:31.404 --> 00:02:34.017
+ es tan difícil para un modelo revisar
+
+00:02:33.059 --> 00:02:35.374
+ un montón de transcripciones y
+
+00:02:34.417 --> 00:02:36.902
+ encontrar la más reciente donde se
+
+00:02:35.945 --> 00:02:38.599
+ mencionó a N. Probablemente sea porque
+
+00:02:37.642 --> 00:02:40.254
+ estaba mal deletreado, como N N o N N,
+
+00:02:39.297 --> 00:02:41.612
+ como pueden ver aquí cuando se
+
+00:02:40.655 --> 00:02:43.310
+ transcribió, pero aun así, siento que
+
+00:02:42.352 --> 00:02:44.964
+ es un problema que Soul debería haber
+
+00:02:44.007 --> 00:02:46.418
+ encontrado para mí. Y terminaron
+
+00:02:45.457 --> 00:02:47.846
+ básicamente en la misma cantidad de
+
+00:02:46.884 --> 00:02:49.389
+ tiempo, pero la respuesta de Opus aquí
+
+00:02:48.427 --> 00:02:50.840
+ fue definitivamente mejor. Así que
+
+00:02:49.879 --> 00:02:52.348
+ este experimento muy rápido nos da un
+
+00:02:51.387 --> 00:02:53.740
+ poco de base para tener en cuenta a
+
+00:02:52.779 --> 00:02:55.016
+ medida que nos adentramos en los
+
+00:02:54.055 --> 00:02:56.555
+ próximos 10 casos de uso reales. Así
+
+00:02:55.586 --> 00:02:57.822
+ que vamos directo al grano. Bien, el
+
+00:02:56.857 --> 00:02:59.066
+ primero fue un diseño de sitio web
+
+00:02:58.101 --> 00:03:01.047
+ rápido. En los 10 ejemplos, les di a
+
+00:03:00.103 --> 00:03:03.009
+ ambos modelos exactamente el mismo
+
+00:03:02.065 --> 00:03:04.251
+ mensaje. Entonces, aquí hay un
+
+00:03:03.280 --> 00:03:05.914
+ resultado. Todavía no les diré cuál
+
+00:03:04.960 --> 00:03:07.436
+ fue. Tenemos Perk Form, tu mañana no
+
+00:03:06.471 --> 00:03:08.964
+ debería requerir dos bebidas. Podemos
+
+00:03:08.011 --> 00:03:10.779
+ ver que, al mover el mouse, las llaves
+
+00:03:09.825 --> 00:03:12.454
+ y la lata en el fondo están en una
+
+00:03:11.501 --> 00:03:14.189
+ capa diferente. Solo desplazamos hacia
+
+00:03:13.217 --> 00:03:15.073
+ abajo y obtenemos esta pequeña
+
+00:03:14.101 --> 00:03:16.191
+ animación aquí mismo. Puedes ver
+
+00:03:15.227 --> 00:03:17.433
+ cómo entran en juego las capas, y
+
+00:03:16.469 --> 00:03:18.675
+ ahora tenemos una imagen diferente
+
+00:03:17.711 --> 00:03:20.042
+ aquí abajo. Café en una mano,
+
+00:03:19.087 --> 00:03:21.910
+ proteína en la otra. Dos compras, dos
+
+00:03:20.950 --> 00:03:23.253
+ cosas que cargar, un agitador que
+
+00:03:22.292 --> 00:03:25.681
+ enjuagar, bla, bla, bla. O tenemos Oh,
+
+00:03:24.759 --> 00:03:27.912
+ tira de la lengüeta. Me gusta esa
+
+00:03:26.947 --> 00:03:30.022
+ pequeña animación. Eso es genial. Hm,
+
+00:03:29.076 --> 00:03:32.132
+ sale un poco de humo. Tu café y
+
+00:03:31.192 --> 00:03:34.352
+ proteína en una lata. Seguimos bajando
+
+00:03:33.392 --> 00:03:35.840
+ aquí. Tenemos animaciones de texto con
+
+00:03:34.875 --> 00:03:37.159
+ todo el texto apareciendo a la vista.
+
+00:03:36.313 --> 00:03:38.778
+ Elige tu primera lata aquí. Bien, una
+
+00:03:37.815 --> 00:03:39.987
+ pequeña animación de rotación
+
+00:03:39.023 --> 00:03:41.778
+ agradable. Creo que eso se ve bastante
+
+00:03:40.826 --> 00:03:43.939
+ limpio, la verdad. Y bajamos aquí a
+
+00:03:42.988 --> 00:03:45.815
+ algunas preguntas frecuentes, y luego
+
+00:03:44.865 --> 00:03:47.919
+ salimos. No estoy seguro si es un error
+
+00:03:46.961 --> 00:03:49.455
+ o si simplemente sale de cuadro muy
+
+00:03:48.497 --> 00:03:51.369
+ rápido. Pero en fin, este fue un
+
+00:03:50.428 --> 00:03:53.279
+ resultado. Echemos un vistazo al otro
+
+00:03:52.324 --> 00:03:54.945
+ justo aquí. Podemos ver si recargamos,
+
+00:03:53.980 --> 00:03:56.232
+ obtenemos que tu mañana no debería
+
+00:03:55.267 --> 00:03:57.923
+ requerir dos bebidas. No es una imagen
+
+00:03:56.962 --> 00:03:59.363
+ principal tan fuerte por ahora, pero
+
+00:03:58.402 --> 00:04:00.919
+ nos desplazamos y empezamos a ver otras
+
+00:03:59.958 --> 00:04:02.126
+ animaciones de texto también.
+
+00:04:01.226 --> 00:04:03.818
+ Obtenemos como una pequeña apertura de
+
+00:04:02.859 --> 00:04:05.612
+ bóveda. Tenemos un estilo de imagen de
+
+00:04:04.649 --> 00:04:07.096
+ empaque extraño en lugar de una imagen
+
+00:04:06.133 --> 00:04:08.432
+ realista, así que creo que fue una
+
+00:04:07.469 --> 00:04:10.288
+ mala elección de diseño ahí. Hm,
+
+00:04:09.331 --> 00:04:11.959
+ pero puedes ver que ambos mantienen el
+
+00:04:11.002 --> 00:04:13.459
+ mismo tipo de narrativa y la misma
+
+00:04:12.501 --> 00:04:15.712
+ marca. Obtenemos el mismo tipo de
+
+00:04:14.751 --> 00:04:17.253
+ animaciones de texto. Obtenemos, hm,
+
+00:04:16.295 --> 00:04:18.835
+ una vez más las imágenes de empaque
+
+00:04:17.876 --> 00:04:20.249
+ en lugar de imágenes de producto
+
+00:04:19.291 --> 00:04:22.163
+ reales, lo cual no me encanta. Y, en
+
+00:04:21.220 --> 00:04:24.440
+ general, este parece mucho más simple.
+
+00:04:24.004 --> 00:04:26.587
+ Definitivamente no tan premium como el
+
+00:04:25.629 --> 00:04:27.912
+ primero. Así que este primero fue
+
+00:04:26.946 --> 00:04:29.237
+ definitivamente el ganador en cuanto a
+
+00:04:28.271 --> 00:04:31.931
+ diseño y estilo. Y este fue Opus 5.5,
+
+00:04:31.019 --> 00:04:34.580
+ y este fue GVD6 Soul. Muy rápido,
+
+00:04:33.624 --> 00:04:36.091
+ chicos, por cierto, si quieren la
+
+00:04:35.135 --> 00:04:37.868
+ habilidad utilizada para generar sitios
+
+00:04:36.912 --> 00:04:39.468
+ web con desplazamiento y capas como
+
+00:04:38.512 --> 00:04:40.979
+ estos ejemplos que vieron, pueden
+
+00:04:40.023 --> 00:04:42.560
+ obtenerla completamente gratis. El
+
+00:04:41.590 --> 00:04:43.632
+ enlace para eso estará abajo en la
+
+00:04:42.662 --> 00:04:45.348
+ descripción. Volvamos al video. Ahora,
+
+00:04:44.392 --> 00:04:47.081
+ cuando miramos los precios, podemos ver
+
+00:04:46.125 --> 00:04:48.814
+ aquí que ambos tomaron unos 35 minutos
+
+00:04:47.814 --> 00:04:50.594
+. Opus tardó un poco más, y Opus
+
+00:04:49.646 --> 00:04:52.554
+ también costó tres veces más. Es
+
+00:04:51.639 --> 00:04:55.702
+ decir, 1832 comparado con 589. Pero,
+
+00:04:54.768 --> 00:04:58.076
+ ahora mismo, a pesar del precio, el
+
+00:04:57.142 --> 00:05:00.713
+ ganador de este experimento es sin duda
+
+00:04:59.779 --> 00:05:03.420
+ Opus 5.5. Así que, 1-0 para Opus 5.5.
+
+00:05:03.159 --> 00:05:05.655
+ Bien, el ejemplo número dos es algo
+
+00:05:04.696 --> 00:05:07.276
+ que creo que es un punto de referencia
+
+00:05:06.317 --> 00:05:08.689
+ muy, muy bueno que podría seguir
+
+00:05:07.730 --> 00:05:10.309
+ usando para todos estos modelos, donde
+
+00:05:09.351 --> 00:05:11.806
+ básicamente les doy este enlace de
+
+00:05:10.847 --> 00:05:13.136
+ Frame.io con montones de videos
+
+00:05:12.177 --> 00:05:14.798
+ diferentes, 100 GB de videos de nuestro
+
+00:05:13.839 --> 00:05:16.841
+ reciente evento AIS Live. Y
+
+00:05:15.882 --> 00:05:18.412
+ básicamente les pedí que crearan un
+
+00:05:17.454 --> 00:05:19.984
+ video promocional, uno de 30 segundos
+
+00:05:19.025 --> 00:05:21.638
+ que nos ayude a promocionar el próximo
+
+00:05:20.680 --> 00:05:23.210
+ evento, que es el 17 y 18 de octubre,
+
+00:05:22.251 --> 00:05:24.863
+ por si les interesa. Definitivamente
+
+00:05:23.905 --> 00:05:26.326
+ véanlo. Pondré un enlace al evento en
+
+00:05:25.359 --> 00:05:27.430
+ la descripción. Pero, en fin,
+
+00:05:26.464 --> 00:05:28.727
+ básicamente quiero que revisen todo,
+
+00:05:27.761 --> 00:05:30.057
+ cuenten una historia a partir de eso y
+
+00:05:29.091 --> 00:05:31.285
+ hagan un video promocional lleno de
+
+00:05:30.319 --> 00:05:32.626
+ energía. Así que, echemos un vistazo
+
+00:05:31.652 --> 00:05:34.398
+ a ambos resultados. Este primero será
+
+00:05:33.461 --> 00:05:35.220
+ de Opus 5.5.
+
+00:05:34.931 --> 00:05:37.628
+ Hola, hola, AIS Live. Mi nombre es
+
+00:05:37.060 --> 00:05:39.630
+ Dios mío, estoy muy emocionado por
+
+00:05:38.675 --> 00:05:39.900
+ esto.
+
+00:05:39.599 --> 00:05:42.079
+ Vamos, vamos a ponerle energía a esto.
+
+00:05:55.040 --> 00:05:57.519
+ Han sido unos grandes 2 días.
+
+00:06:04.500 --> 00:06:08.718
+ Guau. Bien. Fue la primera vez que vi
+
+00:06:07.771 --> 00:06:10.247
+ eso, y diré que es muy, muy
+
+00:06:09.300 --> 00:06:12.494
+ impresionante. Es decir, me parece casi
+
+00:06:11.544 --> 00:06:14.436
+ más impresionante que cuando Astra lo
+
+00:06:13.485 --> 00:06:16.369
+ hizo en su primer intento. Así que,
+
+00:06:15.408 --> 00:06:18.371
+ eso estuvo muy, muy bien. Quiero decir,
+
+00:06:17.437 --> 00:06:21.120
+ miren cómo hizo las capas aquí. Y, ya
+
+00:06:20.156 --> 00:06:22.556
+ saben, parte de esto se sintió un poco
+
+00:06:21.592 --> 00:06:23.991
+ estático, pero la música, los efectos
+
+00:06:23.027 --> 00:06:25.319
+ de sonido, el ritmo, la forma en que
+
+00:06:24.355 --> 00:06:26.324
+ entraba y salía, toda esta
+
+00:06:25.360 --> 00:06:27.979
+ superposición. Quiero decir, pensé
+
+00:06:27.028 --> 00:06:29.890
+ que esto fue realmente muy, muy bueno.
+
+00:06:28.990 --> 00:06:31.618
+ Definitivamente mejor de lo que pensé
+
+00:06:30.661 --> 00:06:33.125
+ que me iba a dar. Muy bien, ahora
+
+00:06:32.167 --> 00:06:34.735
+ echaremos un vistazo a la versión de
+
+00:06:33.778 --> 00:06:36.599
+ Soul. Esto ha sido tan energizante.
+
+00:06:40.420 --> 00:06:57.493
+ Cloud Code es mi motor principal. Puedo
+
+00:06:56.539 --> 00:06:59.131
+ irme a dormir, regresar y seguirá
+
+00:06:58.178 --> 00:06:59.740
+ funcionando.
+
+00:07:04.020 --> 00:07:07.588
+ Okay. Eh, quiero decir, sigue siendo
+
+00:07:06.632 --> 00:07:09.263
+ impresionante, pero no me da la misma
+
+00:07:08.308 --> 00:07:11.715
+ energía. No tuvo esa misma sensación
+
+00:07:10.783 --> 00:07:13.837
+ de ritmo rápido. No me emociona tanto
+
+00:07:12.874 --> 00:07:15.266
+ por el próximo evento en comparación
+
+00:07:14.303 --> 00:07:17.164
+ con la versión de Opus. Así que, Opus
+
+00:07:16.226 --> 00:07:19.366
+ 5.5 definitivamente gana eso en mi
+
+00:07:18.429 --> 00:07:21.560
+ opinión. Entonces, Opus lleva dos de
+
+00:07:20.615 --> 00:07:23.731
+ dos, y pueden ver aquí que en cuanto a
+
+00:07:22.785 --> 00:07:25.901
+ tiempo y precio, Opus fue más rápido,
+
+00:07:24.955 --> 00:07:27.800
+ 5 minutos más rápido, además de
+
+00:07:26.854 --> 00:07:30.127
+ costar solo el doble. Así que, aunque
+
+00:07:29.192 --> 00:07:32.711
+ Opus fue cinco dólares más caro aquí
+
+00:07:31.711 --> 00:07:34.972
+, le doy el punto a Opus. Opus va dos a
+
+00:07:34.013 --> 00:07:36.607
+ cero en este momento, y estoy muy, muy
+
+00:07:35.649 --> 00:07:38.116
+ contento de que estemos viendo esto
+
+00:07:37.158 --> 00:07:39.843
+ porque Opus 5 era realmente malo. O sea
+
+00:07:38.843 --> 00:07:41.331
+, no he usado Opus 5 en mucho tiempo.
+
+00:07:40.431 --> 00:07:43.119
+ Estaba usando la 4.8. Y Opus 5 era
+
+00:07:42.154 --> 00:07:44.619
+ simplemente tan, tan malo. Era muy
+
+00:07:43.684 --> 00:07:46.511
+ lento. Pero, Opus 5.5 hasta ahora,
+
+00:07:45.557 --> 00:07:48.135
+ realmente lo he estado disfrutando
+
+00:07:47.181 --> 00:07:50.471
+ mucho. Me siento bien al volver a usar
+
+00:07:49.517 --> 00:07:52.320
+ un poco más mi suscripción de Claude,
+
+00:07:51.366 --> 00:07:53.845
+ porque realmente me gustan ambos
+
+00:07:52.891 --> 00:07:55.509
+ arneses y tienen diferentes modelos
+
+00:07:54.555 --> 00:07:58.308
+ buenos. Me encanta Astra, pero Opus 5.5
+
+00:07:57.308 --> 00:08:00.085
+, por el costo, me tiene bastante
+
+00:07:59.139 --> 00:08:02.115
+ entusiasmado. Pero bueno, pasemos al
+
+00:08:01.162 --> 00:08:03.764
+ caso de uso número tres. Muy bien,
+
+00:08:02.802 --> 00:08:05.279
+ para el caso de uso número tres, vamos
+
+00:08:04.317 --> 00:08:06.797
+ a hacer un reel de Instagram. Le pedí
+
+00:08:05.833 --> 00:08:08.211
+ que usara hyper frames. Le pedí que lo
+
+00:08:07.242 --> 00:08:09.741
+ editara. Le di a ambos modelos el mismo
+
+00:08:08.779 --> 00:08:11.445
+ material y el mismo aviso. Comencemos
+
+00:08:10.502 --> 00:08:13.722
+ esta vez con el resultado de GPT-6 Soul
+
+00:08:12.722 --> 00:08:15.389
+. No voy a mostrar todo el reel, pero
+
+00:08:14.430 --> 00:08:16.413
+ aquí vamos. Deja de darle
+
+00:08:15.444 --> 00:08:18.002
+ instrucciones a Claude. Andrej Karpathy
+
+00:08:17.038 --> 00:08:19.400
+ cree que hay una forma mucho mejor de
+
+00:08:18.437 --> 00:08:20.872
+ trabajar con IA y su método tiene tres
+
+00:08:19.909 --> 00:08:21.847
+ capas. La capa uno es la
+
+00:08:20.883 --> 00:08:23.439
+ especificación. En lugar de darle una
+
+00:08:22.478 --> 00:08:24.690
+ tarea a Claude y esperar que te
+
+00:08:23.729 --> 00:08:26.135
+ entienda, trabaja con él para crear
+
+00:08:25.175 --> 00:08:27.660
+ primero una especificación detallada.
+
+00:08:26.938 --> 00:08:29.331
+ Haz que Claude te entreviste sobre lo
+
+00:08:28.369 --> 00:08:30.724
+ que realmente intentas lograr, luego
+
+00:08:29.762 --> 00:08:32.193
+ divide el trabajo en puntos de control
+
+00:08:31.231 --> 00:08:33.656
+ más pequeños antes de comenzar. La
+
+00:08:32.697 --> 00:08:35.210
+ capa dos es el verificador. Antes de
+
+00:08:34.245 --> 00:08:36.239
+ que Claude haga algo, define
+
+00:08:35.275 --> 00:08:37.375
+ exactamente cómo se ve un buen
+
+00:08:36.411 --> 00:08:38.695
+ resultado. Luego dale formas de
+
+00:08:37.736 --> 00:08:40.354
+ verificar su propio trabajo, ya sea con
+
+00:08:39.395 --> 00:08:41.764
+ otro modelo de IA, datos reales o
+
+00:08:40.805 --> 00:08:43.215
+ pruebas que pueda ejecutar por sí
+
+00:08:42.257 --> 00:08:44.925
+ mismo. Bien, no estoy impresionado en
+
+00:08:43.969 --> 00:08:47.306
+ absoluto. Hay un extraño zumbido de
+
+00:08:46.368 --> 00:08:49.581
+ fondo. Realmente no hay muchas
+
+00:08:48.635 --> 00:08:51.708
+ animaciones atractivas y no hay música
+
+00:08:50.761 --> 00:08:53.888
+ en absoluto. Creo que este es un
+
+00:08:52.940 --> 00:08:56.489
+ resultado muy mediocre. Ashly hace un
+
+00:08:55.539 --> 00:08:58.336
+ trabajo mucho mejor editando reels y
+
+00:08:57.386 --> 00:09:00.133
+ videos, pero esto no es algo que yo
+
+00:08:59.183 --> 00:09:01.831
+ hubiera publicado en mi cuenta de
+
+00:09:00.881 --> 00:09:04.473
+ Instagram de verdad. Hubiera querido
+
+00:09:03.526 --> 00:09:06.588
+ iterar mucho más que solo lo que vemos
+
+00:09:05.641 --> 00:09:08.598
+ aquí. Y ahora echemos un vistazo a la
+
+00:09:07.640 --> 00:09:10.317
+ versión de este reel de Opus 5.5. Deja
+
+00:09:09.348 --> 00:09:11.622
+ de darle instrucciones a Claude. Andre
+
+00:09:10.659 --> 00:09:13.034
+ Karpathy cree que hay una forma mucho
+
+00:09:12.072 --> 00:09:14.447
+ mejor de trabajar con IA y su método
+
+00:09:13.484 --> 00:09:50.178
+ tiene tres capas. La capa uno es la sin
+
+00:09:49.219 --> 00:09:51.758
+ lugar a dudas significativamente mejor
+
+00:09:50.799 --> 00:09:53.338
+ de lo que acabamos de obtener de GPT-6
+
+00:09:52.379 --> 00:09:54.836
+ Soul. Y esta versión fue bastante
+
+00:09:53.875 --> 00:09:56.288
+ interesante con el costo del precio.
+
+00:09:55.388 --> 00:09:58.462
+ Tomó el doble de tiempo con Opus 5.5 y
+
+00:09:57.515 --> 00:10:00.430
+ como cuatro veces el costo, pero una
+
+00:09:59.483 --> 00:10:02.345
+ vez más, en este caso, pagaría la
+
+00:10:01.398 --> 00:10:04.702
+ diferencia. La pregunta sería, bueno,
+
+00:10:03.757 --> 00:10:06.783
+ Opus gastó 11 dólares y Soul gastó
+
+00:10:05.838 --> 00:10:09.286
+ casi tres dólares. Si iteráramos con
+
+00:10:08.334 --> 00:10:11.163
+ Soul una y otra vez hasta llegar a los
+
+00:10:10.211 --> 00:10:12.896
+ 11 dólares de gasto, ¿estaría al
+
+00:10:11.944 --> 00:10:14.748
+ nivel de Opus o sería mejor? Creo que
+
+00:10:13.787 --> 00:10:16.138
+ esa es la pregunta interesante para
+
+00:10:15.176 --> 00:10:17.660
+ reflexionar. Pero también te encanta
+
+00:10:16.695 --> 00:10:19.028
+ la capacidad de hacer las cosas de una
+
+00:10:18.063 --> 00:10:20.220
+ sola vez, y ambos usan las mismas
+
+00:10:19.255 --> 00:10:21.588
+ habilidades, ambos tenían exactamente
+
+00:10:20.623 --> 00:10:23.852
+ lo mismo. Parece que hay más potencial
+
+00:10:22.896 --> 00:10:25.563
+ por aquí con muchas de estas cosas de
+
+00:10:24.607 --> 00:10:27.099
+ diseño y creatividad hasta ahora.
+
+00:10:26.499 --> 00:10:29.132
+ Entonces, de cualquier manera, ahora
+
+00:10:28.177 --> 00:10:31.149
+ mismo Opus lleva tres de tres. Así que
+
+00:10:30.198 --> 00:10:33.096
+ vamos al siguiente experimento con Opus
+
+00:10:32.145 --> 00:10:34.775
+ ganando tres a cero. Sigamos con el
+
+00:10:33.813 --> 00:10:36.099
+ número cuatro. Muy bien, en este
+
+00:10:35.135 --> 00:10:37.355
+ ejemplo, les di a ambos modelos un
+
+00:10:36.391 --> 00:10:38.755
+ montón de datos, como una tonelada de
+
+00:10:37.791 --> 00:10:39.724
+ datos, y les dije: "Oigan,
+
+00:10:38.760 --> 00:10:40.909
+ constrúyanme un Google Sheet de
+
+00:10:39.945 --> 00:10:42.345
+ analítica y luego un tablero también"
+
+00:10:41.345 --> 00:10:44.309
+. Así que esta fue la hoja de cálculo
+
+00:10:43.358 --> 00:10:45.988
+ de Opus 5.5. Esta se ve bastante limpia
+
+00:10:44.988 --> 00:10:47.594
+. Puedes ver que tenemos estos
+
+00:10:46.646 --> 00:10:49.274
+ diferentes cuadros con diversas
+
+00:10:48.327 --> 00:10:51.270
+ métricas como ARR, MRR, clientes, ya
+
+00:10:50.322 --> 00:10:52.842
+ sabes, margen bruto. Tenemos todas
+
+00:10:51.871 --> 00:10:54.039
+ estas estadísticas. Tenemos estas
+
+00:10:53.077 --> 00:10:55.446
+ visualizaciones justo aquí. Podemos
+
+00:10:54.474 --> 00:10:56.359
+ pasar a un estado de pérdidas y
+
+00:10:55.387 --> 00:10:57.994
+ ganancias. Podemos pasar a métricas de
+
+00:10:57.038 --> 00:10:59.874
+ SaaS con más visualizaciones. Podemos
+
+00:10:58.928 --> 00:11:01.808
+ ver efectivo y plazo de ejecución,
+
+00:11:00.861 --> 00:11:03.955
+ economía unitaria, precios, estrategia
+
+00:11:03.009 --> 00:11:05.727
+ de mercado, pipeline, clientes y
+
+00:11:04.781 --> 00:11:07.755
+ también algunas notas de datos. Creo
+
+00:11:06.786 --> 00:11:09.081
+ que esto se ve bastante bien. Se siente
+
+00:11:08.112 --> 00:11:10.559
+ con una identidad de marca. Tenemos, ya
+
+00:11:09.606 --> 00:11:12.320
+ sabes, claramente algún tipo de tema
+
+00:11:11.367 --> 00:11:14.127
+ de color como negro o un azul oscuro y
+
+00:11:13.174 --> 00:11:16.146
+ naranja. Y sí, esto se ve bastante
+
+00:11:15.195 --> 00:11:17.284
+ bien. También obtuvimos una
+
+00:11:16.315 --> 00:11:18.367
+ presentación de ventas, que puedo
+
+00:11:17.398 --> 00:11:19.849
+ abrir justo aquí. Y puedes ver que
+
+00:11:18.896 --> 00:11:21.653
+ tenemos, um, como que se ha creado un
+
+00:11:20.700 --> 00:11:23.194
+ logotipo. Una vez más, tenemos algo
+
+00:11:22.231 --> 00:11:24.681
+ así como ese azul marino y azul oscuro
+
+00:11:23.681 --> 00:11:26.056
+, o perdón, azul marino y naranja es
+
+00:11:25.093 --> 00:11:27.427
+ lo que quería decir. Tenemos una
+
+00:11:26.468 --> 00:11:29.313
+ imagen aquí. Tenemos, um, esto se
+
+00:11:28.373 --> 00:11:31.158
+ está cargando. Bastante simple, pero
+
+00:11:30.195 --> 00:11:32.682
+ también bastante limpio. Tenemos más
+
+00:11:31.720 --> 00:11:33.992
+ visualizaciones de datos, algunas
+
+00:11:33.031 --> 00:11:35.225
+ imágenes más, no B-roll, sino
+
+00:11:34.264 --> 00:11:36.808
+ imágenes generadas. Um, no está nada
+
+00:11:35.847 --> 00:11:39.018
+ mal. No es muy detallado, pero tampoco
+
+00:11:38.076 --> 00:11:41.079
+ es muy premium. Así que, está
+
+00:11:40.140 --> 00:11:42.995
+ bastante bien. Y luego también nos
+
+00:11:42.036 --> 00:11:44.793
+ creó un tablero de analítica. Podemos
+
+00:11:43.838 --> 00:11:46.405
+ ver aquí mismo que tenemos, quiero
+
+00:11:45.450 --> 00:11:48.197
+ decir, esto se ve muy "vibe-coded", muy
+
+00:11:47.242 --> 00:11:50.378
+ generado por IA. Pero bueno, el tablero
+
+00:11:49.431 --> 00:11:52.178
+ parece ser funcional. Tiene diferentes
+
+00:11:51.212 --> 00:11:53.536
+ formas para que cambiemos entre vistas.
+
+00:11:52.636 --> 00:11:55.522
+ Esto obviamente usa los mismos datos
+
+00:11:54.575 --> 00:11:57.514
+ que vimos en nuestro Google Sheet que
+
+00:11:56.566 --> 00:11:59.511
+ hizo para nosotros antes. Me gusta este
+
+00:11:58.552 --> 00:12:01.717
+ efecto de resaltado. Um, igual aquí
+
+00:12:00.772 --> 00:12:03.674
+ abajo. Entonces, no es un mal tablero.
+
+00:12:02.774 --> 00:12:04.970
+ Oh, también podemos cambiar entre
+
+00:12:04.005 --> 00:12:06.272
+ diferentes pestañas y cambiar entre
+
+00:12:05.307 --> 00:12:07.761
+ diferentes modos aquí también. Bueno,
+
+00:12:06.799 --> 00:12:09.119
+ eso está genial. Y lo último que
+
+00:12:08.155 --> 00:12:10.451
+ verán que creó para nosotros aquí
+
+00:12:09.487 --> 00:12:11.675
+ fue una página de inicio, que se
+
+00:12:10.711 --> 00:12:13.454
+ ejecuta localmente. Y podemos ver que
+
+00:12:12.504 --> 00:12:15.465
+ tenemos una imagen aquí con diferentes
+
+00:12:14.516 --> 00:12:17.226
+ cosas, como papeles y portapapeles
+
+00:12:16.276 --> 00:12:18.649
+ volando. Están en diferentes capas,
+
+00:12:17.678 --> 00:12:19.781
+ así que es una pequeña animación de
+
+00:12:18.810 --> 00:12:21.107
+ desplazamiento muy agradable. Tenemos
+
+00:12:20.154 --> 00:12:24.313
+ un resumen del lunes. Bajamos aquí a
+
+00:12:23.378 --> 00:12:26.651
+ un poco de animación para rellenar
+
+00:12:25.716 --> 00:12:29.465
+ algunos espacios. Tenemos más texto
+
+00:12:28.503 --> 00:12:31.093
+ que aparece de forma dinámica. Tenemos
+
+00:12:30.136 --> 00:12:32.235
+ una pequeña animación de
+
+00:12:31.277 --> 00:12:33.750
+ desplazamiento aquí. Así que, muy
+
+00:12:32.787 --> 00:12:35.435
+ limpio. Se nota que obviamente fue
+
+00:12:34.485 --> 00:12:37.107
+ generado por IA. Simplemente se siente
+
+00:12:36.142 --> 00:12:38.474
+ un poco generado por IA. Pero bueno,
+
+00:12:37.510 --> 00:12:39.917
+ hay algunas animaciones bonitas aquí y
+
+00:12:38.953 --> 00:12:41.035
+ algunas capas interesantes que
+
+00:12:40.071 --> 00:12:42.334
+ definitivamente le dan una pequeña
+
+00:12:41.370 --> 00:12:44.447
+ ventaja. En fin, eso fue Opus. Pasemos
+
+00:12:43.510 --> 00:12:46.704
+ a Soul y veamos qué pudo hacer con
+
+00:12:45.766 --> 00:12:48.703
+ todos estos datos. Bien, tenemos de
+
+00:12:47.746 --> 00:12:50.114
+ nuevo un PowerPoint, una hoja de
+
+00:12:49.156 --> 00:12:51.481
+ cálculo de Google, un panel de
+
+00:12:50.524 --> 00:12:53.020
+ análisis y una página de cliente.
+
+00:12:52.221 --> 00:12:54.620
+ Así que, echemos un vistazo rápido a
+
+00:12:53.657 --> 00:12:56.057
+ la presentación de diapositivas real.
+
+00:12:55.560 --> 00:12:58.328
+ Podemos ver que es muy similar, no
+
+00:12:57.380 --> 00:13:00.148
+ diría que nada aquí es demasiado
+
+00:12:59.200 --> 00:13:02.583
+ diferente. Honestamente, esto se ve
+
+00:13:01.640 --> 00:13:04.856
+ casi exactamente igual a la que generó
+
+00:13:03.913 --> 00:13:07.087
+ Opus 5.5 para nosotros. ¿Y saben de
+
+00:13:06.126 --> 00:13:09.169
+ qué sospecho en realidad?¿Es esta la
+
+00:13:08.209 --> 00:13:10.577
+ presentación exacta? Podría ser
+
+00:13:09.616 --> 00:13:11.913
+ exactamente la misma. Quizás se
+
+00:13:10.949 --> 00:13:13.373
+ confundieron y se estorbaron entre sí,
+
+00:13:12.409 --> 00:13:14.687
+ y uno de ellos simplemente tomó la
+
+00:13:13.723 --> 00:13:15.964
+ presentación del otro, lo cual es
+
+00:13:15.001 --> 00:13:17.620
+ bastante interesante. Mm, de acuerdo.
+
+00:13:16.720 --> 00:13:19.148
+ Entonces, de alguna manera, en el
+
+00:13:18.191 --> 00:13:20.792
+ proceso estos dos modelos empezaron a
+
+00:13:19.835 --> 00:13:22.089
+ trabajar juntos. Probablemente
+
+00:13:21.125 --> 00:13:23.511
+ empezaron a trabajar dentro de la misma
+
+00:13:22.546 --> 00:13:24.932
+ carpeta de proyecto y aún no lo había
+
+00:13:23.968 --> 00:13:26.549
+ especificado. En este ejemplo, no dije:
+
+00:13:25.590 --> 00:13:28.139
+ "Oigan, asegúrense de no sobrescribir
+
+00:13:27.180 --> 00:13:29.607
+ el trabajo de ningún otro agente".
+
+00:13:28.707 --> 00:13:31.030
+ Así que este es un punto realmente
+
+00:13:30.068 --> 00:13:32.073
+ interesante. Como que no sé
+
+00:13:31.103 --> 00:13:33.907
+ exactamente qué hacer aquí. Um, creo
+
+00:13:32.948 --> 00:13:35.546
+ que construyeron todo exactamente igual
+
+00:13:34.546 --> 00:13:36.939
+, lo cual es muy, muy interesante.
+
+00:13:36.299 --> 00:13:39.387
+ Literalmente crearon todo juntos. Y en
+
+00:13:38.439 --> 00:13:41.419
+ este caso, ambos aún gastaron dinero.
+
+00:13:40.790 --> 00:13:43.520
+ Y Soul gastó mucho más aquí, en
+
+00:13:42.571 --> 00:13:45.988
+ realidad. Así que, funcionó 8 minutos
+
+00:13:45.052 --> 00:13:48.169
+ más y costó tres dólares más.
+
+00:13:47.380 --> 00:13:49.614
+ Entonces, esto es sinceramente un poco
+
+00:13:48.646 --> 00:13:51.536
+ extraño. No voy a declarar un ganador
+
+00:13:50.578 --> 00:13:53.073
+ aquí, y lamento si están molestos
+
+00:13:52.116 --> 00:13:54.611
+ porque permití que hicieran eso en
+
+00:13:53.654 --> 00:13:56.277
+ este ejemplo específico, pero tomaron
+
+00:13:55.320 --> 00:13:57.858
+ una gran cantidad de datos, tuvieron
+
+00:13:56.900 --> 00:13:59.481
+ que construir una especie de historia
+
+00:13:58.523 --> 00:14:01.189
+ con ellos y crear cuatro entregables, y
+
+00:14:00.232 --> 00:14:02.898
+ colaboraron de alguna manera en eso, lo
+
+00:14:01.941 --> 00:14:05.325
+ cual me pareció interesante. De todos
+
+00:14:04.371 --> 00:14:06.977
+ modos, aquí está lo que obtuvimos
+
+00:14:06.023 --> 00:14:08.353
+ sobre el costo y el tiempo de
+
+00:14:07.399 --> 00:14:09.683
+ ejecución para este ejemplo
+
+00:14:08.729 --> 00:14:12.340
+ específico. Bien, chicos, muy rápido,
+
+00:14:11.383 --> 00:14:13.878
+ al momento de filmar no le di mucha
+
+00:14:12.921 --> 00:14:15.373
+ importancia, pero mientras editaba
+
+00:14:14.416 --> 00:14:17.082
+ pensé: "Un momento, eso no tiene mucho
+
+00:14:16.125 --> 00:14:19.008
+ sentido". Así que regresé a la
+
+00:14:18.054 --> 00:14:20.777
+ sesión e hice los cálculos de nuevo,
+
+00:14:19.822 --> 00:14:22.500
+ y descubrí que en realidad esto solo
+
+00:14:21.546 --> 00:14:24.223
+ costó 3.60 dólares en Codex y tomó
+
+00:14:23.269 --> 00:14:26.431
+ cerca de 9 minutos. Por lo tanto, con
+
+00:14:25.478 --> 00:14:28.082
+ las cifras anteriores, pensé: "Un
+
+00:14:27.129 --> 00:14:29.544
+ momento, eso no parece cuadrar
+
+00:14:28.591 --> 00:14:32.454
+ realmente". Así que, al final de este
+
+00:14:31.513 --> 00:14:34.832
+ video, cuando revisemos el costo total,
+
+00:14:33.891 --> 00:14:37.209
+ simplemente resten unos 19 dólares del
+
+00:14:36.269 --> 00:14:39.587
+ costo total de GBD6 Souls, pero todo lo
+
+00:14:38.646 --> 00:14:42.767
+ demás fue bastante consistente. Una
+
+00:14:41.802 --> 00:14:43.886
+ vez más, me disculpo por haber
+
+00:14:42.921 --> 00:14:45.648
+ arruinado esta parte. Debí haber
+
+00:14:44.693 --> 00:14:47.352
+ puesto eso en el prompt. Normalmente lo
+
+00:14:46.382 --> 00:14:48.533
+ hago, pero por alguna razón no pensé
+
+00:14:47.564 --> 00:14:49.881
+ en hacerlo para este caso. Pero de
+
+00:14:48.912 --> 00:14:53.157
+ cualquier forma, Lo arreglé. Y solo
+
+00:14:52.207 --> 00:14:55.094
+ para mostrarles lo que pasó, hice que
+
+00:14:54.143 --> 00:14:57.080
+ tanto GPT Soul como Opus inspeccionaran
+
+00:14:56.129 --> 00:14:58.966
+ los registros de ambos lados, y ambos
+
+00:14:58.016 --> 00:15:00.555
+ estuvieron de acuerdo en lo que
+
+00:14:59.605 --> 00:15:02.094
+ sucedió aquí, lo cual es muy
+
+00:15:01.144 --> 00:15:04.529
+ interesante. Básicamente, le di la
+
+00:15:03.587 --> 00:15:06.722
+ solicitud a Claude y comenzó a crear
+
+00:15:05.780 --> 00:15:09.215
+ archivos. Y luego Codex recibió la
+
+00:15:08.268 --> 00:15:11.058
+ misma solicitud, obviamente, en el
+
+00:15:10.111 --> 00:15:13.220
+ mismo repositorio. Pero lo que pasó es
+
+00:15:12.258 --> 00:15:14.632
+ que la primera vez que envié esto a
+
+00:15:13.670 --> 00:15:15.853
+ Codex, falló porque GBD-6 Soul
+
+00:15:14.891 --> 00:15:17.150
+ todavía se estaba desplegando, y
+
+00:15:16.188 --> 00:15:18.486
+ pensé: "Oh, tengo que ocuparme de
+
+00:15:17.524 --> 00:15:20.603
+ estos prompts". Así que falló. Y
+
+00:15:19.647 --> 00:15:22.258
+ luego, cuando lo reanudé, ¿qué fue
+
+00:15:21.302 --> 00:15:24.483
+ esto? 16 minutos después, Claude ya
+
+00:15:23.542 --> 00:15:26.326
+ estaba bastante avanzado en la
+
+00:15:25.386 --> 00:15:28.723
+ construcción. Así que básicamente
+
+00:15:27.775 --> 00:15:30.561
+ tomó todo en lo que Claude estaba
+
+00:15:29.614 --> 00:15:32.505
+ trabajando y luego comenzó a editar
+
+00:15:31.558 --> 00:15:34.449
+ esos archivos encima mientras Claude
+
+00:15:33.501 --> 00:15:36.586
+ seguía trabajando. Así que creo que
+
+00:15:35.632 --> 00:15:38.343
+ algunos de estos entregables habrían
+
+00:15:37.389 --> 00:15:40.193
+ sido mejores si quizás Soul no hubiera
+
+00:15:39.239 --> 00:15:41.950
+ entrado ahí a hacer cambios, pero ya
+
+00:15:40.996 --> 00:15:43.800
+ saben, obviamente es difícil de decir.
+
+00:15:43.380 --> 00:15:46.073
+ Pero creo que algunas de las cosas que
+
+00:15:45.117 --> 00:15:47.811
+ parecían un poco generadas por IA, me
+
+00:15:46.855 --> 00:15:49.371
+ pregunto si tal vez es porque Soul
+
+00:15:48.415 --> 00:15:51.020
+ entró aquí e hizo algunos cambios.
+
+00:15:50.219 --> 00:15:52.588
+ Pero sí creo que la presentación se
+
+00:15:51.625 --> 00:15:53.920
+ ve bastante bien, y pienso que esta
+
+00:15:52.957 --> 00:15:55.400
+ hoja de cálculo de Google, en general,
+
+00:15:54.437 --> 00:15:56.887
+ sigue viéndose bastante sólida. De
+
+00:15:55.921 --> 00:15:57.931
+ todas formas, vamos a pasar al
+
+00:15:56.964 --> 00:15:59.244
+ siguiente experimento, pero quería al
+
+00:15:58.278 --> 00:16:00.355
+ menos mostrarles el orden de los
+
+00:15:59.389 --> 00:16:01.668
+ eventos y lo que sucedió, porque creo
+
+00:16:00.702 --> 00:16:02.982
+ que en realidad es, ya saben, bastante
+
+00:16:02.015 --> 00:16:04.988
+ interesante. Pero bueno, pasando al
+
+00:16:04.053 --> 00:16:07.585
+ caso de uso número cinco, tenemos este
+
+00:16:06.650 --> 00:16:10.310
+ juego. Así que primero vamos a ver la
+
+00:16:09.376 --> 00:16:12.815
+ versión de GPT-6 Soul. Creó un juego
+
+00:16:11.868 --> 00:16:14.939
+ llamado Small Hours. Obviamente, les di
+
+00:16:13.988 --> 00:16:16.821
+ el mismo comando. Y esto está cargando
+
+00:16:15.860 --> 00:16:18.305
+ súper lento. Mi computadora ahí abajo
+
+00:16:17.338 --> 00:16:19.484
+ también comenzó a hacer bastante
+
+00:16:18.517 --> 00:16:21.189
+ ruido. Así que esto debe ser un juego
+
+00:16:20.233 --> 00:16:23.439
+ bastante grande. Bien, aquí está.
+
+00:16:23.030 --> 00:16:25.781
+ Básicamente, simplemente caminaremos
+
+00:16:24.828 --> 00:16:27.674
+ con WASD, haremos clic para interactuar
+
+00:16:26.722 --> 00:16:29.189
+ y usaremos el ratón para mirar
+
+00:16:28.236 --> 00:16:30.768
+ alrededor. Así que presiono comenzar.
+
+00:16:30.520 --> 00:16:32.995
+ Vemos que el Museo de Miniaturas Ren
+
+00:16:32.036 --> 00:16:34.593
+ cierra para siempre a las 6:00 de esta
+
+00:16:33.634 --> 00:16:36.716
+ noche. Todo lo que tu abuela construyó
+
+00:16:35.759 --> 00:16:39.387
+ se irá a subasta por la mañana. Te
+
+00:16:38.437 --> 00:16:41.232
+ sentaste en su silla de lectura para
+
+00:16:40.282 --> 00:16:44.689
+ despedirte. Bien, tenemos algunos
+
+00:16:43.724 --> 00:16:48.844
+ efectos de sonido que aparecen. Vaya.
+
+00:16:47.944 --> 00:16:50.205
+ Bien, esto realmente me está contando
+
+00:16:49.238 --> 00:16:51.646
+ una historia aquí. Bien, genial.
+
+00:16:51.920 --> 00:16:54.539
+ Entonces, esto soy yo pudiendo mirar
+
+00:16:53.584 --> 00:16:56.689
+ alrededor, moverme. Honestamente, no
+
+00:16:55.726 --> 00:16:58.127
+ está tan mal desde una perspectiva de
+
+00:16:57.164 --> 00:17:00.189
+ diseño. Aunque, mi ratón, si sale del
+
+00:16:59.239 --> 00:17:01.680
+ cuadro, eso es todo. Es como si mi
+
+00:17:00.706 --> 00:17:02.831
+ ratón no estuviera bloqueado. Ven que
+
+00:17:01.866 --> 00:17:04.090
+ mi ratón no está en ningún lado,
+
+00:17:03.125 --> 00:17:05.454
+ muevo mi ratón por todas partes, pero
+
+00:17:04.489 --> 00:17:06.783
+ no sucede nada hasta que lo traigo de
+
+00:17:05.818 --> 00:17:07.902
+ vuelta al cuadro, lo cual es un
+
+00:17:06.937 --> 00:17:09.300
+ problema porque si quiero hacer un giro
+
+00:17:08.335 --> 00:17:11.445
+ de 360 grados, no puedo. Así que eso
+
+00:17:10.487 --> 00:17:12.845
+ es un poco extraño, un pequeño
+
+00:17:11.887 --> 00:17:14.771
+ problema ahí. Ni siquiera estoy seguro
+
+00:17:13.820 --> 00:17:16.604
+ de cómo intentaría solucionar eso,
+
+00:17:15.653 --> 00:17:19.396
+ pero bueno, caminando por aquí. Bien,
+
+00:17:18.447 --> 00:17:22.040
+ clic para interactuar. Enciende la luz
+
+00:17:21.100 --> 00:17:26.880
+ del cuarto de costura. Uh ¿justo ahí?
+
+00:17:26.021 --> 00:17:30.313
+¿Justo ahí? Enciende la luz del
+
+00:17:29.349 --> 00:17:31.727
+ dormitorio de los padres. Oh, eso solo
+
+00:17:30.757 --> 00:17:32.869
+ me está diciendo lo que puedo hacer.
+
+00:17:32.941 --> 00:17:39.641
+ Interesante. Vaya, quiero decir, esto
+
+00:17:38.673 --> 00:17:40.906
+ es honestamente injugable debido a esto
+
+00:17:39.938 --> 00:17:42.614
+ del ratón. O sea, no puedo girar hacia
+
+00:17:41.659 --> 00:17:44.433
+ este lado si quiero porque mi ratón se
+
+00:17:43.479 --> 00:17:46.566
+ sale de la pantalla. Eso no es bueno.
+
+00:17:45.852 --> 00:17:49.024
+ Pero, honestamente, en cuanto a la
+
+00:17:48.088 --> 00:17:51.453
+ trama y la forma en que se siente, se
+
+00:17:50.517 --> 00:17:53.154
+ siente fluido. Es solo este problema
+
+00:17:52.185 --> 00:17:54.318
+ del ratón, el cual, sinceramente, ya
+
+00:17:53.349 --> 00:17:55.481
+ ni siquiera puedo jugar esto debido a
+
+00:17:54.512 --> 00:17:57.125
+ eso. Así que voy a tener que parar.
+
+00:17:56.225 --> 00:17:59.448
+ Vamos a pasar a la versión de Opus. ¿
+
+00:17:58.448 --> 00:18:01.490
+Saben qué es lo terrible? Que pasó
+
+00:18:00.551 --> 00:18:03.937
+ exactamente lo mismo que ocurrió en la
+
+00:18:02.998 --> 00:18:07.112
+ versión anterior. Literalmente, una
+
+00:18:06.150 --> 00:18:08.570
+ vez más, empezaron a trabajar en los
+
+00:18:07.609 --> 00:18:10.222
+ archivos del otro. Obviamente, eso es
+
+00:18:09.265 --> 00:18:11.743
+ un error de instrucción porque no
+
+00:18:10.787 --> 00:18:13.352
+ especifiqué en estos prompts que no
+
+00:18:12.395 --> 00:18:15.059
+ editaran otros archivos. Usualmente sí
+
+00:18:14.094 --> 00:18:16.271
+ lo digo, pero en este simplemente
+
+00:18:15.307 --> 00:18:17.956
+ lancé los prompts así como así. Así
+
+00:18:17.001 --> 00:18:19.723
+ que, desafortunadamente, tendremos que
+
+00:18:18.768 --> 00:18:21.354
+ tomar los resultados con un poco de
+
+00:18:20.399 --> 00:18:23.076
+ reserva, ya que comenzaron a trabajar
+
+00:18:22.121 --> 00:18:24.909
+ en lo mismo. Pero no creo que este
+
+00:18:23.956 --> 00:18:26.795
+ experimento esté totalmente arruinado,
+
+00:18:25.842 --> 00:18:28.398
+ porque el precio sigue siendo muy
+
+00:18:27.445 --> 00:18:30.237
+ interesante para mí; de alguna manera
+
+00:18:29.284 --> 00:18:31.935
+ Opus trabajó casi 2 horas y media,
+
+00:18:30.982 --> 00:18:33.727
+ mientras que Soul trabajó una hora y
+
+00:18:32.774 --> 00:18:35.519
+ Opus resultó cuatro veces más caro.
+
+00:18:34.621 --> 00:18:36.672
+ Así que, lamentablemente, amigos,
+
+00:18:35.703 --> 00:18:38.005
+ siento que eso haya pasado. Quiero
+
+00:18:37.052 --> 00:18:39.905
+ decir, hemos visto hasta ahora que Opus
+
+00:18:38.953 --> 00:18:41.615
+ parece ser mejor cuando se trata de
+
+00:18:40.663 --> 00:18:43.373
+ darnos este tipo de resultados, pero
+
+00:18:42.421 --> 00:18:45.226
+ creo que es importante entender dónde
+
+00:18:44.274 --> 00:18:46.984
+ estaría el traspaso entre estos dos
+
+00:18:46.032 --> 00:18:49.058
+ tipos de modelos. Muy bien, okay,
+
+00:18:48.115 --> 00:18:50.834
+ número seis, estos agentes no
+
+00:18:49.891 --> 00:18:52.839
+ trabajaron en el mismo entregable.
+
+00:18:52.100 --> 00:18:54.597
+ Menos mal. Así que, adelante, vamos a
+
+00:18:53.625 --> 00:18:55.782
+ ponerlos en marcha. Básicamente, lo
+
+00:18:54.814 --> 00:18:56.961
+ que les pedí fue que revisaran mis
+
+00:18:55.993 --> 00:18:58.205
+ últimos 100 videos de YouTube. Les
+
+00:18:57.237 --> 00:18:59.709
+ mostraré el prompt aquí arriba. Y
+
+00:18:58.766 --> 00:19:01.923
+ quería que me crearan básicamente un
+
+00:19:00.980 --> 00:19:04.023
+ mundo 3D jugable que explicara todos
+
+00:19:03.080 --> 00:19:06.190
+ estos conceptos de YouTube. Me pareció
+
+00:19:05.233 --> 00:19:07.882
+ interesante ver cómo razonaron esto y
+
+00:19:06.926 --> 00:19:09.618
+ cómo pensaron en contar una historia a
+
+00:19:08.662 --> 00:19:11.333
+ partir de ello. Entonces, abramos esto
+
+00:19:10.374 --> 00:19:13.465
+ y echemos un vistazo. Bien, este es el
+
+00:19:12.529 --> 00:19:15.633
+ resultado de Opus. Vamos a empezar a
+
+00:19:14.683 --> 00:19:17.520
+ explorar. Podemos ver que caminamos
+
+00:19:16.557 --> 00:19:18.866
+ hacia adelante con W. ¿Podemos...?
+
+00:19:18.067 --> 00:19:21.167
+ Okay, podemos movernos así. Así que
+
+00:19:20.218 --> 00:19:23.152
+ tenemos una especie de mundo 3D estilo
+
+00:19:22.203 --> 00:19:25.189
+ caricatura donde podemos entrar y echar
+
+00:19:24.240 --> 00:19:28.579
+ un vistazo. Puedo correr con espacio.
+
+00:19:27.751 --> 00:19:30.611
+ Esta es nuestra guía. Podemos hablar
+
+00:19:29.683 --> 00:19:38.229
+ con Nova. Guau. Muy bien, genial.
+
+00:19:37.329 --> 00:19:40.206
+ También puedo lanzar estas pelotas por
+
+00:19:39.254 --> 00:19:45.164
+ alguna razón. Puedo agarrar una pelota
+
+00:19:44.164 --> 00:19:48.018
+. Y puedo lanzarla. Okay, genial.
+
+00:19:48.939 --> 00:19:51.010
+ Entonces, podemos ver que podemos
+
+00:19:50.043 --> 00:19:53.020
+ entrar aquí, a cómo piensa la IA. Y
+
+00:19:52.055 --> 00:19:54.049
+ tenemos una especie de mundo
+
+00:19:53.085 --> 00:19:55.256
+ interactivo donde podemos ver los
+
+00:19:54.291 --> 00:19:56.821
+ tokens. Puedes ver cómo la IA lee
+
+00:19:55.867 --> 00:19:58.766
+ fragmentos de palabras. Podemos ver
+
+00:19:57.803 --> 00:20:00.023
+ cosas como el arnés del modelo y
+
+00:19:59.060 --> 00:20:01.318
+ podemos presionar E para aprender.
+
+00:20:03.800 --> 00:20:06.263
+ Básicamente, puedo acercarme a todos
+
+00:20:05.302 --> 00:20:07.686
+ estos pequeños paneles y preguntar
+
+00:20:06.726 --> 00:20:09.634
+ cómo funcionan. También vemos que hay
+
+00:20:08.669 --> 00:20:12.981
+ algún tipo de juego aquí. Usa la
+
+00:20:12.018 --> 00:20:15.479
+ máquina de la siguiente palabra. El
+
+00:20:14.538 --> 00:20:19.230
+ gato se sentó en el Interesante. Vale,
+
+00:20:18.284 --> 00:20:21.391
+ es como si estuviera dejando caer bolas
+
+00:20:20.445 --> 00:20:23.283
+ aquí para ver casi cómo elige la
+
+00:20:22.337 --> 00:20:25.336
+ siguiente palabra, la forma en que un
+
+00:20:24.390 --> 00:20:27.699
+ LLM genera la siguiente palabra. Bueno,
+
+00:20:26.739 --> 00:20:29.139
+ obviamente hay un pequeño problema
+
+00:20:28.179 --> 00:20:30.619
+ ahí arriba porque, eh, las bolas se
+
+00:20:29.659 --> 00:20:31.979
+ quedaban atascadas, probablemente
+
+00:20:31.019 --> 00:20:33.701
+ porque solté demasiadas a la vez. Pero
+
+00:20:32.701 --> 00:20:34.726
+, eso es bastante genial. Es una
+
+00:20:33.766 --> 00:20:36.153
+ pequeña simulación interesante de
+
+00:20:35.193 --> 00:20:37.699
+ cómo debería funcionar esto, excepto
+
+00:20:36.739 --> 00:20:39.165
+ que las bolas se atascan demasiado a
+
+00:20:38.205 --> 00:20:40.744
+ menudo. Pero, en fin, es una forma
+
+00:20:39.789 --> 00:20:42.531
+ interactiva agradable de explicar estos
+
+00:20:41.576 --> 00:20:44.176
+ conceptos. Obviamente, no voy a entrar
+
+00:20:43.210 --> 00:20:45.458
+ en cada una de estas salas, pero hay
+
+00:20:44.493 --> 00:20:46.884
+ bastantes. Aquí mismo tenemos la
+
+00:20:45.925 --> 00:20:48.486
+ ventana de contexto, y todas tienen el
+
+00:20:47.527 --> 00:20:50.130
+ mismo tipo de explicaciones, pero todas
+
+00:20:49.171 --> 00:20:51.692
+ parecen tener también algún tipo de
+
+00:20:50.733 --> 00:20:53.901
+ juego. Puedes ver que puedo añadir
+
+00:20:52.940 --> 00:20:55.407
+ bloques y puedo ver cómo se llena una
+
+00:20:54.446 --> 00:20:56.643
+ ventana de contexto, lo cual es
+
+00:20:55.682 --> 00:20:58.325
+ bastante genial. Así que estamos
+
+00:20:57.360 --> 00:20:59.386
+ obteniendo estas experiencias
+
+00:20:58.421 --> 00:21:00.729
+ interactivas mientras aprendemos más
+
+00:20:59.764 --> 00:21:02.642
+ sobre diferentes conceptos. Así que,
+
+00:21:01.693 --> 00:21:04.695
+ como dije, no voy a entrar en muchas de
+
+00:21:03.746 --> 00:21:06.543
+ estas, pero tenemos el Agent Arena,
+
+00:21:05.594 --> 00:21:08.545
+ Prompt Power, Team of Helpers y Skills
+
+00:21:07.596 --> 00:21:10.755
+ Workshop. Vamos a entrar rápidamente
+
+00:21:09.800 --> 00:21:12.555
+ al Skills Workshop para ver cuál es el
+
+00:21:11.600 --> 00:21:15.018
+ juego aquí. Es un robot de recetas.
+
+00:21:15.040 --> 00:21:17.153
+ Entonces, básicamente construimos una
+
+00:21:16.183 --> 00:21:19.226
+ torre. Eh, realmente no estoy
+
+00:21:18.263 --> 00:21:20.546
+ controlando nada aquí, así que se
+
+00:21:19.583 --> 00:21:22.408
+ está volviendo aburrido. Pero en fin,
+
+00:21:21.450 --> 00:21:24.017
+ es genial cómo pudo crear este mundo
+
+00:21:23.060 --> 00:21:26.543
+ 3D para nosotros. Y tenemos todos estos
+
+00:21:25.593 --> 00:21:28.084
+ conceptos diferentes, memoria,
+
+00:21:27.134 --> 00:21:30.022
+ automatización, construcción, garaje
+
+00:21:29.072 --> 00:21:33.785
+ de modelos. En fin, no es un mal
+
+00:21:32.857 --> 00:21:36.696
+ resultado. Y ahora abriremos el atlas
+
+00:21:35.772 --> 00:21:39.015
+ de ideas de Soul. Puedes ver que este
+
+00:21:38.060 --> 00:21:40.694
+ tiene un ambiente un poco diferente,
+
+00:21:39.739 --> 00:21:42.328
+ obviamente no es tan realista en la
+
+00:21:41.373 --> 00:21:44.007
+ forma en que te mueves y simplemente
+
+00:21:43.052 --> 00:21:45.702
+ puedes atravesar la fuente. Pero con
+
+00:21:44.742 --> 00:21:46.999
+ una sensación similar, tenemos
+
+00:21:46.040 --> 00:21:48.592
+ resultados del mundo real. Entraremos
+
+00:21:47.631 --> 00:21:50.238
+ aquí rápidamente. Eh, además, no
+
+00:21:49.274 --> 00:21:51.559
+ puedo quitar esta superposición por
+
+00:21:50.595 --> 00:21:52.773
+ alguna razón, lo cual es un poco
+
+00:21:51.809 --> 00:21:55.216
+ molesto. Eh, siento que esta interfaz
+
+00:21:54.272 --> 00:21:57.524
+ está demasiado saturada. Podemos
+
+00:21:56.562 --> 00:21:59.037
+ entrar aquí para ver ideas, cuellos de
+
+00:21:58.075 --> 00:22:00.360
+ botella, resultados, línea base y
+
+00:21:59.398 --> 00:22:02.284
+ entregas. Creo que aquí podemos
+
+00:22:01.335 --> 00:22:05.662
+ quizás leer. Eh, no me deja leer estas
+
+00:22:04.705 --> 00:22:08.309
+ cosas. Haz clic para leer cómo ayudar.
+
+00:22:07.409 --> 00:22:10.223
+ Bueno, yo haría clic con el ratón en
+
+00:22:09.271 --> 00:22:12.085
+ lugar de interactuar con la E. Pero de
+
+00:22:11.133 --> 00:22:13.757
+ todos modos, este obviamente no se
+
+00:22:12.804 --> 00:22:15.531
+ siente tan bien. O sea, sería más
+
+00:22:14.578 --> 00:22:17.336
+ difícil pasar, no sé, algo de tiempo
+
+00:22:16.382 --> 00:22:19.307
+ aquí. Como en el otro, creo que
+
+00:22:18.344 --> 00:22:20.680
+ podría haberme quedado ahí unos 15
+
+00:22:19.718 --> 00:22:22.128
+ minutos antes de aburrirme, pero aquí
+
+00:22:21.165 --> 00:22:24.067
+ ya estoy un poco harto. Es un poco
+
+00:22:23.113 --> 00:22:25.721
+ abrumador. Simplemente no se siente tan
+
+00:22:24.759 --> 00:22:27.985
+ real. Y aquí es donde se puede ver
+
+00:22:27.039 --> 00:22:30.038
+ cómo el diseño y el realismo entran
+
+00:22:29.092 --> 00:22:32.267
+ en juego. Como hace un momento, en el
+
+00:22:31.314 --> 00:22:34.144
+ ejemplo anterior donde estábamos en el
+
+00:22:33.191 --> 00:22:35.927
+ museo, definitivamente fue Opus quien
+
+00:22:34.974 --> 00:22:37.731
+ llevó la carga ahí. Definitivamente
+
+00:22:36.772 --> 00:22:39.280
+ fue Opus quien hizo la mayor parte de
+
+00:22:38.321 --> 00:22:40.829
+ ese código y diseñó la mayor parte
+
+00:22:39.870 --> 00:22:42.616
+ de ese juego. Así que, de cualquier
+
+00:22:41.660 --> 00:22:44.291
+ forma, este también se lo lleva Opus
+
+00:22:43.335 --> 00:22:45.755
+ 5.5. Y ahora miren el costo de este.
+
+00:22:44.855 --> 00:22:47.323
+ Para Opus, esto fue una hora y 45
+
+00:22:46.368 --> 00:22:48.914
+ minutos. Para Soul, esto fue de unos 50
+
+00:22:47.950 --> 00:22:50.800
+ minutos. Y Opus costó 60 dólares,
+
+00:22:49.857 --> 00:22:53.047
+ mientras que Soul costó 8.55 dólares.
+
+00:22:52.300 --> 00:22:54.923
+ Así que le voy a dar este a Opus,
+
+00:22:53.970 --> 00:22:56.599
+ aunque fue mucho más caro. Los
+
+00:22:55.647 --> 00:22:58.205
+ resultados simplemente son mucho
+
+00:22:57.253 --> 00:22:59.653
+ mejores. Estoy bastante impresionado
+
+00:22:58.687 --> 00:23:00.979
+ con Opus hasta ahora. Bien, así que en
+
+00:23:00.008 --> 00:23:02.119
+ este siguiente vamos a empezar con Soul
+
+00:23:01.119 --> 00:23:03.581
+. Es bastante interesante. Dije que
+
+00:23:02.625 --> 00:23:05.249
+ quería hacer un viaje del 1 al 30 de
+
+00:23:04.293 --> 00:23:06.640
+ octubre. Quiero ir a eventos de IA
+
+00:23:05.676 --> 00:23:08.283
+ súper geniales. Quiero ver naturaleza
+
+00:23:07.327 --> 00:23:10.096
+ increíble. Estoy en Chicago. También
+
+00:23:09.134 --> 00:23:11.760
+ quiero salir del país. Y básicamente
+
+00:23:10.806 --> 00:23:13.530
+ le di una idea muy vaga y le dije que
+
+00:23:12.577 --> 00:23:15.393
+ quería convertir mi itinerario en este
+
+00:23:14.440 --> 00:23:17.468
+ mundo 3D que pueda explorar. Entonces,
+
+00:23:16.509 --> 00:23:19.026
+ realmente estaba tratando de ver qué
+
+00:23:18.067 --> 00:23:20.666
+ podían hacer al construir experiencias
+
+00:23:19.707 --> 00:23:22.519
+ a partir de ideas bastante vagas. Y
+
+00:23:21.559 --> 00:23:23.919
+ verán aquí mismo que me hizo una
+
+00:23:22.959 --> 00:23:26.099
+ pregunta. Y esa es una cosa que noté
+
+00:23:25.141 --> 00:23:27.774
+ sobre Soul con más frecuencia, es que
+
+00:23:26.817 --> 00:23:29.235
+ realmente se detenía y te hacía
+
+00:23:28.278 --> 00:23:30.739
+ preguntas mucho más que Opus 5.5.
+
+00:23:30.038 --> 00:23:32.072
+ Algunas personas podrían decir que eso
+
+00:23:31.099 --> 00:23:33.113
+ es bueno. Algunas personas podrían
+
+00:23:32.140 --> 00:23:34.326
+ decir que eso es malo. Personalmente,
+
+00:23:33.361 --> 00:23:35.662
+ me encanta cuando se detienen a hacer
+
+00:23:34.697 --> 00:23:36.752
+ preguntas porque significa que
+
+00:23:35.787 --> 00:23:38.088
+ realmente están tratando de entender
+
+00:23:37.123 --> 00:23:39.642
+ lo que quiero. Pero a veces, cuando
+
+00:23:38.680 --> 00:23:41.128
+ haces cosas como un comando "slash goal
+
+00:23:40.128 --> 00:23:42.502
+", tal vez no quieres que te haga una
+
+00:23:41.540 --> 00:23:43.728
+ pregunta porque quieres que siga
+
+00:23:42.765 --> 00:23:45.216
+ adelante. Sin embargo, por lo general,
+
+00:23:44.248 --> 00:23:46.292
+ lo que he notado con Codex es que
+
+00:23:45.324 --> 00:23:47.305
+ cuando se detiene a hacerte una
+
+00:23:46.336 --> 00:23:48.476
+ pregunta, en realidad no se detiene.
+
+00:23:47.576 --> 00:23:49.797
+ Insertará una pregunta en el chat,
+
+00:23:48.832 --> 00:23:50.983
+ pero si no la respondes, seguirá
+
+00:23:50.018 --> 00:23:52.543
+ adelante de todos modos. La verdad es
+
+00:23:51.585 --> 00:23:53.969
+ que me gusta mucho cómo hace las
+
+00:23:53.010 --> 00:23:55.621
+ preguntas Soul. Bueno, en fin, aquí
+
+00:23:54.657 --> 00:23:56.922
+ está el resultado que obtuvimos de
+
+00:23:55.958 --> 00:23:58.723
+ Soul. Tenemos 30 días, una órbita.
+
+00:23:57.823 --> 00:23:59.734
+ Solo tenemos este tipo de globo
+
+00:23:58.764 --> 00:24:01.354
+ terráqueo. No estoy seguro, no estoy
+
+00:24:00.401 --> 00:24:03.174
+ obteniendo realmente la experiencia 3D
+
+00:24:02.220 --> 00:24:04.807
+ que esperaba, pero tampoco fui muy
+
+00:24:03.854 --> 00:24:06.746
+ específico. En fin, esto es lo que
+
+00:24:05.802 --> 00:24:09.133
+ vemos aquí. Podemos ver que vamos a
+
+00:24:08.185 --> 00:24:10.796
+ empezar desde Chicago hacia San
+
+00:24:09.848 --> 00:24:12.527
+ Francisco. Me está dando un enlace
+
+00:24:11.571 --> 00:24:15.341
+ justo aquí. Esto va a kayak.com. Así
+
+00:24:14.397 --> 00:24:17.830
+ que, parece que es para un vuelo. Este
+
+00:24:16.889 --> 00:24:20.102
+ va al Hyatt Regency en San Francisco.
+
+00:24:19.202 --> 00:24:21.417
+ Me está proporcionando todos estos
+
+00:24:20.452 --> 00:24:23.118
+ enlaces, que sí pedí. Pedí todos los
+
+00:24:22.169 --> 00:24:25.458
+ enlaces. Podemos ver que el orden es
+
+00:24:24.521 --> 00:24:27.979
+ San Francisco, Yosemite, Ámsterdam. No
+
+00:24:27.022 --> 00:24:29.687
+ voy a decir eso. Eso es en Islandia. No
+
+00:24:28.718 --> 00:24:31.090
+ sé cómo pronunciar estas cosas. Costa
+
+00:24:30.142 --> 00:24:33.118
+ Sur, Toronto, Algonquin, Cataratas del
+
+00:24:32.170 --> 00:24:35.199
+ Niágara, Las Vegas, Zion, Bryce Canyon
+
+00:24:34.199 --> 00:24:36.864
+, Gran Cañón, Red Rock Canyon.
+
+00:24:36.123 --> 00:24:39.089
+ Tenemos todo el plan aquí, y parece
+
+00:24:38.143 --> 00:24:41.164
+ que todos estos me llevan de vuelta a
+
+00:24:40.219 --> 00:24:43.349
+ uno de los lugares en el globo 3D real,
+
+00:24:42.404 --> 00:24:44.933
+ en el que puedo hacer clic y
+
+00:24:43.988 --> 00:24:46.735
+ básicamente muestra el pequeño
+
+00:24:45.790 --> 00:24:49.065
+ itinerario para ese día. Y todos estos
+
+00:24:48.118 --> 00:24:50.898
+ tienen enlaces para poder reservar
+
+00:24:49.951 --> 00:24:52.993
+ cosas o conseguir entradas o lo que sea
+
+00:24:51.993 --> 00:24:54.301
+. Así que, realmente no está nada mal
+
+00:24:53.301 --> 00:24:55.719
+. Para ser un itinerario sencillo,
+
+00:24:54.759 --> 00:24:56.884
+ parece haber pensado mucho y
+
+00:24:55.924 --> 00:24:58.411
+ planificado muchas cosas, así que no
+
+00:24:57.452 --> 00:24:59.919
+ está nada mal. Pero me gustaría que
+
+00:24:58.955 --> 00:25:01.362
+ la experiencia del globo 3D fuera mejor
+
+00:25:00.362 --> 00:25:03.495
+. Y aquí tenemos la versión de Claude
+
+00:25:02.544 --> 00:25:05.396
+ Codes con Opus. Esta, sinceramente, es
+
+00:25:04.442 --> 00:25:07.173
+ muy similar, aunque el mapa parece ser
+
+00:25:06.219 --> 00:25:08.613
+ mejor. También está numerado aquí,
+
+00:25:07.647 --> 00:25:10.051
+ así que puedo hacer clic. Bien, esto
+
+00:25:09.093 --> 00:25:11.648
+ es definitivamente más parecido a lo
+
+00:25:10.690 --> 00:25:13.287
+ que buscaba cuando dije que quería el
+
+00:25:12.329 --> 00:25:15.522
+ globo y que fuera interactivo. Y puedes
+
+00:25:14.567 --> 00:25:17.066
+ ver que si voy a estas diferentes
+
+00:25:16.111 --> 00:25:18.519
+ paradas, bueno, no ahí, aquí.
+
+00:25:17.834 --> 00:25:20.936
+ Realmente me está adentrando más en
+
+00:25:19.993 --> 00:25:23.180
+ lo que voy a hacer y a dónde voy. Esto
+
+00:25:22.214 --> 00:25:24.491
+ es definitivamente más lo que estaba
+
+00:25:23.526 --> 00:25:26.636
+ buscando. Están planeando cosas muy
+
+00:25:25.689 --> 00:25:28.567
+ similares. Se puede ver que el orden es
+
+00:25:27.604 --> 00:25:29.989
+ un poco diferente, pero este incluía
+
+00:25:29.027 --> 00:25:31.487
+ la Semana Tecnológica de San Francisco
+
+00:25:30.487 --> 00:25:33.625
+, algo que esperaba que incluyera. Esto
+
+00:25:32.666 --> 00:25:35.156
+ es como del 9 al, no sé, unos días
+
+00:25:34.197 --> 00:25:36.769
+ después, pero de este no estoy seguro
+
+00:25:35.810 --> 00:25:38.217
+ de si realmente incluyó la Semana
+
+00:25:37.258 --> 00:25:40.261
+ Tecnológica de San Francisco. Sí,
+
+00:25:39.308 --> 00:25:42.145
+ este nos llevó a San Francisco justo a
+
+00:25:41.192 --> 00:25:43.888
+ principios de mes, y no hubo ningún
+
+00:25:42.936 --> 00:25:45.448
+ gran evento aquí. Literalmente, solo
+
+00:25:44.479 --> 00:25:46.762
+ se trataba de ir a San Francisco. Así
+
+00:25:45.799 --> 00:25:48.249
+ que, este hizo una mejor investigación
+
+00:25:47.286 --> 00:25:49.625
+ en la que habría confiado más para
+
+00:25:48.662 --> 00:25:50.851
+ decir: "Oye, quiero ir a eventos
+
+00:25:49.888 --> 00:25:52.264
+ geniales de IA durante todo el mes de
+
+00:25:51.301 --> 00:25:53.874
+ octubre". "Este definitivamente lo
+
+00:25:52.921 --> 00:25:55.883
+ estaba haciendo mejor". Um, también
+
+00:25:54.922 --> 00:25:57.389
+ seleccionó otros eventos de IA en San
+
+00:25:56.428 --> 00:25:59.515
+ José. Y luego, la experiencia de esta
+
+00:25:58.564 --> 00:26:01.373
+ interfaz, además de que la carga del
+
+00:26:00.422 --> 00:26:03.328
+ globo es bastante lenta, la experiencia
+
+00:26:02.377 --> 00:26:05.458
+ aquí es significativamente mejor. Así
+
+00:26:04.532 --> 00:26:08.239
+ que, esto va a sonar repetitivo. Creo
+
+00:26:07.285 --> 00:26:10.064
+ que, en general, Opus es simplemente un
+
+00:26:09.110 --> 00:26:12.193
+ modelo mucho mejor. Creo que también
+
+00:26:11.258 --> 00:26:14.667
+ fue como, no sé. Siento que GPT-5.6
+
+00:26:13.733 --> 00:26:17.185
+ Soul era mucho mejor que Opus 5, pero
+
+00:26:16.251 --> 00:26:19.835
+ Opus 5.5 es ahora mucho mejor que GPT-6
+
+00:26:18.901 --> 00:26:21.903
+ Soul. Funcionaron básicamente durante
+
+00:26:20.947 --> 00:26:23.591
+ la misma cantidad de tiempo y Opus 5.5
+
+00:26:22.634 --> 00:26:25.279
+ aquí costó tres veces más que Soul.
+
+00:26:24.509 --> 00:26:27.329
+ Pero, aquí hay uno que es realmente
+
+00:26:26.379 --> 00:26:29.149
+ muy, muy, muy interesante para mí.
+
+00:26:28.249 --> 00:26:30.565
+ Estoy empezando con el precio solo para
+
+00:26:29.599 --> 00:26:31.848
+ mostrarte lo interesante que es este.
+
+00:26:31.160 --> 00:26:33.239
+ Entonces, esto era una base de código.
+
+00:26:32.499 --> 00:26:34.768
+ Hice que Astra diseñara este
+
+00:26:33.812 --> 00:26:36.344
+ experimento y lo mantuve neutral al
+
+00:26:35.388 --> 00:26:37.832
+ principio, así que no sabía que
+
+00:26:36.876 --> 00:26:39.408
+ estaba juzgando un modelo de OpenAI
+
+00:26:38.452 --> 00:26:42.060
+ frente a uno de Claude. Pero le pedí
+
+00:26:41.113 --> 00:26:44.103
+ que diseñara este experimento con una
+
+00:26:43.156 --> 00:26:46.199
+ base de código masiva y luego tuve que
+
+00:26:45.251 --> 00:26:48.084
+ hacer que realmente lo corrigieran,
+
+00:26:47.137 --> 00:26:50.180
+ analizaran cosas y repararan elementos.
+
+00:26:49.899 --> 00:26:53.766
+ Y el resultado fue que Soul lo hizo
+
+00:26:52.848 --> 00:26:56.268
+ mejor. Soul obtuvo 100 de 100, mientras
+
+00:26:55.318 --> 00:26:58.155
+ que Opus obtuvo 97 de 100 y pasó las
+
+00:26:57.204 --> 00:26:59.991
+ 30 pruebas, mientras que Opus falló
+
+00:26:59.041 --> 00:27:02.332
+ una. Y lo que también es interesante
+
+00:27:01.382 --> 00:27:04.096
+ de esto es que no solo Opus costó
+
+00:27:03.146 --> 00:27:05.960
+ básicamente 20 veces más y fue dos
+
+00:27:05.011 --> 00:27:07.724
+ veces más lento, sino que Soul se
+
+00:27:06.774 --> 00:27:09.538
+ detuvo a mitad de camino por algún
+
+00:27:08.589 --> 00:27:11.847
+ tipo de medida de seguridad. O sea, no
+
+00:27:10.899 --> 00:27:13.708
+ me dejaba continuar. Así que tuve que
+
+00:27:12.741 --> 00:27:15.026
+ pausar a ambos y luego tuve que decirle
+
+00:27:14.059 --> 00:27:16.310
+ a Asher lo que pasó, y entonces Asher
+
+00:27:15.343 --> 00:27:17.628
+ dijo: "Vale, vamos a cambiarlo un poco"
+
+00:27:16.628 --> 00:27:19.767
+. "Y luego envié este prompt a ambos,
+
+00:27:18.823 --> 00:27:22.230
+ pero Opus no se detuvo". Soul se detuvo
+
+00:27:21.274 --> 00:27:23.798
+ por algún tipo de ciberseguridad y
+
+00:27:22.841 --> 00:27:25.543
+ medida de protección, pero Opus no. Y
+
+00:27:24.577 --> 00:27:26.771
+ solo quería señalar eso porque me
+
+00:27:25.805 --> 00:27:28.142
+ pareció muy interesante. Lo que
+
+00:27:27.186 --> 00:27:29.720
+ terminó ocurriendo fue que Soul de
+
+00:27:28.764 --> 00:27:31.342
+ alguna manera se ejecutó por $ 1 en
+
+00:27:30.385 --> 00:27:32.963
+ esta base de código masiva y obtuvo
+
+00:27:32.007 --> 00:27:35.042
+ mejores resultados. Así que creo que
+
+00:27:34.080 --> 00:27:36.366
+ es realmente interesante ver cuán
+
+00:27:35.404 --> 00:27:37.841
+ diferentes son estos modelos y en qué
+
+00:27:36.879 --> 00:27:40.125
+ áreas sobresalen. Porque con muchas de
+
+00:27:39.169 --> 00:27:41.857
+ estas tareas rápidas o muchas de estas
+
+00:27:40.900 --> 00:27:43.459
+ más orientadas a código, no quiero
+
+00:27:42.502 --> 00:27:45.104
+ decir tareas de escritura de código,
+
+00:27:44.147 --> 00:27:46.835
+ sino tal vez como revisión, ejecución
+
+00:27:45.879 --> 00:27:48.524
+ y reparación de código, Soul ha sido
+
+00:27:47.567 --> 00:27:50.551
+ realmente bueno. Pero también vimos
+
+00:27:49.593 --> 00:27:52.078
+ algo como al principio de este video
+
+00:27:51.119 --> 00:27:53.398
+ donde pasó por alto una de mis
+
+00:27:52.439 --> 00:27:55.048
+ transcripciones de Firefly donde dije "
+
+00:27:54.048 --> 00:27:56.615
+fin" y simplemente me dio la respuesta
+
+00:27:55.657 --> 00:27:58.508
+ incorrecta. Así que, obviamente, una
+
+00:27:57.555 --> 00:28:00.378
+ prueba como esta no es definitiva, pero
+
+00:27:59.425 --> 00:28:02.202
+ en este caso, ya sabes, Soul realmente
+
+00:28:01.248 --> 00:28:04.072
+ sale ganando y diría que por un amplio
+
+00:28:03.118 --> 00:28:05.895
+ margen, ya sabes, por 1/20 del costo y
+
+00:28:04.942 --> 00:28:07.671
+ obteniendo mejores resultados, eso es
+
+00:28:06.718 --> 00:28:09.117
+ bastante bueno. Muy bien, entonces
+
+00:28:08.145 --> 00:28:10.237
+ estas dos últimas, la nueve y la diez,
+
+00:28:09.265 --> 00:28:11.357
+ tienen que ver con el uso del navegador
+
+00:28:10.357 --> 00:28:13.279
+. Y esta es muy interesante para mí
+
+00:28:12.326 --> 00:28:14.813
+ porque históricamente Codex con
+
+00:28:13.859 --> 00:28:16.532
+ prácticamente cualquier modelo casi
+
+00:28:15.578 --> 00:28:18.251
+ siempre ha superado a Cloud Code con
+
+00:28:17.297 --> 00:28:20.109
+ cualquier modelo cuando se trata de uso
+
+00:28:19.156 --> 00:28:21.875
+ del navegador y me ha encantado Codex
+
+00:28:20.921 --> 00:28:24.001
+ para eso. Así que, veamos cómo va
+
+00:28:23.053 --> 00:28:25.581
+ esta. Básicamente les di a ambos las
+
+00:28:24.614 --> 00:28:26.933
+ mismas instrucciones. Les di una
+
+00:28:25.985 --> 00:28:28.834
+ estructura de curso con los videos,
+
+00:28:27.886 --> 00:28:30.788
+ descripciones y todo, y les dije que
+
+00:28:29.840 --> 00:28:32.794
+ crearan el curso dentro de mi escuela
+
+00:28:31.847 --> 00:28:34.305
+ gratuita AIS. Entonces, aquí, este es
+
+00:28:33.333 --> 00:28:35.748
+ el salón de clases. Puedes ver si bajo
+
+00:28:34.790 --> 00:28:37.007
+ y refresco esto rápidamente,
+
+00:28:36.049 --> 00:28:38.643
+ deberíamos ver que tenemos dos nuevos
+
+00:28:37.685 --> 00:28:40.479
+ salones de clases aquí. Tenemos el
+
+00:28:39.548 --> 00:28:43.125
+ Soul AIOS y el Opus AIOS. Hagamos clic
+
+00:28:42.182 --> 00:28:45.237
+ en Soul. Podemos ver que subió todos
+
+00:28:44.283 --> 00:28:46.812
+ los videos. Están todos etiquetados
+
+00:28:45.851 --> 00:28:48.532
+ como borradores del 1 al 15. Cada video
+
+00:28:47.575 --> 00:28:50.134
+ tiene la descripción, puntos clave,
+
+00:28:49.178 --> 00:28:51.780
+ citas clave, recursos, y a medida que
+
+00:28:50.823 --> 00:28:53.296
+ paso las páginas, podemos ver que
+
+00:28:52.339 --> 00:28:54.769
+ todos, con suerte, están subidos
+
+00:28:53.812 --> 00:28:56.946
+ correctamente. Parece que tiene todo
+
+00:28:56.005 --> 00:28:58.641
+ esto bien, y hemos vinculado
+
+00:28:57.700 --> 00:29:00.278
+ correctamente, ya sabes, la
+
+00:28:59.337 --> 00:29:02.616
+ documentación o recursos y habilidades
+
+00:29:01.616 --> 00:29:04.487
+, y todos tienen nombre y están
+
+00:29:03.545 --> 00:29:05.923
+ vinculados. Así que, esto se ve
+
+00:29:04.955 --> 00:29:07.396
+ bastante bien. No creo que vayamos a
+
+00:29:06.438 --> 00:29:09.102
+ notar nada significativamente diferente
+
+00:29:08.145 --> 00:29:10.809
+ entre estos dos, excepto tal vez por el
+
+00:29:09.852 --> 00:29:12.910
+ costo y el tiempo. Entonces, miremos el
+
+00:29:11.966 --> 00:29:14.731
+ de Opus. Podemos ver, de acuerdo, la
+
+00:29:13.769 --> 00:29:16.231
+ única diferencia aquí es que no hizo
+
+00:29:15.270 --> 00:29:17.424
+ cada página como un borrador.
+
+00:29:16.524 --> 00:29:18.689
+ Simplemente hizo el curso general como
+
+00:29:17.719 --> 00:29:19.792
+ un borrador, lo cual, honestamente,
+
+00:29:18.823 --> 00:29:20.958
+ creo que es un poco más inteligente.
+
+00:29:20.280 --> 00:29:23.164
+ Pero, de todos modos, um, introducción
+
+00:29:22.164 --> 00:29:24.856
+, mentalidad, todos estos tienen la
+
+00:29:23.904 --> 00:29:26.692
+ misma descripción, puntos clave, las
+
+00:29:25.740 --> 00:29:29.386
+ mismas cosas están vinculadas. Aunque
+
+00:29:28.445 --> 00:29:31.630
+ este lo vinculó aquí, pero también
+
+00:29:30.689 --> 00:29:33.511
+ lo vinculó aquí. Duplicó algo de
+
+00:29:32.552 --> 00:29:34.917
+ trabajo. Vinculó las cosas dos veces,
+
+00:29:33.949 --> 00:29:36.286
+ lo cual no es tan bueno, ¿verdad? Como
+
+00:29:35.321 --> 00:29:37.681
+ que no quiero que enlace todo dos veces
+
+00:29:36.681 --> 00:29:38.855
+. Eso simplemente no tiene mucho
+
+00:29:37.889 --> 00:29:41.444
+ sentido. Pero fuera de eso, no hay nada
+
+00:29:40.506 --> 00:29:44.433
+ que criticar aquí con este curso. Y
+
+00:29:43.487 --> 00:29:46.469
+ esperaba que Sol llegara y fuera más
+
+00:29:45.522 --> 00:29:48.505
+ barato aquí, pero en este caso, Opus
+
+00:29:47.558 --> 00:29:51.089
+ 5.5 fue más rápido y económico. Y
+
+00:29:50.126 --> 00:29:52.568
+ tuvo ese pequeño error insignificante.
+
+00:29:51.668 --> 00:29:54.080
+ Así que, en este caso, le daría el
+
+00:29:53.119 --> 00:29:55.452
+ punto a Opus porque los resultados
+
+00:29:54.492 --> 00:29:57.044
+ fueron básicamente los mismos. Opus
+
+00:29:56.080 --> 00:29:58.124
+ tampoco hizo que cada página
+
+00:29:57.160 --> 00:29:59.564
+ individual fuera un borrador, lo que me
+
+00:29:58.600 --> 00:30:01.163
+ pareció un buen detalle. Y fue más
+
+00:30:00.200 --> 00:30:02.819
+ barato y más rápido. Así que Opus y
+
+00:30:01.867 --> 00:30:04.641
+ Claude Code realmente ganaron un caso
+
+00:30:03.689 --> 00:30:06.559
+ de uso de navegador, algo que no había
+
+00:30:05.607 --> 00:30:08.190
+ visto hacer en mi experiencia con
+
+00:30:07.238 --> 00:30:09.916
+ Claude Code frente a Codex en mucho
+
+00:30:08.964 --> 00:30:11.790
+ tiempo. Pasemos al número 10, que es
+
+00:30:10.830 --> 00:30:13.485
+ el último. También es otro caso de
+
+00:30:12.531 --> 00:30:15.113
+ uso de navegador. Bien, este caso de
+
+00:30:14.151 --> 00:30:16.573
+ uso se está convirtiendo poco a poco
+
+00:30:15.611 --> 00:30:17.955
+ en una de mis pruebas de referencia
+
+00:30:16.994 --> 00:30:19.645
+ favoritas con los nuevos modelos. Les
+
+00:30:18.680 --> 00:30:20.811
+ di una imagen de referencia, que
+
+00:30:19.846 --> 00:30:22.510
+ mostraré rápidamente. Fue esta imagen
+
+00:30:21.558 --> 00:30:24.461
+ de aquí. Esta era una imagen generada
+
+00:30:23.510 --> 00:30:26.129
+ por IA de mí y Adam Sandler. Y
+
+00:30:25.179 --> 00:30:27.769
+ básicamente lo que les dije que
+
+00:30:26.819 --> 00:30:29.458
+ hicieran fue que abrieran Canva y
+
+00:30:28.508 --> 00:30:31.247
+ usaran las herramientas de dibujo y
+
+00:30:30.297 --> 00:30:33.484
+ pintura para recrearla. Y miren lo que
+
+00:30:32.537 --> 00:30:35.426
+ nos dio Opus 5.5. Ese es, en realidad,
+
+00:30:34.471 --> 00:30:37.553
+ un resultado muy, muy bueno. No
+
+00:30:36.590 --> 00:30:38.879
+ esperaba que fuera tan bueno porque
+
+00:30:37.916 --> 00:30:40.315
+ cuando hice esto en el pasado, incluso
+
+00:30:39.352 --> 00:30:41.751
+ con modelos como Fable, obtuvimos algo
+
+00:30:40.788 --> 00:30:44.218
+ horrible. Y esto es de hecho mejor que
+
+00:30:43.263 --> 00:30:45.855
+ el resultado que me dio Astra cuando
+
+00:30:44.900 --> 00:30:47.641
+ hice esto hace unas semanas. Y luego,
+
+00:30:46.685 --> 00:30:49.318
+ cuando le di esto a Soul, primero que
+
+00:30:48.362 --> 00:30:51.122
+ nada, solo intentó crear una imagen. Y
+
+00:30:50.149 --> 00:30:52.050
+ le dije: "Está bien, eso es hacer
+
+00:30:51.077 --> 00:30:53.023
+ trampa. Eso no es lo que quería que
+
+00:30:52.047 --> 00:30:54.728
+ hicieras. Así que hice que lo
+
+00:30:53.796 --> 00:30:56.590
+ intentara de nuevo. Le di otra
+
+00:30:55.629 --> 00:30:58.116
+ instrucción. Pero terminó dándome
+
+00:30:57.155 --> 00:30:59.898
+ este resultado. Y pensé:" Bueno, me
+
+00:30:58.943 --> 00:31:01.630
+ pregunto si quizás solo necesita otro
+
+00:31:00.674 --> 00:31:03.406
+ intento porque la primera vez creó una
+
+00:31:02.450 --> 00:31:04.952
+ imagen ". Así que le di otra
+
+00:31:04.001 --> 00:31:06.689
+ oportunidad. Abrí otra sesión y le
+
+00:31:05.733 --> 00:31:08.807
+ dije que lo hiciera de nuevo. Y luego
+
+00:31:07.850 --> 00:31:10.561
+ me dio este tipo de resultado otra vez,
+
+00:31:09.605 --> 00:31:12.228
+ que es simplemente cómico de lo malo
+
+00:31:11.271 --> 00:31:14.594
+ que es. Así que no estoy exactamente
+
+00:31:13.646 --> 00:31:16.058
+ seguro de qué pasó con la
+
+00:31:15.110 --> 00:31:17.939
+ degradación de GBD-6 Astra a GBD-6
+
+00:31:16.991 --> 00:31:19.820
+ Soul con el uso del navegador y con
+
+00:31:18.873 --> 00:31:21.650
+ esta prueba de Canva, pero esto es
+
+00:31:20.702 --> 00:31:24.001
+ simplemente horrendo. Y obviamente, no
+
+00:31:23.043 --> 00:31:25.534
+ tenemos ni siquiera que debatir que
+
+00:31:24.576 --> 00:31:27.237
+ Cloud Code se va a llevar este también
+
+00:31:26.237 --> 00:31:30.099
+. Opus 5.5 me ha impresionado realmente
+
+00:31:29.099 --> 00:31:32.691
+, realmente, realmente hasta ahora. Y
+
+00:31:31.744 --> 00:31:34.481
+ sí, eh, también pueden echar un
+
+00:31:33.533 --> 00:31:36.586
+ vistazo a la velocidad y el costo aquí
+
+00:31:35.586 --> 00:31:38.365
+. Opus fue más lento, ya saben, 30
+
+00:31:37.414 --> 00:31:40.188
+ minutos más lento y cerca de cuatro
+
+00:31:39.237 --> 00:31:42.060
+ veces más costoso, pero el resultado
+
+00:31:41.109 --> 00:31:43.639
+ es mucho mejor. Así que, aquí es
+
+00:31:42.677 --> 00:31:45.058
+ donde estamos después de todos esos
+
+00:31:44.097 --> 00:31:48.086
+ experimentos. Pueden ver que tuvimos 1,
+
+00:31:47.182 --> 00:31:50.820
+ 2, 3, 4, 5, 6, 7. Siete victorias para
+
+00:31:49.863 --> 00:31:52.399
+ Opus 5.5 y una victoria para Soul, y
+
+00:31:51.442 --> 00:31:54.021
+ luego dos que simplemente no contaron
+
+00:31:53.063 --> 00:31:55.683
+ porque supongo que me equivoqué. Eso
+
+00:31:54.720 --> 00:31:57.728
+ fue definitivamente mi culpa. Entonces,
+
+00:31:56.820 --> 00:31:59.693
+ 7-1 Opus 5.5. ¿Qué hay de las
+
+00:31:58.727 --> 00:32:02.279
+ estadísticas totales aquí? Bueno,
+
+00:32:01.333 --> 00:32:04.417
+ Opus 5.5 tardó 8 minutos, o perdón, 8
+
+00:32:03.470 --> 00:32:06.233
+ horas y 40 minutos en total, Soul
+
+00:32:05.287 --> 00:32:08.210
+ tardó 5 horas y 51 minutos en todos
+
+00:32:07.264 --> 00:32:10.294
+ los experimentos, así que Opus fue un
+
+00:32:09.348 --> 00:32:12.378
+ poco más lento y también costó unas
+
+00:32:11.432 --> 00:32:14.462
+ tres veces más, 213 dólares frente a
+
+00:32:13.516 --> 00:32:17.569
+ los 74.46 dólares de Soul. Así que,
+
+00:32:16.616 --> 00:32:19.047
+ una vez más, entramos en este
+
+00:32:18.094 --> 00:32:20.906
+ experimento entendiendo que Opus es un
+
+00:32:19.954 --> 00:32:22.709
+ modelo más grande. Es un poco más
+
+00:32:21.755 --> 00:32:24.321
+ grande, un poco más costoso, y mi
+
+00:32:23.367 --> 00:32:26.162
+ instinto me decía que, bueno, creo que
+
+00:32:25.209 --> 00:32:27.958
+ Opus 5.5 podría ser un poco mejor que
+
+00:32:27.004 --> 00:32:30.593
+ Soul basándome en el precio. Pero,
+
+00:32:29.652 --> 00:32:32.765
+ pero 5.6 Soul era muy bueno y Opus 5
+
+00:32:31.823 --> 00:32:35.041
+ era realmente malo. Así que es un gran
+
+00:32:34.085 --> 00:32:36.767
+ salto aquí y estoy muy emocionado por
+
+00:32:35.811 --> 00:32:38.494
+ ver qué vendrá después de Anthropic
+
+00:32:37.538 --> 00:32:40.220
+ con quizás su próximo modelo fable o
+
+00:32:39.265 --> 00:32:41.991
+ algo así, porque obviamente han estado
+
+00:32:41.035 --> 00:32:43.629
+ trabajando mucho con los comentarios
+
+00:32:42.673 --> 00:32:45.311
+ que reciben en X y simplemente con su
+
+00:32:44.356 --> 00:32:47.263
+ uso interno y todo lo demás. Y
+
+00:32:46.297 --> 00:32:48.634
+ honestamente estoy un poco decepcionado
+
+00:32:47.668 --> 00:32:50.848
+ con Soul. Se siente más como si esto
+
+00:32:49.914 --> 00:32:53.344
+ fuera un GPT-6 Luna o Terra. Como que
+
+00:32:52.406 --> 00:32:55.752
+ esto no se siente, no lo sé. 5.6 Soul
+
+00:32:54.803 --> 00:32:57.890
+ es realmente bueno. Pensé que GPT-6
+
+00:32:56.940 --> 00:33:00.362
+ Soul iba a ser mejor. Me gusta que el
+
+00:32:59.410 --> 00:33:02.344
+ precio sea realmente barato. Eso era
+
+00:33:01.396 --> 00:33:04.216
+ emocionante, pero ahora sabemos por
+
+00:33:03.268 --> 00:33:06.681
+ qué es mucho más barato. Entonces, de
+
+00:33:05.743 --> 00:33:09.168
+ todas formas, chicos, para resumir esto
+
+00:33:08.230 --> 00:33:11.656
+ en una oración lo más concisa posible
+
+00:33:10.656 --> 00:33:14.081
+, diría que Opus 5.5 es un gran avance
+
+00:33:13.143 --> 00:33:17.471
+ respecto a Opus 5. GPT-6 Soul es un
+
+00:33:16.537 --> 00:33:20.480
+ paso atrás respecto a 5.6 Soul. Se
+
+00:33:19.550 --> 00:33:22.930
+ siente más como un GPT-6 Luna que
+
+00:33:22.000 --> 00:33:26.133
+ podría salir. Confiaría más en
+
+00:33:25.196 --> 00:33:28.589
+ Claude Opus para la creatividad y para
+
+00:33:27.652 --> 00:33:32.706
+ algunas decisiones de juicio. Y quizás
+
+00:33:31.754 --> 00:33:34.603
+ querría delegar algo de trabajo a GPT-
+
+00:33:33.603 --> 00:33:35.693
+6 Astra si sé muy, muy
+
+00:33:34.741 --> 00:33:37.543
+ específicamente lo que quiero, y solo
+
+00:33:36.590 --> 00:33:39.344
+ quiero que ejecuten el paso uno, paso
+
+00:33:38.392 --> 00:33:42.509
+ dos, paso tres, paso cuatro. Creo que
+
+00:33:41.566 --> 00:33:44.594
+ un escenario genial sería usar Opus
+
+00:33:43.650 --> 00:33:46.509
+ 5.5 como orquestador que inicia y
+
+00:33:45.565 --> 00:33:48.763
+ envía instrucciones muy específicas a
+
+00:33:47.819 --> 00:33:50.903
+ un grupo de pequeños trabajadores de
+
+00:33:49.960 --> 00:33:54.033
+ GPT-6 Soul. Lo que me parece muy genial
+
+00:33:53.109 --> 00:33:56.938
+ es que Opus 5.5 y GPT-6 Soul son más
+
+00:33:56.015 --> 00:33:59.920
+ baratos que sus predecesores, Opus 5 y
+
+00:33:58.997 --> 00:34:02.410
+ GPT-6, o perdón, GPT-5.6. Siento que
+
+00:34:01.443 --> 00:34:03.813
+ voy a perder la cabeza aquí. He estado
+
+00:34:02.849 --> 00:34:06.448
+ despierto todo el día. Eh, es tarde. Y
+
+00:34:05.506 --> 00:34:08.713
+ tengo solo el 5.5, el 6, el 5.6, todos
+
+00:34:07.771 --> 00:34:10.910
+ estos numeritos en mi cabeza. Así que
+
+00:34:09.954 --> 00:34:12.416
+ perdónenme, pero así es como me
+
+00:34:11.460 --> 00:34:13.914
+ siento. En fin, eso es todo por este
+
+00:34:12.951 --> 00:34:15.116
+ video. Si les gustó y aprendieron algo
+
+00:34:14.143 --> 00:34:16.143
+ nuevo, por favor denle un" me gusta ".
+
+00:34:15.401 --> 00:34:18.064
+ Me ayuda muchísimo. Y como siempre,
+
+00:34:17.099 --> 00:34:19.361
+ agradezco que hayan llegado al final
+
+00:34:18.396 --> 00:34:20.659
+ del video, nos vemos en el próximo.
+
+00:34:20.220 --> 00:34:21.819
+ Gracias a todos.

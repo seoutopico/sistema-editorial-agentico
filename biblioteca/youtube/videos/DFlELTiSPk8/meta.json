@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 2074,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 74000
+  },
+  "fecha": "2026-10-04",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La estadística",
+  "id": "DFlELTiSPk8",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Dominar Codex, tutorial aplicable",
+    "relevante": true,
+    "tema": "Agentes de IA"
+  },
+  "senales": {
+    "dias": 10,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.59,
+    "senal_incompleta": false
+  },
+  "titulo": "Master 96% of Codex in under 35 minutes",
+  "url": "https://www.youtube.com/watch?v=DFlELTiSPk8"
+}

@@ -1,0 +1,97 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "00:31",
+      "texto": "Barry Zhang y Mahesh Murag, creadores de las skills para agentes en Anthropic, dejaron de reconstruir un agente distinto para cada trabajo porque el agente subyacente se volvió más versátil de lo esperado.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "01:01",
+      "texto": "Analogía del teléfono: el modelo es el procesador, el entorno de ejecución del agente es el sistema operativo y las skills son las aplicaciones.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "01:33",
+      "texto": "El equipo de Anthropic veía a Claude reescribir el mismo script de Python en cada presentación; le pidieron guardarlo dentro de la skill como 'una herramienta para su yo futuro' (principio DRY).",
+      "tipo": "dato"
+    },
+    {
+      "marca": "03:36",
+      "texto": "Revelación progresiva: Claude solo lee el nombre y la descripción de cada skill (YAML front matter) y carga el skill.md completo cuando el prompt coincide, dejando scripts y referencias para cuando hagan falta.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "04:06",
+      "texto": "Dos skills con descripciones solapadas ('ayudar con contenido' vs 'crear activos de marketing') obligan a Claude a adivinar: una skill que Claude no encuentra es una skill que no tienes.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "05:07",
+      "texto": "Cada corrección que muere al cerrar el chat es una lección desperdiciada: hay que pedir al agente que muestre dónde buscó, por qué falló y que actualice la skill o el enrutamiento en el lugar permanente más pequeño.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "06:08",
+      "texto": "Ninguna skill puede hacer que un modelo débil rinda como uno fuerte, pero las skills de agente son un formato abierto y la misma carpeta puede funcionar en entornos compatibles como Codex o Hermes.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "07:09",
+      "texto": "La mayor carencia de los flujos con IA es entregar el primer intento: la skill debe incorporar las verificaciones que harías tú (renderizar diapositivas como imagen e inspeccionarlas, abrir fuentes primarias y cotejar afirmaciones).",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "07:39",
+      "texto": "La verificación exige evidencia externa al borrador (captura, resultado de test, fuente, revisión de subagentes con perspectivas distintas), no que Claude lea su propio trabajo y diga 'me parece bien'.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "08:42",
+      "texto": "Tu primer vistazo no debería ser el primer vistazo del agente, sino el cuarto, quinto o sexto, tras varias pasadas contra criterios de aceptación definidos de antemano.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "Nate Herk | AI Automation",
+  "avisos_transcripcion": [
+    "Traducción automática del inglés: alterna 'habilidad' y 'skill' para el mismo concepto en todo el vídeo.",
+    "En 07:39 'un agente principiante' y 'un agente de compra escéptico' parecen traducir 'personas' simuladas (usuario novato, comprador escéptico), no tipos de agente.",
+    "En 06:08 'a prueba de modelos' traduce probablemente 'model-proof'; el matiz exacto del original se pierde."
+  ],
+  "demuestra": "",
+  "entidades": [
+    "Anthropic",
+    "Claude",
+    "Claude Code",
+    "Barry Zhang",
+    "Mahesh Murag",
+    "Agent Skills",
+    "Codex",
+    "Nate Herk"
+  ],
+  "fecha": "2026-09-13",
+  "fuente": "youtube",
+  "huella": "339eff736bc13aa8f4c4b4746182b4aa98804f41a7805745b33076c5d6f761eb",
+  "id": "HIRDzMtuWFk",
+  "preguntas_abiertas": [
+    "Cuándo sigue compensando construir un agente dedicado en lugar de una skill sobre un agente general.",
+    "Cómo evitar que skills que acumulan reglas y correcciones crezcan hasta degradar el contexto que la revelación progresiva intenta proteger.",
+    "Cómo medir objetivamente que una skill ha mejorado tras el bucle de corrección, más allá de la impresión del usuario.",
+    "Cuánto cuestan en tokens y tiempo las pasadas múltiples de verificación y revisión por subagentes que recomienda."
+  ],
+  "promete_sin_demostrar": "Todo el vídeo es consejo sin ejecución en pantalla: promete 'los mismos resultados de calidad que los ingenieros de Anthropic' y un sistema que 'mejora por sí solo' sin enseñar ninguna skill funcionando, ninguna métrica de mejora ni la prueba de portabilidad entre agentes que recomienda; su propio flujo de carruseles solo se describe de palabra.",
+  "senales": {
+    "dias": 31,
+    "interaccion": 0.0111,
+    "multiplo_mediana": 2.91
+  },
+  "subtemas": [
+    "scripts, skills y agentes",
+    "anatomía de una skill",
+    "descriptions que delimitan cuándo activarse",
+    "entrenamiento por corrección",
+    "verificación del resultado"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "En lugar de construir un agente distinto por tarea, hay que dar skills a un agente de propósito general y hacer que mejoren con cuatro prácticas: guardar el código probado, escribir descripciones precisas, convertir cada corrección en instrucción duradera y verificar con evidencia externa antes de entregar.",
+  "url": "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+}

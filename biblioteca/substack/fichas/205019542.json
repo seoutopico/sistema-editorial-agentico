@@ -1,0 +1,31 @@
+{
+  "basada_en": "completo",
+  "enfoque": "explicación",
+  "entidades": [
+    "Claude Code",
+    "Codex",
+    "SKILL.md",
+    "OpenAI",
+    "Markdown"
+  ],
+  "fecha": "2026-07-05",
+  "huella": "1ec49ffae6bc19bc99dc94bc4ffcd14fa1e6211afcaa33d47fd3b90796c9bd7b",
+  "id": "205019542",
+  "metricas_publicas": {
+    "comentarios": 1,
+    "reacciones": 17,
+    "restacks": 3
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "anatomía de una skill",
+    "descriptions que delimitan cuándo activarse",
+    "acotar la tarea frente a skills genéricas",
+    "invocación automática y explícita",
+    "verificación del resultado"
+  ],
+  "tema": "Skills para agentes",
+  "tesis": "Una skill no falla por el Markdown: falla cuando no define qué conducta del agente cambia, cuándo debe activarse, qué deja fuera y cómo se comprueba que ha funcionado.",
+  "titulo": "Cómo crear una skill para que tu agente tome mejores decisiones.",
+  "url": "https://ainalluna.substack.com/p/crear-skills-agentes-ia-verificables"
+}

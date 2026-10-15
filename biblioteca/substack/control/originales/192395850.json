@@ -1,0 +1,465 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/por-que-ia-resultados-mediocres",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 192395850,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-03-30T10:18:36.324Z",
+  "updated_at": "2026-03-30T10:19:07.880Z",
+  "publication_id": 5143893,
+  "search_engine_description": "Todo el mundo invierte en herramientas de IA y prompts. Casi nadie documenta sus procesos. Y esa es la razón por la que los resultados siguen siendo genéricos.",
+  "search_engine_title": "Por qué tu IA da resultados mediocres (y no es el modelo)",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "por-que-ia-resultados-mediocres",
+  "social_title": null,
+  "subtitle": "Esta semana expliqué en directo cómo gestiono mi contenido con IA. El sistema funciona, pero no por la tecnología.",
+  "teaser_post_eligible": true,
+  "title": "Datos sin procesos no sirven. Y la mayoría solo tiene datos.",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 8
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "instrucciones-personalizadas-chatgpt-claude-gemini",
+  "next_post_slug": "analizar-youtube-ia",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!i95G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 192395850,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Esta semana expliqué en directo cómo gestiono mi contenido con IA. El sistema funciona, pero no por la tecnología.",
+  "body_html": "<p>Soy Aina y esto es Think&amp;Hack.</p><p>Has probado ChatGPT. Has probado Claude. Quizás Perplexity, quizás NotebookLM. Has abierto cuentas, has aprendido interfaces, has pagado alguna suscripción Y los resultados siguen siendo genéricos. El tipo de respuesta que te hace pensar: \"Esto lo podría haber buscado en Google”.</p><p>Y empiezas a sospechar que el problema no es el modelo.</p><p style=\"text-align: center;\"><strong>No lo es.</strong></p><p>Esta semana me invitaron al podcast #<a href=\"https://youtu.be/Xd9iszuvDY0\">HechoconIA</a>, un podcast donde profesionales explican qué están construyendo con inteligencia artificial. Decidí explicar cómo gestiono todo el contenido de <a href=\"https://ainalluna.substack.com/\">Think&amp;Hack</a>, la newsletter, las redes, la estrategia, mientras trabajo a jornada completa en Planeta.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://www.youtube.com/watch?v=Xd9iszuvDY0\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!i95G!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 424w, https://substackcdn.com/image/fetch/$s_!i95G!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 848w, https://substackcdn.com/image/fetch/$s_!i95G!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!i95G!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!i95G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg\" width=\"1280\" height=\"720\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:720,&quot;width&quot;:1280,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:&quot;https://www.youtube.com/watch?v=Xd9iszuvDY0&quot;,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!i95G!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 424w, https://substackcdn.com/image/fetch/$s_!i95G!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 848w, https://substackcdn.com/image/fetch/$s_!i95G!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!i95G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7413883-6f61-47ed-b1c2-097d8460735e_1280x720.jpeg 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Entrevista podcast #HECHOCONIA</figcaption></figure></div><div><hr></div><h3>El problema que nadie quiere ver</h3><p>Todo el mundo habla de IA sobre datos. Y tiene sentido: la digitalización lleva años; algo hemos acumulado. Bases de clientes, históricos de contenido, métricas de campañas La IA es buena trabajando con datos.</p><div class=\"pullquote\"><p>Pero hay una pata que falta y que casi nadie tiene: <strong>procesos documentados.</strong></p></div><p>Si tú no sabes explicar paso a paso cómo decides sobre qué escribir esta semana, cómo priorizas un contenido sobre otro, cómo evalúas si algo funcionó o no, la IA tampoco va a saberlo. Da igual que le des acceso a todos tus datos. <strong>Le falta la lógica que conecta los puntos.</strong></p><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!m_7K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 424w, https://substackcdn.com/image/fetch/$s_!m_7K!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 848w, https://substackcdn.com/image/fetch/$s_!m_7K!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 1272w, https://substackcdn.com/image/fetch/$s_!m_7K!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!m_7K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png\" width=\"627\" height=\"128\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:128,&quot;width&quot;:627,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:9428,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/192395850?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!m_7K!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 424w, https://substackcdn.com/image/fetch/$s_!m_7K!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 848w, https://substackcdn.com/image/fetch/$s_!m_7K!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 1272w, https://substackcdn.com/image/fetch/$s_!m_7K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b2ebc99-5dba-4c2c-832b-f186fa23bab4_627x128.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p>Cuando digo procesos, no hablo de un documento de 50 páginas; hablo de saber responder: ¿cómo decido qué publicar? ¿Qué criterios uso para filtrar? ¿Cómo sé si algo funcionó? ¿Qué hago con lo que leo cada día?</p><p><em>Si no puedes responder eso, ninguna herramienta de IA te va a salvar.</em></p><div><hr></div><h3>¿Qué pasa si los tienes?</h3><p>En la entrevista enseñé el sistema en directo. Mi rutina de la mañana empieza escribiendo “buenos días” en la terminal. Un agente revisa mi calendario editorial, escanea todo lo que he ido guardando durante la semana desde el móvil, lo resume, lo puntúa según mi estrategia y me genera un panel con lo que me falta, lo que funcionó y lo que toca hacer hoy.</p><p>Parece magia. No lo es. Funciona porque debajo hay tres cosas que construí antes de tocar una sola herramienta:</p><ol><li><p><strong>Procesos documentados.</strong> Mi flujo de contenido entero está escrito: cómo capturo ideas, cómo las filtro, cómo las convierto en piezas, cómo las distribuyo. Cada paso es un archivo de instrucciones que la IA puede seguir. Sin eso, lo único que obtienes son respuestas genéricas; da igual lo bueno que sea el modelo.</p></li><li><p><strong>Contexto de estrategia.</strong> La IA tiene acceso a archivos que le dicen quién es mi audiencia, cuál es mi voz, qué objetivos persigo, qué tipo de contenido funciona y cuál no. No suena como yo por un prompt ingenioso. Suena como yo porque tiene acceso a mi contexto real.</p></li><li><p><strong>Métricas como feedback.</strong> El sistema descarga datos de LinkedIn, Substack y notas de forma regular. No para mirar números por mirarlos. Para que la estrategia se ajuste sola: si mi audiencia crece en madurez técnica, el contenido crece con ella. Si un formato deja de funcionar, lo detecta antes que yo.</p></li></ol><p>Nada de esto depende de una herramienta concreta. Lo construí en una terminal, pero el mismo enfoque funcionaría con cualquier IA que acepte instrucciones y tenga acceso a archivos. <strong>Lo que no puedo cambiar es el proceso de debajo. Eso es lo que tiene valor.</strong></p><div><hr></div><h3>Cómo empezar: documenta antes de automatizar</h3><p>La primera vez que le pedí a alguien en Planeta que me explicara su proceso, me di cuenta del problema real. No por incompetencia, sino porque llevamos años dando por hecho pasos que nunca hemos puesto por escrito. Cosas que haces rápido porque llevas diez años haciéndolas, pero que si no las desgranas, la IA no tiene nada con lo que trabajar.</p><p><strong>Mi método:</strong> grabarte en video mientras trabajas, explicando en voz alta lo que haces y por qué. De ese video se extrae el proceso. Luego revisas los momentos donde fuiste rápido sin explicar; <em>ahí es donde están las decisiones que nadie documenta y que hacen que un proceso funcione.</em></p><p>No necesitas una terminal. No necesitas saber programar. Necesitas un móvil, 10 minutos y una tarea que hagas todas las semanas.</p><p>La próxima vez que pienses “necesito una herramienta de IA para esto”, para. <strong>Pregúntate primero: ¿tengo escrito como lo hago hoy? Si la respuesta es no, empieza por ahí. No hace falta que sea perfecto. Hace falta que exista.</strong></p><p>Tus resultados con IA no van a mejorar cambiando de modelo. No van a mejorar con un prompt mejor. Van a mejorar el día que abras un documento y escribas cómo tomas las decisiones que tomas cada semana. Ese documento es lo que le falta a tu IA. Y no te lo va a dar ninguna herramienta.</p><div class=\"pullquote\"><p style=\"text-align: center;\"><strong>¿Cuál es el primer proceso que vas a documentar?</strong></p><p><em>Cuéntamelo. Siempre leo todo.</em></p></div><p><strong>Fuentes y links</strong></p><ul><li><p>#<a href=\"https://youtu.be/Xd9iszuvDY0\">HechoconIA entrevista completa</a> — el sistema en directo, con demo y preguntas</p></li></ul><div><hr></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think&amp;Hack</strong></p><p>Soy Aina. Responsable de IA generativa en Planeta.</p><p><strong>Comparte:</strong> Reenvía esto a alguien de tu equipo que sigue buscando la herramienta perfecta sin haber documentado un solo proceso.<br><strong>Responde:</strong> ¿Tienes procesos documentados o vas improvisando? Sin juicio: yo hace un año tampoco los tenía.<br><strong>Suscribete:</strong> Si te han reenviado esto, <a href=\"https://ainalluna.substack.com/\">unete aqui</a>.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "Soy Aina y esto es Think&Hack.",
+  "wordcount": 860,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        157,
+        93,
+        248
+      ],
+      "population": 731
+    },
+    "DarkVibrant": {
+      "rgb": [
+        66,
+        42,
+        100
+      ],
+      "population": 151
+    },
+    "LightVibrant": {
+      "rgb": [
+        172,
+        105,
+        251
+      ],
+      "population": 292
+    },
+    "Muted": {
+      "rgb": [
+        136,
+        80,
+        146
+      ],
+      "population": 499
+    },
+    "DarkMuted": {
+      "rgb": [
+        93,
+        47,
+        96
+      ],
+      "population": 84
+    },
+    "LightMuted": {
+      "rgb": [
+        196,
+        186,
+        194
+      ],
+      "population": 288
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 8,
+  "comment_count": 4,
+  "child_comment_count": 3,
+  "audio_items": [
+    {
+      "post_id": 192395850,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/192395850/tts/8dc51282-2f38-4a33-9d64-8b3fabf98feb/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 235806594,
+      "body": "La distinción entre datos y procesos es la más útil que he leído en mucho tiempo sobre este tema. Datos los tiene casi todo el mundo, procesos escritos, casi nadie. Y sin eso la IA devuelve exactamente lo que describes: respuestas que podrías haber buscado en Google.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "La distinción entre datos y procesos es la más útil que he leído en mucho tiempo sobre este tema. Datos los tiene casi todo el mundo, procesos escritos, casi nadie. Y sin eso la IA devuelve exactamente lo que describes: respuestas que podrías haber buscado en Google."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 192395850,
+      "user_id": 157327177,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-30T23:58:25.318Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Vero Ponce",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/adf2e12b-e7c4-44e4-ad6f-493e7896fee0_864x864.jpeg",
+      "handle": "veroponce",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "veroponce",
+      "metadata": {
+        "is_author": false,
+        "membership_state": null,
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Vero Ponce",
+          "id": 6579668,
+          "base_url": "https://veroponce.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    },
+    {
+      "id": 235556878,
+      "body": "Un enfoque muy bien aterrizado Aina. Tienes toda la razón, la mayoría busca el “prompt” mágico cuando lo que realmente les falta es el manual de instrucciones de su propio criterio.\n\nMe quedo con esta frase: “La IA no suena como yo por un prompt ingenioso, sino porque tiene acceso a mi contexto real.” Es brillante porque desplaza el valor de la herramienta al sujeto, donde siempre ha estado.\n\nDesde mi óptica, lo que tú llamas procesos documentados es la infraestructura necesaria para lo que yo denomino Arquitectura del Criterio. Sin esos pasos que describes, cómo capturas, filtras y decides, es imposible ejercer una dirección humana coherente. La IA puede ejecutar el proceso, pero somos nosotros quienes sostenemos la intención detrás de cada archivo de instrucciones.\n\nGracias por recordar que la claridad no es técnica, sino estructural.\n\nMi primer proceso a documentar hoy: cómo decido qué ideas pasan el filtro de mi línea editorial antes siquiera de tocar la terminal.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Un enfoque muy bien aterrizado Aina. Tienes toda la razón, la mayoría busca el “prompt” mágico cuando lo que realmente les falta es el manual de instrucciones de su propio criterio."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Me quedo con esta frase: “La IA no suena como yo por un prompt ingenioso, sino porque tiene acceso a mi contexto real.” Es brillante porque desplaza el valor de la herramienta al sujeto, donde siempre ha estado."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Desde mi óptica, lo que tú llamas procesos documentados es la infraestructura necesaria para lo que yo denomino Arquitectura del Criterio. Sin esos pasos que describes, cómo capturas, filtras y decides, es imposible ejercer una dirección humana coherente. La IA puede ejecutar el proceso, pero somos nosotros quienes sostenemos la intención detrás de cada archivo de instrucciones."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Gracias por recordar que la claridad no es técnica, sino estructural."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Mi primer proceso a documentar hoy: cómo decido qué ideas pasan el filtro de mi línea editorial antes siquiera de tocar la terminal."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 192395850,
+      "user_id": 463954585,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-30T15:03:52.942Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Cristina Fuster",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/e5848816-a915-4757-89f6-8de79f658b35_896x896.png",
+      "handle": "architectureofjudgment",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "architectureofjudgment",
+      "metadata": {
+        "is_author": false,
+        "membership_state": null,
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Cristina Fuster - Architecture of Judgment",
+          "id": 8094156,
+          "base_url": "https://cristinafuster.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    }
+  ]
+}

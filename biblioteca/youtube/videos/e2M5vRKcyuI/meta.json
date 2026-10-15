@@ -1,0 +1,29 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "duracion_segundos": 1127,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:25Z",
+    "likes": null,
+    "visualizaciones": 251000
+  },
+  "fecha": "2026-04-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La advertencia",
+  "id": "e2M5vRKcyuI",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 182,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "alto",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 2.24,
+    "senal_incompleta": false
+  },
+  "titulo": "CLAUDE MYTHOS, the MOST POWERFUL and DANGEROUS model ever created",
+  "url": "https://www.youtube.com/watch?v=e2M5vRKcyuI"
+}

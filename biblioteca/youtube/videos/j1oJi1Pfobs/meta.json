@@ -1,0 +1,29 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "duracion_segundos": 1152,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:25Z",
+    "likes": null,
+    "visualizaciones": 216000
+  },
+  "fecha": "2026-05-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "Antes y después",
+  "id": "j1oJi1Pfobs",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 152,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.93,
+    "senal_incompleta": false
+  },
+  "titulo": "NEW CLAUDE DESIGN! A BEFORE and AFTER in the way I WORK...",
+  "url": "https://www.youtube.com/watch?v=j1oJi1Pfobs"
+}

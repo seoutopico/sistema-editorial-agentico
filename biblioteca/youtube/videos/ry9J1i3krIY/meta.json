@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 2787,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 20000
+  },
+  "fecha": "2026-10-01",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La pregunta directa",
+  "id": "ry9J1i3krIY",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Pieza de color sobre robótica sin aplicación al trabajo",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 13,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.31,
+    "senal_incompleta": false
+  },
+  "titulo": "When Will AI Make Me Scrambled Eggs? I Went To NVIDIA To Find Out.",
+  "url": "https://www.youtube.com/watch?v=ry9J1i3krIY"
+}

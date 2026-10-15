@@ -1,0 +1,359 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/1-la-paradoja-de-la-ia-estas-invirtiendo",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 164561611,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-10-12T08:12:14.471Z",
+  "updated_at": "2026-01-15T08:09:58.652Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "1-la-paradoja-de-la-ia-estas-invirtiendo",
+  "social_title": null,
+  "subtitle": "Por qué el 74% de implementaciones de IA fallan y cómo estar en el 26% que triunfa",
+  "teaser_post_eligible": true,
+  "title": "#1 La paradoja de la IA: ¿Estás invirtiendo o transformando? | Think & Hack",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 1,
+  "reactions": {
+    "❤": 3
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": null,
+  "next_post_slug": "2-notebooklm-lee-por-ti-ese-es-el",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!xId5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 164561611,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Por qué el 74% de implementaciones de IA fallan y cómo estar en el 26% que triunfa",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!xId5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!xId5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 424w, https://substackcdn.com/image/fetch/$s_!xId5!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 848w, https://substackcdn.com/image/fetch/$s_!xId5!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 1272w, https://substackcdn.com/image/fetch/$s_!xId5!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!xId5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png\" width=\"728\" height=\"407.6007259528131\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/3874e337-c161-408f-8179-65d68fb955dc_1102x617.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:false,&quot;imageSize&quot;:&quot;normal&quot;,&quot;height&quot;:617,&quot;width&quot;:1102,&quot;resizeWidth&quot;:728,&quot;bytes&quot;:63079,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:&quot;center&quot;,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!xId5!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 424w, https://substackcdn.com/image/fetch/$s_!xId5!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 848w, https://substackcdn.com/image/fetch/$s_!xId5!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 1272w, https://substackcdn.com/image/fetch/$s_!xId5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3874e337-c161-408f-8179-65d68fb955dc_1102x617.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Hola,</p><p>Te voy a ahorrar 250 mil millones de euros y, probablemente, tu cordura.</p><p>Porque si estás leyendo esto, seguramente has <strong>invertido en IA esperando la transformación</strong> que te prometieron. Y si eres honesto conmigo (y contigo), admitirás que los <strong>resultados no están siendo exactamente... revolucionarios.</strong></p><p>No eres el único. De hecho, estás en muy buena compañía.</p><h3>La inversión más cara de la década (que no está funcionando)</h3><p>A lo largo de estos años, y especialmente durante los últimos meses desde que me incorporé como <em>responsable de IA Generativa en Editorial Planeta,</em> he visto algo que me quita el sueño: organizaciones quemando presupuestos astronómicos en IA mientras sus equipos siguen trabajando exactamente igual que antes.</p><p>Los números son brutales: para 2025, la inversión global en infraestructura de IA superará los 250 mil millones anuales. Pero aquí viene la parte incómoda que nadie te cuenta en las conferencias: <a href=\"https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf\">McKinsey confirmó que más del 80% </a>de las empresas no ve un impacto real en sus resultados.</p><p>¿El motivo? Tu empresa compra IA como quien colecciona deportivos para el garaje. Tienes las llaves, pero sigues yendo a pie al trabajo. Mientras tanto, ese 21% que sí se atreve a rediseñar sus procesos desde cero está dejando atrás a todos los demás.</p><p>La diferencia no está en la tecnología. Está en la estrategia.</p><h3>¿Quién soy yo para contarte esto?</h3><p><strong>Soy <a href=\"https://ainalluna.com/\">Aina-Lluna Taylor Barceló</a>, </strong>y mi día a día es desmontar la brecha entre el hype de Silicon Valley y la <strong>realidad de implementar IA en estructuras empresariales</strong> consolidadas. En Planeta, no solo veo las promesas de cerca, sino que toco la fricción real de cómo la IA aterriza (o se estrella) en organizaciones que mueven millones.</p><blockquote><p>Mi obsesión es simple: destriparte qué funciona y qué no, para que puedas transformar procesos en lugar de solo inflar facturas de proveedores tecnológicos.</p></blockquote><h3>¿Qué vas a encontrar aquí?</h3><ul><li><p><strong>Análisis sin filtro</strong> de casos reales de IA aplicada (y las razones brutalmente honestas de por qué fallan).</p></li><li><p><strong>Las fricciones que nadie menciona:</strong> éticas, creativas y organizativas que sabotean implementaciones desde dentro.</p></li><li><p><strong>Frameworks probados en batalla</strong> para que tus decisiones estratégicas sobrevivan a la automatización salvaje que viene.</p></li></ul><p><strong>En esta edición:</strong></p><ul><li><p>Por qué tu inversión en IA podría ser un pozo sin fondo</p></li><li><p>Mi Test de madurez en IA: descubre en qué fase estás realmente</p></li><li><p>La pregunta incómoda que revela si estás construyendo dependencia tecnológica</p></li><li><p>Un experimento \"absurdo\" que cambió mi forma de gestionar expectativas en boardrooms</p></li></ul><div><hr></div><h4>📊 EL DIAGNÓSTICO QUE NADIE QUIERE ESCUCHAR</h4><h2>Invertir en IA ≠ Transformar tu negocio</h2><p>Permíteme ser directa: la mayoría de inversiones en IA son, hoy por hoy, un espejismo carísimo.</p><div class=\"pullquote\"><p>¿Por qué? Porque confunden tener IA con ser estratégico con la IA.</p></div><p>Las organizaciones se dedican a parchear procesos obsoletos en lugar de preguntarse qué debería existir realmente. Es como renovar la tapicería de un coche con el motor fundido: bonito por fuera, pero te vas a quedar tirado en la cuneta.</p><p>La OCDE ya nos avisó: la integración real y la capacitación de equipos están fallando estrepitosamente. Solo ese 21% que rediseña sus flujos desde cero está viendo retornos reales. Los demás compran herramientas caras para añadir más caos a procesos que ya no funcionaban.</p><p>Esto no es un fallo de la tecnología. Es un fallo estratégico de quién la implementa.</p><p>La pregunta real no es si vas a invertir más. Es: <strong>¿estás usando la IA para parchear lo que tienes o para redefinir lo que podrías ser?</strong></p><div><hr></div><h4>🩺 EL AUTODIAGNÓSTICO</h4><h2>Test de madurez en IA: ¿Dónde estás realmente?</h2><p>Después de auditar más de 50 implementaciones, desarrollé este diagnóstico de tres preguntas que revelan si estás construyendo ventaja competitiva o simplemente sumando gastos.</p><h5>Pregunta 1: ¿Quién decide qué automatizar?</h5><ul><li><p>🔴 <strong>Adopción básica:</strong> IT decide por viabilidad técnica</p></li><li><p>🟡 <strong>Adopción estratégica:</strong> Negocio decide con asesoría técnica</p></li><li><p>🟢 <strong>Ventaja sistémica:</strong> Equipos mixtos deciden por impacto estratégico</p></li></ul><h5>Pregunta 2: ¿Rediseñaste antes de automatizar?</h5><ul><li><p>🔴 <strong>Adopción básica:</strong> Automatizamos procesos existentes</p></li><li><p>🟡 <strong>Adopción estratégica:</strong> Optimizamos antes de automatizar</p></li><li><p>🟢 <strong>Ventaja sistémica:</strong> Replanteamos qué debería existir</p></li></ul><h5>Pregunta 3: ¿Cómo mides el éxito?</h5><ul><li><p>🔴 <strong>Adopción básica:</strong> Número de herramientas implementadas</p></li><li><p>🟡 <strong>Adopción estratégica:</strong> Ahorros de tiempo/coste</p></li><li><p>🟢 <strong>Ventaja sistémica:</strong> Capacidades antes imposibles</p></li></ul><h5><strong>Tu diagnóstico:</strong></h5><ul><li><p>Si la mayoría son 🔴: Identifica 1-2 casos de uso con impacto medible para construir momentum real.</p></li><li><p>Si la mayoría son 🟡: Sistematiza tus éxitos y crea plantillas replicables para escalar inteligentemente.</p></li><li><p>Si la mayoría son 🟢: Acelera y documenta tu metodología para consolidar tu ventaja antes de que otros la copien.</p></li></ul><div><hr></div><h4>🎯 LA PREGUNTA QUE TE QUITA EL SUEÑO</h4><h2>¿Estás construyendo equipos que no pueden trabajar sin IA?</h2><p>Esta semana, un director de innovación me confesó algo perturbador: <em>\"Mi equipo genera reportes increíbles con ChatGPT, pero cuando les pido que expliquen la metodología, se quedan en blanco.\"</em></p><p>No es paranoia. <strong>Dario Amodei, CEO de Anthropic</strong>, admitió públicamente que cuando un sistema de IA toma decisiones empresariales, \"no tenemos idea de por qué las toma\". Y sin embargo, estamos construyendo estrategias sobre esa caja negra.<strong> (<a href=\"https://www.darioamodei.com/post/the-urgency-of-interpretability\">Link</a>)</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!bUMp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!bUMp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 424w, https://substackcdn.com/image/fetch/$s_!bUMp!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 848w, https://substackcdn.com/image/fetch/$s_!bUMp!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 1272w, https://substackcdn.com/image/fetch/$s_!bUMp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!bUMp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png\" width=\"619\" height=\"644\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:644,&quot;width&quot;:619,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:107661,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!bUMp!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 424w, https://substackcdn.com/image/fetch/$s_!bUMp!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 848w, https://substackcdn.com/image/fetch/$s_!bUMp!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 1272w, https://substackcdn.com/image/fetch/$s_!bUMp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4d95cc8-a486-41fd-b1ce-a166d9b44634_619x644.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Fragmento del artículo del blog de <strong>Dario Amodei </strong> artículo abril 2025</figcaption></figure></div><p>Como dice Sam Altman: <em>\"La gente habla de asignar tareas a agentes de IA como si fueran empleados junior.\"</em> Pero, ¿qué pasa cuando esos \"empleados junior\" son cajas negras que ni sus creadores entienden? <strong><a href=\"https://www.entrepreneur.com/business-news/openai-ceo-sam-altman-ai-agents-are-like-junior-employees/492687\">(Link)</a></strong></p><blockquote><p><strong>La pregunta incómoda:</strong> ¿Cuánto de la capacidad actual de tu organización podrías reproducir sin asistencia de IA?</p></blockquote><p>Si la respuesta te inquieta, no estás solo. Pero sí estás a tiempo de cambiar el rumbo.</p><div><hr></div><h4><strong>🧪EXPERIMENTOS CON INSIGHTS PROFUNDOS</strong></h4><h2>Cómo un GPT \"absurdo\" me enseñó a gestionar expectativas reales</h2><p>Creé un GPT personalizado para generar personajes estilo Futurama con profesiones del futuro. Parece una tontería, pero este \"juguete\" me enseñó algo fundamental sobre por qué algunos proyectos de IA generan ROI desde el primer sprint y otros se estrellan.</p><p><strong>El experimento:</strong> Tomé exactamente las mismas instrucciones y cambié una sola palabra: \"Futurama\" por \"futurístico\".</p><p><strong>Variables controladas:</strong></p><ul><li><p>Mismo GPT personalizado</p></li><li><p>Mismas especificaciones técnicas</p></li><li><p>Mismo nivel de detalle</p></li><li><p><strong>Única diferencia:</strong> la referencia cultural</p></li></ul><blockquote><p><em>Nota: Un GPT personalizado no tiene memoria previa, perfecto para experimentos neutrales.</em></p></blockquote><p><strong>El resultado:</strong></p><p>Con \"Futurama\": <em>\"Dragoton Cargabestia\"</em> (coherente, divertido, usable) Sin referencia: <em>\"Dragulón Diesel\"</em> (genérico, predecible, descartable)</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Bddl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Bddl!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 424w, https://substackcdn.com/image/fetch/$s_!Bddl!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 848w, https://substackcdn.com/image/fetch/$s_!Bddl!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 1272w, https://substackcdn.com/image/fetch/$s_!Bddl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Bddl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png\" width=\"1168\" height=\"754\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:754,&quot;width&quot;:1168,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:91513,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Bddl!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 424w, https://substackcdn.com/image/fetch/$s_!Bddl!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 848w, https://substackcdn.com/image/fetch/$s_!Bddl!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 1272w, https://substackcdn.com/image/fetch/$s_!Bddl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F885db5e0-663b-492e-8852-c7547a7e697c_1168x754.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Comparativa de prompts con y sin referencia a Futurama</figcaption></figure></div><div class=\"pullquote\"><p><code>Prompt: un dragón camionero</code></p></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Bgrp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Bgrp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 424w, https://substackcdn.com/image/fetch/$s_!Bgrp!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 848w, https://substackcdn.com/image/fetch/$s_!Bgrp!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 1272w, https://substackcdn.com/image/fetch/$s_!Bgrp!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Bgrp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png\" width=\"834\" height=\"538\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b7be1618-f67d-483a-9f73-67a9526fef63_834x538.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:538,&quot;width&quot;:834,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:402224,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Bgrp!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 424w, https://substackcdn.com/image/fetch/$s_!Bgrp!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 848w, https://substackcdn.com/image/fetch/$s_!Bgrp!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 1272w, https://substackcdn.com/image/fetch/$s_!Bgrp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7be1618-f67d-483a-9f73-67a9526fef63_834x538.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">\"Dragoton Cargabestia\" (coherente, divertido, usable) <strong>Sin referencia:</strong> \"Dragulón Diesel\" (genérico, predecible, descartable)</figcaption></figure></div><h5><strong>El insight :</strong> La diferencia entre usar contexto existente (con el que la IA ya se entrenó) versus crear contexto nuevo no es solo técnica. Es económica.</h5><p>Cuando no puedes decir \"como Netflix\" o \"estilo Futurama\", no necesitas mejores prompts. Necesitas construir sistemas completos:</p><ul><li><p>Arquitectura de instrucciones estructurada</p></li><li><p>Base de conocimiento propia</p></li><li><p>Contexto artificial dentro del prompt</p></li><li><p>Validación iterativa step-by-step</p></li></ul><p><strong>Mi nuevo mantra en boardrooms:</strong> Crear originalidad con IA significa construir coherencia sin referencias preexistentes. Y eso multiplica la complejidad (y el presupuesto) por 10.</p><p>La próxima vez que alguien te prometa \"implementación de IA en 30 días\", pregúntale si incluye crear tu propia referencia cultural desde cero. Su cara te dirá todo lo que necesitas saber sobre la diferencia entre vender humo y construir transformación real.</p><p><strong>P.D.</strong> ¿Cuál es tu \"experimento absurdo\" que te enseñó algo profundo sobre IA? Responde a este email. Leo cada uno y uso los mejores insights en próximas ediciones.</p><div><hr></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>                                                     Recomienda Think &amp; Hacks</strong></p><p>Como responsable de IA generativa en Editorial Planeta, veo diariamente la diferencia entre el hype de Silicon Valley y la realidad de implementar en empresas consolidadas. Aquí explico por qué la mayoría de estrategias de IA están diseñadas para fracasar, y cómo las pocas que funcionan pueden transformar tu P&amp;L.</p><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "Hola, Te voy a ahorrar 250 mil millones de euros y, probablemente, tu cordura.",
+  "wordcount": 1216,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        181.1842105263158,
+        181.18421052631584,
+        73.81578947368416
+      ],
+      "population": 0
+    },
+    "DarkVibrant": {
+      "rgb": [
+        94.21578947368423,
+        94.21578947368424,
+        38.38421052631576
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        244,
+        244,
+        228
+      ],
+      "population": 5441
+    },
+    "Muted": {
+      "rgb": [
+        128,
+        132,
+        148
+      ],
+      "population": 2
+    },
+    "DarkMuted": {
+      "rgb": [
+        52,
+        60,
+        76
+      ],
+      "population": 5
+    },
+    "LightMuted": {
+      "rgb": [
+        192,
+        188,
+        180
+      ],
+      "population": 10
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 3,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 164561611,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/164561611/tts/bbd276a3-5973-49aa-83ae-b92d4b0aa34e/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 165526337,
+      "body": "Por fin! Bienvenida :)",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Por fin! Bienvenida :)"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 164561611,
+      "user_id": 15134539,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2025-10-12T10:06:29.564Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Mike Fort",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4600cbdd-026c-40bd-a246-6f196e6ba118_1286x1286.jpeg",
+      "handle": "mafortperera",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "mafortperera",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "DivergencIA Multipotencial x Mike Fort - IA sin quemarte",
+          "id": 3740452,
+          "base_url": "https://mafortperera.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": 1,
+        "leaderboard": null,
+        "vip": false,
+        "badge": {
+          "type": "subscriber",
+          "tier": 1,
+          "accent_colors": null
+        },
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "basada_en": "completo",
+  "enfoque": "explicación",
+  "entidades": [
+    "OpenAI",
+    "GPT-5.2",
+    "GPT-5.1",
+    "GPT-5",
+    "GPT-4",
+    "ChatGPT",
+    "OpenAI Cookbook"
+  ],
+  "fecha": "2026-01-11",
+  "huella": "c41ff339ecd8e56169ff6f4c4a1c68859794a4fb610865804c96df4deae231b9",
+  "id": "183130708",
+  "metricas_publicas": {
+    "comentarios": 1,
+    "reacciones": 7,
+    "restacks": 3
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "guías oficiales de prompting de OpenAI",
+    "patrón CTCO",
+    "instrucciones sin contradicciones",
+    "modos de razonamiento en ChatGPT"
+  ],
+  "tema": "Prompting",
+  "tesis": "Los modelos más avanzados no necesitan prompts más largos ni ánimos: necesitan instrucciones limpias, específicas y sin contradicciones.",
+  "titulo": "#15 Guía prompting GPT-5.2: Lo que cambió en las reglas de OpenAI",
+  "url": "https://ainalluna.substack.com/p/14-guia-prompting-gpt-52-lo-que-cambio"
+}

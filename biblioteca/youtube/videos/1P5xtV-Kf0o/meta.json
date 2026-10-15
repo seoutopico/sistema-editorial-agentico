@@ -1,0 +1,35 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "duracion_segundos": 1126,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:29Z",
+    "likes": null,
+    "visualizaciones": 38000
+  },
+  "fecha": "2026-10-01",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El caso con cifras",
+  "id": "1P5xtV-Kf0o",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Crear webs profesionales con IA aplicado a negocio",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 13,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.81,
+    "senal_incompleta": false
+  },
+  "titulo": "Claude + Higgsfield = Insane $10K AI Websites",
+  "url": "https://www.youtube.com/watch?v=1P5xtV-Kf0o"
+}

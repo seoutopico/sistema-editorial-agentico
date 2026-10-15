@@ -1,0 +1,29 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "duracion_segundos": 1363,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:29Z",
+    "likes": null,
+    "visualizaciones": 133000
+  },
+  "fecha": "2026-06-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La estadística",
+  "id": "3BatQW63C8g",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 121,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "alto",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 2.83,
+    "senal_incompleta": false
+  },
+  "titulo": "Start a $10,000/mo Solo AI Creative Agency (Higgsfield + Claude)",
+  "url": "https://www.youtube.com/watch?v=3BatQW63C8g"
+}

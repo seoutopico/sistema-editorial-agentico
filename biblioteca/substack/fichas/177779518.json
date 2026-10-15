@@ -1,0 +1,31 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "Nano Banana",
+    "Gemini 2.5 Flash Image",
+    "Gemini Co-Drawing",
+    "Google",
+    "Lev Vygotsky",
+    "Think&Hack"
+  ],
+  "fecha": "2025-11-02",
+  "huella": "53b5302ed755a725e31465e5b08e8485e3af7ca1f29928fc88123835daf48ba0",
+  "id": "177779518",
+  "metricas_publicas": {
+    "comentarios": 2,
+    "reacciones": 6,
+    "restacks": 3
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "pensamiento visual con IA",
+    "razonamiento visual",
+    "prompts estructurados en dos fases",
+    "amplificación vs atrofia cognitiva"
+  ],
+  "tema": "Pensamiento crítico con IA",
+  "tesis": "Nano Banana amplifica tu pensamiento visual solo si dibujas tú primero y la usas para traducir, no para inventar: si dejas de dibujar, pierdes el pensamiento que requería dibujarse para existir.",
+  "titulo": "#4 … y la máquina dibujó exactamente lo que yo no sabía que necesitaba",
+  "url": "https://ainalluna.substack.com/p/4-y-la-maquina-dibujo-exactamente"
+}

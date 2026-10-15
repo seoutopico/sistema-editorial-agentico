@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 1361,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 38000
+  },
+  "fecha": "2026-08-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La novedad",
+  "id": "rKxR7soNZsk",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "IA gratuita para vídeo aplicable a YouTube",
+    "relevante": true,
+    "tema": "Contenido y curación con IA"
+  },
+  "senales": {
+    "dias": 60,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.38,
+    "senal_incompleta": false
+  },
+  "titulo": "The best FREE AI for VIDEO (incredible for YOUTUBE) 🤯 New MiniMax H3",
+  "url": "https://www.youtube.com/watch?v=rKxR7soNZsk"
+}

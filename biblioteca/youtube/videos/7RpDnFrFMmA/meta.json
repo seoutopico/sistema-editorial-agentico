@@ -1,0 +1,29 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 1153,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 21000
+  },
+  "fecha": "2026-07-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El tutorial",
+  "id": "7RpDnFrFMmA",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 91,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.21,
+    "senal_incompleta": false
+  },
+  "titulo": "HEYGEN Tutorial: Make videos without a camera! (Create your AI avatar)",
+  "url": "https://www.youtube.com/watch?v=7RpDnFrFMmA"
+}

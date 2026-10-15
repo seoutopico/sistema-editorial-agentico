@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 899,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 99000
+  },
+  "fecha": "2026-10-14",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El experimento",
+  "id": "rL5tw6h78zo",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Prueba de la skill viral de ingeniería inversa",
+    "relevante": true,
+    "tema": "Skills para agentes"
+  },
+  "senales": {
+    "dias": 0,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.79,
+    "senal_incompleta": true
+  },
+  "titulo": "I Tested the Viral Reverse Engineer Anything Skill. What You Need to Know.",
+  "url": "https://www.youtube.com/watch?v=rL5tw6h78zo"
+}

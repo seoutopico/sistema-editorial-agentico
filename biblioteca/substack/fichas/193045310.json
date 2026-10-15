@@ -1,0 +1,31 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "YouTube",
+    "YouTube Data API",
+    "Claude Code",
+    "Obsidian",
+    "Peter Yang",
+    "GitHub"
+  ],
+  "fecha": "2026-04-06",
+  "huella": "33a5aca4eae61cd746e9a07561fa1837fb979fc1703210e8816e73b75519ef93",
+  "id": "193045310",
+  "metricas_publicas": {
+    "comentarios": 18,
+    "reacciones": 16,
+    "restacks": 4
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "research de canales de YouTube",
+    "APIs públicas como fuente de datos",
+    "skills de Claude Code",
+    "análisis de rendimiento de contenido"
+  ],
+  "tema": "Contenido y curación con IA",
+  "tesis": "Las fuentes de datos públicas que nadie aprovecha, como la API de YouTube, se pueden convertir con un agente en un sistema de research que transforma datos en criterio.",
+  "titulo": "YouTube regala los datos de todos sus canales. Yo los convertí en un agente de research.",
+  "url": "https://ainalluna.substack.com/p/analizar-youtube-ia"
+}

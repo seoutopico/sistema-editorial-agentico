@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 4173,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": null
+  },
+  "fecha": "2026-10-03",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El tutorial",
+  "id": "l8ywUsEJ2XQ",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Construir y vender software con IA sin ser técnico",
+    "relevante": true,
+    "tema": "Estrategia de IA"
+  },
+  "senales": {
+    "dias": 11,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": null,
+    "senal_incompleta": false
+  },
+  "titulo": "How to Actually Build & Sell Software with AI as a Non-Techie",
+  "url": "https://www.youtube.com/watch?v=l8ywUsEJ2XQ"
+}

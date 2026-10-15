@@ -1,0 +1,27 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "ChatGPT",
+    "Proyectos de ChatGPT"
+  ],
+  "fecha": "2026-01-04",
+  "huella": "31761e053c41152b98a781ee74370ca07b94fa298cf7bbf6d5cf4c6e4a06476d",
+  "id": "181661791",
+  "metricas_publicas": {
+    "comentarios": 0,
+    "reacciones": 7,
+    "restacks": 4
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "Proyectos de ChatGPT",
+    "archivos de contexto persistentes",
+    "memoria aislada",
+    "instrucciones de proyecto"
+  ],
+  "tema": "Escribir con IA",
+  "tesis": "Ensamblar tus archivos de voz, audiencia y negocio en un Proyecto de ChatGPT crea un sistema de escritura con contexto controlado que elimina la fricción y la contaminación de la memoria nativa.",
+  "titulo": "#13: Proyectos en ChatGPT: Cómo crear tu sistema de escritura con IA   ",
+  "url": "https://ainalluna.substack.com/p/proyectos-chatgpt-sistema"
+}

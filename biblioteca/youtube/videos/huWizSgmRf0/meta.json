@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 1327,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 39000
+  },
+  "fecha": "2026-10-12",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La novedad",
+  "id": "huWizSgmRf0",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Qué habilidades profesionales revaloriza la IA",
+    "relevante": true,
+    "tema": "Estrategia de IA"
+  },
+  "senales": {
+    "dias": 2,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.6,
+    "senal_incompleta": true
+  },
+  "titulo": "The 5 Skills I'd Bet On For 2027. AI Is Making Every One Worth More.",
+  "url": "https://www.youtube.com/watch?v=huWizSgmRf0"
+}

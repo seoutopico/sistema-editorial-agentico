@@ -1,0 +1,443 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/como-auditar-tu-visibilidad-en-google",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 189540705,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-03-02T06:13:43.652Z",
+  "updated_at": "2026-03-02T06:15:52.079Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "como-auditar-tu-visibilidad-en-google",
+  "social_title": null,
+  "subtitle": "Por fin una herramienta gratuita para saber si la IA de Google te cita.",
+  "teaser_post_eligible": true,
+  "title": "¿Cómo auditar tu visibilidad en Google AI Overviews?",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 9
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "chatgpt-no-es-tu-terapeuta",
+  "next_post_slug": "netflix-publico-sus-secretos-de-ctr",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!GP7I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 189540705,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Por fin una herramienta gratuita para saber si la IA de Google te cita.",
+  "body_html": "<div><hr></div><p>Soy Aina y esto es Think&amp;Hack.</p><p>Nuestro objetivo era ser el primero en Google; ahora, ser el primer resultado citado en AI Overviews. Nada ha cambiado, sólo ha cambiado el dónde; tu nuevo objetivo es ser mencionado por AI Overviews y, al final, tener impacto en LLM’s como ChatGPT. </p><p>Hoy te voy a explicar no sólo cómo <em>auditar tu visibilidad en AI Overviews</em> de Google, sino cómo alcanzarla con una <em>sencilla estrategia</em>, todo con <em>herramientas gratuitas.</em></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!GP7I!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!GP7I!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!GP7I!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!GP7I!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!GP7I!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!GP7I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:6330827,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/189540705?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!GP7I!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!GP7I!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!GP7I!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!GP7I!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9926f09-12a6-406b-a83a-482c357cba33_2752x1536.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h3>El problema</h3><p>Google ya no solo ordena resultados. Ahora genera respuestas. Y cuando las genera, elige a quién citar como fuente.</p><p>Ese bloque se llama AI Overview. En España aparece en una de cada cinco búsquedas. Y va a más.</p><p>La pregunta que ninguna herramienta me respondía:</p><ul><li><p>¿En cuántas de mis keywords aparece ese bloque?</p></li><li><p>¿Me cita Google o cita a otros?</p></li><li><p>¿Quién se está llevando esos slots?</p></li><li><p>¿Cuántas fuentes usa en cada respuesta?</p></li></ul><p>Eso no sale en Search Console. No sale en Semrush. No sale en Ahrefs.</p><div class=\"pullquote\"><p>Así que me hice mi propia extensión de Chrome.</p></div><p>Se llama Extractor AI Overviews y hace algo muy simple: buscas una keyword en Google, y si aparece un bloque de IA, la extensión te dice a quién está citando. A ti o a tu competencia.</p><h3>¿Cómo audito mi visibilidad en Google AI Overviews?</h3><p><strong>La extensión funciona de dos formas.</strong></p><p><strong>Mientras navegas.</strong> Buscas en Google como haces siempre. Si la búsqueda activa un AI Overview, el icono de la extensión se ilumina. Lo abres y ves directamente qué webs está citando Google, cuántas fuentes usa y si tu dominio aparece entre ellas. Un clic y se envía al Sheet. Sin interrumpir lo que estabas haciendo.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!KWHe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KWHe!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 424w, https://substackcdn.com/image/fetch/$s_!KWHe!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 848w, https://substackcdn.com/image/fetch/$s_!KWHe!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 1272w, https://substackcdn.com/image/fetch/$s_!KWHe!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KWHe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png\" width=\"1124\" height=\"638\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:638,&quot;width&quot;:1124,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:129957,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/189540705?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KWHe!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 424w, https://substackcdn.com/image/fetch/$s_!KWHe!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 848w, https://substackcdn.com/image/fetch/$s_!KWHe!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 1272w, https://substackcdn.com/image/fetch/$s_!KWHe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4342f266-28e0-46cd-810e-2de1357f0b5b_1124x638.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><strong>Por lotes.</strong> Exportas tus keywords de Google Search Console, Semrush o donde sea. Las cargas en la extensión, le das a iniciar y ella hace el trabajo. </p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!Rt_n!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Rt_n!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 424w, https://substackcdn.com/image/fetch/$s_!Rt_n!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 848w, https://substackcdn.com/image/fetch/$s_!Rt_n!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 1272w, https://substackcdn.com/image/fetch/$s_!Rt_n!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Rt_n!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png\" width=\"1456\" height=\"783\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/adf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:783,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:137847,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/189540705?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Rt_n!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 424w, https://substackcdn.com/image/fetch/$s_!Rt_n!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 848w, https://substackcdn.com/image/fetch/$s_!Rt_n!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 1272w, https://substackcdn.com/image/fetch/$s_!Rt_n!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fadf24c82-4dea-4891-ae19-d145771d6fd6_1920x1032.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Cuando termina, tienes el mapa completo en una Google Sheet. Auditoría hecha. Gratis. Ahora toca actuar.</p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;a98114bc-fe0a-4079-8fe8-a3d4701e7936&quot;,&quot;duration&quot;:null}\"></div><p>De un vistazo sabes: qué porcentaje de tus keywords activan AI Overview, en cuáles te cita Google, en cuáles cita a tu competencia y a ti no, y quién se repite como fuente.</p><div class=\"pullquote\"><p>Las keywords donde aparece AI Overview, pero no te cita, son las <strong>oportunidades</strong>. Ahí es donde te <strong>falta contenido o el que tienes no sirve.</strong></p></div><h3><strong>¿Qué hago con eso?</strong></h3><p>El Sheet te deja dos grupos claros:</p><ul><li><p><strong>Keywords donde apareces citado</strong> → estás dentro. No toques nada.</p></li><li><p><strong>Keywords donde aparece AI Overview pero cita a tu competencia y no a ti</strong> → esas son tus oportunidades. Abre las URLs que cita Google, mira qué tienen ellos que no tienes tú y crea o mejora tu contenido.</p></li></ul><p>Si quieres ir un paso más allá, los datos de la Sheet los puedes pasar por un GPT personalizado (Analista SEO para AI Overviews) que te dice exactamente qué tipo de contenido está citando Google, qué te falta para entrar y cómo atacar a tu oportunidad.<br><br><strong>Ejemplo resultado de GPT personalizado. 👇</strong></p><div class=\"highlighted_code_block\" data-attrs=\"{&quot;language&quot;:&quot;markdown&quot;,&quot;nodeId&quot;:&quot;703e3d34-156f-4ba3-9e10-73bb3e3d43c3&quot;}\" data-component-name=\"HighlightedCodeBlockToDOM\"><pre class=\"shiki\"><code class=\"language-markdown\">## 🔍 Query: que libro leer de fantasia en 2026  \n### Intención: informacional (recomendaciones) con matiz comercial | Complejidad: media (comparativa + selección)\n\n---\n\n## 📊 Resumen del AIO\n- **Palabras**: 241 (vs media ~169) → AIO *más largo de lo normal*\n- **Fuentes citadas**: 3 (vs media ~7,2) → pocas fuentes, pero muy concentradas en UGC\n- **Estructura**:  \n  - 1 bloque de **párrafo-resumen** con varios títulos + meses de publicación  \n  - seguido de una **cadena de “tarjetas”**: título de TikTok, título del hilo de Reddit y fecha  \n  - No hay listas claras tipo bullet; mezcla resumen + metadatos de las tarjetas\n\n### Fan-out potencial (sub-queries que Google probablemente generó)\nPara responder a “qué libro leer de fantasía en 2026”, el sistema parece haber descompuesto en cosas como:\n\n- “most anticipated fantasy books 2026”\n- “fantasy book releases january 2026”\n- “romantasy 2026 tiktok recommendations”\n- “libros más esperados de fantasía 2026 reddit”\n- “red god pierce brown release date 2026”\n- “novedades romantasy 2026 en español”\n- “dark fae romantasy books 2026”\n\n### Idioma y mercado\n- **Query:** español (España/Latam)  \n- **Texto del AIO:** español, pero con títulos de libros en inglés  \n- **Fuentes:**  \n  - TikTok: creadora hispanohablante  \n  - 2 hilos de Reddit en inglés (con parámetro `tl=es-419`, es decir, mostrados traducidos para hispanohablantes)  \n→ Google mezcla **UGC anglo** + **creadora española de TikTok** para servir una respuesta en español.\n\n---\n\n## 🔗 Análisis de fuentes\n\n| # | Dominio | Tipo | Anchor | Por qué fue citada |\n|---|---------|------|--------|--------------------|\n| 1 | tiktok.com | Social / UGC vídeo | Guía completa para leer Romantasy en 2026 | Contenido muy específico para *romantasy* y para el año 2026, en español, con formato guía. Alta conexión semántica con parte del AIO (“Quick Silver (Fae oscuro), Azarraí (romantasy)…”). Probable origen de la parte romántica y de subgéneros (fae oscuro, romantasy), además de aportar señal de frescura y engagement social. |\n| 2 | reddit.com | UGC / foro | ¡Libros que más esperas para 2026/2027! : r/Fantasy | Hilo de comunidad preguntando por los libros más esperados de 2026/2027. De aquí salen títulos como *To Ride a Rising Storm* y *The Spell For Unraveling* y posiblemente menciones a *Silent Pa…* (Silent Palace/Silent… en el snippet). Es UGC fresco (jul 2025), con listas de libros directamente relacionados con “most anticipated fantasy 2026”. |\n| 3 | reddit.com | UGC / foro | ¿Los libros más esperados de 2026? : r/Fantasy | Otro hilo casi idéntico pero de fecha posterior (dic 2025). Probablemente refuerza los mismos títulos (To Ride a Rising Storm, The Spell For Unraveling, Red God, etc.). Google lo usa para corroborar consenso de la comunidad y completar la lista de “títulos esperados” para 2026. UGC muy alineado con la query + alta frescura temporal. |\n\n### Qué fragmentos parecen salir de cada fuente\n\n- **Reddit (2 y 3):**  \n  - “To Ride a Rising Storm de Moniquill Blackgoose (enero)”  \n  - “The Spell For Unraveling de Rochelle Hassan (abril)”  \n  - “Red God de Pierce Brown”  \n  - Fechas concretas (enero, abril, septiembre) y formulación de “títulos más esperados / anticipated”.\n- **TikTok (1):**  \n  - “Quick Silver (Fae oscuro), Azarraí (romantasy)”  \n  - Tono de recomendación cercana, centrado en *romantasy* y tropos (fae, romance fuerte, etc.).  \n  - El propio uso de “Guía completa para leer Romantasy en 2026” como etiqueta refuerza que el AIO absorbe titulares y copy del vídeo.\n\n---\n\n## 🧩 Patrones detectados\n\n- **Sesgo de plataforma:**  \n  - 100% **UGC** → Reddit (foro) + TikTok (social vídeo).  \n  - 0 medios editoriales, 0 blogs especializados, 0 webs de editoriales.\n- **Sesgo temporal:**  \n  - Fechas de los hilos 2025 (julio y diciembre) → Google prioriza **frescura extrema** para una query con año (2026).  \n- **Diversidad de tipos:**  \n  - Solo 2 plataformas, pero una es vídeo corto y otra foro de texto → mezcla mínima, pero ambas **comunidad / recomendación**.\n- **Gap de autoridad:**  \n  - Faltan webs de referencia tipo editoriales, portales de reseñas, grandes medios culturales en español.  \n  - Esto abre hueco enorme para **un buen artículo SEO en español**.\n- **Patrón geográfico/idiomático:**  \n  - Query en español → Google mete un TikTok en español + Reddit traducido (parámetro `tl=es-419`).  \n  - Claramente hay **poca oferta sólida en español**, por eso tira tanto de UGC anglo traducido.\n\n---\n\n## 🎯 Oportunidades\n\n### Tipo de contenido con más probabilidad de citación\n\n- **Artículo evergreen + temporal**:  \n  “Los libros de fantasía que tienes que leer en 2026 (con romantasy incluida)”\n- Enfocado a:\n  - Novedades 2026 (internacional + traducciones al español)\n  - Subgéneros que ya aparecen en el AIO: **epic fantasy + romantasy + fae oscuro**\n\n### Formato óptimo\n\n- **Extensión**: 2.000–2.500 palabras, con pasajes de 130–160 palabras fácilmente extractables.  \n- **Estructura**:\n  - Intro corta con respuesta directa (primeras 150 palabras = resumen + mini-lista).\n  - Listas tipo **ItemList**: “Top X libros de fantasía que leer en 2026”.\n  - H2/H3 descriptivos en forma de pregunta:  \n    - “¿Qué libros de fantasía leer en 2026 si eres principiante?”  \n    - “Mejores novedades de romantasy para 2026”.\n  - Tabla o bullets con: título, autor, subgénero, fecha de publicación, si está/estará en español.\n- **Multimedia**:\n  - Portadas de libros, excerpt de reseñas, y **un vídeo corto incrustado** (YouTube o TikTok) con “mis 5 recomendaciones para 2026”.\n\n### Señales de autoridad (E-E-A-T + técnico)\n\n- Bio del autor/a: dejar claro que lee mucha fantasía, menciona años de experiencia, participación en clubs de lectura, etc.\n- Citar 1–2 fuentes fuertes por sección (editoriales, Goodreads, webs oficiales).\n- Markup:\n  - `Article` + `ItemList` (lista de libros)  \n  - `FAQPage` con 3–5 preguntas típicas.\n- Datos concretos:\n  - Mes/año de publicación\n  - Subgénero y público (YA, adulto, new adult).\n- Enlazar a tiendas/editoriales oficiales (mejor que solo Amazon).\n\n### Timing\n\n- Actualizar el artículo **cada trimestre** de 2025–2026:\n  - Añadir nuevos anuncios\n  - Ajustar fechas de publicación\n  - Marcar claramente “Última actualización: mes año”.\n\n### Plataformas complementarias\n\n- **TikTok**: replicar la idea de “Guía completa para leer fantasía/romantasy en 2026” con tu branding + link al artículo.\n- **Reddit / comunidades**:  \n  - Publicar hilos tipo “Most anticipated fantasy releases 2026 (in Spanish)” enlazando a tu listado.  \n  - Participar aportando valor (no solo drop de links).\n\n---\n\n## 📝 Plantilla competitiva\n\n### Título sugerido\n\n&gt; **Qué libro de fantasía leer en 2026: 21 novedades imprescindibles (epic, romantasy y fae oscuro)**\n\n### Meta description (ejemplo)\n\n&gt; Los mejores libros de fantasía para leer en 2026: novedades épicas, romantasy, fae oscuro y sagas esperadas. Guía clara, en español, con fechas y dónde conseguirlos.\n\n### H1\n\n&gt; **Qué libro de fantasía leer en 2026: guía completa de novedades y sagas**\n\n### Estructura H2/H3\n\n- **H2: Resumen rápido: 7 libros de fantasía que leer sí o sí en 2026**  \n  - H3: 3 novedades de fantasía épica muy esperadas  \n  - H3: 3 libros de romantasy para 2026  \n  - H3: 1 apuesta diferente si quieres salir de tu zona de confort\n- **H2: Cómo elegir tu próximo libro de fantasía en 2026 (en 3 pasos)**  \n  - H3: Define tu subgénero: épica, urbana, romantasy o fae oscuro  \n  - H3: Longitud, tono y público (YA, adulto, new adult)  \n  - H3: Dónde conseguir las novedades en español\n- **H2: Novedades de fantasía épica más esperadas de 2026**  \n  - H3: Continuaciones de sagas famosas  \n  - H3: Nuevas sagas que empiezan en 2026\n- **H2: Romantasy en 2026: libros con magia y romance que no puedes perderte**  \n  - H3: Romantasy con fae oscuro  \n  - H3: Romantasy con torneos, pruebas o concursos mágicos  \n- **H2: Libros de fantasía autoconclusivos para 2026**  \n- **H2: Preguntas frecuentes sobre qué leer de fantasía en 2026 (FAQ)**\n\n### Primer párrafo (50–70 palabras, respuesta directa)\n\n&gt; Si en 2026 quieres leer fantasía y no sabes por dónde empezar, céntrate en unas pocas novedades clave: continuaciones muy esperadas, nuevos inicios de saga y algo de romantasy si te atrae el romance. A continuación encontrarás una lista corta, clara y ordenada por subgéneros para que elijas tu próxima lectura sin perder tiempo comparando reseñas.\n\n### Schema markup recomendado (esqueleto)\n\n```html id=\"shzhhf\"&gt;\n&lt;script type=\"application/ld+json\"&gt;\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Qué libro de fantasía leer en 2026: 21 novedades imprescindibles\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Tu Nombre\"\n  },\n  \"datePublished\": \"2025-12-15\",\n  \"dateModified\": \"2026-02-01\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://tudominio.com/que-libro-fantasia-leer-2026\"\n  },\n  \"articleSection\": [\n    \"Resumen rápido\",\n    \"Novedades de fantasía épica 2026\",\n    \"Romantasy 2026\",\n    \"Libros autoconclusivos de fantasía\"\n  ],\n  \"mainEntity\": {\n    \"@type\": \"ItemList\",\n    \"itemListElement\": [\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 1,\n        \"item\": {\n          \"@type\": \"Book\",\n          \"name\": \"Título de libro 1\",\n          \"author\": \"Autor 1\"\n        }\n      },\n      {\n        \"@type\": \"ListItem\",\n        \"position\": 2,\n        \"item\": {\n          \"@type\": \"Book\",\n          \"name\": \"Título de libro 2\",\n          \"author\": \"Autor 2\"\n        }\n      }\n    ]\n  }\n}\n&lt;/script&gt;</code></pre></div><div class=\"pullquote\"><p>Nada ha cambiado. Sigues necesitando saber dónde estás y dónde no. Solo ha cambiado el dónde.</p></div><p>Una auditoría que te dice dónde estás y una estrategia que te dice qué hacer. Sin pagar 200€/mes por otra herramienta.</p><p><strong>👇👇 Descarga la extensión de Chrome: Extractor AI Overviews  👇👇</strong></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://github.com/seoutopico/chrome_extension_extractor-ai-overviews&quot;,&quot;text&quot;:&quot;Descargar aquí&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://github.com/seoutopico/chrome_extension_extractor-ai-overviews\"><span>Descargar aquí</span></a></p><p><em>El repo incluye la extensión, el Apps Script, el prompt del asistente, y una guía de estrategia.</em></p><p><strong>ℹ️ Un aviso:</strong> la extensión detecta el AI Overview buscando los selectores CSS que Google usa ahora mismo. Si Google cambia los IDs de esas clases, deja de funcionar. E</p><div class=\"pullquote\"><p>Pero esa es la gracia. Esto no es un producto. Es una idea con código que puedes abrir, leer y adaptar. La hice con Claude Code. Si quieres mejorarla, cambiarla o construir la tuya desde cero, hoy puedes. </p></div><p>Los AI Overviews cambian. Las fuentes que Google cita hoy para una keyword pueden ser otras mañana. Esto no es un análisis que haces una vez. Es una auditoría recurrente.</p><p><strong>Nada ha cambiado. Solo ha cambiado el dónde.</strong></p><p>¿Sales citado?</p><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think&amp;Hack</strong></p><p>Soy Aina. Responsable de IA generativa en Planeta.</p><p><strong>Comparte:</strong> Reenvía esto a quien dependa del tráfico orgánico y no sepa qué es un AI Overview. <br><strong>Responde:</strong> ¿Estás midiendo tu presencia en respuestas de IA o solo tus rankings? <strong>Suscríbete:</strong> Si te han reenviado esto, <a href=\"https://ainalluna.substack.com/\">únete aquí</a>. 👇</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": null,
+  "wordcount": 1992,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [
+    {
+      "id": "4ab77684-4153-4d1f-9834-7aa1578e5843",
+      "publication_id": 5143893,
+      "name": "seo",
+      "slug": "seo",
+      "hidden": false
+    }
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        245,
+        122,
+        98
+      ],
+      "population": 5
+    },
+    "DarkVibrant": {
+      "rgb": [
+        137,
+        76,
+        60
+      ],
+      "population": 3
+    },
+    "LightVibrant": {
+      "rgb": [
+        244,
+        180,
+        164
+      ],
+      "population": 1
+    },
+    "Muted": {
+      "rgb": [
+        161,
+        96,
+        80
+      ],
+      "population": 6
+    },
+    "DarkMuted": {
+      "rgb": [
+        112,
+        68,
+        60
+      ],
+      "population": 2
+    },
+    "LightMuted": {
+      "rgb": [
+        186,
+        188,
+        180
+      ],
+      "population": 12
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 9,
+  "comment_count": 6,
+  "child_comment_count": 3,
+  "audio_items": [
+    {
+      "post_id": 189540705,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/189540705/tts/fac0ccbd-19c0-4794-bd79-d6b83296258f/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 221779597,
+      "body": "Gracias por este artículo Aina Lluna. Me parece muy valioso. Veo que la herramienta es gratuita, sencilla y permite auditar fácilmente la visibilidad en los Google AI Overviews (evitando pagar por herramientas similares que a veces cobran mucho por lo mismo). La probaré ya mismo. Lo mejor: confirma que el SEO tradicional sigue siendo la base sólida!! 🤩🤩",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Gracias por este artículo Aina Lluna. Me parece muy valioso. Veo que la herramienta es gratuita, sencilla y permite auditar fácilmente la visibilidad en los Google AI Overviews (evitando pagar por herramientas similares que a veces cobran mucho por lo mismo). La probaré ya mismo. Lo mejor: confirma que el SEO tradicional sigue siendo la base sólida!! 🤩🤩"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 189540705,
+      "user_id": 84979029,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-02T09:15:42.400Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Eva FT",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "handle": "evaft",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "evaft",
+      "metadata": {
+        "is_author": true,
+        "membership_state": "subscribed",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Eva FT",
+          "id": 6846930,
+          "base_url": "https://evaft.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 30,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    },
+    {
+      "id": 221768790,
+      "body": "¡Gracias por este contenido de tanto valor! Nosotros ahora mismo lo estamos haciendo en una de las extensiones que tiene Sistrix sobre AI Overviews, pero obviamente, porque podemos pagar la herramienta.\n\nAquí, como siempre, echo de menos el paso final. Sí, puedo averiguar si AI Overviews me cita o no, pero ¿me estoy llevando algún click de ese bloque? :///",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "¡Gracias por este contenido de tanto valor! Nosotros ahora mismo lo estamos haciendo en una de las extensiones que tiene Sistrix sobre AI Overviews, pero obviamente, porque podemos pagar la herramienta."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Aquí, como siempre, echo de menos el paso final. Sí, puedo averiguar si AI Overviews me cita o no, pero ¿me estoy llevando algún click de ese bloque? :///"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 189540705,
+      "user_id": 81677549,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-03-02T08:15:05.761Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Bego",
+      "photo_url": null,
+      "handle": "bego756162",
+      "reactor_names": [
+        "Eva FT",
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 2
+      },
+      "reaction_count": 2,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "bego756162",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 7,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    }
+  ]
+}

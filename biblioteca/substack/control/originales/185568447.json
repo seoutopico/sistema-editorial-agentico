@@ -1,0 +1,281 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/rodeado-de-idiotas",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 185568447,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-01-25T07:30:22.673Z",
+  "updated_at": "2026-01-25T07:30:42.978Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "rodeado-de-idiotas",
+  "social_title": null,
+  "subtitle": "Y tú de qué color eres?",
+  "teaser_post_eligible": true,
+  "title": "Rodeado de Idiotas",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 9
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "rag-notebooklm-gemini",
+  "next_post_slug": "chatgpt-wordpress-calendario-editorial",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!vq2h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 185568447,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Y tú de qué color eres?",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Eva y esto es Think&amp;Hack.</p><p>Si te interesa el mundo de la IA, suscríbete para no perderte nada.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><p>Hay un libro que se ha hecho famoso en el mundo corporativo, “Rodeado de Idiotas” de Thomas Erikson. Su éxito se basa en una premisa simple: la frustración que sentimos cuando los demás no actúan, piensan o se comunican como nosotros.</p><p>El autor clasifica a las personas en cuatro colores:</p><ul><li><p>Rojos: Dominantes y rápidos.</p></li><li><p>Amarillos: Sociables y optimistas.</p></li><li><p>Azules: Analíticos y precisos.</p></li><li><p>Verdes: Estables y pacientes.</p></li></ul><p>La llegada de la IA no ha borrado estos colores. Los ha hecho más intensos.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!vq2h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!vq2h!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 424w, https://substackcdn.com/image/fetch/$s_!vq2h!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 848w, https://substackcdn.com/image/fetch/$s_!vq2h!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!vq2h!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!vq2h!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg\" width=\"1280\" height=\"698\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/e95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:698,&quot;width&quot;:1280,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:56983,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/jpeg&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/185568447?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!vq2h!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 424w, https://substackcdn.com/image/fetch/$s_!vq2h!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 848w, https://substackcdn.com/image/fetch/$s_!vq2h!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 1272w, https://substackcdn.com/image/fetch/$s_!vq2h!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe95ff6e3-3c9e-4866-97b3-c12476688bf3_1280x698.jpeg 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h3>La analogía: de “idiotas” a “inteligentes (artificiales)”</h3><p>El <strong>Rojo</strong> del libro, el que busca el poder, ha evolucionado. En el mundo de la IA, es el <strong>Tiburón Rojo</strong>. Es listo y ha entendido que la IA es el arma definitiva para ganar. Su lema es: <em>“Ya he validado tres casos de uso. Necesito que IT me dé vía libre para integrar la API, nos permitirá doblar los objetivos. No podemos esperar, la competencia ya lo está usando.”</em></p><p>El <strong>Amarillo</strong> original, el sociable, ha encontrado su juguete favorito. Es el <strong>Cometa Amarillo</strong>. Su energía es contagiosa, pero caótica. Descubre una herramienta nueva el fin de semana y el lunes quiere que todo el mundo la use. <em>“¡Eva, mira esta app que te resume libros! ¡Y esta otra te hace vídeos con avatares! ¡Es increíble!”</em>.</p><p>El <strong>Azul</strong> analítico es ahora más necesario que nunca. Es el <strong>Arquitecto Azul</strong>. Es proactivo, pero metódico. <em>“La IA tiene un potencial enorme si la integramos correctamente. He preparado un plan piloto, pero antes, necesitamos definir la infraestructura, la gobernanza de datos y las métricas de éxito.”</em>. No frena, construye los cimientos.</p><p>Y el <strong>Verde</strong>, el que busca la estabilidad, se ha convertido en el <strong>Diplomático Verde</strong>. Su foco no es la tecnología, sino las personas. <em>“Entiendo el potencial, pero me preocupa cómo va a afectar al equipo. ¿Hemos pensado en la formación? ¿Cómo vamos a comunicar estos cambios?”</em>.</p><div><hr></div><p>Y ahí está el verdadero trabajo de un líder hoy. No es elegir la mejor IA. Es gestionar este nuevo espectro de colores.</p><p>El Tiburón Rojo necesita al Arquitecto Azul para no estrellarse. El Cometa Amarillo necesita el propósito del Tiburón y los cimientos del Arquitecto. Y todos necesitan al Diplomático Verde para que el equipo no se rompa.</p><p>De hecho, es el pilar de cómo diseñamos nuestras formaciones en Think and Hack. Nos obsesiona adaptar el mensaje, porque hemos visto que no puedes enseñarle igual a un Tiburón Rojo que a un Diplomático Verde. A uno tienes que hablarle de ROI y velocidad; al otro, de seguridad y comunicación para el equipo. Es el mismo “qué”, pero con un “cómo” radicalmente distinto.</p><p>Al final, como en el libro, la conclusión es que no estás rodeado de idiotas. Estás rodeado de distintos sistemas operativos. Y la IA solo ha subido el volumen de sus diferencias.</p><p>Si quieres comprar el libro en Amazon está con 5% de descuento: </p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://amzn.to/4qEyRms&quot;,&quot;text&quot;:&quot;Comprar libro: Rodeado de Idiotas&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://amzn.to/4qEyRms\"><span>Comprar libro: Rodeado de Idiotas</span></a></p><p>Erikson te pregunta de qué color eres. Yo te pregunto: ¿qué color ha sacado la IA de ti?</p><p></p><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think &amp; Hacks</strong></p><p>Soy Eva, entusiasta del mundo de la IA y las automatizaciones.</p><p>Solo te pido tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte:</strong> Reenvía este correo a ese compañero que sigue estancado en 2023.</p></li><li><p>💬 <strong>Comenta:</strong> Dale a “responder” y dime: ¿Qué modelo usas tú fuera de ChatGPT?</p></li><li><p>📩 <strong>Suscríbete:</strong> ¿Llegas tarde? para recibir la próxima antes que nadie.</p><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p></li></ol>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 579,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        248,
+        210,
+        13
+      ],
+      "population": 140
+    },
+    "DarkVibrant": {
+      "rgb": [
+        16,
+        114,
+        178
+      ],
+      "population": 125
+    },
+    "LightVibrant": {
+      "rgb": [
+        251.27228915662647,
+        231.03614457831324,
+        126.12771084337352
+      ],
+      "population": 0
+    },
+    "Muted": {
+      "rgb": [
+        124,
+        124,
+        124
+      ],
+      "population": 8
+    },
+    "DarkMuted": {
+      "rgb": [
+        38,
+        71,
+        52
+      ],
+      "population": 133
+    },
+    "LightMuted": {
+      "rgb": [
+        189,
+        189,
+        187
+      ],
+      "population": 28
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 84979029,
+      "name": "Eva FT",
+      "handle": "evaft",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "bio": "Formador en Inteligencia Artificial Generativa para Empresas | Talleres prácticos que impulsan productividad y ventas de tu Empresa// Colaborando con la Newsletter especializada en IA de Think & Hack.",
+      "profile_set_up_at": "2025-03-21T20:40:50.882Z",
+      "reader_installed_at": "2025-03-21T20:40:43.011Z",
+      "publicationUsers": [
+        {
+          "id": 6987845,
+          "user_id": 84979029,
+          "publication_id": 6846930,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 6846930,
+            "name": "Eva FT",
+            "subdomain": "evaft",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 84979029,
+            "primary_user_id": 84979029,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-11-08T20:32:12.225Z",
+            "email_from_name": null,
+            "copyright": "Eva FT",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true,
+            "logo_url_wide": null
+          }
+        },
+        {
+          "id": 7493413,
+          "user_id": 84979029,
+          "publication_id": 5143893,
+          "role": "contributor",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 9,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 185568447,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/185568447/tts/061d3d43-c4e8-4532-afaf-2c3dc4fa3741/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": []
+}

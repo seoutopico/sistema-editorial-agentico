@@ -1,0 +1,35 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "duracion_segundos": 466,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:29Z",
+    "likes": null,
+    "visualizaciones": 33000
+  },
+  "fecha": "2026-10-06",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La pregunta directa",
+  "id": "9C5hLJ1bIzk",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Hasta dónde delegar el negocio en la IA, debate útil",
+    "relevante": true,
+    "tema": "Estrategia de IA"
+  },
+  "senales": {
+    "dias": 8,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.7,
+    "senal_incompleta": false
+  },
+  "titulo": "OpenAI Wants to Run Your Business. Should You Let It?",
+  "url": "https://www.youtube.com/watch?v=9C5hLJ1bIzk"
+}

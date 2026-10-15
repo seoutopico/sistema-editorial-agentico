@@ -1,0 +1,112 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "00:00",
+      "texto": "La introducción del propio vídeo fue editada por Opus 5.5 con un solo prompt: motion graphics, sonido, búsqueda de B-roll, capturas y generación de imágenes y vídeo.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "01:00",
+      "texto": "Hyperframes es gratis y funciona dándosela a Claude Code, que escribe HTML y lo anima; se instala pasándole la URL del repositorio de GitHub y pidiéndole que lo configure.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "02:02",
+      "texto": "El primer paso es transcribir el vídeo (con la API de ElevenLabs, de pago por uso y más rápida, o con Whisper, local y gratis) para que las animaciones caigan en el momento exacto.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "03:35",
+      "texto": "El modelo añadió por su cuenta decisiones de diseño no pedidas (zoom sutil, interfaz de nube, animación de verificación) porque 'tiene buen gusto'.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "05:38",
+      "texto": "Descargó un reel ajeno que le gustó de X, pidió a Claude Code que analizara por qué era bueno y que convirtiera ese análisis en una skill ('motion show reel'), que luego usó para crear su propio reel.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "06:40",
+      "texto": "Para las escenas animadas del reel, el agente generó imágenes, las envió a Kling para convertirlas en vídeo y luego lo integró todo en un montaje consistente.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "08:50",
+      "texto": "Dio a Claude Code acceso a una carpeta con 105 GB de grabaciones de su evento AIS Live y obtuvo un vídeo promocional que cuenta una historia; no fue un solo prompt sino tres (prompt inicial, iteración y una corrección).",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "10:54",
+      "texto": "Con el mismo clip casero de tostadas de aguacate obtuvo tres ediciones de estilos distintos (pizarra dibujada a mano, vídeo estilo curso, formato corto), cada una con un solo prompt.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "13:29",
+      "texto": "Casi todos los ejemplos se ejecutaron con el nivel de esfuerzo en alto.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "16:00",
+      "texto": "Su marco de trabajo son cinco pasos: transcribir, cortar (errores y silencios), planificar los tiempos, usar skills y cerrar con un bucle de verificación con capturas de pantalla.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "17:33",
+      "texto": "Cada vez que ejecutas una skill y le dices qué te gustó y qué no, y actualizas la skill con ese feedback, construyes un componente reutilizable que mejora con el uso; si te repites, añádelo a la skill.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "18:34",
+      "texto": "El bucle de verificación hace que el agente entregue de facto la versión cinco o seis en lugar de la primera: revisa su propio resultado con capturas e itera hasta considerarlo suficientemente bueno.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "19:05",
+      "texto": "Ya no hace falta experiencia previa en edición de vídeo para aprovechar los motion graphics; la edición no debería ser un obstáculo para filmar contenido.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "Nate Herk | AI Automation",
+  "avisos_transcripcion": [
+    "La transcripción automática en castellano deforma nombres propios: 'GBD6 Astra' por GPT-6 Astra (00:00), 'Fable 5.1' como modelo citado (00:00), 'opening eye' por OpenAI (02:34), 'Claude Go' por Claude Code (02:02), '11 Labs' por ElevenLabs y 'key.ai' probablemente por Kie.ai (07:10)"
+  ],
+  "demuestra": "Enseña funcionando varios resultados completos: la intro del vídeo editada con un solo prompt (motion graphics, B-roll, capturas, generación), un reel de YouTube creado a partir de una skill derivada de analizar un vídeo ajeno, un reel de demostración sin skill, un promocional montado desde 105 GB de grabaciones de evento en tres prompts, tres ediciones de estilos distintos del mismo clip casero y un spot con estética de marca Lululemon. También muestra los prompts usados y la skill resultante en el sistema de archivos.",
+  "entidades": [
+    "Claude Code",
+    "Opus 5.5",
+    "Hyperframes",
+    "ElevenLabs",
+    "Whisper",
+    "Kling",
+    "Nate Herk",
+    "Lululemon",
+    "GitHub"
+  ],
+  "fecha": "2026-09-25",
+  "fuente": "youtube",
+  "huella": "490e68901b4fad4fb0f2932c92c8bc6504bb62ca847297a86eca9abd7de4762e",
+  "id": "7jHXoPGnA4c",
+  "preguntas_abiertas": [
+    "Cuánto cuesta y cuánto tarda cada edición en tiempo y tokens, y cuántas iteraciones hacen falta de media para un resultado publicable",
+    "Qué contiene exactamente una skill de edición bien escrita (estructura, criterios, ejemplos) más allá de 'pedirle a Claude que la cree'",
+    "Qué implicaciones de derechos tiene que el agente descargue logos, miniaturas y recursos de marcas ajenas para montar los vídeos",
+    "Si el patrón analizar un ejemplo ajeno que te gusta, convertirlo en skill y refinarla con feedback es transferible a procesos de texto y contenido fuera del vídeo",
+    "Dónde está el límite de calidad frente a un editor humano: el propio autor admite cortes extraños y errores visuales que no corrige"
+  ],
+  "promete_sin_demostrar": "No muestra el proceso intermedio (tiempos de render, número real de iteraciones ni coste); afirma que el agente buscó prendas y fotos reales de Lululemon ('estoy bastante seguro') sin verificarlo; promete que las skills del 'Hyperframes student kit' permiten replicar los resultados sin enseñar su contenido; da por hecho que el bucle de verificación converge a calidad publicable cuando sus propios ejemplos muestran defectos (huevos diminutos, cortes extraños de discurso).",
+  "senales": {
+    "dias": 19,
+    "interaccion": 0.0167,
+    "multiplo_mediana": 2.17
+  },
+  "subtemas": [
+    "edición de vídeo con agentes",
+    "skills de Claude Code",
+    "componentes reutilizables",
+    "entrenamiento por corrección",
+    "verificación del resultado"
+  ],
+  "tema": "Skills para agentes",
+  "tesis": "Con Claude Code (Opus 5.5) más la herramienta gratuita Hyperframes y un flujo de cinco pasos (transcribir, cortar, planificar tiempos, skills, bucle de verificación), editar vídeo con motion graphics deja de requerir experiencia previa: basta describir en lenguaje natural lo que quieres y consolidar tus preferencias en skills que mejoran con cada corrección.",
+  "url": "https://www.youtube.com/watch?v=7jHXoPGnA4c"
+}

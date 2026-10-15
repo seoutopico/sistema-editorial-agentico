@@ -1,0 +1,428 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/mejorar-newsletter-ia",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 193981605,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-04-13T05:02:27.147Z",
+  "updated_at": "2026-04-13T08:32:01.247Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "mejorar-newsletter-ia",
+  "social_title": null,
+  "subtitle": "31 newsletters con Claude Code: producía más, pero no mejoraba. Así construí un Growth Editor con mis datos para que cada post supere al anterior.",
+  "teaser_post_eligible": true,
+  "title": "Tu IA produce más, no mejor: Cómo mejorar tu contenido creado con IA",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 9
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "analizar-youtube-ia",
+  "next_post_slug": "codex-chatgpt-plus-incluido",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!uGy2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 193981605,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "31 newsletters con Claude Code: producía más, pero no mejoraba. Así construí un Growth Editor con mis datos para que cada post supere al anterior.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!uGy2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!uGy2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!uGy2!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!uGy2!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!uGy2!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!uGy2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png\" width=\"1456\" height=\"813\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:813,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5549200,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/193981605?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!uGy2!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 424w, https://substackcdn.com/image/fetch/$s_!uGy2!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 848w, https://substackcdn.com/image/fetch/$s_!uGy2!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!uGy2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F010f868e-92f5-4e5a-9435-47dfbcb69f8b_2752x1536.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack</p><p>Llevas meses usando IA para tu contenido. Produces más rápido que nunca.</p><p>Pero si pones tu último post junto al primero... suenan igual. Mismo nivel. Misma estructura. Seis meses después y tu contenido no ha mejorado nada.</p><p><strong>La IA te hizo más rápido. No te hizo mejor.</strong></p><p>A mí me pasó exactamente eso. 31 newsletters con un sistema editorial en Claude Code, podía sacar ideas, estructurar borradores y escribir más rápido. Pero había un problema: el sistema no aprendía de los resultados. Publicaba una newsletter, veía algunas métricas y seguía adelante. La siguiente pieza nacía casi desde cero.</p><div class=\"pullquote\"><p><strong>El sistema producía. Pero no aprendía.</strong></p></div><p>Yo tenía datos. Tenía herramientas. Tenía un sistema que producía cada semana sin fallar. Lo que no tenía era a alguien que mirase los números, detectase qué funcionaba y convirtiese eso en reglas para la semana siguiente.</p><p>Esa función tiene nombre: <strong>Growth Editor</strong>. Y es la pieza que la mayoría de creadores de contenido con IA (yo incluida hasta hace dos meses) no tenemos: </p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!uCE2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!uCE2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 424w, https://substackcdn.com/image/fetch/$s_!uCE2!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 848w, https://substackcdn.com/image/fetch/$s_!uCE2!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 1272w, https://substackcdn.com/image/fetch/$s_!uCE2!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!uCE2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png\" width=\"1073\" height=\"300\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:300,&quot;width&quot;:1073,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:40138,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/193981605?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!uCE2!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 424w, https://substackcdn.com/image/fetch/$s_!uCE2!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 848w, https://substackcdn.com/image/fetch/$s_!uCE2!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 1272w, https://substackcdn.com/image/fetch/$s_!uCE2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9b31b07-1612-4862-9ebb-aea091b7fab5_1073x300.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">¿Qué es un growth editor?</figcaption></figure></div><p>No es un rol de lujo para equipos con presupuesto. Es una función: mirar tus datos de rendimiento, cruzarlos con lo que sabes sobre tu audiencia y convertir eso en restricciones concretas para tu próximo contenido.</p><p>Esto es lo que construí cuando decidí dejar de producir en piloto automático.</p><h3>Paso 1: Medir lo que importa, no lo que halaga.</h3><p>Dejé de mirar solo likes. Clasifiqué mis 31 newsletters por tipo de contenido y crucé con las métricas que de verdad indican crecimiento: </p><ul><li><p>¿Qué newsletters generaban comentarios?</p></li><li><p>¿Cuáles traían nuevos suscriptores?</p></li><li><p>y cuáles se quedaban en una reacción superficial.</p></li></ul><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!G-Az!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 424w, https://substackcdn.com/image/fetch/$s_!G-Az!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 848w, https://substackcdn.com/image/fetch/$s_!G-Az!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 1272w, https://substackcdn.com/image/fetch/$s_!G-Az!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!G-Az!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png\" width=\"816\" height=\"233\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:233,&quot;width&quot;:816,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:24184,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/193981605?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!G-Az!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 424w, https://substackcdn.com/image/fetch/$s_!G-Az!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 848w, https://substackcdn.com/image/fetch/$s_!G-Az!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 1272w, https://substackcdn.com/image/fetch/$s_!G-Az!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5f7ec237-4e5b-4390-ad86-844b58a94dc9_816x233.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p>Dato incómodo: Mis newsletters de opinión generaban likes, pero cero conversación y cero suscriptores nuevos. Los tutoriales con entidad generaban <strong>6.7 veces más comentarios</strong> y <strong>7 veces más signups</strong>.</p><p>El ejemplo más claro: “<strong>Lo que nadie explica de Nano Banana Pro</strong>” consiguió 6 likes y 0 comentarios. “He conectado ChatGPT con mi WordPress” consiguió 9 likes y 7 comentarios. Mismos likes. Resultados completamente distintos.</p><div class=\"pullquote\"><p>Mi restricción: si el objetivo es crecer, tutorial con entidad es el formato por defecto.</p></div><h3>Paso 2: Convertir datos en lecciones que el sistema cargue.</h3><p>Un dato suelto no sirve si la semana que viene empiezas de cero.</p><p>Construí lo que llamo mi <strong>brain</strong>: un documento de lecciones que mi sistema carga automáticamente antes de escribir cada borrador. Cada lección tiene tres partes:</p><ol><li><p><strong>La regla</strong> — lo que mis datos dicen hoy. Ejemplo: “Títulos de 6-12 palabras con entidad nombrada superan a los abstractos”</p></li><li><p><strong>La prueba</strong> — la newsletter propia que mejor lo demuestra. No teoría de internet: evidencia de mi propio contenido</p></li><li><p><strong>El historial</strong> — cada dato nuevo que confirma o contradice la regla</p></li></ol><p>Tengo lecciones sobre títulos, sobre longitud, sobre aperturas, sobre tipo de contenido. Y son restricciones que mandan. Si mi lección dice “evitar textos de 1000-1500 palabras” y un consejo de internet dice “entre 800 y 1500 está bien”, gana mi lección. Siempre. Mis datos, no mejores prácticas de alguien que no soy yo.</p><pre><code>brain/lessons/\n├── titulos.md        → 6-12 palabras, entidad obligatoria\n├── longitud.md       → 750-1000 o 1800-2200, nunca 1000-1500\n├── aperturas.md      → 3 patrones probados, 5 anti-patrones eliminados\n└── tipo_contenido.md → tutorial_entidad = crecimiento, opinión = alcance sin retorno</code></pre><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!g7dU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!g7dU!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 424w, https://substackcdn.com/image/fetch/$s_!g7dU!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 848w, https://substackcdn.com/image/fetch/$s_!g7dU!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 1272w, https://substackcdn.com/image/fetch/$s_!g7dU!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!g7dU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png\" width=\"1199\" height=\"956\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:956,&quot;width&quot;:1199,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:102071,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/193981605?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!g7dU!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 424w, https://substackcdn.com/image/fetch/$s_!g7dU!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 848w, https://substackcdn.com/image/fetch/$s_!g7dU!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 1272w, https://substackcdn.com/image/fetch/$s_!g7dU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4a1ead7e-54b5-4ce9-a6dc-9c45449f0654_1199x956.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Captura de pantalla de mi sistema de aprendizaje automático que convierte en el sistema de creación de newsletter en un sistema de aprendizaje con memoria viva.</figcaption></figure></div><p>Captura de mi sistema: Cada lección se actualiza con datos nuevos después de cada newsletter.</p><h3>Paso 3: Cerrar el bucle</h3><p>Lo más importante: que lo que aprendes vuelva al punto de escritura.</p><p>Cada borrador empieza con una apuesta explícita: qué tipo de contenido es, qué longitud va a tener, qué patrón de apertura uso, cuántos comentarios y likes espero.</p><pre><code>hipotesis:\n  tipo_contenido: \"tutorial_entidad\"\n  longitud_objetivo: 1900\n  apertura_patron: \"(a) dato cuantificado\"\n  prediccion_engagement: \"8-12 likes, 5+ comments\"</code></pre><p>Cuando publico y mido, comparo la apuesta contra la realidad. Si predije 5 comentarios y recibí 17, analizo qué hice diferente. Si predije 8 likes y recibí 3, la lección se actualiza con el dato nuevo.</p><pre><code>Escribir → Publicar → Medir → Evaluar → Aprender → Escribir mejor</code></pre><div class=\"pullquote\"><p>La IA no mejoró. Mejoré yo. <br>Y eso es lo que el sistema amplifica.</p></div><h3>Tu turno: 3 preguntas para diagnosticar tu sistema.</h3><p>No necesitas Claude Code ni un sistema como el mío para empezar. Necesitas responder tres preguntas:</p><p><strong>1. ¿Sabes qué tipo de contenido genera crecimiento real, no solo vanidad?</strong></p><p>Coge tus últimos 15-20 posts. Clasifícalos por tipo: tutorial, opinión, reflexión, noticia. Cruza con comentarios y suscriptores nuevos, no likes. Si no ves diferencias claras entre tipos, no estás midiendo lo que importa.</p><p><strong>2. ¿Tienes restricciones escritas que vengan de tus propios datos?</strong></p><p>“Publicar martes a las 8” no es una restricción útil. “Mis tutoriales generan 6x más conversación que mis opiniones”; sí lo es. Sin restricciones propias, cada pieza de contenido parte de cero.</p><p><strong>3. ¿Tu herramienta de IA carga esas restricciones antes de escribir?</strong></p><p>¿Le pasas tus lecciones aprendidas como contexto? ¿O el mismo prompt genérico del primer día? Un prompt que no evoluciona contigo produce el mismo nivel el día 1 que el día 180.</p><p><strong>En resumen:</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!1kqT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!1kqT!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 424w, https://substackcdn.com/image/fetch/$s_!1kqT!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 848w, https://substackcdn.com/image/fetch/$s_!1kqT!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 1272w, https://substackcdn.com/image/fetch/$s_!1kqT!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!1kqT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png\" width=\"1245\" height=\"318\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/dd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:318,&quot;width&quot;:1245,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:27782,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/193981605?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!1kqT!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 424w, https://substackcdn.com/image/fetch/$s_!1kqT!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 848w, https://substackcdn.com/image/fetch/$s_!1kqT!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 1272w, https://substackcdn.com/image/fetch/$s_!1kqT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd610ecc-0f6c-488b-a8c3-cf412a8b7f91_1245x318.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><p><strong>Y aquí está lo que nadie te dice sobre crear contenido con IA.</strong></p><p>La IA es extraordinaria produciendo. Pero amplifica lo que sabes. Si no sabes qué funciona en tu contenido, tu prompt no lo va a descubrir por ti.</p><p>La diferencia no es cosmética. Es estructural.</p><div class=\"pullquote\"><p><strong>Un prompt perfecto con conocimiento vacío produce contenido vacío perfecto.</strong></p></div><p>Sigo creyendo que la IA es la mejor herramienta que he tocado en 20 años de digital. Pero la herramienta no reemplaza la disciplina de saber qué hace bueno a tu contenido. <strong>La IA me ayudó a construir el sistema. Las lecciones que alimentan ese sistema, esas las tuve que aprender yo.</strong></p><div class=\"pullquote\"><p><strong>Ese es el Think. Y ese es el Hack.</strong></p></div><h4><strong>¿Tu sistema de IA produce más o produce mejor?</strong> </h4><div class=\"pullquote\"><p style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h2><strong>Recomienda Think&amp;Hack</strong></h2><p><em><strong>¿Me echas una mano para que esta newsletter llegue a más personas? </strong>Si te ha servido, reenvíala a alguien a quien también le pueda ayudar.</em></p><p><strong>Comparte:</strong> Reenvía esto a esa persona de tu equipo que tiene un sistema de IA para contenido, pero no sabe si está mejorando o solo produciendo.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/analizar-youtube-ia?utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;action=share&amp;token=eyJ1c2VyX2lkIjoxMzYyMjA1NDIsInBvc3RfaWQiOjE5MzA0NTMxMCwiaWF0IjoxNzc2MDE1MzA0LCJleHAiOjE3Nzg2MDczMDQsImlzcyI6InB1Yi01MTQzODkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.KwUf6Ptm22BNki2pdjfhizHmq7cguCERKVfJJ7pK-XI&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:&quot;button-wrapper&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary button-wrapper\" href=\"https://ainalluna.substack.com/p/analizar-youtube-ia?utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;action=share&amp;token=eyJ1c2VyX2lkIjoxMzYyMjA1NDIsInBvc3RfaWQiOjE5MzA0NTMxMCwiaWF0IjoxNzc2MDE1MzA0LCJleHAiOjE3Nzg2MDczMDQsImlzcyI6InB1Yi01MTQzODkzIiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.KwUf6Ptm22BNki2pdjfhizHmq7cguCERKVfJJ7pK-XI\"><span>Compartir</span></a></p><p><strong>Responde:</strong> ¿Qué mides de tu contenido y qué haces con esos datos?</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/analizar-youtube-ia/comments&quot;,&quot;text&quot;:&quot;Deja un comentario&quot;,&quot;action&quot;:null,&quot;class&quot;:&quot;button-wrapper&quot;}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary button-wrapper\" href=\"https://ainalluna.substack.com/p/analizar-youtube-ia/comments\"><span>Deja un comentario</span></a></p><p><strong>Suscríbete:</strong> Si te han reenviado esto, <a href=\"https://ainalluna.substack.com/\">únete aquí</a>.</p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 1031,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        190,
+        89,
+        81
+      ],
+      "population": 3
+    },
+    "DarkVibrant": {
+      "rgb": [
+        116,
+        52,
+        52
+      ],
+      "population": 1
+    },
+    "LightVibrant": {
+      "rgb": [
+        220,
+        164,
+        164
+      ],
+      "population": 1
+    },
+    "Muted": {
+      "rgb": [
+        148,
+        124,
+        122
+      ],
+      "population": 6
+    },
+    "DarkMuted": {
+      "rgb": [
+        79,
+        71,
+        66
+      ],
+      "population": 18
+    },
+    "LightMuted": {
+      "rgb": [
+        194,
+        162,
+        159
+      ],
+      "population": 7
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 9,
+  "comment_count": 4,
+  "child_comment_count": 3,
+  "audio_items": [
+    {
+      "post_id": 193981605,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/193981605/tts/68b164ca-1717-46f7-b4f7-295bbb14964b/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 243659745,
+      "body": "Yo tengo un Excel (como no) donde apunto las métricas. La IA con eso me dice lo que ya veo, pero más rápido. Tengo que aprender de ti 😉",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Yo tengo un Excel (como no) donde apunto las métricas. La IA con eso me dice lo que ya veo, pero más rápido. Tengo que aprender de ti 😉"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 193981605,
+      "user_id": 165779816,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-04-15T04:31:45.242Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Pilar - Desenredando cuentas",
+      "photo_url": "https://substackcdn.com/image/fetch/$s_!jh4e!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9e15145-54ec-4764-94c8-7f9cbcd3bbbd_534x534.jpeg",
+      "handle": "desenredandocuentas",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "desenredandocuentas",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Desenredando cuentas",
+          "id": 6525377,
+          "base_url": "https://desenredandocuentas.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": 1,
+        "leaderboard": null,
+        "vip": false,
+        "badge": {
+          "type": "subscriber",
+          "tier": 1,
+          "accent_colors": null
+        },
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    },
+    {
+      "id": 243305474,
+      "body": "Gracias Aina por compartirlo. Ahora a aplicarlo en mi contenido.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Gracias Aina por compartirlo. Ahora a aplicarlo en mi contenido."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 193981605,
+      "user_id": 250192116,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-04-14T14:51:01.223Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Virginia Bisonó",
+      "photo_url": null,
+      "handle": "virginiabisono",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "virginiabisono",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

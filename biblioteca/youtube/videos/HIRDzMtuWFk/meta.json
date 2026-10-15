@@ -1,0 +1,43 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "descripcion": "My playbook for growing a $1M AI agency: https://app.aiautomationsociety.ai/opaa-ads-optin\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=what_to_build_instead_of_ai_agents&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nThe creators of agent skills stopped building a separate bot for every single job. \n\nIn my own AI operating system, I use reusable skills that plug into the same workflow every run. That's why this Anthropic engineer explains what to build instead of AI agents to save you months of wasted time. So what are they actually building? Watch and see.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTimestamps:\n00:00 - They stopped building\n00:23 - Why your phone?\n01:26 - Stop repeating this\n03:03 - Claude's guessing game\n04:56 - You lost it\n06:14 - Model proof?\n06:43 - 70% problem\n09:01 - What now?",
+  "duracion_segundos": 587,
+  "estadisticas": {
+    "comentarios": 164,
+    "fecha_captura": "2026-10-14T19:37:08Z",
+    "likes": 3906,
+    "visualizaciones": 367197
+  },
+  "fecha": "2026-09-13",
+  "fecha_precision": "exacta",
+  "formula_titulo": "sin clasificar",
+  "id": "HIRDzMtuWFk",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Qué construir en vez de agentes, según ingeniero de Anthropic",
+    "relevante": true,
+    "tema": "Agentes de IA"
+  },
+  "senales": {
+    "dias": 31,
+    "formato_largo": true,
+    "interaccion": 0.0111,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 2.91,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es-US.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:41:00Z",
+    "idioma": "es-US",
+    "origen": "automaticos"
+  },
+  "titulo": "Anthropic Engineer Explains: What to Build Instead of AI Agents",
+  "url": "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+}

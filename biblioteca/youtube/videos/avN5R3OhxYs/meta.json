@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 1586,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 42000
+  },
+  "fecha": "2026-10-03",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La advertencia",
+  "id": "avN5R3OhxYs",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Riesgos de OpenClaw llegando a empresas; requiere ver contenido",
+    "relevante": true,
+    "tema": "Pensamiento crítico con IA"
+  },
+  "senales": {
+    "dias": 11,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.65,
+    "senal_incompleta": false
+  },
+  "titulo": "OpenClaw Was Too Dangerous To Install. 7 Months Later Microsoft Is Bringing It To Your Company.",
+  "url": "https://www.youtube.com/watch?v=avN5R3OhxYs"
+}

@@ -1,0 +1,29 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 802,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 139000
+  },
+  "fecha": "2026-07-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "iNFOTDi3prQ",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 91,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.4,
+    "senal_incompleta": false
+  },
+  "titulo": "FREE Chinese AI is TAKING OVER (Silicon Valley INVADED)",
+  "url": "https://www.youtube.com/watch?v=iNFOTDi3prQ"
+}

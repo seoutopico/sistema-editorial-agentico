@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 799,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 41000
+  },
+  "fecha": "2026-08-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "rDxQoKlT4TM",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "No pagar dos veces por IA; requiere ver contenido",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 60,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.41,
+    "senal_incompleta": false
+  },
+  "titulo": "Don't pay for AI twice ⚠️ The MICROSOFT CEO warns",
+  "url": "https://www.youtube.com/watch?v=rDxQoKlT4TM"
+}

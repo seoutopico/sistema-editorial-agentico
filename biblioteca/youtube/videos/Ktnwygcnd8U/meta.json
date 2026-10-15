@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 822,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 70000
+  },
+  "fecha": "2026-10-01",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La advertencia",
+  "id": "Ktnwygcnd8U",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Riesgos de Claude Code; requiere ver contenido",
+    "relevante": true,
+    "tema": "Agentes de IA"
+  },
+  "senales": {
+    "dias": 13,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.56,
+    "senal_incompleta": false
+  },
+  "titulo": "No, Seriously. Claude Code is Starting To Get Dangerous",
+  "url": "https://www.youtube.com/watch?v=Ktnwygcnd8U"
+}

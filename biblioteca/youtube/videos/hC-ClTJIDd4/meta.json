@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 1106,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 25000
+  },
+  "fecha": "2026-10-14",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "hC-ClTJIDd4",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Noticia de lanzamiento duplicada sin proceso aplicable",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 0,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.25,
+    "senal_incompleta": true
+  },
+  "titulo": "Google launches its BEST AI (and it’s surprising)",
+  "url": "https://www.youtube.com/watch?v=hC-ClTJIDd4"
+}

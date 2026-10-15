@@ -1,0 +1,320 @@
+[
+  {
+    "id": "a1",
+    "texto": "La introducción del propio vídeo fue editada por Opus 5.5 con un solo prompt: motion graphics, sonido, búsqueda de B-roll, capturas y generación de imágenes y vídeo.",
+    "origen": "youtube:7jHXoPGnA4c@00:00",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a2",
+    "texto": "Hyperframes es gratis y funciona dándosela a Claude Code, que escribe HTML y lo anima; se instala pasándole la URL del repositorio de GitHub y pidiéndole que lo configure.",
+    "origen": "youtube:7jHXoPGnA4c@01:00",
+    "tipo": "dato"
+  },
+  {
+    "id": "a3",
+    "texto": "El primer paso es transcribir el vídeo (con la API de ElevenLabs, de pago por uso y más rápida, o con Whisper, local y gratis) para que las animaciones caigan en el momento exacto.",
+    "origen": "youtube:7jHXoPGnA4c@02:02",
+    "tipo": "dato"
+  },
+  {
+    "id": "a4",
+    "texto": "El modelo añadió por su cuenta decisiones de diseño no pedidas (zoom sutil, interfaz de nube, animación de verificación) porque 'tiene buen gusto'.",
+    "origen": "youtube:7jHXoPGnA4c@03:35",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a5",
+    "texto": "Descargó un reel ajeno que le gustó de X, pidió a Claude Code que analizara por qué era bueno y que convirtiera ese análisis en una skill ('motion show reel'), que luego usó para crear su propio reel.",
+    "origen": "youtube:7jHXoPGnA4c@05:38",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a6",
+    "texto": "Para las escenas animadas del reel, el agente generó imágenes, las envió a Kling para convertirlas en vídeo y luego lo integró todo en un montaje consistente.",
+    "origen": "youtube:7jHXoPGnA4c@06:40",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a7",
+    "texto": "Dio a Claude Code acceso a una carpeta con 105 GB de grabaciones de su evento AIS Live y obtuvo un vídeo promocional que cuenta una historia; no fue un solo prompt sino tres (prompt inicial, iteración y una corrección).",
+    "origen": "youtube:7jHXoPGnA4c@08:50",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a8",
+    "texto": "Con el mismo clip casero de tostadas de aguacate obtuvo tres ediciones de estilos distintos (pizarra dibujada a mano, vídeo estilo curso, formato corto), cada una con un solo prompt.",
+    "origen": "youtube:7jHXoPGnA4c@10:54",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a9",
+    "texto": "Casi todos los ejemplos se ejecutaron con el nivel de esfuerzo en alto.",
+    "origen": "youtube:7jHXoPGnA4c@13:29",
+    "tipo": "dato"
+  },
+  {
+    "id": "a10",
+    "texto": "Su marco de trabajo son cinco pasos: transcribir, cortar (errores y silencios), planificar los tiempos, usar skills y cerrar con un bucle de verificación con capturas de pantalla.",
+    "origen": "youtube:7jHXoPGnA4c@16:00",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a11",
+    "texto": "Cada vez que ejecutas una skill y le dices qué te gustó y qué no, y actualizas la skill con ese feedback, construyes un componente reutilizable que mejora con el uso; si te repites, añádelo a la skill.",
+    "origen": "youtube:7jHXoPGnA4c@17:33",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a12",
+    "texto": "El bucle de verificación hace que el agente entregue de facto la versión cinco o seis en lugar de la primera: revisa su propio resultado con capturas e itera hasta considerarlo suficientemente bueno.",
+    "origen": "youtube:7jHXoPGnA4c@18:34",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a13",
+    "texto": "Ya no hace falta experiencia previa en edición de vídeo para aprovechar los motion graphics; la edición no debería ser un obstáculo para filmar contenido.",
+    "origen": "youtube:7jHXoPGnA4c@19:05",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a14",
+    "texto": "El experimento: el mismo prompt (convertir 105 GB de grabaciones de un evento virtual en un mundo 3D explorable) ejecutado en los seis niveles de esfuerzo de Opus 5.5.",
+    "origen": "youtube:QCkHIyEPIYo@01:01",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a15",
+    "texto": "Nivel bajo: 16 min 43 s, 3,91 $ en facturación API, 191.000 tokens, 22 comprobaciones, cero preguntas al usuario.",
+    "origen": "youtube:QCkHIyEPIYo@03:35",
+    "tipo": "dato"
+  },
+  {
+    "id": "a16",
+    "texto": "Nivel medio: 1 h 13 min, 12,44 $, 490.000 tokens, 23 comprobaciones, cero preguntas.",
+    "origen": "youtube:QCkHIyEPIYo@06:40",
+    "tipo": "dato"
+  },
+  {
+    "id": "a17",
+    "texto": "Anthropic recomienda en su artículo sobre prompting de Opus 5.5 empezar en esfuerzo medio y escalar arriba o abajo según necesidad.",
+    "origen": "youtube:QCkHIyEPIYo@07:12",
+    "tipo": "dato"
+  },
+  {
+    "id": "a18",
+    "texto": "Nivel alto: 1 h 7 min, 16,31 $, 509.000 tokens, 22 comprobaciones; fue el único nivel que hizo una pregunta al usuario en todo el experimento.",
+    "origen": "youtube:QCkHIyEPIYo@10:48",
+    "tipo": "dato"
+  },
+  {
+    "id": "a19",
+    "texto": "Nivel extra: 1 h 30 min, 25,92 $, 733.000 tokens y 34 comprobaciones, las más numerosas hasta ese punto.",
+    "origen": "youtube:QCkHIyEPIYo@13:21",
+    "tipo": "dato"
+  },
+  {
+    "id": "a20",
+    "texto": "Nivel max: 2 h 28 min, 50,38 $, 1,18 millones de tokens (tuvo que autocompactarse), 51 comprobaciones, y aun así con fallos visibles de física y colisiones.",
+    "origen": "youtube:QCkHIyEPIYo@17:28",
+    "tipo": "dato"
+  },
+  {
+    "id": "a21",
+    "texto": "UltraCode: 1 h 35 min, 18,69 $, 606.000 tokens, 42 comprobaciones; más barato que Extra y mucho más que Max.",
+    "origen": "youtube:QCkHIyEPIYo@21:05",
+    "tipo": "dato"
+  },
+  {
+    "id": "a22",
+    "texto": "Ninguna de las seis ejecuciones utilizó subagentes: ningún nivel quiso delegar.",
+    "origen": "youtube:QCkHIyEPIYo@21:36",
+    "tipo": "dato"
+  },
+  {
+    "id": "a23",
+    "texto": "En sus pruebas recientes UltraCode no activa los flujos de trabajo dinámicos que lo definen; sospecha un bug del arnés de Claude Code o del propio Opus 5.5.",
+    "origen": "youtube:QCkHIyEPIYo@22:07",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a24",
+    "texto": "La ejecución más cara costó 12,9 veces más que la más barata (3,91 $ frente a 50,38 $) y el coste total de las seis fue de unos 127 $.",
+    "origen": "youtube:QCkHIyEPIYo@22:37",
+    "tipo": "dato"
+  },
+  {
+    "id": "a25",
+    "texto": "El ganador fue Extra: Max fue demasiado caro y lento para lo que entregó, y Medio basta para la mayoría del trabajo de conocimiento pero no para una tarea con tanto razonamiento.",
+    "origen": "youtube:QCkHIyEPIYo@25:43",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a26",
+    "texto": "Opus 5.5 cuesta el doble que GPT-6 Sol por la API: 4 dólares entrada y 20 salida frente a 2 y 10; la métrica relevante es qué calidad te da cada modelo por los mismos cien dólares.",
+    "origen": "youtube:eF3yeJuifoQ@00:00",
+    "tipo": "dato"
+  },
+  {
+    "id": "a27",
+    "texto": "En una prueba previa de ingesta de transcripciones de Fireflies en una wiki, Sol trabajó en paralelo y pareció más ágil, pero devolvió una fecha incorrecta; Opus encontró la respuesta correcta en un tiempo similar.",
+    "origen": "youtube:eF3yeJuifoQ@02:05",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a28",
+    "texto": "Caso 1, diseño web con scroll y capas: ambos tardaron unos 35 minutos; Opus costó el triple (18,32 frente a 5,89 dólares) pero el resultado fue claramente más premium. Punto para Opus.",
+    "origen": "youtube:eF3yeJuifoQ@04:40",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a29",
+    "texto": "Caso 2, vídeo promocional a partir de 100 GB de grabaciones de evento en Frame.io: la versión de Opus tuvo mejor ritmo, música y capas; además fue 5 minutos más rápido. Punto para Opus.",
+    "origen": "youtube:eF3yeJuifoQ@05:10",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a30",
+    "texto": "Caso 3, reel de Instagram con Hyperframes y las mismas skills: el de Sol salió mediocre y sin música; el de Opus, claramente mejor, aunque tardó el doble y costó unas cuatro veces más (11 frente a casi 3 dólares).",
+    "origen": "youtube:eF3yeJuifoQ@08:28",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a31",
+    "texto": "Los casos 4 (dashboard y presentación desde datos) y 5 (juego 3D) quedaron anulados: ambos agentes trabajaban en la misma carpeta de proyecto y editaron los archivos del otro porque el prompt no les prohibía tocar trabajo ajeno.",
+    "origen": "youtube:eF3yeJuifoQ@13:23",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a32",
+    "texto": "Caso 6, mundo 3D jugable que explica conceptos de IA a partir de sus últimos 100 vídeos: el de Opus era explorable y con minijuegos; el de Sol, saturado e incómodo. Opus tardó 1h45 y costó 60 dólares frente a 50 minutos y 8,55 de Sol.",
+    "origen": "youtube:eF3yeJuifoQ@22:43",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a33",
+    "texto": "Sol se detiene a hacer preguntas de aclaración más a menudo que Opus, y en Codex la pregunta no bloquea: si no respondes, sigue adelante.",
+    "origen": "youtube:eF3yeJuifoQ@23:14",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a34",
+    "texto": "Caso 7, itinerario de viaje convertido en globo 3D interactivo: Opus investigó mejor (incluyó la Semana Tecnológica de San Francisco y eventos de IA reales) y su interfaz era superior, costando el triple.",
+    "origen": "youtube:eF3yeJuifoQ@25:19",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a35",
+    "texto": "Caso 8, revisión y reparación en una base de código masiva (experimento diseñado a ciegas por GPT-6 Astra): Sol obtuvo 100/100 y pasó las 30 pruebas por unos 1 dólar; Opus obtuvo 97/100, falló una prueba y costó unas 20 veces más. Único punto para Sol.",
+    "origen": "youtube:eF3yeJuifoQ@26:52",
+    "tipo": "dato"
+  },
+  {
+    "id": "a36",
+    "texto": "En ese caso de código, Sol se detuvo a mitad por una salvaguarda de ciberseguridad y hubo que relanzar el experimento; Opus no se detuvo con el mismo prompt.",
+    "origen": "youtube:eF3yeJuifoQ@27:24",
+    "tipo": "dato"
+  },
+  {
+    "id": "a37",
+    "texto": "Caso 9, crear un curso completo en la plataforma School vía navegador: resultados casi idénticos, pero Opus fue más rápido y barato; primera vez que ve a Claude Code ganar a Codex en uso de navegador.",
+    "origen": "youtube:eF3yeJuifoQ@29:28",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a38",
+    "texto": "Caso 10, recrear una imagen de referencia dibujando en Canva vía navegador: el resultado de Opus fue sorprendentemente bueno; Sol primero hizo trampa generando una imagen y luego produjo resultados cómicamente malos en dos intentos.",
+    "origen": "youtube:eF3yeJuifoQ@30:30",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a39",
+    "texto": "Totales: 7-1 para Opus 5.5 (dos casos anulados); Opus trabajó 8h40 frente a 5h51 de Sol y costó unas tres veces más, 213 dólares frente a 74,46 (el autor corrige que hay que restar unos 19 dólares al total de Sol).",
+    "origen": "youtube:eF3yeJuifoQ@31:31",
+    "tipo": "dato"
+  },
+  {
+    "id": "a40",
+    "texto": "Resumen del autor: Opus 5.5 es un gran salto sobre Opus 5; GPT-6 Sol es un paso atrás respecto a 5.6 Sol; confiaría a Opus la creatividad y el juicio, y delegaría en Sol trabajo barato con pasos muy específicos, con Opus 5.5 como orquestador de trabajadores Sol.",
+    "origen": "youtube:eF3yeJuifoQ@33:05",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a41",
+    "texto": "Un vídeo de 14 minutos se redujo a 9 tras pasarle dos grabaciones (cámara y pantalla): el agente transcribió, recortó errores y silencios, y añadió fondo, recortes redondeados y tarjetas de transición.",
+    "origen": "youtube:o3IEkKXXXvo@01:32",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a42",
+    "texto": "Le dio skills para decidir encuadre según contexto: cuando no pasa nada en pantalla muestra la cámara a pantalla completa y vuelve a la vista tutorial cuando toca enseñar algo.",
+    "origen": "youtube:o3IEkKXXXvo@02:34",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a43",
+    "texto": "Muestra dos reels de formato corto generados con el flujo (uno sobre el método de tres capas de Karpathy, otro de un patrocinio), con gancho visual, bucle abierto, B-roll recopilado o generado por el agente, subtítulos, música y efectos sincronizados.",
+    "origen": "youtube:o3IEkKXXXvo@03:04",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a44",
+    "texto": "Para un anuncio de AIS Live, el agente recolectó B-roll real de sus vídeos de YouTube, sesiones pasadas del evento y hasta fue a su Google Drive a buscar el logo para animarlo al final.",
+    "origen": "youtube:o3IEkKXXXvo@07:10",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a45",
+    "texto": "La configuración consiste en crear un proyecto local en Codex, pegarle la URL del repositorio de GitHub de Hyperframes y pedirle que instale dependencias e integre las skills.",
+    "origen": "youtube:o3IEkKXXXvo@10:17",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a46",
+    "texto": "El flujo conceptual tiene cuatro fases: transcribir (con precisión de milisegundo para sincronizar), recortar errores y silencios, planificar los tiempos (cada escena es un 'tiempo' que el modelo planifica leyendo el texto y entendiendo la intención) y un bucle final de verificación con capturas.",
+    "origen": "youtube:o3IEkKXXXvo@11:20",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a47",
+    "texto": "Para transcribir prefiere ElevenLabs (plan desde unos cinco dólares al mes, clave API restringida a voz-a-texto) frente a Whisper, gratuito pero más lento; la clave se guarda en un archivo .env del proyecto.",
+    "origen": "youtube:o3IEkKXXXvo@13:55",
+    "tipo": "dato"
+  },
+  {
+    "id": "a48",
+    "texto": "El agents.md explica cómo funciona el proyecto y se actualiza con reglas de trabajo ('siempre que Nate pida transcribir, usa ElevenLabs'); es donde se acumulan tus preferencias de edición.",
+    "origen": "youtube:o3IEkKXXXvo@15:28",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a49",
+    "texto": "Construye en directo la intro del vídeo con un comando /goal y un prompt enorme que especifica escena a escena qué debe aparecer, dónde y con qué estética (diseño tipo Apple, cristal líquido).",
+    "origen": "youtube:o3IEkKXXXvo@17:33",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a50",
+    "texto": "La primera versión tardó 18 minutos y redujo la intro de 1:05 a 28 segundos; la segunda iteración con feedback concreto (texto más grande, abanico de vídeos más realista) tardó 10 minutos.",
+    "origen": "youtube:o3IEkKXXXvo@24:49",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a51",
+    "texto": "Hyperframes genera un estudio local (HTML animado servido en localhost) donde se pueden ajustar manualmente elementos como el tamaño de fuente sin volver a lanzar un prompt.",
+    "origen": "youtube:o3IEkKXXXvo@26:22",
+    "tipo": "demostración"
+  },
+  {
+    "id": "a52",
+    "texto": "Cuando obtienes un resultado que te gusta, pides 'convierte eso en una skill' y las siguientes veces basta con 'edita este vídeo, usa la skill' más feedback puntual que también actualiza la skill.",
+    "origen": "youtube:o3IEkKXXXvo@23:15",
+    "tipo": "opinión"
+  },
+  {
+    "id": "a53",
+    "texto": "La variabilidad entre ejecuciones repetidas del mismo nivel, que el vídeo no mide (una sola ejecución por nivel, youtube:QCkHIyEPIYo@25:43). Si la relación esfuerzo-calidad observada en una tarea creativa 3D generaliza a tareas de texto y proceso (youtube:QCkHIyEPIYo@21:36 señala además que ningún nivel delegó en subagentes). Cómo medir calidad con criterios objetivos en lugar del paseo subjetivo del autor. Y, como contraste opcional, si el mismo encargo en un modelo barato con instrucciones muy específicas se acerca al resultado del caro, la pregunta que el vídeo hermano deja abierta (youtube:eF3yeJuifoQ@31:31, youtube:eF3yeJuifoQ@33:05).",
+    "origen": "oportunidad:2026-10-15-herramientas-de-ia-nate-herk",
+    "tipo": "a_comprobar"
+  }
+]

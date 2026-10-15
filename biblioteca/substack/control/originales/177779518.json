@@ -1,0 +1,356 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/4-y-la-maquina-dibujo-exactamente",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 177779518,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-11-02T18:08:53.296Z",
+  "updated_at": "2026-01-15T08:10:53.017Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "4-y-la-maquina-dibujo-exactamente",
+  "social_title": "#4 … y la máquina dibujó exactamente lo que yo no sabía que necesitaba",
+  "subtitle": "¿Cómo sería pensar creativamente en colaboración con una IA?",
+  "teaser_post_eligible": true,
+  "title": "#4 … y la máquina dibujó exactamente lo que yo no sabía que necesitaba",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 6
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "3-tu-prompt-no-falla-falla-tu-rol",
+  "next_post_slug": "1-hack-guarde-mis-prompts-en-el-movil",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!I5y-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 177779518,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "¿Cómo sería pensar creativamente en colaboración con una IA?",
+  "body_html": "<p>¿Cómo estás? Si es tu primera vez: soy Aina y esto es Think&amp;Hack. Aquí está la #4 entrega de esta newsletter, en ella hablaremos sobre una herramienta que promete amplificar tu pensamiento visual y termina mostrándote algo más inquietante: qué pasa cuando una máquina entiende tu garabato mejor que tú mismo. Si te interesa este tipo de análisis, suscríbete para no perderte las próximas entregas. Si ya eres habitual, gracias por estar de nuevo.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p>Una reflexión sobre Nano Banana, el pensamiento colaborativo con IA, y qué perdemos cuando la máquina dibuja por nosotros.</p><div class=\"pullquote\"><p>… y la máquina dibujó exactamente lo que yo no sabía que necesitaba.</p></div><h2>La escalera</h2><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!I5y-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!I5y-!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 424w, https://substackcdn.com/image/fetch/$s_!I5y-!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 848w, https://substackcdn.com/image/fetch/$s_!I5y-!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 1272w, https://substackcdn.com/image/fetch/$s_!I5y-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!I5y-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png\" width=\"1100\" height=\"612\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:612,&quot;width&quot;:1100,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:300815,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/177779518?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!I5y-!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 424w, https://substackcdn.com/image/fetch/$s_!I5y-!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 848w, https://substackcdn.com/image/fetch/$s_!I5y-!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 1272w, https://substackcdn.com/image/fetch/$s_!I5y-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64088d-0431-4540-98b3-d3bdd352b5d6_1100x612.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Vi un video hace tres semanas que no consigo quitarme de la cabeza.</p><p>Una chica dibuja un hombre mirando hacia arriba. En la copa de un árbol, un gato atrapado. Le pregunta a una IA: “¿Cómo resuelvo esto?”</p><p>La IA añade una escalera al dibujo.</p><p>No flotando al azar. Apoyada exactamente donde debería estar, conectando al hombre con el gato, respetando las proporciones que la chica había trazado, entendiendo la física implícita de ese pequeño mundo dibujado a mano.</p><p>La escalera no estaba en las instrucciones. La IA la propuso. Como si hubiera pensado junto a ella.</p><p>Lo vi tres veces seguidas. Porque esa escalera representa algo que no existía antes: una máquina que no genera desde cero, sino que <strong>completa tu pensamiento visual respetando tu lógica</strong>.</p><p>Y me pasé días con una pregunta dándome vueltas: <em>¿cómo sería pensar creativamente en colaboración con una IA?</em></p><div><hr></div><h2>El cuaderno</h2><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!aMXy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!aMXy!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 424w, https://substackcdn.com/image/fetch/$s_!aMXy!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 848w, https://substackcdn.com/image/fetch/$s_!aMXy!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 1272w, https://substackcdn.com/image/fetch/$s_!aMXy!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!aMXy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png\" width=\"1100\" height=\"612\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:612,&quot;width&quot;:1100,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:346253,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/177779518?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!aMXy!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 424w, https://substackcdn.com/image/fetch/$s_!aMXy!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 848w, https://substackcdn.com/image/fetch/$s_!aMXy!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 1272w, https://substackcdn.com/image/fetch/$s_!aMXy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02157172-bd5e-41b3-bd79-d1619b167a7d_1100x612.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Tengo un cuaderno que escondo cuando entra alguien a mi despacho.</p><p>No guarda secretos. Solo garabatos: flechas torcidas, círculos desiguales, palabras apretujadas en márgenes, estructuras que únicamente tienen sentido para mí. Es donde realmente pienso. Cuando tengo un problema complejo, saco ese cuaderno. Mi cerebro necesita ver las ideas desplegadas en el espacio, trazar conexiones con líneas reales, ese control total que sólo da un bolígrafo sobre papel en blanco.</p><div class=\"pullquote\"><p>El problema empieza cuando termino de pensar. Llega la reunión. El cliente pregunta por avances. Necesito compartir esa estructura brillante que acabo de descubrir. Y ahí está mi cuaderno: <em>perfectamente claro para mí, completamente incomprensible para cualquier otra persona</em>.</p></div><p>Así que empiezan las dos horas de PowerPoint. Copiando manualmente lo que ya resolví, peleando con cajas que no se alinean, ajustando flechas pixel a pixel. Al final queda presentable, <em>pero el proceso me vació la energía que necesitaba para la siguiente idea.</em></p><p>Durante años creí que ese era el trato inevitable. O piensas bien en papel, o produces limpio en digital. Elegir uno siempre significaba renunciar al otro.</p><div><hr></div><h2>Google lanzó algo este verano</h2><p>Se llama Nano Banana (oficialmente <a href=\"https://developers.googleblog.com/es/introducing-gemini-2-5-flash-image/\">Gemini 2.5 Flash Image</a>). Y no, <strong>no es un generador de imágenes más, de esos que no entienden nada</strong>. Es un modelo de <strong>razonamiento visual</strong>.</p><p>Le muestras un boceto básico y lo transforma respetando tu estructura conceptual. Puedes mostrarle tres cajas mal dibujadas conectadas con flechas y decirle “convierte esto en diagrama limpio”, y lo hace respetando exactamente tu secuencia lógica.</p><p>Puedes dibujar dos coches junto a una señal de velocidad. Pedirle que ilustre consecuencias. A 50 km/h dibuja un coche intacto. A 5000 km/h, una explosión. No le especificaste eso. <strong>Entendió la lógica implícita.</strong></p><p>Pero lo que realmente me detuvo fue descubrir <a href=\"https://trudy-gemini-codrawing.hf.space/\">Gemini Co-Drawing</a>, una herramienta experimental donde dibujas en tiempo real junto a la IA. Tú trazas el problema. Ella propone soluciones dentro de tu lógica visual. Como aquella escalera que conectó al hombre con el gato.</p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;ead6a607-dbad-4d24-a64a-558950672dca&quot;,&quot;duration&quot;:null}\"></div><pre><code>Fuente: https://x.com/alexanderchen/status/1902226386099552503</code></pre><p><em><strong>Es la primera vez que una máquina no reemplaza mi proceso de pensamiento visual. Lo acompaña.</strong></em></p><p>Y volví a sacar el cuaderno. No porque Nano Banana lo hiciera innecesario. Sino porque, por primera vez, lo hizo legítimo.</p><div><hr></div><h2>La falacia del dibujo perfecto</h2><p>Lev Vygotsky, psicólogo soviético que murió joven pero dejó ideas profundas, decía que la escritura a mano no es habla transcrita. Es un sistema de mediación semiótica que reestructura tu psique entera. Lo llamaba “álgebra del lenguaje”: exige abstracción y, al exigirla, cambia la arquitectura del pensamiento.</p><p>Dibujar funciona igual. Mi cerebro piensa diferente con un bolígrafo en la mano. Las conexiones se vuelven más claras. Los problemas complejos se transforman en estructuras visuales manejables.</p><p><strong>No es nostalgia analógica. Es neurología</strong>.</p><p>Y ahí está la tensión: esos garabatos que estructuran mi pensamiento quedaban atrapados en cuadernos porque el coste de digitalizarlos era tan alto que directamente no lo hacía.</p><p>Nano Banana resuelve eso. Pero sólo si entiendes la distinción fundamental: <strong>es traducción, no invención.</strong></p><p>Le das un boceto con estructura conceptual clara, y lo transforma en formato profesional manteniendo tu lógica intacta. Pero si llegas con “genera una infografía impactante sobre productividad”, te devolverá algo genérico porque no hay pensamiento que traducir. Solo una petición vaga que la máquina rellenará con probabilidades estadísticas.</p><p>La inteligencia sigue en ti. En el sketch que trazas primero. En las decisiones sobre qué conectar, qué jerarquizar, qué omitir.</p><p>Nano Banana dibuja la escalera. Tú decides si hace falta.</p><div><hr></div><h2>Cómo usar Nano Banana</h2><p>Porque aquí está la paradoja: Nano Banana es extraordinariamente útil. De hecho, es una de las mejores herramientas para externalizar pensamiento visual que existe ahora mismo. Pero sólo si entiendes qué es y qué no es.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!YLg_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!YLg_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 424w, https://substackcdn.com/image/fetch/$s_!YLg_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 848w, https://substackcdn.com/image/fetch/$s_!YLg_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 1272w, https://substackcdn.com/image/fetch/$s_!YLg_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!YLg_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png\" width=\"1056\" height=\"992\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/e7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:992,&quot;width&quot;:1056,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:998990,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/177779518?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!YLg_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 424w, https://substackcdn.com/image/fetch/$s_!YLg_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 848w, https://substackcdn.com/image/fetch/$s_!YLg_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 1272w, https://substackcdn.com/image/fetch/$s_!YLg_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7f73164-d800-4f0b-a16e-a7d11db9ffce_1056x992.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><strong>Lo que Nano Banana SÍ hace:</strong></p><ul><li><p>Transformación quirúrgica de input visual (garabatos → diagramas limpios en segundos)</p></li><li><p>Consistencia entre outputs (varios esquemas, mismo estilo, automático)</p></li><li><p>Edición conversacional (ajustas con lenguaje natural, sin menús complejos)</p></li><li><p>Respeto por tu estructura (no inventa, traduce lo que le das)</p></li></ul><p><strong>Lo que Nano Banana NO hace:</strong></p><ul><li><p>Pensar por ti (da formato, no estructura conceptual)</p></li><li><p>Decidir qué importa (si tu sketch es caótico, el output también)</p></li><li><p>Añadir insights donde no los hay (ejecuta, no interpreta)</p></li><li><p>Compensar falta de claridad (basura visual entra, basura visual sale)</p></li></ul><div><hr></div><h3>La Guía práctica: El Prompt que lo cambia todo</h3><p>Aquí está la paradoja que me tuvo bloqueada semanas: la herramienta que Google lanzó no es un simple generador de imágenes. Es un <strong>modelo de razonamiento visual</strong>. Es la IA que ve al hombre y al gato y <em>entiende</em> que falta la escalera.</p><p><em>Pero mi experiencia no era esa. Mis resultados eran caóticos.</em></p><p>La <strong>frustración </strong>venía de tratarla como un <strong>PowerPoint</strong> automático. Le pedía “tres cajas” y me daba “tres cajas”, pero no <em>entendía</em> el “proceso”. <em>Yo seguía haciendo todo el trabajo conceptual, peleando con la máquina igual que peleaba con las guías de alineación.</em></p><div class=\"pullquote\"><p>La herramienta prometía ser un colaborador de pensamiento, pero se comportaba como un ilustrador tonto. <br>El problema no era la herramienta. <br>Era el prompt.</p></div><p>Hasta que di con “la solución”. Entendí que la IA no ofrece su razonamiento gratis; tienes que <em>exigírselo</em>.</p><p>Mi “método” es este prompt maestro. Es mi “escalera” personal. Es el método que le impone una disciplina. No le da instrucciones; la obliga a <em>ser</em> el modelo de razonamiento que dice ser, <strong>forzándola a pensar antes de dibujar.</strong></p><p>Divide el trabajo en dos fases innegociables:</p><ol><li><p><strong>Fase 1: Prohibido Dibujar.</strong> Primero, obligas a la IA a analizar. A <em>entender</em>. A verbalizar la lógica de tu cuaderno y demostrártelo por escrito.</p></li><li><p><strong>Fase 2: El Manual de Estilo.</strong> Solo cuando ha demostrado que entiende el <em>alma</em> (tu lógica), le das permiso para crear el <em>cuerpo</em> (el visual), pero dentro de unas reglas estéticas estrictas.</p></li></ol><div class=\"pullquote\"><p><em>Así es como la IA deja de inventar algo genérico y empieza, por fin, a traducir tu pensamiento.</em></p></div><h3>El Prompt Maestro (Copia. Pega. Guarda esto.)</h3><p>Este es mi método.</p><pre><code><code>UNDERSTANDING PHASE (Execute First - Mandatory):\n\nBefore any visual transformation, demonstrate comprehension by answering:\n\n1. CONCEPTUAL CORE:\nWhat is the central insight this sketch communicates? State it in one sentence.\nWhat cognitive relationship is shown? (cause-effect / comparison / process / hierarchy / paradox / cycle / spectrum / tension / transformation)\n\n2. VISUAL LOGIC ANALYSIS:\nWhich elements are ESSENTIAL to preserve the message?\nWhat is the information hierarchy? (primary concept / supporting elements / contextual labels)\nWhat spatial relationships matter? (opposing elements, sequential flow, hierarchical levels)\n\n3. VISUAL METAPHOR IDENTIFICATION:\nDoes this sketch use a metaphor? (mountain/journey, iceberg/hidden depth, scale/balance, funnel/filtering, loop/cycle)\nIf not, what simple geometric structure best represents the concept? (flow diagram, comparison grid, cycle, spectrum)\n\n---\n\nNARRATIVE TRANSFORMATION PHASE:\n\nTransform this sketch into a clean digital infographic. Use conversational, descriptive narration - NOT keyword lists.\n\nSCENE DESCRIPTION (Narrative Style):\n“Create a minimalist infographic diagram in the style of Think&amp;Hack (reference images). The scene shows [DESCRIBE THE CONCEPTUAL STRUCTURE AS A SCENE]. \n\nThe visual uses simple geometric shapes and metaphorical objects to communicate [STATE THE CORE INSIGHT]. [MAIN ELEMENT] is rendered as [DESCRIBE SHAPE/OBJECT] in [COLOR] positioned [SPATIAL LOCATION]. This connects to [SECONDARY ELEMENT] shown as [DESCRIBE] in [COLOR] via [DESCRIBE CONNECTION: arrow/line/spatial relationship].\n\nThe composition uses generous negative space on a clean white background (hex #F5F5F5). All shapes have consistent medium-thin black outlines (2-3px stroke weight) creating a vector-illustration aesthetic. The color palette is restricted to vibrant green (hex #00C896), bright blue (hex #00A8E8), warm orange-yellow (hex #FFA500), and slate blue-gray (hex #7B8A1).\n\nTypography is bold sans-serif (Arial Black or Helvetica Bold) in solid black, ALL CAPS for primary concepts. Text integrates naturally [inside shapes / positioned as clean labels]. The hierarchy flows from [LARGEST/CENTRAL: main concept] to [MEDIUM: supporting elements] to [SMALLEST: contextual details].\n\nSpatial arrangement reinforces conceptual relationships: [DESCRIBE HOW POSITIONING REFLECTS MEANING - e.g., “opposing concepts placed opposite each other” / “sequential steps arranged left-to-right” / “hierarchical levels stacked vertically”].\n\nThe signature ‘Think&amp;Hack’ appears in small black text in the bottom-right corner. Every element serves the core message identified in the Understanding Phase - no decorative additions.”\n\nPRESERVATION CONSTRAINTS:\n- Maintain the conceptual structure from the original sketch exactly\n- Keep all text labels from the sketch (correct spelling if needed)\n- Preserve educational/explanatory logic and relationships\n- Simplify sketchy lines into clean geometric equivalents\n- Straighten curves, align elements, use consistent spacing\n- Remove sketch artifacts (smudges, construction lines, rough edges)\n\nSTYLE ENFORCEMENT (Reference Images):\nStudy the uploaded Think&amp;Hack reference images showing this exact aesthetic. Match:\n- Line weight consistency (all outlines same thickness)\n- Color application (flat, no gradients, only palette colors)\n- Typography style (bold sans-serif, high legibility)\n- Composition balance (30%+ negative space)\n- Professional polish (looks designed in Illustrator/Figma, not AI-generated)\n\nOUTPUT REQUIREMENTS:\n- Vector-style illustration with sharp, clean edges\n- No gradients, shadows, textures, or 3D effects\n- High contrast black text on light background / white text on dark shapes\n- Composition feels balanced and intentional\n- Professional infographic quality suitable for social media, presentations, print\n</code></code></pre><h3>El Flujo de Trabajo (Cómo usar el contrato)</h3><p>Esto no es un simple “enviar”. Es un proceso.</p><ol><li><p><strong>El método.</strong> Pega el prompt <em>completo</em> en la IA. Adjunta tu boceto (y tus imágenes de referencia de estilo, si las tienes, sino busca y crea tu estilo).</p></li><li><p><strong>La verificación.</strong> La IA <em>debe</em> responder primero a las preguntas de la <code>UNDERSTANDING PHASE</code>. No generará una imagen. Aquí es donde lees su análisis. Es tu momento Vygotsky: ¿ha entendido el “álgebra” de tu dibujo?</p></li><li><p><strong>La validación.</strong></p><ul><li><p><strong>Si su análisis es correcto</strong> (ej. “Esto muestra una jerarquía donde un concepto central nutre...”), responde simplemente: “<strong>Correcto. Procede con la Fase de Transformación.</strong>“</p></li><li><p><strong>Si su análisis es incorrecto</strong> (ej. “Veo un ciclo” cuando era una comparación), la corriges. Sin piedad. “<strong>Incorrecto. La relación no es un ciclo, es una comparación de dos elementos opuestos. Vuelve a intentarlo.</strong>“ No la dejes dibujar hasta que lo entienda.</p></li></ul></li><li><p><strong>La ejecución.</strong> Una vez que la IA ha demostrado que entiende el QUÉ, ejecutará el CÓMO. Y lo hará de forma impecable, porque ahora está vertiendo su análisis <em>dentro</em> de tu manual de estilo, no inventando desde cero.</p></li></ol><p>Resultado:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!s52G!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!s52G!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 424w, https://substackcdn.com/image/fetch/$s_!s52G!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 848w, https://substackcdn.com/image/fetch/$s_!s52G!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 1272w, https://substackcdn.com/image/fetch/$s_!s52G!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!s52G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png\" width=\"1100\" height=\"612\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:612,&quot;width&quot;:1100,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:150373,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/177779518?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!s52G!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 424w, https://substackcdn.com/image/fetch/$s_!s52G!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 848w, https://substackcdn.com/image/fetch/$s_!s52G!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 1272w, https://substackcdn.com/image/fetch/$s_!s52G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F459d964f-2c31-40bc-8bf2-e098ad8f9ebc_1100x612.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>Cuando la escalera dibuja escaleras</h2><p>Vygotsky advertía que las tecnologías cognitivas amplifican o atrofian capacidades según cómo las integremos.</p><p>La escritura amplificó pensamiento abstracto. Atrofió memoria oral. Los griegos memorizaban epopeyas completas. Nosotros no recordamos un teléfono sin consultarlo.</p><p>Nano Banana puede hacer lo mismo con pensamiento visual.</p><p><strong>Amplifica</strong> si dibujas primero (proceso cognitivo) y traduces después (formato comunicable). Como aquella escalera que la IA propuso: completó tu pensamiento sin reemplazarlo.</p><p><strong>Atrofia</strong> si dejas de dibujar porque “la IA lo hace mejor”. Dibujar no es preparación para el output. <strong>Es el pensamiento materializándose.</strong> El acto de trazar conexiones en papel estructura ideas de una forma que no sucede solo pensándolas o describiéndolas.</p><p>El día que uses Nano Banana sin haber dibujado nada antes, sin sketch que traducir, solo pidiendo “genera esto”, la escalera dejó de ser solución propuesta. Es sustitución impuesta.</p><p>Y ahí pierdes no solo el dibujo. Pierdes el pensamiento que requería dibujarse para existir.</p><div><hr></div><p><strong>¿Usas Nano Banana? ¿Para qué lo consideras indispensable? ¿Y para qué jamás lo usarías?</strong></p><p>Cuéntamelo. Siempre leo todo.</p><div><hr></div><p><strong>PD:</strong> Si usas estos prompts y descubres algo interesante o inquietante, responde este correo. Quiero saber si la escalera completa tu pensamiento... o si ya dibuja por ti.</p><div><hr></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think &amp; Hacks</strong></p><p>Como responsable de IA generativa en Editorial Planeta, mi trabajo no es implementar IA.</p><p><strong>Es evitar que mi empresa pierda dinero implementando IA mal.</strong></p><p>La diferencia entre ambas cosas es exactamente lo que encontrarás aquí: <strong>la brecha entre lo que Silicon Valley promete y lo que realmente funciona cuando tienes 500 empleados, sistemas legacy, y un margen que defender.</strong> Por qué la mayoría de estrategias de IA están diseñadas para fracasar (spoiler: porque son estrategias de consultoría, no de negocio), y cómo las pocas que funcionan pueden mover tu P&amp;L sin dinamitar tu operación.</p><p><strong>Otra mirada a la tecnología. La de quien la implementa, no la vende.</strong></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás? Si es tu primera vez: soy Aina y esto es Think&Hack. Aquí está la #4 entrega de esta newsletter, en ella hablaremos sobre una herramienta que promete amplificar tu pensamiento visual y termina mostrándote algo más inquietante: qué pasa cuando una máquina entiende tu garabato mejor que tú mismo. Si te interesa este tipo de análisis, suscríbe…",
+  "wordcount": 2244,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        116,
+        180,
+        196
+      ],
+      "population": 1
+    },
+    "DarkVibrant": {
+      "rgb": [
+        39.512121212121215,
+        82.37272727272726,
+        93.0878787878788
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        244,
+        244,
+        228
+      ],
+      "population": 2581
+    },
+    "Muted": {
+      "rgb": [
+        140,
+        172,
+        110
+      ],
+      "population": 15
+    },
+    "DarkMuted": {
+      "rgb": [
+        60,
+        81,
+        53
+      ],
+      "population": 45
+    },
+    "LightMuted": {
+      "rgb": [
+        164,
+        184,
+        189
+      ],
+      "population": 33
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 6,
+  "comment_count": 2,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 177779518,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/177779518/tts/fabe0464-5bd0-4259-b204-00049ca89dd7/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 173754996,
+      "body": "Me ha encantado tu reflexión sobre los procesos de pensamiento ♥️. Desde el ámbito del diseño hay una analogía similar, cada vez se hace más patente la necesidad de conceptualizar soluciones en bocetos antes de dar el salto a la capa visual, algo que mucha gente había denostado en los últimos años dada la sistematización de patrones gráficos. Lo voy a compartir con mi equipo, un abrazo.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Me ha encantado tu reflexión sobre los procesos de pensamiento ♥️. Desde el ámbito del diseño hay una analogía similar, cada vez se hace más patente la necesidad de conceptualizar soluciones en bocetos antes de dar el salto a la capa visual, algo que mucha gente había denostado en los últimos años dada la sistematización de patrones gráficos. Lo voy a compartir con mi equipo, un abrazo."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 177779518,
+      "user_id": 4182639,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2025-11-05T06:39:05.736Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Jorge Barriobero",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4f3a7e34-45ff-4821-942d-d89cd938367d_325x325.jpeg",
+      "handle": "barriobero",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "barriobero",
+      "metadata": {
+        "is_author": false,
+        "membership_state": null,
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "En todas partes hay tesoros",
+          "id": 111164,
+          "base_url": "https://jorgebarriobero.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    }
+  ]
+}

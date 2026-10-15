@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 755,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 99000
+  },
+  "fecha": "2026-09-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La novedad",
+  "id": "U5tUNWDmkCk",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Noticia de lanzamiento sin proceso aplicable",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 29,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.0,
+    "senal_incompleta": false
+  },
+  "titulo": "GPT 6 Astra ya está aquí. ¡Es REVOLUCIONARIO!",
+  "url": "https://www.youtube.com/watch?v=U5tUNWDmkCk"
+}

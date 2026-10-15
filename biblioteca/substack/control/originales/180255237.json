@@ -1,0 +1,296 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/8-quieres-tener-un-mayordomo-digital",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 180255237,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-11-30T06:23:23.548Z",
+  "updated_at": "2026-01-15T08:10:07.131Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "8-quieres-tener-un-mayordomo-digital",
+  "social_title": null,
+  "subtitle": "Incluye guía práctica para construir tu mayordomo con N8N.",
+  "teaser_post_eligible": true,
+  "title": "#8 Quieres tener un Mayordomo Digital con N8N?",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 3
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "7-se-infiel-a-chatgpt",
+  "next_post_slug": "borrar-memoria-chatgpt",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!3hPj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png",
+  "cover_image_is_square": true,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 180255237,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Incluye guía práctica para construir tu mayordomo con N8N.",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Eva y hoy colaboro con  <strong>Think&amp;Hack</strong>. Aquí está la <strong>#8 entrega</strong> de esta newsletter.</p><p>Hablaremos de por qué tu necesidad de saber a qué hora juega tu equipo te está costando 15 minutos de vida cada vez, y cómo N8N puede ayudarte.</p><p>Si te interesa empezar a crear tus pinitos con N8N y estar al día de todo lo que puedes hacer con automatizaciones, suscríbete.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p>Si ya eres habitual, gracias por volver.</p><h3><strong>El Mayordomo Silencioso.</strong></h3><p>Imagina que tienes un mayordomo.</p><p>Tú no vas al kiosco a buscar el periódico (y te distraes con las revistas, y compras chicles, y hablas con el vecino).</p><p>Tú te sientas a desayunar y el mayordomo deja sobre tu mesa una nota doblada. Sólo dice: <em>“ El partido es a las 21:00. Lo dan en tal canal”</em>. Y se retira.</p><p>Eso es lo que construí con N8N.</p><p>Un flujo de trabajo que no me pide atención. Me la regala.</p><p>No es una app. No tiene colores brillantes. No tiene scroll. Es un correo de texto plano que llega cada mañana a las 8:00 AM con la programación del día.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!3hPj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!3hPj!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 424w, https://substackcdn.com/image/fetch/$s_!3hPj!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 848w, https://substackcdn.com/image/fetch/$s_!3hPj!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!3hPj!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!3hPj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png\" width=\"1024\" height=\"1024\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1024,&quot;width&quot;:1024,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!3hPj!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 424w, https://substackcdn.com/image/fetch/$s_!3hPj!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 848w, https://substackcdn.com/image/fetch/$s_!3hPj!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 1272w, https://substackcdn.com/image/fetch/$s_!3hPj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h3><strong>Lo que la automatización hace realmente (SÍ vs NO)</strong></h3><p>La mayoría piensa que automatizar con herramientas como n8n o Zapier es para “ahorrar tiempo”. Se equivocan. Es para <strong>ahorrar carga cognitiva</strong>.</p><p><strong>Lo que tu App de Deportes hace:</strong></p><ul><li><p><strong>Tragarte su  Publicidad</strong></p></li><li><p><strong>Diseño PUSH agresivo:</strong> Te bombardea con lo que <em>ellos</em> quieren que veas.</p></li><li><p><strong>Ruido:</strong> Mezcla el dato que buscas con 90% de basura para retenerte.</p></li><li><p><strong>Extracción:</strong> Su objetivo es extraer tus datos y tu tiempo.</p></li></ul><p><strong>Lo que el Mayordomo (n8n) hace:</strong></p><ul><li><p><strong>Cero Publicidad</strong></p></li><li><p><strong>Diseño PULL selectivo:</strong> Solo busca lo que <em>tú</em> has definido como valioso.</p></li><li><p><strong>Señal:</strong> Separa el grano de la paja antes de que llegue a tus ojos.</p></li><li><p><strong>Servicio:</strong> Su objetivo es entregarte valor y desaparecer.</p></li></ul><h3><strong>La Guía Práctica: “construye a tu Mayordomo”</strong></h3><p>No necesitas ser ingeniero de software para montar esto. Sólo necesitas entender la lógica de bloques.</p><p>He usado <strong>n8n</strong> (una herramienta de automatización de flujos de trabajo, opensource y visual) porque me permite conectar cosas sin escribir código complejo.</p><p>Aquí tienes la arquitectura del “Mayordomo Silencioso”:</p><p><strong>1. El Disparador (The Trigger):</strong></p><ul><li><p><strong>Nodo:</strong> Schedule Trigger.</p></li><li><p><strong>Configuración:</strong> “Cada día a las 08:00 AM”.</p></li><li><p><em>Filosofía:</em> Tú decides cuándo recibes la información, no cuando la app te manda una notificación push.</p></li></ul><p><strong>2. La Fuente (The Source):</strong></p><ul><li><p><strong>Nodo:</strong> HTTP Request.</p></li><li><p><strong>Acción:</strong> Conectar a una API de deportes gratuita (como TheSportsDB o API-Football).</p></li><li><p><strong>Petición:</strong> “Dame los eventos de HOY”.</p></li><li><p><em>Filosofía:</em> Vas a la fuente cruda. Sin interfaz. Sin anuncios. Datos puros.</p></li></ul><p><strong>3. El Filtro (The Bouncer):</strong></p><ul><li><p><strong>Nodo:</strong> Filter o IF.</p></li><li><p><strong>Lógica:</strong> “¿Es el equipo = ‘FC Barcelona’ OR ‘Nadal’?”</p></li><li><p><em>Filosofía:</em> Aquí está la magia. El algoritmo eres tú. Tú defines qué es relevante. Si no juega tu equipo, el correo no se envía. El silencio también es información.</p></li></ul><p><strong>4. La Entrega (The Delivery):</strong></p><ul><li><p><strong>Nodo:</strong> Gmail o Telegram.</p></li><li><p><strong>Formato:</strong> Texto plano. “Hola Eva. Hoy juega el Barça a las 21:00 vs Madrid. TV: Dazn.”</p></li><li><p><em>Filosofía:</em> Sin imágenes. Sin clicks. Lectura de 3 segundos. Fin.</p></li></ul><p>Figura del workflow:</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!4jnM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!4jnM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 424w, https://substackcdn.com/image/fetch/$s_!4jnM!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 848w, https://substackcdn.com/image/fetch/$s_!4jnM!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 1272w, https://substackcdn.com/image/fetch/$s_!4jnM!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!4jnM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png\" width=\"1456\" height=\"450\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:450,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!4jnM!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 424w, https://substackcdn.com/image/fetch/$s_!4jnM!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 848w, https://substackcdn.com/image/fetch/$s_!4jnM!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 1272w, https://substackcdn.com/image/fetch/$s_!4jnM!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120b8ba4-3150-4a16-b67a-9bf07ede734b_1586x490.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Y a partir de este workflow esto es lo que recibo cada día a las 8am en mi correo electrónico:</p><pre><code>Asunto: Tu Guía Deportiva para Hoy - Sábado 29 de Noviembre de 2025\n\n¡Hola aficionado al deporte!\n\nAquí tienes la programación deportiva completa para hoy, **sábado 29 de noviembre de 2025**, desde las 10:00 hasta las 23:00 horas. Un día cargado de fútbol, con especial atención al FC Barcelona, y otras competiciones destacadas.\n\n###  FÚTBOL\n\n** FC BARCELONA - Destacado Especial**\n\n*   **11:45 - 13:45 (Gol):** **LaLiga Santander: FC Barcelona - Atlético de Madrid (3-1)**\n\n    *   *Reposición del partido. Revive la victoria del Barça.*\n\n*   **15:30 - 16:10 (Esport 3):** Gol a gol: FC Barcelona - Deportivo Alavés\n\n    *   *Previa y análisis del partido de hoy.*\n\n*   **16:10 - 18:10 (Esport 3):** Un dia de partit: FC Barcelona - Deportivo Alavés\n\n    *   *Retransmisión EN DIRECTO del partido de LaLiga.*\n\n*   **18:10 - 19:20 (Esport 3):** Gol a gol: FC Barcelona - Deportivo Alavés\n\n    *   *Postpartido y análisis del encuentro.*\n\n*   **21:20 - 22:30 (Esport 3):** Gol a gol: FC Barcelona - Deportivo Alavés\n\n    *   *Resumen y análisis en profundidad.*\n\n**Otros Partidos y Programas de Fútbol**\n\n*   **10:00 - 11:45 (Gol):** Directo Gol\n\n    *   *Seguimiento de todos los partidos de la jornada.*\n\n*   **13:45 - 15:30 (Gol):** Directo Gol\n\n*   **15:30 - 18:30 (Gol):** Directo Gol: Minuto a Minuto\n\n*   **18:30 - 20:30 (Gol):** **LaLiga Hypermotion: Albacete Balompié - RC Deportivo de la Coruña**\n\n    *   *Partido en DIRECTO de la Segunda División.*\n\n*   **19:55 - 20:25 (Teledeporte):** Resúmenes LaLiga EA Sports\n\n*   **20:45 - 22:45 (Gol):** Directo Gol: Minuto a Minuto\n\n*   **22:45 - 01:00 (Gol):** Directo Gol\n\n###  TENIS\n\n*Lamentablemente, hoy no hay retransmisiones de tenis ni participación de Carlos Alcaraz en la parrilla televisiva.*\n\n###  FÚTBOL SALA\n\n*   **12:50 - 14:45 (Teledeporte):** **Liga Nacional de Fútbol Sala: Barça - Illes Balears Palma Futsal**\n\n    *   *Partido en DIRECTO de la LNFS.*\n\n###  GOLF\n\n*   **14:45 - 17:00 (Teledeporte):** Open de España Femenino\n\n  ###  MOTOR\n\n*   **22:30 - 23:00 (Esport 3):** FIA World Rally Championship: Rally Saudi Arabia\n\n    *   *Resúmenes y avances del rally.*\n\n###  PROGRAMAS DE ANÁLISIS Y ACTUALIDAD DEPORTIVA\n\n*   **10:15 - 11:15 (Teledeporte):** El pebetero\n\n*   **15:10 - 15:25 (laSexta):** La Sexta deportes\n\n*   **21:35 - 21:40 (Telecinco):** ElDesmarque Telecinco\n\n*   **22:05 - 23:00 (Teledeporte):** Estudio Estadio, la previa\n\n#  RECOMENDACIONES PERSONALES DEL DÍA\n\n1.  ** FC Barcelona - Deportivo Alavés (16:10 - 18:10, Esport 3):** **El plato fuerte del día.** No te pierdas el partido en directo del Barça en LaLiga. Siempre es un evento de gran interés.\n\n2.  ** Albacete - Deportivo de La Coruña (18:30 - 20:30, Gol):** Un clásico de la lucha por el ascenso en LaLiga Hypermotion. Un partido que promete emoción y pasión.\n\n3.  ** Croacia - Dinamarca (20:25 - 22:00, Teledeporte):** Para los amantes de los deportes de equipo, un duelo de alto nivel en el Mundial Femenino de Balonmano entre dos potencias europeas.\n\n¡Disfruta de un gran día de deportes!</code></pre><p><strong>Regalo:</strong> Si quieres el JSON de este workflow para importarlo en tu n8n y dejar de perder tiempo, responde en comentarios con la palabra “MAYORDOMO” y por supuesto suscríbete.</p><p>Además si quieres profundizar más en N8N te dejo el <strong>enlace gratuito del curso “N8N en 30 dias”</strong> de mi amigo Mike.</p><p>Link de mi amigo mike Fort:</p><div class=\"comment\" data-attrs=\"{&quot;url&quot;:&quot;https://open.substack.com/home&quot;,&quot;commentId&quot;:180430167,&quot;comment&quot;:{&quot;id&quot;:180430167,&quot;date&quot;:&quot;2025-11-23T19:01:45.094Z&quot;,&quot;edited_at&quot;:null,&quot;body&quot;:&quot;Mi mejor vídeo del curso Domina #n8n en 30 Días.\\n\\nSi llevas tiempo queriendo construir tu propio agente de IA pero no entiendes ningún tutorial, éste es tu video 🤓👇🏻\\n\\nhttps://youtu.be/9Yem3aI27_M?si=8JdCeEp1fTQrKFmr&quot;,&quot;body_json&quot;:{&quot;attrs&quot;:{&quot;schemaVersion&quot;:&quot;v1&quot;},&quot;content&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;Mi mejor vídeo del curso Domina #n8n en 30 Días.&quot;}],&quot;type&quot;:&quot;paragraph&quot;},{&quot;content&quot;:[{&quot;text&quot;:&quot;Si llevas tiempo queriendo construir tu propio agente de IA pero no entiendes ningún tutorial, éste es tu video 🤓👇🏻&quot;,&quot;type&quot;:&quot;text&quot;}],&quot;type&quot;:&quot;paragraph&quot;},{&quot;content&quot;:[{&quot;type&quot;:&quot;text&quot;,&quot;text&quot;:&quot;https://youtu.be/9Yem3aI27_M?si=8JdCeEp1fTQrKFmr&quot;,&quot;marks&quot;:[{&quot;type&quot;:&quot;link&quot;,&quot;attrs&quot;:{&quot;href&quot;:&quot;https://youtu.be/9Yem3aI27_M?si=8JdCeEp1fTQrKFmr&quot;}}]}],&quot;type&quot;:&quot;paragraph&quot;}],&quot;type&quot;:&quot;doc&quot;},&quot;restacks&quot;:1,&quot;reaction_count&quot;:2,&quot;attachments&quot;:[{&quot;id&quot;:&quot;c9156624-6418-42ab-9c75-8e088d94b40b&quot;,&quot;type&quot;:&quot;link&quot;,&quot;linkMetadata&quot;:{&quot;url&quot;:&quot;https://youtu.be/9Yem3aI27_M?si=8JdCeEp1fTQrKFmr&quot;,&quot;host&quot;:&quot;youtube.com&quot;,&quot;title&quot;:&quot;- YouTube&quot;,&quot;description&quot;:&quot;Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.&quot;},&quot;explicit&quot;:false}],&quot;name&quot;:&quot;Mike Fort&quot;,&quot;user_id&quot;:15134539,&quot;photo_url&quot;:&quot;https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c6fce0-77fe-48fa-ac0a-40e7bd5b3e62_910x908.jpeg&quot;,&quot;user_bestseller_tier&quot;:null,&quot;userStatus&quot;:{&quot;bestsellerTier&quot;:null,&quot;subscriberTier&quot;:null,&quot;leaderboard&quot;:null,&quot;vip&quot;:false,&quot;badge&quot;:null,&quot;paidPublicationIds&quot;:[],&quot;subscriber&quot;:null}},&quot;source&quot;:null,&quot;forumChannel&quot;:null}\" data-component-name=\"CommentPlaceholder\"></div><p><strong>                               </strong></p><div class=\"pullquote\"><p><strong> Gracias Think&amp;hackers  por llegar hasta aquí !!!!</strong></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think &amp; Hacks</strong></p><p>Solo te pido tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte:</strong> Reenvía este correo a ese compañero que sigue estancado en 2023.</p></li><li><p>💬 <strong>Comenta:</strong> Dale a “responder” y dime: ¿Qué modelo usas tú fuera de ChatGPT?</p></li><li><p>📩 <strong>Suscríbete:</strong> ¿Llegas tarde? para recibir la próxima antes que nadie.</p></li></ol><p>.</p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 1097,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [
+    {
+      "id": "60b8e6a8-1402-4cc8-9e81-af9b33618cf2",
+      "publication_id": 5143893,
+      "name": "n8n",
+      "slug": "n8n",
+      "hidden": false
+    },
+    {
+      "id": "abcf459d-c22c-4c33-b7b4-698fa34a5867",
+      "publication_id": 5143893,
+      "name": "IAparaTodos",
+      "slug": "iaparatodos",
+      "hidden": false
+    }
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        212,
+        126,
+        73
+      ],
+      "population": 3
+    },
+    "DarkVibrant": {
+      "rgb": [
+        35,
+        70,
+        116
+      ],
+      "population": 10
+    },
+    "LightVibrant": {
+      "rgb": [
+        163,
+        196,
+        228
+      ],
+      "population": 3229
+    },
+    "Muted": {
+      "rgb": [
+        116,
+        148,
+        172
+      ],
+      "population": 1
+    },
+    "DarkMuted": {
+      "rgb": [
+        71,
+        58,
+        53
+      ],
+      "population": 7
+    },
+    "LightMuted": {
+      "rgb": [
+        148,
+        180,
+        204
+      ],
+      "population": 10
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 84979029,
+      "name": "Eva FT",
+      "handle": "evaft",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "bio": "Formador en Inteligencia Artificial Generativa para Empresas | Talleres prácticos que impulsan productividad y ventas de tu Empresa// Colaborando con la Newsletter especializada en IA de Think & Hack.",
+      "profile_set_up_at": "2025-03-21T20:40:50.882Z",
+      "reader_installed_at": "2025-03-21T20:40:43.011Z",
+      "publicationUsers": [
+        {
+          "id": 6987845,
+          "user_id": 84979029,
+          "publication_id": 6846930,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 6846930,
+            "name": "Eva FT",
+            "subdomain": "evaft",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 84979029,
+            "primary_user_id": 84979029,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-11-08T20:32:12.225Z",
+            "email_from_name": null,
+            "copyright": "Eva FT",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true,
+            "logo_url_wide": null
+          }
+        },
+        {
+          "id": 7493413,
+          "user_id": 84979029,
+          "publication_id": 5143893,
+          "role": "contributor",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 3,
+  "comment_count": 0,
+  "child_comment_count": 0,
+  "audio_items": [
+    {
+      "post_id": 180255237,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/180255237/tts/b410f88d-89de-45f7-b15f-0d6ee150ded9/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": []
+}

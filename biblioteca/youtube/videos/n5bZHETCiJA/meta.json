@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 981,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 77000
+  },
+  "fecha": "2026-09-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La comparativa",
+  "id": "n5bZHETCiJA",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Comparativa de agentes midiendo quién termina el trabajo",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 29,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.19,
+    "senal_incompleta": false
+  },
+  "titulo": "The Race to Done: Fable 5.1 vs GPT-6 Astra. Who Wins?",
+  "url": "https://www.youtube.com/watch?v=n5bZHETCiJA"
+}

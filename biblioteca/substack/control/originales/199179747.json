@@ -1,0 +1,356 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/este-junio-tienes-dos-oportunidades",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 199179747,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-05-28T05:04:52.827Z",
+  "updated_at": "2026-05-28T05:07:00.101Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "este-junio-tienes-dos-oportunidades",
+  "social_title": null,
+  "subtitle": "El 9 y el 13 de junio estaré en CONIA Online y Mujeres en SEO Summit Barcelona para enseñar sistemas reales, resolver dudas y compartir casos de uso con IA.",
+  "teaser_post_eligible": true,
+  "title": "Este junio tienes dos oportunidades para aprender IA aplicada conmigo.",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 2
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "transcribir-youtube-ia",
+  "next_post_slug": "ia-se-pierde-conversacion-control-contexto",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!ToR_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 199179747,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "El 9 y el 13 de junio estaré en CONIA Online y Mujeres en SEO Summit Barcelona para enseñar sistemas reales, resolver dudas y compartir casos de uso con IA.",
+  "body_html": "<p>Este junio tienes dos oportunidades para aprender IA aplicada conmigo.</p><ul><li><p>El martes 9, online y gratis, en <strong>CONIA Online.</strong></p></li><li><p>El sábado 13, presencial en Barcelona, en el primer <strong>Summit de Mujeres en SEO</strong>.</p></li></ul><p>En los dos eventos voy a enseñar <strong>sistemas que uso</strong>: cómo organizo agentes para gestionar proyectos y cómo aplico agentes de IA al SEO sin depender de datos inventados.</p><div class=\"pullquote\"><p>También habrá espacio para preguntas, casos reales y algo que en una newsletter no siempre pasa: <strong>conversar.</strong></p></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><h2>1. CONIA Online - martes 9 de junio</h2><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://conia.digital/conia-online-2026#registro-section\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ToR_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!ToR_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!ToR_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!ToR_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ToR_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png\" width=\"1456\" height=\"819\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:819,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:912506,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://conia.digital/conia-online-2026#registro-section&quot;,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/199179747?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ToR_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 424w, https://substackcdn.com/image/fetch/$s_!ToR_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 848w, https://substackcdn.com/image/fetch/$s_!ToR_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 1272w, https://substackcdn.com/image/fetch/$s_!ToR_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c8758e8-3a4a-47bd-bdcb-0e89086fb4c3_1600x900.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>El primer evento es <strong>CONIA Online</strong>, el martes 9 de junio, de 15:30 a 20:00 CEST.</p><p>La charla se llama:</p><p><strong>“Cómo seis agentes y un inbox gestionan todos mis proyectos de IA”.</strong></p><p>Aquí voy a abrir mi sistema actual por dentro.</p><p>Porque si llevas meses usando ChatGPT, Claude u otras herramientas de IA para trabajar, seguramente ya has notado el límite: meterlo todo en un único asistente cada vez más grande acaba volviéndolo lento, caro y difícil de mantener.</p><p>Mi enfoque es otro.</p><p>En vez de un asistente gigante, trabajo con <strong>seis agentes especializados</strong>, cada uno con una tarea concreta, y un <strong>inbox central</strong> que decide quién hace qué.</p><div class=\"pullquote\"><p>Ese inbox es la pieza importante. No porque “haga magia”, sino porque convierte un conjunto de agentes sueltos en un sistema coordinado.</p></div><p>Esta charla es para ti si lideras marketing, contenidos, una agencia o proyectos donde la IA ya no es una prueba puntual, sino parte del trabajo diario.</p><p><strong>Voy a hablar de cómo pasar de prompts sueltos a herramientas internas reales.</strong></p><p>Además, me hace especial ilusión participar porque el evento lo organiza <strong>IKAUE</strong>, que está haciendo una labor muy potente para difundir casos de uso reales con IA, no teoría abstracta ni demos imposibles. Tienen una serie de contenidos en YouTube precisamente sobre eso: aplicaciones reales, explicadas por profesionales que ya están usando IA en su trabajo.</p><p>👉 Puedes verla aquí: <a href=\"https://www.youtube.com/playlist?list=PLIgfqMCUEnDQzspsuxMBhfcDTDTJVBP9s\">https://www.youtube.com/playlist?list=PLIgfqMCUEnDQzspsuxMBhfcDTDTJVBP9s</a></p><p>También compartiré cartel con profesionales como: <a href=\"https://www.linkedin.com/in/alfonsomoure/es/\">Alfonso Moure</a>, <a href=\"https://www.linkedin.com/in/ubaldo-hervas/\">Ubaldo Hervás</a>, <a href=\"https://www.linkedin.com/in/lorenafloressaldias/\">Lorena Flores</a> , <a href=\"https://www.linkedin.com/in/valentinayesa/\">Valentin Ayesa</a> , <a href=\"https://www.linkedin.com/in/evarodenas/\">Eva Rodenas</a> y <a href=\"https://www.linkedin.com/in/carloshellingarcia/\">Carlos Hellín García</a>.</p><p><strong>CONIA Online es gratuito con registro previo.</strong></p><div class=\"callout-block\" data-callout=\"true\"><p>👉 <strong>Apúntate </strong>aquí: <a href=\"https://conia.digital/conia-online-2026#registro-section\">conia.digital/conia-online-2026</a></p></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/este-junio-tienes-dos-oportunidades?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/este-junio-tienes-dos-oportunidades?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartir</span></a></p><div><hr></div><h2>2. Mujeres en SEO Summit, Barcelona, sábado 13 de junio</h2><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://www.eventbrite.es/e/entradas-mujeresenseo-summit-barcelona-2026-1989238539019\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!7QV0!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 424w, https://substackcdn.com/image/fetch/$s_!7QV0!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 848w, https://substackcdn.com/image/fetch/$s_!7QV0!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 1272w, https://substackcdn.com/image/fetch/$s_!7QV0!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!7QV0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png\" width=\"1283\" height=\"1350\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1350,&quot;width&quot;:1283,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:572510,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:&quot;https://www.eventbrite.es/e/entradas-mujeresenseo-summit-barcelona-2026-1989238539019&quot;,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/199179747?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!7QV0!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 424w, https://substackcdn.com/image/fetch/$s_!7QV0!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 848w, https://substackcdn.com/image/fetch/$s_!7QV0!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 1272w, https://substackcdn.com/image/fetch/$s_!7QV0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc65b2b35-4c0c-4884-8bd1-b3e94d8c0076_1283x1350.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>El segundo evento es muy especial por otro motivo: es el <strong>primer Summit presencial de Mujeres en SEO</strong>.</p><p>Será el sábado 13 de junio, en Barcelona, y para mí tiene una parte que no cabe en una ponencia online: <strong>ponernos cara</strong>.</p><p>Porque una cosa es leernos, seguirnos, comentarnos o coincidir en LinkedIn.<br>Y otra muy distinta es sentarnos en la misma sala, hablar después de una charla, compartir dudas reales y tomar un café sin una pantalla de por medio.</p><p>Mi ponencia se llama:</p><p><strong>“Cómo usar Agentes de IA para tareas SEO sin alucinar”.</strong></p><p>Aquí voy a aterrizar un caso muy concreto: ¿qué pasa cuando usamos agentes de IA para SEO y queremos que trabajen con datos reales, no con respuestas aparentemente sólidas que se caen cuando necesitas trazabilidad?</p><div class=\"pullquote\"><p>Hablaré de cómo diseñar agentes que no dependan solo del modelo, sino de fuentes verificables, procesos auditables y una arquitectura que permita saber de dónde sale cada dato.</p></div><p><strong>Pero este evento no va solo de mi charla.</strong></p><p>Va de celebrar que una comunidad como <strong>Mujeres en SEO</strong> tenga su primer encuentro presencial de este tipo. Va de <strong>aprender de otras profesionales,</strong> escuchar casos de uso reales, <strong>compartir experiencias</strong> y <strong>salir con ideas </strong>que no vienen de una demo perfecta, sino del trabajo de gente que está dentro del barro.</p><p>Compartiré cartel con: <a href=\"https://www.linkedin.com/in/aleyda/\">Aleyda Solís</a>, <a href=\"https://www.linkedin.com/in/ciara-serrano-temprado/\">Ciara Serrano Temprado</a>, <a href=\"https://www.linkedin.com/in/clara-soteras-acosta/\">Clara Soteras Acosta</a>, <a href=\"https://www.linkedin.com/in/estelafranco/\">Estela Franco</a>, <a href=\"https://www.linkedin.com/in/evaolivaresbusquets/\">Eva Olivares Busquets</a>, <a href=\"https://www.linkedin.com/in/jadejohnsonv/\">Jade Johnson Virgili</a>, <a href=\"https://www.linkedin.com/in/j-turnbull/es/\">Jo Juliana Turnbull</a>, <a href=\"https://www.linkedin.com/in/mjcachon/es/\">MJ Cachón Yáñez</a>, <a href=\"https://www.linkedin.com/in/nataliawitczyk/\">Natalia Witczyk</a> y <a href=\"https://www.linkedin.com/in/valenc/\">Valen Correa</a>.</p><p><strong>Y aunque lo organiza Mujeres en SEO, el evento está abierto a todos los géneros.</strong></p><p>Si vienes, me encantará conocerte después de la ponencia. Podemos hablar de agentes, de SEO, de IA aplicada a tu caso o simplemente tomarnos un café y ponernos cara.</p><p><strong>Barcelona. Sábado 13 de junio. Entrada: 17€. Plazas limitadas.</strong></p><div class=\"callout-block\" data-callout=\"true\"><p><strong>👉 Apúntate:</strong> <a href=\"https://www.eventbrite.es/e/entradas-mujeresenseo-summit-barcelona-2026-1989238539019\">https://www.eventbrite.es/e/entradas-mujeresenseo-summit-barcelona-2026-1989238539019</a></p></div><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/este-junio-tienes-dos-oportunidades?utm_source=substack&utm_medium=email&utm_content=share&action=share&quot;,&quot;text&quot;:&quot;Compartir&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/este-junio-tienes-dos-oportunidades?utm_source=substack&utm_medium=email&utm_content=share&action=share\"><span>Compartir</span></a></p><div><hr></div><h2>Te dejo las dos fechas:</h2><ul><li><p><strong><a href=\"https://conia.digital/conia-online-2026#registro-section\">Martes 9, online y gratis</a></strong><a href=\"https://conia.digital/conia-online-2026#registro-section\">, CONIA Online. El sistema entero, por dentro.</a></p></li><li><p><strong><a href=\"https://www.eventbrite.es/e/entradas-mujeresenseo-summit-barcelona-2026-1989238539019\">Sábado 13, presencial</a></strong><a href=\"https://www.eventbrite.es/e/entradas-mujeresenseo-summit-barcelona-2026-1989238539019\">, Barcelona. El método SEO y diez voces más en una sala.</a></p></li></ul><p>Puedes venir a una.<br>Puedes venir a las dos.</p><p>Y si vienes a Barcelona, me encantará ponernos cara, hablar después de la charla y tomarnos ese café.</p><p>¿Te veo en CONIA, en Barcelona o en los dos?</p><div class=\"pullquote\"><p style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h1 style=\"text-align: center;\"><strong>Suscríbete a Think&amp;Hack</strong></h1><p>Casos reales, flujos que funcionan y lo que cambia de verdad cuando incorporas la IA a tu trabajo diario.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "Este junio tienes dos oportunidades para aprender IA aplicada conmigo.",
+  "wordcount": 772,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        190,
+        47,
+        102
+      ],
+      "population": 65
+    },
+    "DarkVibrant": {
+      "rgb": [
+        14,
+        68,
+        128
+      ],
+      "population": 246
+    },
+    "LightVibrant": {
+      "rgb": [
+        247,
+        150,
+        138
+      ],
+      "population": 184
+    },
+    "Muted": {
+      "rgb": [
+        124,
+        140,
+        108
+      ],
+      "population": 1
+    },
+    "DarkMuted": {
+      "rgb": [
+        81,
+        52,
+        62
+      ],
+      "population": 55
+    },
+    "LightMuted": {
+      "rgb": [
+        189,
+        169,
+        171
+      ],
+      "population": 332
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 2,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 199179747,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/199179747/tts/689c060e-9676-4328-84fa-6433df363f30/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 266471606,
+      "body": "Anda! En vivo y en directo! Buenas iniciativas 🔝",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Anda! En vivo y en directo! Buenas iniciativas 🔝"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 199179747,
+      "user_id": 84979029,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-05-28T10:36:39.160Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Eva FT",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "handle": "evaft",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "evaft",
+      "metadata": {
+        "is_author": true,
+        "membership_state": "subscribed",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Eva FT",
+          "id": 6846930,
+          "base_url": "https://evaft.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 30,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

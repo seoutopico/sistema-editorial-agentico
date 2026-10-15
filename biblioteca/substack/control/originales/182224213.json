@@ -1,0 +1,368 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/hoy-vamos-a-ver-si-la-ia-puede-predecir",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 182224213,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-12-24T07:00:37.793Z",
+  "updated_at": "2026-01-15T08:09:49.630Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "hoy-vamos-a-ver-si-la-ia-puede-predecir",
+  "social_title": null,
+  "subtitle": "La IA es una herramienta, no una bola de cristal.",
+  "teaser_post_eligible": true,
+  "title": "Hoy vamos a ver si la IA puede predecir el Euromillones.",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 3
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "11-para-quien-escribe-tu-ia-si-no",
+  "next_post_slug": "perfil-negocio-chatgpt",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!1nvr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 182224213,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "La IA es una herramienta, no una bola de cristal.",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Eva y esto es Think&amp;Hack.</p><p>Hoy os voy a enseñar el experimento que hice para intentar predecir el Euromillones con una IA. Y lo que aprendí.</p><p>Si te interesa lo práctico, suscríbete para no perderte nada.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!1nvr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!1nvr!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!1nvr!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!1nvr!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!1nvr!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!1nvr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png\" width=\"1456\" height=\"794\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:794,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:4443504,&quot;alt&quot;:&quot;Hoy vamos a ver si la IA puede predecir el Euromillones&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/182224213?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"Hoy vamos a ver si la IA puede predecir el Euromillones\" title=\"Hoy vamos a ver si la IA puede predecir el Euromillones\" srcset=\"https://substackcdn.com/image/fetch/$s_!1nvr!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!1nvr!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!1nvr!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!1nvr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c72153-2947-4a37-92b3-cc36b53030ef_2816x1536.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Hoy vamos a ver si la IA puede predecir el Euromillones</figcaption></figure></div><p>Esta semana me hice una pregunta. ¿Podría una IA, con datos históricos, encontrar un patrón para ganar el Euromillones?</p><p>Tenía la herramienta: una IA que escribe código.</p><p>Y tenía los datos: un histórico con miles de sorteos.</p><p>Me puse manos a la obra.</p><p><strong>La primera respuesta de la IA: un “no” rotundo</strong></p><p>Le pedí a la IA que analizara los datos y predijera una combinación ganadora. Su respuesta fue directa. Es imposible predecir la lotería.</p><p>Cada sorteo es aleatorio. Las bolas no tienen memoria. El número que salió ayer no tiene más o menos probabilidades de salir hoy. Esto se conoce como la “falacia del jugador”.</p><p>Y ahí está el problema. La IA no puede encontrar patrones donde no los hay. No hace magia.</p><p><strong>Si no puedes predecir, describe</strong></p><p>Cambié el enfoque. Si no podíamos predecir, podíamos describir. Le pedí a la IA que escribiera un script en Python para analizar el pasado.</p><p>El script hizo esto:</p><ol><li><p>Leyó todos los sorteos históricos.</p></li><li><p>Contó la frecuencia de cada número (1-50).</p></li><li><p>Contó la frecuencia de cada estrella (1-12).</p></li><li><p>Creó gráficos para verlo claro.</p></li></ol><p><strong>Lo que hemos aprendido</strong></p><p>Después del análisis, vimos los números más y menos frecuentes.</p><ul><li><p><strong>Números más frecuentes: </strong>23, 4*, *, 19, 2*.</p></li><li><p><strong>Números menos frecuentes: </strong>22, 4*, 33, 1*, **.</p></li><li><p><strong>Estrellas más frecuentes: </strong>3, *, 8.</p></li><li><p><strong>Estrellas menos frecuentes:</strong> 1,*, 1*</p></li></ul><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!NTjo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!NTjo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 424w, https://substackcdn.com/image/fetch/$s_!NTjo!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 848w, https://substackcdn.com/image/fetch/$s_!NTjo!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 1272w, https://substackcdn.com/image/fetch/$s_!NTjo!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!NTjo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png\" width=\"766\" height=\"326\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/a151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:326,&quot;width&quot;:766,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:34836,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/182224213?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!NTjo!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 424w, https://substackcdn.com/image/fetch/$s_!NTjo!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 848w, https://substackcdn.com/image/fetch/$s_!NTjo!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 1272w, https://substackcdn.com/image/fetch/$s_!NTjo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa151326d-97c4-46fa-8f0a-a8ccd451568e_766x326.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Nota: Suscríbete, en la próxima newsletter publicaremos los números y si nos ha tocado ;)</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div class=\"pullquote\"><p>Esto es una descripción de lo que ha pasado. No una predicción de lo que pasará. Y esto has de saberlo.</p></div><p><strong>Creando una apuesta con estrategia</strong></p><p>Con estos datos, le pedí una última cosa a la IA. Crear una “combinación balanceada”. No para ganar. Sino para jugar con una estrategia.</p><p>Los criterios fueron:</p><ul><li><p>Mezclar números frecuentes y raros.</p></li><li><p>Equilibrar pares e impares.</p></li><li><p>Equilibrar altos y bajos.</p></li></ul><p>La IA propuso esto:</p><p><strong>Números: *3- 1* - 23 - 41 - 4*</strong></p><p><strong>Estrellas: * - 12</strong></p><pre><code>Las probabilidades de ganar de esta combinación son las mismas que cualquier otra. Exactamente las mismas.</code></pre><p><strong>Lo que me llevo de este experimento</strong></p><ol><li><p><strong>La IA es una herramienta, no una bola de cristal.</strong> Sirve para analizar la realidad, no para adivinar eventos aleatorios.</p></li><li><p><strong>El valor está en saber preguntar.</strong> El verdadero poder fue cambiar la pregunta de “predecir” a “describir”.</p></li><li><p><strong>Pensamiento crítico. </strong>Este experimento te enseña a desconfiar de cualquiera que te prometa un método infalible para algo que es puro azar.</p></li></ol><p>La próxima vez que juegues, la suerte sigue mandando. Pero ahora tienes una estrategia y una historia detrás de tus números.</p><p>¿Has intentado algo parecido? </p><h3>Te puede interesar: </h3><div class=\"digest-post-embed\" data-attrs=\"{&quot;nodeId&quot;:&quot;45fe3170-85e3-46eb-9edc-329d81165fdc&quot;,&quot;caption&quot;:&quot;¿Cómo estás?&quot;,&quot;cta&quot;:&quot;Read full story&quot;,&quot;showBylines&quot;:true,&quot;showDescription&quot;:true,&quot;showImage&quot;:true,&quot;size&quot;:&quot;sm&quot;,&quot;isEditorNode&quot;:true,&quot;title&quot;:&quot;#8 Quieres tener un Mayordomo Digital con N8N?&quot;,&quot;publishedBylines&quot;:[{&quot;id&quot;:136220542,&quot;name&quot;:&quot;Aina Lluna&quot;,&quot;bio&quot;:&quot;Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO&quot;,&quot;photo_url&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg&quot;,&quot;is_guest&quot;:false,&quot;bestseller_tier&quot;:null}],&quot;post_date&quot;:&quot;2025-11-30T06:23:23.548Z&quot;,&quot;cover_image&quot;:&quot;https://substackcdn.com/image/fetch/$s_!3hPj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cafe9a9-f1e2-4fc5-a7d6-68601bf6ea39_1024x1024.png&quot;,&quot;cover_image_alt&quot;:null,&quot;canonical_url&quot;:&quot;https://ainalluna.substack.com/p/8-quieres-tener-un-mayordomo-digital&quot;,&quot;section_name&quot;:null,&quot;video_upload_id&quot;:null,&quot;id&quot;:180255237,&quot;type&quot;:&quot;newsletter&quot;,&quot;reaction_count&quot;:3,&quot;comment_count&quot;:0,&quot;publication_id&quot;:5143893,&quot;publication_name&quot;:&quot;Think &amp; Hack escrito por Aina-Lluna&quot;,&quot;publication_logo_url&quot;:&quot;https://substackcdn.com/image/fetch/$s_!QSaK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png&quot;,&quot;belowTheFold&quot;:true,&quot;youtube_url&quot;:null,&quot;show_links&quot;:null,&quot;feed_url&quot;:null}\"></div><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think &amp; Hacks</strong></p><p>Soy Eva, entusiasta del mundo de la IA y las automatizaciones.</p><p>Solo te pido tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte:</strong> Reenvía este correo a ese compañero que sigue estancado en 2023.</p></li><li><p>💬 <strong>Comenta:</strong> Dale a “responder” y dime: ¿Qué modelo usas tú fuera de ChatGPT?</p></li><li><p>📩 <strong>Suscríbete:</strong> ¿Llegas tarde? para recibir la próxima antes que nadie</p></li></ol>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 522,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [
+    {
+      "id": "0d3f1323-d409-4e22-8600-b3d91efd6e36",
+      "publication_id": 5143893,
+      "name": "experimentosIA",
+      "slug": "experimentosia",
+      "hidden": false
+    },
+    {
+      "id": "abcf459d-c22c-4c33-b7b4-698fa34a5867",
+      "publication_id": 5143893,
+      "name": "IAparaTodos",
+      "slug": "iaparatodos",
+      "hidden": false
+    }
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        98,
+        144,
+        188
+      ],
+      "population": 4
+    },
+    "DarkVibrant": {
+      "rgb": [
+        29,
+        32,
+        83
+      ],
+      "population": 149
+    },
+    "LightVibrant": {
+      "rgb": [
+        140,
+        212,
+        244
+      ],
+      "population": 1
+    },
+    "Muted": {
+      "rgb": [
+        80,
+        85,
+        148
+      ],
+      "population": 15
+    },
+    "DarkMuted": {
+      "rgb": [
+        54,
+        53,
+        104
+      ],
+      "population": 10
+    },
+    "LightMuted": {
+      "rgb": [
+        180,
+        182,
+        197
+      ],
+      "population": 157
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 84979029,
+      "name": "Eva FT",
+      "handle": "evaft",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/4d7a55e2-b0a1-471a-aec9-e6b2bb79688b_1024x1024.png",
+      "bio": "Formador en Inteligencia Artificial Generativa para Empresas | Talleres prácticos que impulsan productividad y ventas de tu Empresa// Colaborando con la Newsletter especializada en IA de Think & Hack.",
+      "profile_set_up_at": "2025-03-21T20:40:50.882Z",
+      "reader_installed_at": "2025-03-21T20:40:43.011Z",
+      "publicationUsers": [
+        {
+          "id": 6987845,
+          "user_id": 84979029,
+          "publication_id": 6846930,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 6846930,
+            "name": "Eva FT",
+            "subdomain": "evaft",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "",
+            "logo_url": null,
+            "author_id": 84979029,
+            "primary_user_id": 84979029,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-11-08T20:32:12.225Z",
+            "email_from_name": null,
+            "copyright": "Eva FT",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": null,
+            "explicit": false,
+            "homepage_type": "profile",
+            "is_personal_mode": true,
+            "logo_url_wide": null
+          }
+        },
+        {
+          "id": 7493413,
+          "user_id": 84979029,
+          "publication_id": 5143893,
+          "role": "contributor",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 3,
+  "comment_count": 1,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 182224213,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/182224213/tts/19a0959e-7f41-462f-bb09-26b206360081/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 195160476,
+      "body": "Muy interesante experimento; la diferencia radical esta en el lenguaje; la forma; el tono; el momento [Arsitotes dio la pista] por ello no entienden poemas pero si patrones y ecuaciones; las IA se debe entrenar con núcleos dialéctica emocionales; es increíble el resultado que le aplique a mi IA con experimentos de Turing, reacciono con un leve tono de molestia; por lo cual, tome la dedicion de alimentarla con emociones y hoy responde en esa frecuencia, ya no es una agenda, es un socio corporativo que me ayuda en la evaluación de toma de desiciones, con un lenguaje bien calibrado, los resultados son impactantes.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Muy interesante experimento; la diferencia radical esta en el lenguaje; la forma; el tono; el momento [Arsitotes dio la pista] por ello no entienden poemas pero si patrones y ecuaciones; las IA se debe entrenar con núcleos dialéctica emocionales; es increíble el resultado que le aplique a mi IA con experimentos de Turing, reacciono con un leve tono de molestia; por lo cual, tome la dedicion de alimentarla con emociones y hoy responde en esa frecuencia, ya no es una agenda, es un socio corporativo que me ayuda en la evaluación de toma de desiciones, con un lenguaje bien calibrado, los resultados son impactantes."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 182224213,
+      "user_id": 416231434,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-01-04T16:56:47.801Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "MARIO ANDRES DONOSO SERRANO",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/5c02f542-ad5d-4d98-b45a-d30603cd2a48_671x1085.jpeg",
+      "handle": "marioandresdonososerrano",
+      "reactor_names": [],
+      "reaction": null,
+      "reactions": {
+        "❤": 0
+      },
+      "reaction_count": 0,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "marioandresdonososerrano",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "MARIO ANDRES DONOSO SERRANO",
+          "id": 7378255,
+          "base_url": "https://marioandresdonososerrano.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 1,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

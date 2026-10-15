@@ -1,0 +1,1 @@
+Separar quién construye de quién revisa cambia mucho el resultado. En mi sistema de diseño con Codex, un agente crea los componentes y otro los revisa con sus propias evidencias: filtros, foco, teclado, móvil. Porque que algo compile no confirma que respete la identidad que querías. Lo cuento paso a paso aquí: {{enlace}}

@@ -1,0 +1,1945 @@
+WEBVTT
+
+00:00:00.100 --> 00:00:02.673
+He estado experimentando con modelos de
+
+00:00:01.713 --> 00:00:04.166
+ IA para editar mis videos desde hace
+
+00:00:03.206 --> 00:00:06.309
+ mucho tiempo. Modelos súper potentes
+
+00:00:05.372 --> 00:00:08.619
+ como Fable 5.1 y GBD6 Astra. Pero Opus
+
+00:00:07.657 --> 00:00:09.907
+ 5.5 me está dando algunos de los
+
+00:00:08.945 --> 00:00:11.387
+ mejores resultados hasta ahora. Echen
+
+00:00:10.421 --> 00:00:12.739
+ un vistazo a este ejemplo, que fue solo
+
+00:00:11.773 --> 00:00:29.388
+ un "prompt". Esta herramienta no solo
+
+00:00:28.442 --> 00:00:31.546
+ hace el diseño de movimiento y sonido,
+
+00:00:30.600 --> 00:00:33.488
+ sino que también busca material de
+
+00:00:32.542 --> 00:00:35.484
+ apoyo, captura de pantalla o incluso
+
+00:00:34.538 --> 00:00:37.210
+ genera imágenes y videos si es
+
+00:00:36.264 --> 00:00:38.834
+ necesario. Tiene un gusto increíble y
+
+00:00:37.868 --> 00:00:40.213
+ funciona muy bien con la verificación.
+
+00:00:39.313 --> 00:00:41.578
+ Así que hoy voy a hablar de cómo
+
+00:00:40.615 --> 00:00:42.881
+ configurarlo, porque lo único que
+
+00:00:41.918 --> 00:00:44.258
+ tienes que hacer es usar tu lenguaje
+
+00:00:43.295 --> 00:00:46.265
+ natural. Y sí, por supuesto, toda la
+
+00:00:45.312 --> 00:00:47.956
+ introducción que acaban de ver fue
+
+00:00:47.003 --> 00:00:49.725
+ editada con Opus 5.5. Este es el video
+
+00:00:48.765 --> 00:00:51.421
+ real. Como pueden ver, todos estos
+
+00:00:50.470 --> 00:00:53.312
+ gráficos en movimiento fueron creados
+
+00:00:52.361 --> 00:00:55.052
+ aquí mismo, dentro de Claude. Lo
+
+00:00:54.098 --> 00:00:56.670
+ genial de esto es que especifiqué
+
+00:00:55.716 --> 00:00:58.472
+ muchas cosas que quería, pero se puso
+
+00:00:57.519 --> 00:01:00.365
+ muy creativo. Y esa es una de las cosas
+
+00:00:59.410 --> 00:01:01.786
+ de Opus 5.5, que tiene un gusto
+
+00:01:00.830 --> 00:01:03.539
+ increíble, realmente increíble. Así
+
+00:01:02.575 --> 00:01:04.689
+ que, déjenme mostrarles lo que
+
+00:01:03.725 --> 00:01:06.198
+ realmente puse en este "prompt". Le di
+
+00:01:05.243 --> 00:01:07.802
+ el video original y le pedí que lo
+
+00:01:06.846 --> 00:01:09.539
+ editara para que fuera muy atractivo y
+
+00:01:08.583 --> 00:01:11.053
+ limpio con hyperframes, que es la
+
+00:01:10.098 --> 00:01:12.657
+ herramienta real que estamos usando
+
+00:01:11.701 --> 00:01:14.399
+ aquí. Es totalmente gratis, le damos
+
+00:01:13.444 --> 00:01:15.863
+ esta herramienta a Claude Code y
+
+00:01:14.907 --> 00:01:17.549
+ básicamente escribe HTML y lo anima.
+
+00:01:16.649 --> 00:01:18.821
+ Así que, si necesitan configurar
+
+00:01:17.857 --> 00:01:20.065
+ hyperframes, solo vayan a Google y
+
+00:01:19.101 --> 00:01:21.548
+ escriban "hyperframes". Pueden ir al
+
+00:01:20.592 --> 00:01:23.312
+ sitio web aquí, pero al final querrán
+
+00:01:22.356 --> 00:01:24.679
+ ir al repositorio de GitHub de
+
+00:01:23.723 --> 00:01:26.354
+ hyperframes; solo necesitan copiar el
+
+00:01:25.399 --> 00:01:28.074
+ enlace, la URL, dársela a Claude Code
+
+00:01:27.118 --> 00:01:29.794
+ y decirle: "Oye, configura hyperframes
+
+00:01:28.838 --> 00:01:31.382
+ para que podamos usarlo para animar
+
+00:01:30.426 --> 00:01:33.540
+ videos". Eso es todo. Además, tengo
+
+00:01:32.586 --> 00:01:35.191
+ este repositorio gratuito llamado "
+
+00:01:34.191 --> 00:01:36.841
+hyperframe student kit" que contiene
+
+00:01:35.887 --> 00:01:38.675
+ todas las habilidades y ejemplos que he
+
+00:01:37.721 --> 00:01:40.187
+ hecho con mi flujo de trabajo de
+
+00:01:39.233 --> 00:01:41.580
+ edición de video. Y si quieren
+
+00:01:40.615 --> 00:01:42.821
+ obtenerlo, pueden ir a mi comunidad
+
+00:01:41.856 --> 00:01:44.165
+ gratuita de School, el enlace está en
+
+00:01:43.200 --> 00:01:45.626
+ la descripción. Aquí, van a la
+
+00:01:44.666 --> 00:01:47.205
+ sección de clases y pueden hacer clic
+
+00:01:46.245 --> 00:01:48.784
+ en todos los recursos de YouTube, o ir
+
+00:01:47.824 --> 00:01:50.363
+ a habilidades de IA, y podrán acceder
+
+00:01:49.403 --> 00:01:52.249
+ a ese "hyperframes student kit". Como
+
+00:01:51.287 --> 00:01:53.447
+ sea, dije que el primer paso es
+
+00:01:52.484 --> 00:01:54.906
+ transcribir el video para asegurar que
+
+00:01:53.943 --> 00:01:56.178
+ los gráficos en movimiento y las
+
+00:01:55.216 --> 00:01:57.525
+ animaciones aparezcan en el momento
+
+00:01:56.563 --> 00:01:58.931
+ perfecto. Así que, simplemente hay que
+
+00:01:57.963 --> 00:02:00.376
+ transcribir el video. Puedes hacerlo
+
+00:01:59.420 --> 00:02:02.049
+ usando algo como la API de 11 Labs, o
+
+00:02:01.093 --> 00:02:03.810
+ con algo como Whisper, que es un modelo
+
+00:02:02.854 --> 00:02:05.086
+ local que puede ejecutarse y
+
+00:02:04.130 --> 00:02:06.803
+ transcribir videos, pero 11 Labs es un
+
+00:02:05.847 --> 00:02:08.642
+ poco más rápido. Entonces, por 11
+
+00:02:07.696 --> 00:02:10.819
+ Labs pagas por uso, y Whisper es gratis
+
+00:02:09.819 --> 00:02:12.599
+, pero un poco más lento. Así que
+
+00:02:11.632 --> 00:02:13.921
+ puedes usar cualquiera de los dos, y es
+
+00:02:12.954 --> 00:02:15.277
+ muy sencillo configurarlo. Solo pídele
+
+00:02:14.307 --> 00:02:16.247
+ a Claude Go que te ayude con la
+
+00:02:15.277 --> 00:02:17.556
+ configuración. Dije: "Luego crearás
+
+00:02:16.591 --> 00:02:18.729
+ las animaciones basándote en mis
+
+00:02:17.764 --> 00:02:20.352
+ instrucciones". "Cuando diga modelos
+
+00:02:19.399 --> 00:02:22.125
+ potentes como Fable 5.1 y GBD6 Astra,
+
+00:02:21.172 --> 00:02:23.852
+ quiero que las animaciones aparezcan
+
+00:02:22.899 --> 00:02:25.376
+ donde yo señale". Así que,
+
+00:02:24.431 --> 00:02:27.306
+ básicamente fue justo aquí donde
+
+00:02:26.361 --> 00:02:29.402
+ señalo y hago que Fable 5.1 aparezca
+
+00:02:28.457 --> 00:02:31.332
+ aquí, y luego hago que GBD6 Astra
+
+00:02:30.387 --> 00:02:33.630
+ aparezca acá. Y le dije que quería un
+
+00:02:32.676 --> 00:02:35.298
+ logotipo de Claude y un logotipo de
+
+00:02:34.344 --> 00:02:37.236
+ opening eye. Quería que fuera animado.
+
+00:02:36.336 --> 00:02:38.631
+ Eso es básicamente todo lo que dije,
+
+00:02:37.666 --> 00:02:39.997
+ además de añadir: "Asegúrate de que
+
+00:02:39.032 --> 00:02:41.327
+ haya una especie de tarjeta de vidrio
+
+00:02:40.362 --> 00:02:42.693
+ líquido detrás del elemento mientras
+
+00:02:41.728 --> 00:02:43.813
+ se anima, de lo contrario será
+
+00:02:42.848 --> 00:02:45.868
+ difícil de ver". Y como vieron aquí,
+
+00:02:44.930 --> 00:02:48.165
+ pusimos vidrio líquido detrás para
+
+00:02:47.227 --> 00:02:50.587
+ poder leer el texto y ver el logotipo.
+
+00:02:49.687 --> 00:02:51.701
+ Así que eso fue usando lenguaje
+
+00:02:50.732 --> 00:02:53.080
+ natural, como pueden ver. Luego dije: "
+
+00:02:52.080 --> 00:02:54.378
+Cuando diga los mejores resultados de
+
+00:02:53.413 --> 00:02:55.641
+ la historia, quiero que pongas esas
+
+00:02:54.676 --> 00:02:56.938
+ tres palabras en la parte inferior y
+
+00:02:55.973 --> 00:02:58.580
+ las resaltes". Y eso fue lo que hizo
+
+00:02:57.627 --> 00:03:00.217
+ aquí abajo, Opus 5.5, los mejores
+
+00:02:59.264 --> 00:03:02.173
+ resultados de la historia. Y notarán
+
+00:03:01.217 --> 00:03:03.735
+ que también puso una pequeña capa
+
+00:03:02.778 --> 00:03:05.470
+ superpuesta debajo de este texto porque
+
+00:03:04.470 --> 00:03:07.031
+, una vez más, quería asegurar que
+
+00:03:06.074 --> 00:03:08.780
+ pudiéramos leerlo. Así que, muy, muy
+
+00:03:07.820 --> 00:03:10.333
+ bien hecho ahí. Luego dije: "Para el
+
+00:03:09.370 --> 00:03:11.655
+ resto del video, cuando hable sobre
+
+00:03:10.692 --> 00:03:12.793
+ B-roll, capturas de pantalla y
+
+00:03:11.830 --> 00:03:14.079
+ generación de imágenes y videos,
+
+00:03:13.115 --> 00:03:15.401
+ quiero que las cosas aparezcan a la
+
+00:03:14.437 --> 00:03:16.760
+ izquierda y derecha de la pantalla".
+
+00:03:16.060 --> 00:03:18.540
+ Una vez más, deben tener algún tipo
+
+00:03:17.580 --> 00:03:19.900
+ de capa superpuesta, y quiero que
+
+00:03:18.940 --> 00:03:21.380
+ busques una grabación B-roll, tomes
+
+00:03:20.420 --> 00:03:22.740
+ una captura de pantalla y traigas
+
+00:03:21.780 --> 00:03:24.340
+ contenido, porque quiero que le pruebes
+
+00:03:23.380 --> 00:03:25.780
+ a los espectadores que puedes hacer
+
+00:03:24.820 --> 00:03:27.970
+ todo esto. El punto es que estoy
+
+00:03:27.014 --> 00:03:29.488
+ explicando de lo que es capaz Opus
+
+00:03:28.532 --> 00:03:31.006
+ cuando se trata de animar y editar
+
+00:03:30.050 --> 00:03:32.655
+ videos, y quiero que lo demuestres en
+
+00:03:31.698 --> 00:03:35.080
+ tiempo real. Ese es básicamente todo
+
+00:03:34.128 --> 00:03:36.935
+ mi mensaje, y lo genial es que no solo
+
+00:03:35.982 --> 00:03:38.646
+ lo hace, sino que también le da su
+
+00:03:37.694 --> 00:03:40.980
+ propio toque personal. Notarás que al
+
+00:03:40.030 --> 00:03:42.401
+ principio hace un efecto de
+
+00:03:41.451 --> 00:03:44.420
+ acercamiento muy sutil. Yo no pedí eso
+
+00:03:43.420 --> 00:03:45.966
+, pero simplemente supo que debía
+
+00:03:45.011 --> 00:03:47.739
+ hacerlo para que fuera más atractivo.
+
+00:03:46.859 --> 00:03:49.356
+ Tampoco pedí esto cuando mencioné lo
+
+00:03:48.396 --> 00:03:50.579
+ del mensaje único ahí mismo.
+
+00:03:49.679 --> 00:03:51.959
+ Simplemente lo hizo solo con una
+
+00:03:50.999 --> 00:03:53.399
+ interfaz que parece una nube súper
+
+00:03:52.439 --> 00:03:55.186
+ genial. Tampoco pedí esto, pero me
+
+00:03:54.229 --> 00:03:56.911
+ encanta absolutamente. Y luego verás
+
+00:03:55.957 --> 00:03:58.535
+ lo que interpretó cuando dije que
+
+00:03:57.581 --> 00:04:00.390
+ obtuviera la grabación de pantalla, la
+
+00:03:59.437 --> 00:04:02.246
+ captura, generara una imagen y un video
+
+00:04:01.246 --> 00:04:04.206
+. Hizo todo eso por su cuenta. Qué
+
+00:04:03.253 --> 00:04:06.392
+ buen gusto. La verificación. Pensé
+
+00:04:05.424 --> 00:04:07.516
+ que esta era una animación súper
+
+00:04:06.548 --> 00:04:08.945
+ limpia aquí mismo. La verificación
+
+00:04:07.982 --> 00:04:10.418
+ con capturas de pantalla y revisiones.
+
+00:04:09.602 --> 00:04:12.578
+ Notarán en mi mensaje que en realidad
+
+00:04:11.630 --> 00:04:14.322
+ no pedí nada de eso. Simplemente lo
+
+00:04:13.358 --> 00:04:15.501
+ hizo porque pensó que haría la
+
+00:04:14.537 --> 00:04:16.752
+ introducción más atractiva, y yo
+
+00:04:15.788 --> 00:04:18.240
+ diría que definitivamente lo logró. Y
+
+00:04:17.270 --> 00:04:19.333
+ ahora pueden ver que eso fue todo lo
+
+00:04:18.363 --> 00:04:21.015
+ que dije. No pedí otro mensaje, y lo
+
+00:04:20.063 --> 00:04:22.921
+ que obtuvimos fue exactamente ese video
+
+00:04:21.968 --> 00:04:24.684
+ aquí atrás con todas las cosas que
+
+00:04:23.731 --> 00:04:26.653
+ acabamos de ver. Ahora, analicemos ese
+
+00:04:25.702 --> 00:04:28.470
+ otro ejemplo que vieron dentro de la
+
+00:04:27.519 --> 00:04:30.226
+ introducción misma. Este pequeño
+
+00:04:29.274 --> 00:04:32.053
+ carrete de YouTube que me impresionó
+
+00:04:31.101 --> 00:04:33.637
+ muchísimo. Esto también fue un
+
+00:04:32.683 --> 00:04:35.317
+ mensaje de una sola toma, como dije.
+
+00:04:34.417 --> 00:04:36.874
+ Realmente muy impresionante. Hay tantas
+
+00:04:35.911 --> 00:04:38.201
+ cosas que quería reproducir aquí.
+
+00:04:37.301 --> 00:04:39.955
+ Tuvo que ir a buscar capturas de muchas
+
+00:04:38.998 --> 00:04:41.653
+ de mis miniaturas, y luego hizo zoom en
+
+00:04:40.695 --> 00:04:43.350
+ la de agradecimiento, lo cual me parece
+
+00:04:42.393 --> 00:04:44.539
+ un razonamiento increíble.
+
+00:04:43.639 --> 00:04:46.062
+ Literalmente dijo: "Bien, este es Nate
+
+00:04:45.100 --> 00:04:47.523
+ sosteniendo el botón de reproducción
+
+00:04:46.561 --> 00:04:48.937
+ diciendo gracias. Esta es la que vamos
+
+00:04:47.968 --> 00:04:50.151
+ a poner en el centro, y esta es en la
+
+00:04:49.183 --> 00:04:51.537
+ que vamos a hacer zoom". Porque creo
+
+00:04:50.581 --> 00:04:53.221
+ que eso resalta la marca y la cultura
+
+00:04:52.265 --> 00:04:54.993
+ de YouTube, lo cual fue simplemente una
+
+00:04:54.037 --> 00:04:57.272
+ locura. En fin, generó todo esto,
+
+00:04:56.342 --> 00:04:59.797
+ además del sonido y la música, ¿
+
+00:04:58.797 --> 00:05:01.621
+verdad? Ahora, esto es lo que hice en
+
+00:05:00.664 --> 00:05:03.252
+ este ejemplo. Lo importante es que seas
+
+00:05:02.289 --> 00:05:04.800
+ claro con lo que quieres. Y notarás
+
+00:05:03.847 --> 00:05:06.463
+ que en la versión anterior estaba
+
+00:05:05.510 --> 00:05:08.505
+ hablando con mucha emoción. Y eso es
+
+00:05:07.553 --> 00:05:10.046
+ lo genial, que a veces no sabes
+
+00:05:09.094 --> 00:05:11.636
+ exactamente lo que quieres, pero
+
+00:05:10.684 --> 00:05:13.466
+ conoces las emociones que quieres que
+
+00:05:12.514 --> 00:05:15.530
+ el video cree en ti, ¿verdad? Entonces
+
+00:05:14.530 --> 00:05:17.672
+, lo que hice fue descargar un ejemplo
+
+00:05:16.729 --> 00:05:20.059
+ que vi en X. Vi este ejemplo de Ken. Un
+
+00:05:19.099 --> 00:05:21.419
+ resultado increíble aquí usando
+
+00:05:20.459 --> 00:05:23.223
+ Hyperframes y Opus. Y notarán que hay
+
+00:05:22.264 --> 00:05:24.876
+ muchas similitudes entre este reel y el
+
+00:05:23.917 --> 00:05:26.604
+ que acabamos de ver de YouTube. Así
+
+00:05:25.635 --> 00:05:27.851
+ que, básicamente, lo que hice fue usar
+
+00:05:26.882 --> 00:05:29.664
+ esto como inspiración. Descargué este
+
+00:05:28.721 --> 00:05:32.580
+ video. Luego entré a Claude Code, se
+
+00:05:31.629 --> 00:05:34.432
+ lo pasé y le dije que analizara este
+
+00:05:33.481 --> 00:05:35.894
+ video, creado por Opus 5.5, y
+
+00:05:34.943 --> 00:05:37.600
+ descubriera por qué es tan bueno.
+
+00:05:37.495 --> 00:05:39.933
+ Entonces, me gustó este video y
+
+00:05:38.978 --> 00:05:41.731
+ quería hacer algo similar, y dejé que
+
+00:05:40.776 --> 00:05:43.473
+ Claude Code determinara qué es. Hice
+
+00:05:42.513 --> 00:05:44.903
+ que Opus averiguara por qué es tan
+
+00:05:43.943 --> 00:05:46.422
+ bueno. Y luego dije, convierte eso en
+
+00:05:45.460 --> 00:05:48.039
+ una habilidad. Ahora tenemos esta
+
+00:05:47.077 --> 00:05:49.553
+ habilidad llamada "motion reel" o algo
+
+00:05:48.592 --> 00:05:51.029
+ así, y se las voy a dar gratis en un
+
+00:05:50.068 --> 00:05:52.859
+ momento. Y luego dije, está bien, usa
+
+00:05:51.901 --> 00:05:54.525
+ esa habilidad y créame mi propio show
+
+00:05:53.568 --> 00:05:55.933
+ reel sobre YouTube. Le dije que
+
+00:05:54.972 --> 00:05:57.233
+ recolectara imágenes de apoyo y
+
+00:05:56.273 --> 00:05:58.376
+ cualquier recurso necesario,
+
+00:05:57.415 --> 00:05:59.952
+ asegurándome de que todo se sienta con
+
+00:05:58.991 --> 00:06:01.528
+ la marca de YouTube: la tipografía, el
+
+00:06:00.567 --> 00:06:02.946
+ diseño, el lenguaje, los colores y
+
+00:06:01.986 --> 00:06:04.246
+ todo lo que hace que YouTube sea
+
+00:06:03.286 --> 00:06:05.783
+ YouTube debe ser inconfundible en este
+
+00:06:04.822 --> 00:06:08.024
+ reel. Y ahora tenemos nuestro resultado
+
+00:06:07.024 --> 00:06:09.265
+. Pueden ver aquí que escribió esta
+
+00:06:08.295 --> 00:06:10.427
+ habilidad llamada "motion show reel".
+
+00:06:09.527 --> 00:06:12.773
+ Si entro a mis archivos rápidamente y
+
+00:06:11.832 --> 00:06:15.137
+ voy a las habilidades, bajo hasta la M,
+
+00:06:14.196 --> 00:06:17.325
+ ahí está "motion show reel"; ahora
+
+00:06:16.384 --> 00:06:19.393
+ tenemos esta habilidad con toda la
+
+00:06:18.453 --> 00:06:21.522
+ información sobre cómo diseñamos
+
+00:06:20.581 --> 00:06:23.697
+ reels como este. Así que, lo pondré
+
+00:06:22.745 --> 00:06:25.374
+ dentro de mi comunidad gratuita de
+
+00:06:24.422 --> 00:06:27.076
+ School una vez más. Si lo quieren,
+
+00:06:26.117 --> 00:06:28.476
+ entren a mi comunidad gratuita de
+
+00:06:27.517 --> 00:06:29.875
+ School y podrán obtenerlo en los
+
+00:06:28.916 --> 00:06:31.357
+ recursos de YouTube o dentro de las
+
+00:06:30.398 --> 00:06:33.383
+ habilidades de IA. Estará ahí. Y
+
+00:06:32.420 --> 00:06:34.755
+ ahora pueden hacer reels exactamente
+
+00:06:33.792 --> 00:06:36.627
+ así. También notarán que tuvo que
+
+00:06:35.678 --> 00:06:38.765
+ generar estas imágenes. Pueden ver que
+
+00:06:37.805 --> 00:06:40.150
+ creó estas imágenes y luego las
+
+00:06:39.190 --> 00:06:41.575
+ envió a Kling para convertir esas
+
+00:06:40.616 --> 00:06:43.327
+ imágenes en videos. Y así es como
+
+00:06:42.384 --> 00:06:45.546
+ obtuvimos estas animaciones dentro del
+
+00:06:44.603 --> 00:06:47.538
+ video, justo aquí, donde vemos el
+
+00:06:46.595 --> 00:06:49.644
+ botón de reproducción animándose.
+
+00:06:49.080 --> 00:06:52.157
+ Estas dos escenas fueron porque creó
+
+00:06:51.213 --> 00:06:54.403
+ una imagen, luego un video, después lo
+
+00:06:53.459 --> 00:06:56.593
+ envió de vuelta a Claude y Opus tomó
+
+00:06:55.649 --> 00:06:58.390
+ todo eso y lo unió en un video
+
+00:06:57.446 --> 00:07:00.483
+ consistente. Ahora, aquí hay otro
+
+00:06:59.521 --> 00:07:01.862
+ video estilo reel de demostración,
+
+00:07:00.900 --> 00:07:03.317
+ pero este no utilizó en absoluto esa
+
+00:07:02.356 --> 00:07:04.793
+ habilidad que creamos. Y solo para
+
+00:07:03.836 --> 00:07:06.514
+ mostrarles lo genial que pueden ser las
+
+00:07:05.557 --> 00:07:08.199
+ cosas, incluso con un reel. Entonces
+
+00:07:07.233 --> 00:07:09.292
+ dije: "Haz un video dinámico de
+
+00:07:08.325 --> 00:07:10.584
+ gráficos en movimiento de 15 segundos
+
+00:07:09.617 --> 00:07:11.809
+ que demuestre lo increíble que eres
+
+00:07:10.842 --> 00:07:13.101
+ como diseñador de movimiento, como si
+
+00:07:12.134 --> 00:07:14.434
+ fuera tu reel de currículum. Da lo
+
+00:07:13.482 --> 00:07:15.781
+ mejor de ti". De hecho, vi esto de
+
+00:07:14.810 --> 00:07:16.560
+ alguien en X. Hicieron una
+
+00:07:15.589 --> 00:07:17.715
+ demostración y dijeron que esto fue lo
+
+00:07:16.743 --> 00:07:18.783
+ que usaron para dar la instrucción.
+
+00:07:17.883 --> 00:07:20.631
+ Así que lo probé. Dije: "Hazlo sobre
+
+00:07:19.672 --> 00:07:21.985
+ nuestra empresa AIS. Usa recursos
+
+00:07:21.017 --> 00:07:23.173
+ reales y logos de nuestros productos
+
+00:07:22.205 --> 00:07:24.406
+ cuando sea posible. También puedes
+
+00:07:23.439 --> 00:07:25.551
+ usar key.ai para generar cualquier
+
+00:07:24.583 --> 00:07:26.695
+ recurso que necesites y usar hyper
+
+00:07:25.728 --> 00:07:27.873
+ frames o cualquier otra herramienta
+
+00:07:26.905 --> 00:07:29.115
+ para diseño de movimiento, música y
+
+00:07:28.148 --> 00:07:31.006
+ efectos de sonido". Y con un solo aviso
+
+00:07:30.006 --> 00:07:33.306
+, esto es lo que obtuvimos aquí. Así
+
+00:07:32.338 --> 00:07:50.341
+ que, echemos un vistazo. Pueden ver las
+
+00:07:49.384 --> 00:07:51.717
+ similitudes al principio con la
+
+00:07:50.760 --> 00:07:53.436
+ pequeña abeja que cae y los efectos de
+
+00:07:52.479 --> 00:07:55.570
+ sonido. Pero luego, con los gráficos
+
+00:07:54.614 --> 00:07:57.123
+ en movimiento, las combinaciones de
+
+00:07:56.167 --> 00:07:58.763
+ colores y el mismo tipo de conciencia
+
+00:07:57.806 --> 00:08:00.186
+ espacial al hacer cosas así, me
+
+00:07:59.229 --> 00:08:01.951
+ pareció genial. Extrajo imágenes de
+
+00:08:00.997 --> 00:08:03.595
+ nuestro sitio web. Sabía cuántos
+
+00:08:02.640 --> 00:08:05.644
+ miembros teníamos. Tenía esta imagen
+
+00:08:04.702 --> 00:08:07.802
+ tipo 3D, que creo que fue una imagen
+
+00:08:06.860 --> 00:08:10.018
+ generada y luego convertida en video,
+
+00:08:09.076 --> 00:08:12.087
+ similar al reel de YouTube. En fin,
+
+00:08:11.128 --> 00:08:13.570
+ esta imagen de fondo también es de
+
+00:08:12.611 --> 00:08:14.920
+ nuestro sitio web. Así que,
+
+00:08:13.972 --> 00:08:16.633
+ simplemente muy, muy bien hecho.
+
+00:08:15.834 --> 00:08:18.142
+ Rápido, chicos, tengo esta habilidad
+
+00:08:17.177 --> 00:08:19.485
+ de diseño web completamente gratuita
+
+00:08:18.520 --> 00:08:21.212
+ que estoy regalando. La uso para cada
+
+00:08:20.268 --> 00:08:23.092
+ sitio web que construyo, incluido
+
+00:08:22.148 --> 00:08:25.304
+ nuestro sitio de AI Automation Society,
+
+00:08:24.359 --> 00:08:27.350
+ que me parece bastante elegante y me
+
+00:08:26.405 --> 00:08:29.293
+ encanta. Se llama ScrollCraft y
+
+00:08:28.341 --> 00:08:31.210
+ entiende cosas como animaciones y capas
+
+00:08:30.258 --> 00:08:32.886
+ basadas en el desplazamiento, pero
+
+00:08:31.934 --> 00:08:34.659
+ también tiene aspectos como estilo,
+
+00:08:33.707 --> 00:08:36.480
+ tipografía, espaciado y profundidad.
+
+00:08:35.840 --> 00:08:38.147
+ Es simplemente una muy buena habilidad
+
+00:08:37.181 --> 00:08:39.213
+ de diseño web en general y es
+
+00:08:38.247 --> 00:08:40.554
+ completamente gratuita. El enlace
+
+00:08:39.598 --> 00:08:42.004
+ estará en la descripción, pero
+
+00:08:41.048 --> 00:08:43.808
+ volvamos al video. Ahora, dejen que les
+
+00:08:42.846 --> 00:08:45.192
+ muestre uno de mis nuevos puntos de
+
+00:08:44.231 --> 00:08:47.040
+ referencia favoritos. Básicamente, le
+
+00:08:46.096 --> 00:08:49.237
+ doy a Claude Code acceso a una carpeta
+
+00:08:48.293 --> 00:08:51.434
+ que tiene 105 GB de videos de YouTube,
+
+00:08:50.490 --> 00:08:53.575
+ o perdón, no videos de YouTube, sino
+
+00:08:52.631 --> 00:08:55.490
+ videos, grabaciones y recursos de
+
+00:08:54.546 --> 00:08:57.552
+ nuestro evento AIS Live. Y luego dije:
+
+00:08:56.590 --> 00:08:59.067
+ "Oye, revisa todo esto y hazme un video
+
+00:08:58.105 --> 00:09:00.577
+ promocional". "Cuenta una historia con
+
+00:08:59.614 --> 00:09:02.054
+ esto". "Y mira lo que conseguí aquí".
+
+00:09:01.154 --> 00:09:03.363
+ Ahora, esto no fue un comando de una
+
+00:09:02.396 --> 00:09:04.978
+ sola vez. Fue un comando, luego una
+
+00:09:04.025 --> 00:09:06.864
+ ronda de iteración y después le pedí
+
+00:09:05.912 --> 00:09:08.497
+ que corrigiera una cosa. Así que,
+
+00:09:07.537 --> 00:09:10.069
+ técnicamente fueron tres comandos, por
+
+00:09:09.109 --> 00:09:11.642
+ eso es la versión 2.1, pero echemos un
+
+00:09:10.681 --> 00:09:12.664
+ vistazo a este resultado.
+
+00:09:14.375 --> 00:09:17.010
+ Hola, hola, AIS Live.
+
+00:09:16.110 --> 00:09:18.300
+ Estoy muy, muy emocionado.
+
+00:09:17.400 --> 00:09:19.622
+ Fue eléctrico.
+
+00:09:18.722 --> 00:09:20.508
+ Eso está genial.
+
+00:09:19.608 --> 00:09:23.166
+ Ni siquiera abrí VS Code. Firmamos el
+
+00:09:22.214 --> 00:09:23.596
+ acuerdo.
+
+00:09:23.200 --> 00:09:25.359
+ El chat está como loco.
+
+00:09:25.099 --> 00:09:26.699
+ Increíble.
+
+00:09:26.980 --> 00:09:28.939
+ Evento fantástico.
+
+00:09:28.839 --> 00:09:31.040
+ Esto fue increíble.
+
+00:09:30.699 --> 00:09:33.139
+ Qué dos días tan divertidos.
+
+00:09:32.740 --> 00:09:35.528
+ Literalmente me desconecté ayer lleno
+
+00:09:34.575 --> 00:09:37.000
+ de energía. Tenía la piel de gallina.
+
+00:09:38.080 --> 00:09:40.320
+ No puedo esperar al siguiente.
+
+00:09:41.840 --> 00:09:44.922
+ Digo, ¿tienen idea de lo complicado
+
+00:09:43.980 --> 00:09:47.338
+ que es ese proceso? Solo para contar
+
+00:09:46.391 --> 00:09:49.435
+ una historia de un evento cuando te dan
+
+00:09:48.487 --> 00:09:51.551
+ una carpeta llena de recursos. Y por
+
+00:09:50.597 --> 00:09:53.275
+ supuesto, es promoción para nuestro
+
+00:09:52.322 --> 00:09:55.046
+ próximo evento, que es el 17 y 18 de
+
+00:09:54.093 --> 00:09:56.454
+ octubre. Así que, marquen sus
+
+00:09:55.497 --> 00:09:58.080
+ calendarios si quieren asistir. Más
+
+00:09:57.123 --> 00:09:59.713
+ detalles estarán en la descripción.
+
+00:09:58.813 --> 00:10:00.977
+ Pero sé que hubo algunas cosas que no
+
+00:10:00.007 --> 00:10:02.449
+ fueron tan buenas. Hubo momentos con
+
+00:10:01.494 --> 00:10:03.987
+ cortes extraños en el discurso y
+
+00:10:03.033 --> 00:10:05.707
+ algunas cosas que podríamos ajustar,
+
+00:10:04.752 --> 00:10:08.359
+ ¿verdad? Pero miren esto. Miren cómo
+
+00:10:07.395 --> 00:10:09.520
+ creó este túnel con todas las
+
+00:10:08.557 --> 00:10:11.230
+ pantallas. Miren al principio cómo
+
+00:10:10.267 --> 00:10:12.683
+ hacía zoom en las diferentes pantallas
+
+00:10:11.683 --> 00:10:14.454
+. Como que realmente entendía el
+
+00:10:13.502 --> 00:10:16.093
+ espacio, y esto es realmente, muy
+
+00:10:15.141 --> 00:10:18.042
+ genial. También extraía momentos
+
+00:10:17.097 --> 00:10:20.160
+ específicos de las transcripciones de
+
+00:10:19.215 --> 00:10:22.333
+ estas llamadas que mostraban la vibra y
+
+00:10:21.387 --> 00:10:24.547
+ la energía del evento en vivo. Esta es
+
+00:10:23.601 --> 00:10:26.484
+ mi escena favorita, aquí al final,
+
+00:10:25.538 --> 00:10:28.528
+ donde junta todas las escenas y forma
+
+00:10:27.582 --> 00:10:30.465
+ el logo de AIS Live, incluso con el
+
+00:10:29.519 --> 00:10:32.510
+ puntito rojo, y luego hace zoom en el
+
+00:10:31.563 --> 00:10:34.662
+ punto rojo y dice que tu lugar está en
+
+00:10:33.715 --> 00:10:36.571
+ el medio. Simplemente pensé que la
+
+00:10:35.621 --> 00:10:38.401
+ forma en que pudo darle vida a todo
+
+00:10:37.452 --> 00:10:40.231
+ esto es realmente muy impresionante
+
+00:10:39.282 --> 00:10:41.976
+ para mí. Ahora, también quería
+
+00:10:41.017 --> 00:10:43.772
+ mostrarles qué más es posible. Muchas
+
+00:10:42.824 --> 00:10:45.800
+ veces se trata de pensar en un caso de
+
+00:10:44.852 --> 00:10:47.662
+ uso. Así que grabé este video
+
+00:10:46.710 --> 00:10:49.202
+ sencillo explicando cómo hacer
+
+00:10:48.251 --> 00:10:50.935
+ tostadas de aguacate, y por cierto,
+
+00:10:49.983 --> 00:10:52.724
+ perfeccioné la receta. Mi tostada de
+
+00:10:51.765 --> 00:10:54.317
+ aguacate es muy buena. Pero bueno, solo
+
+00:10:53.350 --> 00:10:55.425
+ quería mostrarles que hice tres
+
+00:10:54.458 --> 00:10:56.734
+ ediciones diferentes con este video de
+
+00:10:55.767 --> 00:10:58.426
+ la tostada de aguacate. Para este dije:
+
+00:10:57.461 --> 00:10:59.688
+ "Oye, quiero que edites esto usando
+
+00:10:58.724 --> 00:11:01.273
+ hyperframes". Busco una animación
+
+00:11:00.319 --> 00:11:03.079
+ sencilla y limpia al estilo de pizarra
+
+00:11:02.125 --> 00:11:04.808
+ dibujada a mano. Y es muy simple, como
+
+00:11:03.847 --> 00:11:06.216
+ si intentaras explicarle a un niño
+
+00:11:05.256 --> 00:11:07.547
+ cómo hacer tostadas de aguacate.
+
+00:11:06.760 --> 00:11:09.207
+ Gráficos simples, animaciones
+
+00:11:08.255 --> 00:11:11.216
+ sencillas, fáciles de entender. Si
+
+00:11:10.264 --> 00:11:13.146
+ necesitas generar imágenes o, perdón,
+
+00:11:12.194 --> 00:11:14.787
+ recursos como imágenes o videos,
+
+00:11:13.835 --> 00:11:16.476
+ puedes usar key.ai. Luego dije que
+
+00:11:15.524 --> 00:11:18.116
+ algunas escenas deberían ser una
+
+00:11:17.165 --> 00:11:19.853
+ pizarra a pantalla completa y otras
+
+00:11:18.902 --> 00:11:21.735
+ solo la mitad izquierda con la pizarra
+
+00:11:20.784 --> 00:11:24.087
+ y la mitad derecha con mi cara. Así
+
+00:11:23.139 --> 00:11:26.166
+ que procedió a generar cosas, comenzó
+
+00:11:25.218 --> 00:11:28.037
+ a razonar, empezó a probar y ahora
+
+00:11:27.089 --> 00:11:29.752
+ tenemos este resultado que voy a
+
+00:11:28.804 --> 00:11:31.928
+ reproducir ahora mismo. Muy bien, así
+
+00:11:30.958 --> 00:11:33.039
+ es como preparo tostadas de aguacate.
+
+00:11:32.480 --> 00:11:35.421
+ Cuando pones el pan en la tostadora, al
+
+00:11:34.471 --> 00:11:37.213
+ dejarlo reposar, no lo pongas plano
+
+00:11:36.263 --> 00:11:39.154
+ sobre el plato porque el lado de abajo
+
+00:11:38.204 --> 00:11:41.164
+ se humedece un poco. Quieres que ambos
+
+00:11:40.208 --> 00:11:43.125
+ lados estén crujientes. Luego pones
+
+00:11:42.169 --> 00:11:44.802
+ los huevos en la sartén, machacas el
+
+00:11:43.846 --> 00:11:46.434
+ aguacate y lo extiendes sobre el pan
+
+00:11:45.478 --> 00:11:48.517
+ crujiente. Le pongo sazonador para
+
+00:11:47.574 --> 00:11:50.518
+ bagel al puré de aguacate, agrego
+
+00:11:49.576 --> 00:11:52.634
+ vinagre balsámico y luego pones los
+
+00:11:51.692 --> 00:11:54.922
+ huevos sobre la tostada, y así es como
+
+00:11:53.979 --> 00:11:57.172
+ se hace. Ahora, mi crítica aquí es
+
+00:11:56.216 --> 00:11:58.649
+ que los huevos son diminutos y el
+
+00:11:57.693 --> 00:12:00.257
+ glaseado balsámico solo está en un
+
+00:11:59.300 --> 00:12:01.777
+ trocito de la tostada, así que no
+
+00:12:00.821 --> 00:12:03.471
+ sabría tan bien como si estuviera por
+
+00:12:02.515 --> 00:12:05.834
+ todas partes. Pero de todos modos, mira
+
+00:12:04.884 --> 00:12:07.590
+ qué bien pudo, en un solo prompt,
+
+00:12:06.641 --> 00:12:09.548
+ animar todo de una manera muy simple y
+
+00:12:08.598 --> 00:12:11.490
+ atractiva. Está dibujado a mano. Es,
+
+00:12:10.531 --> 00:12:13.058
+ como dije, algo amigable y divertido,
+
+00:12:12.099 --> 00:12:14.584
+ como si quisieras enseñárselo a un
+
+00:12:13.625 --> 00:12:16.411
+ niño. Pero esto fue literalmente un
+
+00:12:15.460 --> 00:12:18.140
+ solo prompt y se encargó de todo.
+
+00:12:17.339 --> 00:12:19.848
+ Ahora, cuando realmente comencé a usar
+
+00:12:18.887 --> 00:12:21.358
+ IA para editar videos, fue para videos
+
+00:12:20.397 --> 00:12:22.751
+ estilo curso, cosas que eran súper
+
+00:12:21.790 --> 00:12:24.660
+ fáciles. Solo queríamos que tuvieran
+
+00:12:23.708 --> 00:12:26.496
+ animaciones con, ya sabes, viñetas e
+
+00:12:25.544 --> 00:12:28.332
+ imágenes y gráficos súper simples.
+
+00:12:27.704 --> 00:12:30.533
+ Entonces, esto es lo que hice en este.
+
+00:12:29.633 --> 00:12:31.998
+ Necesito que edites un video estilo
+
+00:12:31.037 --> 00:12:33.533
+ curso para mí usando hyperframes. Mi
+
+00:12:32.568 --> 00:12:34.889
+ cámara empezará en pantalla completa
+
+00:12:33.924 --> 00:12:36.141
+ y luego quiero que tenga un recorte
+
+00:12:35.176 --> 00:12:37.688
+ redondeado. El fondo será súper
+
+00:12:36.737 --> 00:12:39.501
+ simple, muy minimalista, y el estilo
+
+00:12:38.550 --> 00:12:41.413
+ que busco son solo viñetas con puntos
+
+00:12:40.462 --> 00:12:43.275
+ clave importantes, sin mucho texto, y
+
+00:12:42.324 --> 00:12:45.027
+ que sean grandes. Y las ayudas visuales
+
+00:12:44.062 --> 00:12:46.410
+ deberían ser solo imágenes generadas
+
+00:12:45.445 --> 00:12:47.757
+ por IA, muy simples, con gráficos en
+
+00:12:46.792 --> 00:12:48.926
+ movimiento ligeros para ayudar a
+
+00:12:47.962 --> 00:12:50.269
+ ilustrar conceptos. Y aquí está lo
+
+00:12:49.302 --> 00:12:51.717
+ que obtuvimos. Esta es, una vez más,
+
+00:12:50.755 --> 00:12:53.212
+ una instrucción de un solo paso. Oh,
+
+00:12:52.239 --> 00:12:54.352
+ espera, eso solo era una imagen. Solo
+
+00:12:53.385 --> 00:12:55.528
+ estaba haciendo una verificación.
+
+00:12:54.740 --> 00:12:57.320
+ Aquí vamos. Muy bien, así es como
+
+00:12:56.350 --> 00:12:58.864
+ preparo tostadas de aguacate. Cuando
+
+00:12:57.911 --> 00:13:00.428
+ sacas el pan de la tostadora, al
+
+00:12:59.475 --> 00:13:02.134
+ dejarlo reposar, no lo pongas plano
+
+00:13:01.182 --> 00:13:03.793
+ sobre el plato, porque entonces la
+
+00:13:02.841 --> 00:13:05.500
+ parte de abajo se humedece un poco.
+
+00:13:04.640 --> 00:13:06.925
+ Quieres que ambos lados estén
+
+00:13:05.968 --> 00:13:08.970
+ crujientes. Luego pones los huevos en
+
+00:13:08.016 --> 00:13:10.719
+ la sartén, machacas el aguacate y lo
+
+00:13:09.765 --> 00:13:12.915
+ untas sobre el pan crujiente. Le pongo
+
+00:13:11.964 --> 00:13:14.647
+ un poco de sazonador para bagel al
+
+00:13:13.697 --> 00:13:16.529
+ aguacate machacado, añado un poco de
+
+00:13:15.578 --> 00:13:18.361
+ vinagre balsámico y luego pones los
+
+00:13:17.410 --> 00:13:20.274
+ huevos sobre la tostada. Y así es como
+
+00:13:19.312 --> 00:13:22.214
+ se hace. Entonces, todas las imágenes
+
+00:13:21.254 --> 00:13:23.834
+ y videos en este video fueron generados
+
+00:13:22.875 --> 00:13:26.557
+ por IA. Todo esto fue generado por IA,
+
+00:13:25.603 --> 00:13:28.211
+ y puedes ver que te ahorrará mucho
+
+00:13:27.257 --> 00:13:30.049
+ tiempo, porque puede buscar material de
+
+00:13:29.095 --> 00:13:31.842
+ apoyo, capturas de pantalla, o generar
+
+00:13:30.888 --> 00:13:34.030
+ cosas si lo necesitas. Es realmente
+
+00:13:33.073 --> 00:13:35.523
+ genial, porque ahora puedes filmar
+
+00:13:34.565 --> 00:13:37.228
+ contenido y la edición ya no tiene que
+
+00:13:36.271 --> 00:13:39.275
+ ser un obstáculo. Especialmente cuando
+
+00:13:38.323 --> 00:13:41.091
+ empiezas a desarrollar habilidades en
+
+00:13:40.139 --> 00:13:42.859
+ torno a tus preferencias, estilos de
+
+00:13:41.907 --> 00:13:44.723
+ movimiento, pautas de marca y todo ese
+
+00:13:43.771 --> 00:13:46.779
+ tipo de cosas. Y este que hice aquí
+
+00:13:45.825 --> 00:13:48.421
+ fue una especie de video de formato
+
+00:13:47.467 --> 00:13:50.109
+ corto usando hyperframes de nuevo, y
+
+00:13:49.154 --> 00:13:51.568
+ notarás que realmente no estoy
+
+00:13:50.614 --> 00:13:53.302
+ aprovechando otras habilidades aquí.
+
+00:13:52.402 --> 00:13:54.708
+ Así que quería mostrarte lo fácil
+
+00:13:53.744 --> 00:13:56.014
+ que es hacer una instrucción de un
+
+00:13:55.050 --> 00:13:57.355
+ solo paso con Opus 5.5. Por cierto,
+
+00:13:56.389 --> 00:13:58.467
+ casi todos estos ejemplos los he
+
+00:13:57.501 --> 00:14:00.038
+ ejecutado en modo alto. Alto se refiere
+
+00:13:59.082 --> 00:14:01.769
+ al nivel de esfuerzo. Y básicamente
+
+00:14:00.816 --> 00:14:03.468
+ solo dije esto: genera los recursos
+
+00:14:02.516 --> 00:14:05.215
+ necesarios, hazlo atractivo, que sea
+
+00:14:04.262 --> 00:14:07.414
+ rápido y fácil de entender. Así que
+
+00:14:06.476 --> 00:14:09.645
+ veamos qué tenemos aquí para este
+
+00:14:08.707 --> 00:14:11.415
+ corto. Así es como preparo tostadas de
+
+00:14:10.447 --> 00:14:13.081
+ aguacate. Cuando sacas el pan de la
+
+00:14:12.123 --> 00:14:14.622
+ tostadora, al dejarlo reposar, no lo
+
+00:14:13.664 --> 00:14:16.080
+ pongas plano sobre el plato porque
+
+00:14:15.122 --> 00:14:17.705
+ entonces la parte de abajo se humedece
+
+00:14:16.746 --> 00:14:19.665
+ un poco. Quieres que ambos lados estén
+
+00:14:18.708 --> 00:14:21.353
+ crujientes. Luego pones los huevos en
+
+00:14:20.395 --> 00:14:22.955
+ la sartén, machacas el aguacate y lo
+
+00:14:21.997 --> 00:14:24.717
+ untas sobre el pan crujiente. Le pongo
+
+00:14:23.762 --> 00:14:26.197
+ sazonador para bagel al aguacate
+
+00:14:25.242 --> 00:14:27.901
+ machacado y añado un poco de vinagre
+
+00:14:26.946 --> 00:14:29.652
+ balsámico. Y luego pones los huevos
+
+00:14:28.698 --> 00:14:31.474
+ sobre la tostada y así es como se hace
+
+00:14:30.474 --> 00:14:34.331
+. Quiero decir, no es perfecto, ¿
+
+00:14:33.331 --> 00:14:36.027
+verdad? Pero es una instrucción de un
+
+00:14:35.070 --> 00:14:37.595
+ solo paso y es realmente genial que
+
+00:14:36.639 --> 00:14:39.207
+ pueda cambiar entre estas diferentes
+
+00:14:38.251 --> 00:14:41.061
+ escenas. Definitivamente mantiene mi
+
+00:14:40.100 --> 00:14:42.515
+ atención porque tenemos todos estos
+
+00:14:41.554 --> 00:14:44.009
+ tipos diferentes de material de apoyo
+
+00:14:43.048 --> 00:14:46.276
+ en el fondo. Es un resultado realmente
+
+00:14:45.330 --> 00:14:48.201
+ muy decente si consideras lo que le
+
+00:14:47.254 --> 00:14:50.286
+ habría tomado a un humano hacerlo por
+
+00:14:49.339 --> 00:14:52.157
+ ti. Y ahora, con un solo intento,
+
+00:14:51.200 --> 00:14:53.415
+ iteras, iteras y desarrollas
+
+00:14:52.459 --> 00:14:55.535
+ habilidades. Quería mostrarles un
+
+00:14:54.592 --> 00:14:57.643
+ ejemplo más con Lululemon porque se
+
+00:14:56.700 --> 00:14:59.922
+ trata de un producto físico y tangible
+
+00:14:58.922 --> 00:15:02.120
+. Miren qué bien logró hacer que este
+
+00:15:01.174 --> 00:15:03.959
+ video se sintiera como Lululemon.
+
+00:15:30.321 --> 00:15:32.437
+ Entonces, ¿piensan en lo que realmente
+
+00:15:31.465 --> 00:15:34.584
+ tuvo que hacer ahí? Todos estos videos
+
+00:15:33.637 --> 00:15:36.514
+ fueron obviamente generados por IA,
+
+00:15:35.567 --> 00:15:38.658
+ pero estoy bastante seguro de que fue a
+
+00:15:37.712 --> 00:15:40.481
+ Lululemon y encontró todas estas
+
+00:15:39.534 --> 00:15:43.106
+ prendas reales. Las encontró, tomó
+
+00:15:42.174 --> 00:15:45.665
+ fotos del modelo real y luego generó
+
+00:15:44.732 --> 00:15:48.224
+ videos de ellos corriendo, saltando o
+
+00:15:47.291 --> 00:15:50.792
+ lo que sea con la ropa. Y luego, por
+
+00:15:49.833 --> 00:15:52.228
+ supuesto, lo reúne todo aquí con
+
+00:15:51.269 --> 00:15:53.839
+ imágenes reales de catálogo. Es
+
+00:15:52.879 --> 00:15:55.279
+ realmente genial pensar en cuántas
+
+00:15:54.319 --> 00:15:56.759
+ pequeñas piezas habrían tenido que
+
+00:15:55.799 --> 00:15:58.199
+ integrarse si estuvieras editando o
+
+00:15:57.239 --> 00:15:59.934
+ creando esto como humano. Pero en
+
+00:15:58.978 --> 00:16:01.593
+ realidad, como humano, lo único que
+
+00:16:00.638 --> 00:16:03.253
+ hice fue decirle lo que quería y el
+
+00:16:02.298 --> 00:16:04.733
+ tipo de sensación emocional que
+
+00:16:03.778 --> 00:16:06.719
+ quería que transmitiera. El ambiente.
+
+00:16:05.920 --> 00:16:08.480
+ Mucha energía, ritmo rápido,
+
+00:16:07.532 --> 00:16:10.457
+ atractivo, sincronizar la música con
+
+00:16:09.509 --> 00:16:12.485
+ los tiempos, efectos de sonido y cosas
+
+00:16:11.537 --> 00:16:14.266
+ así. Así que quería hablar de las
+
+00:16:13.308 --> 00:16:15.513
+ cinco cosas en las que pienso
+
+00:16:14.554 --> 00:16:17.133
+ constantemente cuando edito videos con
+
+00:16:16.175 --> 00:16:19.015
+ IA. Voy a repasar esto de forma súper
+
+00:16:18.059 --> 00:16:20.753
+ sencilla, porque básicamente podrías
+
+00:16:19.797 --> 00:16:22.179
+ darle la transcripción de esta
+
+00:16:21.223 --> 00:16:23.872
+ sección a tu agente de IA y estaría
+
+00:16:22.917 --> 00:16:25.671
+ bien. Entonces, la primera parte es
+
+00:16:24.710 --> 00:16:28.600
+ transcribir. Si empiezas con un clip y
+
+00:16:27.647 --> 00:16:30.346
+ necesitas editarlo como un video, un
+
+00:16:29.393 --> 00:16:32.187
+ curso o lo que sea, obviamente quieres
+
+00:16:31.234 --> 00:16:34.075
+ transcribir primero para que los ritmos
+
+00:16:33.122 --> 00:16:35.869
+ entren en el momento adecuado y la IA
+
+00:16:34.916 --> 00:16:37.380
+ sepa cómo contar una historia.
+
+00:16:37.421 --> 00:16:40.555
+ Transcribir es esencial. Ya sea que
+
+00:16:39.607 --> 00:16:42.416
+ quieras usar Whisper, Eleven Labs o
+
+00:16:41.467 --> 00:16:44.483
+ alguna otra herramienta, transcribir es
+
+00:16:43.534 --> 00:16:46.962
+ esencial. A partir de ahí, harás que
+
+00:16:46.017 --> 00:16:48.874
+ corte cosas. Entonces, si hay errores,
+
+00:16:47.917 --> 00:16:50.373
+ corta los errores. Si nota en la
+
+00:16:49.417 --> 00:16:52.133
+ transcripción que hay como 20 segundos
+
+00:16:51.177 --> 00:16:53.805
+ de espacio muerto, corta ese espacio.
+
+00:16:52.905 --> 00:16:55.698
+ Cosas así. Estás cortando cosas. Y
+
+00:16:54.740 --> 00:16:57.077
+ muchas veces uso la IA solo para
+
+00:16:56.119 --> 00:16:58.582
+ eliminar literalmente los errores y
+
+00:16:57.624 --> 00:17:00.253
+ luego tomo el clip y hago lo que quiera
+
+00:16:59.295 --> 00:17:02.048
+ con él. Pero es capaz de limpiar tu
+
+00:17:01.097 --> 00:17:03.953
+ contenido mucho más rápido de lo que
+
+00:17:03.001 --> 00:17:05.759
+ tú podrías, porque estarías en el
+
+00:17:04.808 --> 00:17:07.517
+ editor buscando los silencios y, ya
+
+00:17:06.566 --> 00:17:09.194
+ sabes, recortando todo. Y luego, el
+
+00:17:08.231 --> 00:17:10.667
+ número tres es planificar los tiempos.
+
+00:17:09.840 --> 00:17:12.360
+ Muchas veces, a partir de ahí, lo que
+
+00:17:11.400 --> 00:17:13.880
+ me gusta hacer es ser muy específico
+
+00:17:12.920 --> 00:17:15.384
+ sobre lo que quiero. Como vieron en
+
+00:17:14.425 --> 00:17:16.796
+ esta versión de introducción, la
+
+00:17:15.837 --> 00:17:18.168
+ intro de este video, básicamente
+
+00:17:17.208 --> 00:17:19.940
+ estaba planeando lo que quería. Ahora,
+
+00:17:18.983 --> 00:17:21.549
+ obviamente fue un poco improvisado y
+
+00:17:20.593 --> 00:17:23.115
+ creativo, pero si hubiera dicho que
+
+00:17:22.159 --> 00:17:24.594
+ estos son los únicos tiempos que
+
+00:17:23.638 --> 00:17:26.334
+ quiero que crees, nada más, lo habría
+
+00:17:25.378 --> 00:17:28.086
+ hecho. Pero aquí dejé que fuera
+
+00:17:27.130 --> 00:17:30.056
+ creativo. Pero básicamente dije: "Oye,
+
+00:17:29.097 --> 00:17:31.679
+ en este punto, quiero que esto aparezca
+
+00:17:30.679 --> 00:17:33.297
+. Quiero que esto aparezca. Quiero que
+
+00:17:32.333 --> 00:17:34.734
+ esto aparezca. Y cuanto mejor puedas
+
+00:17:33.772 --> 00:17:36.158
+ establecer las expectativas de lo que
+
+00:17:35.195 --> 00:17:37.582
+ buscas y lo que considerarías bueno,
+
+00:17:36.619 --> 00:17:39.043
+ obviamente mejor, o no mejor, sino que
+
+00:17:38.080 --> 00:17:40.354
+ más alineado estará tu resultado
+
+00:17:39.392 --> 00:17:41.848
+ final. El número cuatro es utilizar
+
+00:17:40.887 --> 00:17:43.152
+ habilidades. Así que crea habilidades
+
+00:17:42.180 --> 00:17:44.394
+ en torno a las cosas. Si haces muchos
+
+00:17:43.430 --> 00:17:45.556
+ reels, entonces crea habilidades
+
+00:17:44.591 --> 00:17:47.044
+ alrededor de los reels. Usa mi kit para
+
+00:17:46.080 --> 00:17:49.286
+ estudiantes HyperFrame. Usa recursos y
+
+00:17:48.377 --> 00:17:51.766
+ usa inspiración. Como vieron que hice,
+
+00:17:50.798 --> 00:17:53.005
+ tomé un video que realmente me gustó
+
+00:17:52.036 --> 00:17:54.180
+ y le pedí que creara una habilidad.
+
+00:17:53.521 --> 00:17:56.436
+ Ahora, ¿adivinen qué? Cada vez que
+
+00:17:55.476 --> 00:17:57.667
+ ejecuto esa habilidad, miro el
+
+00:17:56.707 --> 00:17:58.938
+ resultado y digo:" Oye, en esta
+
+00:17:57.977 --> 00:18:00.447
+ versión, esto me gustó mucho y esto
+
+00:17:59.486 --> 00:18:02.607
+ realmente no me gustó. Actualiza la
+
+00:18:01.640 --> 00:18:03.667
+ habilidad con esa información,
+
+00:18:02.700 --> 00:18:04.893
+ ejecútala de nuevo y luego te daré
+
+00:18:03.926 --> 00:18:06.423
+ más comentarios. Y de esa manera, en
+
+00:18:05.464 --> 00:18:07.726
+ realidad estás construyendo un
+
+00:18:06.766 --> 00:18:09.313
+ componente reutilizable donde cada vez
+
+00:18:08.354 --> 00:18:10.901
+ que ejecutas la habilidad, esta mejora
+
+00:18:09.942 --> 00:18:12.530
+ y puedes moverte cada vez más rápido.
+
+00:18:11.699 --> 00:18:14.610
+ No quieres tener que repetirte cada vez
+
+00:18:13.610 --> 00:18:15.716
+. Si alguna vez te encuentras
+
+00:18:14.751 --> 00:18:17.099
+ repitiendo algo, simplemente agrégalo
+
+00:18:16.135 --> 00:18:18.478
+ a la habilidad. Y luego el quinto,
+
+00:18:17.517 --> 00:18:20.058
+ probablemente el más importante, es el
+
+00:18:19.098 --> 00:18:21.808
+ ciclo de verificación. Notarán cómo,
+
+00:18:20.851 --> 00:18:23.276
+ a medida que revisa muchos de mis
+
+00:18:22.320 --> 00:18:24.961
+ videos, toma capturas de pantalla, las
+
+00:18:24.004 --> 00:18:26.705
+ analiza y luego realiza iteraciones. Y
+
+00:18:25.747 --> 00:18:28.353
+ así es como entras en ese ciclo donde
+
+00:18:27.395 --> 00:18:30.044
+ no solo dices: "Está bien, aquí está
+
+00:18:29.086 --> 00:18:31.817
+ mi resultado número uno. Obtienes un
+
+00:18:30.869 --> 00:18:33.852
+ resultado como el número cinco o seis
+
+00:18:32.904 --> 00:18:35.939
+ porque el agente básicamente hizo esto
+
+00:18:34.939 --> 00:18:38.429
+. Entregó el primer resultado y luego
+
+00:18:37.493 --> 00:18:40.467
+ lo revisó. Se dio cuenta de que había
+
+00:18:39.504 --> 00:18:41.931
+ errores, así que volvió y entregó el
+
+00:18:40.967 --> 00:18:43.442
+ resultado dos. Luego revisó el
+
+00:18:42.484 --> 00:18:45.013
+ resultado dos y siguió iterando sus
+
+00:18:44.055 --> 00:18:46.541
+ respuestas hasta que pensó:" Bien,
+
+00:18:45.583 --> 00:18:48.154
+ esta es finalmente lo suficientemente
+
+00:18:47.197 --> 00:18:49.683
+ buena como para dársela a Nate "."
+
+00:18:48.783 --> 00:18:51.965
+ Aquí tienes, Nate ". Este es el video
+
+00:18:51.016 --> 00:18:53.996
+ terminado. Así que ahora obtienes algo
+
+00:18:53.044 --> 00:18:55.811
+ que ya ha sido revisado e iterado por
+
+00:18:54.859 --> 00:18:57.722
+ la IA, en lugar de que te entregue esta
+
+00:18:56.769 --> 00:18:59.585
+ primera versión, te sientas frustrado
+
+00:18:58.632 --> 00:19:01.495
+ y tengas que hacer todas esas, ya sabes
+
+00:19:00.495 --> 00:19:03.303
+, instrucciones. Pero de todos modos,
+
+00:19:02.348 --> 00:19:04.876
+ chicos, hay tantos casos de uso al
+
+00:19:03.921 --> 00:19:06.674
+ emplear la IA para ayudarles a editar o
+
+00:19:05.719 --> 00:19:08.382
+ añadir motion graphics, porque ya no
+
+00:19:07.427 --> 00:19:09.730
+ es algo para lo que necesiten
+
+00:19:08.775 --> 00:19:11.528
+ experiencia previa en edición de video
+
+00:19:10.573 --> 00:19:13.132
+ para aprovecharlo. Así que no dejen
+
+00:19:12.170 --> 00:19:14.727
+ que la edición sea su obstáculo. Pero
+
+00:19:13.766 --> 00:19:16.032
+ eso es todo por hoy. Si les gustó o
+
+00:19:15.058 --> 00:19:17.063
+ aprendieron algo nuevo, por favor denle
+
+00:19:16.089 --> 00:19:18.451
+ un" me gusta ". Me ayuda muchísimo. Y
+
+00:19:17.484 --> 00:19:19.716
+ como siempre, les agradezco por haber
+
+00:19:18.749 --> 00:19:21.091
+ llegado al final del video. Nos vemos
+
+00:19:20.129 --> 00:19:22.958
+ en el próximo. Gracias a todos.

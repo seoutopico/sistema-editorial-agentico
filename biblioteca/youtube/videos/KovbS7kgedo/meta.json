@@ -1,0 +1,35 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 940,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 110000
+  },
+  "fecha": "2026-08-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "KovbS7kgedo",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Noticia de lanzamiento duplicada sin proceso aplicable",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 60,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "medio",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 1.11,
+    "senal_incompleta": false
+  },
+  "titulo": "Google Releases its BEST AI (and it's a surprise)",
+  "url": "https://www.youtube.com/watch?v=KovbS7kgedo"
+}

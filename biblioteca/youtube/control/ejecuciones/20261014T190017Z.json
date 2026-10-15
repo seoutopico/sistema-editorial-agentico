@@ -1,0 +1,242 @@
+{
+  "candidatos": [
+    {
+      "canal": "Dot CSV Lab ",
+      "id": "AwYYpXfFM9k",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 23,
+        "formato_largo": true,
+        "interaccion": 0.0221,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 112000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.82,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "What is Jeev? The NEW GENERALIST MODEL everyone is talking about",
+      "url": "https://www.youtube.com/watch?v=AwYYpXfFM9k"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "id": "BvvfZKKz4Yo",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 14,
+        "formato_largo": true,
+        "interaccion": 0.0076,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.67,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+      "url": "https://www.youtube.com/watch?v=BvvfZKKz4Yo"
+    },
+    {
+      "canal": "Xavier Mitjana",
+      "id": "4_fM3Nv8BB0",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 28,
+        "formato_largo": true,
+        "interaccion": 0.0219,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 99000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.29,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "Google launches the ultimate AI TUTOR (and it's free)",
+      "url": "https://www.youtube.com/watch?v=4_fM3Nv8BB0"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "id": "QCkHIyEPIYo",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 20,
+        "formato_largo": true,
+        "interaccion": 0.0098,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.17,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Had Opus 5.5 Build me the Same App at Every Effort Level",
+      "url": "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "id": "ymgH8jS6Wb8",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 25,
+        "formato_largo": true,
+        "interaccion": 0.011,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.9,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "I Tested Jev on 12 Real Use Cases. My Honest Thoughts.",
+      "url": "https://www.youtube.com/watch?v=ymgH8jS6Wb8"
+    },
+    {
+      "canal": "Xavier Mitjana",
+      "id": "ZqkljdI1HT0",
+      "motivo": "interes alto y tema 'Herramientas de IA' en 5 canales",
+      "senales": {
+        "dias": 52,
+        "formato_largo": true,
+        "interaccion": 0.0223,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 99000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.14,
+        "senal_incompleta": false
+      },
+      "tema": "Herramientas de IA",
+      "titulo": "OPUS-level AI on your PC: Free and UNLIMITED",
+      "url": "https://www.youtube.com/watch?v=ZqkljdI1HT0"
+    },
+    {
+      "canal": "AI News & Strategy Daily | Nate B Jones",
+      "id": "1qGH6NwTj3o",
+      "motivo": "interes alto y tema 'Agentes de IA' en 4 canales",
+      "senales": {
+        "dias": 38,
+        "formato_largo": true,
+        "interaccion": 0.0197,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 64500.0,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 6.24,
+        "senal_incompleta": false
+      },
+      "tema": "Agentes de IA",
+      "titulo": "GPT-6 Astra Doesn't Need Your Instructions Anymore.",
+      "url": "https://www.youtube.com/watch?v=1qGH6NwTj3o"
+    },
+    {
+      "canal": "Dot CSV Lab ",
+      "id": "j906Pf7n7Sg",
+      "motivo": "interes alto y tema 'Contenido y curación con IA' en 4 canales",
+      "senales": {
+        "dias": 20,
+        "formato_largo": true,
+        "interaccion": 0.0213,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 112000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.98,
+        "senal_incompleta": false
+      },
+      "tema": "Contenido y curación con IA",
+      "titulo": "CLAUDE OPUS 5.5 is A COMPLETE AUDIOVISUAL REVOLUTION (...sorry Astra)",
+      "url": "https://www.youtube.com/watch?v=j906Pf7n7Sg"
+    },
+    {
+      "canal": "Xavier Mitjana",
+      "id": "ZnlLfKR-vDQ",
+      "motivo": "interes alto y tema 'Agentes de IA' en 4 canales",
+      "senales": {
+        "dias": 24,
+        "formato_largo": true,
+        "interaccion": 0.0186,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 99000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 3.94,
+        "senal_incompleta": false
+      },
+      "tema": "Agentes de IA",
+      "titulo": "Create your first AI AGENT in 15 minutes (no coding)",
+      "url": "https://www.youtube.com/watch?v=ZnlLfKR-vDQ"
+    },
+    {
+      "canal": "Nate Herk | AI Automation",
+      "id": "HIRDzMtuWFk",
+      "motivo": "interes alto y tema 'Agentes de IA' en 4 canales",
+      "senales": {
+        "dias": 31,
+        "formato_largo": true,
+        "interaccion": 0.0111,
+        "interaccion_motivo": null,
+        "interes": "alto",
+        "mediana_canal": 126000,
+        "mediana_poco_fiable": false,
+        "multiplo_mediana": 2.91,
+        "senal_incompleta": false
+      },
+      "tema": "Agentes de IA",
+      "titulo": "Anthropic Engineer Explains: What to Build Instead of AI Agents",
+      "url": "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+    }
+  ],
+  "comando": "candidatos",
+  "elegibles_totales": 74,
+  "errores_metadatos": [],
+  "fecha_utc": "2026-10-14T19:00:17Z",
+  "limite": 10,
+  "llamadas_ytdlp": [
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=AwYYpXfFM9k"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=BvvfZKKz4Yo"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=4_fM3Nv8BB0"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=ymgH8jS6Wb8"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=ZqkljdI1HT0"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=1qGH6NwTj3o"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=j906Pf7n7Sg"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=ZnlLfKR-vDQ"
+    ],
+    [
+      "-J",
+      "https://www.youtube.com/watch?v=HIRDzMtuWFk"
+    ]
+  ],
+  "run_id": "20261014T190017Z"
+}

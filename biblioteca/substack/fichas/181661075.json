@@ -1,0 +1,26 @@
+{
+  "basada_en": "completo",
+  "enfoque": "tutorial con prueba propia",
+  "entidades": [
+    "ChatGPT"
+  ],
+  "fecha": "2025-12-28",
+  "huella": "a60132bb8ea25ea873f8b560e26b5ec0355b85782f7edd56404844d6c749058f",
+  "id": "181661075",
+  "metricas_publicas": {
+    "comentarios": 2,
+    "reacciones": 7,
+    "restacks": 2
+  },
+  "nivel": "inicial",
+  "subtemas": [
+    "perfil de negocio como archivo de contexto",
+    "posicionamiento específico vs genérico",
+    "prompt de entrevista guiada",
+    "sistema de archivos de contexto"
+  ],
+  "tema": "Escribir con IA",
+  "tesis": "Si la IA no sabe qué ofreces, inventa o generaliza: un perfil de negocio estructurado en JSON le da el contexto para hablar de tu oferta con precisión sin repetirla en cada prompt.",
+  "titulo": "#12: Cómo entreno a ChatGPT para hablar de mi negocio",
+  "url": "https://ainalluna.substack.com/p/perfil-negocio-chatgpt"
+}

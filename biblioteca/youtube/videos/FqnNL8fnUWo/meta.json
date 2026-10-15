@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 2126,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 71000
+  },
+  "fecha": "2026-09-24",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "El tutorial",
+  "id": "FqnNL8fnUWo",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Automatizaciones con Astra controlando el límite de uso",
+    "relevante": true,
+    "tema": "Automatización de procesos"
+  },
+  "senales": {
+    "dias": 20,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.56,
+    "senal_incompleta": false
+  },
+  "titulo": "How to Build GPT-6 Astra Automations (that don’t eat your usage limit)",
+  "url": "https://www.youtube.com/watch?v=FqnNL8fnUWo"
+}

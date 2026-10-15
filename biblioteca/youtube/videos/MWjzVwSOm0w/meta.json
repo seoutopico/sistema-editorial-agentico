@@ -1,0 +1,29 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "duracion_segundos": 1495,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:25Z",
+    "likes": null,
+    "visualizaciones": 51000
+  },
+  "fecha": "2025-12-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "MWjzVwSOm0w",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 303,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.46,
+    "senal_incompleta": false
+  },
+  "titulo": "KLING O1 SURPRISES! It AUTOMATICALLY creates VFX with AI! 🔥",
+  "url": "https://www.youtube.com/watch?v=MWjzVwSOm0w"
+}

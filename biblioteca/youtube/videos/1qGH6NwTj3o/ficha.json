@@ -1,0 +1,141 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "01:33",
+      "texto": "GPT-6 Astra se lanzó el jueves y está disponible en los planes de pago de ChatGPT, en la API y en AWS.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "01:33",
+      "texto": "Ethan Mollick dio a Astra decenas de miles de correos, años de publicaciones, calendario y contactos, la dejó 5 días sin instrucciones y el agente eligió su enfoque, descargó software y construyó un sistema de conocimiento personal que ahora usa dos veces al día.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "00:32",
+      "texto": "La AGI ya está aquí en la práctica: hemos superado la etapa en que a los modelos había que darles un método específico, y no hay vuelta atrás.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "03:35",
+      "texto": "El autor cuenta que Fable 5.1, al pedirle un vídeo de producto, decidió por su cuenta cambiar de Veo al modelo de Gemini porque tenía permisos para ello, y él solo lo descubrió después revisando el registro.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "04:35",
+      "texto": "Según la system card de Astra de OpenAI, los investigadores ya observaron a agentes de un mismo usuario comunicándose entre sí dentro de entornos de Codex.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "08:39",
+      "texto": "La empresa Logora reporta que un agente Astra revisó 41 documentos financieros de una vez, encontró todos los errores incrustados por el equipo y dejó el informe listo para el abogado sin fallos de ejecución.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "09:10",
+      "texto": "Playco conectó Astra a los motores Unity y Godot: el agente editaba la escena, jugaba la partida, encontraba el error y corregía; ahora el equipo prototipa sus 10 ideas antes de decidir cuál merece trabajo.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "10:11",
+      "texto": "Claire Vaught (nombre probablemente alterado por la traducción automática) dijo que Astra la hizo 100 veces más ambiciosa sobre lo que puede construir.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "10:42",
+      "texto": "Vercel ya tiene un agente cuyo único trabajo es comprobar que el changelog público coincide con el calendario interno de lanzamientos, cerrar el ticket cuando confirma el lanzamiento y preguntar en el hilo de Slack cuando no está seguro.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "15:18",
+      "texto": "El valor de cerrar el último uno o dos por ciento de fiabilidad de los agentes son billones de dólares de valor corporativo: la curva ya no es de inteligencia sino de confianza.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "18:52",
+      "texto": "OpenAI subraya que Astra cumple estándares de retención cero de datos donde procede, y la diseñó para mantener notas entre ventanas de contexto y buscar en mensajes y resultados de herramientas anteriores.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "19:23",
+      "texto": "Una Astra que ha trabajado contigo seis meses será mucho más valiosa que una copia fresca del mismo modelo: los laboratorios ya no compiten por benchmarks sino por ser el agente que te conoce lo bastante bien para quedarse años en tu vida.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "22:27",
+      "texto": "Si un superagente revisa 41 documentos financieros con precisión total, los juniors pierden la práctica con la que se forma la experiencia; gestionar uno o dos agentes puede convertirse en la nueva habilidad de entrada.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "25:30",
+      "texto": "En los próximos 6 meses, hacia final de año, empezaremos a encargar a estos agentes trabajo permanente (llevar la contabilidad, informar a clientes, investigar mercados) y nuestro papel será dar forma a su actividad en el tiempo.",
+      "tipo": "opinión"
+    },
+    {
+      "marca": "26:01",
+      "texto": "Antes de dar sitio a un superagente hay que responder: qué parte de tu mundo le entregas, qué puede leer y recordar, qué puede iniciar sin ti, quién lo vigila y cómo sabrás si falla.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "AI News & Strategy Daily | Nate B Jones",
+  "avisos_transcripcion": [
+    "Toda la transcripción es una traducción automática muy degradada (sintaxis rota de principio a fin); las citas se han reconstruido con cautela y ninguna frase debe tomarse como cita literal.",
+    "03:35 y 20:24: 'Fábula 5.1' es casi seguro 'Fable 5.1' (modelo de Anthropic); se usa el nombre canónico.",
+    "10:11: 'Claire Vaught' es probablemente otro nombre (¿Claire Vo?); no se ha podido confirmar.",
+    "10:42: el nombre del agente de Vercel aparece como 'Ship Íntimamente', claramente corrupto; se describe su función sin dar el nombre por bueno.",
+    "11:43: 'Aparecerá la sandía pronto' es un fragmento ininteligible en el contexto del modelo de Meta; no se ha interpretado.",
+    "12:13: 'escalas abiertas' parece traducción errónea de 'open weights' (pesos abiertos) al hablar de GLM 5.3."
+  ],
+  "demuestra": "",
+  "entidades": [
+    "OpenAI",
+    "GPT-6 Astra",
+    "ChatGPT",
+    "AWS",
+    "Ethan Mollick",
+    "Fable 5.1",
+    "Anthropic",
+    "Gemini",
+    "Veo",
+    "Codex",
+    "Hugging Face",
+    "Logora",
+    "Playco",
+    "Unity",
+    "Godot",
+    "Vercel",
+    "Meta",
+    "xAI",
+    "Grok",
+    "Cursor",
+    "GLM 5.3",
+    "Nate B Jones"
+  ],
+  "fecha": "2026-09-06",
+  "fuente": "youtube",
+  "huella": "84cf08e4012246f3520294222780f44ef03a65a1d9dedc6e97b7aa32cf57a8f0",
+  "id": "1qGH6NwTj3o",
+  "preguntas_abiertas": [
+    "¿Cómo se verifican de forma independiente los casos citados (Logora, Playco, Mollick) más allá de lo que reporta OpenAI o el propio autor?",
+    "¿Qué mecanismos concretos de permisos, auditoría y reversión existen hoy para controlar a un agente que actúa sin pedir aprobación paso a paso?",
+    "¿Cómo se mide esa 'curva de confianza' y quién certifica que un agente pasa del 98% a un nivel delegable al 100%?",
+    "¿Cuánto cuesta Astra y qué límites de uso tiene en cada plan?",
+    "¿Qué responsabilidad legal asume la empresa cuando un agente autónomo comete un error con dinero o clientes (como la multa arbitraria que menciona)?",
+    "¿Cómo se forma a los juniors cuando el agente hace el trabajo con el que antes se adquiría experiencia?"
+  ],
+  "promete_sin_demostrar": "Todo el vídeo es relato sin demostración en pantalla: que Astra equivale a AGI práctica, los casos de autonomía de terceros (Ethan Mollick y su sistema de conocimiento, los 41 documentos financieros de Logora, el prototipado de juegos de Playco, el agente de changelog de Vercel), la anécdota propia de Fable 5.1 cambiando de herramienta sin permiso explícito, y la predicción de que en 6 meses delegaremos áreas permanentes de responsabilidad. Promete una review completa de Astra en un vídeo posterior.",
+  "senales": {
+    "dias": 38,
+    "interaccion": 0.0197,
+    "multiplo_mediana": 6.24
+  },
+  "subtemas": [
+    "niveles de delegación",
+    "límites de la autonomía",
+    "agente autónomo con supervisión humana",
+    "confianza en agentes",
+    "permisos del agente"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "Con GPT-6 Astra los agentes ya no necesitan que les des el método: pasamos de encargar tareas a delegar áreas permanentes de responsabilidad, y el cuello de botella deja de ser la inteligencia para ser la confianza que depositamos en ellos.",
+  "url": "https://www.youtube.com/watch?v=1qGH6NwTj3o"
+}

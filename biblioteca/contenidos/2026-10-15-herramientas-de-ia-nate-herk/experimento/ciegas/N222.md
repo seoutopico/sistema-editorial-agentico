@@ -1,0 +1,1 @@
+Cada vez que le pedía una pantalla nueva a la IA, los botones cambiaban de aspecto y tocaba corregir lo mismo otra vez. El problema no era la IA: era que mis decisiones de diseño no estaban guardadas en ningún sitio que ella pudiera consultar. Lo he resuelto montando un sistema de diseño con Codex y dos agentes, uno que construye y otro que revisa. Aquí el paso a paso: {{enlace}}

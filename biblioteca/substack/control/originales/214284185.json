@@ -1,0 +1,361 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/el-contenido-me-lo-das-tu-como-consumirlo",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 214284185,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-09-06T04:57:12.176Z",
+  "updated_at": "2026-09-06T06:16:31.944Z",
+  "publication_id": 5143893,
+  "search_engine_description": "Probé GPT-6 Astra en Codex para crear Michi Música, una app Android con música, podcasts y letras. Así fue construirla y probarla con IA en mi móvil.",
+  "search_engine_title": "GPT-6 Astra: mi experiencia creando una app Android con IA",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "el-contenido-me-lo-das-tu-como-consumirlo",
+  "social_title": null,
+  "subtitle": "Mis primeras pruebas con Astra me acercan a algo que llevo años contando: que nuestro agente transforme la información en lo que necesitamos, no que tengamos que adaptarnos nosotros al formato.",
+  "teaser_post_eligible": true,
+  "title": "El contenido me lo das tú. Cómo consumirlo, lo decido yo.",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 0,
+  "reactions": {
+    "❤": 7
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "hacki-semana-1",
+  "next_post_slug": "agente-ia-calendario-editorial-newsletter",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!9MDV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 214284185,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Mis primeras pruebas con Astra me acercan a algo que llevo años contando: que nuestro agente transforme la información en lo que necesitamos, no que tengamos que adaptarnos nosotros al formato.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!9MDV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!9MDV!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!9MDV!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!9MDV!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!9MDV!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!9MDV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png\" width=\"1672\" height=\"941\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:941,&quot;width&quot;:1672,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:3138453,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87268f80-4961-4f73-b7b3-0ed129671b88_1672x941.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!9MDV!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!9MDV!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!9MDV!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!9MDV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6bed6c6-2c5f-495c-98c8-942557c692fa_1672x941.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><em>¿Cómo estás?</em><br><em>Soy Aina y esto es Think&amp;Hack.</em></p><p>Ayer sábado me desperté muy temprano y, aprovechando que <strong>OpenAI había sacado su nuevo modelo, GPT-6 Astra</strong>, me puse a probarlo. La verdad es que estoy muy a gusto con él. Va al grano, se enrolla poco y lo noto más rápido. Ya sabéis que el 5.6 se me hacía un poquito lento…</p><p>Donde me voló la cabeza fue cuando se puso a trabajar en mi móvil, ahí, en directo, delante de mí: abriendo la aplicación de música que estábamos creando, moviéndose por las pantallas, haciendo pruebas y comprobando lo que acababa de construir.</p><p>Me daba la sensación de que los dos teníamos los ojos puestos en la app. Yo también iba probando las distintas funciones y, desde la terminal, le iba diciendo lo que me gustaba, lo que no y dónde encontraba algún fallo. Prácticamente en tiempo real, íbamos probando y corrigiendo juntos.</p><p>Fue una simbiosis (🙈) que, hasta ahora, yo no había experimentado trabajando con una IA. Queda mucho camino por recorrer, pero cada vez estamos más cerca de esa forma de trabajar: ir hablando con el agente mientras vemos y probamos lo que está haciendo.</p><p>Esta sensación que estoy teniendo se acerca mucho a la idea que llevo años explicando y es que <strong>nos darán acceso al contenido y nosotros decidiremos cómo queremos consumirlo.</strong> Que la información llegue en un texto no significa que tengamos que leerla así. Podremos pedirle a nuestro agente que la convierta en un vídeo, que nos la explique con imágenes o que construya algo en el formato con el cual nos sintamos más cómodos.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><h2>Esto viene de lejos.</h2><p>En <a href=\"https://ainalluna.com/blog/el-futuro-del-seo-el-nacimiento-del-iao-intelligent-automation-optimization\">noviembre de 2024 escribí hablando de la necesidad de crear una web en la que las inteligencias artificiales pudieran interpretar y recomponer la información</a>. Lo planteaba desde mi terreno, el SEO. Partía de esta premisa: <em>si una IA va a consultar los datos de la web y construir una respuesta con ellos, tendremos que preparar algo más que una página bonita.</em> (Google había lanzado AI Overviews y empezábamos a ver ejemplos de cómo nuestra información podía llegar a alguien sin que entrara en nuestra web).</p><p>En <a href=\"https://ainalluna.com/blog/tu-contenido-esta-preparado-para-un-mundo-sin-serps\">julio de 2025 lo expliqué con el ejemplo de una bicicleta eléctrica</a>. La misma información podía servir para una respuesta de audio, una explicación visual o un texto conversacional. Y también podía presentarse de forma distinta según lo que necesitara saber cada persona.</p><p>Y casi un año después, <a href=\"https://ainalluna.com/blog/la-web-agent-to-agent-por-que-el-seo-necesita-una-capa-de-cambios\">este junio seguí desarrollando la idea, hablando de una web agent-to-agent</a>. Aquí entraban en juego <strong>los agentes</strong>: <em>pasaba de hablar de una IA que consulta información y prepara una respuesta a una IA capaz de utilizar herramientas y dar los pasos necesarios para hacer lo que le pedimos.</em> (Como cuando, en vez de explicarme cómo crear una app, se pone a construirla y a probarla). Así que la pregunta también cambiaba: <strong>¿cómo preparamos nuestras webs para que esos agentes encuentren lo que ofrecemos, entiendan qué pueden hacer con ello y sepan cómo acceder?</strong></p><p>Hasta hoy he ido hablando sobre todo de cómo preparar los contenidos para que las IA pudieran aprovecharlos. Pero con las pruebas de ayer estoy empezando a construir cómo quiero consumir yo esa información, no solo a prepararla para que otros la consuman. Es decir, <strong>puedo pedirle a mi agente que construya un software que se adapte a mis necesidades e ir ajustándolo con él, sin tener que escribir yo el código.</strong></p><p>Todavía no es todo lo que llevo planteando en estos artículos, pero te enseño lo que he podido hacer para que veas por qué estoy tan entusiasmada. :)</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!OHbE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!OHbE!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 424w, https://substackcdn.com/image/fetch/$s_!OHbE!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 848w, https://substackcdn.com/image/fetch/$s_!OHbE!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 1272w, https://substackcdn.com/image/fetch/$s_!OHbE!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!OHbE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png\" width=\"1491\" height=\"1055\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/49375935-7961-4e10-8938-62727126a3b4_1491x1055.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1055,&quot;width&quot;:1491,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2988566,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c76a298-5605-48ae-95ff-3fb766b35e1a_1491x1055.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!OHbE!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 424w, https://substackcdn.com/image/fetch/$s_!OHbE!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 848w, https://substackcdn.com/image/fetch/$s_!OHbE!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 1272w, https://substackcdn.com/image/fetch/$s_!OHbE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49375935-7961-4e10-8938-62727126a3b4_1491x1055.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div><hr></div><h2>Nunca había creado una app para Android</h2><p>Para poner a prueba<strong> GPT-6 Astra</strong>, se me ocurrió crear una aplicación de música para mi móvil. Nunca en mi vida había creado una app para Android, así que al empezar fue todo confianza ciega. :)</p><p>Se llama <strong>Michi Música</strong> y la he ido montando alrededor de cómo quiero escuchar y organizar mi música. Por ejemplo, tengo un agente en local que revisa la música que tengo y me prepara listas en archivos Markdown. Después las importo en Michi y puedo reproducir esa selección sin tener que ir añadiendo las canciones una a una ni duplicar los archivos.</p><p>También puedo buscar vídeos de YouTube desde la app y descargar el audio para escucharlo sin conexión. Y he añadido podcasts, separados de la música y con la posición guardada para seguir por donde los dejé. Que no me aparezca un episodio de una hora entre dos canciones, por favor :’).</p><p>Tiene letras sincronizadas, puedo tocar un verso para ir a ese momento de la canción y he elegido los colores y cómo quiero tenerlo todo colocado. Hasta tiene su logo. Voy probando, se me ocurre algo que me vendría bien y se lo pido al agente para incorporarlo.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!gQz9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!gQz9!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 424w, https://substackcdn.com/image/fetch/$s_!gQz9!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 848w, https://substackcdn.com/image/fetch/$s_!gQz9!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 1272w, https://substackcdn.com/image/fetch/$s_!gQz9!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!gQz9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png\" width=\"787\" height=\"574\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:574,&quot;width&quot;:787,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:160246,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd59527f4-f452-4a5c-aec0-7480c9c72752_787x574.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!gQz9!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 424w, https://substackcdn.com/image/fetch/$s_!gQz9!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 848w, https://substackcdn.com/image/fetch/$s_!gQz9!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 1272w, https://substackcdn.com/image/fetch/$s_!gQz9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc204ded8-fa79-4271-a44b-74d58bdf05fd_787x574.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><strong>Me parece increíble haber podido crear esto con él en un día.</strong> Esto es lo que me tiene tan entusiasmada: poder decidir cómo quiero que funcione y verlo en mi móvil.</p><p>Con Michi he empezado por mi biblioteca y por cómo quiero utilizarla. Para hacer lo mismo con la información de otros servicios, también hará falta que permitan acceder a ella y transformarla. Esa parte sigue pendiente; lo que estoy pudiendo construir es la herramienta con la que quiero consumirla.</p><p>Te dejo <a href=\"https://github.com/seoutopico/michi-musica-android\">el repositorio de Michi Música</a>, donde puedes ver las funciones, descargar la app y consultar cómo la he ido construyendo con él.</p><p>Pero, obviamente, con la emoción no se me ocurrió grabar el proceso.<em> Así que, para intentar <strong>hacerte partícipe de lo que viví </strong>y, por qué no, <strong>animarte a crear tu propia app</strong>, he grabado otro ejemplo: le he pedido que cree una aplicación de notas y que la pruebe en mi móvil.</em></p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;76f748a3-551b-4505-a97d-09708844c61d&quot;,&quot;duration&quot;:null}\"></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!SqXJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!SqXJ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 424w, https://substackcdn.com/image/fetch/$s_!SqXJ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 848w, https://substackcdn.com/image/fetch/$s_!SqXJ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 1272w, https://substackcdn.com/image/fetch/$s_!SqXJ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!SqXJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png\" width=\"955\" height=\"547\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:547,&quot;width&quot;:955,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:324935,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6e09221-3771-4879-b1ed-2d30af314e02_1019x909.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!SqXJ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 424w, https://substackcdn.com/image/fetch/$s_!SqXJ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 848w, https://substackcdn.com/image/fetch/$s_!SqXJ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 1272w, https://substackcdn.com/image/fetch/$s_!SqXJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7136f03-db24-47f1-a364-6cdb494b55eb_955x547.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p>Le cambiamos la instrucción en mitad del proceso, para ponerle presión y testear la nueva funcionalidad de Astra 6.</p><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!Xwje!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 424w, https://substackcdn.com/image/fetch/$s_!Xwje!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 848w, https://substackcdn.com/image/fetch/$s_!Xwje!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 1272w, https://substackcdn.com/image/fetch/$s_!Xwje!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!Xwje!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png\" width=\"965\" height=\"162\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/25805808-d368-4971-9482-8d778d26f52f_965x162.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:162,&quot;width&quot;:965,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:52588,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87d2862b-1db2-4659-8b70-e2d3366d45db_1019x909.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!Xwje!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 424w, https://substackcdn.com/image/fetch/$s_!Xwje!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 848w, https://substackcdn.com/image/fetch/$s_!Xwje!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 1272w, https://substackcdn.com/image/fetch/$s_!Xwje!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25805808-d368-4971-9482-8d778d26f52f_965x162.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p>En menos de 5 minutos, app creada e instalada y, además, las manipula.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!0yYr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!0yYr!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 424w, https://substackcdn.com/image/fetch/$s_!0yYr!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 848w, https://substackcdn.com/image/fetch/$s_!0yYr!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 1272w, https://substackcdn.com/image/fetch/$s_!0yYr!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!0yYr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png\" width=\"1216\" height=\"727\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d23520ca-0899-4305-94d0-d893782cd61c_1216x727.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:727,&quot;width&quot;:1216,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:642638,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f6397ce-7f52-4d55-a48e-a903160e70c4_1216x727.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!0yYr!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 424w, https://substackcdn.com/image/fetch/$s_!0yYr!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 848w, https://substackcdn.com/image/fetch/$s_!0yYr!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 1272w, https://substackcdn.com/image/fetch/$s_!0yYr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd23520ca-0899-4305-94d0-d893782cd61c_1216x727.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ZmFU!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 424w, https://substackcdn.com/image/fetch/$s_!ZmFU!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 848w, https://substackcdn.com/image/fetch/$s_!ZmFU!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 1272w, https://substackcdn.com/image/fetch/$s_!ZmFU!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ZmFU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png\" width=\"1855\" height=\"452\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/d25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:452,&quot;width&quot;:1855,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:77517,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5685a16c-5f40-477e-a830-1dc72f0da5a7_1855x452.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ZmFU!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 424w, https://substackcdn.com/image/fetch/$s_!ZmFU!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 848w, https://substackcdn.com/image/fetch/$s_!ZmFU!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 1272w, https://substackcdn.com/image/fetch/$s_!ZmFU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd25bcf87-a9fc-467d-89e2-1b0ad239b908_1855x452.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!JtXk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!JtXk!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 424w, https://substackcdn.com/image/fetch/$s_!JtXk!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 848w, https://substackcdn.com/image/fetch/$s_!JtXk!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 1272w, https://substackcdn.com/image/fetch/$s_!JtXk!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!JtXk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png\" width=\"1608\" height=\"509\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:509,&quot;width&quot;:1608,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:165169,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/214284185?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F731ee827-2c49-4ceb-ad0a-2c62e7a1e292_1608x509.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!JtXk!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 424w, https://substackcdn.com/image/fetch/$s_!JtXk!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 848w, https://substackcdn.com/image/fetch/$s_!JtXk!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 1272w, https://substackcdn.com/image/fetch/$s_!JtXk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44109eca-ba18-46f5-a9a9-4c58ff5b6ac4_1608x509.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p style=\"text-align: center;\"><em>La edición del video es de Codex  (se montó con HyperFrames y GSAP). No sé editar videos yo misma; por lo tanto, cuando se lo pido a una IA, tampoco lo hace muy bien. <strong>¿Seguimos necesitando expertos para conseguir calidad con la IA?</strong></em></p><p style=\"text-align: center;\"><span data-color=\"#4a86e8\" style=\"color: rgb(74, 134, 232);\">Pero es increíble, Codex GPT6 ha creado el guion, ha entendido el video y lo ha narrado, la música también la ha elegido él. A mí me parece una locura.</span></p><div class=\"callout-block\" data-callout=\"true\"><p>Si alguien sabe de edición de video y le apetece ayudarme a mejorar la skill, que me escriba🙏</p></div><div><hr></div><h2>¿Qué aporta Astra a todo esto?</h2><p>Hoy te he explicado mis sensaciones, algo muy personal y muy subjetivo. Pero algunos de estos <em>feelings</em> encajan con las capacidades de Astra y ayudan a entender por qué estoy notando ese cambio en la forma de trabajar.</p><p>Según la <a href=\"https://developers.openai.com/api/docs/guides/latest-model\">documentación de OpenAI</a>, Astra mejora en programación, navegación y uso del ordenador, y está preparado para realizar tareas que requieren varios pasos entre distintas herramientas. También puede seguir avanzando en otras partes del trabajo mientras espera a que una herramienta termine.</p><p>Hay una novedad que tiene mucho que ver con lo que te estoy contando: <strong>puede incorporar nuevas instrucciones mientras está trabajando</strong>. OpenAI lo llama <em><a href=\"https://developers.openai.com/api/docs/guides/steering\">mid-turn steering</a></em>. Por ejemplo, puedo añadir un requisito o pedir un cambio de dirección sin esperar a que termine toda la respuesta. (Esta capacidad tiene que estar integrada en la herramienta desde la que lo utilizo).</p><p>Después de las pruebas de ayer, cada vez veo más cerca poder trabajar como en este vídeo de OpenAI. Oh, sí, te lo vuelvo a compartir. </p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;20909568-bf26-4faa-89f2-a17276314b58&quot;,&quot;duration&quot;:null}\"></div><p>Llevo mucho tiempo queriendo una <a href=\"https://www.hermanmiller.com/en_lac/products/seating/lounge-seating/eames-lounge-chair-and-ottoman/\">Eames Lounge Chair, un diseño de Charles y Ray Eames de 1956</a>. Es simplemente espectacular y acabo de encontrar la excusa perfecta para comprarlo. Solo tengo que decir en el trabajo: «Para trabajar mejor con la IA necesito este sillón». ¿Colará? </p><p>Lo que me cuesta imaginar es hacerlo en un open office, con todo el mundo hablando a la vez con su agente. Aquello puede ser un gallinero. Entre uno que pide un informe, otro que está montando una app y yo diciéndole al mío: «no, espera, que se me ha ocurrido otra cosa»… <em>No solo va a cambiar el trabajo, sino los espacios de trabajo, esto da para otra news otro día…</em></p><p>Lo que más ganas tengo de seguir probando es hasta dónde puedo llevar esto de decidir cómo quiero consumir la información y construirlo con mi agente. Llevo años dando con esta idea y ahora puedo empezar a enseñarte lo que voy haciendo. Todavía falta, pero aquí seguiré contándote cómo va. :)</p><div class=\"pullquote\"><p style=\"text-align: center;\">Y me gustaría saber cómo lo ves tú. <strong>¿Crees que acabaremos pidiéndole a nuestro agente que construya nuestras propias interfaces y transforme el contenido a nuestra manera?</strong> ¿Te ves haciéndolo o crees que esto irá por otro lado? Si tienes otra teoría, quiero leerla.</p><h3 style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></h3><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/el-contenido-me-lo-das-tu-como-consumirlo/comments&quot;,&quot;text&quot;:&quot;Deja un comentario&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/el-contenido-me-lo-das-tu-como-consumirlo/comments\"><span>Deja un comentario</span></a></p></div><p><strong>P. D. <mark data-color=\"rgb(255, 255, 0)\" style=\"background-color: rgb(255, 255, 0); color: rgb(0, 0, 0);\">Los avances de Hacki te los contaré todos los martes en una newsletter aparte</mark>.</strong> Hay muchísimo que contar y quiero poder dedicarle su espacio sin que se me cuele en todos los temas de los domingos. Que le doy un poco de cuerda y acaba protagonizando la news entera.</p><p></p><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h1 style=\"text-align: center;\"><strong>Suscríbete a Think&amp;Hack</strong></h1><p style=\"text-align: center;\"><strong>Tools are great. <mark data-color=\"rgb(230, 145, 56)\" style=\"background-color: rgb(230, 145, 56); color: rgb(0, 0, 0);\">Systems</mark> are better.</strong></p><p>Casos reales, flujos que funcionan y formas concretas de usar la IA sin perder el control del proceso.</p><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscribirse&quot;,&quot;language&quot;:&quot;es&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">Thanks for reading Think &amp; Hack ! Subscribe for free to receive new posts and support my work.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Escribe tu correo electrónico...\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Suscribirse\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 1571,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        227,
+        103,
+        88
+      ],
+      "population": 138
+    },
+    "DarkVibrant": {
+      "rgb": [
+        113.55999999999999,
+        29.240000000000013,
+        19.040000000000013
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        237,
+        214,
+        201
+      ],
+      "population": 22
+    },
+    "Muted": {
+      "rgb": [
+        167,
+        137,
+        122
+      ],
+      "population": 86
+    },
+    "DarkMuted": {
+      "rgb": [
+        78,
+        58,
+        54
+      ],
+      "population": 4
+    },
+    "LightMuted": {
+      "rgb": [
+        203,
+        184,
+        176
+      ],
+      "population": 25
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 7,
+  "comment_count": 3,
+  "child_comment_count": 1,
+  "audio_items": [
+    {
+      "post_id": 214284185,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/214284185/tts/0097dac3-6b9b-49bf-b99a-7ed342d1064a/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 331033423,
+      "body": "Muy interesante todo, Aina. Mola la Michi Música. Y sobre el concepto agent-to-agent vengo reflexionando mucho últimamente. Va a ser interesante cómo las interfaces digitales van a ir cambiando en los próximos años y adaptándose a agentes en vez de a humanos. De hecho, hay unas disciplinas ahí que tendrán que salir en algún momento: la Agent Experience y Agent Interface.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Muy interesante todo, Aina. Mola la Michi Música. Y sobre el concepto agent-to-agent vengo reflexionando mucho últimamente. Va a ser interesante cómo las interfaces digitales van a ir cambiando en los próximos años y adaptándose a agentes en vez de a humanos. De hecho, hay unas disciplinas ahí que tendrán que salir en algún momento: la Agent Experience y Agent Interface."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 214284185,
+      "user_id": 136899667,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-09-06T16:12:33.826Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Diego Caballero",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/19648bf1-a51f-470e-b94b-501146a39263_921x921.png",
+      "handle": "caballerodiego",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "caballerodiego",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "IA para humanos",
+          "id": 8855963,
+          "base_url": "https://laiaparahumanos.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": 1,
+        "leaderboard": null,
+        "vip": false,
+        "badge": {
+          "type": "subscriber",
+          "tier": 1,
+          "accent_colors": null
+        },
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "2 respuestas de Aina Lluna y otros"
+    }
+  ]
+}

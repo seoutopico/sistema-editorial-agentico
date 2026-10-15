@@ -1,0 +1,27 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "Claude Code",
+    "Obsidian"
+  ],
+  "fecha": "2026-03-16",
+  "huella": "3cee4a962f06b120b9190200bff2a8bde53c44731b812b07b9e92965de0690fc",
+  "id": "190999730",
+  "metricas_publicas": {
+    "comentarios": 9,
+    "reacciones": 9,
+    "restacks": 5
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "subagentes",
+    "teams de agentes",
+    "especialización de agentes",
+    "saturación de contexto"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "Cuando un agente da resultados inconsistentes no es que falle, es que le pides dos trabajos que requieren formas de pensar distintas: partirlo en subagentes especializados supera a generalizar, igual que con equipos humanos.",
+  "titulo": "Mi agente de IA se liaba cada mañana. Lo arreglé partiéndolo en dos.",
+  "url": "https://ainalluna.substack.com/p/subagentes-vs-agent-teams-claude-code"
+}

@@ -1,10 +1,10 @@
 .env
-/biblioteca/*
-!/biblioteca/youtube/
-/biblioteca/youtube/*
-!/biblioteca/youtube/canales.md
 /investigacion/youtube/
 __pycache__/
 *.py[cod]
 carpeta-agente/
 carpeta-agente.zip
+.conia-build/
+.conia-v2/
+.conia-v3/
+.playwright-mcp/

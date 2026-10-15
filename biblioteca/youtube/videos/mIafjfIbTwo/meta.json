@@ -1,0 +1,29 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "duracion_segundos": 1209,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:23Z",
+    "likes": null,
+    "visualizaciones": 41000
+  },
+  "fecha": "2026-07-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "mIafjfIbTwo",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 91,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.41,
+    "senal_incompleta": false
+  },
+  "titulo": "Claude bets on AGENTS (Gemini on SPEED)",
+  "url": "https://www.youtube.com/watch?v=mIafjfIbTwo"
+}

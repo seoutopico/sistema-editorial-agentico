@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 2904,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 38000
+  },
+  "fecha": "2026-09-17",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "duv4A1gDZOY",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Reflexión macro sobre la carrera de la IA sin aplicación",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 27,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.59,
+    "senal_incompleta": false
+  },
+  "titulo": "Intelligence is Everywhere: Why the AI 'Race' is Already Over",
+  "url": "https://www.youtube.com/watch?v=duv4A1gDZOY"
+}

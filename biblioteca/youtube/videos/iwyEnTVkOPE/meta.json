@@ -1,0 +1,29 @@
+{
+  "canal": "Dot CSV Lab ",
+  "canal_url": "https://www.youtube.com/@DotCSVLab",
+  "duracion_segundos": 1638,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:25Z",
+    "likes": null,
+    "visualizaciones": 87000
+  },
+  "fecha": "2026-01-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La pregunta directa",
+  "id": "iwyEnTVkOPE",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 272,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 112000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.78,
+    "senal_incompleta": false
+  },
+  "titulo": "New GEMINI 3.0 FLASH! 👉 IT HAS PULVERIZED ARC-AGI 1 HOW IS THIS POSSIBLE?",
+  "url": "https://www.youtube.com/watch?v=iwyEnTVkOPE"
+}

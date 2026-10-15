@@ -1,0 +1,29 @@
+{
+  "canal": "Liam Ottley",
+  "canal_url": "https://www.youtube.com/@LiamOttley",
+  "duracion_segundos": 971,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:29Z",
+    "likes": null,
+    "visualizaciones": 31000
+  },
+  "fecha": "2026-04-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "OCs0WJ5VoOc",
+  "metadatos_completos": false,
+  "senales": {
+    "dias": 182,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 47000.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.66,
+    "senal_incompleta": false
+  },
+  "titulo": "I Set Up a Claude Code Operating System for 6 Founders in 8 Hours",
+  "url": "https://www.youtube.com/watch?v=OCs0WJ5VoOc"
+}

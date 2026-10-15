@@ -1,0 +1,43 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "descripcion": "Get 10% off Hostinger plan with code NATEHERK: https://www.hostinger.com/nateconnector\nFREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=opus-5.5-effort&sl=yt_opus-5.5-effort\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=higgsfield-api&hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI gave Claude Opus 5.5 the exact same 3D conference prompt at Low, Medium, High, Extra, Max, and Ultracode effort. \n\nI compare every output, along with the runtime, estimated API-equivalent cost, token use, verification checks, and questions asked. The most expensive run was not the best, and I break down which effort level I'd actually use for a complex creative build like this.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 The Effort-Level Experiment\n0:44 The 3D Conference Prompt\n1:47 Low Effort\n4:18 Medium Effort\n7:31 Hostinger\n8:26 High Effort\n11:17 Extra Effort\n13:55 Max Effort\n17:52 Ultracode\n21:15 Cost and Performance Breakdown\n24:25 The Best Effort Level\n26:26 Final Thoughts",
+  "duracion_segundos": 1598,
+  "estadisticas": {
+    "comentarios": 232,
+    "fecha_captura": "2026-10-14T19:37:00Z",
+    "likes": 3672,
+    "visualizaciones": 400086
+  },
+  "fecha": "2026-09-24",
+  "fecha_precision": "exacta",
+  "formula_titulo": "sin clasificar",
+  "id": "QCkHIyEPIYo",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Experimento con niveles de esfuerzo de Opus 5.5",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 20,
+    "formato_largo": true,
+    "interaccion": 0.0098,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 3.18,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es-US.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:40:38Z",
+    "idioma": "es-US",
+    "origen": "automaticos"
+  },
+  "titulo": "I Had Opus 5.5 Build me the Same App at Every Effort Level",
+  "url": "https://www.youtube.com/watch?v=QCkHIyEPIYo"
+}

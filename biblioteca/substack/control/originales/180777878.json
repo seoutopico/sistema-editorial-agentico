@@ -1,0 +1,505 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/borrar-memoria-chatgpt",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 180777878,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-12-07T08:49:23.863Z",
+  "updated_at": "2026-01-15T08:09:53.456Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": "Por qué he borrado la memoria de ChatGPT (y tú deberías también)",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "borrar-memoria-chatgpt",
+  "social_title": null,
+  "subtitle": "Parte 1: La memoria de ChatGPT amplifica su sesgo complaciente. Cómo sustituirla por archivos de contexto que tú controlas.",
+  "teaser_post_eligible": true,
+  "title": "#9 Por qué he borrado la memoria de ChatGPT (y tú deberías también)",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 3,
+  "reactions": {
+    "❤": 7
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "8-quieres-tener-un-mayordomo-digital",
+  "next_post_slug": "10-el-metodo-para-que-tu-ia-hable",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!mpv4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 180777878,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Parte 1: La memoria de ChatGPT amplifica su sesgo complaciente. Cómo sustituirla por archivos de contexto que tú controlas.",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p>Esta semana he tomado una decisión técnica: <strong>borrar la “Memoria” de mi ChatGPT</strong>.</p><p>Hoy analizaremos por qué la personalización automática degrada el pensamiento crítico del modelo, y cómo sustituirla por una <strong>arquitectura de contexto modular</strong>.</p><p>Si te interesa la precisión técnica por encima de la comodidad, suscríbete.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><p>  📚 <strong>Esta es la parte 1 de 5 de la serie “Sistema de escritura con IA”</strong></p><ol><li><p><strong>  <a href=\"https://ainalluna.substack.com/p/borrar-memoria-chatgpt\">Por qué borré la memoria de ChatGPT</a> ← Reset</strong></p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/10-el-metodo-para-que-tu-ia-hable\">El método para que tu IA hable como tú</a> ← Voz</p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/11-para-quien-escribe-tu-ia-si-no\">Para quién escribe tu IA</a> ← Audiencia</p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/perfil-negocio-chatgpt\">Cómo entreno a ChatGPT para mi negocio</a> ← Negocio</p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/proyectos-chatgpt-sistema\">Proyectos en ChatGPT: El sistema completo</a> ← Integración</p></li></ol><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!mpv4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!mpv4!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 424w, https://substackcdn.com/image/fetch/$s_!mpv4!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 848w, https://substackcdn.com/image/fetch/$s_!mpv4!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 1272w, https://substackcdn.com/image/fetch/$s_!mpv4!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!mpv4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png\" width=\"2816\" height=\"1418\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1418,&quot;width&quot;:2816,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:7584894,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/180777878?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4851b82c-d7f6-4235-a9e1-3b1ef3137492_2816x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!mpv4!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 424w, https://substackcdn.com/image/fetch/$s_!mpv4!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 848w, https://substackcdn.com/image/fetch/$s_!mpv4!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 1272w, https://substackcdn.com/image/fetch/$s_!mpv4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a3d1434-f1d3-45a9-beba-a23fa674626a_2816x1418.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><h3>El sesgo de complacencia</h3><p>Hace unos días, pedí a un LLM que auditara una estrategia. Su respuesta estaba sospechosamente alineada con mi estilo habitual. No encontró fallos graves, sólo matices.</p><p>Al revisar la configuración, vi que el sistema estaba usando “recuerdos” de mis preferencias pasadas para ajustar la respuesta.</p><p><strong>No estaba auditando el plan; estaba validando mi sesgo.</strong></p><p>Técnicamente, esto se conoce como <strong>Sicofancia (<a href=\"https://arxiv.org/abs/2310.13548\">Sycophancy</a>): </strong><em> un defecto estructural del entrenamiento por RLHF, donde el modelo aprende que la aprobación del usuario vale más ‘puntos’ que la precisión objetiva.<br></em><br>La memoria echa leña al fuego. El modelo ya quiere agradarte; si además sabe cómo piensas, lo tiene más fácil para decirte lo que quieres oír</p><div class=\"pullquote\"><p>Si el modelo “sabe” lo que piensas, degradará su capacidad crítica para no contradecirte.</p></div><h3>Memoria interna vs. contexto limpio</h3><p>El debate no es si la IA necesita contexto. Es <strong>dónde</strong> debe vivir ese contexto.</p><p>La función de “Memoria” nativa de ChatGPT funciona como un cajón desordenado: acumula fragmentos de conversaciones pasadas y, aunque puedes ver qué guarda, no sabes cuándo ni cómo lo usa para responderte.</p><ul><li><p><strong>Obsolescencia</strong>: Retiene quién eras hace tres meses, no quién eres hoy.</p></li><li><p><strong>Opacidad</strong>: No sabes qué datos está usando para responderte.</p></li><li><p><strong>Dependencia pasiva</strong>: Confiar en que “se acuerde” es ineficiente y arriesgado.</p></li></ul><p>Para análisis objetivos, necesitamos aislar el contexto: pasar de un modelo que mezcla todo a uno que recibe sólo la información exacta para cada tarea.</p><div><hr></div><h3>La solución: arquitectura de contexto modular</h3><p>He sustituido la memoria nativa por un <em>Protocolo de Archivos Externos.</em></p><p>Es un sistema simple: el modelo empieza en blanco (Estado Cero) y tú inyectas módulos específicos según la tarea.</p><p><strong>Paso 1: Migración (no borres a ciegas)</strong></p><p>Primero, descubre qué asume la IA sobre ti. En un chat, usa este prompt:</p><pre><code><code>Basándote en cómo me respondes, ¿qué asumes sobre mí que no te he dicho explícitamente?</code></code></pre><p>Luego, ve a Configuración &gt; Personalización &gt; Memoria &gt; Gestionar. Copia todo y pégalo en el chat con este prompt:</p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;853f339a-1987-4afe-850a-97b8939d26dc&quot;,&quot;duration&quot;:null}\"></div><p><em>C</em>opia todo y pégalo en un chat con este prompt:</p><pre><code>Aquí tienes el volcado de tu memoria sobre mí. Analízalo y estructúralo para crear mis archivos de contexto externos. Genera el contenido para las siguientes categorías:\n\n- Perfil base: Valores, principios, estilo de comunicación preferido.\n- Estado actual: En qué proyectos estoy trabajando, cuáles son mis bloqueos.\n- Base de conocimiento: Qué herramientas domino (para que no me expliques lo que ya sé).\n- Historial: Decisiones pasadas importantes y su contexto.\n\nDevuélveme un archivo .md por cada categoría.</code></pre><p><em>*Adapta las categorías a tus necesidades.             <br></em><strong><br>Paso 2: Tabula rasa</strong></p><p>Ahora sí: desactiva la memoria y borra el historial. El objetivo es que cada chat sea una sesión limpia, libre de sesgos anteriores.</p><p><em><strong>Si te da cosa, abre una cuenta gratuita y testea antes :)</strong></em></p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;824e1bee-0d75-4d58-b768-b397d56b9287&quot;,&quot;duration&quot;:null}\"></div><p><strong>Paso 3: Ejecución modular</strong></p><p>Cuando inicies una tarea, arrastra solo el archivo necesario:</p><ul><li><p>¿Vas a escribir? → Perfil.md</p></li><li><p>¿Vas a programar? → Stack.md</p></li><li><p>¿Vas a planificar? → Estado_Actual.md</p></li></ul><p>Esto garantiza que la IA use datos precisos del archivo, no recuerdos difusos.</p><p><strong>Bonus: crea Projects por tarea</strong> </p><p>Tanto ChatGPT Projects como Claude Projects permiten subir archivos base que persisten en ese espacio.</p><pre><code><a href=\"https://ainalluna.com/blog/proyectos-en-chatgpt-organiza-tu-trabajo-y-maximiza-tu-productividad-con-ia\">Aprende a trabajar con proyectos en ChatGPT</a></code></pre><div class=\"pullquote\"><p>La razón para agregar estos datos es sencilla: la calidad del output depende de la calidad del input.</p></div><h3>Comodidad vs. utilidad</h3><p>La acumulación de datos pasados no siempre es conocimiento; a menudo es solo ruido.</p><p>Mantener la memoria persistente es cómodo, pero reduce la calidad analítica. Al externalizar la memoria a archivos controlados, pasas de un asistente que intenta agradarte sin que lo veas a una herramienta donde tú decides qué contexto darle y cuándo.</p><p>Para tareas críticas, puedes omitir los archivos de preferencias y obtener un análisis más neutral.</p><p>La pregunta final es simple:</p><p><strong>¿Prefieres la comodidad de que te conozcan o la utilidad de que te corrijan?</strong></p><div><hr></div><h2><strong>Las próximas semanas</strong></h2><p>Este es el primero de 4 perfiles de contexto. El ADN Verbal cubre cómo suenas. Pero para que tu contenido resuene de verdad, necesitas dos más:</p><ul><li><p><strong>Por qué borré la memoria de ChatGPT</strong>: el problema</p></li><li><p><strong>ADN Verbal:</strong> cómo suenas </p></li><li><p><strong>PCI (Perfil de Cliente Ideal)</strong>: para quién escribes</p></li><li><p><strong>Perfil de negocio</strong>: qué ofreces</p></li></ul><p>Y después de los tres perfiles: cómo ensamblarlos en un <strong>Proyecto de ChatGPT</strong> para que todo funcione sin fricción.</p><blockquote><p><strong>Siguiente: </strong>  <a href=\"https://ainalluna.substack.com/p/10-el-metodo-para-que-tu-ia-hable\">El método para que tu IA hable como tú</a> ← Voz</p></blockquote><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think&amp;Hacks</strong></p><p>Soy Aina. Responsable de IA generativa en Planeta.</p><p>Tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte</strong>: Reenvía esto a quien siga confiando ciegamente en la memoria de ChatGPT.</p></li><li><p>💬 <strong>Responde</strong>: ¿Usas archivos de contexto externos? ¿Qué sistema tienes?</p></li><li><p>📩 <strong>Suscríbete</strong>: Si te han reenviado esto, únete aquí 👇</p></li></ol><p></p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 870,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [
+    {
+      "id": "57a369c2-1e7e-43f0-8d34-8642ec4f7440",
+      "publication_id": 5143893,
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "hidden": false
+    },
+    {
+      "id": "bc9884eb-4d7f-4fcb-be2c-4614e04dc2d3",
+      "publication_id": 5143893,
+      "name": "metodo_tu_voz",
+      "slug": "metodo_tu_voz",
+      "hidden": false
+    }
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        238,
+        116,
+        98
+      ],
+      "population": 7
+    },
+    "DarkVibrant": {
+      "rgb": [
+        119.64482758620692,
+        26.672413793103427,
+        12.955172413793088
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        235,
+        158,
+        139
+      ],
+      "population": 229
+    },
+    "Muted": {
+      "rgb": [
+        114,
+        117,
+        133
+      ],
+      "population": 140
+    },
+    "DarkMuted": {
+      "rgb": [
+        64,
+        70,
+        98
+      ],
+      "population": 33
+    },
+    "LightMuted": {
+      "rgb": [
+        196,
+        150,
+        142
+      ],
+      "population": 4
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 7,
+  "comment_count": 6,
+  "child_comment_count": 4,
+  "audio_items": [
+    {
+      "post_id": 180777878,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/180777878/tts/ae0b55c9-257f-4d79-aac3-fd55cdb479cc/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 200052994,
+      "body": "Chema, la idea de negociar suena bien. Pero la memoria de ChatGPT no funciona como un interlocutor con el que puedas pactar.\nTú le dices \"critica sin piedad\" y el modelo asiente. Pero mientras tanto consulta fragmentos sobre ti que ni tú sabes cuáles son ni cuándo los usa. Como descubrir que alguien te leía los labios mientras creías tener una conversación privada.\nCon archivos externos tú decides qué entra en cada conversación. Análisis crítico, no subes preferencias. Escritura, sí. Tú mandas.\nEn el resto de la serie explico cómo construir esos archivos paso a paso.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Chema, la idea de negociar suena bien. Pero la memoria de ChatGPT no funciona como un interlocutor con el que puedas pactar."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Tú le dices \"critica sin piedad\" y el modelo asiente. Pero mientras tanto consulta fragmentos sobre ti que ni tú sabes cuáles son ni cuándo los usa. Como descubrir que alguien te leía los labios mientras creías tener una conversación privada."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Con archivos externos tú decides qué entra en cada conversación. Análisis crítico, no subes preferencias. Escritura, sí. Tú mandas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "En el resto de la serie explico cómo construir esos archivos paso a paso."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 180777878,
+      "user_id": 136220542,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-01-15T06:23:58.212Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Aina Lluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "handle": "ainalluna",
+      "reactor_names": [],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "ainalluna",
+      "metadata": {
+        "is_author": true,
+        "membership_state": "subscribed",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Think & Hack ",
+          "id": 5143893,
+          "base_url": "https://ainalluna.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 10,
+      "children_count": 2,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "2 respuestas"
+    },
+    {
+      "id": 199792456,
+      "body": "Borrar la memoria de una IA nos hace sentir ante Hal 9000.\n¿No será preferible hablar con el sistema?. \nActualizar recuerdos, borrar solo las manchas. \nY después, tomando café y leds, acordar los límites: crítica, luz en debilidad, tirar del usuario. \nCon un límite: si no cumples, lo pienso solo. ",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Borrar la memoria de una IA nos hace sentir ante Hal 9000."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "¿No será preferible hablar con el sistema?."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Actualizar recuerdos, borrar solo las manchas."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Y después, tomando café y leds, acordar los límites: crítica, luz en debilidad, tirar del usuario."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Con un límite: si no cumples, lo pienso solo."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 180777878,
+      "user_id": 411104190,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-01-14T18:07:50.114Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Chema Mínguez",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/c44037ba-5523-47ef-9c44-09ec4a29f529_827x827.png",
+      "handle": "chemaminguez",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "chemaminguez",
+      "metadata": {
+        "is_author": false,
+        "membership_state": null,
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Entre lo mínimo",
+          "id": 8891108,
+          "base_url": "https://entrelominimo.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

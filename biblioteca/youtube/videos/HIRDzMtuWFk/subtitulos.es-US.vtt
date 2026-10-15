@@ -1,0 +1,1243 @@
+WEBVTT
+
+00:00:00.100 --> 00:00:02.497
+Los ingenieros de Anthropic acaban de
+
+00:00:01.535 --> 00:00:03.895
+ decir que dejaron de crear agentes y
+
+00:00:02.933 --> 00:00:04.915
+ empezaron a construir algo
+
+00:00:03.953 --> 00:00:06.465
+ completamente diferente. Así que, si
+
+00:00:05.498 --> 00:00:07.747
+ todavía te enfocas en crear agentes,
+
+00:00:06.781 --> 00:00:09.098
+ probablemente estés perdiendo horas en
+
+00:00:08.132 --> 00:00:10.178
+ algo que nunca funcionará como
+
+00:00:09.212 --> 00:00:11.711
+ realmente quieres. Pero si te enfocas
+
+00:00:10.748 --> 00:00:12.982
+ en lo que estos ingenieros están
+
+00:00:12.019 --> 00:00:14.476
+ creando, tendrás un sistema que mejora
+
+00:00:13.514 --> 00:00:15.931
+ por sí solo. En este video, te
+
+00:00:14.970 --> 00:00:17.276
+ mostraré qué dijeron que debemos
+
+00:00:16.314 --> 00:00:18.620
+ construir en su lugar y las cuatro
+
+00:00:17.658 --> 00:00:20.118
+ cosas que hacen que funcione, para que
+
+00:00:19.156 --> 00:00:21.424
+ obtengas los mismos resultados de
+
+00:00:20.462 --> 00:00:22.960
+ calidad que los ingenieros de Anthropic
+
+00:00:21.960 --> 00:00:24.199
+. Así que entremos en materia. Muy
+
+00:00:23.239 --> 00:00:25.799
+ bien, Anthropic no dice que los agentes
+
+00:00:24.839 --> 00:00:27.527
+ hayan muerto. Barry Zhang y Mahesh
+
+00:00:26.571 --> 00:00:29.219
+ Murag, quienes crearon las habilidades
+
+00:00:28.263 --> 00:00:30.911
+ para agentes en Anthropic, dijeron que
+
+00:00:29.955 --> 00:00:32.604
+ básicamente dejaron de reconstruir un
+
+00:00:31.647 --> 00:00:34.122
+ agente distinto para cada trabajo,
+
+00:00:33.165 --> 00:00:35.814
+ porque el agente subyacente se volvió
+
+00:00:34.858 --> 00:00:37.420
+ mucho más versátil de lo esperado.
+
+00:00:36.700 --> 00:00:39.132
+ Para entenderlo rápido, la forma más
+
+00:00:38.170 --> 00:00:40.875
+ sencilla es mirar tu teléfono. Tu
+
+00:00:39.923 --> 00:00:42.499
+ teléfono tiene un procesador, un
+
+00:00:41.546 --> 00:00:43.931
+ sistema operativo y todas las
+
+00:00:42.979 --> 00:00:45.853
+ aplicaciones que usas a diario. Y unas
+
+00:00:44.892 --> 00:00:47.216
+ pocas empresas enormes fabrican el
+
+00:00:46.255 --> 00:00:48.579
+ procesador y el sistema operativo.
+
+00:00:47.879 --> 00:00:50.458
+ Probablemente no cambies ninguna de
+
+00:00:49.503 --> 00:00:51.903
+ esas cosas, pero sí eliges las
+
+00:00:50.948 --> 00:00:53.708
+ aplicaciones, y cada una le da al mismo
+
+00:00:52.753 --> 00:00:55.513
+ teléfono una capacidad muy específica
+
+00:00:54.513 --> 00:00:57.128
+. Toda la infraestructura de IA está
+
+00:00:56.162 --> 00:00:58.440
+ empezando a parecerse bastante a eso.
+
+00:00:57.720 --> 00:01:00.068
+ El modelo es como el procesador, el
+
+00:00:59.107 --> 00:01:01.455
+ entorno de ejecución del agente es
+
+00:01:00.494 --> 00:01:02.688
+ como el sistema operativo y las
+
+00:01:01.727 --> 00:01:03.999
+ habilidades son las aplicaciones.
+
+00:01:03.259 --> 00:01:05.751
+ Claude code ya puede leer archivos,
+
+00:01:04.793 --> 00:01:07.371
+ escribir código, usar herramientas y
+
+00:01:06.414 --> 00:01:08.989
+ completar tareas. No necesitas
+
+00:01:08.030 --> 00:01:10.379
+ reconstruir todo eso cada vez que
+
+00:01:09.419 --> 00:01:11.564
+ quieras ayuda para crear una
+
+00:01:10.605 --> 00:01:13.158
+ presentación, investigar una empresa,
+
+00:01:12.199 --> 00:01:14.792
+ escribir una publicación en LinkedIn o
+
+00:01:13.833 --> 00:01:16.800
+ cualquier otra tarea similar. Le das al
+
+00:01:15.846 --> 00:01:18.625
+ mismo agente de propósito general una
+
+00:01:17.672 --> 00:01:20.403
+ habilidad que contenga el proceso, el
+
+00:01:19.450 --> 00:01:22.135
+ contexto, los scripts y los ejemplos
+
+00:01:21.181 --> 00:01:23.954
+ para ese trabajo específico. Ahora,
+
+00:01:22.990 --> 00:01:25.026
+ hablemos de las cuatro formas
+
+00:01:24.062 --> 00:01:26.063
+ prácticas de hacer que esas
+
+00:01:25.099 --> 00:01:27.534
+ habilidades funcionen mejor. La primera
+
+00:01:26.564 --> 00:01:29.152
+ es sencilla. Deja de hacer que Claude
+
+00:01:28.197 --> 00:01:30.942
+ resuelva el mismo problema técnico una
+
+00:01:29.986 --> 00:01:32.662
+ y otra vez. El equipo de Anthropic
+
+00:01:31.704 --> 00:01:34.340
+ veía que Claude escribía básicamente
+
+00:01:33.382 --> 00:01:35.976
+ el mismo script de Python cada vez que
+
+00:01:35.018 --> 00:01:37.150
+ debía aplicar estilo a una
+
+00:01:36.192 --> 00:01:38.870
+ presentación. Gastaba muchísimos
+
+00:01:37.916 --> 00:01:40.476
+ tokens recreando código que ya se
+
+00:01:39.522 --> 00:01:42.311
+ había escrito y, al hacerlo desde cero
+
+00:01:41.311 --> 00:01:43.916
+, el resultado podía cambiar entre
+
+00:01:42.962 --> 00:01:45.522
+ ejecuciones, por lo que no era muy
+
+00:01:44.568 --> 00:01:47.172
+ consistente. Así que lo que hicieron
+
+00:01:46.209 --> 00:01:48.554
+ fue pedirle a Claude que guardara ese
+
+00:01:47.590 --> 00:01:49.972
+ script dentro de la skill como, en sus
+
+00:01:49.009 --> 00:01:51.390
+ propias palabras, una herramienta para
+
+00:01:50.427 --> 00:01:53.004
+ su yo futuro. Entonces, la próxima vez
+
+00:01:52.039 --> 00:01:54.100
+ que necesite dar formato a una
+
+00:01:53.135 --> 00:01:55.267
+ presentación, simplemente puede
+
+00:01:54.302 --> 00:01:56.611
+ ejecutar la versión que ya demostró
+
+00:01:55.646 --> 00:01:57.869
+ funcionar. Y los desarrolladores han
+
+00:01:56.896 --> 00:01:59.200
+ seguido esta idea desde siempre. Se
+
+00:01:58.240 --> 00:02:00.821
+ llama DRY o D R Y, que significa "no te
+
+00:01:59.861 --> 00:02:02.606
+ repitas"(don't repeat yourself). Si
+
+00:02:01.639 --> 00:02:03.779
+ resuelves un problema con código,
+
+00:02:02.813 --> 00:02:05.120
+ puedes simplemente guardar la solución
+
+00:02:04.154 --> 00:02:06.394
+ y reutilizarla en lugar de reescribir
+
+00:02:05.428 --> 00:02:07.735
+ el código cada vez. Y puedes hacer
+
+00:02:06.773 --> 00:02:09.259
+ exactamente lo mismo con Claude. Tengo
+
+00:02:08.296 --> 00:02:10.690
+ skills en mi propio sistema operativo
+
+00:02:09.727 --> 00:02:11.669
+ de IA que usan los mismos
+
+00:02:10.706 --> 00:02:13.137
+ renderizadores, las mismas plantillas,
+
+00:02:12.175 --> 00:02:14.644
+ scripts y cosas por el estilo cada vez.
+
+00:02:13.744 --> 00:02:15.907
+ Mi flujo de trabajo de carrusel no le
+
+00:02:14.939 --> 00:02:17.071
+ pide a Claude que reinvente cómo se
+
+00:02:16.103 --> 00:02:18.141
+ renderiza una diapositiva en cada
+
+00:02:17.172 --> 00:02:19.393
+ ejecución. La skill simplemente lo
+
+00:02:18.427 --> 00:02:20.740
+ dirige a los archivos que ya funcionan,
+
+00:02:19.774 --> 00:02:21.852
+ y luego puedo concentrarme en el
+
+00:02:20.886 --> 00:02:23.199
+ contenido nuevo, como literalmente solo
+
+00:02:22.233 --> 00:02:24.676
+ cambiar el texto. Así que, la próxima
+
+00:02:23.713 --> 00:02:26.144
+ vez que Claude escriba un script que te
+
+00:02:25.180 --> 00:02:27.611
+ dé un resultado que realmente te guste
+
+00:02:26.611 --> 00:02:28.969
+, no dejes ese código atrapado en el
+
+00:02:28.006 --> 00:02:30.400
+ chat para perderlo después al iniciar
+
+00:02:29.436 --> 00:02:31.774
+ nuevas sesiones. Dile algo como: "
+
+00:02:30.774 --> 00:02:33.045
+Guarda el script que acabas de usar
+
+00:02:32.082 --> 00:02:34.426
+ dentro de la carpeta de scripts de la
+
+00:02:33.462 --> 00:02:35.810
+ skill". "Actualiza el archivo README de
+
+00:02:34.842 --> 00:02:36.772
+ la skill para que las futuras
+
+00:02:35.804 --> 00:02:37.990
+ ejecuciones usen ese archivo en lugar
+
+00:02:37.022 --> 00:02:39.274
+ de intentar reescribirlo de nuevo". "
+
+00:02:38.274 --> 00:02:40.298
+Luego, quiero que ejecutes la skill
+
+00:02:39.327 --> 00:02:41.439
+ otra vez y verifiques los resultados".
+
+00:02:40.539 --> 00:02:42.851
+ Y rápidamente, obviamente aún
+
+00:02:41.894 --> 00:02:44.470
+ necesitas probarlo. Ejecutas el mismo
+
+00:02:43.507 --> 00:02:45.878
+ tipo de tarea dos veces, comparas las
+
+00:02:44.915 --> 00:02:47.361
+ partes importantes y te aseguras de que
+
+00:02:46.398 --> 00:02:48.732
+ la skill realmente esté llamando al
+
+00:02:47.769 --> 00:02:50.189
+ archivo guardado. El resto de la
+
+00:02:49.227 --> 00:02:51.705
+ respuesta de la IA aún puede variar un
+
+00:02:50.743 --> 00:02:52.880
+ poco, pero has reemplazado una
+
+00:02:51.918 --> 00:02:54.358
+ suposición improvisada con un código
+
+00:02:53.396 --> 00:02:55.985
+ probado. Entonces, la moraleja es: no
+
+00:02:55.027 --> 00:02:57.626
+ le pagues a Claude para que redescubra
+
+00:02:56.668 --> 00:02:59.269
+ una solución que ya tienes. Pero, una
+
+00:02:58.305 --> 00:03:00.666
+ vez que empiezas a crear un montón de
+
+00:02:59.702 --> 00:03:01.955
+ estas skills, Claude necesita saber
+
+00:03:00.991 --> 00:03:03.280
+ cuál pertenece al trabajo que tiene
+
+00:03:02.316 --> 00:03:04.480
+ enfrente. Así que pasemos al número
+
+00:03:03.508 --> 00:03:05.865
+ dos. Pensemos en un mecánico por un
+
+00:03:04.902 --> 00:03:07.365
+ segundo. Un mecánico puede tener
+
+00:03:06.403 --> 00:03:08.762
+ cientos de herramientas, pero no las
+
+00:03:07.800 --> 00:03:10.234
+ vuelca todas sobre el banco de trabajo
+
+00:03:09.272 --> 00:03:11.367
+ antes de empezar a cambiar un
+
+00:03:10.404 --> 00:03:13.206
+ neumático. Básicamente identifica el
+
+00:03:12.245 --> 00:03:14.640
+ trabajo, toma las pocas herramientas
+
+00:03:13.678 --> 00:03:16.111
+ que necesita y deja todo lo demás en
+
+00:03:15.150 --> 00:03:17.899
+ la caja de herramientas. Y las skills
+
+00:03:16.939 --> 00:03:19.339
+ funcionan de una manera muy similar
+
+00:03:18.379 --> 00:03:20.739
+ gracias a algo que Anthropic llama
+
+00:03:19.779 --> 00:03:22.524
+ revelación progresiva. Entonces,
+
+00:03:21.567 --> 00:03:24.106
+ cuando Claude comienza, no lee todas
+
+00:03:23.149 --> 00:03:25.816
+ las instrucciones, todos los ejemplos y
+
+00:03:24.859 --> 00:03:27.398
+ todos los scripts de cada una de tus
+
+00:03:26.440 --> 00:03:29.006
+ skills. Eso sería una enorme pérdida
+
+00:03:28.043 --> 00:03:30.620
+ de tiempo y de tokens. Comienza con el
+
+00:03:29.659 --> 00:03:31.898
+ nombre y la descripción de cada
+
+00:03:30.936 --> 00:03:33.369
+ habilidad, y esto se llama YAML front
+
+00:03:32.408 --> 00:03:34.726
+ matter. Luego, cuando tu prompt
+
+00:03:33.763 --> 00:03:35.758
+ específico coincide con la
+
+00:03:34.794 --> 00:03:37.010
+ descripción de una habilidad, es
+
+00:03:36.046 --> 00:03:38.483
+ cuando lee el archivo skill.md completo
+
+00:03:37.483 --> 00:03:39.900
+. Y cualquier referencia o script más
+
+00:03:38.933 --> 00:03:41.147
+ grande puede permanecer en la carpeta
+
+00:03:40.180 --> 00:03:42.230
+ hasta que la tarea realmente los
+
+00:03:41.263 --> 00:03:44.100
+ necesite. Anthropic describe esto como
+
+00:03:43.145 --> 00:03:45.741
+ dejar que Claude cargue información
+
+00:03:44.785 --> 00:03:47.341
+ solo cuando sea necesario. Eso
+
+00:03:46.374 --> 00:03:48.688
+ básicamente mantiene las instrucciones
+
+00:03:47.722 --> 00:03:49.868
+ irrelevantes fuera del contexto de
+
+00:03:48.901 --> 00:03:51.013
+ trabajo, lo que ayuda a evitar la
+
+00:03:50.047 --> 00:03:52.361
+ saturación y confusión que a veces se
+
+00:03:51.395 --> 00:03:53.704
+ llama degradación de contexto. Pero
+
+00:03:52.740 --> 00:03:55.144
+ esto depende de que tu descripción sea
+
+00:03:54.180 --> 00:03:56.715
+ muy, muy clara. Si una habilidad dice
+
+00:03:55.753 --> 00:03:58.228
+ ayudar con contenido y otra dice crear
+
+00:03:57.267 --> 00:03:59.703
+ activos de marketing, entonces Claude
+
+00:03:58.742 --> 00:04:01.139
+ básicamente está adivinando porque
+
+00:04:00.178 --> 00:04:02.614
+ esas descripciones se superponen y no
+
+00:04:01.653 --> 00:04:04.012
+ le dicen al agente cuándo debería
+
+00:04:03.050 --> 00:04:05.701
+ ejecutarse cada habilidad. Así que una
+
+00:04:04.738 --> 00:04:07.174
+ descripción más sólida podría decir
+
+00:04:06.211 --> 00:04:08.352
+ algo como: "Esta habilidad crea
+
+00:04:07.389 --> 00:04:09.752
+ carruseles de LinkedIn a partir de un
+
+00:04:08.789 --> 00:04:11.190
+ tema, un guion o un esquema. Úsala
+
+00:04:10.225 --> 00:04:12.451
+ cuando el usuario pida un carrusel,
+
+00:04:11.486 --> 00:04:13.538
+ diapositivas de carrusel o una
+
+00:04:12.573 --> 00:04:14.940
+ publicación de documento de LinkedIn".
+
+00:04:14.080 --> 00:04:16.262
+ Ahora Claude sabe qué hace la
+
+00:04:15.302 --> 00:04:17.840
+ habilidad y exactamente cuándo usarla.
+
+00:04:17.020 --> 00:04:19.272
+ Así que mantén cada habilidad
+
+00:04:18.312 --> 00:04:20.848
+ enfocada en una tarea específica, usa
+
+00:04:19.888 --> 00:04:22.383
+ palabras que una persona real usaría
+
+00:04:21.423 --> 00:04:23.959
+ en la descripción y asegúrate de que
+
+00:04:22.999 --> 00:04:25.373
+ dos habilidades no compitan por la
+
+00:04:24.413 --> 00:04:26.838
+ misma solicitud. Y realmente puedes
+
+00:04:25.867 --> 00:04:27.964
+ hacer que Claude audite el código por
+
+00:04:26.993 --> 00:04:29.374
+ ti. Solo di: "Oye, revisa todas mis
+
+00:04:28.406 --> 00:04:30.857
+ descripciones de habilidades. Para cada
+
+00:04:29.899 --> 00:04:32.452
+ una, dime qué hace, cuándo debería
+
+00:04:31.494 --> 00:04:33.962
+ activarse y dónde se superpone con
+
+00:04:33.004 --> 00:04:35.768
+ otras habilidades. Reescribe solo las
+
+00:04:34.812 --> 00:04:37.449
+ descripciones que sean ambiguas". Y
+
+00:04:36.480 --> 00:04:38.619
+ luego puedes probar estas tres cosas.
+
+00:04:37.742 --> 00:04:39.957
+ La primera es una solicitud obvia que
+
+00:04:38.990 --> 00:04:41.320
+ debería activarla. La segunda es una
+
+00:04:40.355 --> 00:04:42.674
+ solicitud con otras palabras que aún
+
+00:04:41.710 --> 00:04:44.167
+ debería activarla. Y la tercera es una
+
+00:04:43.203 --> 00:04:45.204
+ solicitud no relacionada que
+
+00:04:44.240 --> 00:04:46.599
+ definitivamente no debería activarla.
+
+00:04:45.699 --> 00:04:47.835
+ Y recuerda que una habilidad que Claude
+
+00:04:46.864 --> 00:04:48.971
+ no puede encontrar es básicamente una
+
+00:04:48.000 --> 00:04:50.169
+ habilidad que no tienes. Entonces,
+
+00:04:49.210 --> 00:04:51.770
+ encontrar la habilidad correcta maneja
+
+00:04:50.811 --> 00:04:53.395
+ las tareas de hoy. Pero el siguiente
+
+00:04:52.438 --> 00:04:55.101
+ paso es asegurarse de que la habilidad
+
+00:04:54.145 --> 00:04:56.833
+ mejore cada vez que la usas. Así que,
+
+00:04:55.868 --> 00:04:58.159
+ número tres, cada vez que corriges a
+
+00:04:57.194 --> 00:04:59.520
+ Claude y luego cierras el chat, es muy
+
+00:04:58.555 --> 00:05:00.811
+ probable que hayas desperdiciado esa
+
+00:04:59.846 --> 00:05:02.405
+ lección. Quizás usó el tono
+
+00:05:01.445 --> 00:05:03.654
+ incorrecto, omitió un paso de
+
+00:05:02.694 --> 00:05:05.063
+ validación o quizás formateó el
+
+00:05:04.104 --> 00:05:06.553
+ resultado final de una manera que no
+
+00:05:05.594 --> 00:05:08.217
+ quieres volver a ver. Y si todo lo que
+
+00:05:07.250 --> 00:05:09.416
+ le dices a Claude es que lo arregle,
+
+00:05:08.449 --> 00:05:10.713
+ probablemente lo hará, pero el proceso
+
+00:05:09.745 --> 00:05:11.975
+ seguirá estando roto. Y esto es algo
+
+00:05:11.005 --> 00:05:12.984
+ con lo que he tenido que trabajar
+
+00:05:12.014 --> 00:05:14.112
+ dentro de mi propio sistema operativo
+
+00:05:13.141 --> 00:05:15.410
+ de IA. Si un agente me dice que no
+
+00:05:14.446 --> 00:05:16.876
+ encuentra un archivo que sé que existe
+
+00:05:15.876 --> 00:05:18.013
+, no solo le doy la ruta y sigo
+
+00:05:17.050 --> 00:05:19.580
+ adelante. Le pido que retroceda.
+
+00:05:18.693 --> 00:05:20.993
+ Básicamente, le pido que me muestre su
+
+00:05:20.026 --> 00:05:22.272
+ trabajo. Que me muestre dónde buscó.
+
+00:05:21.372 --> 00:05:23.549
+ Que averigüe por qué pasó por alto
+
+00:05:22.581 --> 00:05:24.902
+ el archivo. Y luego, que actualice el
+
+00:05:23.936 --> 00:05:26.281
+ enrutamiento o la habilidad para que la
+
+00:05:25.315 --> 00:05:27.488
+ próxima ejecución comience en el
+
+00:05:26.522 --> 00:05:29.110
+ lugar correcto. Anthropic diseñó las
+
+00:05:28.150 --> 00:05:30.566
+ habilidades como un paso hacia este
+
+00:05:29.606 --> 00:05:32.139
+ tipo de aprendizaje continuo. Su
+
+00:05:31.179 --> 00:05:33.579
+ garantía es que todo lo que Claude
+
+00:05:32.619 --> 00:05:34.699
+ escribe puede ser utilizado
+
+00:05:33.739 --> 00:05:36.259
+ eficientemente por una versión futura
+
+00:05:35.299 --> 00:05:37.377
+ de sí mismo. Ahora, aquí está la
+
+00:05:36.397 --> 00:05:38.655
+ cuestión. Las habilidades no recuerdan
+
+00:05:37.689 --> 00:05:40.024
+ cada detalle y no son una grabación de
+
+00:05:39.059 --> 00:05:41.223
+ todas las conversaciones que hayas
+
+00:05:40.257 --> 00:05:42.560
+ tenido. Básicamente, almacenan el
+
+00:05:41.597 --> 00:05:43.969
+ conocimiento procedimental que Claude
+
+00:05:43.006 --> 00:05:45.155
+ necesita para hacer ese trabajo
+
+00:05:44.192 --> 00:05:46.388
+ específico. Así que, cuando un
+
+00:05:45.423 --> 00:05:47.658
+ proceso es incorrecto, actualiza las
+
+00:05:46.692 --> 00:05:48.962
+ instrucciones en el archivo skill.md.
+
+00:05:48.079 --> 00:05:50.572
+ Cuando a Claude le falte tu voz, tu
+
+00:05:49.615 --> 00:05:52.279
+ marca o tus ejemplos, añade un archivo
+
+00:05:51.322 --> 00:05:54.056
+ de referencia. Y cuando el mismo error
+
+00:05:53.095 --> 00:05:55.638
+ siga ocurriendo, añade una regla clara
+
+00:05:54.678 --> 00:05:57.199
+ que lo evite explícitamente. Y luego,
+
+00:05:56.233 --> 00:05:58.361
+ vuelve a ejecutar la misma tarea.
+
+00:05:57.461 --> 00:05:59.897
+ Puedes usar un prompt como este: Revisa
+
+00:05:58.934 --> 00:06:01.371
+ qué salió mal durante esta ejecución
+
+00:06:00.371 --> 00:06:03.437
+. Decide si la causa fue el proceso,
+
+00:06:02.494 --> 00:06:05.594
+ falta de contexto, una regla débil o
+
+00:06:04.650 --> 00:06:07.588
+ código poco fiable. Y luego, actualiza
+
+00:06:06.627 --> 00:06:08.992
+ la habilidad en el lugar permanente
+
+00:06:08.031 --> 00:06:10.396
+ más pequeño, vuelve a ejecutar la
+
+00:06:09.435 --> 00:06:11.899
+ tarea y verifica la solución. Con el
+
+00:06:10.929 --> 00:06:13.103
+ tiempo, la habilidad se convierte en un
+
+00:06:12.133 --> 00:06:14.247
+ registro vivo de cómo quieres que se
+
+00:06:13.277 --> 00:06:15.779
+ haga el trabajo. Y quiero ser preciso
+
+00:06:14.819 --> 00:06:17.219
+ con la frase "a prueba de modelos".
+
+00:06:16.450 --> 00:06:18.750
+ Ninguna habilidad puede obligar a un
+
+00:06:17.786 --> 00:06:20.194
+ modelo más débil a rendir exactamente
+
+00:06:19.230 --> 00:06:21.568
+ igual que uno más fuerte. Diferentes
+
+00:06:20.597 --> 00:06:22.492
+ modelos, obviamente, seguirán
+
+00:06:21.521 --> 00:06:23.535
+ produciendo resultados distintos e
+
+00:06:22.565 --> 00:06:24.548
+ interpretarán las habilidades de
+
+00:06:23.578 --> 00:06:25.948
+ formas diferentes. Pero tu proceso
+
+00:06:24.997 --> 00:06:27.951
+ puede ser portátil. Las habilidades de
+
+00:06:26.993 --> 00:06:29.579
+ agente son un formato abierto, por lo
+
+00:06:28.621 --> 00:06:31.121
+ que la misma carpeta de habilidades
+
+00:06:30.164 --> 00:06:32.834
+ puede funcionar en entornos compatibles
+
+00:06:31.877 --> 00:06:34.420
+ como Codex, Hermes o cualquier otro.
+
+00:06:33.739 --> 00:06:35.847
+ Así que prueba una habilidad
+
+00:06:34.886 --> 00:06:37.339
+ importante con otro agente compatible.
+
+00:06:36.739 --> 00:06:38.837
+ Si el resultado falla, busca
+
+00:06:37.876 --> 00:06:40.054
+ suposiciones ocultas, ejemplos
+
+00:06:39.093 --> 00:06:41.545
+ faltantes o instrucciones que solo un
+
+00:06:40.584 --> 00:06:42.840
+ modelo entiende, luego ajusta la
+
+00:06:41.879 --> 00:06:44.800
+ habilidad y sigue probando. Bien, los
+
+00:06:43.836 --> 00:06:46.083
+ tres primeros eran muy importantes,
+
+00:06:45.119 --> 00:06:47.331
+ pero este es probablemente el más
+
+00:06:46.367 --> 00:06:48.786
+ importante de todos. Una habilidad no
+
+00:06:47.817 --> 00:06:50.051
+ debería entregarte su primer intento y
+
+00:06:49.082 --> 00:06:51.339
+ dar el trabajo por terminado. Esta es
+
+00:06:50.373 --> 00:06:52.708
+ probablemente la mayor carencia que veo
+
+00:06:51.742 --> 00:06:53.940
+ en muchos flujos de trabajo con IA.
+
+00:06:53.160 --> 00:06:55.689
+ Ejecutas la habilidad, crea el archivo,
+
+00:06:54.728 --> 00:06:57.257
+ lo guarda y luego vuelve a ti diciendo:
+
+00:06:56.296 --> 00:06:59.073
+ "Hola, he terminado". Y luego lo abres
+
+00:06:58.107 --> 00:07:00.410
+ y te das cuenta de que el formato está
+
+00:06:59.443 --> 00:07:01.546
+ mal, las fuentes no respaldan las
+
+00:07:00.579 --> 00:07:02.849
+ afirmaciones o que el guion no conecta
+
+00:07:01.882 --> 00:07:04.051
+ en absoluto con la persona a la que
+
+00:07:03.085 --> 00:07:06.308
+ intentas llegar. Así que la IA hizo
+
+00:07:05.360 --> 00:07:08.391
+ quizás el 70 u 80%del trabajo, y ahora
+
+00:07:07.443 --> 00:07:10.422
+ tú, como humano, haces manualmente el
+
+00:07:09.474 --> 00:07:12.412
+ 20 o 30%restante. Pero si ya sabes
+
+00:07:11.448 --> 00:07:13.844
+ cómo revisar ese trabajo personalmente
+
+00:07:12.844 --> 00:07:14.775
+, simplemente integra esas
+
+00:07:13.811 --> 00:07:16.136
+ verificaciones en la habilidad y deja
+
+00:07:15.172 --> 00:07:17.496
+ que la IA reduzca más esa brecha por
+
+00:07:16.532 --> 00:07:19.233
+ ti. Por ejemplo, para una presentación
+
+00:07:18.233 --> 00:07:20.586
+, haz que la habilidad procese cada
+
+00:07:19.624 --> 00:07:22.016
+ diapositiva como imagen, inspeccione
+
+00:07:21.055 --> 00:07:23.369
+ las capturas, corrija lo que esté
+
+00:07:22.408 --> 00:07:24.800
+ cortado, difícil de leer o fuera de
+
+00:07:23.838 --> 00:07:26.495
+ lugar, y vuelva a procesarlo. Para un
+
+00:07:25.529 --> 00:07:27.841
+ informe de investigación, haz que abra
+
+00:07:26.875 --> 00:07:29.019
+ las fuentes primarias, compare las
+
+00:07:28.052 --> 00:07:30.364
+ afirmaciones con la evidencia y elimine
+
+00:07:29.398 --> 00:07:31.609
+ todo lo que no haya podido verificar
+
+00:07:30.643 --> 00:07:33.429
+ realmente. Y si estás creando un guion
+
+00:07:32.429 --> 00:07:35.057
+, un anuncio o algo más subjetivo, haz
+
+00:07:34.099 --> 00:07:36.603
+ que varias personas diferentes, como
+
+00:07:35.644 --> 00:07:38.273
+ varios subagentes distintos, lo revisen
+
+00:07:37.315 --> 00:07:39.767
+ y lo discutan. Un agente principiante
+
+00:07:38.800 --> 00:07:40.797
+ puede decirte dónde se siente
+
+00:07:39.830 --> 00:07:41.986
+ confundido. Un agente de compra
+
+00:07:41.022 --> 00:07:43.366
+ escéptico puede decirte lo que no le
+
+00:07:42.403 --> 00:07:44.749
+ convence. Alguien de tu audiencia real
+
+00:07:43.782 --> 00:07:45.899
+ puede decirte dónde probablemente
+
+00:07:44.931 --> 00:07:47.249
+ dejarían de prestar atención. Ahora
+
+00:07:46.283 --> 00:07:48.373
+ bien, no tienes que aceptar cada
+
+00:07:47.407 --> 00:07:49.464
+ comentario que recibas de estas
+
+00:07:48.498 --> 00:07:50.759
+ diferentes personalidades de agentes.
+
+00:07:49.896 --> 00:07:51.921
+ Eso probablemente empeoraría el
+
+00:07:50.953 --> 00:07:53.042
+ resultado, pero la habilidad puede
+
+00:07:52.074 --> 00:07:54.228
+ encontrar los problemas que aparecen
+
+00:07:53.260 --> 00:07:55.445
+ más de una vez, hacer las revisiones
+
+00:07:54.477 --> 00:07:56.535
+ más sólidas y luego realizar la
+
+00:07:55.567 --> 00:07:57.593
+ revisión de nuevo. Y a veces,
+
+00:07:56.625 --> 00:07:58.831
+ simplemente escuchar esas perspectivas
+
+00:07:57.863 --> 00:07:59.954
+ diferentes es realmente útil. Y
+
+00:07:58.992 --> 00:08:01.330
+ rápido, la verificación no es que
+
+00:08:00.369 --> 00:08:02.822
+ Claude lea su propio trabajo y diga: "
+
+00:08:01.822 --> 00:08:04.287
+Me parece bien". Necesita algún tipo
+
+00:08:03.324 --> 00:08:05.558
+ de evidencia externa a ese primer
+
+00:08:04.595 --> 00:08:06.791
+ borrador, ya sea una captura, un
+
+00:08:05.828 --> 00:08:08.136
+ resultado de prueba, una fuente, un
+
+00:08:07.173 --> 00:08:09.481
+ ejemplo de referencia o, como dije,
+
+00:08:08.519 --> 00:08:10.752
+ comentarios desde perspectivas de
+
+00:08:09.789 --> 00:08:12.316
+ diferentes agentes. Y puedes añadir
+
+00:08:11.355 --> 00:08:13.820
+ algo así en casi cualquier habilidad.
+
+00:08:12.973 --> 00:08:15.264
+ Di algo como: "Antes de devolver el
+
+00:08:14.301 --> 00:08:16.665
+ resultado final, define los criterios
+
+00:08:15.702 --> 00:08:17.928
+ de aceptación". Crea la primera
+
+00:08:16.963 --> 00:08:19.176
+ versión, inspéccionala usando el
+
+00:08:18.212 --> 00:08:20.461
+ método de verificación relevante,
+
+00:08:19.496 --> 00:08:21.852
+ corrige cada problema que encuentres y
+
+00:08:20.888 --> 00:08:23.475
+ luego ejecuta otra pasada. Devuelve el
+
+00:08:22.511 --> 00:08:24.843
+ resultado solo después de que cumpla
+
+00:08:23.879 --> 00:08:26.283
+ con los criterios, con un breve resumen
+
+00:08:25.319 --> 00:08:27.723
+ de lo que revisaste. Y si algo no se
+
+00:08:26.754 --> 00:08:28.670
+ puede verificar, entonces dime
+
+00:08:27.700 --> 00:08:29.677
+ exactamente qué es lo que queda
+
+00:08:28.707 --> 00:08:31.048
+ pendiente. Es aún mejor si existe
+
+00:08:30.088 --> 00:08:32.391
+ algún tipo de métrica de éxito
+
+00:08:31.431 --> 00:08:33.932
+ objetiva que puedas establecer y hacer
+
+00:08:32.971 --> 00:08:35.472
+ que los agentes sigan trabajando hasta
+
+00:08:34.512 --> 00:08:37.139
+ alcanzarla objetivamente. Pero en fin,
+
+00:08:36.179 --> 00:08:38.299
+ ahora el primer resultado es
+
+00:08:37.339 --> 00:08:39.660
+ básicamente un borrador interno.
+
+00:08:38.859 --> 00:08:41.460
+ Claude lo revisa, detecta los problemas
+
+00:08:40.501 --> 00:08:43.021
+ obvios y luego lo mejora antes de que
+
+00:08:42.062 --> 00:08:44.171
+ tú veas nada, antes de que
+
+00:08:43.212 --> 00:08:45.732
+ desperdicies tu tiempo y atención en
+
+00:08:44.773 --> 00:08:47.267
+ ello. Porque al final, tú seguirás
+
+00:08:46.304 --> 00:08:48.264
+ siendo el juez definitivo,
+
+00:08:47.301 --> 00:08:49.705
+ especialmente cuando hay factores como
+
+00:08:48.742 --> 00:08:51.035
+ el gusto, la estrategia o el juicio
+
+00:08:50.072 --> 00:08:52.439
+ comercial involucrados en el proceso.
+
+00:08:51.640 --> 00:08:53.879
+ Sin embargo, el objetivo es dejar de
+
+00:08:52.913 --> 00:08:55.187
+ perder el tiempo detectando problemas
+
+00:08:54.221 --> 00:08:56.495
+ que la IA podría haber detectado por
+
+00:08:55.530 --> 00:08:57.900
+ sí sola. Tu primer vistazo no debería
+
+00:08:56.933 --> 00:08:58.999
+ ser el primer vistazo del agente.
+
+00:08:58.099 --> 00:09:00.273
+ Debería ser, ya sabes, el cuarto,
+
+00:08:59.308 --> 00:09:01.448
+ quinto o quizás incluso el sexto
+
+00:09:00.482 --> 00:09:02.649
+ vistazo del agente. Así que ahora
+
+00:09:01.677 --> 00:09:03.514
+ sabes lo que los ingenieros de
+
+00:09:02.542 --> 00:09:04.631
+ Anthropic están construyendo realmente
+
+00:09:03.631 --> 00:09:06.302
+. Guardan código probado en lugar de
+
+00:09:05.346 --> 00:09:07.949
+ reescribirlo. Le dan a cada habilidad
+
+00:09:06.989 --> 00:09:09.334
+ una descripción precisa, para que
+
+00:09:08.373 --> 00:09:10.600
+ Claude cargue solo la correcta.
+
+00:09:09.732 --> 00:09:11.922
+ Convierten las correcciones en
+
+00:09:10.962 --> 00:09:13.311
+ instrucciones duraderas que siguen
+
+00:09:12.350 --> 00:09:14.898
+ mejorando, y verifican el trabajo antes
+
+00:09:13.938 --> 00:09:16.382
+ de que llegue a ti. Así es como tomas
+
+00:09:15.414 --> 00:09:17.595
+ un agente de propósito general y le
+
+00:09:16.627 --> 00:09:18.512
+ enseñas cómo trabajas tú
+
+00:09:17.545 --> 00:09:19.970
+ específicamente. Y si quieres ver
+
+00:09:19.015 --> 00:09:21.795
+ cómo organizo los agentes, el contexto
+
+00:09:20.795 --> 00:09:23.528
+, las conexiones, las capacidades y el
+
+00:09:22.574 --> 00:09:25.216
+ ritmo de todo esto, pondré mi curso
+
+00:09:24.262 --> 00:09:26.996
+ completo de sistema operativo de IA en
+
+00:09:26.041 --> 00:09:28.714
+ pantalla justo aquí. También tengo
+
+00:09:27.751 --> 00:09:30.203
+ cursos gratuitos, plantillas y recursos
+
+00:09:29.241 --> 00:09:31.656
+ dentro de mi comunidad gratuita que te
+
+00:09:30.693 --> 00:09:33.071
+ ayudarán a crear agentes y flujos de
+
+00:09:32.108 --> 00:09:34.435
+ trabajo desde cero. Puedes unirte con
+
+00:09:33.466 --> 00:09:35.505
+ el enlace en la descripción, y si
+
+00:09:34.535 --> 00:09:36.697
+ quieres profundizar en cómo convertir
+
+00:09:35.727 --> 00:09:37.736
+ estas habilidades en una carrera,
+
+00:09:36.767 --> 00:09:38.928
+ puedes echar un vistazo a mi comunidad
+
+00:09:37.959 --> 00:09:40.378
+ plus. Pero de todos modos, eso es todo
+
+00:09:39.414 --> 00:09:41.664
+ por este video. Así que si les gustó
+
+00:09:40.692 --> 00:09:42.653
+ y aprendieron algo nuevo, por favor
+
+00:09:41.680 --> 00:09:43.476
+ denle un "me gusta", me ayuda
+
+00:09:42.504 --> 00:09:44.731
+ muchísimo. Y como siempre, les
+
+00:09:43.763 --> 00:09:45.924
+ agradezco que hayan llegado al final
+
+00:09:44.956 --> 00:09:47.072
+ del video. Los veré a todos en el
+
+00:09:46.099 --> 00:09:48.377
+ próximo. Gracias a todos.

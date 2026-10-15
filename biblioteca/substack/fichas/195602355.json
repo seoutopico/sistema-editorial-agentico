@@ -1,0 +1,33 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "Codex",
+    "ChatGPT Plus",
+    "Claude Code",
+    "OpenAI",
+    "GPT-5.5",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "LinkedIn"
+  ],
+  "fecha": "2026-04-27",
+  "huella": "a9560e087dad16009e380e42f10c69c1fef6a6572369e39c4d2f73f9297276cd",
+  "id": "195602355",
+  "metricas_publicas": {
+    "comentarios": 5,
+    "reacciones": 19,
+    "restacks": 2
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "Codex como agente incluido en ChatGPT Plus",
+    "sistemas de escritura con archivos de criterio",
+    "portabilidad entre agentes",
+    "instalación de Codex"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "La herramienta nunca es la decisión: lo que aguanta el cambio de agente es el criterio que dejaste escrito en archivos antes de pedirle nada a la IA.",
+  "titulo": "Llevas meses pagando ChatGPT y crees que te falta Claude Code. No te falta.",
+  "url": "https://ainalluna.substack.com/p/codex-chatgpt-plus-incluido"
+}

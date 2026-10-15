@@ -1,0 +1,31 @@
+{
+  "basada_en": "completo",
+  "enfoque": "caso",
+  "entidades": [
+    "Hacki",
+    "Hermes Agent",
+    "Nous Research",
+    "Substack Notes",
+    "Think&Hack"
+  ],
+  "fecha": "2026-08-23",
+  "huella": "1e4344b097e8e1782c55204e36a4392ae8efed7bd642b1e79cb0a621501fac10",
+  "id": "212107861",
+  "metricas_publicas": {
+    "comentarios": 10,
+    "reacciones": 19,
+    "restacks": 3
+  },
+  "nivel": "intermedio",
+  "subtemas": [
+    "agente autónomo con objetivo medible",
+    "límites de la autonomía",
+    "línea base y correlaciones de datos",
+    "tareas programadas desatendidas",
+    "crecimiento vía Substack Notes"
+  ],
+  "tema": "Agentes de IA",
+  "tesis": "Un agente autónomo con un objetivo real solo tiene sentido si parte de una línea base medible, aprende de los resultados semana a semana y respeta límites claros sobre lo que no debe hacer por ti.",
+  "titulo": "He construido un agente autónomo y te explico cómo.",
+  "url": "https://ainalluna.substack.com/p/agente-ia-autonomo-hermes-agent"
+}

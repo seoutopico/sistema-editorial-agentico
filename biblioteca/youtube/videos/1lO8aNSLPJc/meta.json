@@ -1,0 +1,35 @@
+{
+  "canal": "AI News & Strategy Daily | Nate B Jones",
+  "canal_url": "https://www.youtube.com/@NateBJones",
+  "duracion_segundos": 1353,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:31Z",
+    "likes": null,
+    "visualizaciones": 357000
+  },
+  "fecha": "2026-09-15",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La novedad",
+  "id": "1lO8aNSLPJc",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Noticia de hardware sin aplicación práctica directa",
+    "relevante": false,
+    "tema": null
+  },
+  "senales": {
+    "dias": 29,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "alto",
+    "mediana_canal": 64500.0,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 5.53,
+    "senal_incompleta": false
+  },
+  "titulo": "Apple's New Mac Line is Built Around Local AI. The Bet Is You'd Rather Own Than Rent.",
+  "url": "https://www.youtube.com/watch?v=1lO8aNSLPJc"
+}

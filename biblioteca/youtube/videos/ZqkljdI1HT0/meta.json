@@ -1,0 +1,43 @@
+{
+  "canal": "Xavier Mitjana",
+  "canal_url": "https://www.youtube.com/@XavierMitjana",
+  "descripcion": "Prueba Topview MCP: https://www.topview.ai/?via=xavier-mitjana\n\n\nDescubre si el nuevo Qwen 3.8 27B puede sustituir a los grandes modelos de pago en la nube ejecutándose de forma 100% gratuita y privada en local. En este vídeo ponemos a prueba este LLM open source frente a Google Gemini y Claude Opus en dos retos reales de IA agéntica —programación de una aplicación completa mediante herramientas MCP y análisis masivo de más de 40 documentos corporativos con cuadros de mando en Excel—, además de compartir la configuración y optimización clave en LM Studio para sacarle el máximo rendimiento en velocidad y contexto en tarjetas gráficas de consumo a partir de 8 GB de VRAM sin depender de servidores externos.\n\n\n--\n\nMARCAS DE TIEMPO\n\n00:00 Intro\n00:43 Nuevo Qwen\n02:14 Los 2 test\n03:14 Ejemplo 1\n04:47 Topview\n06:20 Ejemplo 1 - Cont\n11:21 Ejemplo 2\n16:53 Consejos de uso\n\n\n---\n\n✅ SUCRÍBETE A MI CANAL: http://bit.ly/suscribirse_XM​​​​\n\n---\n\nInstagram: https://www.instagram.com/xavier_mitjana/\nTwitter: https://twitter.com/xavier_mitjana\n\nContacto comercial: xavmit.yt@gmail.com\n\n*Al realizar una compra a través de cualquiera de estos enlaces de afiliado, recibimos una comisión muy pequeña sin costo adicional para ti. Esto me ayuda a hacer el canal sostenible y seguir ofreciendo contenido de calidad.\n\n#inteligenciaartificial",
+  "duracion_segundos": 1176,
+  "estadisticas": {
+    "comentarios": 244,
+    "fecha_captura": "2026-10-14T19:00:01Z",
+    "likes": 4474,
+    "visualizaciones": 211440
+  },
+  "fecha": "2026-08-23",
+  "fecha_precision": "exacta",
+  "formula_titulo": "sin clasificar",
+  "id": "ZqkljdI1HT0",
+  "metadatos_completos": true,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Modelos locales gratuitos de nivel alto en el PC",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 52,
+    "formato_largo": true,
+    "interaccion": 0.0223,
+    "interaccion_motivo": null,
+    "interes": "alto",
+    "mediana_canal": 99000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 2.14,
+    "senal_incompleta": false
+  },
+  "subtitulos": {
+    "archivo": "subtitulos.es.vtt",
+    "disponibles": true,
+    "fecha": "2026-10-14T19:04:12Z",
+    "idioma": "es",
+    "origen": "manuales"
+  },
+  "titulo": "OPUS-level AI on your PC: Free and UNLIMITED",
+  "url": "https://www.youtube.com/watch?v=ZqkljdI1HT0"
+}

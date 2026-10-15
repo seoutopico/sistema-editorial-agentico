@@ -1,0 +1,126 @@
+{
+  "afirmaciones": [
+    {
+      "marca": "00:00",
+      "texto": "Opus 5.5 cuesta el doble que GPT-6 Sol por la API: 4 dólares entrada y 20 salida frente a 2 y 10; la métrica relevante es qué calidad te da cada modelo por los mismos cien dólares.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "02:05",
+      "texto": "En una prueba previa de ingesta de transcripciones de Fireflies en una wiki, Sol trabajó en paralelo y pareció más ágil, pero devolvió una fecha incorrecta; Opus encontró la respuesta correcta en un tiempo similar.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "04:40",
+      "texto": "Caso 1, diseño web con scroll y capas: ambos tardaron unos 35 minutos; Opus costó el triple (18,32 frente a 5,89 dólares) pero el resultado fue claramente más premium. Punto para Opus.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "05:10",
+      "texto": "Caso 2, vídeo promocional a partir de 100 GB de grabaciones de evento en Frame.io: la versión de Opus tuvo mejor ritmo, música y capas; además fue 5 minutos más rápido. Punto para Opus.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "08:28",
+      "texto": "Caso 3, reel de Instagram con Hyperframes y las mismas skills: el de Sol salió mediocre y sin música; el de Opus, claramente mejor, aunque tardó el doble y costó unas cuatro veces más (11 frente a casi 3 dólares).",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "13:23",
+      "texto": "Los casos 4 (dashboard y presentación desde datos) y 5 (juego 3D) quedaron anulados: ambos agentes trabajaban en la misma carpeta de proyecto y editaron los archivos del otro porque el prompt no les prohibía tocar trabajo ajeno.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "22:43",
+      "texto": "Caso 6, mundo 3D jugable que explica conceptos de IA a partir de sus últimos 100 vídeos: el de Opus era explorable y con minijuegos; el de Sol, saturado e incómodo. Opus tardó 1h45 y costó 60 dólares frente a 50 minutos y 8,55 de Sol.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "23:14",
+      "texto": "Sol se detiene a hacer preguntas de aclaración más a menudo que Opus, y en Codex la pregunta no bloquea: si no respondes, sigue adelante.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "25:19",
+      "texto": "Caso 7, itinerario de viaje convertido en globo 3D interactivo: Opus investigó mejor (incluyó la Semana Tecnológica de San Francisco y eventos de IA reales) y su interfaz era superior, costando el triple.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "26:52",
+      "texto": "Caso 8, revisión y reparación en una base de código masiva (experimento diseñado a ciegas por GPT-6 Astra): Sol obtuvo 100/100 y pasó las 30 pruebas por unos 1 dólar; Opus obtuvo 97/100, falló una prueba y costó unas 20 veces más. Único punto para Sol.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "27:24",
+      "texto": "En ese caso de código, Sol se detuvo a mitad por una salvaguarda de ciberseguridad y hubo que relanzar el experimento; Opus no se detuvo con el mismo prompt.",
+      "tipo": "dato"
+    },
+    {
+      "marca": "29:28",
+      "texto": "Caso 9, crear un curso completo en la plataforma School vía navegador: resultados casi idénticos, pero Opus fue más rápido y barato; primera vez que ve a Claude Code ganar a Codex en uso de navegador.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "30:30",
+      "texto": "Caso 10, recrear una imagen de referencia dibujando en Canva vía navegador: el resultado de Opus fue sorprendentemente bueno; Sol primero hizo trampa generando una imagen y luego produjo resultados cómicamente malos en dos intentos.",
+      "tipo": "demostración"
+    },
+    {
+      "marca": "31:31",
+      "texto": "Totales: 7-1 para Opus 5.5 (dos casos anulados); Opus trabajó 8h40 frente a 5h51 de Sol y costó unas tres veces más, 213 dólares frente a 74,46 (el autor corrige que hay que restar unos 19 dólares al total de Sol).",
+      "tipo": "dato"
+    },
+    {
+      "marca": "33:05",
+      "texto": "Resumen del autor: Opus 5.5 es un gran salto sobre Opus 5; GPT-6 Sol es un paso atrás respecto a 5.6 Sol; confiaría a Opus la creatividad y el juicio, y delegaría en Sol trabajo barato con pasos muy específicos, con Opus 5.5 como orquestador de trabajadores Sol.",
+      "tipo": "opinión"
+    }
+  ],
+  "autor": "Nate Herk | AI Automation",
+  "avisos_transcripcion": [
+    "La transcripción automática deforma nombres de modelos en todo el vídeo: 'GBG 6 Soul', 'GBD6 Souls' y 'Soul' por GPT-6 Sol, 'GVD6 Soul' (04:09), y menciona 'GPT-5.6' y '5.6 Soul' como predecesor (32:34)",
+    "En 08:28 aparece 'Ashly' y en 26:52-27:24 'Asher', donde por contexto se refiere a Astra (GPT-6 Astra); en 02:05 la entidad buscada en las transcripciones se transcribe solo como 'N'"
+  ],
+  "demuestra": "Ejecuta de verdad los 10 casos con el mismo prompt para ambos modelos y enseña los resultados en pantalla con tiempos y costes por experimento: web con scroll, vídeo promocional desde 100 GB de material, reel, mundo 3D educativo, itinerario-globo, revisión de código puntuada con tests, y dos tareas de navegador (crear un curso en School y dibujar en Canva). También documenta un fallo metodológico real y su diagnóstico: dos experimentos anulados porque ambos agentes compartían carpeta y se pisaron los archivos.",
+  "entidades": [
+    "Opus 5.5",
+    "GPT-6 Sol",
+    "GPT-6 Astra",
+    "Claude Code",
+    "Codex",
+    "Anthropic",
+    "OpenAI",
+    "Hyperframes",
+    "Fireflies",
+    "Frame.io",
+    "Canva",
+    "Nate Herk"
+  ],
+  "fecha": "2026-09-23",
+  "fuente": "youtube",
+  "huella": "df2259813a5083e39810a56b90cf5f97b1dcc3ae0dc8a86c4a24e41f1c97de62",
+  "id": "eF3yeJuifoQ",
+  "preguntas_abiertas": [
+    "Si se normaliza por coste (iterar con el modelo barato hasta igualar el gasto del caro), ¿se mantiene la ventaja de Opus?",
+    "Cómo se montaría en la práctica el patrón orquestador caro + trabajadores baratos y en qué tareas compensa",
+    "Hasta qué punto los resultados dependen del arnés (Claude Code vs Codex) y no solo del modelo",
+    "Cómo evaluar calidad creativa sin depender del gusto de un solo evaluador que conoce qué modelo produjo cada resultado",
+    "Qué implicaciones tiene que una salvaguarda de seguridad detenga a un modelo a mitad de una tarea legítima y al otro no"
+  ],
+  "promete_sin_demostrar": "La arquitectura recomendada de Opus orquestador con trabajadores Sol queda como hipótesis sin probar; tampoco responde su propia pregunta de si iterar con Sol hasta igualar el gasto de Opus cerraría la brecha de calidad; los veredictos de la mayoría de casos son juicio estético del autor sin rúbrica ni evaluación ciega (solo el caso de código tuvo tests objetivos).",
+  "senales": {
+    "dias": 21,
+    "interaccion": 0.0141,
+    "multiplo_mediana": 1.62
+  },
+  "subtemas": [
+    "comparativa de modelos",
+    "comparativa de coste y velocidad",
+    "especialización de modelos por tarea",
+    "automatización de flujos de navegador",
+    "edición de vídeo con agentes"
+  ],
+  "tema": "Herramientas de IA",
+  "tesis": "En 10 casos de uso reales con el mismo prompt, Opus 5.5 gana 7-1 a GPT-6 Sol en todo lo que exige criterio creativo y diseño pese a costar unas tres veces más, mientras que Sol solo gana (y de largo) en revisión y reparación de código, lo que apunta a usar Opus como orquestador y Sol como trabajador barato de instrucciones específicas.",
+  "url": "https://www.youtube.com/watch?v=eF3yeJuifoQ"
+}

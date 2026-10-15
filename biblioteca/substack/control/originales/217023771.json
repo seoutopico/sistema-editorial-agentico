@@ -1,0 +1,421 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/jev-typesafe-que-es-como-funciona",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 217023771,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2026-09-27T05:02:31.740Z",
+  "updated_at": "2026-09-27T05:08:34.326Z",
+  "publication_id": 5143893,
+  "search_engine_description": null,
+  "search_engine_title": null,
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "jev-typesafe-que-es-como-funciona",
+  "social_title": null,
+  "subtitle": "Jev promete clasificar información más rápido y más barato. Lo pongo a prueba para comprobar si estamos pagando de más por tareas que no necesitan una conversación con ChatGPT. ",
+  "teaser_post_eligible": true,
+  "title": "He probado un nuevo modelo de IA y he acabado definiendo qué es un sándwich.",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 1,
+  "reactions": {
+    "❤": 8
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "como-usar-chatgpt-work",
+  "next_post_slug": "como-crear-skill-chatgpt-work",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!kYsN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": null,
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Jev promete clasificar información más rápido y más barato. Lo pongo a prueba para comprobar si estamos pagando de más por tareas que no necesitan una conversación con ChatGPT.",
+  "body_html": "<div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!kYsN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!kYsN!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!kYsN!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!kYsN!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!kYsN!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!kYsN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png\" width=\"1672\" height=\"941\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:941,&quot;width&quot;:1672,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:2501825,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:true,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/217023771?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c21f049-4a83-4c13-a168-e89760a9572e_1672x941.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!kYsN!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 424w, https://substackcdn.com/image/fetch/$s_!kYsN!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 848w, https://substackcdn.com/image/fetch/$s_!kYsN!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 1272w, https://substackcdn.com/image/fetch/$s_!kYsN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84885397-747c-4cdb-9ce4-30f74cf54318_1672x941.png 1456w\" sizes=\"100vw\" fetchpriority=\"high\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><em>¿Cómo estás?</em></p><p><em>Soy Aina y esto es Think&amp;Hack.</em></p><p>Ayer me tiré de cabeza a probar un modelo de IA y acabé pensando qué características tiene que tener una comida para considerarse un sándwich.</p><p>Sí, ese fue mi rato de investigación del día. :)</p><p>Este nuevo modelo es <a href=\"https://typesafe.ai/blog/introducing-system-one-models-and-jev\">Jev, de TypeSafe</a>, y está pensado para<em> clasificar y evaluar información</em>. Curioso, ¿no?, pero, <em>¿qué tiene esto de interesante si ya lo puedes hacer con cualquier modelo?</em></p><p>Básicamente, porque lo presentan como un <strong>LLM con el cual NO puedes chatear, es muy rápido y muy, muy barato. </strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!tPpF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!tPpF!,w_424,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 424w, https://substackcdn.com/image/fetch/$s_!tPpF!,w_848,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 848w, https://substackcdn.com/image/fetch/$s_!tPpF!,w_1272,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 1272w, https://substackcdn.com/image/fetch/$s_!tPpF!,w_1456,c_limit,f_webp,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!tPpF!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif\" width=\"500\" height=\"281\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:281,&quot;width&quot;:500,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:null,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:null,&quot;href&quot;:null,&quot;belowTheFold&quot;:false,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:null,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!tPpF!,w_424,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 424w, https://substackcdn.com/image/fetch/$s_!tPpF!,w_848,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 848w, https://substackcdn.com/image/fetch/$s_!tPpF!,w_1272,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 1272w, https://substackcdn.com/image/fetch/$s_!tPpF!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e708fe6-1aa7-403f-81e5-9afd00a588a4_500x281.gif 1456w\" sizes=\"100vw\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a></figure></div><p><em><mark data-color=\"#fff2cc\" style=\"background-color: rgb(255, 242, 204); color: rgb(0, 0, 0);\">Con esa promesa de ahorrar tiempo y dinero</mark></em>, me puse a leer su documentación y a trastear con su playground. Uno de los ejercicios era decidir si algo es un sándwich o no. Parece fácil, pero ¿tú considerarías un perrito caliente un sándwich?</p><div><hr></div><h2>Vale, pero ¿qué estamos llamando sándwich?</h2><p>En el playground de Jev, la página donde puedes probar el modelo, hay un ejercicio que consiste en decidir si una comida es un sándwich. Parece fácil, ¿no? Pan, algo de relleno… Pero entonces aparece un perrito caliente. ¿Lo consideramos como sándwich? ¿O el pan tiene que estar separado en dos piezas para ser un sándwich? 😥</p><p>Aquí es donde el trabajo se complica si queremos tener buenos resultados a la hora de clasificar: si al definir qué es un sándwich decimos que tiene que llevar un relleno entre dos trozos de pan separados, el hot dog quedaría fuera. En cambio, si aceptamos que el pan siga unido por un lado, entonces sí lo consideraríamos un sándwich.</p><p>Con la documentación leída y el ejemplo elegido, quise ir un poco más allá:<strong> ¿merece la pena pararse a pensar qué consideramos un sándwich y describir los alimentos que le damos al modelo? </strong></p><h3>¿Notará Jev que me he currado el contexto?</h3><p>Elegí cuatro alimentos para poner a prueba a Jev: un perrito caliente, un taco, un burrito y un calzone.</p><p>De cada uno preparé dos versiones:</p><ul><li><p><strong>Solo el nombre:</strong> «hot dog».</p></li><li><p><strong>El nombre y una descripción:</strong> «hot dog: una salchicha dentro de un pan parcialmente cortado, cuyos lados siguen unidos».</p></li></ul><p>Quiero comprobar si Jev responde lo mismo cuando le pongo «hot dog» que cuando le cuento cómo está hecho.</p><p>En ambos casos le doy la misma definición de sándwich. Así comparo las respuestas sin cambiar también las reglas a mitad de la prueba.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!xG0b!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!xG0b!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 424w, https://substackcdn.com/image/fetch/$s_!xG0b!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 848w, https://substackcdn.com/image/fetch/$s_!xG0b!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 1272w, https://substackcdn.com/image/fetch/$s_!xG0b!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!xG0b!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png\" width=\"1908\" height=\"1023\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/b66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:1023,&quot;width&quot;:1908,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:313611,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/217023771?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55c83137-060f-439b-a767-cf90e83df0fe_1908x1023.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!xG0b!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 424w, https://substackcdn.com/image/fetch/$s_!xG0b!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 848w, https://substackcdn.com/image/fetch/$s_!xG0b!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 1272w, https://substackcdn.com/image/fetch/$s_!xG0b!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb66f5daf-d298-4a6f-8a61-6c6123c52a81_1908x1023.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Ejemplo de cómo Jev clasifica alimento en base a definiciones previas.</figcaption></figure></div><p>Cuando solo le pongo “hot dog”, Jev da un 55 % de probabilidad de que sea un sándwich, lo que viene siendo un: <em>puede que sí, puede que no</em>. Pero cuando le defino qué es un perrito caliente, esa probabilidad sube al 84 %: con esa información, el modelo se inclina mucho más por decir que sí, que es un sándwich.</p><p>Con el perrito caliente y el calzone hay más dudas: uno lleva el relleno dentro de un pan abierto por un lado y el otro dentro de una masa cerrada. Según cómo definamos un sándwich, podemos considerarlos sándwiches o no. Al describir cómo están hechos, además de explicarle qué entendemos por sándwich, <em><mark data-color=\"#fff2cc\" style=\"background-color: rgb(255, 242, 204); color: rgb(0, 0, 0);\">le damos más información para aplicar ese criterio sin depender tanto de lo que el modelo interprete solo por el nombre.</mark></em></p><p>Y esto me lleva a algo de lo que hemos hablado varias veces: <strong>le pedimos a la IA que haga un trabajo dando por hecho que entiende lo mismo que nosotros.</strong> Pero una cosa es que conozca la palabra y otra que sepa qué queremos decir con ella en nuestro caso, en qué detalles nos fijamos y por qué tomamos una decisión y no otra.</p><p>Todo eso lo tenemos en la cabeza, pero ¿se lo hemos explicado?</p><p>Y por eso me he acordado de <a href=\"https://ainalluna.substack.com/p/implementar-ia-empresa-empezar\">Juan</a> y de todo lo que sabía después de quince años en la empresa, pero nunca había escrito. Lo que para él era obvio por experiencia, había que documentarlo para que otros pudieran utilizarlo. Con la IA nos toca hacer ese mismo esfuerzo, aunque empecemos por algo tan sencillo como explicar qué entendemos por sándwich.</p><div class=\"pullquote\"><p style=\"text-align: center;\">Si queremos que la IA clasifique algo según nuestro criterio, tenemos que explicárselo, aunque a nosotros nos parezca obvio.</p></div><h2>Y todo esto, ¿es tan rápido y barato como prometen?</h2><p>Que me haya puesto a pensar en sándwiches no significa que me haya olvidado de por qué entré a probarlo. Jev promete hacer estas tareas rápido y barato. </p><p>Para comprobarlo, he pasado el mismo ejercicio a Jev y a GPT-5.5, con las mismas preguntas y criterios. Vamos a ver qué pasa con nuestro ejemplo.</p><div class=\"native-video-embed\" data-component-name=\"VideoPlaceholder\" data-attrs=\"{&quot;mediaUploadId&quot;:&quot;8b3fe717-0507-4602-95b2-b6be1c26404e&quot;,&quot;duration&quot;:null}\"></div><p>La diferencia se ve enseguida:</p><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ds5K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 424w, https://substackcdn.com/image/fetch/$s_!ds5K!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 848w, https://substackcdn.com/image/fetch/$s_!ds5K!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 1272w, https://substackcdn.com/image/fetch/$s_!ds5K!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ds5K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png\" width=\"541\" height=\"146\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/c20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:146,&quot;width&quot;:541,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:8390,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/217023771?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!ds5K!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 424w, https://substackcdn.com/image/fetch/$s_!ds5K!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 848w, https://substackcdn.com/image/fetch/$s_!ds5K!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 1272w, https://substackcdn.com/image/fetch/$s_!ds5K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc20ea7d8-20cf-46fc-9474-9eef19d38625_541x146.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div><figcaption class=\"image-caption\">Jev frente a GPT-5.5 con razonamiento medio: tiempo de respuesta y coste estimado para los mismos ocho casos de clasificación en esta prueba.</figcaption></figure></div><p>En esta ejecución, GPT-5.5 ha tardado casi <strong>19 veces más</strong> y el coste estimado ha sido unas <strong>354 veces mayor</strong>. Lo he utilizado con razonamiento medio, así que estos números corresponden a esa configuración y a esta prueba.</p><p>Para hacernos una idea del coste: repetir mil veces esta misma consulta, con el mismo consumo, supondría unos <strong>0,06 dólares con Jev frente a 22,68 dólares con GPT-5.5</strong>. </p><div class=\"pullquote\"><p><strong>Cuando una tarea se repite constantemente dentro de un proceso, la diferencia de coste entre modelos de IA se acumula. Merece la pena comprobar si un modelo más barato puede hacer ese trabajo con la calidad que necesitamos.</strong></p></div><p>Pero para aprovecharlo tenemos que hacer el trabajo que hemos visto antes: <strong>tener claro qué queremos clasificar, definir las categorías y describir los elementos que le vamos a pasar</strong>. Qué significa cada categoría, qué condiciones debe cumplir algo para pertenecer a ella y qué información necesita el modelo para distinguir unas de otras.</p><p>Pero además del tiempo y el coste, fíjate en cómo cambia la respuesta según lo que le contamos. Solo con el nombre, Jev da un 54 % de probabilidad de que el perrito caliente sea un sándwich; cuando le explicamos cómo está hecho, sube al 81 %. No significa que haya acertado más, pero sí que un detalle que nosotros damos por supuesto puede cambiar su valoración.</p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!QcVe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!QcVe!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 424w, https://substackcdn.com/image/fetch/$s_!QcVe!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 848w, https://substackcdn.com/image/fetch/$s_!QcVe!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 1272w, https://substackcdn.com/image/fetch/$s_!QcVe!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!QcVe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png\" width=\"707\" height=\"715\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:715,&quot;width&quot;:707,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:62192,&quot;alt&quot;:null,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/217023771?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7ab03f9-61fd-45f4-b163-35a2efaabc7d_707x715.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!QcVe!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 424w, https://substackcdn.com/image/fetch/$s_!QcVe!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 848w, https://substackcdn.com/image/fetch/$s_!QcVe!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 1272w, https://substackcdn.com/image/fetch/$s_!QcVe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F80957750-4ebd-4568-87e0-098b2dc5cce0_707x715.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">Jev ante el mismo alimento: con solo «hot dog» devuelve un 54 % de probabilidad de “sí, es un sándwich”; con una descripción, un 81 %. La definición de sándwich es la misma en ambos casos.</figcaption></figure></div><p>Si queremos que clasifique según nuestro criterio, tenemos que explicar tanto las categorías como lo que le estamos pidiendo que clasifique. Aunque a nosotros nos parezca obvio.</p><div><hr></div><h2>¿Y para qué utilizaría algo así?</h2><p>No solo he estado probando cómo clasifica Jev en diferentes casos de uso, sino que también he recorrido medio YouTube y Reddit para ver qué está haciendo la gente con él. <em>Lleva apenas una semana en el mercado</em>, así que lo que he encontrado son <em>experimentos y primeras pruebas como estas:</em></p><ul><li><p><strong>Ponerlo a comprar y vender.</strong> Hay quien ha conectado Jev a datos de precios para que decida si comprar o vender. Y yo ya estoy pensando en llevarlo a la segunda mano… <mark data-color=\"#fce5cd\" style=\"background-color: rgb(252, 229, 205); color: rgb(0, 0, 0);\">Wallapop, calienta que sales. :) 💵💵</mark></p></li><li><p><strong>Que elija dónde hacer clic en una web.</strong> Le dan información sobre la página y una lista de elementos con los que puede interactuar. Jev elige el botón o el campo y el programa hace el clic o escribe. Si la respuesta no es suficientemente clara, le pasan el trabajo a otro modelo. <mark data-color=\"#fce5cd\" style=\"background-color: rgb(252, 229, 205); color: rgb(0, 0, 0);\">¿Útil?</mark></p></li><li><p><strong>Revisar lo que otro agente quiere ejecutar en la terminal.</strong> Antes de ejecutar un comando, Jev comprueba si podría hacer algo peligroso o necesitar autorización. Me interesa esta prueba porque, cuando un agente encadena muchas acciones, también importa cuánto tarda en revisar cada una. <mark data-color=\"#fce5cd\" style=\"background-color: rgb(252, 229, 205); color: rgb(0, 0, 0);\">¡Todo es probar!</mark></p></li><li><p><strong>Recurrir al modelo caro solo cuando haga falta.</strong> Primero responde Jev y, cuando su nivel de confianza es bajo, se utiliza la respuesta de un modelo más potente. <mark data-color=\"#fce5cd\" style=\"background-color: rgb(252, 229, 205); color: rgb(0, 0, 0);\">Hay que hacer algún test para ver si funciona y así reducir costes. Interesante.</mark></p></li><li><p><strong>Ponerlo a jugar a Doom.</strong> Le pasan el estado del juego convertido a datos y Jev elige qué hacer unas diez veces por segundo. No está viendo la pantalla: alguien ha preparado la información que recibe para que pueda decidir su siguiente movimiento. <mark data-color=\"#fce5cd\" style=\"background-color: rgb(252, 229, 205); color: rgb(0, 0, 0);\">El otro día, mi compi de trabajo me comentó que hay gente que paga para que sigan jugando en sus cuentas mientras ellos curran .. Esto da para otro post).</mark></p><p></p></li></ul><p>Yo, de momento, ya tengo unas cuantas ideas para seguir probando. Quiero ver si puedo aprovechar Jev en alguno de los procesos que ya tengo montados y si lo que ahorro en tiempo y coste compensa lo que tenga que revisar después. Ya te contaré.</p><div class=\"pullquote\"><p style=\"text-align: center;\">¿Qué tarea de tu día a día te gustaría que hiciera la IA, pero todavía no le has explicado cómo la haces tú?</p><h4 style=\"text-align: center;\"><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></h4><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/p/jev-typesafe-que-es-como-funciona/comments&quot;,&quot;text&quot;:&quot;Deja un comentario&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/p/jev-typesafe-que-es-como-funciona/comments\"><span>Deja un comentario</span></a></p></div><p><strong>P.D.</strong> En noviembre vuelvo a dar clase en <strong>The Bridge</strong>, esta vez dentro del Máster de IA Generativa Avanzada.</p><p>Y me apetecía contarlo porque no es una colaboración que haya aceptado “porque sí”.</p><p>Antes de verano di con ellos dos sesiones sobre Claude Code y salí bastante sorprendida. Dar clase online muchas veces tiene una barrera rara: tú hablas, ves cámaras apagadas y cuesta saber si al otro lado realmente está pasando algo.</p><p>Aquí fue distinto.</p><p>La propia dinámica de la escuela hacía que la gente participara, preguntara y se metiera de verdad en la clase. Y, sobre todo, noté que los alumnos ya tenían suficiente base como para que no sonara a chino hablar de cosas como agentes, memoria, contexto, verificación o cómo llevar IA a procesos reales.</p><p>Eso, como profesora, se agradece muchísimo.</p><p>Así que cuando me propusieron volver para esta nueva edición, me hizo bastante ilusión.</p><p>Esta vez voy a trabajar precisamente en la parte que más me interesa: <strong>cómo pasar de usar herramientas de IA a diseñar sistemas de trabajo con criterio, control y capacidad real de llevarlos a producción.</strong></p><p>Si te apetece profundizar por ahí, te dejo el programa:</p><div class=\"callout-block\" data-callout=\"true\"><p style=\"text-align: center;\">👉 <a href=\"https://hubs.la/Q04sVMh10\">https://hubs.la/Q04sVMh10</a></p></div><div><hr></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp\" width=\"80\" height=\"80\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:80,&quot;width&quot;:80,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:1354,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/webp&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/184108754?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!KYv_!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 424w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 848w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1272w, https://substackcdn.com/image/fetch/$s_!KYv_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67c58daa-610b-4f97-9d9e-c7a7431183ba_80x80.webp 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><h1 style=\"text-align: center;\"><strong>Suscríbete a Think&amp;Hack</strong></h1><p style=\"text-align: center;\"><strong>Tools are great. <mark data-color=\"rgb(230, 145, 56)\" style=\"background-color: rgb(230, 145, 56); color: rgb(0, 0, 0);\">Systems</mark> are better.</strong></p><p>Casos reales, flujos que funcionan y formas concretas de usar la IA sin perder el control del proceso.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><p></p>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 1608,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        244,
+        86,
+        61
+      ],
+      "population": 10
+    },
+    "DarkVibrant": {
+      "rgb": [
+        125.48487804878052,
+        23.28585365853657,
+        7.11512195121949
+      ],
+      "population": 0
+    },
+    "LightVibrant": {
+      "rgb": [
+        249,
+        172,
+        156
+      ],
+      "population": 3
+    },
+    "Muted": {
+      "rgb": [
+        139,
+        139,
+        139
+      ],
+      "population": 239
+    },
+    "DarkMuted": {
+      "rgb": [
+        60,
+        60,
+        60
+      ],
+      "population": 5
+    },
+    "LightMuted": {
+      "rgb": [
+        193,
+        187,
+        187
+      ],
+      "population": 163
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 8,
+  "comment_count": 4,
+  "child_comment_count": 2,
+  "audio_items": [
+    {
+      "post_id": 217023771,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/217023771/tts/671c5058-cd53-43fb-b1e4-a98028c94daf/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 347408381,
+      "body": "He leído mucho estos días sobre JEV, en especial en inglés. Y lo he toqueteado, encontrándome con esos detalles lógicos pero que NADIE DICE sobre la importancia del contexto (esto es, explicarle que es un sándwich) y que aplican igual en System One que en LLMs. Felicidades por el artículo",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "He leído mucho estos días sobre JEV, en especial en inglés. Y lo he toqueteado, encontrándome con esos detalles lógicos pero que NADIE DICE sobre la importancia del contexto (esto es, explicarle que es un sándwich) y que aplican igual en System One que en LLMs. Felicidades por el artículo"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 217023771,
+      "user_id": 353485101,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-09-27T22:09:20.226Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "IAoscopio",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/cf637f7a-d903-4481-84d8-25669f6eb200_1254x1254.png",
+      "handle": "iaoscopio",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "iaoscopio",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "IAoscopio",
+          "id": 11178698,
+          "base_url": "https://iaoscopio.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": 1,
+        "leaderboard": null,
+        "vip": false,
+        "badge": {
+          "type": "subscriber",
+          "tier": 1,
+          "accent_colors": null
+        },
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "2 respuestas de Aina Lluna y otros"
+    },
+    {
+      "id": 346871396,
+      "body": "Me ha interesado mucho este breve hands-on practice. Estaremos pendientes de las siguientes pruebas.",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1",
+          "title": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Me ha interesado mucho este breve hands-on practice. Estaremos pendientes de las siguientes pruebas."
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 217023771,
+      "user_id": 16598016,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2026-09-27T06:17:26.814Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Julian Estevez",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/7a4528fe-e93c-4367-aa73-bb0607656087_3408x3416.jpeg",
+      "handle": "jeibros",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "jeibros",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Permanent Future",
+          "id": 1796243,
+          "base_url": "https://jeibros.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 0,
+      "reported_by_user": false,
+      "restacked": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 721,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 120000
+  },
+  "fecha": "2026-09-24",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "La amenaza al statu quo",
+  "id": "oWCcN6hSFjA",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Skill que sustituye una suscripción de pago",
+    "relevante": true,
+    "tema": "Skills para agentes"
+  },
+  "senales": {
+    "dias": 20,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "bajo",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.95,
+    "senal_incompleta": false
+  },
+  "titulo": "This ONE GPT-6 Astra Skill Replaces Your Higgsfield Subscription",
+  "url": "https://www.youtube.com/watch?v=oWCcN6hSFjA"
+}

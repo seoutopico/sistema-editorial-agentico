@@ -1,0 +1,106 @@
+{
+  "grupo_id": "agentes-de-ia-kylon",
+  "fecha": "2026-10-15",
+  "evaluacion": {
+    "grupo_id": "agentes-de-ia-kylon",
+    "articulos_comparados": [
+      "185568447",
+      "187513657",
+      "191735710",
+      "192395850",
+      "195602355"
+    ],
+    "cobertura": "ampliación",
+    "que_hemos_publicado": "Ya defendimos el núcleo sano de estos vídeos con enfoque propio: documentar procesos y criterios antes de automatizar y extraer el conocimiento tácito (192395850), que la herramienta nunca es la decisión y el criterio escrito en archivos aguanta el cambio de agente, con prueba propia Codex/Claude Code (195602355), el sistema editorial propio sobre Claude Code con skills y archivos de contexto (187513657) y el contexto previo como palanca (191735710).",
+    "diferencia": "No hemos tratado la tesis específica del grupo: que los sistemas a medida sobre Claude Code deben migrar a una plataforma empaquetada (Kylon) porque el dueño de negocio medio no los va a autogestionar, ni la implantación guiada en una firma regulada (working papers, agente de voz que entrevista al asesor).",
+    "aportacion": null,
+    "parecida_a": null,
+    "razon_nueva": null,
+    "encaje": true,
+    "motivo": "Es nuestro nicho (agentes y automatización de procesos), pero el único ángulo no cubierto es la plataforma del patrocinador: ambos vídeos están patrocinados por Kylon, sus cifras centrales (negocio 50-60x más eficiente, 7 meses en 7 días, 250 horas/mes ahorradas, youtube:IXDYEF22CG8@15:41 y youtube:T2v2pf_uypE@05:05) no están verificadas ni demostradas más allá de un test único y una demo de 20-30 minutos, y la parte defendible ya la publicamos nosotros; probar Kylon sería reproducir una demo patrocinada, y una migración honesta de nuestro sistema editorial a una plataforma cerrada para contrastarla no cabe en una semana de trabajo real, así que no hay aportación que no sea repetir el vídeo.",
+    "huella_contexto": "e503c6271a50aec687d7922dbdc201ca2f27d740b51d40d95a29b5e095e88dd6"
+  },
+  "condiciones": {
+    "interes_real": {
+      "cumple": true,
+      "detalle": "mejor_interes=alto, canales=1, canales_tema=4"
+    },
+    "encaje": {
+      "cumple": true,
+      "detalle": "Es nuestro nicho (agentes y automatización de procesos), pero el único ángulo no cubierto es la plataforma del patrocinador: ambos vídeos están patrocinados por Kylon, sus cifras centrales (negocio 50-60x más eficiente, 7 meses en 7 días, 250 horas/mes ahorradas, youtube:IXDYEF22CG8@15:41 y youtube:T2v2pf_uypE@05:05) no están verificadas ni demostradas más allá de un test único y una demo de 20-30 minutos, y la parte defendible ya la publicamos nosotros; probar Kylon sería reproducir una demo patrocinada, y una migración honesta de nuestro sistema editorial a una plataforma cerrada para contrastarla no cabe en una semana de trabajo real, así que no hay aportación que no sea repetir el vídeo."
+    },
+    "no_cubierto": {
+      "cumple": true,
+      "detalle": "cobertura=ampliación"
+    },
+    "aportacion": {
+      "cumple": false,
+      "detalle": "sin aportación"
+    }
+  },
+  "es_oportunidad": false,
+  "accion": "descartar",
+  "motivo_descarte": "no cumple: aportacion",
+  "contexto": {
+    "fichas": [
+      [
+        "IXDYEF22CG8",
+        "082c007f42ba2a8e017063559b687c529979f15c3779307b88c598209ae67624"
+      ],
+      [
+        "T2v2pf_uypE",
+        "8bb41cef0d8f2a847fce0f898d5d4f1ac95a81b0f37772396d7c25af9ee01987"
+      ]
+    ],
+    "articulos": [
+      [
+        "185568447",
+        "d96f271c357b09678a38603679336f811b2f724d42d572ecb1b561ee2bdbc954"
+      ],
+      [
+        "187513657",
+        "32f10eedc95ef5d7c72e05a0c341077cb1e4217e39c635ae205f223ea9fccb10"
+      ],
+      [
+        "191735710",
+        "93aa51d11b6cdef5a74b5fcff4eb87059ecbb4cd4664940ccc23079ce2157175"
+      ],
+      [
+        "192395850",
+        "f27eea1dfc5e1506f6104b34f7a72666f134860e0d34830fa0a589cc2ad1a5dc"
+      ],
+      [
+        "195602355",
+        "a9560e087dad16009e380e42f10c69c1fef6a6572369e39c4d2f73f9297276cd"
+      ]
+    ],
+    "oportunidades": [
+      [
+        "2026-10-14-agentes-de-ia",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-14-herramientas-de-ia",
+        "descartada",
+        "Exige GPU/hardware que la autora no tiene; aportación no ejecutable con sus recursos (decisión de Aina, 2026-10-14)"
+      ],
+      [
+        "2026-10-14-herramientas-de-ia-google",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-jev",
+        "propuesta",
+        ""
+      ],
+      [
+        "2026-10-15-herramientas-de-ia-openai",
+        "propuesta",
+        ""
+      ]
+    ]
+  },
+  "huella_contexto": "e503c6271a50aec687d7922dbdc201ca2f27d740b51d40d95a29b5e095e88dd6"
+}

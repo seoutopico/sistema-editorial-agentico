@@ -1,0 +1,446 @@
+{
+  "audience": "everyone",
+  "audience_before_archived": null,
+  "canonical_url": "https://ainalluna.substack.com/p/10-el-metodo-para-que-tu-ia-hable",
+  "default_comment_sort": null,
+  "editor_v2": false,
+  "exempt_from_archive_paywall": false,
+  "free_unlock_required": false,
+  "id": 181575255,
+  "podcast_art_url": null,
+  "podcast_duration": null,
+  "podcast_preview_upload_id": null,
+  "podcast_upload_id": null,
+  "podcast_url": null,
+  "post_date": "2025-12-15T06:28:22.396Z",
+  "updated_at": "2026-01-15T08:10:27.753Z",
+  "publication_id": 5143893,
+  "search_engine_description": "¿ChatGPT suena genérico? Crea tu ADN Verbal: un archivo con tu tono, frases y estilo. Prompt listo para usar. Parte 1 de 4",
+  "search_engine_title": "El método para que tu IA hable como tú",
+  "section_id": null,
+  "should_send_free_preview": false,
+  "show_guest_bios": true,
+  "slug": "10-el-metodo-para-que-tu-ia-hable",
+  "social_title": null,
+  "subtitle": "Parte 2 creando tu identidad",
+  "teaser_post_eligible": true,
+  "title": "#10 El método para que tu IA hable como tú",
+  "type": "newsletter",
+  "video_upload_id": null,
+  "write_comment_permissions": "everyone",
+  "meter_type": "none",
+  "live_stream_id": null,
+  "is_published": true,
+  "restacks": 2,
+  "reactions": {
+    "❤": 8
+  },
+  "top_exclusions": [],
+  "pins": [],
+  "section_pins": [],
+  "has_shareable_clips": false,
+  "previous_post_slug": "borrar-memoria-chatgpt",
+  "next_post_slug": "11-para-quien-escribe-tu-ia-si-no",
+  "cover_image": "https://substackcdn.com/image/fetch/$s_!ful2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png",
+  "cover_image_is_square": false,
+  "cover_image_is_explicit": false,
+  "videoUpload": null,
+  "podcastFields": {
+    "post_id": 181575255,
+    "podcast_episode_number": null,
+    "podcast_season_number": null,
+    "podcast_episode_type": null,
+    "should_syndicate_to_other_feed": null,
+    "syndicate_to_section_id": null,
+    "hide_from_feed": false,
+    "free_podcast_url": null,
+    "free_podcast_duration": null,
+    "preview_contains_ad": false,
+    "was_imported_self_serve_sync": false,
+    "draft_free_podcast_url": null,
+    "draft_free_podcast_duration": null
+  },
+  "podcastUpload": null,
+  "podcastPreviewUpload": null,
+  "voiceover_upload_id": null,
+  "voiceoverUpload": null,
+  "has_voiceover": false,
+  "description": "Parte 2 creando tu identidad",
+  "body_html": "<p>¿Cómo estás?</p><p>Soy Aina y esto es Think&amp;Hack.</p><p>La semana pasada expliqué por qué borré la memoria de ChatGPT. </p><ul><li><p><strong>El problema: </strong>la memoria nativa amplifica el sesgo complaciente. </p></li><li><p><strong>La solución:</strong> sustituirla por archivos de contexto que tú controlas.</p></li></ul><p>Recibí bastantes mensajes. Y había un patrón claro.</p><p><strong>“Vale, lo entiendo. Pero... ¿Cómo creo esos archivos exactamente?”</strong></p><p>Hoy te doy el primer archivo: tu ADN Verbal.</p><p class=\"button-wrapper\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscríbete ahora&quot;,&quot;action&quot;:null,&quot;class&quot;:null}\" data-component-name=\"ButtonCreateButton\"><a class=\"button primary\" href=\"https://ainalluna.substack.com/subscribe?\"><span>Suscríbete ahora</span></a></p><div><hr></div><p>📚 <strong>Esta es la parte 2 de 5 de la serie “Sistema de escritura con IA”</strong></p><ol><li><p>  <a href=\"https://ainalluna.substack.com/p/borrar-memoria-chatgpt\">Por qué borré la memoria de ChatGPT</a> ← Reset</p></li><li><p> <strong> <a href=\"https://ainalluna.substack.com/p/10-el-metodo-para-que-tu-ia-hable\">El método para que tu IA hable como tú</a> ← Voz</strong></p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/11-para-quien-escribe-tu-ia-si-no\">Para quién escribe tu IA</a> ← Audiencia</p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/perfil-negocio-chatgpt\">Cómo entreno a ChatGPT para mi negocio</a> ← Negocio</p></li><li><p>  <a href=\"https://ainalluna.substack.com/p/proyectos-chatgpt-sistema\">Proyectos en ChatGPT: El sistema completo</a> ← Integración</p></li></ol><div><hr></div><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!ful2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!ful2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!ful2!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!ful2!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!ful2!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!ful2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png\" width=\"1456\" height=\"794\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:794,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:4174827,&quot;alt&quot;:&quot;El método para que tu IA hable como tú&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/181575255?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"El método para que tu IA hable como tú\" title=\"El método para que tu IA hable como tú\" srcset=\"https://substackcdn.com/image/fetch/$s_!ful2!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 424w, https://substackcdn.com/image/fetch/$s_!ful2!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 848w, https://substackcdn.com/image/fetch/$s_!ful2!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 1272w, https://substackcdn.com/image/fetch/$s_!ful2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F48ce5760-628a-4446-9da3-6618f5720999_2816x1536.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\">El método para que tu IA hable como tú</figcaption></figure></div><div><hr></div><h2>Lo que no quedó claro</h2><p>En la newsletter #9 hablé de crear “archivos .md por categoría” (Perfil base, Estado actual, Base de conocimiento, Historial).</p><p>El concepto era correcto. La ejecución, demasiado abstracta.</p><p>Aquí está el problema: esas categorías son útiles para organizar información general sobre ti. Pero si lo que quieres es que la IA escriba como tú, necesitas algo más específico.</p><p>Necesitas un <strong>ADN Verbal</strong>.</p><p>No es un perfil genérico de “quién eres”. Es un análisis estructurado de cómo suenas cuando escribes: tu tono, tu ritmo, tus frases recurrentes, lo que nunca dirías.</p><p><strong>La diferencia:</strong></p><div class=\"captioned-image-container\"><figure><a class=\"image-link image2 is-viewable-img\" target=\"_blank\" href=\"https://substackcdn.com/image/fetch/$s_!efUC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!efUC!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 424w, https://substackcdn.com/image/fetch/$s_!efUC!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 848w, https://substackcdn.com/image/fetch/$s_!efUC!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 1272w, https://substackcdn.com/image/fetch/$s_!efUC!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!efUC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png\" width=\"794\" height=\"246\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/84326288-d746-4000-b76c-4654a3761ac2_794x246.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:246,&quot;width&quot;:794,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:16839,&quot;alt&quot;:&quot;ADN Verbal&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/181575255?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"ADN Verbal\" title=\"ADN Verbal\" srcset=\"https://substackcdn.com/image/fetch/$s_!efUC!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 424w, https://substackcdn.com/image/fetch/$s_!efUC!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 848w, https://substackcdn.com/image/fetch/$s_!efUC!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 1272w, https://substackcdn.com/image/fetch/$s_!efUC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84326288-d746-4000-b76c-4654a3761ac2_794x246.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div class=\"image-link-expand\"><div class=\"pencraft pc-display-flex pc-gap-8 pc-reset\"><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container restack-image buttonBase-GK1x3M\"><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" stroke-width=\"1.5\" stroke=\"var(--color-fg-primary)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\" class=\"icon-noB79L\"><g><path d=\"M2.53001 7.81595C3.49179 4.73911 6.43281 2.5 9.91173 2.5C13.1684 2.5 15.9537 4.46214 17.0852 7.23684L17.6179 8.67647M17.6179 8.67647L18.5002 4.26471M17.6179 8.67647L13.6473 6.91176M17.4995 12.1841C16.5378 15.2609 13.5967 17.5 10.1178 17.5C6.86118 17.5 4.07589 15.5379 2.94432 12.7632L2.41165 11.3235M2.41165 11.3235L1.5293 15.7353M2.41165 11.3235L6.38224 13.0882\"></path></g></svg></button><button tabindex=\"0\" type=\"button\" class=\"pencraft pc-reset pencraft icon-container view-image buttonBase-GK1x3M\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-maximize2 lucide-maximize-2 icon-noB79L\"><polyline points=\"15 3 21 3 21 9\"></polyline><polyline points=\"9 21 3 21 3 15\"></polyline><line x1=\"21\" x2=\"14\" y1=\"3\" y2=\"10\"></line><line x1=\"3\" x2=\"10\" y1=\"21\" y2=\"14\"></line></svg></button></div></div></div></a><figcaption class=\"image-caption\"><strong>ADN Verbal</strong></figcaption></figure></div><div class=\"pullquote\"><p>El perfil genérico le dice a la IA qué pensar. <br>El ADN Verbal le dice cómo sonar.</p></div><h2>Qué vas a crear</h2><p>Un archivo JSON estructurado con:</p><ul><li><p><strong>Tu esencia</strong>: Quién eres como comunicador, no tu cargo</p></li><li><p><strong>Tu tono</strong>: Formal, cercano, técnico, accesible... y en qué proporción</p></li><li><p><strong>Tus patrones</strong>: Cómo estructuras ideas, cómo transicionas, cómo enfatizas</p></li><li><p><strong>Tus frases</strong>: Las que usas siempre, las que nunca usarías</p></li><li><p><strong>Tus límites</strong>: Lo que NUNCA suenas (esto es crítico para evitar output genérico)</p></li></ul><pre><code><strong>¿Por qué JSON y no texto normal?</strong> Porque la estructura fuerza precisión. “Soy directa” es vago. Un array de frases que usas realmente es concreto. La IA puede trabajar con datos específicos, no con descripciones vagas.</code></pre><div><hr></div><h2>Lo que necesitas antes de empezar</h2><p><strong>3-5 piezas de tu mejor escritura.</strong></p><p>No cualquier cosa que hayas escrito. Tu mejor trabajo. El contenido donde piensas “esto suena exactamente como yo”.</p><p>Pueden ser:</p><ul><li><p>Newsletters o artículos de blog</p></li><li><p>Posts de LinkedIn que funcionaron bien</p></li><li><p>Emails importantes que escribiste con cuidado</p></li><li><p>Documentos internos donde tu voz es clara</p></li></ul><p>Cópialos en documentos separados o tenlos listos para subir.</p><div><hr></div><h2>El prompt</h2><p>Copia esto en ChatGPT 5.2 (recomiendo usar el modelo “Thinking” para este tipo de análisis estructurado):</p><pre><code>Necesito que analices mis muestras de escritura y crees un perfil Voice DNA en formato JSON.\n\nVoy a subir 3-5 piezas de mi escritura. Analízalas en profundidad en estas dimensiones:\n\n**1. Esencia y visión del mundo**\n- ¿Quién soy como comunicador?\n- ¿Cuál es mi perspectiva fundamental?\n- ¿Cómo me posiciono ante mi audiencia?\n\n**2. Paleta emocional**\n- ¿Qué emociones expreso con más frecuencia?\n- ¿Cuál es mi rango emocional?\n\n**3. Arquitectura de frases**\n- ¿Cuáles son mis patrones típicos de frase?\n- ¿Cómo creo ritmo?\n- ¿Cómo transiciono entre ideas?\n\n**4. Patrones de voz**\n- ¿Cómo estructuro mis pensamientos?\n- ¿Qué frases uso repetidamente?\n- ¿Cómo enfatizo puntos importantes?\n\n**5. Características de tono**\n- ¿Formal o casual?\n- ¿Técnico o accesible?\n- ¿Cómo mezclo registros?\n\n**6. Rasgos únicos**\n\n- ¿Qué hace mi voz distintivamente mía?\n- ¿A qué NUNCA sueno?\n\nDespués del análisis, crea un archivo JSON con esta estructura:\n\n{\n\n  “_meta”: {\n    “tipo”: “perfil_voz”,\n    “actualizado”: “[fecha de hoy YYYY-MM-DD]”\n  },\n\n  “identidad_central”: {\n    “_instrucciones”: “Quién eres como comunicador - tu esencia, no tu cargo.”,\n    “quien_eres”: “[descripción detallada]”,\n    “que_haces”: “[cómo comunicas y aportas valor]”,\n    “tu_angulo”: “[tu perspectiva única]”\n  },\n\n  “personalidad”: {\n    “_instrucciones”: “Cómo te perciben - tu energía.”,\n    “rasgos”: [”rasgo1”, “rasgo2”, “rasgo3”],\n    “energia”: “[descripción de tu energía comunicativa]”\n  },\n\n  “tono”: {\n    “_instrucciones”: “La sensación que transmite tu escritura.”,\n    “tono_principal”: “[descripción]”,\n    “tono_secundario”: “[descripción]”,\n    “nivel_formalidad”: “[1-10 con descripción]”\n  },\n\n  “estilo_comunicacion”: {\n    “_instrucciones”: “Cómo estructuras y entregas ideas.”,\n    “longitud_frases”: “[cortas/largas/mixtas con descripción]”,\n    “estilo_parrafos”: “[descripción]”,\n    “usa_preguntas”: true/false,\n    “usa_listas”: true/false,\n    “progresion_ideas”: “[cómo desarrollas argumentos]”\n  },\n\n  “frases_caracteristicas”: {\n\n    “_instrucciones”: “Palabras y frases que usas naturalmente.”,\n    “frases_apertura”: [”frase1”, “frase2”, “frase3”],\n    “frases_transicion”: [”frase1”, “frase2”, “frase3”],\n    “frases_enfasis”: [”frase1”, “frase2”, “frase3”],\n    “frases_cierre”: [”frase1”, “frase2”, “frase3”]\n  },\n\n  “limites_de_voz”: {\n    “_instrucciones”: “CRÍTICO: Lo que NUNCA suenas. Esto previene output genérico.”,\n    “nunca_suena_como”: [”descripción1”, “descripción2”, “descripción3”],\n    “frases_prohibidas”: [”frase1”, “frase2”, “frase3”],\n    “temas_que_evita”: [”tema1”, “tema2”, “tema3”]\n  },\n\n  “rango_emocional”: {\n\n    “_instrucciones”: “Qué emociones aparecen en tu escritura.”,\n    “emociones_principales”: [”emoción1”, “emoción2”, “emoción3”],\n    “como_muestras_entusiasmo”: “[descripción]”,\n    “como_muestras_frustracion”: “[descripción]”,\n    “como_generas_confianza”: “[descripción]”\n  },\n\n  “ejemplos”: {\n\n    “_instrucciones”: “Fragmentos que son quintaesencialmente TÚ.”,\n    “ejemplo_1”: {\n      “texto”: “[cita de tu escritura]”,\n      “por_que_es_tu_voz”: “[explicación]”\n    },\n\n    “ejemplo_2”: {\n      “texto”: “[cita de tu escritura]”,\n      “por_que_es_tu_voz”: “[explicación]”\n    }\n  }\n}\n\nSé específico, no genérico. Captura patrones, no solo palabras. Hazlo accionable para que la IA pueda escribir como yo.</code></pre><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!fbrQ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 424w, https://substackcdn.com/image/fetch/$s_!fbrQ!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 848w, https://substackcdn.com/image/fetch/$s_!fbrQ!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 1272w, https://substackcdn.com/image/fetch/$s_!fbrQ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!fbrQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png\" width=\"1456\" height=\"340\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:340,&quot;width&quot;:1456,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:349983,&quot;alt&quot;:&quot;adn-verbal.json&quot;,&quot;title&quot;:null,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/181575255?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"adn-verbal.json\" title=\"adn-verbal.json\" srcset=\"https://substackcdn.com/image/fetch/$s_!fbrQ!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 424w, https://substackcdn.com/image/fetch/$s_!fbrQ!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 848w, https://substackcdn.com/image/fetch/$s_!fbrQ!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 1272w, https://substackcdn.com/image/fetch/$s_!fbrQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88b8d78b-8b7a-4a67-bd87-ab764b36b406_3850x900.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div><figcaption class=\"image-caption\">adn-verbal.json</figcaption></figure></div><div><hr></div><h2>Paso a paso</h2><p><strong>1. Abre ChatGPT</strong></p><p>Ve a <a href=\"http://chatgpt.com\">chatgpt.com</a>. Si tienes cuenta de pago, selecciona GPT-5.2 Thinking en el selector de modelo (es mejor para análisis estructurado).</p><p><strong>2. Pega el prompt</strong></p><p>Copia el prompt de arriba y pégalo en el chat.</p><p><strong>3. Sube tus muestras de escritura</strong></p><p>Arrastra tus 3-5 documentos al chat, o copia y pega el texto directamente después del prompt.</p><p><strong>4. Espera el análisis</strong></p><p>GPT-5.2 Thinking puede tardar 1-2 minutos en analizar todo. Es normal. Está procesando patrones, no solo leyendo.</p><p><strong>5. Revisa el resultado</strong></p><p>Lee el JSON generado. ¿Te reconoces? ¿Captura cómo escribes realmente?</p><p>Si algo no encaja, dile: “La sección de [X] no me representa. En realidad yo [descripción]. Ajústalo.”</p><p><strong>6. Guarda el archivo</strong></p><p>Copia el JSON final y guárdalo como adn-verbal.json en algún lugar accesible.</p><div><hr></div><h2>Cómo usarlo</h2><p>Cuando quieras que ChatGPT escriba como tú:</p><ol><li><p>Abre un chat nuevo (recuerda: memoria desactivada)</p></li><li><p>Arrastra tu archivo adn-verbal.json al chat</p></li><li><p>Escribe lo que necesitas</p></li></ol><p>Ejemplo: “Usando mi perfil de voz, escribe un post de LinkedIn sobre [tema].”</p><pre><code>La IA ya no tiene que adivinar cómo suenas. Tiene un mapa.</code></pre><blockquote><p><strong>Siguiente </strong><a href=\"https://ainalluna.substack.com/p/11-para-quien-escribe-tu-ia-si-no\">Para quién escribe tu IA</a> ← Audiencia</p></blockquote><div class=\"pullquote\"><p><em><strong>Cuéntamelo. Siempre leo todo.</strong></em></p></div><div class=\"captioned-image-container\"><figure><div class=\"image-link image2\" data-component-name=\"Image2ToDOM\"><div class=\"image2-inset\"><picture><source type=\"image/webp\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\"><img src=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png\" width=\"56\" height=\"56\" data-attrs=\"{&quot;src&quot;:&quot;https://substack-post-media.s3.amazonaws.com/public/images/aa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;srcNoWatermark&quot;:null,&quot;fullscreen&quot;:null,&quot;imageSize&quot;:null,&quot;height&quot;:56,&quot;width&quot;:56,&quot;resizeWidth&quot;:null,&quot;bytes&quot;:5859,&quot;alt&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;type&quot;:&quot;image/png&quot;,&quot;href&quot;:null,&quot;belowTheFold&quot;:true,&quot;topImage&quot;:false,&quot;internalRedirect&quot;:&quot;https://ainalluna.substack.com/i/164561611?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png&quot;,&quot;isProcessing&quot;:false,&quot;align&quot;:null,&quot;offset&quot;:false}\" class=\"sizing-normal\" alt=\"\" title=\"\" srcset=\"https://substackcdn.com/image/fetch/$s_!jAJ6!,w_424,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 424w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_848,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 848w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1272,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1272w, https://substackcdn.com/image/fetch/$s_!jAJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa6a28f5-efe2-4efb-93bc-87d726ddd0ec_56x56.png 1456w\" sizes=\"100vw\" loading=\"lazy\"></picture><div></div></div></div></figure></div><p><strong>Recomienda Think&amp;Hacks</strong></p><p>Soy Aina. Responsable de IA generativa en Planeta.</p><p>Tres cosas rápidas:</p><ol><li><p>🔄 <strong>Comparte</strong>: Reenvía esto a quien siga confiando ciegamente en la memoria de ChatGPT.</p></li><li><p>💬 <strong>Responde</strong>: ¿Usas archivos de contexto externos? ¿Qué sistema tienes?</p></li><li><p>📩 <strong>Suscríbete</strong>: Si te han reenviado esto, únete aquí 👇</p></li></ol><div class=\"subscription-widget-wrap-editor\" data-attrs=\"{&quot;url&quot;:&quot;https://ainalluna.substack.com/subscribe?&quot;,&quot;text&quot;:&quot;Suscribirse&quot;,&quot;language&quot;:&quot;es&quot;}\" data-component-name=\"SubscribeWidgetToDOM\"><div class=\"subscription-widget show-subscribe\"><div class=\"preamble\"><p class=\"cta-caption\">¡Gracias por leer Think &amp; Hack escrito por Aina-Lluna! Suscríbete gratis para recibir nuevos posts y apoyar mi trabajo.</p></div><form class=\"subscription-widget-subscribe\"><input type=\"email\" class=\"email-input\" name=\"email\" placeholder=\"Escribe tu correo electrónico...\" tabindex=\"-1\"><input type=\"submit\" class=\"button primary\" value=\"Suscribirse\"><div class=\"fake-input-wrapper\"><div class=\"fake-input\"></div><div class=\"fake-button\"></div></div></form></div></div>",
+  "has_dynamic_content": false,
+  "truncated_body_text": "¿Cómo estás?",
+  "wordcount": 1010,
+  "post_preview_limit": null,
+  "language": "es",
+  "postTags": [
+    {
+      "id": "bc9884eb-4d7f-4fcb-be2c-4614e04dc2d3",
+      "publication_id": 5143893,
+      "name": "metodo_tu_voz",
+      "slug": "metodo_tu_voz",
+      "hidden": false
+    }
+  ],
+  "postCountryBlocks": [],
+  "headlineTest": null,
+  "coverImagePalette": {
+    "Vibrant": {
+      "rgb": [
+        146,
+        108,
+        43
+      ],
+      "population": 107
+    },
+    "DarkVibrant": {
+      "rgb": [
+        30,
+        102,
+        103
+      ],
+      "population": 230
+    },
+    "LightVibrant": {
+      "rgb": [
+        232,
+        236,
+        244
+      ],
+      "population": 2
+    },
+    "Muted": {
+      "rgb": [
+        140,
+        164,
+        164
+      ],
+      "population": 358
+    },
+    "DarkMuted": {
+      "rgb": [
+        78,
+        84,
+        84
+      ],
+      "population": 58
+    },
+    "LightMuted": {
+      "rgb": [
+        220,
+        228,
+        236
+      ],
+      "population": 206
+    }
+  },
+  "publishedBylines": [
+    {
+      "id": 136220542,
+      "name": "Aina Lluna",
+      "handle": "ainalluna",
+      "photo_url": "https://substack-post-media.s3.amazonaws.com/public/images/467832fb-93fd-42ef-9c00-f4ad25289b20_400x400.jpeg",
+      "bio": "Head of Generative AI en Editorial Planeta | Growth | Innovación | Transformación | SEO | ex-CMO :::: Conecto negocio, tecnología y operaciones.",
+      "profile_set_up_at": "2023-03-25T19:20:50.479Z",
+      "reader_installed_at": "2023-03-25T12:11:39.302Z",
+      "publicationUsers": [
+        {
+          "id": 5247059,
+          "user_id": 136220542,
+          "publication_id": 5143893,
+          "role": "admin",
+          "public": true,
+          "is_primary": true,
+          "publication": {
+            "id": 5143893,
+            "name": "Think & Hack ",
+            "subdomain": "ainalluna",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "La IA generativa solo aporta valor cuando deja de ser una herramienta suelta y empieza a encajar en un sistema de trabajo. Tools are great. Systems are better.",
+            "logo_url": "https://substack-post-media.s3.amazonaws.com/public/images/69c4a021-3c37-4c89-93bc-ff7d25d01c6c_1280x1280.png",
+            "author_id": 136220542,
+            "primary_user_id": 136220542,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2025-05-27T12:37:19.943Z",
+            "email_from_name": "Think & Hack por Aina-Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "magaziney",
+            "is_personal_mode": false,
+            "logo_url_wide": "https://substack-post-media.s3.amazonaws.com/public/images/ceac4a62-888d-462e-a6fc-f288bd0aa1c1_2172x724.png"
+          }
+        },
+        {
+          "id": 8167512,
+          "user_id": 136220542,
+          "publication_id": 7983965,
+          "role": "admin",
+          "public": true,
+          "is_primary": false,
+          "publication": {
+            "id": 7983965,
+            "name": "Sin permiso",
+            "subdomain": "sindisculpas",
+            "custom_domain": null,
+            "custom_domain_optional": false,
+            "hero_text": "Ensayos personales desde la parte del cerebro que no pasa el filtro social.",
+            "logo_url": null,
+            "author_id": 136220542,
+            "primary_user_id": null,
+            "theme_var_background_pop": "#FF6719",
+            "created_at": "2026-02-11T12:11:41.451Z",
+            "email_from_name": "Sin permiso escrito por Aina Lluna",
+            "copyright": "Aina Lluna",
+            "founding_plan_name": null,
+            "community_enabled": true,
+            "invite_only": false,
+            "payments_state": "disabled",
+            "language": "es",
+            "explicit": false,
+            "homepage_type": "newspaper",
+            "is_personal_mode": false,
+            "logo_url_wide": null
+          }
+        }
+      ],
+      "is_guest": false,
+      "bestseller_tier": null,
+      "status": {
+        "bestsellerTier": null,
+        "subscriberTier": null,
+        "leaderboard": null,
+        "vip": false,
+        "badge": null,
+        "subscriber": null
+      }
+    }
+  ],
+  "reaction": null,
+  "reaction_count": 8,
+  "comment_count": 5,
+  "child_comment_count": 2,
+  "audio_items": [
+    {
+      "post_id": 181575255,
+      "voice_id": "en-US-CoraMultilingualNeural",
+      "audio_url": "https://substack-video.s3.amazonaws.com/video_upload/post/181575255/tts/afd7ec6c-0532-4955-b2a9-bf98df7c82bc/en-US-CoraMultilingualNeural.mp3",
+      "type": "tts",
+      "status": "completed"
+    }
+  ],
+  "is_geoblocked": false,
+  "is_editor_preview": false,
+  "hasCashtag": false,
+  "unlockedWithIP": false,
+  "unlockedWithCampaign": false,
+  "themeVariables": {
+    "color_theme_bg_pop": "#020617",
+    "background_pop": "#020617",
+    "color_theme_bg_web": "#fafafa",
+    "cover_bg_color": "#fafafa",
+    "cover_bg_color_secondary": "#ebebeb",
+    "background_pop_darken": "#000000",
+    "print_on_pop": "#ffffff",
+    "color_theme_bg_pop_darken": "#000000",
+    "color_theme_print_on_pop": "#ffffff",
+    "color_theme_bg_pop_20": "rgba(2, 6, 23, 0.2)",
+    "color_theme_bg_pop_30": "rgba(2, 6, 23, 0.3)",
+    "print_pop": "#020617",
+    "color_theme_accent": "#020617",
+    "cover_print_primary": "#363737",
+    "cover_print_secondary": "#757575",
+    "cover_print_tertiary": "#b6b6b6",
+    "cover_border_color": "#020617",
+    "font_family_body_preset": "'SF Pro Display', -apple-system, system-ui, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "font_weight_body_preset": 400,
+    "font_preset_body": "sans",
+    "home_hero": "magazine-5",
+    "home_posts": "custom",
+    "web_bg_color": "#fafafa",
+    "background_contrast_1": "#ebebeb",
+    "background_contrast_2": "#d8d8d8",
+    "background_contrast_3": "#b3b3b3",
+    "background_contrast_4": "#909090",
+    "background_contrast_5": "#4f4f4f",
+    "color_theme_bg_contrast_1": "#ebebeb",
+    "color_theme_bg_contrast_2": "#d8d8d8",
+    "color_theme_bg_contrast_3": "#b3b3b3",
+    "color_theme_bg_contrast_4": "#909090",
+    "color_theme_bg_contrast_5": "#4f4f4f",
+    "color_theme_bg_elevated": "#fafafa",
+    "color_theme_bg_elevated_secondary": "#ebebeb",
+    "color_theme_bg_elevated_tertiary": "#d8d8d8",
+    "color_theme_detail": "#e1e1e1",
+    "background_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "color_theme_bg_contrast_pop": "rgba(2, 6, 23, 0.4)",
+    "theme_bg_is_dark": "0",
+    "print_on_web_bg_color": "#363737",
+    "print_secondary_on_web_bg_color": "#848585",
+    "background_pop_rgb": "2, 6, 23",
+    "color_theme_bg_pop_rgb": "2, 6, 23",
+    "color_theme_accent_rgb": "2, 6, 23"
+  },
+  "comments": [
+    {
+      "id": 191617100,
+      "body": "Esta semana voy a probar lo que dices en este post, a ver qué resultado sale 😊",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Esta semana voy a probar lo que dices en este post, a ver qué resultado sale 😊"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 181575255,
+      "user_id": 5839054,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2025-12-25T17:13:31.071Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Jorge Bosch Alés",
+      "photo_url": "https://substackcdn.com/image/fetch/$s_!Xsw-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86a18156-d02e-4c0c-baf4-60f4258bfe1f_662x662.png",
+      "handle": "cosasdefreelance",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "cosasdefreelance",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "👨‍💻👩‍💻 Cosas de Freelance ",
+          "id": 1564562,
+          "base_url": "https://cosasdefreelance.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": 5,
+        "leaderboard": null,
+        "vip": false,
+        "badge": {
+          "type": "subscriber",
+          "tier": 5,
+          "accent_colors": null
+        },
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "2 respuestas de Aina Lluna y otros"
+    },
+    {
+      "id": 188922372,
+      "body": "Muy interesante. No había leído antes sobre hacerlo así. A mí la IA me sigue sonado demasiado gris y vaga en los textos. Le falta algo que no sé qué es pero que hace que los textos suenen a algo real",
+      "body_json": {
+        "type": "doc",
+        "attrs": {
+          "schemaVersion": "v1"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Muy interesante. No había leído antes sobre hacerlo así. A mí la IA me sigue sonado demasiado gris y vaga en los textos. Le falta algo que no sé qué es pero que hace que los textos suenen a algo real"
+              }
+            ]
+          }
+        ]
+      },
+      "publication_id": 5143893,
+      "post_id": 181575255,
+      "user_id": 165779816,
+      "ancestor_path": "",
+      "type": "comment",
+      "deleted": false,
+      "date": "2025-12-17T20:34:05.495Z",
+      "edited_at": null,
+      "status": "published",
+      "pinned_by_user_id": null,
+      "restacks": 0,
+      "name": "Pilar - Desenredando cuentas",
+      "photo_url": "https://substackcdn.com/image/fetch/$s_!jh4e!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9e15145-54ec-4764-94c8-7f9cbcd3bbbd_534x534.jpeg",
+      "handle": "desenredandocuentas",
+      "reactor_names": [
+        "Aina Lluna"
+      ],
+      "reaction": null,
+      "reactions": {
+        "❤": 1
+      },
+      "reaction_count": 1,
+      "children": [],
+      "bans": [],
+      "suppressed": false,
+      "user_banned": false,
+      "user_banned_for_comment": false,
+      "user_slug": "desenredandocuentas",
+      "metadata": {
+        "is_author": false,
+        "membership_state": "free_signup",
+        "eligibleForGift": false,
+        "author_on_other_pub": {
+          "name": "Desenredando cuentas",
+          "id": 6525377,
+          "base_url": "https://desenredandocuentas.substack.com"
+        }
+      },
+      "user_bestseller_tier": null,
+      "can_dm": true,
+      "userStatus": {
+        "bestsellerTier": null,
+        "subscriberTier": 1,
+        "leaderboard": null,
+        "vip": false,
+        "badge": {
+          "type": "subscriber",
+          "tier": 1,
+          "accent_colors": null
+        },
+        "subscriber": null
+      },
+      "score": 6,
+      "children_count": 1,
+      "reported_by_user": false,
+      "restacked": false,
+      "childrenSummary": "1 respuesta de Aina Lluna"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comando": "clasificar-titulos",
+  "fecha_utc": "2026-10-14T19:36:20Z",
+  "formulas_dominantes_interes_alto": {
+    "Antes y después": 1,
+    "El experimento": 1,
+    "El superlativo": 1,
+    "El tutorial": 3,
+    "La advertencia": 1,
+    "La comparativa": 1,
+    "La estadística": 1,
+    "La novedad": 3,
+    "La pregunta directa": 4,
+    "La vía rápida": 1,
+    "sin clasificar": 9
+  },
+  "llamadas_ytdlp": [],
+  "run_id": "20261014T193620Z",
+  "videos_actualizados": [],
+  "videos_clasificados": 150
+}

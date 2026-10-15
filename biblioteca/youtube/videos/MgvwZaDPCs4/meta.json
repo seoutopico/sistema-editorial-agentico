@@ -1,0 +1,35 @@
+{
+  "canal": "Nate Herk | AI Automation",
+  "canal_url": "https://www.youtube.com/@NateHerk",
+  "duracion_segundos": 551,
+  "estadisticas": {
+    "comentarios": null,
+    "fecha_captura": "2026-10-14T18:56:27Z",
+    "likes": null,
+    "visualizaciones": 115000
+  },
+  "fecha": "2026-10-10",
+  "fecha_precision": "aproximada",
+  "formula_titulo": "sin clasificar",
+  "id": "MgvwZaDPCs4",
+  "metadatos_completos": false,
+  "relevancia": {
+    "fecha": "2026-10-14T18:59:39Z",
+    "motivo": "Novedades accionables de Grok Bot",
+    "relevante": true,
+    "tema": "Herramientas de IA"
+  },
+  "senales": {
+    "dias": 4,
+    "formato_largo": true,
+    "interaccion": null,
+    "interaccion_motivo": "metadatos incompletos: solo listado plano",
+    "interes": "sin_datos",
+    "mediana_canal": 126000,
+    "mediana_poco_fiable": false,
+    "multiplo_mediana": 0.91,
+    "senal_incompleta": true
+  },
+  "titulo": "Grok Bot Just Got 2 Massive Upgrades. Do These Things Now.",
+  "url": "https://www.youtube.com/watch?v=MgvwZaDPCs4"
+}

@@ -1,0 +1,75 @@
+{
+  "grupo_id": "contenido-y-curacion-con-ia",
+  "fecha": "2026-10-14",
+  "evaluacion": {
+    "grupo_id": "contenido-y-curacion-con-ia",
+    "articulos_comparados": [
+      "183130708",
+      "214284185",
+      "195602355",
+      "186168347",
+      "217631531"
+    ],
+    "cobertura": "nuevo",
+    "que_hemos_publicado": "Hemos publicado sobre prompting limpio para GPT-5.2 (183130708), sobre pedirle al agente que construya interfaces y apps propias como Michi Música con GPT-6 Astra (214284185), sobre que el sistema de archivos con criterio aguanta el cambio de agente Codex/Claude Code (195602355), sobre conectar ChatGPT a la API de WordPress para reutilizar archivo (186168347) y sobre convertir tutoriales en skills de ChatGPT Work (217631531). Todo gira en torno a agentes, sistemas y texto/código aplicado al trabajo.",
+    "diferencia": "Ninguno de nuestros artículos trata la creación audiovisual con modelos de lenguaje: animación, pixel art, motion graphics o escenas generadas programáticamente con Claude Opus 5.5, que es la tesis central del vídeo (youtube:j906Pf7n7Sg@04:11 y @10:00). Lo más cercano (214284185) construye una app con un agente, pero no toca animación ni gráficos, y nosotras mismas dejamos escrito en ese artículo que la edición de vídeo con IA nos salía floja sin criterio experto.",
+    "aportacion": "Probar nosotras el flujo que el vídeo enseña pero no documenta: generar una animación explicativa real para la propia newsletter con Opus 5.5 (y el mismo prompt en GPT-6 Astra como contraste), publicando los prompts completos, el número de intentos descartados, el tiempo y el consumo de cuota por generación, justo lo que el vídeo deja como preguntas abiertas (solo enseña los resultados buenos y no muestra ni prompts completos ni tasa de fallo ni coste). Es el caso en español y aplicado a creación de contenido de trabajo, no a demos espectaculares.",
+    "parecida_a": null,
+    "razon_nueva": null,
+    "encaje": true,
+    "motivo": "Es nuestro nicho (IA aplicada a la creación de contenido) y encaja exactamente con nuestra aportación: probar el flujo de verdad y contar el proceso real con fallos, costes y prompts, lo que el vídeo promete sin demostrar."
+  },
+  "condiciones": {
+    "interes_real": {
+      "cumple": true,
+      "detalle": "mejor_interes=alto, canales=1"
+    },
+    "encaje": {
+      "cumple": true,
+      "detalle": "Es nuestro nicho (IA aplicada a la creación de contenido) y encaja exactamente con nuestra aportación: probar el flujo de verdad y contar el proceso real con fallos, costes y prompts, lo que el vídeo promete sin demostrar."
+    },
+    "no_cubierto": {
+      "cumple": true,
+      "detalle": "cobertura=nuevo"
+    },
+    "aportacion": {
+      "cumple": true,
+      "detalle": "Probar nosotras el flujo que el vídeo enseña pero no documenta: generar una animación explicativa real para la propia newsletter con Opus 5.5 (y el mismo prompt en GPT-6 Astra como contraste), publicando los prompts completos, el número de intentos descartados, el tiempo y el consumo de cuota por generación, justo lo que el vídeo deja como preguntas abiertas (solo enseña los resultados buenos y no muestra ni prompts completos ni tasa de fallo ni coste). Es el caso en español y aplicado a creación de contenido de trabajo, no a demos espectaculares."
+    }
+  },
+  "es_oportunidad": true,
+  "accion": "proponer",
+  "motivo_descarte": null,
+  "contexto": {
+    "fichas": [
+      [
+        "j906Pf7n7Sg",
+        "1c49ccf6a1e709f12a6d8c7fc4018ffca778bfb50906c4a34d25bc8d10a4bac2"
+      ]
+    ],
+    "articulos": [
+      [
+        "183130708",
+        "c41ff339ecd8e56169ff6f4c4a1c68859794a4fb610865804c96df4deae231b9"
+      ],
+      [
+        "186168347",
+        "d73aaff79455b29aeb604de1d46685674a55305811cc8b9f2d16118574166bf7"
+      ],
+      [
+        "195602355",
+        "a9560e087dad16009e380e42f10c69c1fef6a6572369e39c4d2f73f9297276cd"
+      ],
+      [
+        "214284185",
+        "8543c31d5c50342cf95d62dbaf3a5da366afccda55749bbaf6471b00a259d1e3"
+      ],
+      [
+        "217631531",
+        "6255f1771e366f4057e6cd6dba264807ac0fc3cd353f764f65cd0e4d8248eb5a"
+      ]
+    ],
+    "oportunidades": []
+  },
+  "huella_contexto": "36fd8dee4175ebce9d8b87b05a1ee2b417f75f888981a4253e26ddf0ed96f995"
+}
