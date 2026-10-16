@@ -1,4 +1,12 @@
-# Crea tu sistema editorial con IA
+# Crea tu sistema editorial con IA · Think&Hack
+
+Soy **Aina Lluna**, creadora de [Think&Hack](https://ainalluna.substack.com/), donde comparto cómo aplico la IA a procesos de trabajo, con ejemplos y casos prácticos.
+
+Este es el material de mi ponencia **«De chat a sistema: cómo las skills convierten la IA en tu equipo de marketing»**, para [ConIA Digital](https://conia.digital/), en Madrid, el 17 de octubre de 2026. Puedes consultar la [presentación de la ponencia](https://docs.google.com/presentation/d/18gthpXMVpU_P2g2LwNjFf7nDvIgb5ctnc1NFNk_2pHE/edit?slide=id.h7cfcbfaf388ee8c6_15_99#slide=id.h7cfcbfaf388ee8c6_15_99).
+
+El punto de partida es el sistema editorial de Think&Hack. El método consiste en definir el proceso antes de construir: qué buscamos, qué información necesitamos, qué hace cada skill y qué decisiones conservamos las personas. Después construimos por etapas y comprobamos cada resultado. Aquí puedes aplicar ese método a tu propio caso, empezando por un sistema que llega hasta el documento madre.
+
+Si quieres seguir mis pruebas y aprender a crear tus propios sistemas de IA, [lee y suscríbete a Think&Hack](https://ainalluna.substack.com/).
 
 Este material te guía para diseñar y construir un sistema editorial adaptado a tu trabajo. Empiezas con dos archivos, respondes cinco preguntas y el agente crea tu arquitectura. Después lo construyes paso a paso.
 
