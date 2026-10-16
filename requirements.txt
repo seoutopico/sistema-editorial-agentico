@@ -1,6 +1,0 @@
-# Cada skill añade aquí sus dependencias de Python.
-
-# explorar-youtube: listar canales, obtener metadatos y descargar subtítulos
-# de YouTube sin clave de API.
-yt-dlp
-youtube-transcript-api

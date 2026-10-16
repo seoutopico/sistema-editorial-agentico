@@ -1,1 +1,0 @@
-Pides una pantalla nueva a la IA y los botones ya no se parecen a los de ayer. El problema no es el modelo: es que tus decisiones de diseño no están guardadas en ningún sitio que pueda consultar. Esta semana lo he resuelto montando un sistema de diseño con Codex y dos agentes, uno que construye y otro que revisa. Lo cuento paso a paso aquí: {{enlace}}
