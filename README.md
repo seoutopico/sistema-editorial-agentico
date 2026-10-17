@@ -10,6 +10,8 @@ Si quieres seguir mis pruebas y aprender a crear tus propios sistemas de IA, [le
 
 Este material te guía para diseñar y construir un sistema editorial adaptado a tu trabajo. Empiezas con dos archivos, respondes cinco preguntas y el agente crea tu arquitectura. Después lo construyes paso a paso.
 
+**Al terminar conservarás tu arquitectura y todos los prompts para volver a construirlo.** Consulta [dónde quedan los materiales y cómo reutilizarlos](#7-dónde-están-los-materiales-y-cómo-reutilizarlos).
+
 El sistema seguirá este recorrido:
 
 **Recuperar datos → analizar lo publicado → encontrar oportunidades → investigar y abrir nuevos ángulos → redactar un documento madre.**
@@ -161,7 +163,13 @@ El plan incluye una última etapa de cierre. El agente genera, guarda y ejecuta 
 4. Actualizar `AGENTS.md` de la raíz para operar el sistema: objetivo y criterio editorial, skills y ubicaciones reales, herramientas, datos, decisiones humanas y recuperación del estado. Las instrucciones de entrevista y construcción quedan archivadas y no se activan en el uso diario.
 5. Indicar claramente **«La construcción ha terminado. Tu sistema está listo para usar»** solo si se han cumplido los requisitos, y mostrar una primera petición adaptada a lo implementado. No iniciar un ciclo editorial nuevo por el mero hecho de terminar la construcción.
 
-La carpeta quedará organizada así; la cantidad de prompts depende de tu plan:
+**El sistema se construye una vez. Después utilizas las skills para repetir el trabajo editorial**, sin volver a la entrevista ni generar prompts de construcción. Tú eliges la oportunidad que desarrollar y revisas el documento madre. Los cambios posteriores del sistema se atienden como mantenimiento cuando los pidas; no añaden nuevas etapas indefinidamente.
+
+## 7. Dónde están los materiales y cómo reutilizarlos
+
+**Estos materiales se crean en tu proyecto durante la construcción. No vienen ya hechos en este repositorio de arranque**, porque dependen de tus respuestas y de tu arquitectura.
+
+Mientras se construye, encontrarás `ARQUITECTURA.md` y `ESTADO.md` en la raíz y cada prompt en `prompts/`, guardado antes de ejecutarse. Al terminar, el agente reúne el material para reutilizarlo en esta carpeta de tu proyecto:
 
 ```text
 material_reutilizable/
@@ -176,9 +184,40 @@ material_reutilizable/
     ...
 ```
 
-El material es documentación para reproducir el proceso en otro proyecto: debe usar rutas portables, declarar dependencias y dejar fuera credenciales y datos privados. Los prompts no se ejecutan por leer esa carpeta. Para reutilizarlos, pide al agente construir otro sistema a partir de ese material: revisará la arquitectura y los accesos del nuevo caso y adaptará y ejecutará los prompts en orden, sin que tengas que entregarlos uno a uno. No se supone que todas las configuraciones serán idénticas.
+| Archivo | Para qué te sirve |
+|---|---|
+| `material_reutilizable/README.md` | Volver a consultar el tutorial y las instrucciones de reutilización. |
+| `material_reutilizable/AGENTS.md` | Dar al agente las reglas de construcción que se utilizaron. |
+| `material_reutilizable/ARQUITECTURA.md` | Recuperar el diseño: fuentes, proceso, capacidades y decisiones. |
+| `material_reutilizable/PLAN.md` | Saber en qué orden se construyeron las etapas y qué depende de qué. |
+| `material_reutilizable/prompts/` | Consultar los prompts realmente ejecutados, numerados en orden. |
+| `material_reutilizable/REGISTRO_CONSTRUCCION.md` | Ver las correcciones, comprobaciones y limitaciones de aquella construcción. |
 
-**El sistema se construye una vez. Después utilizas las skills para repetir el trabajo editorial**, sin volver a la entrevista ni generar prompts de construcción. Tú eliges la oportunidad que desarrollar y revisas el documento madre. Los cambios posteriores del sistema se atienden como mantenimiento cuando los pidas; no añaden nuevas etapas indefinidamente.
+### Para construir otro sistema con ese material
+
+1. Crea una carpeta de proyecto nueva y copia dentro la carpeta completa `material_reutilizable/` de tu sistema terminado.
+2. Abre el proyecto nuevo con tu agente y dale esta instrucción:
+
+```text
+Lee README.md, AGENTS.md, ARQUITECTURA.md y PLAN.md dentro de
+material_reutilizable/. Quiero construir aquí otro sistema a partir
+de ese material. Usa los prompts archivados como referencia.
+
+Revisa qué fuentes, accesos o decisiones necesitan adaptarse a este caso;
+pregunta solo lo que falte. No repitas la entrevista si el caso sigue igual.
+Crea la arquitectura y un ESTADO.md nuevos en la raíz: las etapas y pruebas
+del sistema anterior no cuentan como realizadas en este proyecto.
+
+Genera o adapta únicamente el siguiente prompt, guárdalo en prompts/,
+ejecútalo y compruébalo. Continúa en orden hasta terminar y dejar las
+instrucciones de uso y el material reutilizable de esta nueva construcción.
+Conserva la carpeta recibida como referencia sin sobrescribirla;
+archiva el material de esta ejecución en material_reutilizable_nuevo/.
+```
+
+El agente se encarga de ejecutar la secuencia; no tienes que copiar cada prompt. La carpeta conserva cómo se construyó el sistema, pero no sustituye sus datos ni sus accesos: el proyecto nuevo tendrá que configurarlos y comprobarlos. Los archivos deben usar rutas portables y dejar fuera credenciales y datos privados.
+
+Para **seguir usando el sistema que ya tienes**, abre su proyecto habitual y consulta el README de la raíz. No necesitas reconstruirlo ni ejecutar los prompts archivados. Si solo se interrumpió la construcción, basta con pedir que continúe desde `ESTADO.md`.
 
 ## Las preguntas de la entrevista
 
