@@ -108,12 +108,12 @@ Tu revisión es práctica: ¿atiende a tu lector?, ¿usa tus fuentes?, ¿te ayud
 
 Conserva la versión revisada. Si trabajas con archivos subidos y el agente te entrega un archivo descargable, descárgalo y añade esa versión al proyecto para que esté disponible al continuar. Comprueba que solo se use la versión vigente.
 
-## 4. Prepara la construcción
+## 4. Pide construir el sistema
 
-Cuando el diseño te encaje, pega:
+Cuando el diseño te encaje, dile al agente que lo construya. Por ejemplo:
 
 ```text
-He revisado ARQUITECTURA.md y quiero preparar su construcción por etapas.
+He revisado ARQUITECTURA.md. Construye el sistema completo por etapas.
 Lee también AGENTS.md y conserva el alcance acordado.
 
 Presenta en el chat un plan breve y ordenado por dependencias. Para cada
@@ -124,50 +124,39 @@ El cierre debe dejar el sistema listo para usar y conservar el material
 para reproducir su construcción. Guarda el plan en ESTADO.md, sin prompts
 de etapas futuras.
 
-Después redacta solo el prompt de la primera etapa, listo para copiar.
-Debe indicar objetivo, alcance, entradas, entregables, comprobaciones
-y cuándo detenerse. Distingue las pruebas locales de las comprobaciones
-con fuentes reales. Comprueba qué permite hacer el entorno disponible
-e indica cualquier requisito que falte antes de ejecutar.
-
-No ejecutes el prompt ni generes todavía los siguientes. Entrega cada
-prompt en el chat; archívalo solo después de ejecutarlo y comprobarlo.
+Genera el prompt de la primera etapa y guárdalo en prompts/01-<etapa>.md.
+Ejecútalo tú, comprueba el resultado y registra el avance. Después genera,
+guarda y ejecuta el siguiente. Continúa hasta completar el plan y su cierre.
+No generes los prompts futuros por adelantado ni me pidas copiar,
+pegar o autorizar cada prompt. Si algo falla, corrígelo dentro del alcance
+antes de avanzar; pregunta solo si falta un dato, acceso o decisión
+que no puedas resolver. Distingue pruebas locales de fuentes reales.
 ```
 
-Recibirás el plan y un único prompt de construcción. Para ejecutar y comprobar las etapas necesitarás un entorno que permita crear archivos y ejecutar las herramientas necesarias; el agente debe detectar sus posibilidades y carencias. Adjuntar documentos permite iniciar el diseño, pero no acredita acceso a tus cuentas ni a tu carpeta local.
+Esta petición autoriza la construcción de las etapas del alcance acordado, incluido su cierre. El agente necesita poder crear archivos y ejecutar las herramientas necesarias; debe detectar sus posibilidades y carencias. Adjuntar documentos permite iniciar el diseño, pero no acredita acceso a tus cuentas ni a tu carpeta local.
 
 El plan define el recorrido completo. Los prompts se redactan uno a uno a partir de la arquitectura, el plan y el resultado de la etapa anterior. Por eso no hace falta tener escritos los prompts 3, 4 y 5 para comenzar, pero sí saber qué falta construir y cuándo se habrá terminado. Si una comprobación obliga a cambiar el plan, el agente debe explicar el cambio y conservarlo en el estado del proyecto.
 
-## 5. Construye una etapa cada vez
+## 5. El agente construye una etapa cada vez
 
-Copia el prompt que acaba de generar el agente y envíalo precedido de:
+No tienes que copiar ni pegar los prompts. El agente repite este ciclo:
 
-```text
-Ejecuta únicamente el siguiente prompt. Completa sus comprobaciones,
-archiva el prompt ejecutado y el resultado en REGISTRO_CONSTRUCCION.md,
-actualiza ESTADO.md, explica qué funciona y qué queda pendiente,
-y detente al terminar.
-```
+1. Lee arquitectura, plan y estado real; genera únicamente el prompt de la siguiente etapa pendiente.
+2. Lo guarda en `prompts/` con número y nombre, antes de ejecutarlo.
+3. Lo ejecuta para construir las skills y herramientas previstas y comprueba el resultado.
+4. Registra el prompt utilizado, sus correcciones y comprobaciones en `REGISTRO_CONSTRUCCION.md`, y actualiza `ESTADO.md`.
+5. Si la etapa funciona, continúa directamente con la siguiente. Si falla, la corrige antes de avanzar. Solo consulta a la persona si necesita un dato, acceso o decisión que no puede resolver dentro del alcance autorizado.
 
-Cuando termine, revisa el resultado. Si quedan errores o requisitos necesarios sin resolver, pide corregirlos antes de continuar. Una prueba con datos ficticios no demuestra que el acceso a Substack o YouTube funcione: esos accesos se comprobarán en la etapa correspondiente.
+La carpeta contiene únicamente los prompts generados hasta ese momento. El plan marca el final; el estado impide repetir lo ya completado. Una prueba con datos ficticios no demuestra que el acceso a Substack o YouTube funcione: esos accesos se comprobarán en la etapa correspondiente.
 
-Para preparar el siguiente paso, pega:
-
-```text
-Lee la arquitectura, el plan de ESTADO.md y el estado real de lo construido.
-Si la etapa anterior está completa y comprobada, redacta en el chat
-únicamente el prompt de la siguiente etapa. Si falta algo necesario,
-explica qué hay que resolver primero. No ejecutes todavía el prompt.
-```
-
-Repite el recorrido hasta completar las etapas del plan. El registro conserva los prompts ya ejecutados y sus resultados como historial, nunca como órdenes para volver a ejecutarlos. Los prompts de etapas futuras siguen sin generarse. Si cambias de sesión, conserva la arquitectura y los archivos de trabajo; pide al agente que recupere el estado antes de continuar.
+Si cambias de sesión, pide «Retoma la construcción desde ESTADO.md». El agente comprueba lo ya hecho y continúa desde la etapa pendiente, sin repetir la entrevista ni pedirte que vuelvas a entregar los prompts. La elección de una oportunidad para producir contenido sigue siendo tuya y no debe inventarse como parte de la construcción.
 
 ## 6. Termina la construcción y empieza a usar el sistema
 
-El plan incluye una última etapa de cierre. Su prompt debe comprobar lo construido, conservar el material reutilizable y preparar las instrucciones de uso. Cuando ejecutes ese prompt, el agente hará lo siguiente:
+El plan incluye una última etapa de cierre. El agente genera, guarda y ejecuta su prompt al completar las anteriores, dentro de la misma construcción autorizada. Hará lo siguiente:
 
 1. Comprobar que las capacidades acordadas están implementadas como skills y herramientas utilizables, y que una sesión nueva puede localizar el sistema y recuperar su estado. Distinguir las pruebas locales de los recorridos comprobados con fuentes reales. Si falta un requisito necesario, indicar qué queda por completar.
-2. Crear `material_reutilizable/` con el tutorial de arranque, las instrucciones de construcción, la arquitectura, el plan y los prompts ejecutados en orden, junto con sus correcciones y comprobaciones. Conservar el texto real de los prompts; no inventar como original uno que se haya perdido.
+2. Crear `material_reutilizable/` con el tutorial de arranque, las instrucciones de construcción, la arquitectura, el plan y una copia de los prompts de `prompts/` ejecutados en orden, junto con sus correcciones y comprobaciones. Conservar el texto real de los prompts; no inventar como original uno que se haya perdido.
 3. Actualizar el README de la raíz como guía de uso: qué puedes pedir, ejemplos, fuentes configuradas, dónde están los resultados y cómo retomar un trabajo. El tutorial de construcción queda en `material_reutilizable/README.md`.
 4. Actualizar `AGENTS.md` de la raíz para operar el sistema: objetivo y criterio editorial, skills y ubicaciones reales, herramientas, datos, decisiones humanas y recuperación del estado. Las instrucciones de entrevista y construcción quedan archivadas y no se activan en el uso diario.
 5. Indicar claramente **«La construcción ha terminado. Tu sistema está listo para usar»** solo si se han cumplido los requisitos, y mostrar una primera petición adaptada a lo implementado. No iniciar un ciclo editorial nuevo por el mero hecho de terminar la construcción.
@@ -187,7 +176,7 @@ material_reutilizable/
     ...
 ```
 
-El material es documentación para reproducir el proceso en otro proyecto: debe usar rutas portables, declarar dependencias y dejar fuera credenciales y datos privados. Los prompts no se ejecutan por leer esa carpeta. Para reutilizarlos, se revisan la arquitectura y los accesos del nuevo caso y se entregan otra vez uno a uno; no se supone que todas las configuraciones serán idénticas.
+El material es documentación para reproducir el proceso en otro proyecto: debe usar rutas portables, declarar dependencias y dejar fuera credenciales y datos privados. Los prompts no se ejecutan por leer esa carpeta. Para reutilizarlos, pide al agente construir otro sistema a partir de ese material: revisará la arquitectura y los accesos del nuevo caso y adaptará y ejecutará los prompts en orden, sin que tengas que entregarlos uno a uno. No se supone que todas las configuraciones serán idénticas.
 
 **El sistema se construye una vez. Después utilizas las skills para repetir el trabajo editorial**, sin volver a la entrevista ni generar prompts de construcción. Tú eliges la oportunidad que desarrollar y revisas el documento madre. Los cambios posteriores del sistema se atienden como mantenimiento cuando los pidas; no añaden nuevas etapas indefinidamente.
 
