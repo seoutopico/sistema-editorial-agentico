@@ -16,6 +16,51 @@ El sistema seguirá este recorrido:
 
 El documento madre reúne la explicación, los hallazgos, ejemplos y fuentes para producir después newsletters, posts y otras piezas. La producción por canal y la voz de marca quedan para otro proceso.
 
+## Qué entendemos por una oportunidad
+
+Una oportunidad es **un tema y un subtema que interesan a tu lector y que todavía no has desarrollado, o que puedes ampliar con una aportación concreta**. El sistema los obtiene cruzando las fuentes con tu histórico.
+
+**Fichas de artículos y vídeos → matriz de proximidad → dos propuestas de tema y subtema.**
+
+### 1. Fichas comparables
+
+El agente lee cada artículo y cada transcripción seleccionada y extrae la misma información:
+
+| Campo | Qué contiene |
+|---|---|
+| Tema | El asunto principal. |
+| Subtemas | Los aspectos concretos que trata. |
+| Entidades | Herramientas, personas, productos y conceptos relevantes, con nombres consistentes. |
+| Idea principal | Qué sostiene o explica la fuente, en una frase. |
+| Referencias | Enlace, fecha y pasajes o minutos que respaldan los subtemas. |
+
+Por ejemplo, «Agentes de IA» es un tema; «Agentes compartidos entre compañeros», un subtema; «Kylon», una entidad. Las etiquetas se reutilizan cuando significan lo mismo. No tienes que mantener categorías ni mapas a mano.
+
+### 2. Matriz de proximidad
+
+Para cada subtema externo, el sistema busca los artículos propios más cercanos y comprueba sus pasajes. Guarda y muestra una tabla breve:
+
+| Tema / subtema encontrado | Fuente | Artículos propios relacionados | Proximidad | Qué queda por tratar |
+|---|---|---|---|---|
+| Tema y aspecto concreto | Vídeo y minuto | Títulos enlazados | Alta, media o baja | Diferencia en una frase |
+
+**Alta:** ya desarrollaste ese subtema con una idea equivalente. **Media:** trataste el tema, pero falta ese aspecto o una aportación nueva. **Baja:** no se localizó un desarrollo equivalente en el histórico consultado. Si falta material para comparar, indicará **pendiente**. Son categorías de comparación, no porcentajes inventados ni medidas de demanda.
+
+Compartir una herramienta no significa repetir una idea. Tampoco basta cambiar el nombre de la herramienta para tener un tema nuevo. La matriz se genera desde las fichas y las referencias; no se rellena después para justificar títulos ya inventados.
+
+### 3. Dos propuestas breves para elegir
+
+El sistema prioriza los subtemas que encajan con tu lector y aportan algo respecto al histórico. Te entrega **dos propuestas**, con este formato:
+
+| Tema | Subtema propuesto | Por qué interesa y qué aporta | Fuente |
+|---|---|---|---|
+| Tema 1 | Aspecto concreto que desarrollar | Una frase | Enlace |
+| Tema 2 | Aspecto concreto que desarrollar | Una frase | Enlace |
+
+Sin informes largos ni investigación anticipada. Si solo hay una oportunidad defendible, entrega una; si no hay ninguna, lo indica. Una fuente puede bastar. Las menciones o la novedad no demuestran por sí solas interés de mercado: el agente debe justificar brevemente su encaje con el público.
+
+Tú eliges una propuesta. Después se investiga y se desarrolla el documento madre. Una idea propia sigue el mismo cruce con el histórico, identificada como aportación tuya; los ejemplos de la entrevista no se convierten automáticamente en temas elegidos.
+
 ## 1. Prepara tu proyecto
 
 Descarga el repositorio y descomprime el ZIP si has usado esa opción. Para empezar necesitas estos dos archivos, con sus nombres originales:
@@ -57,6 +102,8 @@ Después de las cinco respuestas, el agente creará `ARQUITECTURA.md`. Este arch
 
 Debe explicar el recorrido, las fuentes, cómo recordará lo trabajado, las responsabilidades de las futuras skills y qué recibirás en el documento madre. El agente revisará los aspectos técnicos antes de entregarlo.
 
+Debe concretar también cómo pasará de los hallazgos de las fuentes a las oportunidades descritas arriba. Si quieres descubrir asuntos recientes en YouTube, la exploración y el análisis de esos vídeos deben funcionar antes de presentar una tanda basada en ellos. Tener el histórico preparado no completa esa tarea.
+
 Tu revisión es práctica: ¿atiende a tu lector?, ¿usa tus fuentes?, ¿te ayuda con el trabajo que más te cuesta?, ¿el documento madre contiene lo que necesitas? Si algo no encaja, explícalo en el chat y pide corregir la arquitectura.
 
 Conserva la versión revisada. Si trabajas con archivos subidos y el agente te entrega un archivo descargable, descárgalo y añade esa versión al proyecto para que esté disponible al continuar. Comprueba que solo se use la versión vigente.
@@ -72,6 +119,10 @@ Lee también AGENTS.md y conserva el alcance acordado.
 Presenta en el chat un plan breve y ordenado por dependencias. Para cada
 etapa indica qué quedará funcionando y cómo se comprobará. Incluye tanto
 las herramientas compartidas como las skills necesarias para usarlas.
+Define todas las etapas y el criterio de finalización antes de empezar.
+El cierre debe dejar el sistema listo para usar y conservar el material
+para reproducir su construcción. Guarda el plan en ESTADO.md, sin prompts
+de etapas futuras.
 
 Después redacta solo el prompt de la primera etapa, listo para copiar.
 Debe indicar objetivo, alcance, entradas, entregables, comprobaciones
@@ -79,11 +130,13 @@ y cuándo detenerse. Distingue las pruebas locales de las comprobaciones
 con fuentes reales. Comprueba qué permite hacer el entorno disponible
 e indica cualquier requisito que falte antes de ejecutar.
 
-No ejecutes el prompt ni generes todavía los siguientes. Mantén los
-prompts de construcción en el chat, fuera de los archivos del proyecto.
+No ejecutes el prompt ni generes todavía los siguientes. Entrega cada
+prompt en el chat; archívalo solo después de ejecutarlo y comprobarlo.
 ```
 
 Recibirás el plan y un único prompt de construcción. Para ejecutar y comprobar las etapas necesitarás un entorno que permita crear archivos y ejecutar las herramientas necesarias; el agente debe detectar sus posibilidades y carencias. Adjuntar documentos permite iniciar el diseño, pero no acredita acceso a tus cuentas ni a tu carpeta local.
+
+El plan define el recorrido completo. Los prompts se redactan uno a uno a partir de la arquitectura, el plan y el resultado de la etapa anterior. Por eso no hace falta tener escritos los prompts 3, 4 y 5 para comenzar, pero sí saber qué falta construir y cuándo se habrá terminado. Si una comprobación obliga a cambiar el plan, el agente debe explicar el cambio y conservarlo en el estado del proyecto.
 
 ## 5. Construye una etapa cada vez
 
@@ -91,7 +144,9 @@ Copia el prompt que acaba de generar el agente y envíalo precedido de:
 
 ```text
 Ejecuta únicamente el siguiente prompt. Completa sus comprobaciones,
-explica qué funciona y qué queda pendiente, y detente al terminar.
+archiva el prompt ejecutado y el resultado en REGISTRO_CONSTRUCCION.md,
+actualiza ESTADO.md, explica qué funciona y qué queda pendiente,
+y detente al terminar.
 ```
 
 Cuando termine, revisa el resultado. Si quedan errores o requisitos necesarios sin resolver, pide corregirlos antes de continuar. Una prueba con datos ficticios no demuestra que el acceso a Substack o YouTube funcione: esos accesos se comprobarán en la etapa correspondiente.
@@ -99,15 +154,42 @@ Cuando termine, revisa el resultado. Si quedan errores o requisitos necesarios s
 Para preparar el siguiente paso, pega:
 
 ```text
-Lee la arquitectura y revisa el estado real de lo construido.
+Lee la arquitectura, el plan de ESTADO.md y el estado real de lo construido.
 Si la etapa anterior está completa y comprobada, redacta en el chat
 únicamente el prompt de la siguiente etapa. Si falta algo necesario,
 explica qué hay que resolver primero. No ejecutes todavía el prompt.
 ```
 
-Repite el recorrido hasta completar las etapas. Si cambias de sesión, conserva la arquitectura y los archivos de trabajo; pide al agente que recupere el estado antes de continuar.
+Repite el recorrido hasta completar las etapas del plan. El registro conserva los prompts ya ejecutados y sus resultados como historial, nunca como órdenes para volver a ejecutarlos. Los prompts de etapas futuras siguen sin generarse. Si cambias de sesión, conserva la arquitectura y los archivos de trabajo; pide al agente que recupere el estado antes de continuar.
 
-Cuando todas las etapas estén comprobadas, pide las instrucciones de uso del sistema y un primer recorrido con tus fuentes reales disponibles. Tú eliges la oportunidad que desarrollar y revisas el documento madre.
+## 6. Termina la construcción y empieza a usar el sistema
+
+El plan incluye una última etapa de cierre. Su prompt debe comprobar lo construido, conservar el material reutilizable y preparar las instrucciones de uso. Cuando ejecutes ese prompt, el agente hará lo siguiente:
+
+1. Comprobar que las capacidades acordadas están implementadas como skills y herramientas utilizables, y que una sesión nueva puede localizar el sistema y recuperar su estado. Distinguir las pruebas locales de los recorridos comprobados con fuentes reales. Si falta un requisito necesario, indicar qué queda por completar.
+2. Crear `material_reutilizable/` con el tutorial de arranque, las instrucciones de construcción, la arquitectura, el plan y los prompts ejecutados en orden, junto con sus correcciones y comprobaciones. Conservar el texto real de los prompts; no inventar como original uno que se haya perdido.
+3. Actualizar el README de la raíz como guía de uso: qué puedes pedir, ejemplos, fuentes configuradas, dónde están los resultados y cómo retomar un trabajo. El tutorial de construcción queda en `material_reutilizable/README.md`.
+4. Actualizar `AGENTS.md` de la raíz para operar el sistema: objetivo y criterio editorial, skills y ubicaciones reales, herramientas, datos, decisiones humanas y recuperación del estado. Las instrucciones de entrevista y construcción quedan archivadas y no se activan en el uso diario.
+5. Indicar claramente **«La construcción ha terminado. Tu sistema está listo para usar»** solo si se han cumplido los requisitos, y mostrar una primera petición adaptada a lo implementado. No iniciar un ciclo editorial nuevo por el mero hecho de terminar la construcción.
+
+La carpeta quedará organizada así; la cantidad de prompts depende de tu plan:
+
+```text
+material_reutilizable/
+  README.md              Tutorial de arranque y cómo repetir la construcción
+  AGENTS.md              Instrucciones usadas durante la construcción
+  ARQUITECTURA.md         Diseño final y alcance del sistema
+  PLAN.md                Etapas, resultados y dependencias
+  REGISTRO_CONSTRUCCION.md
+  prompts/
+    01-<etapa>.md
+    02-<etapa>.md
+    ...
+```
+
+El material es documentación para reproducir el proceso en otro proyecto: debe usar rutas portables, declarar dependencias y dejar fuera credenciales y datos privados. Los prompts no se ejecutan por leer esa carpeta. Para reutilizarlos, se revisan la arquitectura y los accesos del nuevo caso y se entregan otra vez uno a uno; no se supone que todas las configuraciones serán idénticas.
+
+**El sistema se construye una vez. Después utilizas las skills para repetir el trabajo editorial**, sin volver a la entrevista ni generar prompts de construcción. Tú eliges la oportunidad que desarrollar y revisas el documento madre. Los cambios posteriores del sistema se atienden como mantenimiento cuando los pidas; no añaden nuevas etapas indefinidamente.
 
 ## Las preguntas de la entrevista
 
@@ -143,15 +225,15 @@ Elige la que más trabajo te cuesta y cuenta brevemente cómo la haces hoy:
 
 Esta elección fija la prioridad del diseño; el recorrido mantiene sus cinco etapas. Tú elegirás la oportunidad que se desarrolla y revisarás el documento madre.
 
-### 4. ¿Qué tipo de oportunidad prefieres que te proponga?
+### 4. ¿Qué te gustaría descubrir al revisar tus fuentes?
 
-Elige una prioridad inicial:
+Elige una prioridad inicial; puedes combinarla con otra:
 
-- **Resolver dudas concretas** de tu lector.
-- **Explicar novedades relevantes** y sus consecuencias.
-- **Profundizar en temas ya tratados** con nuevas evidencias o ángulos, si hay histórico disponible.
+- **Novedades y conversaciones recientes:** qué está apareciendo o discutiéndose y qué merece explicar a tu lector.
+- **Ideas y aplicaciones interesantes:** explicaciones, métodos o casos que merece la pena entender y conectar, aunque no sean nuevos.
+- **Preguntas y temas para profundizar:** dudas, contradicciones o aspectos pendientes que las fuentes y, si existe, tu histórico permiten desarrollar.
 
-Da un ejemplo de tema que aceptarías. Puedes añadir un tema que no te interese para concretar el límite. El agente comprobará que las propuestas ayuden al lector definido; la popularidad de un vídeo no bastará.
+No necesitas dar nombres de herramientas ni adivinar temas. Si tienes un ejemplo de contenido que aceptarías o rechazarías, úsalo para afinar el criterio. El ejemplo orienta la selección; no se convierte por sí solo en una oportunidad ni en un tema elegido. El agente resumirá tu preferencia antes de seguir y aplicará la definición de oportunidad de este README.
 
 ### 5. ¿Qué enfoque debe tener el documento madre?
 
@@ -161,7 +243,7 @@ Elige el que mejor sirva a tu trabajo posterior:
 - **Práctico:** desarrolla cómo abordar una tarea, requisitos, pasos, ejemplos y límites.
 - **Comparativo:** desarrolla alternativas, criterios, diferencias y cuándo conviene cada una.
 
-Todos incluyen contenido desarrollado, fuentes, ángulos aprovechables y asuntos pendientes. Una entrega práctica no inventará pruebas ni resultados: distinguirá lo documentado de lo comprobado. Esta elección orienta el material, no crea todavía una newsletter o un post.
+Todos incluyen contenido desarrollado, fuentes, ángulos aprovechables y asuntos pendientes. Una entrega práctica no inventará pruebas ni resultados: distinguirá lo documentado de lo comprobado. Esta elección orienta el desarrollo posterior del tema elegido; no obliga a reducir todas las oportunidades a tareas sencillas o listas de comprobación. No crea todavía una newsletter o un post.
 
 ## Instrucciones de arranque para el agente
 
@@ -169,7 +251,7 @@ Antes de comenzar, lee completo `AGENTS.md` y aplica sus criterios. Si no está 
 
 Usa las preguntas anteriores en orden y espera cada respuesta. Los ejemplos de `material_adicional/` no son respuestas del usuario y no autorizan a saltar la entrevista. Genera la arquitectura solo después de completarla.
 
-Los mensajes de las secciones 4 y 5 son acciones que la persona puede pedir más adelante. Leerlos no autoriza a preparar prompts ni a ejecutar la construcción. Trabaja solo en la fase solicitada.
+Las secciones 4, 5 y 6 describen acciones que la persona puede pedir más adelante. Leerlas no autoriza a preparar prompts, ejecutar la construcción ni cerrar un sistema existente. Trabaja solo en la fase solicitada.
 
 ## Qué incluye este material
 
